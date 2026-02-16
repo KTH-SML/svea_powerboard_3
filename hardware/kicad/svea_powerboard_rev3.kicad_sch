@@ -5,7 +5,7 @@
 	(uuid "3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d")
 	(paper "User" 286 230)
 	(title_block
-		(title "Powerboard3 - Hierarchy")
+		(title "SVEA Powerboard Rev3 - Top Level")
 		(date "2026-02-16")
 	)
 	(lib_symbols)
@@ -25,7 +25,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00096540-34ed-4520-af61-662007bb73a9")
-		(property "Sheetname" "Battery Power"
+		(property "Sheetname" "Battery Power Path"
 			(at 102 66.2884 0)
 			(effects
 				(font
@@ -34,7 +34,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "19_Battery-Power.kicad_sch"
+		(property "Sheetfile" "sheets/battery/19_Battery-Power.kicad_sch"
 			(at 102 85.5846 0)
 			(effects
 				(font
@@ -67,7 +67,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0597c19e-4e57-4183-a7ff-6a300a521a92")
-		(property "Sheetname" "Connectors"
+		(property "Sheetname" "External Connectors"
 			(at 10 4.1284 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1_Connectors.kicad_sch"
+		(property "Sheetfile" "sheets/connectors/1_Connectors.kicad_sch"
 			(at 10 24.7146 0)
 			(effects
 				(font
@@ -109,7 +109,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "06ac7e5b-9595-4039-b7d2-a6616ff238ca")
-		(property "Sheetname" "Microcontroller Extra"
+		(property "Sheetname" "MCU Auxiliary IO"
 			(at 194 144.2884 0)
 			(effects
 				(font
@@ -118,7 +118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "30_Microcontroller extra.kicad_sch"
+		(property "Sheetfile" "sheets/mcu/30_Microcontroller extra.kicad_sch"
 			(at 194 163.5846 0)
 			(effects
 				(font
@@ -151,7 +151,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "101a2a32-0640-4921-86e1-f7682ef5363c")
-		(property "Sheetname" "Power Servo"
+		(property "Sheetname" "Servo Power Rail"
 			(at 10 144.2884 0)
 			(effects
 				(font
@@ -160,7 +160,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "28_Power-servo.kicad_sch"
+		(property "Sheetfile" "sheets/power/28_Power-servo.kicad_sch"
 			(at 10 163.5846 0)
 			(effects
 				(font
@@ -193,7 +193,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "39df8d8b-188a-4710-8bf8-f74b7867cecb")
-		(property "Sheetname" "Charging Buck"
+		(property "Sheetname" "Charger Buck Stage"
 			(at 102 14.2884 0)
 			(effects
 				(font
@@ -202,7 +202,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "4_Charging-Buck.kicad_sch"
+		(property "Sheetfile" "sheets/charging/4_Charging-Buck.kicad_sch"
 			(at 102 33.5846 0)
 			(effects
 				(font
@@ -235,7 +235,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3a95cd12-27a2-46ee-b3e2-e564f92f6634")
-		(property "Sheetname" "Microcontroller PIN IC"
+		(property "Sheetname" "MCU GPIO Expander"
 			(at 194 118.2884 0)
 			(effects
 				(font
@@ -244,7 +244,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "27_Microcontroller-PIN-IC.kicad_sch"
+		(property "Sheetfile" "sheets/mcu/27_Microcontroller-PIN-IC.kicad_sch"
 			(at 194 137.5846 0)
 			(effects
 				(font
@@ -277,7 +277,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4f0ba3a6-9cf9-4e49-a372-8ea2b6f16045")
-		(property "Sheetname" "Battery BMS"
+		(property "Sheetname" "Battery BMS Interface"
 			(at 10 66.2884 0)
 			(effects
 				(font
@@ -286,7 +286,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "18_Battery-BMS.kicad_sch"
+		(property "Sheetfile" "sheets/battery/18_Battery-BMS.kicad_sch"
 			(at 10 85.5846 0)
 			(effects
 				(font
@@ -319,7 +319,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5add06ca-2770-4a95-9e74-b8d48f7d7ddf")
-		(property "Sheetname" "Microcontroller IMU"
+		(property "Sheetname" "IMU Interface"
 			(at 10 170.2884 0)
 			(effects
 				(font
@@ -328,7 +328,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "31_Microcontroller-imu.kicad_sch"
+		(property "Sheetfile" "sheets/mcu/31_Microcontroller-imu.kicad_sch"
 			(at 10 189.5846 0)
 			(effects
 				(font
@@ -361,7 +361,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5e20cfea-677f-4c30-8450-2ac30f81a999")
-		(property "Sheetname" "Charging Power Distribution"
+		(property "Sheetname" "Charging Power Path"
 			(at 102 92.2884 0)
 			(effects
 				(font
@@ -370,7 +370,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "22_Charging-Power-Distribution.kicad_sch"
+		(property "Sheetfile" "sheets/charging/22_Charging-Power-Distribution.kicad_sch"
 			(at 102 111.5846 0)
 			(effects
 				(font
@@ -403,7 +403,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a63d49d7-73aa-46b6-9d83-a3851eb83f7e")
-		(property "Sheetname" "Microcontroller Leds"
+		(property "Sheetname" "Status LEDs"
 			(at 194 170.2884 0)
 			(effects
 				(font
@@ -412,7 +412,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "33_Microcontroller-leds.kicad_sch"
+		(property "Sheetfile" "sheets/mcu/33_Microcontroller-leds.kicad_sch"
 			(at 194 189.5846 0)
 			(effects
 				(font
@@ -445,7 +445,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a8c61316-8492-4205-9403-c34c6f5daefc")
-		(property "Sheetname" "Microcontroller Current Sensor"
+		(property "Sheetname" "Current Sensing"
 			(at 10 40.2884 0)
 			(effects
 				(font
@@ -454,7 +454,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "9_Microcontroller-Current-Sensor.kicad_sch"
+		(property "Sheetfile" "sheets/mcu/9_Microcontroller-Current-Sensor.kicad_sch"
 			(at 10 59.5846 0)
 			(effects
 				(font
@@ -487,7 +487,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "aa2eac2c-a891-4562-802b-45dd059c63bf")
-		(property "Sheetname" "Microcontroller PWM IC"
+		(property "Sheetname" "PWM Driver"
 			(at 10 118.2884 0)
 			(effects
 				(font
@@ -496,7 +496,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "25_Microcontroller-PWM-IC.kicad_sch"
+		(property "Sheetfile" "sheets/mcu/25_Microcontroller-PWM-IC.kicad_sch"
 			(at 10 137.5846 0)
 			(effects
 				(font
@@ -529,7 +529,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ad231d28-45f2-4ff7-8635-edf665f3eaa6")
-		(property "Sheetname" "Power 3V3"
+		(property "Sheetname" "3V3 Rail"
 			(at 102 118.2884 0)
 			(effects
 				(font
@@ -538,7 +538,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "26_Power-3v3.kicad_sch"
+		(property "Sheetfile" "sheets/power/26_Power-3v3.kicad_sch"
 			(at 102 137.5846 0)
 			(effects
 				(font
@@ -571,7 +571,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b2c3677f-dafd-465b-bbe6-d44485055f5f")
-		(property "Sheetname" "Power 5V"
+		(property "Sheetname" "5V Rail"
 			(at 194 14.2884 0)
 			(effects
 				(font
@@ -580,7 +580,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "5_Power-5v.kicad_sch"
+		(property "Sheetfile" "sheets/power/5_Power-5v.kicad_sch"
 			(at 194 33.5846 0)
 			(effects
 				(font
@@ -613,7 +613,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b835ba0d-5bca-4645-904b-609f43a8d094")
-		(property "Sheetname" "Frontend"
+		(property "Sheetname" "Analog Front-End"
 			(at 102 40.2884 0)
 			(effects
 				(font
@@ -622,7 +622,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "11_Frontend.kicad_sch"
+		(property "Sheetfile" "sheets/analog/11_Frontend.kicad_sch"
 			(at 102 59.5846 0)
 			(effects
 				(font
@@ -655,7 +655,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d945a9fc-6756-4cf5-829e-499ae70b69ec")
-		(property "Sheetname" "Microcontroller Interface"
+		(property "Sheetname" "MCU Core Interface"
 			(at 10 92.2884 0)
 			(effects
 				(font
@@ -664,7 +664,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "21_Microcontroller-Interface.kicad_sch"
+		(property "Sheetfile" "sheets/mcu/21_Microcontroller-Interface.kicad_sch"
 			(at 10 111.5846 0)
 			(effects
 				(font
@@ -697,7 +697,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d9e8c850-883e-4e80-bebb-f28ba926ed27")
-		(property "Sheetname" "Power 12V"
+		(property "Sheetname" "12V Rail"
 			(at 194 40.2884 0)
 			(effects
 				(font
@@ -706,7 +706,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "16_Power-12v.kicad_sch"
+		(property "Sheetfile" "sheets/power/16_Power-12v.kicad_sch"
 			(at 194 59.5846 0)
 			(effects
 				(font
@@ -739,7 +739,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "eb899659-229c-4fd2-8010-d7db823cc4c1")
-		(property "Sheetname" "Charging USB C Port"
+		(property "Sheetname" "USB-C Input"
 			(at 194 92.2884 0)
 			(effects
 				(font
@@ -748,7 +748,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "23_Charging-USB-C-Port.kicad_sch"
+		(property "Sheetfile" "sheets/charging/23_Charging-USB-C-Port.kicad_sch"
 			(at 194 111.5846 0)
 			(effects
 				(font
