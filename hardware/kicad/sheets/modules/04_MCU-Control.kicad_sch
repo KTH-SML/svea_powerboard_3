@@ -1,0 +1,348 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be04")
+	(paper "User" 286 230)
+	(title_block
+		(title "MCU Control")
+		(date "2026-02-16")
+	)
+	(lib_symbols)
+	(sheet
+		(at 10 15)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be41")
+		(property "Sheetname" "MCU Core Interface"
+			(at 10 14.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../mcu/21_Microcontroller-Interface.kicad_sch"
+			(at 10 33.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be04"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 15)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be42")
+		(property "Sheetname" "MCU GPIO Expander"
+			(at 102 14.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../mcu/27_Microcontroller-PIN-IC.kicad_sch"
+			(at 102 33.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be04"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 15)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be43")
+		(property "Sheetname" "PWM Driver"
+			(at 194 14.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../mcu/25_Microcontroller-PWM-IC.kicad_sch"
+			(at 194 33.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be04"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 67)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be44")
+		(property "Sheetname" "Current Sensing"
+			(at 10 66.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../mcu/9_Microcontroller-Current-Sensor.kicad_sch"
+			(at 10 85.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be04"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 67)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be45")
+		(property "Sheetname" "IMU Interface"
+			(at 102 66.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../mcu/31_Microcontroller-imu.kicad_sch"
+			(at 102 85.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be04"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 67)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be46")
+		(property "Sheetname" "Status LEDs"
+			(at 194 66.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../mcu/33_Microcontroller-leds.kicad_sch"
+			(at 194 85.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be04"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 119)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be47")
+		(property "Sheetname" "MCU Auxiliary IO"
+			(at 10 118.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../mcu/30_Microcontroller extra.kicad_sch"
+			(at 10 137.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be04"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 119)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be48")
+		(property "Sheetname" "Analog Front-End"
+			(at 102 118.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../analog/11_Frontend.kicad_sch"
+			(at 102 137.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be04"
+					(page "8")
+				)
+			)
+		)
+	)
+)

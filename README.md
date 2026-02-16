@@ -5,6 +5,7 @@ Repository structure:
 - `firmware/` — Zephyr firmware workspace (intended root for app/boards/modules as this grows).
 - `hardware/kicad/` — KiCad project root, symbols, footprints, models, datasheets, and manufacturing assets.
 	- `hardware/kicad/sheets/` — hierarchical schematic sheets grouped by subsystem (`battery`, `charging`, `connectors`, `mcu`, `power`, `analog`).
+	- `hardware/kicad/sheets/modules/` — module-level aggregation sheets used by the top schematic (`Battery`, `Power`, `Charging`, `MCU`, `External IO`).
 - `scripts/` — migration/cleanup/utility scripts and helper tooling.
 
 ## Working folders

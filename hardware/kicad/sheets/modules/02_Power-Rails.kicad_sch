@@ -2,10 +2,10 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d")
-	(paper "User" 286 230)
+	(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be02")
+	(paper "User" 286 180)
 	(title_block
-		(title "SVEA Powerboard Rev3 - Top Level")
+		(title "Power Rails")
 		(date "2026-02-16")
 	)
 	(lib_symbols)
@@ -24,8 +24,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5c2e021f-c2d4-49e2-8c36-9a64f1f12001")
-		(property "Sheetname" "Battery System"
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be21")
+		(property "Sheetname" "5V Rail"
 			(at 10 14.2884 0)
 			(effects
 				(font
@@ -34,7 +34,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sheets/modules/01_Battery-System.kicad_sch"
+		(property "Sheetfile" "../power/5_Power-5v.kicad_sch"
 			(at 10 33.5846 0)
 			(effects
 				(font
@@ -45,7 +45,7 @@
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be02"
 					(page "1")
 				)
 			)
@@ -66,8 +66,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5c2e021f-c2d4-49e2-8c36-9a64f1f12002")
-		(property "Sheetname" "Power Rails"
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22")
+		(property "Sheetname" "12V Rail"
 			(at 102 14.2884 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sheets/modules/02_Power-Rails.kicad_sch"
+		(property "Sheetfile" "../power/16_Power-12v.kicad_sch"
 			(at 102 33.5846 0)
 			(effects
 				(font
@@ -87,7 +87,7 @@
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be02"
 					(page "2")
 				)
 			)
@@ -108,8 +108,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5c2e021f-c2d4-49e2-8c36-9a64f1f12003")
-		(property "Sheetname" "Charging Input"
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be23")
+		(property "Sheetname" "3V3 Rail"
 			(at 194 14.2884 0)
 			(effects
 				(font
@@ -118,7 +118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sheets/modules/03_Charging-Input.kicad_sch"
+		(property "Sheetfile" "../power/26_Power-3v3.kicad_sch"
 			(at 194 33.5846 0)
 			(effects
 				(font
@@ -129,7 +129,7 @@
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be02"
 					(page "3")
 				)
 			)
@@ -150,8 +150,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5c2e021f-c2d4-49e2-8c36-9a64f1f12004")
-		(property "Sheetname" "MCU Control"
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be24")
+		(property "Sheetname" "Servo Power Rail"
 			(at 10 66.2884 0)
 			(effects
 				(font
@@ -160,7 +160,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sheets/modules/04_MCU-Control.kicad_sch"
+		(property "Sheetfile" "../power/28_Power-servo.kicad_sch"
 			(at 10 85.5846 0)
 			(effects
 				(font
@@ -171,50 +171,8 @@
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be02"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 102 67)
-		(size 82 18)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5c2e021f-c2d4-49e2-8c36-9a64f1f12005")
-		(property "Sheetname" "External IO"
-			(at 102 66.2884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sheets/modules/05_External-IO.kicad_sch"
-			(at 102 85.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
-					(page "5")
 				)
 			)
 		)

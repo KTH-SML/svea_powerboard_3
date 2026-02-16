@@ -1,0 +1,138 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be03")
+	(paper "User" 286 148)
+	(title_block
+		(title "Charging Input")
+		(date "2026-02-16")
+	)
+	(lib_symbols)
+	(sheet
+		(at 10 15)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be31")
+		(property "Sheetname" "USB-C Input"
+			(at 10 14.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/23_Charging-USB-C-Port.kicad_sch"
+			(at 10 33.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be03"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 15)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be32")
+		(property "Sheetname" "Charger Buck Stage"
+			(at 102 14.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/4_Charging-Buck.kicad_sch"
+			(at 102 33.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be03"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 15)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be33")
+		(property "Sheetname" "Charging Power Path"
+			(at 194 14.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/22_Charging-Power-Distribution.kicad_sch"
+			(at 194 33.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be03"
+					(page "3")
+				)
+			)
+		)
+	)
+)
