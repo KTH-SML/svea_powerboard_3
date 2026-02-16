@@ -1,0 +1,110 @@
+(footprint "SOD-123F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.51 0)
+		(layer "F.SilkS")
+		(uuid "a418bb4e-c238-4d10-9d02-105ca7e6e5c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "${VALUE}"
+		(at 0 3.71 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e83a717-bc97-4d9f-947e-21d0e45c50f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f42f19d2-3018-463e-ac6c-424463da92ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65210844-097a-4553-a930-422575f352f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 2.3115 -1.0285)
+		(end -2.0065 -1.0285)
+		(stroke
+			(width 0.178)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5bad1f92-7c1b-417f-aa81-a3de1d90e9b3")
+	)
+	(fp_line
+		(start 2.3115 1.0285)
+		(end -2.0065 1.0285)
+		(stroke
+			(width 0.178)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c84bf98c-d149-4d84-b015-e8f21c2bedbd")
+	)
+	(fp_poly
+		(pts
+			(xy -2.6415 -1.1175) (xy -2.1335 -1.1175) (xy -2.1335 1.1175) (xy -2.6415 1.1175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "46594b5d-c596-41e1-a7cd-e1ee5e6ea08c")
+	)
+	(fp_rect
+		(start -2.25 -0.85)
+		(end 2.25 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a2dcd0d2-7f03-4914-a9fd-8957d305fc19")
+	)
+	
+	(pad "1" smd rect
+		(at 1.4 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d27d391-26b9-4270-91c9-fbb6c6c8a89f")
+	)
+	(pad "2" smd rect
+		(at -1.4 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "89e6a3e2-6983-4a95-9f4e-ecbfc535bcab")
+	)
+	(embedded_fonts no)
+)

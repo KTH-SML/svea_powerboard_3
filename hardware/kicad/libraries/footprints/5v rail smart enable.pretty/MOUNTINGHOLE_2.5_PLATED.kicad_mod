@@ -1,0 +1,130 @@
+(footprint "MOUNTINGHOLE_2.5_PLATED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.23 0)
+		(layer "F.SilkS")
+		(uuid "d6291204-4a5c-41a1-9526-d00fbb772588")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "${VALUE}"
+		(at 0 4.43 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5387941e-6a18-468f-8091-329f491bce32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32f1fa24-f521-4ac8-9701-3157a76feccb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "470297b4-e3dd-4ecd-bfb4-14e2f06f8001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.203)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a61793f9-06ac-44ab-b9c1-e7f7656986b0")
+	)
+	(fp_rect
+		(start -1.85 -1.85)
+		(end 1.85 1.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "67e7e00e-b003-4462-b462-686d7ed193d3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 2.032)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "7fa0c164-04e7-46cc-a8a2-3796f35de5a6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 2.032)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "929528c9-4de7-4029-97d5-64fdf6cbf4f6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 2.032)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "cd933861-7e4a-4b27-93d8-eb07ce304db0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 2.032)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "fa2895e3-2070-46d8-90b6-8c5cccf95b80")
+	)
+	
+	(pad "P$1" thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "389f08db-5aa2-4804-8ce3-9f7ff1772b3d")
+	)
+	(embedded_fonts no)
+)

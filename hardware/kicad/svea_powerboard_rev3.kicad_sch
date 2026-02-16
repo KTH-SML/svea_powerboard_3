@@ -1,0 +1,936 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d")
+	(paper "User" 286 230)
+	(title_block
+		(title "Powerboard3 - Hierarchy")
+		(date "2026-02-16")
+	)
+	(lib_symbols)
+	(sheet
+		(at 102 67)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00096540-34ed-4520-af61-662007bb73a9")
+		(property "Sheetname" "Battery Power"
+			(at 102 66.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "19_Battery-Power.kicad_sch"
+			(at 102 85.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 15)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0597c19e-4e57-4183-a7ff-6a300a521a92")
+		(property "Sheetname" "Connectors"
+			(at 10 14.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1_Connectors.kicad_sch"
+			(at 10 33.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 145)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06ac7e5b-9595-4039-b7d2-a6616ff238ca")
+		(property "Sheetname" "Microcontroller Extra"
+			(at 194 144.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "30_Microcontroller extra.kicad_sch"
+			(at 194 163.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 145)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "101a2a32-0640-4921-86e1-f7682ef5363c")
+		(property "Sheetname" "Power Servo"
+			(at 10 144.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "28_Power-servo.kicad_sch"
+			(at 10 163.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 15)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39df8d8b-188a-4710-8bf8-f74b7867cecb")
+		(property "Sheetname" "Charging Buck"
+			(at 102 14.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4_Charging-Buck.kicad_sch"
+			(at 102 33.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 119)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a95cd12-27a2-46ee-b3e2-e564f92f6634")
+		(property "Sheetname" "Microcontroller PIN IC"
+			(at 194 118.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "27_Microcontroller-PIN-IC.kicad_sch"
+			(at 194 137.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 67)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "439a834f-e341-4c3e-9120-5fd56f50653f")
+		(property "Sheetname" "Connectors ESC"
+			(at 194 66.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "20_Connectors-ESC.kicad_sch"
+			(at 194 85.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 67)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f0ba3a6-9cf9-4e49-a372-8ea2b6f16045")
+		(property "Sheetname" "Battery BMS"
+			(at 10 66.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "18_Battery-BMS.kicad_sch"
+			(at 10 85.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 145)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a659269-139c-4638-b02b-916c845ae6f6")
+		(property "Sheetname" "Connectors 12V JST"
+			(at 102 144.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "29_Connectors-12V-JST.kicad_sch"
+			(at 102 163.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 171)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5add06ca-2770-4a95-9e74-b8d48f7d7ddf")
+		(property "Sheetname" "Microcontroller IMU"
+			(at 10 170.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "31_Microcontroller-imu.kicad_sch"
+			(at 10 189.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 93)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e20cfea-677f-4c30-8450-2ac30f81a999")
+		(property "Sheetname" "Charging Power Distribution"
+			(at 102 92.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "22_Charging-Power-Distribution.kicad_sch"
+			(at 102 111.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 171)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a63d49d7-73aa-46b6-9d83-a3851eb83f7e")
+		(property "Sheetname" "Microcontroller Leds"
+			(at 194 170.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "33_Microcontroller-leds.kicad_sch"
+			(at 194 189.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 41)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8c61316-8492-4205-9403-c34c6f5daefc")
+		(property "Sheetname" "Microcontroller Current Sensor"
+			(at 10 40.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "9_Microcontroller-Current-Sensor.kicad_sch"
+			(at 10 59.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 119)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa2eac2c-a891-4562-802b-45dd059c63bf")
+		(property "Sheetname" "Microcontroller PWM IC"
+			(at 10 118.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "25_Microcontroller-PWM-IC.kicad_sch"
+			(at 10 137.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 119)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad231d28-45f2-4ff7-8635-edf665f3eaa6")
+		(property "Sheetname" "Power 3V3"
+			(at 102 118.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "26_Power-3v3.kicad_sch"
+			(at 102 137.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 15)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2c3677f-dafd-465b-bbe6-d44485055f5f")
+		(property "Sheetname" "Power 5V"
+			(at 194 14.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5_Power-5v.kicad_sch"
+			(at 194 33.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 41)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b835ba0d-5bca-4645-904b-609f43a8d094")
+		(property "Sheetname" "Frontend"
+			(at 102 40.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "11_Frontend.kicad_sch"
+			(at 102 59.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 197)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf2b61e8-c06a-49ac-8f8b-3b6e5379bbb4")
+		(property "Sheetname" "Connectors 5V JST"
+			(at 10 196.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "34_Connectors-5v-JST.kicad_sch"
+			(at 10 215.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10 93)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d945a9fc-6756-4cf5-829e-499ae70b69ec")
+		(property "Sheetname" "Microcontroller Interface"
+			(at 10 92.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "21_Microcontroller-Interface.kicad_sch"
+			(at 10 111.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 41)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9e8c850-883e-4e80-bebb-f28ba926ed27")
+		(property "Sheetname" "Power 12V"
+			(at 194 40.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "16_Power-12v.kicad_sch"
+			(at 194 59.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102 171)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb0deb0b-af5c-47c1-8c4f-b7507e986f2d")
+		(property "Sheetname" "Connectors Wire To Board"
+			(at 102 170.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "32_Connectors-wire-to-board.kicad_sch"
+			(at 102 189.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194 93)
+		(size 82 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb899659-229c-4fd2-8010-d7db823cc4c1")
+		(property "Sheetname" "Charging USB C Port"
+			(at 194 92.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "23_Charging-USB-C-Port.kicad_sch"
+			(at 194 111.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
+					(page "23")
+				)
+			)
+		)
+	)
+)

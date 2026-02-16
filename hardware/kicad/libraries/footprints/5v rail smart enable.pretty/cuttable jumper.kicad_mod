@@ -1,0 +1,85 @@
+(footprint "cuttable jumper"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.12 0)
+		(layer "F.SilkS")
+		(uuid "df0ee87f-a69a-4c26-b288-bff02c940333")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "${VALUE}"
+		(at 0 3.32 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cad83f43-8244-4531-bc20-332f66168993")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3423446-871b-4438-a946-d56cb89618a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bd53737-fc16-408f-9052-ba4f339a09d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -1.012 -1.012)
+		(end 1.012 1.012)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dd277ad4-29c8-4447-be4a-6c018976fa99")
+	)
+	
+	(pad "1" smd rect
+		(at 0 -0.375)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1a25d4d1-484c-444c-a945-617d56c4b40a")
+	)
+	(pad "2" smd circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "fd8921e1-c886-4ba8-bdf3-c253cc1bed06")
+	)
+	(pad "2" smd rect
+		(at 0 0.375)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1a6a5fe0-8e82-4b5e-bb92-51dbc2a69d9b")
+	)
+	(embedded_fonts no)
+)

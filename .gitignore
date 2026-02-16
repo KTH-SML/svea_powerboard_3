@@ -1,0 +1,85 @@
+# =========================
+# KiCad project ignores
+# =========================
+
+# KiCad lock / autosave / backup files
+*.kicad_sch.lck
+*.kicad_pcb.lck
+*.lck
+*.kicad_prl-bak
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+*.bak
+*.bck
+*.tmp
+*~
+
+# Legacy KiCad temp artifacts
+*.000
+
+# Generated netlists / router session files
+*.net
+*.dsn
+*.ses
+
+# User-local project settings (machine/user specific)
+*.kicad_prl
+
+# Symbol/footprint caches that can be regenerated
+*-cache.lib
+*-rescue.lib
+fp-info-cache
+
+# Common backup folders created during board/schematic cleanup
+*-backups/
+
+# KiCad generated reports/exports (uncomment if you don't want these tracked)
+#*.rpt
+#*.pos
+#*.gbr
+#*.drl
+#*.map
+#*.step
+#*.stp
+
+# =========================
+# Python helper script ignores
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# OS / editor noise
+# =========================
+
+.DS_Store
+.directory
+Thumbs.db
+Desktop.ini
+.fuse_hidden*
+.nfs*
+.Trash-*
+
+# VS Code
+.vscode/
+
+# =========================
+# Optional generated outputs
+# Uncomment if you generate these in-repo and don't want to track them.
+# =========================
+#gerbers/
+#fabrication/
+#plot/
+#exports/
+#bom/
