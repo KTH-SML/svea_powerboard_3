@@ -84,7 +84,9 @@ def avg_grid_error(values: list[float], delta: float, step: float) -> float:
     return sum(dist_to_grid(value + delta, step) for value in values) / len(values)
 
 
-def best_delta(values: list[float], step: float, candidate_step: float) -> tuple[float, float, float]:
+def best_delta(
+    values: list[float], step: float, candidate_step: float
+) -> tuple[float, float, float]:
     lower = -step / 2
     upper = step / 2
     count = int((upper - lower) / candidate_step) + 1
@@ -108,7 +110,9 @@ def shift_text(text: str, dx: float, dy: float) -> str:
     return shifted
 
 
-def process_file(path: Path, threshold: float, min_improvement: float, apply: bool) -> tuple[bool, str]:
+def process_file(
+    path: Path, threshold: float, min_improvement: float, apply: bool
+) -> tuple[bool, str]:
     original = path.read_text(encoding="utf-8")
     lines = original.splitlines()
 
@@ -129,7 +133,9 @@ def process_file(path: Path, threshold: float, min_improvement: float, apply: bo
 
     improvement_x = bx - ax
     improvement_y = by - ay
-    significant = (ax <= threshold and ay <= threshold) and (improvement_x >= min_improvement or improvement_y >= min_improvement)
+    significant = (ax <= threshold and ay <= threshold) and (
+        improvement_x >= min_improvement or improvement_y >= min_improvement
+    )
 
     if not significant:
         return False, (
@@ -158,10 +164,26 @@ def process_file(path: Path, threshold: float, min_improvement: float, apply: bo
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Safely align KiCad schematics to 50-mil grid via whole-sheet translation.")
-    parser.add_argument("--kicad-dir", type=Path, default=Path(__file__).resolve().parent.parent / "hardware" / "kicad")
-    parser.add_argument("--threshold", type=float, default=0.08, help="Max average off-grid error after shift (mm)")
-    parser.add_argument("--min-improvement", type=float, default=0.02, help="Minimum required improvement in avg error (mm)")
+    parser = argparse.ArgumentParser(
+        description="Safely align KiCad schematics to 50-mil grid via whole-sheet translation."
+    )
+    parser.add_argument(
+        "--kicad-dir",
+        type=Path,
+        default=Path(__file__).resolve().parent.parent / "hardware" / "kicad",
+    )
+    parser.add_argument(
+        "--threshold",
+        type=float,
+        default=0.08,
+        help="Max average off-grid error after shift (mm)",
+    )
+    parser.add_argument(
+        "--min-improvement",
+        type=float,
+        default=0.02,
+        help="Minimum required improvement in avg error (mm)",
+    )
     parser.add_argument("--apply", action="store_true", help="Write changes")
     args = parser.parse_args()
 
