@@ -163,18 +163,6 @@
 		(layer "F.SilkS")
 		(uuid "d95025b8-b64b-405d-ba0d-e8dc41307872")
 	)
-	(fp_poly
-		(pts
-			(xy -10.6 -6.7) (xy -7.2 -6.7) (xy -7.2 2.1) (xy -10.6 2.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "Dwgs.User")
-		(uuid "617f1375-7028-4024-af61-50c76ab2f40a")
-	)
 	(fp_rect
 		(start -10.9255 -7.155433)
 		(end 4.35 3.6)
@@ -287,7 +275,6 @@
 		(layer "User.1")
 		(uuid "647507ed-9e1a-47c2-bb66-dc9ed357e4bb")
 	)
-	
 	(pad "1" thru_hole oval
 		(at 3.1 -2.35)
 		(size 2 4.6)
@@ -315,13 +302,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libraries/models/EASYEDA_MODELS/DC-IN-TH_DC005.step"
 		(offset
-			(xyz -3.6 2.25 -3.8)
+			(xyz -3.1 2.25 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -270)
+			(xyz -0 -0 90)
 		)
 	)
 )

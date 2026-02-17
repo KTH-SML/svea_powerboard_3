@@ -6,6 +6,9 @@
 *.kicad_sch.lck
 *.kicad_pcb.lck
 *.lck
+# KiCad temporary autosave index/file marker
+\#auto_saved_files#
+**/#auto_saved_files#
 *.kicad_prl-bak
 *.kicad_pro-bak
 *.kicad_sch-bak
@@ -34,6 +37,7 @@ fp-info-cache
 
 # Common backup folders created during board/schematic cleanup
 *-backups/
+*.zip
 
 # KiCad generated reports/exports (uncomment if you don't want these tracked)
 #*.rpt
