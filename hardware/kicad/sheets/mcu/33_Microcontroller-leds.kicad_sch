@@ -1230,36 +1230,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:ZX-VH3.96-4PWZ"
+		(symbol "JLCImport:VH3_96-4P_ZZ"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 0 9.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "VH3_96-4P_ZZ"
+				(at 0 -7.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_VH_B4P-VH_1x04_P3.96mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/ZX-VH3.96-4PWZ/8427586.html"
+			(property "Footprint" "JLCImport:VH3_96-4P_ZZ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1268,7 +1262,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pins Structure:1x4P Pitch:3.96mm Mounting Type:Right Angle Reference Series:VH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230630/DF786FC43E612B301379FAB1A9219773.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1277,7 +1271,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "ZX-VH3.96-4PWZ"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1286,7 +1280,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Megastar(兆星)"
+			(property "LCSC" "C5379870"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1295,7 +1289,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C7429669"
+			(property "Manufacturer" "SHOU HAN(首韩)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1304,7 +1298,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier" "LCSC"
+			(property "Manufacturer Part" "VH3.96-4P ZZ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1313,40 +1307,38 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part Name" "1x4P 间距:3.96mm 弯插 系列:VH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ZX-VH3.96-4PWZ_1_0"
-				(rectangle
-					(start -2.54 -6.35)
-					(end 2.54 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "VH3_96-4P_ZZ_0_1"
 				(circle
-					(center -1.27 5.08)
+					(center 1.27 6.35)
 					(radius 0.381)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -5.08) (xy 4.6711 -5.0702) (xy 4.7664 -5.0413) (xy 4.8542 -4.9944) (xy 4.9312 -4.9312)
+						(xy 4.9944 -4.8542) (xy 5.0413 -4.7664) (xy 5.0702 -4.6711) (xy 5.08 -4.572) (xy 5.0702 7.2111)
+						(xy 5.0413 7.3064) (xy 4.9944 7.3942) (xy 4.9312 7.4712) (xy 4.8542 7.5344) (xy 4.7664 7.5813)
+						(xy 4.6711 7.6103) (xy 4.572 7.62) (xy 0.4089 7.6103) (xy 0.3136 7.5813) (xy 0.2258 7.5344) (xy 0.1488 7.4712)
+						(xy 0.0856 7.3942) (xy 0.0387 7.3064) (xy 0.0098 7.2111) (xy 0 7.112) (xy 0.0098 -4.6711) (xy 0.0387 -4.7664)
+						(xy 0.0856 -4.8542) (xy 0.1488 -4.9312) (xy 0.2258 -4.9944) (xy 0.3136 -5.0413) (xy 0.4089 -5.0702)
+						(xy 0.508 -5.08) (xy 4.572 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin unspecified line
-					(at -5.08 3.81 0)
+					(at -2.54 5.08 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1364,7 +1356,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 1.27 0)
+					(at -2.54 2.54 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -1382,7 +1374,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 -1.27 0)
+					(at -2.54 0 0)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -1400,7 +1392,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 -3.81 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -3031,126 +3023,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:ZX-VH3.96-4PWZ")
-		(at 196.85 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b69a80a-3285-4d2f-9a99-8fbd3897ed34")
-		(property "Reference" "U32"
-			(at 194.31 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "ZX-VH3.96-4PWZ"
-			(at 194.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_VH_B4P-VH_1x04_P3.96mm_Vertical"
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/ZX-VH3.96-4PWZ/8427586.html"
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pins Structure:1x4P Pitch:3.96mm Mounting Type:Right Angle Reference Series:VH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating"
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "ZX-VH3.96-4PWZ"
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Megastar(兆星)"
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C7429669"
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x4P 间距:3.96mm 弯插 系列:VH"
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "34fcba2e-8460-4e29-8c59-0d6b2c0e29cc")
-		)
-		(pin "1"
-			(uuid "58c75097-8c5f-4e28-83e9-266cf9f5bdb8")
-		)
-		(pin "3"
-			(uuid "4a21aca2-9fec-4836-b7e5-22bd48225ea8")
-		)
-		(pin "4"
-			(uuid "e1a12a7b-a2e8-4324-84ba-d2d20fcefe3c")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12004/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be46"
-					(reference "U32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 109.22 154.94 0)
 		(unit 1)
@@ -4212,6 +4084,109 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12004/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be46"
 					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:VH3_96-4P_ZZ")
+		(at 194.31 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f14b4df-cc8a-4516-8456-235084a93105")
+		(property "Reference" "U69"
+			(at 200.66 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VH3_96-4P_ZZ"
+			(at 200.66 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:VH3_96-4P_ZZ"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230630/DF786FC43E612B301379FAB1A9219773.pdf"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5379870"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "VH3.96-4P ZZ"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d1b688c-5fba-418c-8f09-ee5e2d810717")
+		)
+		(pin "1"
+			(uuid "10a6d026-9554-4300-b7bd-30f72ac3d7bf")
+		)
+		(pin "4"
+			(uuid "b2f0ebeb-aaea-4798-906e-e07a94f75e4c")
+		)
+		(pin "3"
+			(uuid "561680a2-c2d2-4325-bdb0-d7e80e7cd4dc")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12004/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be46"
+					(reference "U69")
 					(unit 1)
 				)
 			)

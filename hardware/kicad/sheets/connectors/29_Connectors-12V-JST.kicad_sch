@@ -2405,36 +2405,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:VH3.96-2P WZ"
+		(symbol "JLCImport:VH3_96-2P_WZ"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 0 5.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "VH3_96-2P_WZ"
+				(at 0 -5.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "JLCImport:VH3_96-2P_WZ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2443,7 +2437,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pins Structure:1x2P Pitch:3.96mm Mounting Type:Bend-in Reference Series:VH Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating:7A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating Tem"
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160806/1470478006708.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2452,7 +2446,16 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "VH3.96-2P WZ"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5379879"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2470,7 +2473,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C5379879"
+			(property "Manufacturer Part" "VH3.96-2P WZ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2479,45 +2482,34 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "1x2P 间距:3.96mm 弯插 系列:VH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VH3.96-2P WZ_1_0"
-				(rectangle
-					(start -2.54 -3.81)
-					(end 2.54 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "VH3_96-2P_WZ_0_1"
 				(circle
 					(center -1.27 2.54)
 					(radius 0.381)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -3.81) (xy 2.1311 -3.8002) (xy 2.2264 -3.7713) (xy 2.3142 -3.7244) (xy 2.3912 -3.6612)
+						(xy 2.4544 -3.5842) (xy 2.5013 -3.4964) (xy 2.5302 -3.4011) (xy 2.54 -3.302) (xy 2.5302 3.4011)
+						(xy 2.5013 3.4964) (xy 2.4544 3.5842) (xy 2.3912 3.6612) (xy 2.3142 3.7244) (xy 2.2264 3.7713)
+						(xy 2.1311 3.8002) (xy 2.032 3.81) (xy -2.1311 3.8002) (xy -2.2264 3.7713) (xy -2.3142 3.7244)
+						(xy -2.3912 3.6612) (xy -2.4544 3.5842) (xy -2.5013 3.4964) (xy -2.5302 3.4011) (xy -2.54 3.302)
+						(xy -2.5302 -3.4011) (xy -2.5013 -3.4964) (xy -2.4544 -3.5842) (xy -2.3912 -3.6612) (xy -2.3142 -3.7244)
+						(xy -2.2264 -3.7713) (xy -2.1311 -3.8002) (xy -2.032 -3.81) (xy 2.032 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin unspecified line
@@ -5604,6 +5596,101 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:VH3_96-2P_WZ")
+		(at 363.22 130.81 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50b2c272-19fc-4c46-8ddc-c320b1bb7391")
+		(property "Reference" "U71"
+			(at 363.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VH3_96-2P_WZ"
+			(at 363.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:VH3_96-2P_WZ"
+			(at 363.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160806/1470478006708.pdf"
+			(at 363.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5379879"
+			(at 363.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 363.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "VH3.96-2P WZ"
+			(at 363.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c1e8a15-6276-4fcc-b673-aea5fd906754")
+		)
+		(pin "2"
+			(uuid "c0ab6cc0-f821-4df5-8290-f6402fe22efe")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
+					(reference "U71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 255.27 46.99 0)
 		(unit 1)
@@ -5910,6 +5997,100 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:VH3_96-2P_WZ")
+		(at 22.86 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57e5d75f-058f-473a-9263-2ba239b90e24")
+		(property "Reference" "U32"
+			(at 22.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VH3_96-2P_WZ"
+			(at 22.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:VH3_96-2P_WZ"
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160806/1470478006708.pdf"
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5379879"
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "VH3.96-2P WZ"
+			(at 22.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50723e54-3b5a-4d14-8e55-a27aa6673a1b")
+		)
+		(pin "2"
+			(uuid "a3696711-cb17-4d11-a263-334f4b361fa4")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
+					(reference "U32")
 					(unit 1)
 				)
 			)
@@ -7138,6 +7319,101 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:VH3_96-2P_WZ")
+		(at 284.48 36.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b7cbad1-0b55-4e7d-be9f-15325cbd175c")
+		(property "Reference" "U70"
+			(at 284.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VH3_96-2P_WZ"
+			(at 284.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:VH3_96-2P_WZ"
+			(at 284.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160806/1470478006708.pdf"
+			(at 284.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5379879"
+			(at 284.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 284.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "VH3.96-2P WZ"
+			(at 284.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64e60753-876b-4c05-a048-1d91fb1783e6")
+		)
+		(pin "2"
+			(uuid "ce930cfa-2dc4-48d4-b4a6-187485c6d7be")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
+					(reference "U70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 293.37 116.84 0)
 		(mirror y)
@@ -7687,127 +7963,6 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
 					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:VH3.96-2P WZ")
-		(at 284.48 36.83 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d420aba-31f1-473d-934d-e37b1d774b86")
-		(property "Reference" "-12V+_2"
-			(at 281.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "VH3.96-2P WZ"
-			(at 281.94 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 284.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pins Structure:1x2P Pitch:3.96mm Mounting Type:Bend-in Reference Series:VH Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating:7A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating Tem"
-			(at 284.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "VH3.96-2P WZ"
-			(at 284.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 284.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C5379879"
-			(at 284.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 284.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x2P 间距:3.96mm 弯插 系列:VH"
-			(at 284.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3887a996-57fd-4725-8045-d5cb145e0beb")
-		)
-		(pin "2"
-			(uuid "3fc5faf2-4c1d-4eaa-8dbd-a5ce5a1540d9")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "-12V+_2")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "-12V+_?")
 					(unit 1)
 				)
 			)
@@ -8456,127 +8611,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:VH3.96-2P WZ")
-		(at 363.22 130.81 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d95615d9-7975-4535-a539-c77c16c74972")
-		(property "Reference" "-12V+_3"
-			(at 360.68 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "VH3.96-2P WZ"
-			(at 360.68 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 363.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pins Structure:1x2P Pitch:3.96mm Mounting Type:Bend-in Reference Series:VH Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating:7A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating Tem"
-			(at 363.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "VH3.96-2P WZ"
-			(at 363.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 363.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C5379879"
-			(at 363.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 363.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x2P 间距:3.96mm 弯插 系列:VH"
-			(at 363.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2856e135-8f5e-472e-bbad-468054fb301f")
-		)
-		(pin "1"
-			(uuid "2db40f00-e778-42be-a7a5-88fba4137d5e")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "-12V+_3")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "-12V+_?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:SMF13A_C353315")
 		(at 320.04 130.81 90)
 		(mirror x)
@@ -8812,126 +8846,6 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:VH3.96-2P WZ")
-		(at 22.86 146.05 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2019414-aae3-439e-b67c-e8f9beb11873")
-		(property "Reference" "-12V+_1"
-			(at 20.32 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "VH3.96-2P WZ"
-			(at 20.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 22.86 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pins Structure:1x2P Pitch:3.96mm Mounting Type:Bend-in Reference Series:VH Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating:7A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating Tem"
-			(at 22.86 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "VH3.96-2P WZ"
-			(at 22.86 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 22.86 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C5379879"
-			(at 22.86 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 22.86 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x2P 间距:3.96mm 弯插 系列:VH"
-			(at 22.86 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25335460-841c-4608-a8fa-9f55f087add9")
-		)
-		(pin "2"
-			(uuid "303728a8-a666-4995-82cd-d332a5811c0f")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "-12V+_1")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "-12V+_?")
 					(unit 1)
 				)
 			)
