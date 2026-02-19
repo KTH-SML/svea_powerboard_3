@@ -1425,7 +1425,7 @@
 	)
 	(text "30A"
 		(exclude_from_sim no)
-		(at 74.93 13.97 0)
+		(at 73.66 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1549,6 +1549,16 @@
 			(type default)
 		)
 		(uuid "1ec9d563-c017-42a2-b596-ab7ecf91c079")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.04) (xy 101.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c02083-09e4-4929-b826-bd5f652c970f")
 	)
 	(wire
 		(pts
@@ -1812,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 76.2) (xy 185.42 93.98)
+			(xy 185.42 76.2) (xy 185.42 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2022,7 +2032,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 93.98 0)
+		(at 185.42 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2030,7 +2040,7 @@
 		(dnp no)
 		(uuid "0604f58d-1590-4312-9e7d-429d10aa0b4b")
 		(property "Reference" "#PWR02"
-			(at 185.42 93.98 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2049,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 100.33 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -2047,7 +2057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 93.98 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 93.98 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 93.98 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,6 +3401,16 @@
 				(justify right)
 			)
 		)
+		(pin "3v3" output
+			(at 81.28 66.04 0)
+			(uuid "a067ae96-69ae-407e-b8f3-4f1b70f8f8d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
@@ -3616,6 +3636,16 @@
 		(pin "BQ-BAT" input
 			(at 101.6 52.07 180)
 			(uuid "5fc54a96-17b1-4a43-920c-6e78bfbda2a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ALERT_PULLUP" input
+			(at 101.6 66.04 180)
+			(uuid "12f7b25e-d179-4b34-9565-f3675bcc0ef5")
 			(effects
 				(font
 					(size 1.27 1.27)

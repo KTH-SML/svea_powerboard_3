@@ -2153,6 +2153,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 80.01) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215512c4-7c23-40a1-9f07-a39886134da6")
+	)
+	(wire
+		(pts
 			(xy 207.01 80.01) (xy 207.01 93.98)
 		)
 		(stroke
@@ -2230,6 +2240,16 @@
 			(type default)
 		)
 		(uuid "5c439749-2a28-46a9-88bb-60eb0ede8baf")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.74) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee591ce-7c62-4058-9d56-e9ff8bdf4319")
 	)
 	(wire
 		(pts
@@ -2360,16 +2380,6 @@
 			(type default)
 		)
 		(uuid "97766dc7-8507-4f19-af26-259f3f4cea95")
-	)
-	(wire
-		(pts
-			(xy 113.03 80.01) (xy 101.6 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9902d604-e570-44a4-b40c-08c9970da829")
 	)
 	(wire
 		(pts
@@ -2581,16 +2591,6 @@
 		)
 		(uuid "fb9a29ac-5ee1-4798-b3d7-f0f595f5aee7")
 	)
-	(label "PB_3V3"
-		(at 116.84 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68b19c7c-1027-42ac-bc2d-706b0aac789b")
-	)
 	(global_label "MCU-BTN-DIGITAL"
 		(shape input)
 		(at 153.67 95.25 180)
@@ -2665,6 +2665,17 @@
 			(justify right)
 		)
 		(uuid "81eeaf4d-f23f-48f6-837b-c26a14da5a6a")
+	)
+	(hierarchical_label "3v3"
+		(shape output)
+		(at 113.03 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4544e07-2758-48f2-bd02-f3459548398a")
 	)
 	(hierarchical_label "VSS"
 		(shape input)
