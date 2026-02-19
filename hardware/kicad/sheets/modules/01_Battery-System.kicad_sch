@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be01")
-	(paper "User" 210 148)
+	(paper "A2")
 	(title_block
 		(title "Battery System")
 		(date "2026-02-16")
@@ -304,6 +304,613 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "5v rail sm-easyedapro:CC0603KRX7R9BB104"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "CC0603KRX7R9BB104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C14663"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "100nF ±10% 50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC0603KRX7R9BB104_1_0"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "5v rail sm-easyedapro:CL10A226MP8NUNE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22uF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A226MP8NUNE/87471.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitance:22uF Tolerance:±20% Tolerance:±20% Voltage Rating:10V Temperature Coefficient:X5R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "CL10A226MP8NUNE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C86295"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "22uF ±20% 10V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL10A226MP8NUNE_1_0"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "5v rail sm-easyedapro:DC005_C431533"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "5v rail sm-easyedapro:DC-IN-TH_DC005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190925/C431533_4751811035784AC1D38EBC85F7905E99.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Type:DC Power Receptacle Mounting Style:Bend-in Inside Contact Diameter:2mm Outside Contact Diameter:6.3mm Current Rating (Max):500mA Voltage Rating (Max):30V Operating Temperature Range:-25°C~+70°C Operating Temperature Range:-25°C~+70°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "DC005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "SHOU HAN(首韩)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C431533"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "DC电源插座 内径:2mm 外径:6.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DC005_C431533_1_0"
+				(arc
+					(start -7.62 1.524)
+					(mid -8.636 2.54)
+					(end -7.62 3.556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -2.54) (xy -4.064 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.556) (xy -7.62 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy -7.62 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.016)
+					(end -1.524 4.064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.524 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -4.318 0) (xy -4.318 0) (xy -4.318 -2.54) (xy -4.318 -2.54) (xy -4.572 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -7.366 -2.54) (xy -7.366 -2.54) (xy -7.874 -1.524) (xy -7.874 -1.524) (xy -8.382 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -1196,6 +1803,445 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:ERA16V4700M13X25"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ERA16V4700M13X25"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:ERA16V4700M13X25"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20150922/1457707409314.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C49256794"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JIERR(捷而瑞)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "ERA16V4700M13X25"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ERA16V4700M13X25_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy -1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.778) (xy -0.508 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1278 -1.7526)
+					(mid 0.4218 0.0211)
+					(end 1.1506 1.7856)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5VP"
 			(power)
 			(pin_numbers
@@ -1321,6 +2367,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+SERVO_VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+SERVO_VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+SERVO_VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+SERVO_VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+SERVO_VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1422,10 +2593,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Only expect 20V\nmay be excessive but prevents the charger from feeding itself"
+		(exclude_from_sim no)
+		(at 124.206 212.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f563acc-a91c-4f11-bf99-de093a864a37")
 	)
 	(text "30A"
 		(exclude_from_sim no)
-		(at 73.66 16.51 0)
+		(at 81.28 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1434,65 +2741,228 @@
 		)
 		(uuid "72cc119a-cfd5-4ade-971a-4d8d61cb7aa8")
 	)
+	(text "Prevents charger from wasting energy on vcc"
+		(exclude_from_sim no)
+		(at 121.666 230.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5f580fe-e647-4c0f-9bfc-676a35091ba9")
+	)
 	(junction
-		(at 92.71 27.94)
+		(at 444.5 321.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dec621a-0cc2-43ac-9859-c8487596a3aa")
+	)
+	(junction
+		(at 436.88 345.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15dd4763-73f5-436f-99c2-2ef4019c6a51")
+	)
+	(junction
+		(at 100.33 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b4fae72-1b75-4808-91d0-fea9b0dab2d7")
 	)
 	(junction
-		(at 78.74 90.17)
+		(at 339.09 292.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "201193c7-df6c-4463-bd42-55fd899aaf77")
+	)
+	(junction
+		(at 86.36 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ddf0eec-da62-406d-98d0-33c26d616980")
 	)
 	(junction
-		(at 78.74 82.55)
+		(at 35.56 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33f58793-6090-42fa-b988-27336c8cd60d")
+	)
+	(junction
+		(at 86.36 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "380608dd-81d7-48e2-90d7-5be0a17ebaf0")
 	)
 	(junction
-		(at 92.71 90.17)
+		(at 100.33 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f2af072-b760-4fb2-8d48-c10ad3676618")
 	)
 	(junction
-		(at 97.79 17.78)
+		(at 427.99 321.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67eff8de-f728-4649-bf86-53f9ce744e44")
+	)
+	(junction
+		(at 111.76 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b038fb3-804d-4416-ba7d-5451bfa3aa20")
+	)
+	(junction
+		(at 447.04 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dea1b95-0447-4a4e-b570-8b4b52b716ee")
+	)
+	(junction
+		(at 36.83 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "944ff2b7-2ebc-4164-8be8-b8af1decde4b")
+	)
+	(junction
+		(at 105.41 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0c9f161-f0ef-4fce-9c61-47c55d5a57eb")
 	)
 	(junction
-		(at 97.79 52.07)
+		(at 427.99 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2b41ced-4448-4c2f-a0dd-e4d47e0ab46c")
+	)
+	(junction
+		(at 105.41 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3de012b-3e1f-42f4-af4e-7dc3127f371e")
 	)
 	(junction
-		(at 104.14 27.94)
+		(at 208.28 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7012e56-e15a-47b5-821f-53c347e7d306")
+	)
+	(junction
+		(at 167.64 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac6f2a85-9492-4bc1-8f5e-ccc7114663f9")
+	)
+	(junction
+		(at 167.64 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af697c39-8eea-4c11-a27e-7eadf4cf90ef")
+	)
+	(junction
+		(at 111.76 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "badfb748-f47b-43d2-a8c5-0916988bc3eb")
 	)
 	(junction
-		(at 104.14 17.78)
+		(at 111.76 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee866d2f-6aeb-44c9-a983-1906e22c86bd")
 	)
 	(no_connect
-		(at 15.24 16.51)
+		(at 22.86 20.32)
 		(uuid "8981af3c-47f5-4fd5-b8b0-03206282b792")
 	)
 	(no_connect
-		(at 15.24 29.21)
+		(at 22.86 33.02)
 		(uuid "9be656b6-c637-49e2-a221-2f00014f904c")
 	)
 	(wire
 		(pts
-			(xy 72.39 21.59) (xy 24.13 21.59)
+			(xy 152.4 138.43) (xy 167.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02324425-00c3-4eb6-b3e7-f43999776f82")
+	)
+	(wire
+		(pts
+			(xy 93.98 156.21) (xy 111.76 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02356a03-082c-45ac-be41-d991c17202b1")
+	)
+	(wire
+		(pts
+			(xy 406.4 212.09) (xy 408.94 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025df385-27ce-4f75-97c1-c76021f8fea5")
+	)
+	(wire
+		(pts
+			(xy 35.56 170.18) (xy 167.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034c9184-011a-4da4-9ded-a5ab6a7948ab")
+	)
+	(wire
+		(pts
+			(xy 39.37 173.99) (xy 39.37 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036a40cf-3f89-451e-b13c-9d6245ed9513")
+	)
+	(wire
+		(pts
+			(xy 398.78 300.99) (xy 401.32 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ba0b93-a9ad-4691-8d7b-89ada3dac1c8")
+	)
+	(wire
+		(pts
+			(xy 414.02 233.68) (xy 414.02 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0403e323-5c77-4e6c-955e-a361269f356e")
+	)
+	(wire
+		(pts
+			(xy 368.3 44.45) (xy 372.11 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e5dec5-9876-438f-bbb1-ebdb16b853b5")
+	)
+	(wire
+		(pts
+			(xy 80.01 25.4) (xy 31.75 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1502,7 +2972,67 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 27.94) (xy 185.42 49.53)
+			(xy 427.99 313.69) (xy 427.99 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfb18a0-17e2-4533-bbbd-c7fcc46a0e8d")
+	)
+	(wire
+		(pts
+			(xy 444.5 228.6) (xy 444.5 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e047458-8277-4f98-8689-f870ba7607f8")
+	)
+	(wire
+		(pts
+			(xy 118.11 144.78) (xy 118.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e721be6-f3f9-41bf-acc2-296308f93731")
+	)
+	(wire
+		(pts
+			(xy 198.12 231.14) (xy 208.28 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100b3b8a-91ce-4ed5-9f4f-19bc59c13613")
+	)
+	(wire
+		(pts
+			(xy 34.29 138.43) (xy 78.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109a283c-bfc3-4c7f-ae41-1fb513ea14d5")
+	)
+	(wire
+		(pts
+			(xy 447.04 257.81) (xy 467.36 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133eeef1-f778-41f7-b45b-40ccd0c7c0bf")
+	)
+	(wire
+		(pts
+			(xy 193.04 31.75) (xy 193.04 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1512,7 +3042,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 77.47) (xy 80.01 77.47)
+			(xy 29.21 81.28) (xy 87.63 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1522,7 +3052,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 74.93) (xy 101.6 74.93)
+			(xy 163.83 227.33) (xy 179.07 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17302de2-3955-4b18-87a8-c65bfe138bc7")
+	)
+	(wire
+		(pts
+			(xy 97.79 78.74) (xy 109.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 17.78) (xy 72.39 21.59)
+			(xy 80.01 21.59) (xy 80.01 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1542,7 +3082,37 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 39.37) (xy 92.71 90.17)
+			(xy 111.76 138.43) (xy 111.76 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca86787-ed53-4ab2-94b3-7544eb211fcb")
+	)
+	(wire
+		(pts
+			(xy 427.99 321.31) (xy 444.5 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d046e1d-8d99-4b84-818b-517f1ea9e944")
+	)
+	(wire
+		(pts
+			(xy 444.5 321.31) (xy 480.06 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e23b9a0-caac-4a8b-bd82-c24947218bf1")
+	)
+	(wire
+		(pts
+			(xy 100.33 43.18) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1552,7 +3122,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 101.6 66.04)
+			(xy 35.56 175.26) (xy 36.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20498193-39d8-46e6-9f29-1faa59e5e5c4")
+	)
+	(wire
+		(pts
+			(xy 88.9 69.85) (xy 109.22 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1562,7 +3142,57 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 57.15) (xy 149.86 57.15)
+			(xy 181.61 144.78) (xy 186.69 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289d26b3-b47a-44a4-87d6-c02d635c1ecf")
+	)
+	(wire
+		(pts
+			(xy 35.56 142.24) (xy 38.1 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd00c55-0fe1-4056-b165-1dfdb3342914")
+	)
+	(wire
+		(pts
+			(xy 467.36 257.81) (xy 467.36 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cba781a-511d-41a5-b406-65aac7b80b45")
+	)
+	(wire
+		(pts
+			(xy 406.4 204.47) (xy 408.94 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcc8957-0806-4945-90a0-7cdc4e91676a")
+	)
+	(wire
+		(pts
+			(xy 414.02 257.81) (xy 427.99 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa38a32-7d99-4067-84e7-9a60ae17438d")
+	)
+	(wire
+		(pts
+			(xy 152.4 60.96) (xy 157.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1572,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 17.78) (xy 189.23 49.53)
+			(xy 196.85 21.59) (xy 196.85 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1582,7 +3212,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 17.78) (xy 97.79 17.78)
+			(xy 35.56 143.51) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34da2c8c-25cd-45e3-bc0b-59d028d48670")
+	)
+	(wire
+		(pts
+			(xy 111.76 21.59) (xy 105.41 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 101.6 77.47)
+			(xy 97.79 81.28) (xy 109.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1602,7 +3242,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 60.96) (xy 43.18 60.96)
+			(xy 436.88 350.52) (xy 436.88 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c856e89-48d2-4ce3-bc87-7e4e938cb9d3")
+	)
+	(wire
+		(pts
+			(xy 34.29 64.77) (xy 50.8 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1612,7 +3262,47 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 52.07) (xy 101.6 52.07)
+			(xy 339.09 292.1) (xy 401.32 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d08da0f-0fc4-4491-b5d1-02d9f10acdc6")
+	)
+	(wire
+		(pts
+			(xy 520.7 295.91) (xy 496.57 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41007e7a-888a-4a88-ad63-1fe93cb9bf43")
+	)
+	(wire
+		(pts
+			(xy 214.63 67.31) (xy 201.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4267eb97-faf7-4f68-bca3-a058aef46283")
+	)
+	(wire
+		(pts
+			(xy 111.76 138.43) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ce7941-54a0-4a05-98a8-2965512efc92")
+	)
+	(wire
+		(pts
+			(xy 105.41 55.88) (xy 109.22 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +3312,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 24.13) (xy 72.39 27.94)
+			(xy 476.25 327.66) (xy 480.06 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449f32a9-96bd-4fd2-979a-5d2aa586fa57")
+	)
+	(wire
+		(pts
+			(xy 80.01 27.94) (xy 80.01 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 53.34) (xy 149.86 53.34)
+			(xy 152.4 57.15) (xy 157.48 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +3342,27 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 34.29) (xy 92.71 27.94)
+			(xy 449.58 228.6) (xy 449.58 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478bbe9c-3c94-4bc0-a0fc-a5744e507162")
+	)
+	(wire
+		(pts
+			(xy 204.47 139.7) (xy 214.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489a0b1d-fed4-4ebc-a030-b5e8dd8390da")
+	)
+	(wire
+		(pts
+			(xy 100.33 38.1) (xy 100.33 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 80.01) (xy 101.6 80.01)
+			(xy 97.79 83.82) (xy 109.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 102.87) (xy 92.71 90.17)
+			(xy 100.33 106.68) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 74.93) (xy 80.01 74.93)
+			(xy 29.21 78.74) (xy 87.63 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +3402,17 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 80.01) (xy 80.01 80.01)
+			(xy 34.45 152.4) (xy 78.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5260bd01-552a-4bbd-ab37-c1a8d41204de")
+	)
+	(wire
+		(pts
+			(xy 29.21 83.82) (xy 87.63 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +3422,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 82.55) (xy 144.78 82.55)
+			(xy 427.99 250.19) (xy 427.99 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55449df8-b54b-444b-942d-1aed999d2d87")
+	)
+	(wire
+		(pts
+			(xy 158.75 86.36) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1702,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 76.2) (xy 173.99 102.87)
+			(xy 181.61 80.01) (xy 181.61 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1712,7 +3452,27 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 82.55) (xy 189.23 76.2)
+			(xy 425.45 228.6) (xy 425.45 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d67b092-0159-4d13-9b66-45d4b4443cf9")
+	)
+	(wire
+		(pts
+			(xy 426.72 292.1) (xy 473.71 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e741b2a-3f12-429f-a950-b5a8075e8c9d")
+	)
+	(wire
+		(pts
+			(xy 196.85 86.36) (xy 196.85 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1722,7 +3482,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 90.17) (xy 62.23 90.17)
+			(xy 285.75 46.99) (xy 288.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609c215e-ad1e-438e-84cf-ee3daff1a79f")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 69.85 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1732,7 +3502,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 17.78) (xy 72.39 17.78)
+			(xy 34.29 143.51) (xy 35.56 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622ec368-9698-41f0-8233-82cb1e8f0a48")
+	)
+	(wire
+		(pts
+			(xy 85.09 21.59) (xy 80.01 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +3522,77 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 27.94) (xy 92.71 27.94)
+			(xy 427.99 345.44) (xy 427.99 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6528ac8b-b555-482d-b01f-5c5950813d7f")
+	)
+	(wire
+		(pts
+			(xy 495.3 321.31) (xy 520.7 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ffda31-c46e-42d5-a63c-8c08b5e8ecea")
+	)
+	(wire
+		(pts
+			(xy 208.28 193.04) (xy 208.28 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67866d42-42ad-43c2-81d7-4604b0dd7614")
+	)
+	(wire
+		(pts
+			(xy 372.11 44.45) (xy 372.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681a4413-7cde-4fcd-baf9-b4b104e3a860")
+	)
+	(wire
+		(pts
+			(xy 336.55 48.26) (xy 341.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9dc3a6-d9b0-46f1-bfcd-d37cffc07add")
+	)
+	(wire
+		(pts
+			(xy 278.13 40.64) (xy 288.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be1495a-b271-4a65-9281-a7081cdaf2f1")
+	)
+	(wire
+		(pts
+			(xy 478.79 210.82) (xy 476.25 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d882c1a-8d7f-48ce-82cc-e97f3f589bb0")
+	)
+	(wire
+		(pts
+			(xy 80.01 31.75) (xy 100.33 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +3602,77 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 52.07) (xy 97.79 52.07)
+			(xy 179.07 198.12) (xy 167.64 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c40dd6-83be-4cb5-bb9c-bfec7750d390")
+	)
+	(wire
+		(pts
+			(xy 444.5 321.31) (xy 444.5 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f0435b-dff9-402e-8c09-49b260e2cab0")
+	)
+	(wire
+		(pts
+			(xy 93.98 138.43) (xy 111.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77763ea9-f433-4ea1-b5b2-36723e607f9c")
+	)
+	(wire
+		(pts
+			(xy 118.11 142.24) (xy 123.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79409c0a-cbe2-4869-a608-f93d73625bf6")
+	)
+	(wire
+		(pts
+			(xy 339.09 285.75) (xy 339.09 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b527121-cec1-4527-ae8e-db5570c0671d")
+	)
+	(wire
+		(pts
+			(xy 406.4 200.66) (xy 408.94 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8012659d-d0a2-4496-9288-8f9e247be4d6")
+	)
+	(wire
+		(pts
+			(xy 398.78 297.18) (xy 401.32 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bc2f1a-3e83-4b6c-baaa-932f8d9b3bd1")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 96.52) (xy 146.05 96.52)
+			(xy 152.4 100.33) (xy 153.67 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1772,7 +3692,27 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 68.58) (xy 149.86 68.58)
+			(xy 191.77 201.93) (xy 208.28 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc8bb59-0d5a-4ec7-912e-f77e93dd1177")
+	)
+	(wire
+		(pts
+			(xy 436.88 345.44) (xy 427.99 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df70446-b4f9-4fa1-a773-4550f451eb5f")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 157.48 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +3722,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 78.74) (xy 144.78 78.74)
+			(xy 167.64 138.43) (xy 167.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e51e1b-7c0f-4c15-b26e-5af51c3e8e4c")
+	)
+	(wire
+		(pts
+			(xy 158.75 82.55) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1792,7 +3742,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 102.87) (xy 92.71 102.87)
+			(xy 35.56 140.97) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c8d7b3-e3a3-4e58-a1b7-634b4ee12d8b")
+	)
+	(wire
+		(pts
+			(xy 181.61 106.68) (xy 100.33 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1802,7 +3762,57 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 17.78) (xy 97.79 17.78)
+			(xy 36.83 173.99) (xy 39.37 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9803c84d-db75-4e49-b1f8-19c05d71c406")
+	)
+	(wire
+		(pts
+			(xy 278.13 30.48) (xy 278.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ef1e4c-c428-43d8-a274-f529dc59d373")
+	)
+	(wire
+		(pts
+			(xy 427.99 328.93) (xy 427.99 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae48875-3f1f-4592-aa96-09e17680c5a6")
+	)
+	(wire
+		(pts
+			(xy 167.64 138.43) (xy 186.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0771996-3bee-4c2e-8345-7c99d3b583cf")
+	)
+	(wire
+		(pts
+			(xy 35.56 172.72) (xy 36.83 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6eaf4ec-059a-450f-9719-3a228a29c2d6")
+	)
+	(wire
+		(pts
+			(xy 95.25 21.59) (xy 105.41 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1812,7 +3822,57 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 64.77) (xy 149.86 64.77)
+			(xy 36.83 175.26) (xy 36.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade0b4b5-81a4-4bca-a506-9084276fdceb")
+	)
+	(wire
+		(pts
+			(xy 469.9 228.6) (xy 469.9 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1604399-abb5-49fa-a1dd-9b11edcfcdd3")
+	)
+	(wire
+		(pts
+			(xy 36.83 172.72) (xy 36.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1bd000d-d7f7-469c-a6c3-899f61f4f68e")
+	)
+	(wire
+		(pts
+			(xy 430.53 228.6) (xy 430.53 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b300db20-f56f-4666-b1e3-c8b8bebf5f80")
+	)
+	(wire
+		(pts
+			(xy 447.04 257.81) (xy 447.04 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b522e465-85a1-432a-836a-0265e3082e5d")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 157.48 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +3882,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 76.2) (xy 185.42 88.9)
+			(xy 167.64 170.18) (xy 167.64 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fcfabc-c945-4bc0-a60e-96fb4e4b33c6")
+	)
+	(wire
+		(pts
+			(xy 193.04 80.01) (xy 193.04 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 17.78) (xy 97.79 52.07)
+			(xy 105.41 21.59) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1842,7 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 17.78) (xy 189.23 17.78)
+			(xy 111.76 21.59) (xy 196.85 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +3922,37 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 82.55) (xy 101.6 82.55)
+			(xy 339.09 297.18) (xy 339.09 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31b623d-d87f-4549-a9f8-b8fa79ffc1ad")
+	)
+	(wire
+		(pts
+			(xy 163.83 220.98) (xy 163.83 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f00871-b983-4047-b1bb-f4a650906adc")
+	)
+	(wire
+		(pts
+			(xy 464.82 228.6) (xy 464.82 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5609dee-dda5-40d7-a107-234ca1b301bb")
+	)
+	(wire
+		(pts
+			(xy 86.36 86.36) (xy 109.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1862,7 +3962,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 78.74 82.55)
+			(xy 86.36 87.63) (xy 86.36 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1872,7 +3972,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 27.94) (xy 104.14 27.94)
+			(xy 436.88 345.44) (xy 444.5 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3c4550-2272-4e11-8e24-7c1422bb3969")
+	)
+	(wire
+		(pts
+			(xy 100.33 31.75) (xy 111.76 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1882,7 +3992,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 90.17) (xy 92.71 90.17)
+			(xy 86.36 93.98) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1892,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 90.17) (xy 101.6 90.17)
+			(xy 100.33 93.98) (xy 109.22 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +4012,27 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 27.94) (xy 185.42 27.94)
+			(xy 339.09 307.34) (xy 339.09 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c26423-6dc2-452a-963d-f407b06590ca")
+	)
+	(wire
+		(pts
+			(xy 478.79 207.01) (xy 476.25 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d428f6b8-9224-446f-9020-9ea637f407dd")
+	)
+	(wire
+		(pts
+			(xy 111.76 31.75) (xy 193.04 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +4042,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 58.42) (xy 43.18 58.42)
+			(xy 34.29 62.23) (xy 50.8 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 62.23) (xy 101.6 62.23)
+			(xy 88.9 66.04) (xy 109.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 24.13) (xy 24.13 24.13)
+			(xy 80.01 27.94) (xy 31.75 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +4072,97 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 90.17) (xy 62.23 68.58)
+			(xy 208.28 201.93) (xy 208.28 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee32b71-f4ef-4173-a261-86d25b0cc2d8")
+	)
+	(wire
+		(pts
+			(xy 34.29 140.97) (xy 35.56 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfebc982-3e55-4534-ae7b-8d35972dd610")
+	)
+	(wire
+		(pts
+			(xy 172.72 234.95) (xy 179.07 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1729430-2023-482f-92c6-1f4cf09280a1")
+	)
+	(wire
+		(pts
+			(xy 167.64 138.43) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20f8c79-313d-42fe-83cc-a93d12121d5a")
+	)
+	(wire
+		(pts
+			(xy 406.4 208.28) (xy 408.94 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22d1526-821b-4d5a-b900-d94a4e7fb7a0")
+	)
+	(wire
+		(pts
+			(xy 186.69 154.94) (xy 181.61 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e650c079-1374-435e-be94-59e3e2fd36e6")
+	)
+	(wire
+		(pts
+			(xy 175.26 205.74) (xy 179.07 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec91c6da-dc9e-4016-9e50-3b723015f849")
+	)
+	(wire
+		(pts
+			(xy 303.53 40.64) (xy 341.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edde9090-d72e-4462-b75d-8e04270821fc")
+	)
+	(wire
+		(pts
+			(xy 214.63 67.31) (xy 214.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb03789-3eb0-43ac-a99c-94ad7eec6988")
+	)
+	(wire
+		(pts
+			(xy 69.85 93.98) (xy 69.85 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +4172,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 72.39) (xy 149.86 72.39)
+			(xy 38.1 142.24) (xy 38.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0267d81-515f-46dc-8b21-44e80ca404c1")
+	)
+	(wire
+		(pts
+			(xy 152.4 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +4192,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 78.74 90.17)
+			(xy 86.36 92.71) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +4202,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 101.6 58.42)
+			(xy 444.5 339.09) (xy 444.5 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43e4b78-b4fc-4122-a6ae-31127d9ce5f8")
+	)
+	(wire
+		(pts
+			(xy 88.9 62.23) (xy 109.22 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +4222,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 82.55) (xy 78.74 82.55)
+			(xy 29.21 86.36) (xy 86.36 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1990,9 +4230,49 @@
 		)
 		(uuid "f7a59ec7-4f4b-4e7e-b220-f2e5878f40ef")
 	)
+	(wire
+		(pts
+			(xy 181.61 154.94) (xy 181.61 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb877ccd-699b-4ee2-9173-d13c480f86b6")
+	)
+	(wire
+		(pts
+			(xy 427.99 257.81) (xy 447.04 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe522e3b-bf38-4a60-8d82-521ec7231115")
+	)
+	(label "USBC_VCC"
+		(at 50.8 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d948f8ab-cafe-47f4-bf87-7eaca68d8291")
+	)
+	(label "DC_BARREL_20V_PORT"
+		(at 45.72 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f611bb3e-71d6-404c-8de1-0b4fb6bc32bb")
+	)
 	(global_label "SCL_SLOW"
 		(shape input)
-		(at 151.13 82.55 0)
+		(at 158.75 86.36 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -2001,7 +4281,87 @@
 		)
 		(uuid "008fab6b-4a43-4b70-a1b3-048fb144934f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 82.55 0)
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "#EN-DC-20V-DIODE"
+		(shape input)
+		(at 78.74 142.24 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "0276e9a7-4525-4a3c-a55c-5db46519c8cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-EN-TPS-POWER-SERVO"
+		(shape input)
+		(at 398.78 297.18 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "19905397-e27b-4d92-8474-c7e6a83df3a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 398.78 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-CUR1-INA3221-POWERVALID"
+		(shape output)
+		(at 406.4 200.66 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "2eec5157-5191-4f81-b171-d1b75544258e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 406.4 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "#EN-PACK+-VCC-DIODE"
+		(shape input)
+		(at 172.72 234.95 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "55f68d04-383b-490e-be85-543970b60b1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +4372,7 @@
 	)
 	(global_label "SDA_SLOW"
 		(shape bidirectional)
-		(at 151.13 78.74 0)
+		(at 158.75 82.55 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -2021,7 +4381,287 @@
 		)
 		(uuid "5a21ea13-3a30-4f82-a20f-c313614f7c97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 78.74 0)
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-CUR1-INA3221-TC"
+		(shape output)
+		(at 406.4 212.09 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "62869135-da2e-4927-bba5-9f2681807e77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 406.4 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "#MCU-EN-12V-DIODE"
+		(shape input)
+		(at 336.55 48.26 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "77876623-8aa4-4dc8-a52d-d6891ff956e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "#EN_IN-CHARGING-VCC-LIMITED-DIODE"
+		(shape input)
+		(at 175.26 205.74 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "7f7a5df6-0c5b-4bb7-8b7a-e396069e3ecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-RECEIVER-EN"
+		(shape input)
+		(at 476.25 327.66 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "883e70f9-d2a9-402c-9ca9-57691c1ce1d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 476.25 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-#EN-CN3722"
+		(shape input)
+		(at 186.69 154.94 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify left)
+		)
+		(uuid "8b985d52-5ca3-4d8e-893c-34c535f5d546")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-TPS-SHDN"
+		(shape input)
+		(at 118.11 144.78 270)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "8fd77592-28a4-4402-b085-e5f311b2a0d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.11 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-CUR1-INA3221-CRITICAL"
+		(shape output)
+		(at 406.4 204.47 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "b08bd8ee-8dbb-4170-9a8b-b6f77964c1bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 406.4 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_SLOW"
+		(shape input)
+		(at 478.79 207.01 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify left)
+		)
+		(uuid "b398da0f-0212-4f9e-8462-116b6285f486")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 478.79 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "#MCU-EN-SERVO_VCC"
+		(shape input)
+		(at 473.71 299.72 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "bc9054db-586d-41c6-838d-1256261ddff8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 473.71 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-POWERGOOD-TPS-POWER-SERVO"
+		(shape output)
+		(at 398.78 300.99 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "bd678903-93a5-4169-acda-4d68c153a81c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 398.78 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-CUR1-INA3221-WARNING"
+		(shape output)
+		(at 406.4 208.28 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "c5917b28-2457-4762-99eb-e2b03959c4c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 406.4 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_SLOW"
+		(shape input)
+		(at 478.79 210.82 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify left)
+		)
+		(uuid "d212ecca-fb7d-47a7-a9c9-ea0ffccc80ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 478.79 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "#EN-USBC-DIODE"
+		(shape input)
+		(at 78.74 160.02 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "d6dd9cde-f13a-43c4-b226-c5197a1c0857")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-12V-EN-BUCK"
+		(shape input)
+		(at 285.75 46.99 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "da33d244-8346-4833-8cb1-fdacf4e010be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +4672,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 88.9 0)
+		(at 193.04 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2040,7 +4680,7 @@
 		(dnp no)
 		(uuid "0604f58d-1590-4312-9e7d-429d10aa0b4b")
 		(property "Reference" "#PWR02"
-			(at 185.42 88.9 0)
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +4689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 95.25 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -2057,7 +4697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 88.9 0)
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +4706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 88.9 0)
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +4715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 88.9 0)
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,8 +4736,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VP")
+		(at 163.83 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19dfe3f3-60e0-4e13-8012-867cbf7dc32e")
+		(property "Reference" "#PWR0171"
+			(at 163.83 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PACK+"
+			(at 163.576 217.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 163.83 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9832cd55-3299-4672-a1a2-92cddb019964")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 372.11 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f1b16c8-8f92-4249-b1ff-afdb4cefd64a")
+		(property "Reference" "#PWR010"
+			(at 372.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 372.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power-5V"
+			(at 372.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9e80f06-9ef0-428b-803d-b1acab7b7a07")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 92.71 36.83 90)
+		(at 100.33 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2106,7 +4877,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cc7a547-23cd-4329-acb1-33ed320b445a")
 		(property "Reference" "NT2"
-			(at 93.98 35.5599 90)
+			(at 101.6 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +4887,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 93.98 38.0999 90)
+			(at 101.6 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +4897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 36.83 0)
+			(at 100.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +4906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 36.83 0)
+			(at 100.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +4915,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 92.71 36.83 0)
+			(at 100.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,8 +4939,125 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:DC005_C431533")
+		(at 30.48 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47810d26-3d16-409f-8a88-169f650dc930")
+		(property "Reference" "DC2"
+			(at 21.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3S Charger"
+			(at 21.59 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:DC-IN-TH_DC005"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190925/C431533_4751811035784AC1D38EBC85F7905E99.pdf"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Type:DC Power Receptacle Mounting Style:Bend-in Inside Contact Diameter:2mm Outside Contact Diameter:6.3mm Current Rating (Max):500mA Voltage Rating (Max):30V Operating Temperature Range:-25°C~+70°C Operating Temperature Range:-25°C~+70°C"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "DC005"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C431533"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "DC电源插座 内径:2mm 外径:6.3mm"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08cb4e6f-3a1d-4277-944a-1c81cf5dcbda")
+		)
+		(pin "3"
+			(uuid "978cfed8-83ab-411a-954a-e96f717d4d93")
+		)
+		(pin "2"
+			(uuid "9536f520-478b-4f39-92c1-e6b52049ebf9")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "DC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:B2B-XH-A (LF)(SN)")
-		(at 34.29 59.69 0)
+		(at 27.94 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2178,7 +5066,7 @@
 		(dnp no)
 		(uuid "499ee052-46e1-437b-a683-dbf295294139")
 		(property "Reference" "CN1"
-			(at 38.1 55.88 0)
+			(at 31.75 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +5075,7 @@
 			)
 		)
 		(property "Value" "B2B-XH-A(LF)(SN)"
-			(at 38.1 66.04 0)
+			(at 31.75 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +5085,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 34.29 59.69 0)
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +5094,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180928/C265283_F9DFEEBDB2CF642B6BDFAB4B77BD2680.pdf"
-			(at 34.29 59.69 0)
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +5103,7 @@
 			)
 		)
 		(property "Description" "Pins Structure:1x2P Pitch:2.5mm Mounting Style:Direct Insert Reference Series:XH Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating (Max):3A Contact Material:Brass Contact Plating:Tin Operating Temperature Range:-25°C~"
-			(at 34.29 59.69 0)
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +5112,7 @@
 			)
 		)
 		(property "Manufacturer Part" "B2B-XH-A(LF)(SN)"
-			(at 34.29 59.69 0)
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +5121,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 34.29 59.69 0)
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +5130,7 @@
 			)
 		)
 		(property "Supplier Part" "C158012"
-			(at 34.29 59.69 0)
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +5139,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 34.29 59.69 0)
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +5148,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x2P 间距:2.5mm 直插 系列:XH"
-			(at 34.29 59.69 0)
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,8 +5172,122 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
+		(at 427.99 334.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5047c3b0-2a8f-4286-9f29-7f93bc4baaec")
+		(property "Reference" "C?"
+			(at 431.8 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "100nF"
+			(at 431.8 336.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 427.99 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
+			(at 427.99 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+			(at 427.99 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
+			(at 427.99 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 427.99 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C14663"
+			(at 427.99 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 427.99 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "100nF ±10% 50V"
+			(at 427.99 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8557dd55-de8b-4157-8f75-eb7058c92f55")
+		)
+		(pin "1"
+			(uuid "f05e1d56-d293-45fa-8561-7d5707edc50d")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:ZX-XH2.54-4PWZ")
-		(at 16.51 78.74 0)
+		(at 24.13 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2294,7 +5296,7 @@
 		(dnp no)
 		(uuid "52285b86-53a7-4b3e-8996-f9adcead3f93")
 		(property "Reference" "BatBalConn1"
-			(at 13.97 72.39 0)
+			(at 21.59 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +5305,7 @@
 			)
 		)
 		(property "Value" "ZX-XH2.54-4PWZ"
-			(at 13.97 88.9 0)
+			(at 21.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +5315,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 16.51 78.74 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +5324,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230619/8DC602C7BA46C153FF1BE89D90453879.pdf"
-			(at 16.51 78.74 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +5333,7 @@
 			)
 		)
 		(property "Description" "Pins Structure:1x4P Pitch:2.5mm Mounting Type:Bend-in Reference Series:XH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Rated Current:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating Tempe"
-			(at 16.51 78.74 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +5342,7 @@
 			)
 		)
 		(property "Manufacturer Part" "ZX-XH2.54-4PWZ"
-			(at 16.51 78.74 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +5351,7 @@
 			)
 		)
 		(property "Manufacturer" "Megastar(兆星)"
-			(at 16.51 78.74 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +5360,7 @@
 			)
 		)
 		(property "Supplier Part" "C7429643"
-			(at 16.51 78.74 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +5369,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 16.51 78.74 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +5378,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x4P 间距:2.5mm 弯插 系列:XH"
-			(at 16.51 78.74 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,8 +5408,171 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:ERA16V4700M13X25")
+		(at 339.09 302.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a61774c-6be3-49df-b83b-acddf7aca69f")
+		(property "Reference" "C93"
+			(at 342.138 302.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ERA16V4700M13X25"
+			(at 342.9 303.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "JLCImport:ERA16V4700M13X25"
+			(at 339.09 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20150922/1457707409314.pdf"
+			(at 339.09 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49256794"
+			(at 339.09 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JIERR(捷而瑞)"
+			(at 339.09 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "ERA16V4700M13X25"
+			(at 339.09 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "997454ab-c774-47d8-9cd4-d72be6bc1797")
+		)
+		(pin "1"
+			(uuid "587b40f5-d4a8-4439-88cf-565b3afedfce")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 414.02 257.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cb2f320-f8d4-40fa-b9d8-16d7477f04ec")
+		(property "Reference" "#PWR070"
+			(at 414.02 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 414.02 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power-5V"
+			(at 414.02 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82eda3b1-4265-4245-a04a-2c18bb518420")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:SMAJ16A_C908770")
-		(at 104.14 22.86 270)
+		(at 111.76 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2415,7 +5580,7 @@
 		(dnp no)
 		(uuid "6c481b16-56f5-442b-85a8-512769dda6f0")
 		(property "Reference" "D1"
-			(at 106.68 22.86 90)
+			(at 114.3 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +5589,7 @@
 			)
 		)
 		(property "Value" "SMAJ16A"
-			(at 106.68 25.4 90)
+			(at 114.3 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +5598,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:SMA"
-			(at 104.14 22.86 0)
+			(at 111.76 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +5607,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240508/8B44FA02DF89A45C8C3EB0325515EF7C.pdf"
-			(at 104.14 22.86 0)
+			(at 111.76 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +5616,7 @@
 			)
 		)
 		(property "Description" "Reverse Stand-Off Voltage (Vrwm):16V Clamping Voltage:26V Peak Pulse Current (Ipp):15.3A Peak Pulse Power Dissipation (Ppp):400W Voltage - Breakdown:17.8V Reverse Leakage Current (Ir):5uA Operating Temperature:-55°C~+150°C@(Tj) Operating Temperature:-55°C~+1"
-			(at 104.14 22.86 0)
+			(at 111.76 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +5625,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMAJ16A"
-			(at 104.14 22.86 0)
+			(at 111.76 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +5634,7 @@
 			)
 		)
 		(property "Manufacturer" "GOODWORK(固得沃克)"
-			(at 104.14 22.86 0)
+			(at 111.76 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +5643,7 @@
 			)
 		)
 		(property "Supplier Part" "C908770"
-			(at 104.14 22.86 0)
+			(at 111.76 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +5652,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 104.14 22.86 0)
+			(at 111.76 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,7 +5661,7 @@
 			)
 		)
 		(property "LCSC Part Name" "单向TVS 16V截止 15.3A峰值脉冲"
-			(at 104.14 22.86 0)
+			(at 111.76 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,8 +5685,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 278.13 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82d1872f-89d6-48aa-8e8d-27824c9d6bb1")
+		(property "Reference" "#PWR05"
+			(at 278.13 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 278.13 26.67 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10c8a648-ff0a-4be2-9b6a-7f9cd24175b9")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 208.28 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e8db1c9-2388-4dec-94a7-49a8470a1f26")
+		(property "Reference" "#PWR0172"
+			(at 208.28 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 208.28 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 208.28 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd36c891-4ea1-4ace-9dc7-4ee1cb3a5ca3")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:0466001.NRHF")
-		(at 85.09 80.01 0)
+		(at 92.71 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2529,7 +5825,7 @@
 		(dnp no)
 		(uuid "abbc2f7a-d251-4444-a64c-25175a75d84a")
 		(property "Reference" "F4"
-			(at 78.232 79.502 0)
+			(at 85.852 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +5834,7 @@
 			)
 		)
 		(property "Value" "0466001.NRHF"
-			(at 82.55 83.82 0)
+			(at 90.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +5844,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 85.09 80.01 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +5853,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0466001.NRHF/162475.html"
-			(at 85.09 80.01 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +5862,7 @@
 			)
 		)
 		(property "Description" "Type:Surface Mount Fuse Current Rating:1A Voltage Rating (AC):63V Voltage Rating (DC):63V Operating Temperature:-55°C~+90°C Operating Temperature:-55°C~+90°C Interrupt Rating:50A"
-			(at 85.09 80.01 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +5871,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0466001.NRHF"
-			(at 85.09 80.01 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +5880,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 85.09 80.01 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +5889,7 @@
 			)
 		)
 		(property "Supplier Part" "C151135"
-			(at 85.09 80.01 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +5898,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 85.09 80.01 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +5907,7 @@
 			)
 		)
 		(property "LCSC Part Name" "63V贴片式保险丝"
-			(at 85.09 80.01 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,8 +5931,125 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:DC005_C431533")
+		(at 29.21 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b49cc6eb-3141-4277-9324-aeb764b0b07f")
+		(property "Reference" "DC1"
+			(at 20.32 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "20V Supply"
+			(at 20.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:DC-IN-TH_DC005"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190925/C431533_4751811035784AC1D38EBC85F7905E99.pdf"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Type:DC Power Receptacle Mounting Style:Bend-in Inside Contact Diameter:2mm Outside Contact Diameter:6.3mm Current Rating (Max):500mA Voltage Rating (Max):30V Operating Temperature Range:-25°C~+70°C Operating Temperature Range:-25°C~+70°C"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "DC005"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C431533"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "DC电源插座 内径:2mm 外径:6.3mm"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "302c8118-07a2-4e17-8ef3-9e931bc1a80a")
+		)
+		(pin "3"
+			(uuid "78fadbd5-62e2-40a1-88c2-b3eedc84004d")
+		)
+		(pin "2"
+			(uuid "2acdbdf5-55cd-4781-9e41-4d6e51f4fb94")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "DC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VP")
-		(at 146.05 96.52 270)
+		(at 153.67 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2644,7 +6057,7 @@
 		(dnp no)
 		(uuid "b659c2e1-2447-4fad-8767-0dc13cc2cbe1")
 		(property "Reference" "#PWR01"
-			(at 142.24 96.52 0)
+			(at 149.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +6066,7 @@
 			)
 		)
 		(property "Value" "PACK+"
-			(at 149.606 96.266 0)
+			(at 157.226 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +6074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 96.52 0)
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +6083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 96.52 0)
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +6092,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 146.05 96.52 0)
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,8 +6113,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 38.1 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9970b55-eda0-46c5-94d3-6ceca7b7eded")
+		(property "Reference" "#PWR0168"
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 149.86 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fe24d98-446f-43f7-8bf6-0bf27492ab8d")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:0466001.NRHF")
-		(at 85.09 74.93 0)
+		(at 92.71 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2709,7 +6187,7 @@
 		(dnp no)
 		(uuid "bca46ab0-8475-4115-84c6-d0fe08a1b29f")
 		(property "Reference" "F2"
-			(at 78.232 74.422 0)
+			(at 85.852 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +6196,7 @@
 			)
 		)
 		(property "Value" "0466001.NRHF"
-			(at 82.55 78.74 0)
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +6206,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 85.09 74.93 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +6215,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0466001.NRHF/162475.html"
-			(at 85.09 74.93 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +6224,7 @@
 			)
 		)
 		(property "Description" "Type:Surface Mount Fuse Current Rating:1A Voltage Rating (AC):63V Voltage Rating (DC):63V Operating Temperature:-55°C~+90°C Operating Temperature:-55°C~+90°C Interrupt Rating:50A"
-			(at 85.09 74.93 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +6233,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0466001.NRHF"
-			(at 85.09 74.93 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +6242,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 85.09 74.93 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +6251,7 @@
 			)
 		)
 		(property "Supplier Part" "C151135"
-			(at 85.09 74.93 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +6260,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 85.09 74.93 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +6269,7 @@
 			)
 		)
 		(property "LCSC Part Name" "63V贴片式保险丝"
-			(at 85.09 74.93 0)
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,16 +6293,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VP")
-		(at 189.23 82.55 180)
+		(lib_id "power:GND")
+		(at 436.88 350.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be01d573-8b4f-41d0-bbea-cbda4e66f9be")
-		(property "Reference" "#PWR03"
-			(at 189.23 78.74 0)
+		(uuid "bcd4a3df-7ecf-4a68-9d88-f7fe1e2b8dd1")
+		(property "Reference" "#PWR?"
+			(at 436.88 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,16 +6311,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PACK+"
-			(at 189.484 86.106 0)
+		(property "Value" "GND"
+			(at 436.88 356.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5748 1.5748)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 82.55 0)
+			(at 436.88 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +6329,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 82.55 0)
+			(at 436.88 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2b28875-1532-4538-87e9-b73b860b168e")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 196.85 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be01d573-8b4f-41d0-bbea-cbda4e66f9be")
+		(property "Reference" "#PWR03"
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PACK+"
+			(at 197.104 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +6403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 189.23 82.55 0)
+			(at 196.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +6425,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:XF-507P")
-		(at 82.55 17.78 0)
+		(at 90.17 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2889,7 +6433,7 @@
 		(dnp no)
 		(uuid "cce66e4f-589e-4f17-98ee-e1fe8f8d920d")
 		(property "Reference" "F1"
-			(at 78.74 16.51 0)
+			(at 86.36 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +6442,7 @@
 			)
 		)
 		(property "Value" "XF-507P"
-			(at 78.74 21.59 0)
+			(at 86.36 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +6451,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:CONN-TH_XF-507P"
-			(at 82.55 17.78 0)
+			(at 90.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +6460,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/XF-507P/699208.html"
-			(at 82.55 17.78 0)
+			(at 90.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +6469,7 @@
 			)
 		)
 		(property "Description" "Fuseholder Type:- Voltage Rating:60V Current Rating:30A Fuse Type:-"
-			(at 82.55 17.78 0)
+			(at 90.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +6478,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XF-507P"
-			(at 82.55 17.78 0)
+			(at 90.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +6487,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN(兴飞)"
-			(at 82.55 17.78 0)
+			(at 90.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +6496,7 @@
 			)
 		)
 		(property "Supplier Part" "C668119"
-			(at 82.55 17.78 0)
+			(at 90.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,7 +6505,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 82.55 17.78 0)
+			(at 90.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +6514,7 @@
 			)
 		)
 		(property "LCSC Part Name" "中号汽车保险丝夹 2P"
-			(at 82.55 17.78 0)
+			(at 90.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,8 +6544,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 414.02 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cde031db-9ef3-494e-9040-cf2e5af9630a")
+		(property "Reference" "#PWR0169"
+			(at 414.02 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 414.02 240.03 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 414.02 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46025f12-75fd-46cc-b647-801b3d9d17e7")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:0466001.NRHF")
-		(at 85.09 77.47 0)
+		(at 92.71 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3009,7 +6618,7 @@
 		(dnp no)
 		(uuid "d29e95b4-bc7d-4f6b-bd1f-1035631f5713")
 		(property "Reference" "F3"
-			(at 78.232 76.962 0)
+			(at 85.852 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +6627,7 @@
 			)
 		)
 		(property "Value" "0466001.NRHF"
-			(at 82.55 81.28 0)
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +6637,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 85.09 77.47 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +6646,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0466001.NRHF/162475.html"
-			(at 85.09 77.47 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +6655,7 @@
 			)
 		)
 		(property "Description" "Type:Surface Mount Fuse Current Rating:1A Voltage Rating (AC):63V Voltage Rating (DC):63V Operating Temperature:-55°C~+90°C Operating Temperature:-55°C~+90°C Interrupt Rating:50A"
-			(at 85.09 77.47 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +6664,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0466001.NRHF"
-			(at 85.09 77.47 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +6673,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 85.09 77.47 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +6682,7 @@
 			)
 		)
 		(property "Supplier Part" "C151135"
-			(at 85.09 77.47 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +6691,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 85.09 77.47 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +6700,7 @@
 			)
 		)
 		(property "LCSC Part Name" "63V贴片式保险丝"
-			(at 85.09 77.47 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,8 +6724,269 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d341ef7a-ef41-4f1a-b926-6a2ad3866f13")
+		(property "Reference" "#PWR068"
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 181.61 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71b7f548-f924-42bf-b471-0be42bdacf04")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 427.99 313.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2531199-c293-408e-a2d5-6ca2a06ee17a")
+		(property "Reference" "#PWR?"
+			(at 427.99 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 427.99 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 427.99 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power-5V"
+			(at 427.99 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ce63b2a-22f0-4108-bfe7-a4e281cd1d83")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+SERVO_VCC")
+		(at 339.09 285.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e47ab9fa-7104-409a-83fa-cdc9f167af24")
+		(property "Reference" "#PWR0144"
+			(at 339.09 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 339.09 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power-5V"
+			(at 339.09 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54a2be68-c2b1-48c2-8392-05682a21ee66")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 339.09 309.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec17020e-2960-492f-83dd-ebce225b98ad")
+		(property "Reference" "#PWR0145"
+			(at 339.09 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 339.09 316.23 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a520b39-76c2-4998-8238-cab9142bbf0a")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 78.74 86.36 90)
+		(at 86.36 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3125,7 +6995,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee648113-162e-4883-ae63-13bd6267318d")
 		(property "Reference" "NT1"
-			(at 80.01 85.0899 90)
+			(at 87.63 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +7005,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 80.01 87.6299 90)
+			(at 87.63 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,7 +7015,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
-			(at 78.74 86.36 0)
+			(at 86.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +7024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 86.36 0)
+			(at 86.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +7033,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 78.74 86.36 0)
+			(at 86.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +7058,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:XT60PW-M")
-		(at 19.05 20.32 180)
+		(at 26.67 24.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3196,7 +7066,7 @@
 		(dnp no)
 		(uuid "f47d854e-7818-4c94-8d04-6e235b5db359")
 		(property "Reference" "-BatMains+1"
-			(at 13.97 15.24 0)
+			(at 21.59 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +7075,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 13.97 33.02 0)
+			(at 21.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +7084,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:CONN-TH_XT60PW-M"
-			(at 19.05 20.32 0)
+			(at 26.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +7093,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/XT60PW-M/99942.html"
-			(at 19.05 20.32 0)
+			(at 26.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +7102,7 @@
 			)
 		)
 		(property "Description" "Power:- Output:- Input:- Size:- Interface:- Type:- Colour:Yellow MaximumCurrent:- Type:Horizontal plug RatedVoltage:- Type1:- NumberOfUSBHoles:- InterfaceType:Male MetalMaterial:- InsulationMaterial:- RatedCurrent:- RecommendedWireGauge:- FlameRetardantGr"
-			(at 19.05 20.32 0)
+			(at 26.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +7111,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XT60PW-M"
-			(at 19.05 20.32 0)
+			(at 26.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +7120,7 @@
 			)
 		)
 		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 19.05 20.32 0)
+			(at 26.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +7129,7 @@
 			)
 		)
 		(property "Supplier Part" "C98732"
-			(at 19.05 20.32 0)
+			(at 26.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +7138,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 19.05 20.32 0)
+			(at 26.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +7147,7 @@
 			)
 		)
 		(property "LCSC Part Name" "AMASS(艾迈斯)航模插头xt60连接器150公母对接pw锂电池公头 板插卧式XT60PW-M"
-			(at 19.05 20.32 0)
+			(at 26.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,8 +7176,333 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 167.64 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa123e3e-5303-42d6-bc72-05db8cfe1635")
+		(property "Reference" "#PWR0170"
+			(at 167.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "IN-CHARGING-VCC-LIMITED"
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8a70c29-87cd-414f-85ce-9164577b58b2")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:CL10A226MP8NUNE")
+		(at 444.5 334.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffd46abe-314a-4b62-80d6-802d9348a364")
+		(property "Reference" "C?"
+			(at 448.31 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "22uF"
+			(at 448.31 336.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 444.5 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10A226MP8NUNE/87471.html"
+			(at 444.5 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:22uF Tolerance:±20% Tolerance:±20% Voltage Rating:10V Temperature Coefficient:X5R"
+			(at 444.5 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10A226MP8NUNE"
+			(at 444.5 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 444.5 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C86295"
+			(at 444.5 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 444.5 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "22uF ±20% 10V"
+			(at 444.5 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1533f101-fcfe-48dd-8dee-3e575dc334ca")
+		)
+		(pin "2"
+			(uuid "feb5eae3-e6a0-4072-801a-029e723b3f8e")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 43.18 49.53)
+		(at 421.64 242.57)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03241f80-3125-4f5b-a1a0-add76ba31aaa")
+		(property "Sheetname" "JST-VH-12V-PIN"
+			(at 420.37 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JST-VH-12V-PIN.kicad_sch"
+			(at 421.64 255.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT-" output
+			(at 430.53 242.57 90)
+			(uuid "68718e34-7b5a-4ff8-a6b5-216c5a80b7dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT+" output
+			(at 425.45 242.57 90)
+			(uuid "248bd8d1-2a95-4048-afa8-2ece06406cc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 427.99 250.19 270)
+			(uuid "a5da1155-5776-4996-921d-1f547a62e114")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 480.06 318.77)
+		(size 15.24 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d4a251e-4375-4aab-85e0-d11dfb5595c0")
+		(property "Sheetname" "mt9700-efuse"
+			(at 480.06 318.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../connectors/mt9700-efuse.kicad_sch"
+			(at 480.06 330.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN" input
+			(at 480.06 321.31 180)
+			(uuid "9dfa1208-0c23-4c65-98bb-13ff72f46540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 495.3 321.31 0)
+			(uuid "682d1f76-9788-4ae3-a9f7-b34b1664df0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 480.06 327.66 180)
+			(uuid "e9ce37b1-c7d0-499d-9de1-47203045f3fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 53.34)
 		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3323,7 +7518,7 @@
 		)
 		(uuid "261b4c59-ebc7-47a2-bb10-0e71ece0f9bf")
 		(property "Sheetname" "bms_button_logic"
-			(at 43.18 48.8184 0)
+			(at 50.8 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +7527,7 @@
 			)
 		)
 		(property "Sheetfile" "bms_button_logic.kicad_sch"
-			(at 43.18 69.1646 0)
+			(at 50.8 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +7537,7 @@
 			)
 		)
 		(pin "VSS" input
-			(at 62.23 68.58 270)
+			(at 69.85 72.39 270)
 			(uuid "4584b289-5e03-4388-8af3-afde4cf559f7")
 			(effects
 				(font
@@ -3352,7 +7547,7 @@
 			)
 		)
 		(pin "BTN_LOW" passive
-			(at 43.18 60.96 180)
+			(at 50.8 64.77 180)
 			(uuid "bb259d82-80fa-44d2-8eda-32ece68b9c2f")
 			(effects
 				(font
@@ -3362,7 +7557,7 @@
 			)
 		)
 		(pin "TS2" input
-			(at 81.28 58.42 0)
+			(at 88.9 62.23 0)
 			(uuid "c5b602e4-294b-4472-bc43-479fa233808d")
 			(effects
 				(font
@@ -3372,7 +7567,7 @@
 			)
 		)
 		(pin "BTN_HIGH" passive
-			(at 43.18 58.42 180)
+			(at 50.8 62.23 180)
 			(uuid "1fbe4fb2-f096-4fff-9822-cfa44713231d")
 			(effects
 				(font
@@ -3382,7 +7577,7 @@
 			)
 		)
 		(pin "BQ-AWAKE-INDICATOR" input
-			(at 81.28 62.23 0)
+			(at 88.9 66.04 0)
 			(uuid "0df0601a-3b0e-4222-b2ef-732188518fc5")
 			(effects
 				(font
@@ -3392,7 +7587,7 @@
 			)
 		)
 		(pin "3v3-LDO-IN" input
-			(at 81.28 52.07 0)
+			(at 88.9 55.88 0)
 			(uuid "4a742ffa-7f5f-4b87-bb4e-de19b4d925d5")
 			(effects
 				(font
@@ -3402,7 +7597,7 @@
 			)
 		)
 		(pin "3v3" output
-			(at 81.28 66.04 0)
+			(at 88.9 69.85 0)
 			(uuid "a067ae96-69ae-407e-b8f3-4f1b70f8f8d3")
 			(effects
 				(font
@@ -3420,7 +7615,415 @@
 		)
 	)
 	(sheet
-		(at 101.6 49.53)
+		(at 186.69 135.89)
+		(size 17.78 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31f44477-0097-4e02-b6ff-5111b8556cfe")
+		(property "Sheetname" "Charger Buck Stage"
+			(at 186.69 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/4_Charging-Buck.kicad_sch"
+			(at 186.69 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "#EN" input
+			(at 186.69 144.78 180)
+			(uuid "0962743e-8002-4951-973e-cec610a690d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 204.47 139.7 0)
+			(uuid "685e2176-c27f-4a1b-b29f-427ce154f31d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 186.69 138.43 180)
+			(uuid "12c8aaa7-7ce9-4f07-9c73-e58099e29fac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 408.94 196.85)
+		(size 67.31 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3defe835-7f3e-4186-81ed-0e8caa47e3eb")
+		(property "Sheetname" "CUR1"
+			(at 409.194 193.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MISC_IO_CURR_SENSING_1.kicad_sch"
+			(at 408.94 211.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "i2c Address" "0x40"
+			(at 411.734 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "IN+1" input
+			(at 464.82 228.6 270)
+			(uuid "05a2c64a-dd72-4e6c-97d4-87d573a41b30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-2" input
+			(at 449.58 228.6 270)
+			(uuid "8383d530-4068-4296-b22d-c49a4d0a0f20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN+2" input
+			(at 444.5 228.6 270)
+			(uuid "5e7bdf71-6972-41e9-b55f-12c159c5d719")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-1" input
+			(at 469.9 228.6 270)
+			(uuid "bb0be16f-6571-4adb-9de3-649ca52e977b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-3" input
+			(at 430.53 228.6 270)
+			(uuid "e8027681-c243-41c3-87fb-a94d569363aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN+3" input
+			(at 425.45 228.6 270)
+			(uuid "73af04e1-2845-4f14-b520-920d5efd063a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWERVALID" output
+			(at 408.94 200.66 180)
+			(uuid "61a51020-c444-4247-8640-0f31204df96a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TC" output
+			(at 408.94 212.09 180)
+			(uuid "163bbd5b-5128-4a72-a2ff-0f92db35d7b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CRITICAL" output
+			(at 408.94 204.47 180)
+			(uuid "8023c14e-d210-4d43-a703-a1f9ca8cbf5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0" input
+			(at 414.02 228.6 270)
+			(uuid "4d8ed0e8-a18a-42b7-8be2-8199202e4adb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WARNING" output
+			(at 408.94 208.28 180)
+			(uuid "001dae03-61aa-4146-af6d-893580f9162a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 476.25 207.01 0)
+			(uuid "b8abc6d0-1e12-41f4-bff8-8d0c9a695fc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 476.25 210.82 0)
+			(uuid "0254caba-1919-4a1a-9b0b-3a4cc4412c88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 288.29 36.83)
+		(size 15.24 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "535c4b9d-dd70-4891-8336-b5700298b4d1")
+		(property "Sheetname" "12v_LTM8055_BUCK"
+			(at 288.29 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../power/12v_LTM8055_BUCK.kicad_sch"
+			(at 288.29 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT" output
+			(at 303.53 40.64 0)
+			(uuid "385619e1-e455-4bdd-baa8-f7a137eaeffd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 288.29 40.64 180)
+			(uuid "1fac4717-6353-4130-8370-00df9e7a29f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 288.29 46.99 180)
+			(uuid "45859c11-0d41-42a9-bcc2-0c7c030817c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 401.32 286.95)
+		(size 25.4 16.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e87fa27-0735-4860-928c-5f9d8795dad6")
+		(property "Sheetname" "Servo Power Buck"
+			(at 401.32 286.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../power/28_Power-servo.kicad_sch"
+			(at 401.32 304.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 426.72 292.1 0)
+			(uuid "dc6b2856-74a7-4e92-a641-8dc85a95f4d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POWERGOOD" output
+			(at 401.32 300.99 180)
+			(uuid "cb4a5661-ab80-4f64-b418-6caee7e9bf82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 401.32 292.1 180)
+			(uuid "b07b6ae6-d2ec-48c8-906d-91c6d75bb6ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 401.32 297.18 180)
+			(uuid "72eae118-3e98-4d60-8b40-6c7019722a55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 53.34)
 		(size 43.18 49.53)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3436,7 +8039,7 @@
 		)
 		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11")
 		(property "Sheetname" "Battery BMS Interface"
-			(at 101.6 48.8184 0)
+			(at 109.22 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +8048,7 @@
 			)
 		)
 		(property "Sheetfile" "../battery/18_Battery-BMS.kicad_sch"
-			(at 101.6 99.6446 0)
+			(at 109.22 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +8057,7 @@
 			)
 		)
 		(pin "VSS" input
-			(at 101.6 90.17 180)
+			(at 109.22 93.98 180)
 			(uuid "b8c2de2a-3942-4b47-acaa-6689629fc608")
 			(effects
 				(font
@@ -3464,7 +8067,7 @@
 			)
 		)
 		(pin "CHG" output
-			(at 144.78 57.15 0)
+			(at 152.4 60.96 0)
 			(uuid "da695ade-d69a-4bfe-8fe4-5d1887f2585d")
 			(effects
 				(font
@@ -3474,7 +8077,7 @@
 			)
 		)
 		(pin "PCHG" output
-			(at 144.78 64.77 0)
+			(at 152.4 68.58 0)
 			(uuid "fd52be44-4bf9-4265-92c3-bfbd8a849cb0")
 			(effects
 				(font
@@ -3484,7 +8087,7 @@
 			)
 		)
 		(pin "DSG" output
-			(at 144.78 53.34 0)
+			(at 152.4 57.15 0)
 			(uuid "9d466c6f-39b9-46b1-940c-002b8e7e33c3")
 			(effects
 				(font
@@ -3494,7 +8097,7 @@
 			)
 		)
 		(pin "PACK+" input
-			(at 144.78 96.52 0)
+			(at 152.4 100.33 0)
 			(uuid "7fd9e068-7261-47c0-a781-915aacee5232")
 			(effects
 				(font
@@ -3504,7 +8107,7 @@
 			)
 		)
 		(pin "TS2" input
-			(at 101.6 58.42 180)
+			(at 109.22 62.23 180)
 			(uuid "8e27edf9-3bab-43b2-8b78-6616ff8e5442")
 			(effects
 				(font
@@ -3514,7 +8117,7 @@
 			)
 		)
 		(pin "PDSG" output
-			(at 144.78 60.96 0)
+			(at 152.4 64.77 0)
 			(uuid "c5a2f3f7-13e6-4145-920c-6bd55fd0faf2")
 			(effects
 				(font
@@ -3524,7 +8127,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 144.78 82.55 0)
+			(at 152.4 86.36 0)
 			(uuid "4c1ef750-a153-43db-bb66-51a34192e581")
 			(effects
 				(font
@@ -3534,7 +8137,7 @@
 			)
 		)
 		(pin "RST_SHUT" input
-			(at 144.78 85.09 0)
+			(at 152.4 88.9 0)
 			(uuid "148880c4-ba5c-4aed-bd99-6ff23802dcda")
 			(effects
 				(font
@@ -3544,7 +8147,7 @@
 			)
 		)
 		(pin "ALERT" input
-			(at 144.78 87.63 0)
+			(at 152.4 91.44 0)
 			(uuid "c38cf7cc-2b27-4814-9c0b-6b17db3e907d")
 			(effects
 				(font
@@ -3554,7 +8157,7 @@
 			)
 		)
 		(pin "REG18" output
-			(at 101.6 62.23 180)
+			(at 109.22 66.04 180)
 			(uuid "4440bbf5-e2dc-4524-bd0f-cdbc5732fb4e")
 			(effects
 				(font
@@ -3564,7 +8167,7 @@
 			)
 		)
 		(pin "SHUNT_P" input
-			(at 144.78 68.58 0)
+			(at 152.4 72.39 0)
 			(uuid "ee8f945c-1470-451e-9642-613f6a7f5886")
 			(effects
 				(font
@@ -3574,7 +8177,7 @@
 			)
 		)
 		(pin "SHUNT_N" input
-			(at 144.78 72.39 0)
+			(at 152.4 76.2 0)
 			(uuid "264070dc-0798-40f6-8e5f-63ab502ca955")
 			(effects
 				(font
@@ -3584,7 +8187,7 @@
 			)
 		)
 		(pin "BAL-CELL-2" input
-			(at 101.6 77.47 180)
+			(at 109.22 81.28 180)
 			(uuid "468deef7-8a29-4eea-a4d0-f7aa2cd1e190")
 			(effects
 				(font
@@ -3594,7 +8197,7 @@
 			)
 		)
 		(pin "BAL_CELL_BOT+" input
-			(at 101.6 80.01 180)
+			(at 109.22 83.82 180)
 			(uuid "22728aed-fcaf-499b-97df-23bc77220ad6")
 			(effects
 				(font
@@ -3604,7 +8207,7 @@
 			)
 		)
 		(pin "BAL_CELL_BOT-" input
-			(at 101.6 82.55 180)
+			(at 109.22 86.36 180)
 			(uuid "e1734435-114c-4ee2-b5bc-b8569845ec05")
 			(effects
 				(font
@@ -3614,7 +8217,7 @@
 			)
 		)
 		(pin "BAL-CELL-TOP" input
-			(at 101.6 74.93 180)
+			(at 109.22 78.74 180)
 			(uuid "32f574e7-d3a4-46bd-a3a8-acfa70ee2bc2")
 			(effects
 				(font
@@ -3624,7 +8227,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 144.78 78.74 0)
+			(at 152.4 82.55 0)
 			(uuid "2f17be64-76ac-482a-9f54-306c25d30148")
 			(effects
 				(font
@@ -3634,7 +8237,7 @@
 			)
 		)
 		(pin "BQ-BAT" input
-			(at 101.6 52.07 180)
+			(at 109.22 55.88 180)
 			(uuid "5fc54a96-17b1-4a43-920c-6e78bfbda2a6")
 			(effects
 				(font
@@ -3644,7 +8247,7 @@
 			)
 		)
 		(pin "ALERT_PULLUP" input
-			(at 101.6 66.04 180)
+			(at 109.22 69.85 180)
 			(uuid "12f7b25e-d179-4b34-9565-f3675bcc0ef5")
 			(effects
 				(font
@@ -3655,7 +8258,7 @@
 		)
 	)
 	(sheet
-		(at 149.86 49.53)
+		(at 157.48 53.34)
 		(size 44.45 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3671,7 +8274,7 @@
 		)
 		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12")
 		(property "Sheetname" "Battery Power Path"
-			(at 149.86 48.8184 0)
+			(at 157.48 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +8283,7 @@
 			)
 		)
 		(property "Sheetfile" "../battery/19_Battery-Power.kicad_sch"
-			(at 149.86 76.7846 0)
+			(at 157.48 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +8293,7 @@
 			)
 		)
 		(pin "DSG" input
-			(at 149.86 53.34 180)
+			(at 157.48 57.15 180)
 			(uuid "19d2baad-e818-4010-ac99-e9d5b3c34f47")
 			(effects
 				(font
@@ -3700,7 +8303,7 @@
 			)
 		)
 		(pin "CHG" input
-			(at 149.86 57.15 180)
+			(at 157.48 60.96 180)
 			(uuid "e889332d-ebf1-4cbd-8e18-277e938d79dd")
 			(effects
 				(font
@@ -3710,7 +8313,7 @@
 			)
 		)
 		(pin "BAT+" input
-			(at 189.23 49.53 90)
+			(at 196.85 53.34 90)
 			(uuid "eff85712-8b90-487e-84e7-4933bdcbe258")
 			(effects
 				(font
@@ -3720,7 +8323,7 @@
 			)
 		)
 		(pin "PDSG" input
-			(at 149.86 64.77 180)
+			(at 157.48 68.58 180)
 			(uuid "778da865-3887-45d3-8297-fd8baa1619e3")
 			(effects
 				(font
@@ -3730,7 +8333,7 @@
 			)
 		)
 		(pin "CHG+" input
-			(at 194.31 63.5 0)
+			(at 201.93 67.31 0)
 			(uuid "a3a2cd11-9cab-4cc4-a731-3ae03b97ee53")
 			(effects
 				(font
@@ -3740,7 +8343,7 @@
 			)
 		)
 		(pin "SHUNT_N" output
-			(at 149.86 72.39 180)
+			(at 157.48 76.2 180)
 			(uuid "1c44467e-2e5a-46c7-8443-2107bf2b0411")
 			(effects
 				(font
@@ -3750,7 +8353,7 @@
 			)
 		)
 		(pin "SHUNT_P" output
-			(at 149.86 68.58 180)
+			(at 157.48 72.39 180)
 			(uuid "09032518-999a-4323-a632-1f863fbfd8bf")
 			(effects
 				(font
@@ -3760,7 +8363,7 @@
 			)
 		)
 		(pin "BAT-" input
-			(at 185.42 49.53 90)
+			(at 193.04 53.34 90)
 			(uuid "05a5cf30-a9ce-4d0d-b377-3fbb37e72c1f")
 			(effects
 				(font
@@ -3770,7 +8373,7 @@
 			)
 		)
 		(pin "PACK-" output
-			(at 185.42 76.2 270)
+			(at 193.04 80.01 270)
 			(uuid "4090f2b0-e939-4cab-91fa-a6a9f598da34")
 			(effects
 				(font
@@ -3780,7 +8383,7 @@
 			)
 		)
 		(pin "PACK+" output
-			(at 189.23 76.2 270)
+			(at 196.85 80.01 270)
 			(uuid "a73b897a-bf7a-4cd4-9b97-963ed22fc2c5")
 			(effects
 				(font
@@ -3790,7 +8393,7 @@
 			)
 		)
 		(pin "VSS" input
-			(at 173.99 76.2 270)
+			(at 181.61 80.01 270)
 			(uuid "ba37cb21-98b3-4519-84ee-401b26ea6cfb")
 			(effects
 				(font
@@ -3803,6 +8406,772 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(page "#")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 473.71 287.02)
+		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8eee6623-4878-45b2-bdab-0e37d3220c38")
+		(property "Sheetname" "Ideal_Diode_OR_SERVO"
+			(at 473.71 286.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+			(at 473.71 304.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 496.57 295.91 0)
+			(uuid "709c25be-3069-4b6c-9669-7a68d55b07a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 473.71 299.72 180)
+			(uuid "81fcfcd8-16a7-4f29-8f7e-cb3c149f9638")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 473.71 292.1 180)
+			(uuid "fe33de50-76dc-422f-87a3-69d93a8a95a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 196.85)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a048a8c1-de8c-4417-9e40-d40a18f390ce")
+		(property "Sheetname" "Ideal_Diode_OR_CHARGING_PORT"
+			(at 173.99 195.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+			(at 179.07 207.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT" output
+			(at 191.77 201.93 0)
+			(uuid "469b9d79-3ee4-4542-bc3d-7daf2e34c678")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "#EN" input
+			(at 179.07 205.74 180)
+			(uuid "1c0bc6f3-8d3c-49e1-99ee-222a9d2e4a78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 179.07 198.12 180)
+			(uuid "28c54b38-5713-4947-88dc-9e2812a4fe62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 149.86)
+		(size 14.13 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a994f324-c6f3-4ed0-9a66-85e49eba80ab")
+		(property "Sheetname" "USB-C Input"
+			(at 20.32 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/23_Charging-USB-C-Port.kicad_sch"
+			(at 20.32 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT" output
+			(at 34.45 152.4 0)
+			(uuid "54f05b6a-6932-40e7-a7c8-0899396dfc9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 134.62)
+		(size 15.24 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad660ab0-1da6-44b7-9096-9ee4c3bc2383")
+		(property "Sheetname" "Ideal_Diode_OR_DC_PORT"
+			(at 78.74 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+			(at 78.74 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT" output
+			(at 93.98 138.43 0)
+			(uuid "d76b7111-f6b2-43fa-874e-d0cc1be2e40f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "#EN" input
+			(at 78.74 142.24 180)
+			(uuid "db09add5-6456-4822-8ede-428843604f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 78.74 138.43 180)
+			(uuid "9aa465b2-f0be-45e1-8ba6-70567faa41e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 440.69 242.57)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3c2b899-37d0-4be6-83c2-2e989d7fd2d2")
+		(property "Sheetname" "JST-VH-12V-PIN1"
+			(at 439.42 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JST-VH-12V-PIN.kicad_sch"
+			(at 440.69 255.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT-" output
+			(at 449.58 242.57 90)
+			(uuid "d205b127-a79b-4238-92e0-63436b553f6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT+" output
+			(at 444.5 242.57 90)
+			(uuid "f3bb888e-4776-490e-9f4e-191144efbc96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 447.04 250.19 270)
+			(uuid "0830f670-dbdd-4b00-8ed4-c3b6e593592b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 222.25)
+		(size 19.05 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca919776-c91b-4883-8f90-f75d19396b00")
+		(property "Sheetname" "Ideal_Diode_OR_PACK+_VCC"
+			(at 179.07 221.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+			(at 179.07 239.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT" output
+			(at 198.12 231.14 0)
+			(uuid "ff60dda4-75d9-47b5-ab86-c60b2d4f1ebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "#EN" input
+			(at 179.07 234.95 180)
+			(uuid "5448462f-a64c-4d0b-affe-43431e331012")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 179.07 227.33 180)
+			(uuid "53cd3ac9-92ac-45d0-99e7-bb44ea5fe0c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 149.86)
+		(size 15.24 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d932e0fc-7b09-4e74-a033-a342c08a0a15")
+		(property "Sheetname" "Ideal_Diode_OR_USBC"
+			(at 78.74 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+			(at 78.74 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT" output
+			(at 93.98 156.21 0)
+			(uuid "8d4c4381-ed75-43e4-a8f0-03296e89a16e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "#EN" input
+			(at 78.74 160.02 180)
+			(uuid "b978f5c4-2a2d-45be-8c1c-2890f641386c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 78.74 152.4 180)
+			(uuid "662bc120-aeb8-4153-bc51-b30dffe9dbbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 341.63 35.56)
+		(size 26.67 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbcfb661-1d23-45dc-813f-0febc1515a98")
+		(property "Sheetname" "Ideal_Diode_OR_12V_BUCK"
+			(at 341.63 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+			(at 341.63 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 368.3 44.45 0)
+			(uuid "ae65b4e4-6188-4d56-9068-39f251b31b47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "#EN" input
+			(at 341.63 48.26 180)
+			(uuid "b8bfce90-a4a3-42c7-b08a-ab49817a44d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN" input
+			(at 341.63 40.64 180)
+			(uuid "a7299165-54cd-4862-98a4-a13050fef618")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 520.7 293.37)
+		(size 13.97 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0f45e16-4740-446f-ae55-03461fa88791")
+		(property "Sheetname" "ServoConnectors"
+			(at 520.7 292.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../connectors/ServoConnectors.kicad_sch"
+			(at 520.7 325.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "servo_vcc" input
+			(at 520.7 295.91 180)
+			(uuid "c2795d77-748e-444b-b5bf-1d96da828737")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3v3_receiver" input
+			(at 520.7 321.31 180)
+			(uuid "9fed1e97-85b8-4113-8f15-a043109b6c3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 135.89)
+		(size 29.21 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "edbb302e-07de-47c0-9e17-f5f094cbde02")
+		(property "Sheetname" "TPS16630RGER_CHARGING_EFUSE"
+			(at 123.19 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TPS16630RGER_CHARGING_EFUSE.kicad_sch"
+			(at 123.19 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN_VCC" input
+			(at 123.19 138.43 180)
+			(uuid "0b46be0c-5a4b-4dd7-b714-c18e46f24753")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_VCC_LIMITED" output
+			(at 152.4 138.43 0)
+			(uuid "16af9482-c741-49e2-bcc4-d91405b2b8ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 123.19 142.24 180)
+			(uuid "fd34f0df-4238-451f-a100-6b61b477515a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 461.01 242.57)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "edc91f8c-d810-4cb3-9371-ed9a44c3aaeb")
+		(property "Sheetname" "JST-VH-12V-PIN2"
+			(at 459.74 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JST-VH-12V-PIN.kicad_sch"
+			(at 461.01 255.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT-" output
+			(at 469.9 242.57 90)
+			(uuid "1316b428-08ee-4968-9d69-36180e4ab05a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT+" output
+			(at 464.82 242.57 90)
+			(uuid "8cca8b81-4e3e-4cae-9150-62a5013bebb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 467.36 250.19 270)
+			(uuid "4e3ed5e7-8c03-4ea0-9eef-3e8988c70c68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "13")
 				)
 			)
 		)

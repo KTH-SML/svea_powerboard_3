@@ -1464,131 +1464,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2410,16 +2285,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 125.73) (xy 58.42 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb5677c-66b6-4d2b-80e8-afa865b54908")
-	)
-	(wire
-		(pts
 			(xy 236.22 64.77) (xy 236.22 59.69)
 		)
 		(stroke
@@ -2540,16 +2405,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 139.7) (xy 152.4 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f6a0ab0-a721-4af6-b9bb-e24c9df63e7a")
-	)
-	(wire
-		(pts
 			(xy 217.17 49.53) (xy 231.14 49.53)
 		)
 		(stroke
@@ -2577,26 +2432,6 @@
 			(type default)
 		)
 		(uuid "59804337-785d-4a84-9c9c-a39ebbd43dcb")
-	)
-	(wire
-		(pts
-			(xy 83.82 135.89) (xy 121.92 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cddd1b6-8bcf-48ce-93c1-ece9e9e50e2e")
-	)
-	(wire
-		(pts
-			(xy 116.84 143.51) (xy 121.92 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c33031-3933-45e4-b361-113c757ae89d")
 	)
 	(wire
 		(pts
@@ -2667,16 +2502,6 @@
 			(type default)
 		)
 		(uuid "8902765d-0ed8-49a5-8e2a-070de78a985b")
-	)
-	(wire
-		(pts
-			(xy 58.42 135.89) (xy 68.58 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8961265a-930b-4485-b445-7d8e2deb6347")
 	)
 	(wire
 		(pts
@@ -2910,26 +2735,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 142.24) (xy 68.58 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7a8ba7-efa9-49e8-a3d8-8135554223f8")
-	)
-	(wire
-		(pts
-			(xy 152.4 139.7) (xy 152.4 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e27eee40-cc4e-4f94-a436-5a055d8c44ea")
-	)
-	(wire
-		(pts
 			(xy 90.17 27.94) (xy 90.17 31.75)
 		)
 		(stroke
@@ -2958,26 +2763,6 @@
 		)
 		(uuid "22471c89-fd78-4d95-a65b-dcdd5f81a7f1")
 	)
-	(global_label "MCU-12V-EN-BUCK"
-		(shape input)
-		(at 66.04 142.24 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "3139a03c-76ae-47a0-a61b-44e7d607f41f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.04 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU-5V-#EN"
 		(shape input)
 		(at 102.87 53.34 180)
@@ -2990,26 +2775,6 @@
 		(uuid "4d764ceb-9ab4-48b8-a120-9bddfbbfdf4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "#MCU-EN-12V-DIODE"
-		(shape input)
-		(at 116.84 143.51 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "707e3add-55bb-49b7-b9ec-c7044a409236")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,72 +2800,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 152.4 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f1b16c8-8f92-4249-b1ff-afdb4cefd64a")
-		(property "Reference" "#PWR010"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 152.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9e80f06-9ef0-428b-803d-b1acab7b7a07")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR010")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3913,71 +3612,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 58.42 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82d1872f-89d6-48aa-8e8d-27824c9d6bb1")
-		(property "Reference" "#PWR05"
-			(at 58.42 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 58.42 121.92 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10c8a648-ff0a-4be2-9b6a-7f9cd24175b9")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5133,79 +4767,6 @@
 		)
 	)
 	(sheet
-		(at 68.58 132.08)
-		(size 15.24 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "15fec07c-dcab-49b4-bc69-93178962f645")
-		(property "Sheetname" "12v_LTM8055_BUCK"
-			(at 68.58 131.3684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../power/12v_LTM8055_BUCK.kicad_sch"
-			(at 68.58 146.6346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "OUT" output
-			(at 83.82 135.89 0)
-			(uuid "e4b5db65-ed51-455d-91ae-f8370e99c1f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 68.58 135.89 180)
-			(uuid "42637b9f-251e-438d-a415-55904d71fe9b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EN" input
-			(at 68.58 142.24 180)
-			(uuid "41ea7432-55ed-4ce2-bb88-0c498c8ac91a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 111.76 97.79)
 		(size 19.05 8.89)
 		(exclude_from_sim no)
@@ -5274,78 +4835,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
 					(page "30")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 121.92 130.81)
-		(size 26.67 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "56f40e84-8a38-4192-912b-faed71ffe17a")
-		(property "Sheetname" "Ideal_Diode_OR_12V_BUCK"
-			(at 121.92 130.0984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
-			(at 121.92 149.1746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 148.59 139.7 0)
-			(uuid "e8b33fce-7308-48c2-b1d7-d02a6ac56200")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EN" input
-			(at 121.92 143.51 180)
-			(uuid "c7492e05-6677-4399-8e71-d8d774911a75")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IN" input
-			(at 121.92 135.89 180)
-			(uuid "627846be-0628-4d20-b17a-1440bd801e6b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(page "15")
 				)
 			)
 		)

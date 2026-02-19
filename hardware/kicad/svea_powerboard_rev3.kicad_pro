@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -631,56 +631,72 @@
       "External IO"
     ],
     [
-      "fd895c56-1f73-4de6-9004-66480fed624d",
+      "31f44477-0097-4e02-b6ff-5111b8556cfe",
       "Charger Buck Stage"
     ],
     [
-      "a569b4fb-18f7-4921-9830-c8930d760905",
-      "Ideal_Diode_OR_PACK+_VCC"
+      "a048a8c1-de8c-4417-9e40-d40a18f390ce",
+      "Ideal_Diode_OR_CHARGING_PORT"
     ],
     [
-      "f22766b7-6544-4c2c-af1d-04f0b38ae762",
-      "Ideal_Diode_OR_USBC"
-    ],
-    [
-      "5e71df20-7239-4bf1-9827-a4af4f86ebc7",
+      "ad660ab0-1da6-44b7-9096-9ee4c3bc2383",
       "Ideal_Diode_OR_DC_PORT"
     ],
     [
-      "0d1071cc-3706-4e96-81d1-b7dd6bc05359",
+      "ca919776-c91b-4883-8f90-f75d19396b00",
+      "Ideal_Diode_OR_PACK+_VCC"
+    ],
+    [
+      "3defe835-7f3e-4186-81ed-0e8caa47e3eb",
       "CUR1"
     ],
     [
-      "c04a8b84-9d58-45a7-96fa-7e4afa222998",
+      "03241f80-3125-4f5b-a1a0-add76ba31aaa",
       "JST-VH-12V-PIN"
     ],
     [
-      "b7257bae-0d14-4c2b-a2b3-f323a6ca99da",
+      "b3c2b899-37d0-4be6-83c2-2e989d7fd2d2",
       "JST-VH-12V-PIN1"
     ],
     [
-      "29ea472b-ee5a-4d07-b3cb-ff1e906ade20",
+      "edc91f8c-d810-4cb3-9371-ed9a44c3aaeb",
       "JST-VH-12V-PIN2"
     ],
     [
-      "15fec07c-dcab-49b4-bc69-93178962f645",
+      "535c4b9d-dd70-4891-8336-b5700298b4d1",
       "12v_LTM8055_BUCK"
     ],
     [
-      "56f40e84-8a38-4192-912b-faed71ffe17a",
+      "dbcfb661-1d23-45dc-813f-0febc1515a98",
       "Ideal_Diode_OR_12V_BUCK"
     ],
     [
-      "3db78506-2962-4003-ab31-73ac5d1e4439",
-      "Servo Power"
-    ],
-    [
-      "38fea5b3-8788-4b38-b7f8-af1a818b7421",
+      "8eee6623-4878-45b2-bdab-0e37d3220c38",
       "Ideal_Diode_OR_SERVO"
     ],
     [
-      "a6bb7f50-92f5-4185-89d8-f39df4422306",
+      "5e87fa27-0735-4860-928c-5f9d8795dad6",
+      "Servo Power Buck"
+    ],
+    [
+      "d932e0fc-7b09-4e74-a033-a342c08a0a15",
+      "Ideal_Diode_OR_USBC"
+    ],
+    [
+      "edbb302e-07de-47c0-9e17-f5f094cbde02",
+      "TPS16630RGER_CHARGING_EFUSE"
+    ],
+    [
+      "a994f324-c6f3-4ed0-9a66-85e49eba80ab",
       "USB-C Input"
+    ],
+    [
+      "e0f45e16-4740-446f-ae55-03461fa88791",
+      "ServoConnectors"
+    ],
+    [
+      "1d4a251e-4375-4aab-85e0-d11dfb5595c0",
+      "mt9700-efuse"
     ],
     [
       "a68287e1-0132-459f-8ffe-0b4658425697",
@@ -699,32 +715,12 @@
       "BoardExtras"
     ],
     [
-      "5602daa7-78fd-4f1a-8c94-62869666e560",
-      "ServoConnectors"
-    ],
-    [
       "99962c67-039e-4e4e-9d34-f46cf0e34c3a",
       "CUR2"
     ],
     [
-      "c32f280f-6573-443c-b2d4-3f0cf47d53e1",
-      "TPS16630RGER_CHARGING_EFUSE"
-    ],
-    [
-      "020fd3e8-beba-4baf-8b2d-2b5748e88ce3",
-      "Ideal_Diode_OR_CHARGING_PORT"
-    ],
-    [
-      "1ab26688-c62b-4751-9925-b75256f43ad8",
-      "mt9700-efuse"
-    ],
-    [
       "64dc17a6-df55-4b08-a790-579737ebfa84",
       "INA226_SINGLE_CURR_SENSOR"
-    ],
-    [
-      "3735f9a5-0e5b-421b-948c-5dfc2d5e1f4a",
-      "12V-VH-PORTS"
     ],
     [
       "261b4c59-ebc7-47a2-bb10-0e71ece0f9bf",
