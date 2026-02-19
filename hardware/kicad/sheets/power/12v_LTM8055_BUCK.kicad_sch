@@ -2,12 +2,8 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "7cc1f6cd-575e-47f9-ab15-8d06ba110d48")
-	(paper "User" 437.51 244.47)
-	(title_block
-		(title "12V Rail")
-		(date "2026-02-16")
-	)
+	(uuid "5d7f83f7-62a1-4bd9-8027-a492dba47303")
+	(paper "A4")
 	(lib_symbols
 		(symbol "5v rail sm-easyedapro:0603WAF1003T5E"
 			(exclude_from_sim no)
@@ -1490,131 +1486,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:Ground-GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.5748 1.5748)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Ground-GND_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:JER2512F3R007"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2132,208 +2003,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "5v rail sm-easyedapro:Power-5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power-5V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Power-5V_1_0"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 1.27)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "5v rail sm-easyedapro:Power-VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.5748 1.5748)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Power-VCC_1_0"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 1.27)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -6158,1321 +5827,1229 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "0x60"
+	(text "8.3A"
 		(exclude_from_sim no)
-		(at 66.04 124.46 0)
+		(at 255.27 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4224782c-54e8-4eec-8295-49379e36ccb7")
+		(uuid "5bdc2b53-3b5c-46e2-9530-039c4f48fbef")
 	)
 	(text "7.5ms"
 		(exclude_from_sim no)
-		(at 59.69 91.44 0)
+		(at 98.806 102.616 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7ce08371-6b64-4807-926c-61f56f2d0f5c")
+		(uuid "678f7dcc-2e14-44ea-83f1-927430a3f3de")
 	)
-	(text "8.3A"
+	(text "0x60"
 		(exclude_from_sim no)
-		(at 279.4 59.69 0)
+		(at 99.06 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a9f4f4e4-3e62-4991-9541-d649ea4f37c4")
+		(uuid "a204c643-3796-4921-b67c-0fb36e1e9624")
 	)
 	(junction
-		(at 130.81 52.07)
+		(at 227.33 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "11e0d4d8-1a0b-4b65-9128-64769de1740d")
+		(uuid "113f174c-2587-49cb-a17e-3346124d0120")
 	)
 	(junction
-		(at -27.94 52.07)
+		(at 72.39 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20ca6a00-db5f-4cfc-9e3b-c68b05b96675")
+		(uuid "1b601ed0-f78e-44ed-a019-2e6f517645e2")
 	)
 	(junction
-		(at 31.75 133.35)
+		(at 266.7 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3589611d-93f1-45c1-b134-86cbc05f3219")
+		(uuid "1daf681a-9046-420b-a672-7bee4f0b223b")
 	)
 	(junction
-		(at 311.15 52.07)
+		(at 238.76 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39f81396-e1dc-4dca-a882-efbb31dafe9e")
+		(uuid "28cc1ec1-a678-499a-bedc-1d623ca27b31")
 	)
 	(junction
-		(at -15.24 52.07)
+		(at 227.33 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c4e4006-0f46-4f5d-8e42-51672c78b07b")
+		(uuid "427de7b9-c681-4d0a-9ea3-b81bd7aab159")
 	)
 	(junction
-		(at 29.21 59.69)
+		(at 180.34 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e981c85-8f97-4d20-bbe4-5255b5d0771b")
+		(uuid "47bec5fb-5fac-4826-af87-53a47e5dc4b8")
 	)
 	(junction
-		(at -27.94 101.6)
+		(at 120.65 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c3b633e-4339-4d7d-b85e-84cad58ff268")
+		(uuid "6f1e7095-7eb4-49dc-ae4b-6eb01bf52ede")
 	)
 	(junction
-		(at 73.66 144.78)
+		(at 86.36 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4efe649d-5b16-40be-aa9f-bfb44ba90895")
+		(uuid "703982e6-c55c-4c27-98d6-b005c82c6258")
 	)
 	(junction
-		(at 255.27 85.09)
+		(at 30.48 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5db2b2e7-913b-4f75-bbd2-cbdfa5fcac1d")
+		(uuid "7887b630-872d-4624-96dd-590e83f1e4d9")
 	)
 	(junction
-		(at 154.94 110.49)
+		(at 30.48 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "689a3e28-25b7-498f-b838-aa7e53a635b7")
+		(uuid "81ed7157-da23-449f-b508-c529594c9462")
 	)
 	(junction
-		(at 60.96 52.07)
+		(at 156.21 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "690688a3-d546-47aa-9529-2f000381312b")
+		(uuid "977aafaf-6910-4831-83be-5c36982e1399")
 	)
 	(junction
-		(at 255.27 52.07)
+		(at 238.76 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b218c15-e76d-4c32-9622-7bb75e0f2ec9")
+		(uuid "b6ac22f0-12d5-43cf-94d1-6d8fb40f7c68")
 	)
 	(junction
-		(at 298.45 52.07)
+		(at 43.18 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b1ca3dd-9811-4db6-962f-ca7a23c4b352")
+		(uuid "bcdb93e0-65ff-48dd-a4f8-f1f889e8ec05")
 	)
 	(junction
-		(at 290.83 52.07)
+		(at 80.01 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b2243fb-fb62-4a0b-a922-49150bfcb8cc")
+		(uuid "c9f388bf-a253-465d-ae43-7e79c19b51c2")
 	)
 	(junction
-		(at -15.24 101.6)
+		(at 250.19 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7eebd57d-245a-4b6f-bf73-4b1f5f0c860e")
+		(uuid "cc1327de-8764-4f5e-81ac-2baf9b708655")
 	)
 	(junction
-		(at 95.25 101.6)
+		(at 250.19 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85b1d064-8cb3-4bea-86bd-a07afbb83a55")
+		(uuid "cd7b4184-f226-4d00-b02d-1cc61b5362c6")
 	)
 	(junction
-		(at 39.37 151.13)
+		(at 266.7 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95bd6d26-e84e-4013-837a-4f9155167872")
+		(uuid "db61cac9-c3f7-45fe-bdf4-be487f2496cb")
 	)
 	(junction
-		(at 46.99 133.35)
+		(at 64.77 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9a1d76c8-d188-4718-a18d-2ef465f8ca00")
+		(uuid "dd36b610-4a9b-48a2-a300-de237d19ba2a")
 	)
 	(junction
-		(at 237.49 52.07)
+		(at 43.18 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd175e96-5b38-4b26-a835-570ff8d995ce")
+		(uuid "f0a3f8ec-0bf5-4836-a388-b5368a4f973a")
 	)
 	(junction
-		(at 270.51 52.07)
+		(at 106.68 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5841cea-8811-4604-8f92-74691945f662")
-	)
-	(junction
-		(at 304.8 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2a8aa10-5aa9-4a17-89cb-d17e945d31b3")
-	)
-	(junction
-		(at 237.49 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f54ca2ff-91fd-45df-aea9-9d7c9d92e537")
+		(uuid "f978299d-09b8-4622-a810-b896ff4f790b")
 	)
 	(no_connect
-		(at 175.26 77.47)
-		(uuid "0032f205-ee8a-4793-add7-92fa2287692f")
+		(at 200.66 81.28)
+		(uuid "6645838e-a2ec-4870-9595-1e3408395b75")
 	)
 	(no_connect
-		(at 175.26 67.31)
-		(uuid "f04cd167-dc3e-46ad-ae66-431ef9cf29bb")
+		(at 200.66 91.44)
+		(uuid "b8c514f6-c9da-4c5d-98dd-c09728b934be")
 	)
 	(wire
 		(pts
-			(xy 95.25 101.6) (xy 95.25 106.68)
+			(xy 82.55 83.82) (xy 160.02 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "067de5e6-9f1b-44eb-968e-7e6515a7580a")
+		(uuid "0177c5fb-6005-427c-ad3c-35188c60e838")
 	)
 	(wire
 		(pts
-			(xy 311.15 76.2) (xy 304.8 76.2)
+			(xy 250.19 99.06) (xy 250.19 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07c6064e-e027-4c49-9932-6cec81cea2a0")
+		(uuid "025b4add-ef2c-4690-b543-07647f887e1e")
 	)
 	(wire
 		(pts
-			(xy 63.5 133.35) (xy 46.99 133.35)
+			(xy 86.36 66.04) (xy 156.21 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0eb5d5dd-9fb6-4f86-909d-c3867a6ac90e")
+		(uuid "0621be50-0748-4ca7-b6b6-d5f7a864e7da")
 	)
 	(wire
 		(pts
-			(xy 39.37 151.13) (xy 46.99 151.13)
+			(xy 80.01 165.1) (xy 80.01 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10844024-55db-4d7e-ba7a-b42efa9b6239")
+		(uuid "07624fe4-1dcc-4ec4-bf2e-b2875aa0aaee")
 	)
 	(wire
 		(pts
-			(xy -40.64 101.6) (xy -40.64 82.55)
+			(xy 86.36 71.12) (xy 87.63 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1305cfbf-3bf1-4b49-b6a6-b3c2109af5d1")
+		(uuid "08cdd366-b03a-4281-9673-565b39f02803")
 	)
 	(wire
 		(pts
-			(xy 63.5 128.27) (xy 57.15 128.27)
+			(xy 238.76 87.63) (xy 238.76 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "171116b9-5bb9-42ca-876f-e7009071afb3")
+		(uuid "0df9aafb-2982-4f71-898c-45bfe165ad4a")
 	)
 	(wire
 		(pts
-			(xy 121.92 77.47) (xy 134.62 77.47)
+			(xy 250.19 66.04) (xy 250.19 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1867eb3a-79c4-4099-a7ff-3478d190489c")
+		(uuid "0f5f8bbc-5186-4284-8bdf-53c29c26a308")
 	)
 	(wire
 		(pts
-			(xy 31.75 133.35) (xy 31.75 137.16)
+			(xy 72.39 165.1) (xy 64.77 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "193b37af-f9d8-407a-9df5-f592bb095aaf")
+		(uuid "1379f24d-8cef-49ab-a6fa-ce90aa55c8c6")
 	)
 	(wire
 		(pts
-			(xy -27.94 52.07) (xy -27.94 73.66)
+			(xy 227.33 69.85) (xy 227.33 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e32af79-c0d9-4305-a18c-333761c2076e")
+		(uuid "13e6622e-e582-4409-91ed-4eb1e7db983b")
 	)
 	(wire
 		(pts
-			(xy 255.27 85.09) (xy 270.51 85.09)
+			(xy 116.84 144.78) (xy 125.73 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e97f273-ad5b-40ff-bc30-9421582f9747")
+		(uuid "1ca46e08-fb35-4c17-95f2-9cb57fe7fd86")
 	)
 	(wire
 		(pts
-			(xy 304.8 76.2) (xy 304.8 80.01)
+			(xy 86.36 64.77) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fcf1281-fd3b-4acb-b92a-cd46ff7dc6bb")
+		(uuid "1ef4b619-19a1-41af-918e-0544c37b366c")
 	)
 	(wire
 		(pts
-			(xy 219.71 43.18) (xy 219.71 54.61)
+			(xy 90.17 86.36) (xy 90.17 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20756c27-b14a-46ee-b773-5c89f85162a7")
+		(uuid "2347c824-7e9d-456c-a75b-3e3449383559")
 	)
 	(wire
 		(pts
-			(xy 73.66 144.78) (xy 87.63 144.78)
+			(xy 30.48 64.77) (xy 17.78 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22a23317-98e8-40cd-97c7-2b04f90505dc")
+		(uuid "243461a0-570e-42ab-a592-0f1d0c621ce3")
 	)
 	(wire
 		(pts
-			(xy 134.62 54.61) (xy 130.81 54.61)
+			(xy 90.17 158.75) (xy 106.68 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2323edf6-df47-47c4-b3e0-d427328186f5")
+		(uuid "25f030df-8159-46f5-8443-8919a359ab95")
 	)
 	(wire
 		(pts
-			(xy 87.63 128.27) (xy 83.82 128.27)
+			(xy 180.34 139.7) (xy 180.34 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2446edb7-1708-4b34-8890-25a646f76f9b")
+		(uuid "2bed72f5-d7ae-48b1-b746-260e2af1f627")
 	)
 	(wire
 		(pts
-			(xy 290.83 52.07) (xy 298.45 52.07)
+			(xy 238.76 99.06) (xy 250.19 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25e59ec4-0f3e-48c9-acb4-6e2025e6c7dd")
+		(uuid "3016fc76-4c30-475a-84ad-43316d8f4296")
 	)
 	(wire
 		(pts
-			(xy -27.94 101.6) (xy -40.64 101.6)
+			(xy 96.52 142.24) (xy 90.17 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d58c858-fdd8-4d82-a8c5-22a34885067a")
+		(uuid "3066c74d-8369-49f0-84f0-bd697dc58ffe")
 	)
 	(wire
 		(pts
-			(xy -27.94 49.53) (xy -27.94 52.07)
+			(xy 200.66 68.58) (xy 220.98 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dc36144-909e-488a-920f-4ea896eb1f00")
+		(uuid "312cc50a-d404-459a-ae25-9a1dcd0d7214")
 	)
 	(wire
 		(pts
-			(xy 130.81 64.77) (xy 134.62 64.77)
+			(xy 72.39 165.1) (xy 80.01 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ec637de-f619-4a26-9ea9-4f3facc9701c")
+		(uuid "31b020f4-5508-41d6-8b21-3935401d7d1a")
 	)
 	(wire
 		(pts
-			(xy 85.09 80.01) (xy 134.62 80.01)
+			(xy 266.7 99.06) (xy 276.86 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ed1eb06-1e8d-4b1e-96d2-69057f7750f4")
+		(uuid "32b7bcfa-e0c9-4ea9-a1ed-5991a12e6f30")
 	)
 	(wire
 		(pts
-			(xy 31.75 147.32) (xy 31.75 151.13)
+			(xy 156.21 124.46) (xy 156.21 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3152bd3c-68a0-46b2-9ed1-5c6971f42119")
+		(uuid "3379e0d2-f667-495f-a34c-a9067295ae5f")
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 95.25 86.36)
+			(xy 72.39 168.91) (xy 72.39 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37cd2ef3-a2cf-4e9c-a666-6a610320e431")
+		(uuid "34cda4a2-511a-4b8f-ae79-18175eca0e9f")
 	)
 	(wire
 		(pts
-			(xy -15.24 101.6) (xy -27.94 101.6)
+			(xy 160.02 99.06) (xy 120.65 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37d1c404-5f22-46c9-ad6e-4820769e5a18")
+		(uuid "3a7dfbc1-4d55-40ea-905d-cd41ee418d02")
 	)
 	(wire
 		(pts
-			(xy 270.51 85.09) (xy 270.51 74.93)
+			(xy 110.49 93.98) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "389e7bc3-2aaf-46d9-ae6c-0a750373cb54")
+		(uuid "448ea20b-734d-4979-94c3-5e9fd330e615")
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 154.94 130.81)
+			(xy 17.78 64.77) (xy 17.78 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e73f109-1c97-44bc-80aa-8d1a24cb9cd0")
+		(uuid "476800cf-41eb-4097-9b6c-b2e0ec2d80ae")
 	)
 	(wire
 		(pts
-			(xy 237.49 55.88) (xy 237.49 52.07)
+			(xy 238.76 66.04) (xy 238.76 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41c529c5-f5c2-49bc-8d1f-0a775c957e4c")
+		(uuid "4a11fbbd-bfc8-4029-b105-ea6bfe5b0596")
 	)
 	(wire
 		(pts
-			(xy 39.37 151.13) (xy 31.75 151.13)
+			(xy 43.18 64.77) (xy 43.18 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42f5ea1f-0aee-4314-ae20-4ce61cc8995f")
+		(uuid "4fbb328e-55b6-45c4-b9d3-ac5092d3e43a")
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 134.62 57.15)
+			(xy 96.52 144.78) (xy 90.17 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43965b20-c637-4085-8239-a72e760afcc9")
+		(uuid "5091a8cd-63d1-4b35-a9e5-b08aae799140")
 	)
 	(wire
 		(pts
-			(xy 60.96 52.07) (xy 60.96 57.15)
+			(xy 123.19 148.59) (xy 123.19 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45b316b8-e508-4d4e-855a-e992aa09836c")
+		(uuid "5148ab06-ab24-431a-adad-25bf0d8baabe")
 	)
 	(wire
 		(pts
-			(xy 255.27 52.07) (xy 255.27 64.77)
+			(xy 200.66 106.68) (xy 200.66 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46b32293-8fe6-452f-b838-e97a0750ba82")
+		(uuid "55608599-8979-47ff-b2a1-2a08cc734285")
 	)
 	(wire
 		(pts
-			(xy 57.15 69.85) (xy 134.62 69.85)
+			(xy 43.18 114.3) (xy 30.48 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46d0c7c6-2a66-43e3-92b0-1e093a648a74")
+		(uuid "55ec688f-49a3-4d04-8e77-549d1cbd7529")
 	)
 	(wire
 		(pts
-			(xy 57.15 130.81) (xy 57.15 144.78)
+			(xy 64.77 161.29) (xy 64.77 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c6b4c5c-06b3-4cf4-a20f-71f9e5684c93")
+		(uuid "595fc103-7a10-4838-b129-7bfe60270c6d")
 	)
 	(wire
 		(pts
-			(xy 175.26 52.07) (xy 237.49 52.07)
+			(xy 227.33 66.04) (xy 238.76 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "506c3a9b-0562-4665-9a46-4d3a17c14567")
+		(uuid "5e3a13aa-017e-4147-8788-95a44d010b2b")
 	)
 	(wire
 		(pts
-			(xy -15.24 101.6) (xy 29.21 101.6)
+			(xy 110.49 93.98) (xy 110.49 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "510d3957-c79e-4f4c-b9e9-599d97567ac8")
+		(uuid "62880f79-fef2-4a02-9aa8-267ef91e4e24")
 	)
 	(wire
 		(pts
-			(xy 237.49 68.58) (xy 237.49 71.12)
+			(xy 120.65 142.24) (xy 116.84 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "531b61eb-8c66-49b7-8f54-6a34deea244c")
+		(uuid "633d829f-0fe4-4caf-b860-01df52a6dbe1")
 	)
 	(wire
 		(pts
-			(xy 69.85 96.52) (xy 69.85 93.98)
+			(xy 180.34 124.46) (xy 180.34 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53df986a-e966-4a0d-8cde-b026c118cd35")
+		(uuid "65a85a99-f4d7-45b5-8fcb-7aaa1bc88a9c")
 	)
 	(wire
 		(pts
-			(xy -15.24 81.28) (xy -15.24 101.6)
+			(xy 30.48 114.3) (xy 17.78 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "620b41c3-793a-4573-b777-775fb7354df8")
+		(uuid "6646fed3-742c-4e23-a9bd-ed089227b58c")
 	)
 	(wire
 		(pts
-			(xy 237.49 85.09) (xy 237.49 81.28)
+			(xy 171.45 124.46) (xy 180.34 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "622f3a4a-83ed-40cf-80f5-e244e5d109dd")
+		(uuid "66ade07f-351c-4911-ac1e-53021fcb49d9")
 	)
 	(wire
 		(pts
-			(xy 298.45 64.77) (xy 298.45 52.07)
+			(xy 106.68 158.75) (xy 120.65 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "637b4989-581f-4391-938d-5359dda60716")
+		(uuid "68e9d9ac-0bb9-4e9a-874b-2ed56ecab9dd")
 	)
 	(wire
 		(pts
-			(xy 219.71 59.69) (xy 175.26 59.69)
+			(xy 156.21 78.74) (xy 160.02 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63eee939-d8ae-476f-b8fe-a346105a9fd2")
+		(uuid "6938902c-f7b1-467e-a4f0-dcdc63dd92fd")
 	)
 	(wire
 		(pts
-			(xy 270.51 52.07) (xy 276.86 52.07)
+			(xy 205.74 93.98) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68236c35-4610-4aa6-855d-ad3acd8625d2")
+		(uuid "6ada75a1-25d7-4b0f-8d5a-d51db1deae37")
 	)
 	(wire
 		(pts
-			(xy 39.37 154.94) (xy 39.37 151.13)
+			(xy 220.98 57.15) (xy 220.98 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e37a363-926c-41dd-b24f-ecce070b4c90")
+		(uuid "6b6cd211-ce66-48fa-8d06-487e3d5c4a28")
 	)
 	(wire
 		(pts
-			(xy 311.15 52.07) (xy 363.22 52.07)
+			(xy 110.49 109.22) (xy 110.49 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f56eda3-9641-4e3a-86ef-c5f39a08e9c0")
+		(uuid "6bc8a944-a022-4f73-8bc5-fc681148f65a")
 	)
 	(wire
 		(pts
-			(xy 311.15 52.07) (xy 311.15 64.77)
+			(xy 120.65 142.24) (xy 120.65 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71359aea-a487-49e6-80f9-98e92589a544")
+		(uuid "6cf68254-679a-4c16-a50d-3602b4667c2d")
 	)
 	(wire
 		(pts
-			(xy -27.94 52.07) (xy -40.64 52.07)
+			(xy 95.25 110.49) (xy 95.25 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73ae6aa6-0da9-438b-9369-9846b340e417")
+		(uuid "72636b6a-2f22-48fc-b6ad-60ef393e9c83")
 	)
 	(wire
 		(pts
-			(xy 85.09 95.25) (xy 85.09 101.6)
+			(xy 120.65 99.06) (xy 120.65 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77993ca6-9a03-43b2-8ade-e5f16dbea3a7")
+		(uuid "75282c1a-28e2-4538-9c2c-ffc020f5faff")
 	)
 	(wire
 		(pts
-			(xy 219.71 54.61) (xy 175.26 54.61)
+			(xy 156.21 68.58) (xy 156.21 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ab704f1-fe5f-47aa-b29f-30503bba893e")
+		(uuid "7805e2fe-d059-4c9b-a9f5-2ad96e422488")
 	)
 	(wire
 		(pts
-			(xy 60.96 52.07) (xy 130.81 52.07)
+			(xy 250.19 99.06) (xy 266.7 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e0a7a46-8537-46ed-990e-f865a081a75f")
+		(uuid "7afe143f-0c82-426f-9dfe-5da952c6c932")
 	)
 	(wire
 		(pts
-			(xy 283.21 43.18) (xy 219.71 43.18)
+			(xy 220.98 82.55) (xy 220.98 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85376513-1265-42c7-9df6-3adbe46c5027")
+		(uuid "81dd134f-d54d-4229-bac4-a53790dd4547")
 	)
 	(wire
 		(pts
-			(xy -15.24 52.07) (xy -15.24 73.66)
+			(xy 205.74 124.46) (xy 205.74 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86422bdd-ce70-47df-897b-b5881f85086b")
+		(uuid "81ee3ed2-6c56-426c-93b7-8eebe745f2a6")
 	)
 	(wire
 		(pts
-			(xy 290.83 43.18) (xy 288.29 43.18)
+			(xy 123.19 148.59) (xy 125.73 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8808e53a-f31f-46d3-bf8e-ea8932ebef20")
+		(uuid "83f4fee5-304b-4787-b9d6-216abc5474d7")
 	)
 	(wire
 		(pts
-			(xy 57.15 72.39) (xy 57.15 128.27)
+			(xy 238.76 99.06) (xy 227.33 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "889fcf4c-c8c6-4789-b742-472edbf6caf8")
+		(uuid "84b10131-ebd4-46ea-beb9-86fa27ff4f45")
 	)
 	(wire
 		(pts
-			(xy 255.27 91.44) (xy 255.27 85.09)
+			(xy 238.76 105.41) (xy 238.76 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89f3cb6c-7790-45ba-aa80-3e0fea0ec7e7")
+		(uuid "85dfc2be-c60f-46a1-8bf0-d7b78a82064d")
 	)
 	(wire
 		(pts
-			(xy 219.71 68.58) (xy 237.49 68.58)
+			(xy 110.49 115.57) (xy 120.65 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b2d5229-d304-4a18-b68c-a2b3bfe70cb2")
+		(uuid "86fd7d3c-e48d-4d71-8ff7-b8603cf7fb36")
 	)
 	(wire
 		(pts
-			(xy 31.75 133.35) (xy 46.99 133.35)
+			(xy 180.34 124.46) (xy 205.74 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cc17a60-75b3-4125-b05f-922b204bbbd3")
+		(uuid "87c1d881-21ba-408d-88b3-77d58e568b61")
 	)
 	(wire
 		(pts
-			(xy 24.13 59.69) (xy 29.21 59.69)
+			(xy 54.61 114.3) (xy 54.61 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90648bd6-3b7c-4eaf-9d06-314925ed3617")
+		(uuid "889398e1-11eb-452b-95c0-98297a17473e")
 	)
 	(wire
 		(pts
-			(xy 29.21 101.6) (xy 29.21 92.71)
+			(xy 266.7 66.04) (xy 266.7 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9208b42d-39d9-415d-b36f-a9edfd257465")
+		(uuid "8d9c5582-bb8a-47b6-856b-51dfbf6279e8")
 	)
 	(wire
 		(pts
-			(xy 255.27 85.09) (xy 237.49 85.09)
+			(xy 227.33 99.06) (xy 227.33 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9de2d2a8-e825-4abb-a78a-906dce99c019")
+		(uuid "92186bda-31d6-4567-9df7-2e4b4b6ecd7a")
 	)
 	(wire
 		(pts
-			(xy 29.21 59.69) (xy 134.62 59.69)
+			(xy 120.65 115.57) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a08d9bab-b191-4d79-981d-8f3fe705dbf2")
+		(uuid "92eceb70-7f34-49ca-9180-6d56d9336c17")
 	)
 	(wire
 		(pts
-			(xy -27.94 52.07) (xy -15.24 52.07)
+			(xy 120.65 115.57) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a51c1ec6-778f-4202-8b04-c4cc896a954a")
+		(uuid "98daf1ae-163e-4183-8dce-70a47f7902de")
 	)
 	(wire
 		(pts
-			(xy 311.15 76.2) (xy 311.15 72.39)
+			(xy 227.33 82.55) (xy 227.33 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7120cd0-9cee-453f-882c-9f585e65f4e3")
+		(uuid "99131c90-4e16-429b-a01a-10ce65626925")
 	)
 	(wire
 		(pts
-			(xy 69.85 72.39) (xy 134.62 72.39)
+			(xy 156.21 91.44) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa308102-79f4-4751-baaf-039f58ec0ad0")
+		(uuid "9c16b14e-377e-4576-8c13-48cc3dc8fcd7")
 	)
 	(wire
 		(pts
-			(xy 73.66 148.59) (xy 73.66 144.78)
+			(xy 123.19 147.32) (xy 116.84 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adae8546-532b-4fcd-b6aa-a4e51401dd87")
+		(uuid "9d77fdc4-adfa-4720-954f-486dce74bef2")
 	)
 	(wire
 		(pts
-			(xy 46.99 133.35) (xy 46.99 137.16)
+			(xy 80.01 147.32) (xy 80.01 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0b3b902-8c9e-4f32-b0d5-e2b21df68e77")
+		(uuid "9d986120-f59e-4ce8-a9d8-82ca3918170f")
 	)
 	(wire
 		(pts
-			(xy 175.26 64.77) (xy 180.34 64.77)
+			(xy 54.61 73.66) (xy 160.02 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b407b460-44b0-4a86-a56d-a8458e4f3620")
+		(uuid "a019f628-f0a9-48aa-9881-4ca595147c2a")
 	)
 	(wire
 		(pts
-			(xy 87.63 128.27) (xy 87.63 144.78)
+			(xy 276.86 66.04) (xy 276.86 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b52cc0fc-c4ca-4d0e-8a93-2721c64720f9")
+		(uuid "a23d2bee-96ab-4842-8322-3449454570e6")
 	)
 	(wire
 		(pts
-			(xy 90.17 135.89) (xy 92.71 135.89)
+			(xy 30.48 64.77) (xy 30.48 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b63ff7eb-c05a-4e41-a516-71b4d342fc44")
+		(uuid "aa858991-ae94-4f0e-a900-a2f6dcf52089")
 	)
 	(wire
 		(pts
-			(xy 185.42 110.49) (xy 185.42 80.01)
+			(xy 266.7 66.04) (xy 276.86 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbe81ffa-7ab8-4d85-b61d-969d74fb1253")
+		(uuid "ae28fddb-3496-4e8e-a01b-9905664d20f8")
 	)
 	(wire
 		(pts
-			(xy 57.15 144.78) (xy 73.66 144.78)
+			(xy 43.18 64.77) (xy 86.36 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc395580-603f-4241-905c-fbb8b94d4816")
+		(uuid "af94d964-5e5e-40d3-8bb4-3c44e0fd4e4c")
 	)
 	(wire
 		(pts
-			(xy 397.51 55.88) (xy 389.89 55.88)
+			(xy 30.48 119.38) (xy 30.48 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc8db4dc-d26b-49e3-abd2-c840829de3f3")
+		(uuid "b28982ea-011f-409d-9196-fc8c35ec1a98")
 	)
 	(wire
 		(pts
-			(xy 237.49 52.07) (xy 255.27 52.07)
+			(xy 43.18 93.98) (xy 43.18 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be24d740-916f-4ddd-ab5e-63a7d57f3647")
+		(uuid "b2b8391a-235f-4828-a950-525f1f79810d")
 	)
 	(wire
 		(pts
-			(xy 290.83 52.07) (xy 290.83 43.18)
+			(xy 220.98 82.55) (xy 227.33 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf04daeb-1758-4c93-842b-386cc37baf25")
+		(uuid "b41b5cc6-6266-4ba1-9fc4-b0864ba43b60")
 	)
 	(wire
 		(pts
-			(xy 358.14 59.69) (xy 363.22 59.69)
+			(xy 64.77 142.24) (xy 64.77 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0c87c00-7df6-439a-bb6b-ddad35f35116")
+		(uuid "baee3c26-edaf-44c4-b3b6-7511b965aaa0")
 	)
 	(wire
 		(pts
-			(xy 237.49 66.04) (xy 237.49 68.58)
+			(xy 215.9 83.82) (xy 215.9 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0c99d2f-1f84-4d0a-8452-eeb3791ecc53")
+		(uuid "bc53a278-fc3d-440a-a4da-5f9dc60f474b")
 	)
 	(wire
 		(pts
-			(xy 154.94 110.49) (xy 154.94 115.57)
+			(xy 95.25 71.12) (xy 160.02 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c29159a3-6558-4126-9dac-8c52fc31f2dd")
+		(uuid "bd77dcb8-2e6b-43a2-be9e-a19ecded1c69")
 	)
 	(wire
 		(pts
-			(xy 85.09 101.6) (xy 95.25 101.6)
+			(xy 215.9 78.74) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c43fddbb-0f59-4435-8a24-ec56414c8914")
+		(uuid "c4ed4198-06fd-459d-90c8-0452121d5084")
 	)
 	(wire
 		(pts
-			(xy 219.71 68.58) (xy 219.71 59.69)
+			(xy 276.86 99.06) (xy 276.86 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c516e86c-5dda-465d-8bc2-276d7ce3ad0f")
+		(uuid "c641158d-1e7f-4539-a834-b43e96dca304")
 	)
 	(wire
 		(pts
-			(xy 154.94 110.49) (xy 185.42 110.49)
+			(xy 266.7 68.58) (xy 266.7 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6513491-e472-4364-9613-5dca010e0153")
+		(uuid "c6cc234b-4de3-4809-acca-e640a14e502a")
 	)
 	(wire
 		(pts
-			(xy 90.17 133.35) (xy 83.82 133.35)
+			(xy 200.66 73.66) (xy 220.98 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c723b6bd-0e1e-4bf2-8f93-50840e980cc0")
+		(uuid "c88e63e3-0008-48eb-b629-a6c51eb492e8")
 	)
 	(wire
 		(pts
-			(xy -27.94 106.68) (xy -27.94 101.6)
+			(xy 86.36 66.04) (xy 86.36 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8141344-5e32-46b9-8cd6-46e3a9cc0c44")
+		(uuid "c92c0a52-a2e6-498c-9b62-ccf74571475e")
 	)
 	(wire
 		(pts
-			(xy 130.81 52.07) (xy 134.62 52.07)
+			(xy 238.76 66.04) (xy 250.19 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c817db1b-11e8-4213-a508-5bd22262728b")
+		(uuid "caf3b617-1768-4c26-8441-6f6f6f15a6d4")
 	)
 	(wire
 		(pts
-			(xy 270.51 52.07) (xy 255.27 52.07)
+			(xy 262.89 66.04) (xy 266.7 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb5d3f6c-4a11-426f-98e3-da35022bf635")
+		(uuid "cbc2854d-4947-4231-87af-e799137fd4e1")
 	)
 	(wire
 		(pts
-			(xy 135.89 110.49) (xy 121.92 110.49)
+			(xy 17.78 114.3) (xy 17.78 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd59664a-90c6-4cd5-aed6-3df363c5de84")
+		(uuid "cd8d3771-1c55-4a1e-ad50-ac9af0efb77b")
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 69.85 72.39)
+			(xy 64.77 147.32) (xy 64.77 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf2b6700-d52b-4203-9e77-d6c328d93488")
+		(uuid "cf13e55a-12b4-4cfc-9082-307c9dae5331")
 	)
 	(wire
 		(pts
-			(xy 121.92 110.49) (xy 121.92 77.47)
+			(xy 54.61 73.66) (xy 54.61 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d316f66a-f4ba-4617-9a23-5b88372a5f1e")
+		(uuid "cf9924c4-bfd4-4ac6-a253-ab86760f1f01")
 	)
 	(wire
 		(pts
-			(xy 63.5 130.81) (xy 57.15 130.81)
+			(xy 95.25 100.33) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3e00b5e-f474-4896-bf01-effee627441c")
+		(uuid "d197d749-32c8-4fee-98f4-6f29606ce0c4")
 	)
 	(wire
 		(pts
-			(xy 130.81 54.61) (xy 130.81 52.07)
+			(xy 64.77 147.32) (xy 80.01 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3f976bc-786a-4ff0-a27b-aa39f7f663ff")
+		(uuid "d6bcae2e-2792-46d2-a080-87381ce9905e")
 	)
 	(wire
 		(pts
-			(xy 31.75 128.27) (xy 31.75 133.35)
+			(xy 30.48 93.98) (xy 30.48 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d429890a-52ad-4de9-9e93-585c43af968b")
+		(uuid "d83d20d8-95e0-41f7-901a-9b5f0db6ffab")
 	)
 	(wire
 		(pts
-			(xy 90.17 135.89) (xy 90.17 133.35)
+			(xy 106.68 162.56) (xy 106.68 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6ada71e-672d-4ffc-b039-c2b3ddf86657")
+		(uuid "d87d1cc6-36c8-4a0d-8223-9800030092aa")
 	)
 	(wire
 		(pts
-			(xy 287.02 52.07) (xy 290.83 52.07)
+			(xy 43.18 114.3) (xy 54.61 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d70625c5-ea00-4db3-a9bd-114888a3764e")
+		(uuid "e23e01f2-cbd9-4f34-b663-ddb8997256d4")
 	)
 	(wire
 		(pts
-			(xy 85.09 80.01) (xy 85.09 87.63)
+			(xy 95.25 86.36) (xy 160.02 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da2e8cba-97fd-486f-854c-f8f5826cabeb")
+		(uuid "e2e29647-cc6d-455b-9dda-aac0ab0d23a8")
 	)
 	(wire
 		(pts
-			(xy 60.96 57.15) (xy 62.23 57.15)
+			(xy 266.7 57.15) (xy 264.16 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dca06134-8a1e-4a01-9d99-322c08eed6b2")
+		(uuid "e646f8d7-20bb-4e0e-9ffd-618d1042e3b1")
 	)
 	(wire
 		(pts
-			(xy 298.45 52.07) (xy 311.15 52.07)
+			(xy 227.33 80.01) (xy 227.33 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de61ce99-ee74-4c00-8c5d-7aa19ef50f53")
+		(uuid "e703af1b-8d86-4ade-8b18-3fb53d90dc7c")
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 95.25 85.09)
+			(xy 156.21 66.04) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dec33b61-e963-4260-a172-18f7eedcfbfd")
+		(uuid "e7ce7204-3ae0-486c-8b56-4f15392398d9")
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 154.94 110.49)
+			(xy 250.19 66.04) (xy 252.73 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1932851-5e46-4920-bc34-e71ef2ba1623")
+		(uuid "e8e67612-9703-493a-bd59-b0e61baae08d")
 	)
 	(wire
 		(pts
-			(xy -15.24 52.07) (xy 60.96 52.07)
+			(xy 259.08 57.15) (xy 220.98 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3ea8720-f2fd-4813-955b-55ed12522447")
+		(uuid "ef2042ca-7881-43ea-8037-f6f93fa570e4")
 	)
 	(wire
 		(pts
-			(xy 29.21 59.69) (xy 29.21 82.55)
+			(xy 90.17 144.78) (xy 90.17 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e40541f7-4837-4d3b-9ca9-6c229b0b085d")
+		(uuid "ef5e2ae0-5a1d-4763-b9f4-41723b641af1")
 	)
 	(wire
 		(pts
-			(xy 46.99 151.13) (xy 46.99 147.32)
+			(xy 161.29 124.46) (xy 156.21 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8a49ec6-ee53-46a0-aa9d-740b9029a446")
+		(uuid "f2c58eed-467e-41b6-ba86-b6658bc78a86")
 	)
 	(wire
 		(pts
-			(xy 270.51 52.07) (xy 270.51 64.77)
+			(xy 160.02 68.58) (xy 156.21 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8cf7320-5cc6-4d94-a1af-30ec6fe5b69e")
+		(uuid "f5b184ad-0bc6-46e6-9dff-a83778bdefef")
 	)
 	(wire
 		(pts
-			(xy 298.45 76.2) (xy 298.45 72.39)
+			(xy 200.66 66.04) (xy 227.33 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eab223da-5fb1-40ad-a8aa-985bfa91fc12")
+		(uuid "fa58a34a-d838-4d0d-956c-17f9b0aca602")
 	)
 	(wire
 		(pts
-			(xy 175.26 92.71) (xy 175.26 87.63)
+			(xy 266.7 99.06) (xy 266.7 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed4b2b27-1ad3-4daf-a077-5fdf5ff1cc5e")
+		(uuid "fd666c6c-041b-4d39-a157-f5a707940408")
 	)
 	(wire
 		(pts
-			(xy -27.94 81.28) (xy -27.94 101.6)
+			(xy 30.48 64.77) (xy 43.18 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2e60f2e-96cb-4ba7-927f-67c297851347")
+		(uuid "fd75571e-4ffa-49e4-8eb4-29697b6b3866")
 	)
 	(wire
 		(pts
-			(xy 185.42 80.01) (xy 175.26 80.01)
+			(xy 96.52 147.32) (xy 80.01 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f727dc2b-a26f-4deb-9853-d71c757223db")
+		(uuid "fe27b4fa-887b-443b-875d-2caa27b578d3")
 	)
 	(wire
 		(pts
-			(xy 95.25 101.6) (xy 95.25 96.52)
+			(xy 90.17 86.36) (xy 82.55 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7a1c988-16c3-40b6-b450-96422bacd8d7")
-	)
-	(wire
-		(pts
-			(xy 304.8 76.2) (xy 298.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7e6317d-d7e1-42e0-a429-84add54665b8")
-	)
-	(wire
-		(pts
-			(xy 255.27 74.93) (xy 255.27 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f94315ce-1f97-4e00-8701-28ac2cfc9a73")
-	)
-	(wire
-		(pts
-			(xy -40.64 52.07) (xy -40.64 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9c7996a-caf6-4af9-9b54-6901155768b2")
-	)
-	(wire
-		(pts
-			(xy 83.82 130.81) (xy 92.71 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5d1b64-ef4a-43c8-a31c-ccff121c7102")
+		(uuid "ffcd4727-00b2-47e7-86b6-1be401d220ae")
 	)
 	(label "LTM8055-SYNC"
-		(at 88.9 80.01 0)
+		(at 114.3 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6117660c-5a15-4bdb-9e84-1439e9b8190f")
-	)
-	(global_label "#MCU-EN-12V-DIODE"
-		(shape input)
-		(at 358.14 59.69 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "1168e483-a279-4b41-89cd-21bb624b6225")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU-12V-IINMON"
-		(shape output)
-		(at 130.81 64.77 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "24bf2cab-d159-41da-b7fa-3be60ac919be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		(uuid "2436bc37-a9cd-478b-ae76-de7946623671")
 	)
 	(global_label "MCU-12V-IOUTMON"
 		(shape output)
-		(at 180.34 64.77 0)
+		(at 215.9 83.82 270)
 		(effects
 			(font
 				(size 1.5748 1.5748)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "3a416b0e-694b-46aa-bb63-9eff97c4cb5b")
+		(uuid "1b6eabd7-3b66-4bd2-8698-373e989471ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 64.77 0)
+			(at 215.9 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,36 +7060,16 @@
 	)
 	(global_label "SDA_SLOW"
 		(shape input)
-		(at 92.71 135.89 0)
+		(at 125.73 148.59 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
 			)
 			(justify left)
 		)
-		(uuid "5d3d8725-318f-4645-a5a4-915315b1aa4d")
+		(uuid "244338b0-a553-42ed-ba89-0abe33d25ba2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU-12V-EN-BUCK"
-		(shape input)
-		(at 24.13 59.69 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "8e12cc30-6344-42a4-a5e5-b2fbdb0ce9b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 59.69 0)
+			(at 125.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,16 +7080,16 @@
 	)
 	(global_label "SCL_SLOW"
 		(shape input)
-		(at 92.71 130.81 0)
+		(at 125.73 144.78 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
 			)
 			(justify left)
 		)
-		(uuid "9c3246c3-8322-49e1-9752-e46f389417e8")
+		(uuid "9591cc41-b5f7-4205-b61a-f2f5e911bc25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 130.81 0)
+			(at 125.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,183 +7098,70 @@
 			)
 		)
 	)
-	(hierarchical_label "12V_BUCK_INPUT"
-		(shape input)
-		(at -27.94 49.53 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f7ce12c-6568-41b4-8076-a204af00c110")
-	)
-	(hierarchical_label "12V-BUCK-DIODED"
+	(global_label "MCU-12V-IINMON"
 		(shape output)
-		(at 397.51 55.88 0)
+		(at 156.21 78.74 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "c78b38a4-4067-4aa4-a1bf-3499c5f3c9e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 54.61 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d33f5d1-0007-4e25-9aa0-032a30b481be")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 276.86 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b4be773d-65bc-4652-9d29-1b8f35af7bd7")
+		(uuid "5610aa1e-8b6a-4711-9ab7-660b2465bc59")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 17.78 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "960c6bff-81ed-4376-aa0b-df171431a10c")
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 285.75 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00e7420e-d4b3-4c39-a54e-7334ad9c1f07")
-		(property "Reference" "NT23"
-			(at 285.75 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 285.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
-			(at 285.75 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 285.75 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 285.75 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8808d344-9237-4bbe-b0d2-b7c32311badf")
-		)
-		(pin "1"
-			(uuid "14975ab6-2a9c-4799-8241-19e624c21e0e")
-		)
-		(instances
-			(project ""
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "NT23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 57.15 90)
+		(lib_id "5v rail sm-easyedapro:CL21A475KBQNNNE")
+		(at 30.48 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "05641117-16fe-40cd-8c34-0a9f6f3590da")
-		(property "Reference" "R172"
-			(at 71.12 54.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 71.12 56.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 58.928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 66.04 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63adf3c5-541e-40d2-ab3a-bb0effac1b30")
-		)
-		(pin "1"
-			(uuid "a39f7b84-b1b5-46c6-9188-e45273ee1a6c")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "R172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:CL10B224KB8NNNC")
-		(at 69.85 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "116d680a-257a-4222-a938-1f29ede7a0f0")
-		(property "Reference" "C130"
-			(at 73.66 91.44 90)
+		(uuid "02530301-cb6f-48aa-8bac-9626b6576e73")
+		(property "Reference" "C74"
+			(at 34.29 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,497 +7169,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "220nF"
-			(at 73.66 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B224KB8NNNC/65773.html"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:220nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CL10B224KB8NNNC"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C64705"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "220nF ±10% 50V"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8e919a8-95db-49a0-86ed-ba112c1adb88")
-		)
-		(pin "2"
-			(uuid "00c50299-e02d-46f1-99a0-90a7960ffa1c")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 96.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b3c9945-9711-49b2-be03-f7a4fc6806f4")
-		(property "Reference" "#PWR056"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 102.87 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e381c06e-76a6-4cc1-96b4-2e310f4da3f5")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:JER2512F3R007")
-		(at 281.94 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d9d02ff-0c8e-417a-9392-65eb821eb733")
-		(property "Reference" "R165"
-			(at 279.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "7mΩ"
-			(at 279.4 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 281.94 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/JER2512F3R007/51553032.html"
-			(at 281.94 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Current Sense Resistor Resistance:7mΩ Tolerance:±1% Tolerance:±1% Power(Watts):3W Temperature Coefficient:±50ppm/°C Temperature Coefficient:±50ppm/°C"
-			(at 281.94 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "JER2512F3R007"
-			(at 281.94 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JIERR(捷而瑞)"
-			(at 281.94 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C49164689"
-			(at 281.94 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 281.94 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "7mΩ 3W 2512 ±1%"
-			(at 281.94 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43e71133-2395-477b-906d-0d52c865600b")
-		)
-		(pin "1"
-			(uuid "e5f96a1d-91cd-40d4-869b-ab3142975261")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "R165")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fbdf670-c62c-4e9f-9ef9-8e4c8a5593cd")
-		(property "Reference" "#PWR054"
-			(at 73.66 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 154.94 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67fc2aaa-7b7a-4ef6-b537-ae25b358ed28")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 255.27 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2081be76-f845-4e8a-a1f0-34fee094f9c9")
-		(property "Reference" "#PWR046"
-			(at 255.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 97.79 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94d22317-e9c6-4908-ab8e-bbab8ac7c938")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "264bda6d-6919-4993-9b16-43f40348626a")
-		(property "Reference" "#PWR045"
-			(at 175.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d7ba17e-02e4-4de0-8e53-d8a4ce4f0aa3")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:CL21A226MAQNNNE")
-		(at 255.27 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29ca01b2-3367-4c65-81ee-62ef1010e02f")
-		(property "Reference" "C114"
-			(at 259.08 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "22uF"
-			(at 259.08 72.39 90)
+		(property "Value" "4.7uF"
+			(at 34.29 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +7179,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 255.27 69.85 0)
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,8 +7187,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL21A226MAQNNNE/46786.html"
-			(at 255.27 69.85 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL21A475KBQNNNE/99401.html"
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,8 +7196,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:22uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
-			(at 255.27 69.85 0)
+		(property "Description" "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X5R"
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,8 +7205,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL21A226MAQNNNE"
-			(at 255.27 69.85 0)
+		(property "Manufacturer Part" "CL21A475KBQNNNE"
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +7215,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 255.27 69.85 0)
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,8 +7223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C45783"
-			(at 255.27 69.85 0)
+		(property "Supplier Part" "C98192"
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +7233,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 255.27 69.85 0)
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,25 +7241,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "22uF ±20% 25V"
-			(at 255.27 69.85 0)
+		(property "LCSC Part Name" "4.7uF ±10% 50V"
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "97f25f46-1ea9-459a-90f9-7b17828dd3ee")
 		)
 		(pin "2"
-			(uuid "5ec9be5d-3d55-4f79-acd7-50a0dda3380e")
+			(uuid "c01948bf-f414-4b14-b460-b007b0e116de")
+		)
+		(pin "1"
+			(uuid "fe24ae6c-eefd-4985-9c96-29d7f9295a5f")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C114")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -8312,15 +7267,15 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:PZ254V-11-02P")
-		(at 52.07 71.12 180)
+		(at 77.47 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "29e78fd3-0ad6-4f84-9a4f-505f5f0876a0")
-		(property "Reference" "H6"
-			(at 52.07 66.04 90)
+		(uuid "08f401d0-23d2-49c8-9dd0-700c507041a5")
+		(property "Reference" "H4"
+			(at 77.47 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +7284,7 @@
 			)
 		)
 		(property "Value" "PZ254V-11-02P"
-			(at 54.61 66.04 90)
+			(at 80.01 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +7294,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
-			(at 52.07 71.12 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +7303,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html"
-			(at 52.07 71.12 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +7312,7 @@
 			)
 		)
 		(property "Description" "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connect"
-			(at 52.07 71.12 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +7321,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PZ254V-11-02P"
-			(at 52.07 71.12 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,7 +7330,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN(兴飞)"
-			(at 52.07 71.12 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +7339,7 @@
 			)
 		)
 		(property "Supplier Part" "C492401"
-			(at 52.07 71.12 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +7348,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 52.07 71.12 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +7357,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x2P 间距:2.54mm 方针 直插"
-			(at 52.07 71.12 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,434 +7366,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d52e02a-4a33-4b9b-8ae7-69f163f288c6")
+			(uuid "6fa42cc8-079c-4900-8aaf-fcd537d5704b")
 		)
 		(pin "2"
-			(uuid "cbe7e592-8ca6-4f47-8b18-344dec23b393")
+			(uuid "e4d0c218-7438-4c50-a667-9ae84395e875")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:MCP4725A0T-E/CH")
-		(at 73.66 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "312ede44-6fda-484e-9e2d-12569e0ba3cb")
-		(property "Reference" "U61"
-			(at 66.04 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MCP4725A0T-E/CH"
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/MCP4725A0T-E%252FCH/155530.html"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resolution(Bits):12Bit Number of Channels:1 Interface:I2C Voltage - Supply:2.7V~5.5V Voltage - Supply:2.7V~5.5V Settling Time:6us Output Type:- INL/DNL(LSB):2LSB INL/DNL(LSB):2LSB Operating Temperature:-40°C~+125°C Operating Temperature:-40°C~+125°C"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "MCP4725A0T-E/CH"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MICROCHIP(美国微芯)"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C144198"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "MCP4725A0T-E/CH"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e358c3bd-0c5e-486f-b94e-80e5009ac809")
-		)
-		(pin "2"
-			(uuid "a522573b-ab29-484e-955c-b14cb5859eec")
-		)
-		(pin "3"
-			(uuid "f5f279e2-a62b-40b5-954a-b18dd356bf8a")
-		)
-		(pin "6"
-			(uuid "5fcff898-86df-4467-b93b-02508621b0f4")
-		)
-		(pin "5"
-			(uuid "c43b2a36-3bbd-4726-b1bd-750d8ae5e6c4")
-		)
-		(pin "4"
-			(uuid "91b0947c-7acf-4688-b012-a5efc47d145c")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "U61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RVT1H470M0607")
-		(at 298.45 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "331fc3fb-ce48-4265-8913-057d1e1dc926")
-		(property "Reference" "C115"
-			(at 302.26 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "47uF"
-			(at 302.26 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD"
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RVT1H470M0607/73634.html"
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:66mA@120Hz Equivalent Series Resistance(ESR):- Diameter:6.3mm Height - Seated (Max):7.7mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+1"
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RVT1H470M0607"
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROQANG(容强)"
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C72523"
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "47uF ±20% 50V"
-			(at 298.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bb5fba6-ec9a-4d5f-8f0f-df2aef3ead99")
-		)
-		(pin "2"
-			(uuid "f25420d6-91e4-4c22-9fe3-3e7510a4aa4b")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 31.75 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36cd6638-b770-4a14-99a1-5b48dc37ea2e")
-		(property "Reference" "#PWR051"
-			(at 31.75 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 31.75 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 31.75 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9e8be06-f716-44c5-a063-f8a82f4e4be8")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:FRC0603F3652TS")
-		(at 95.25 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38bfb805-7752-458a-9f5b-472a734bf063")
-		(property "Reference" "R171"
-			(at 97.79 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "36.5kΩ"
-			(at 97.79 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:36.5kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "FRC0603F3652TS"
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2930095"
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "36.5kΩ ±1% 100mW 厚膜电阻"
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02e813b0-b880-4c07-89cc-c35ace49f25b")
-		)
-		(pin "2"
-			(uuid "ac75cbf2-cb2a-4ba2-9e4c-bd4fe64e8f8c")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "R171")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -8846,15 +7382,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -27.94 106.68 0)
+		(at 95.25 110.49 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3b56b146-6397-490e-a8ac-2b2bfe1a9bb1")
-		(property "Reference" "#PWR053"
-			(at -27.94 106.68 0)
+		(uuid "0a6b3736-007e-49c7-8f2e-859deb08aef0")
+		(property "Reference" "#PWR061"
+			(at 95.25 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +7400,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -27.94 111.76 0)
+			(at 95.25 116.84 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -8871,7 +7408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -27.94 106.68 0)
+			(at 95.25 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +7417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -27.94 106.68 0)
+			(at 95.25 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +7426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -27.94 106.68 0)
+			(at 95.25 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,28 +7435,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e2f242f-eae5-4a4c-827d-295e1bc4e563")
+			(uuid "e30afc3c-3515-4cbd-925a-5e82a4517483")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR053")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
-		(at 154.94 120.65 90)
+		(lib_id "5v rail sm-easyedapro:CL10B224KB8NNNC")
+		(at 95.25 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4aaeadf8-8543-420c-9c3d-df5083e16efc")
-		(property "Reference" "C131"
-			(at 158.75 120.65 90)
+		(uuid "0d0ff4ea-6fb3-4506-9801-7878db699a14")
+		(property "Reference" "C78"
+			(at 99.06 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,8 +7464,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100nF"
-			(at 158.75 123.19 90)
+		(property "Value" "220nF"
+			(at 99.06 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,7 +7474,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 154.94 120.65 0)
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,8 +7482,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
-			(at 154.94 120.65 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B224KB8NNNC/65773.html"
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,8 +7491,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 154.94 120.65 0)
+		(property "Description" "Capacitance:220nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,201 +7500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C14663"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100nF ±10% 50V"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdb3f9fc-c32e-4ed5-ad42-92243bded72a")
-		)
-		(pin "2"
-			(uuid "1f806b59-2ee5-4598-af0a-884f7e23f97f")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 85.09 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56bc1e7b-7188-488b-a793-8f72be8af96e")
-		(property "Reference" "R170"
-			(at 87.63 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 87.63 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 83.312 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "07e5ce1b-9b3e-47ed-bb1c-e4ff6ede6a8f")
-		)
-		(pin "1"
-			(uuid "b3e24369-c57d-4a61-b1ab-a0a881d93d7f")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "R170")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:CL21A475KBQNNNE")
-		(at -15.24 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b81f040-04f9-4427-84e7-220889c3ce1b")
-		(property "Reference" "C129"
-			(at -11.43 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at -11.43 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -15.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL21A475KBQNNNE/99401.html"
-			(at -15.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X5R"
-			(at -15.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CL21A475KBQNNNE"
-			(at -15.24 77.47 0)
+		(property "Manufacturer Part" "CL10B224KB8NNNC"
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +7510,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at -15.24 77.47 0)
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,122 +7518,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C98192"
-			(at -15.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at -15.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "4.7uF ±10% 50V"
-			(at -15.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fa0c9da-a7a6-4544-a5b5-157962ebad35")
-		)
-		(pin "2"
-			(uuid "8bb8b4b6-8b50-4f51-9699-78d5193b5730")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:FRC0603J104 TS")
-		(at 29.21 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d07e40a-e7ec-476e-9a45-b2af2a4eb20e")
-		(property "Reference" "R168"
-			(at 31.75 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100kΩ"
-			(at 31.75 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 29.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±5% Tolerance:±5% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 29.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "FRC0603J104 TS"
-			(at 29.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 29.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2907088"
-			(at 29.21 87.63 0)
+		(property "Supplier Part" "C64705"
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +7528,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 29.21 87.63 0)
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,433 +7536,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "100kΩ ±5% 100mW 厚膜电阻"
-			(at 29.21 87.63 0)
+		(property "LCSC Part Name" "220nF ±10% 50V"
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "03928112-da61-430c-906a-2fb1bb84ca03")
 		)
 		(pin "2"
-			(uuid "59516284-2124-4d93-9ac2-d7207f3ee563")
-		)
-		(pin "1"
-			(uuid "437f8477-da48-4a18-977c-98266e07eb57")
+			(uuid "8b4e01e8-bf6a-4e59-9b95-58ec30df0d49")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "R168")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:0603WAF1003T5E")
-		(at 237.49 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ff2e5a5-cbb8-43ae-b52e-d1967caaac39")
-		(property "Reference" "R155"
-			(at 240.03 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100kΩ"
-			(at 240.03 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1003T5E/26546.html"
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0603WAF1003T5E"
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C25803"
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100kΩ ±1% 100mW 厚膜电阻"
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "367ef1de-baa4-47f3-9826-7359ed480d8c")
-		)
-		(pin "1"
-			(uuid "851bd084-f0cb-4336-a26f-7b6c528056ec")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "R155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:CL21A475KBQNNNE")
-		(at -27.94 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70005d1a-84ab-48ec-a192-1f6f2d58ad10")
-		(property "Reference" "C124"
-			(at -24.13 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at -24.13 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at -27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL21A475KBQNNNE/99401.html"
-			(at -27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X5R"
-			(at -27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CL21A475KBQNNNE"
-			(at -27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at -27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C98192"
-			(at -27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at -27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "4.7uF ±10% 50V"
-			(at -27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c350b58c-8a22-4bc5-a6d6-2f2dd20aabff")
-		)
-		(pin "1"
-			(uuid "9340a507-eb0d-4de0-b27b-4a5573417382")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74bbf29f-8cad-4da6-af38-e28c5b96ee66")
-		(property "Reference" "#PWR055"
-			(at 95.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 113.03 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "943121e3-a6cc-4cb6-8375-4ffe805dcba9")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:FRC0603F1102TS")
-		(at 237.49 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "774bd441-325d-4211-9dd9-4a74fb59d4b2")
-		(property "Reference" "R158"
-			(at 240.03 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "11kΩ"
-			(at 240.03 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:11kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "FRC0603F1102TS"
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2906986"
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "11kΩ ±1% 100mW 厚膜电阻"
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cafd821-a2e0-4cf8-bd0a-1f2d92a47302")
-		)
-		(pin "2"
-			(uuid "92276088-21be-4b12-88dd-3486561b709d")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "R158")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -9740,15 +7562,15 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:RVT1H101M0607")
-		(at -40.64 77.47 270)
+		(at 17.78 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "87c6991b-f5e2-4478-b099-3aefc1a51dcf")
-		(property "Reference" "C122"
-			(at -36.83 77.47 90)
+		(uuid "0e758fee-059f-4f59-a8a9-ed2288828c3a")
+		(property "Reference" "C73"
+			(at 21.59 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +7579,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at -36.83 80.01 90)
+			(at 21.59 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,7 +7588,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-RD"
-			(at -40.64 77.47 0)
+			(at 17.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +7597,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170325/1490427950282.pdf"
-			(at -40.64 77.47 0)
+			(at 17.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +7606,7 @@
 			)
 		)
 		(property "Description" "Capacitance: Tolerance:±20% Tolerance:±20% Voltage Rating: Ripple Current:229mA@120Hz Diameter: Height - Seated (Max): Lifetime: Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
-			(at -40.64 77.47 0)
+			(at 17.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,7 +7615,7 @@
 			)
 		)
 		(property "Manufacturer Part" "RVT1H101M0607"
-			(at -40.64 77.47 0)
+			(at 17.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9802,7 +7624,7 @@
 			)
 		)
 		(property "Manufacturer" "ROQANG(容强)"
-			(at -40.64 77.47 0)
+			(at 17.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9811,7 +7633,7 @@
 			)
 		)
 		(property "Supplier Part" "C3151829"
-			(at -40.64 77.47 0)
+			(at 17.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9820,7 +7642,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at -40.64 77.47 0)
+			(at 17.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,7 +7651,7 @@
 			)
 		)
 		(property "LCSC Part Name" "100uF ±20% 50V"
-			(at -40.64 77.47 0)
+			(at 17.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,31 +7660,99 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbcd39a8-e467-4ddb-baec-e0df3458cc0a")
+			(uuid "05279d78-385e-480a-8bdf-ea7705c51bf9")
 		)
 		(pin "2"
-			(uuid "b2b011a7-e2da-4221-b0ba-3698911f407c")
+			(uuid "77f75367-2b7f-4540-a37f-3d216196463b")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C122")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C73")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
-		(at 31.75 142.24 90)
+		(lib_id "Device:NetTie_2")
+		(at 261.62 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "169bae3a-b0d4-4e03-baf7-da83297d9c30")
+		(property "Reference" "NT24"
+			(at 261.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+			(at 261.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 261.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e9f5408-578f-4703-abb4-8ded27e2eeca")
+		)
+		(pin "1"
+			(uuid "33ea971e-3b0e-47a2-bd64-5a11c3c016c2")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "NT24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:FRC0603F3652TS")
+		(at 120.65 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d918a9d-9369-4888-ad6f-41882e31fa11")
-		(property "Reference" "C123"
-			(at 35.56 142.24 90)
+		(uuid "1b325030-20f1-41f4-8029-b8a9b7983404")
+		(property "Reference" "R130"
+			(at 123.19 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,8 +7760,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100nF"
-			(at 35.56 144.78 90)
+		(property "Value" "36.5kΩ"
+			(at 123.19 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,8 +7769,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 31.75 142.24 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 120.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,8 +7778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
-			(at 31.75 142.24 0)
+		(property "Datasheet" ""
+			(at 120.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,8 +7787,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 31.75 142.24 0)
+		(property "Description" "Type:Thick Film Resistor Resistance:36.5kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 120.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,8 +7796,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 31.75 142.24 0)
+		(property "Manufacturer Part" "FRC0603F3652TS"
+			(at 120.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,8 +7805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 31.75 142.24 0)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 120.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,8 +7814,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C14663"
-			(at 31.75 142.24 0)
+		(property "Supplier Part" "C2930095"
+			(at 120.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9934,7 +7824,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 31.75 142.24 0)
+			(at 120.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,8 +7832,122 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "100nF ±10% 50V"
-			(at 31.75 142.24 0)
+		(property "LCSC Part Name" "36.5kΩ ±1% 100mW 厚膜电阻"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "118f2947-ecdd-42e8-af76-956ebbbfcc10")
+		)
+		(pin "2"
+			(uuid "66ef66fb-ebc1-4721-bb0d-d8e1b18d5486")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "R130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:0603WAF1003T5E")
+		(at 227.33 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c6c76eb-7347-4271-b60b-7a31c990e125")
+		(property "Reference" "R131"
+			(at 229.87 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 229.87 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1003T5E/26546.html"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1003T5E"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C25803"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "100kΩ ±1% 100mW 厚膜电阻"
+			(at 227.33 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,15 +7956,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cc0c5269-9267-4365-aef6-dda5c0a041ba")
+			(uuid "9995a69a-f431-44a4-9444-636c53d52a36")
 		)
 		(pin "1"
-			(uuid "dd149774-f60c-4e81-980d-54c66f1386e0")
+			(uuid "08a5b8eb-cf19-4d53-80e9-0926990972ea")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C123")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "R131")
 					(unit 1)
 				)
 			)
@@ -9968,16 +7972,16 @@
 	)
 	(symbol
 		(lib_id "Snapeda:LTM8055IY_PBF")
-		(at 154.94 69.85 0)
+		(at 180.34 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91701292-0f40-4782-b234-34a47392adfd")
-		(property "Reference" "U58"
-			(at 154.94 44.45 0)
+		(uuid "420a388e-2732-4de3-9aff-836b49d6b095")
+		(property "Reference" "U45"
+			(at 180.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +7989,7 @@
 			)
 		)
 		(property "Value" "LTM8055IY_PBF"
-			(at 154.94 46.99 0)
+			(at 180.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,7 +7997,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:BGA121C127P11X11_1500X1500X512N"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,7 +8007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10012,7 +8016,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10021,7 +8025,7 @@
 			)
 		)
 		(property "MF" "Analog Devices"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,7 +8035,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.12 mm"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +8045,7 @@
 			)
 		)
 		(property "Package" "BGA -121 Analog Devices"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10051,7 +8055,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +8065,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LTM8055IY%23PBF/Analog+Devices/view-part/?ref=eda"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,7 +8075,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10081,7 +8085,7 @@
 			)
 		)
 		(property "PARTREV" "Rev C"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +8095,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTM8055IY%23PBF/Analog+Devices/view-part/?ref=snap"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +8105,7 @@
 			)
 		)
 		(property "MP" "LTM8055IY#PBF"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +8115,7 @@
 			)
 		)
 		(property "Description_1" "Non-Isolated PoL Module DC DC Converter 1 Output 1.2 ~ 36V - - 8.5A 5V - 36V Input"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +8125,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +8135,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Analog Devices"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10141,7 +8145,7 @@
 			)
 		)
 		(property "Supplier Part" "C690729"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,7 +8154,7 @@
 			)
 		)
 		(property "LCSC Part Name" "36VIN、8.5A 降压-升压型 uModule 稳压器"
-			(at 154.94 69.85 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,486 +8163,372 @@
 			)
 		)
 		(pin "J10"
-			(uuid "6181e21e-1907-46f9-98be-c02a58ed7319")
+			(uuid "9b2276dc-f20d-4d52-9ccf-bd475fba50b0")
 		)
 		(pin "J11"
-			(uuid "89945ec5-59c0-48fe-b669-e885be31408e")
+			(uuid "55547ace-27e2-46ec-9bee-f76a7b1265f8")
 		)
 		(pin "F10"
-			(uuid "d7f441bf-4e33-4c7d-a499-fc5f5a848f09")
+			(uuid "5558c17d-3e6a-40f5-a5a9-72cdc247577d")
 		)
 		(pin "L11"
-			(uuid "db7a2c30-b46c-4a66-9781-587c211697d5")
+			(uuid "b055873f-2f2d-4297-834d-d13921821070")
 		)
 		(pin "K10"
-			(uuid "fed738de-3c76-4bd2-8f6c-c35b883c152d")
+			(uuid "f631fcd6-242b-4a29-b8bf-1646314bbcb6")
 		)
 		(pin "L10"
-			(uuid "f3faa4c6-def0-4041-87d6-f0e4ef0f4aa8")
+			(uuid "f5cbabc4-e5b4-47af-bfff-72007c5aa07a")
 		)
 		(pin "K11"
-			(uuid "30c9446a-ff0b-4903-9f43-5893185a7780")
+			(uuid "96497331-9e2b-4055-9c73-21403cc40c78")
 		)
 		(pin "L3"
-			(uuid "c78932de-8fa2-4fe3-8181-c9c2ae3bce39")
+			(uuid "23e9113a-2a50-46e0-a9b2-db7cd67fe947")
 		)
 		(pin "K1"
-			(uuid "900408d6-f08f-4cf3-8e4d-b80d8e8f6c4c")
+			(uuid "c8e33183-fc21-43de-bd4a-3bbdde64c153")
 		)
 		(pin "K2"
-			(uuid "d59a4337-3784-46a3-a5d0-14b5cf646193")
+			(uuid "90691a59-c25e-4245-bf95-c8bfe055a507")
 		)
 		(pin "A1"
-			(uuid "b6bc0900-6901-49f7-be49-0c22e766df9c")
+			(uuid "56b7e37f-e040-4722-a6b2-2d5471f579ec")
 		)
 		(pin "H1"
-			(uuid "c448af32-3b4b-4be6-9742-d1489a023041")
+			(uuid "044ea24a-5918-4b49-bdd9-1c921e51597f")
 		)
 		(pin "H2"
-			(uuid "cc1ee57f-969d-4ebb-b1c7-72c30f87d23e")
+			(uuid "4e1cd760-eeff-4dd5-b99c-66096f363f47")
 		)
 		(pin "G2"
-			(uuid "e6c72d47-ec4e-407b-a486-7c5a4af6ffec")
+			(uuid "888d1221-2d22-4da1-9845-dab2a8fcc5a7")
 		)
 		(pin "A4"
-			(uuid "ee9554ae-7ebf-4359-ae3b-90801db5b2aa")
+			(uuid "0d8c3c85-ba0c-4fbe-8c4b-7441caf5438e")
 		)
 		(pin "A5"
-			(uuid "9331a77c-9fac-4012-a6ac-3d071fa48078")
+			(uuid "f798552e-3724-4833-ae3b-47643185e2a5")
 		)
 		(pin "A3"
-			(uuid "98196e82-2f7a-4111-ae2a-2e63c28b1b0a")
+			(uuid "25f385c9-49b7-4b01-8040-7daaa8a1f24b")
 		)
 		(pin "A2"
-			(uuid "fc7289dc-df12-4aa7-a919-8260ddfb51ba")
+			(uuid "8fe0b6c8-b2f4-4be5-8ec6-b5c69bb4cd84")
 		)
 		(pin "F1"
-			(uuid "4c2ba480-f228-4c94-8a65-15bc78872f75")
+			(uuid "4e97fbc4-7914-45c9-b485-0f3938f3afbc")
 		)
 		(pin "J2"
-			(uuid "1c895c2f-5de8-4990-ac8b-3b6f73c47ec7")
+			(uuid "37f0b3ca-eb38-4abe-a992-24e8afb3b4b9")
 		)
 		(pin "G1"
-			(uuid "0b547b56-33bd-469d-bc68-79220387772c")
+			(uuid "f002030f-14e7-4b7e-8e6a-2ebbd99bd82d")
 		)
 		(pin "L2"
-			(uuid "12e5b093-250d-4c54-8655-f52dd1118354")
+			(uuid "ef976b42-5f26-46c4-bbb2-d3e72af6571d")
 		)
 		(pin "J1"
-			(uuid "81dc1340-8e08-4319-b02e-b8ea0ede8c05")
+			(uuid "3fce36d7-a830-4df2-a42c-4d088d752f62")
 		)
 		(pin "D1"
-			(uuid "a7c3e9cb-5083-4c0d-bd0f-eb1d498180c5")
+			(uuid "692e0464-4f97-454c-8e4f-13c75be7a95d")
 		)
 		(pin "C6"
-			(uuid "43a0ce5e-38f1-484b-88a4-7f98e10fdb83")
+			(uuid "60380358-db62-4e04-8dde-c1c4132246d7")
 		)
 		(pin "C5"
-			(uuid "8bf34412-8d4f-4746-b98f-70b2b2b57dcc")
+			(uuid "29407330-76a5-461b-acc6-b38ef8005822")
 		)
 		(pin "C4"
-			(uuid "fab5be2c-8521-4431-8850-2c9abe69aa7e")
+			(uuid "8a309224-2847-43fa-9d2b-a90fd9a03b2e")
 		)
 		(pin "C3"
-			(uuid "2d4bd687-474b-4683-88a8-72ed1c783161")
+			(uuid "a01f3bed-e20b-42b8-8110-18d6206cc8ea")
 		)
 		(pin "C2"
-			(uuid "9b9dc3be-fbe0-4612-ac7f-ef535009f7c9")
+			(uuid "402abc7a-cbb6-4fc8-94e7-1d54f7ae327f")
 		)
 		(pin "C1"
-			(uuid "ab49ac51-bdde-4e41-8f4a-707b270eb934")
+			(uuid "28fb1f33-592b-4757-9938-00370a21f98c")
 		)
 		(pin "B6"
-			(uuid "a2e8abc9-1134-4650-bc47-9bce231509b8")
+			(uuid "fe3e5726-3b96-436c-b899-69f0f2c518e3")
 		)
 		(pin "B5"
-			(uuid "6772970d-c16a-413b-b50a-bf0292feffaa")
+			(uuid "ed9a4b8d-5489-4d45-aea0-5ff2db8ec0bc")
 		)
 		(pin "B4"
-			(uuid "36756823-daef-43b7-9630-49b5157923f7")
+			(uuid "56b51834-ed40-46ec-b384-89db2482ab75")
 		)
 		(pin "B3"
-			(uuid "830a8bc3-77e2-4ada-a18a-18d714df6954")
+			(uuid "0ec9d55f-94ff-4a3e-b26c-e596b5adc147")
 		)
 		(pin "B2"
-			(uuid "a0eeb262-88e4-49e7-94ba-97f76308f203")
+			(uuid "bb450e0d-4c33-4cfe-ba41-19caa979c1b4")
 		)
 		(pin "B1"
-			(uuid "05544a24-8d77-4c88-9400-f38ea837a07f")
+			(uuid "1f5828ea-ac76-4777-847e-0af8a6bf5a97")
 		)
 		(pin "C8"
-			(uuid "04a8226a-67e2-46b4-8870-3cc67a3be34e")
+			(uuid "d4745660-04e7-4a0b-8226-7e28726fe2ef")
 		)
 		(pin "C9"
-			(uuid "6688e703-e826-49f8-a644-8d532b21a0bd")
+			(uuid "ee1e15d7-d880-4f9b-af56-7841e406cefe")
 		)
 		(pin "D10"
-			(uuid "2bf75dd5-f968-45c4-9855-f209a34b7787")
+			(uuid "33787f3c-dc8e-48ec-9a2c-04f50acd87cb")
 		)
 		(pin "D11"
-			(uuid "3877a9d9-50d9-4a85-9dbc-dcc963c2475b")
+			(uuid "bda959d8-9ef1-4fe4-84a2-f9914e47c03c")
 		)
 		(pin "D2"
-			(uuid "cd618d94-b584-47b4-9adb-8559f967537a")
+			(uuid "eeed6b51-613e-4a42-8a78-774692b07ccd")
 		)
 		(pin "D3"
-			(uuid "f27d7893-c1b9-43cf-863a-9820c62c265e")
+			(uuid "14afcdf4-ed7c-4e78-b220-860194c7c22e")
 		)
 		(pin "D4"
-			(uuid "406998e2-29de-4c2c-aee8-c5c54140f445")
+			(uuid "e3ae4121-50b2-40f9-9ef8-e9c950b93c81")
 		)
 		(pin "D5"
-			(uuid "e53538ec-0809-49f6-9fc1-4e71f94531e1")
+			(uuid "f0460498-2778-454b-8271-357f9170d8c8")
 		)
 		(pin "D6"
-			(uuid "7aef54c8-1283-480c-a91c-c6a52703201b")
+			(uuid "66c29b2c-74a2-48d0-8475-2e54d8c02cce")
 		)
 		(pin "D7"
-			(uuid "ad684e1c-d0fd-487c-b6a9-c02b75bd1d7e")
+			(uuid "f67fd361-b2f7-4c05-9cd1-53c35fa98552")
 		)
 		(pin "D8"
-			(uuid "0d443353-5128-4306-bad9-a7811c083026")
+			(uuid "21f74d42-cf8b-48f5-a309-44777d90eb17")
 		)
 		(pin "D9"
-			(uuid "e4fb8ec1-c8f7-4101-8015-c13e326f03e3")
+			(uuid "330cfbbf-ab91-4ed7-8fc2-e943c93bcc81")
 		)
 		(pin "E1"
-			(uuid "10e7540e-6c19-49eb-90e5-bf28d3677b71")
+			(uuid "b8826b7d-3c23-4c25-9d22-e726bed3f900")
 		)
 		(pin "E10"
-			(uuid "53689b54-ace1-4889-9b59-731979ac03f3")
+			(uuid "2d56668d-5544-466c-bfa0-aec3e42ae012")
 		)
 		(pin "E11"
-			(uuid "97b259bc-2319-4a80-bbe2-d30b2d030fb1")
+			(uuid "ec0e738b-96c1-44e2-9b79-73748b6637fd")
 		)
 		(pin "E2"
-			(uuid "143cb52a-c2fd-458d-b3c9-1e2fefc6458b")
+			(uuid "394a0943-ca97-4ab8-ab4e-cd0c13ccd6ca")
 		)
 		(pin "E3"
-			(uuid "5bb8d15d-857a-4a59-aa73-64c021c9dcea")
+			(uuid "3f3c0eb0-fda6-4d1b-afdc-ebbb0f16aafe")
 		)
 		(pin "H9"
-			(uuid "9bad1846-7939-4ec5-ba72-ecb9357f82ae")
+			(uuid "4025c462-674d-494d-905d-d1662c718eda")
 		)
 		(pin "J3"
-			(uuid "ff10be95-cf3f-435b-beae-b3dd2f9786b2")
+			(uuid "2e413f53-1d4c-4ebd-b7e5-8e50e080d2e5")
 		)
 		(pin "J4"
-			(uuid "64f443c1-5fa5-4810-9878-6a8659634f57")
+			(uuid "aea1c9c4-d759-4a77-89d7-d65abaf4287d")
 		)
 		(pin "J5"
-			(uuid "63cded79-b3fe-47f1-92be-d76ddc0c58a1")
+			(uuid "06c41a30-c19b-41c6-b526-58f9ea6b3f6e")
 		)
 		(pin "J6"
-			(uuid "4d787f29-7621-4a3a-8bcd-6d31b8cf27cb")
+			(uuid "a8febab5-c9bf-4fb7-8148-49d63ac9668a")
 		)
 		(pin "J7"
-			(uuid "2427bf5c-456e-40f2-bef6-e2977b181a96")
+			(uuid "d5ea5a53-a867-43b5-a92c-f5d12e21fd16")
 		)
 		(pin "J8"
-			(uuid "05142717-038d-4a4a-bb11-bd4d2f21c53c")
+			(uuid "a66b9d16-a453-4a72-b8c8-53d8c815a922")
 		)
 		(pin "J9"
-			(uuid "df29c1e1-61bf-4cd1-aca3-6aa3e6eefc62")
+			(uuid "33e4ce6e-bc26-44b1-b79b-a0beb8696405")
 		)
 		(pin "K3"
-			(uuid "c082e350-a2a0-4d56-9b4e-a4dba45add82")
+			(uuid "fbfbaaa7-1e01-4b4e-87c6-35dedd7efdb4")
 		)
 		(pin "K4"
-			(uuid "36fb49d2-777a-4661-993f-d40c3392bfa7")
+			(uuid "5814316e-a0f0-44fe-ba6f-984f80ef19a3")
 		)
 		(pin "K5"
-			(uuid "1fe2aa64-8692-4176-9a7c-1fd3ab3616df")
+			(uuid "e8225733-d1bf-49ab-b9b2-fd0cda3d73ed")
 		)
 		(pin "K6"
-			(uuid "947b9844-afb3-45b7-8d45-539e80aa6244")
+			(uuid "5c1ab145-4a44-49aa-b386-f9504d5e7c7f")
 		)
 		(pin "K7"
-			(uuid "7e13ddf5-8579-44f7-928f-7562a2ed5112")
+			(uuid "76dd52e0-23eb-4424-b308-1131fd816a38")
 		)
 		(pin "K8"
-			(uuid "32441f09-60ea-4cd1-b5c7-28d27cc56e78")
+			(uuid "0f9cd898-2f78-4798-a512-146c24956040")
 		)
 		(pin "K9"
-			(uuid "47b0a60c-81ea-4fe3-9fb7-2789bd1fa4f5")
+			(uuid "6eae6820-5186-4d18-9d3c-988e469973ac")
 		)
 		(pin "L1"
-			(uuid "463f4479-e50b-40f7-b92d-321f6d50d1d9")
+			(uuid "4ed345d8-603c-4a5c-b39c-bfbe255a519b")
 		)
 		(pin "L5"
-			(uuid "59c81931-0f26-4026-a7da-a4cce224f792")
+			(uuid "1091d697-3086-4af9-bc71-5e8a7f513ea6")
 		)
 		(pin "L6"
-			(uuid "584e80e4-a7a9-4d08-b40d-3006f557a361")
+			(uuid "0da5c398-0fd8-4e14-8428-99dee55c4108")
 		)
 		(pin "L7"
-			(uuid "a15ab66b-3550-4fb9-b179-fca714776667")
+			(uuid "f1893a35-d2a8-4d11-87be-05ef5f89cfd4")
 		)
 		(pin "L8"
-			(uuid "c8c4d7b4-61f4-465a-9ec0-8789314cdeb4")
+			(uuid "35c28107-8429-484b-bdf2-75724fbecb9f")
 		)
 		(pin "E6"
-			(uuid "315887c3-bb3b-4cf1-9871-df829eb6a808")
+			(uuid "fb59e3f8-66c0-4cc5-b071-d41fc1223d6b")
 		)
 		(pin "E7"
-			(uuid "c736bbd4-c060-40a4-91c6-f62410b8c094")
+			(uuid "f9f95402-4f36-43e4-83f7-ec139459902a")
 		)
 		(pin "E8"
-			(uuid "ad151207-4491-40a0-835f-d2a4f8438a8a")
+			(uuid "16f578bc-049b-40cf-89f4-441be6b9e1ef")
 		)
 		(pin "E9"
-			(uuid "98ef9e1c-71be-44ab-b927-55cc54525940")
+			(uuid "43530507-5ab0-4fa9-944c-9b334e1aa770")
 		)
 		(pin "F2"
-			(uuid "55448500-3368-4c53-a91f-c49f9b897787")
+			(uuid "4695e38c-7be8-455f-852f-57fd919c8cf7")
 		)
 		(pin "F3"
-			(uuid "efe0d2a8-c66e-4068-86a2-8f90116d0e22")
+			(uuid "63dec906-4f70-424b-a865-ddfe5e7a7660")
 		)
 		(pin "F4"
-			(uuid "7ba3d0b3-c2bc-48a2-9d8b-7d2ba0af0cfa")
+			(uuid "2cc61775-512e-4e4c-a911-a5f85288e636")
 		)
 		(pin "F5"
-			(uuid "c2527a62-6afc-45e8-9577-b87847ec03de")
+			(uuid "1572c280-5743-4d94-ac2d-d18a1e43406a")
 		)
 		(pin "F6"
-			(uuid "9238ba02-0c4f-4e7b-b68c-d9e85dcc7a5a")
+			(uuid "53753a4c-68d5-4d19-824f-f07008d23d74")
 		)
 		(pin "F7"
-			(uuid "b102d101-e6be-4445-809b-6f866a9546c1")
+			(uuid "d6c819c1-cf4f-45ba-948d-e60ee8273408")
 		)
 		(pin "F8"
-			(uuid "3e3c84ef-e773-45c0-84b5-ec6d3d098ec4")
+			(uuid "06099d49-83af-459c-a87e-07961e4a95a0")
 		)
 		(pin "F9"
-			(uuid "6dc0c2aa-6985-40ef-8dc3-54e43398f565")
+			(uuid "60f3b3f1-5961-499a-a332-4846a43a8bc2")
 		)
 		(pin "G3"
-			(uuid "a104e7c9-dbdc-44fe-9943-7e422488c7d2")
+			(uuid "f0b98f78-0074-478c-9a20-36fd5637e25a")
 		)
 		(pin "G4"
-			(uuid "9c0027e6-8e7c-4295-9754-87ba9ccb6c5e")
+			(uuid "d511f617-0ed6-48d5-8044-ff16df4a7131")
 		)
 		(pin "G5"
-			(uuid "af94bf5d-952d-45fc-bd16-b23124ae465f")
+			(uuid "7a1dd52a-af75-4bec-adeb-a6c48d81ee94")
 		)
 		(pin "G6"
-			(uuid "120899c3-4dd5-4a24-b886-f2e9ef11b130")
+			(uuid "1297ae89-529a-4096-bae0-2323319c18e1")
 		)
 		(pin "G7"
-			(uuid "906b484e-db52-48ba-a73e-81e6f602a4a6")
+			(uuid "fb9ebf5a-85cd-4de8-af51-5b3095db8739")
 		)
 		(pin "G8"
-			(uuid "8b1299d0-b346-48b1-9f7e-c00b2af5666a")
+			(uuid "205d0cde-be6c-4c32-b64b-f9f99721e983")
 		)
 		(pin "G9"
-			(uuid "38cf1438-37a1-4840-a2ed-9489461d1cf0")
+			(uuid "68272cd2-6d00-4374-8487-df267f04cdcd")
 		)
 		(pin "H3"
-			(uuid "ad0b401a-60d1-4190-bcce-6306268f6256")
+			(uuid "6f45ac96-9ea7-4577-a724-552be4af82ad")
 		)
 		(pin "H4"
-			(uuid "a68eaf3b-1e68-42f5-84dc-f7f1bad93da7")
+			(uuid "6830aa69-0d5e-4130-a0f5-d5b9007e89a2")
 		)
 		(pin "H5"
-			(uuid "42152b0d-e032-4f8f-ba12-77f4e3ccb242")
+			(uuid "2eb61b43-4f97-407b-9951-2781762114b4")
 		)
 		(pin "H6"
-			(uuid "afba2fb5-e7f1-485e-9671-52b9b6d4d68c")
+			(uuid "48f82317-d3a3-4619-90b4-bb97c382c270")
 		)
 		(pin "H7"
-			(uuid "ed22e622-e313-490c-b7e0-ede2c0001a62")
+			(uuid "f401464b-8ae1-40a8-b6e9-a7b1613810f9")
 		)
 		(pin "H8"
-			(uuid "2715b907-fbbb-46e1-9544-0e6a7b311446")
+			(uuid "e1df170c-1f92-4864-ab3c-de289a64cb18")
 		)
 		(pin "C11"
-			(uuid "cf7082c8-7bfe-4bae-94c4-8a7f0c231862")
+			(uuid "ea2d57d3-8453-47b9-8b1f-74c0d5f66d90")
 		)
 		(pin "C7"
-			(uuid "5851b288-db40-4d08-af67-b36d03555257")
+			(uuid "7c013966-df07-46ae-a290-1db68bf7487a")
 		)
 		(pin "C10"
-			(uuid "88c3e2d9-d835-4aff-a947-b2b33a46ac55")
+			(uuid "e916b1ef-a163-4fea-ae83-574ae67a236c")
 		)
 		(pin "A10"
-			(uuid "e3cf57c1-9e90-4fc8-8b97-30392592f4fb")
+			(uuid "76fa4250-6dda-45a7-83d8-39df1a51b701")
 		)
 		(pin "A11"
-			(uuid "a97cc401-f5d9-426c-989d-f6c353777c83")
+			(uuid "ac75b423-86a6-47e9-afd6-baf450549c24")
 		)
 		(pin "A7"
-			(uuid "131ae6c4-5784-4999-88c2-a8f4eeeed61e")
+			(uuid "e2e05e45-89de-4b95-af0f-0913c7fc1013")
 		)
 		(pin "A8"
-			(uuid "aa4dd97a-1fc8-4324-bd05-e1826f3e3e8b")
+			(uuid "f7d6beda-217c-4b4c-a315-d78d8ca6b2a2")
 		)
 		(pin "A9"
-			(uuid "f2e97151-2154-4804-aa40-9349eec3d123")
+			(uuid "17dde665-b32c-4bb1-86cf-f19198913777")
 		)
 		(pin "B11"
-			(uuid "7acaeef4-7e3d-4002-aa69-de8a903c95cf")
+			(uuid "b13cdfd0-00b4-4cfe-b3b9-4378f1fb0474")
 		)
 		(pin "B10"
-			(uuid "a3e47078-96fc-4e34-bf97-1c55511f7ad9")
+			(uuid "7ddac32d-a6ef-406a-94d5-067f43ca6e3d")
 		)
 		(pin "B8"
-			(uuid "e5d28abd-98a6-4215-9408-42d4a5de229f")
+			(uuid "3d79043a-3ec8-4407-b70d-3f41219ef4f0")
 		)
 		(pin "B7"
-			(uuid "b8dea021-895e-4d9f-b43e-b196405eb3dc")
+			(uuid "8089bef9-6342-4de2-b384-2445339f11d5")
 		)
 		(pin "B9"
-			(uuid "3edc5acd-4309-417e-abec-222ce5acc501")
+			(uuid "8b58243a-74b9-4326-beb6-de1f5a3b4b2a")
 		)
 		(pin "E5"
-			(uuid "268a179e-27d1-4f4e-bbf4-2abee0bbb00b")
+			(uuid "2316a013-62ec-4bbc-8ff3-729e6583c56e")
 		)
 		(pin "E4"
-			(uuid "faf34701-0bf8-4591-b634-ff11f004201a")
+			(uuid "0c32fc0b-238d-4db9-938d-817ef3e61842")
 		)
 		(pin "A6"
-			(uuid "31e041f0-1f39-463f-86d3-173e93ad1de9")
+			(uuid "b4b75d6b-6323-4094-a39d-5920280abdf0")
 		)
 		(pin "L4"
-			(uuid "79181bbd-ec41-469e-8dd1-96dade136bc9")
+			(uuid "6fb427eb-9501-4436-8248-7ebf13482890")
 		)
 		(pin "L9"
-			(uuid "c9f85ab2-210a-4c27-81ad-3e2fabacd85c")
+			(uuid "cddf0dc3-c944-420c-8085-b88e4243ae3d")
 		)
 		(pin "H11"
-			(uuid "3e97aab0-3663-444c-a4ca-156df1fc1041")
+			(uuid "80b1684c-8b89-404a-bfe8-937f4494e4d3")
 		)
 		(pin "G11"
-			(uuid "42e00a46-94bb-4e67-b38e-d75eef51ce64")
+			(uuid "f83b5a40-768a-47c4-bf91-5d80e9494b65")
 		)
 		(pin "H10"
-			(uuid "77363835-3e43-46c7-b048-5b05bc67dcba")
+			(uuid "c576aa03-e775-458d-9e88-feeb1380dae0")
 		)
 		(pin "G10"
-			(uuid "a8c7fe75-05cd-4d92-ab83-ec22e5680c6c")
+			(uuid "1ec911f5-1d42-4278-81b0-e2b9a9169db5")
 		)
 		(pin "F11"
-			(uuid "325bfaee-a6de-4115-ac39-026d9e09e3e0")
-		)
-		(instances
-			(project ""
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "U58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:CL10B105KB8NQNC")
-		(at 46.99 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93d2d6b8-6a28-436e-83ea-c343fbc91560")
-		(property "Reference" "C128"
-			(at 50.8 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "1uF"
-			(at 50.8 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CL10B105KB8NQNC"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C5199872"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1uF ±10% 50V"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e36e01d9-33ec-42b1-b0c4-d986439090b7")
-		)
-		(pin "2"
-			(uuid "0db64cff-6db3-4a93-abbe-aa042e584023")
+			(uuid "a197ceca-00e6-45b3-bb0b-146a0dd3ef6e")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C128")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "U45")
 					(unit 1)
 				)
 			)
@@ -10646,15 +8536,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 154.94 0)
+		(at 180.34 144.78 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a2f6d40-ca67-407d-9ada-e6446f33ba43")
-		(property "Reference" "#PWR052"
-			(at 39.37 154.94 0)
+		(uuid "4d30d035-c179-4e21-a2cc-8acf24e13806")
+		(property "Reference" "#PWR064"
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10663,7 +8554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 161.29 0)
+			(at 180.34 151.13 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -10671,7 +8562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 154.94 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,7 +8571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 154.94 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +8580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 154.94 0)
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,12 +8589,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7908cd84-14a6-4107-ab9c-ccd424853f6e")
+			(uuid "9df30e2b-a0f9-44ef-810d-5797e919fa0b")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR052")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -10711,15 +8602,15 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:RVT1V471M1010-C72519")
-		(at 311.15 68.58 0)
+		(at 276.86 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9b78ed19-e468-416c-818e-07cafd6cc27f")
-		(property "Reference" "C118"
-			(at 314.96 68.58 0)
+		(uuid "5514e482-2ae3-435e-9577-58ef2407bf44")
+		(property "Reference" "C82"
+			(at 268.478 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +8619,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 314.96 71.12 0)
+			(at 268.478 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10737,7 +8628,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-R-RD"
-			(at 311.15 68.58 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +8637,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210128/C72519_A1B8ED607B11AD36B70B1D23AFC8819E.pdf"
-			(at 311.15 68.58 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +8646,7 @@
 			)
 		)
 		(property "Description" "Capacitance:470uF Tolerance:±20% Tolerance:±20% Voltage Rating:35V Ripple Current:286mA@120Hz Equivalent Series Resistance(ESR):- Diameter:10mm Height - Seated (Max):10.2mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~"
-			(at 311.15 68.58 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,7 +8655,7 @@
 			)
 		)
 		(property "Manufacturer Part" "RVT1V471M1010"
-			(at 311.15 68.58 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,7 +8664,7 @@
 			)
 		)
 		(property "Manufacturer" "ROQANG(容强)"
-			(at 311.15 68.58 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,7 +8673,7 @@
 			)
 		)
 		(property "Supplier Part" "C72519"
-			(at 311.15 68.58 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +8682,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 311.15 68.58 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +8691,7 @@
 			)
 		)
 		(property "LCSC Part Name" "470uF ±20% 35V"
-			(at 311.15 68.58 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,49 +8700,49 @@
 			)
 		)
 		(pin "1"
-			(uuid "627967ca-c71c-4947-8e9e-abbe204cfde6")
+			(uuid "2311d4cc-6fd3-4be5-9dea-5e9a74bb8627")
 		)
 		(pin "2"
-			(uuid "2d7f0629-4e99-4a3f-91a0-05f2442db867")
+			(uuid "67b2dc90-d4d3-4608-9e6f-e3df97676258")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "C118")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C82")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RVT1E680M0605")
-		(at 270.51 69.85 270)
+		(lib_id "5v rail sm-easyedapro:FRC0603F1102TS")
+		(at 227.33 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aa5de927-f76e-4d2d-b75e-330eee92d1ff")
-		(property "Reference" "U59"
-			(at 274.32 69.85 90)
+		(uuid "5cb0b210-7e6a-4ccd-a565-9890cf290e1c")
+		(property "Reference" "R132"
+			(at 229.87 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "68uF"
-			(at 274.32 72.39 90)
+		(property "Value" "11kΩ"
+			(at 229.87 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
-			(at 270.51 69.85 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10860,7 +8751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 69.85 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,8 +8759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:68uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Ripple Current:55mA@120Hz Diameter:6.3mm Height - Seated (Max):5.4mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
-			(at 270.51 69.85 0)
+		(property "Description" "Type:Thick Film Resistor Resistance:11kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10877,8 +8768,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RVT1E680M0605"
-			(at 270.51 69.85 0)
+		(property "Manufacturer Part" "FRC0603F1102TS"
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10886,8 +8777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ROQANG(容强)"
-			(at 270.51 69.85 0)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10895,8 +8786,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C7436903"
-			(at 270.51 69.85 0)
+		(property "Supplier Part" "C2906986"
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10905,7 +8796,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 270.51 69.85 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,8 +8804,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "68uF ±20% 25V"
-			(at 270.51 69.85 0)
+		(property "LCSC Part Name" "11kΩ ±1% 100mW 厚膜电阻"
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,15 +8814,1647 @@
 			)
 		)
 		(pin "1"
-			(uuid "1935200a-ab48-4b9d-965f-596d57088c08")
+			(uuid "4e168b86-da90-4851-b8ea-1b60f7b278fe")
 		)
 		(pin "2"
-			(uuid "eebcaddb-382b-4130-9d6d-7393f0d6c133")
+			(uuid "dca60d55-3c47-459d-8db6-acf828017121")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "U59")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "R132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:CL21A475KBQNNNE")
+		(at 43.18 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61232cfe-ab97-4d22-b751-a92dfc12439a")
+		(property "Reference" "C75"
+			(at 46.99 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 46.99 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL21A475KBQNNNE/99401.html"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:4.7uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X5R"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL21A475KBQNNNE"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C98192"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.7uF ±10% 50V"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a063e4d0-db97-4865-b85c-eb0ef7a08fde")
+		)
+		(pin "2"
+			(uuid "441d2e0f-b8ac-4411-ba43-1420a13ea9bf")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7338a77f-a613-4cd0-9541-94227c7e25e1")
+		(property "Reference" "#PWR062"
+			(at 106.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 168.91 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d1bdfc7-43fe-4044-ae06-8121f9424d9e")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7841d41c-a787-43c8-b953-9f3a2e8f3c0a")
+		(property "Reference" "#PWR050"
+			(at 72.39 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13770d34-bcd8-4a3d-b554-d35592ac7b84")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:JER2512F3R007")
+		(at 257.81 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8205df5f-c9db-4fb3-a322-e374116fcef6")
+		(property "Reference" "R166"
+			(at 255.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "7mΩ"
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/JER2512F3R007/51553032.html"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Current Sense Resistor Resistance:7mΩ Tolerance:±1% Tolerance:±1% Power(Watts):3W Temperature Coefficient:±50ppm/°C Temperature Coefficient:±50ppm/°C"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "JER2512F3R007"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JIERR(捷而瑞)"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C49164689"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "7mΩ 3W 2512 ±1%"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b36d925d-4bdc-4b8f-a576-e829e89d7333")
+		)
+		(pin "1"
+			(uuid "ef6bd9c5-edc4-439d-9831-cd157caaecc1")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "R166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:CL10B105KB8NQNC")
+		(at 80.01 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "993e535c-d620-4336-98e8-73918da59185")
+		(property "Reference" "C77"
+			(at 83.82 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1uF"
+			(at 83.82 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10B105KB8NQNC"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5199872"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1uF ±10% 50V"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0e8b12c-e556-457a-b0c6-6201286a3c86")
+		)
+		(pin "2"
+			(uuid "e20cf0f0-965c-4e0e-9b81-352b4300a27b")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99a201c6-7a7a-4c13-943b-d3c9f71faf43")
+		(property "Reference" "R128"
+			(at 96.52 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 96.52 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 91.44 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e76f75e-5c4b-4152-a4ff-111a56caadf9")
+		)
+		(pin "1"
+			(uuid "a49aadaa-e0f3-4ec4-bd72-c154b2e9520b")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "R128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:RVT1H470M0607")
+		(at 266.7 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a58e5f00-288b-4ffc-bdea-b15ff1a203f6")
+		(property "Reference" "C81"
+			(at 270.51 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "47uF"
+			(at 270.51 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/RVT1H470M0607/73634.html"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:50V Ripple Current:66mA@120Hz Equivalent Series Resistance(ESR):- Diameter:6.3mm Height - Seated (Max):7.7mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+1"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RVT1H470M0607"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROQANG(容强)"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C72523"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "47uF ±20% 50V"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1ed2d29-42d5-4cbd-bda4-d115a157d61b")
+		)
+		(pin "2"
+			(uuid "82eb62ab-13af-4e73-b14f-52f1f3a2173b")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bddbf64a-48f0-4346-87cb-5de3238cbdfb")
+		(property "Reference" "#PWR065"
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 113.03 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d99fc6a2-bbb3-46cc-b7c3-671f83b6ccb3")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
+		(at 64.77 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6a6c733-4a1f-4cc5-bdc2-21f20d1c93be")
+		(property "Reference" "C76"
+			(at 68.58 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "100nF"
+			(at 68.58 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C14663"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "100nF ±10% 50V"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c0d858b-a18e-4520-be05-59e04237a973")
+		)
+		(pin "1"
+			(uuid "373bc58e-25b8-4291-b4e7-a92db6c1cf00")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:FRC0603J104 TS")
+		(at 54.61 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c85a61a8-5dd3-4c31-85a5-48e479db5600")
+		(property "Reference" "R127"
+			(at 57.15 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 57.15 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±5% Tolerance:±5% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "FRC0603J104 TS"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2907088"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "100kΩ ±5% 100mW 厚膜电阻"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5530bf92-a6f5-4f1d-a658-0787b0445445")
+		)
+		(pin "1"
+			(uuid "aa497d5f-ff7f-4804-af2f-a878636a5e10")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "R127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb110312-ec28-4350-bcc4-8ae319287a4a")
+		(property "Reference" "#PWR066"
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 111.76 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e64fd39-667a-4688-9822-dac66a226b3a")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 64.77 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc86b7b4-7473-418a-a384-56882a696e44")
+		(property "Reference" "#PWR049"
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 64.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power-5V"
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43556ba2-e286-4190-a0ce-caf5690c2647")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcf6a8b9-0c87-4edb-8f1e-9a7318031cca")
+		(property "Reference" "R129"
+			(at 113.03 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 113.03 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 108.712 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b0fb8a8-f8eb-4a5c-8c80-fa69e99b2f21")
+		)
+		(pin "1"
+			(uuid "18c8dfc0-4c32-4167-9286-5a02451c1c92")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "R129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
+		(at 180.34 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddc98445-431f-430c-a5e4-f18ef2971a3f")
+		(property "Reference" "C79"
+			(at 184.15 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "100nF"
+			(at 184.15 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C14663"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "100nF ±10% 50V"
+			(at 180.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb264b01-bb8c-4ac7-badd-e11b4efd5dca")
+		)
+		(pin "2"
+			(uuid "c22c3273-552b-45fa-96db-956e24198013")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:CL21A226MAQNNNE")
+		(at 238.76 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6453b84-599b-4506-874b-3ad4c32f08dd")
+		(property "Reference" "C80"
+			(at 242.57 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "22uF"
+			(at 242.57 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL21A226MAQNNNE/46786.html"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:22uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL21A226MAQNNNE"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C45783"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "22uF ±20% 25V"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18dd7a47-1ec6-44b3-a4b7-be4f9535025e")
+		)
+		(pin "2"
+			(uuid "6a3523ae-d3b6-446d-98b9-832d0e128fe3")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:MCP4725A0T-E/CH")
+		(at 106.68 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6c3f702-b4c7-4787-a815-e40987dc92aa")
+		(property "Reference" "U43"
+			(at 99.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MCP4725A0T-E/CH"
+			(at 99.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/MCP4725A0T-E%252FCH/155530.html"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resolution(Bits):12Bit Number of Channels:1 Interface:I2C Voltage - Supply:2.7V~5.5V Voltage - Supply:2.7V~5.5V Settling Time:6us Output Type:- INL/DNL(LSB):2LSB INL/DNL(LSB):2LSB Operating Temperature:-40°C~+125°C Operating Temperature:-40°C~+125°C"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MCP4725A0T-E/CH"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MICROCHIP(美国微芯)"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C144198"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "MCP4725A0T-E/CH"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed55a071-e8ee-482e-afb8-5dee259679f7")
+		)
+		(pin "2"
+			(uuid "17783689-38fc-4861-8255-100f799fc107")
+		)
+		(pin "3"
+			(uuid "006d59b3-baa9-431d-8009-18a9003e61f2")
+		)
+		(pin "6"
+			(uuid "846e648d-c3a4-4280-af18-21ca8724ffd0")
+		)
+		(pin "5"
+			(uuid "06e9902a-778e-413a-9258-0c80b24658a7")
+		)
+		(pin "4"
+			(uuid "f1c7bd17-c9eb-4ea7-8ad8-7659b5e4cdd6")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "U43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:RVT1E680M0605")
+		(at 250.19 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed2fb7b4-fb89-4b63-a55f-f6cf3357f638")
+		(property "Reference" "U46"
+			(at 254 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "68uF"
+			(at 254 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.4-FD"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:68uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Ripple Current:55mA@120Hz Diameter:6.3mm Height - Seated (Max):5.4mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RVT1E680M0605"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROQANG(容强)"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C7436903"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "68uF ±20% 25V"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae26b376-ed1a-4624-8b66-4aaeeadeb0bb")
+		)
+		(pin "2"
+			(uuid "78c8079a-8778-45fd-816c-2feeb4461ef8")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "U46")
 					(unit 1)
 				)
 			)
@@ -10939,15 +10462,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 140.97 110.49 180)
+		(at 166.37 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b52f0578-fd0d-4011-bb15-c03f3140b4b1")
-		(property "Reference" "U62"
-			(at 140.97 110.49 0)
+		(uuid "f25abe50-9822-4ba7-901c-998945234e44")
+		(property "Reference" "U44"
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10957,7 +10480,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 140.97 110.49 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10965,7 +10488,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 140.97 110.49 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +10497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 110.49 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +10506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 110.49 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,15 +10515,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1c12a5f8-6756-40e3-9699-fcc436e056ee")
+			(uuid "508cf7be-2c81-4343-a06b-c4f72b92170c")
 		)
 		(pin "1"
-			(uuid "4fad36d8-62e5-4cfd-973b-9c87ad7debc1")
+			(uuid "01dba0a3-54c2-42e3-b1dc-58ec9f4eb510")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "U62")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "U44")
 					(unit 1)
 				)
 			)
@@ -11008,16 +10531,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 130.81 0)
+		(at 120.65 120.65 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c0b04279-a21a-47df-9a5c-7cdc69bd2046")
-		(property "Reference" "#PWR057"
-			(at 154.94 130.81 0)
+		(uuid "fdee21df-75b9-46eb-a215-b565b4c5cb0e")
+		(property "Reference" "#PWR063"
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +10549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 137.16 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -11034,7 +10557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 130.81 0)
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11043,7 +10566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 130.81 0)
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +10575,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 130.81 0)
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,12 +10584,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0bb5aff6-fd4e-4250-a9c4-de298b76dae5")
+			(uuid "32d6fa91-4198-44e8-ba8e-4aab9c407736")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR057")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -11074,15 +10597,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 304.8 80.01 0)
+		(at 30.48 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6408671-8281-46f4-996d-6c14f772bdaa")
-		(property "Reference" "#PWR047"
-			(at 304.8 80.01 0)
+		(uuid "fef4cd2b-7473-4670-a9d1-9bac3157ad32")
+		(property "Reference" "#PWR048"
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11091,7 +10614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 304.8 86.36 0)
+			(at 30.48 124.46 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -11099,7 +10622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 80.01 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11108,7 +10631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 80.01 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,7 +10640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 304.8 80.01 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11126,127 +10649,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "99af0352-686c-4c87-aee6-2b2b0e7466a9")
+			(uuid "07dbfd9a-5b3f-48e6-81a8-6cf0b361d475")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(reference "#PWR047")
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22/3942dea5-3bb1-45e0-96e8-2281b80c38e6"
+					(reference "#PWR048")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 363.22 46.99)
-		(size 26.67 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "068de398-6c79-48f4-9100-f7842de8453a")
-		(property "Sheetname" "Ideal_Diode_OR_12V_BUCK"
-			(at 363.22 46.2784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
-			(at 363.22 65.3546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 389.89 55.88 0)
-			(uuid "35f85d24-0bbf-49ac-a8d1-0ca9778f72d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EN" input
-			(at 363.22 59.69 180)
-			(uuid "71060831-5573-4b76-84f6-a7dd3fcbdbd3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IN" input
-			(at 363.22 52.07 180)
-			(uuid "f98cef51-79c8-4119-9dfe-b84a15656b3a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 198.12 110.49)
-		(size 87.63 26.67)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3942dea5-3bb1-45e0-96e8-2281b80c38e6")
-		(property "Sheetname" "12v_LTM8055_BUCK"
-			(at 198.12 109.7784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "12v_LTM8055_BUCK.kicad_sch"
-			(at 198.12 137.7446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22"
-					(page "41")
 				)
 			)
 		)
