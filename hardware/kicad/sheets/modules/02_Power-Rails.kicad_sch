@@ -2410,13 +2410,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 156.21) (xy 154.94 146.05)
+			(xy 67.31 138.43) (xy 67.31 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06997ad7-af55-46df-93ed-ed7e36ea6784")
+		(uuid "0fb5677c-66b6-4d2b-80e8-afa865b54908")
 	)
 	(wire
 		(pts
@@ -2437,26 +2437,6 @@
 			(type default)
 		)
 		(uuid "1be4e17d-0d3d-4626-a2c1-6d5fde44f140")
-	)
-	(wire
-		(pts
-			(xy 100.33 146.05) (xy 100.33 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d1295eb-27bf-45e0-9eef-836e61baa125")
-	)
-	(wire
-		(pts
-			(xy 100.33 156.21) (xy 110.49 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2840f548-5820-4296-8e58-9a2c84b1db35")
 	)
 	(wire
 		(pts
@@ -2560,6 +2540,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 152.4) (xy 161.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6a0ab0-a721-4af6-b9bb-e24c9df63e7a")
+	)
+	(wire
+		(pts
 			(xy 217.17 49.53) (xy 231.14 49.53)
 		)
 		(stroke
@@ -2590,13 +2580,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 156.21) (xy 154.94 156.21)
+			(xy 92.71 148.59) (xy 130.81 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5be16fc3-90b8-4f46-adf6-9a0484237b3f")
+		(uuid "5cddd1b6-8bcf-48ce-93c1-ece9e9e50e2e")
+	)
+	(wire
+		(pts
+			(xy 125.73 156.21) (xy 130.81 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c33031-3933-45e4-b361-113c757ae89d")
 	)
 	(wire
 		(pts
@@ -2657,6 +2657,16 @@
 			(type default)
 		)
 		(uuid "8902765d-0ed8-49a5-8e2a-070de78a985b")
+	)
+	(wire
+		(pts
+			(xy 67.31 148.59) (xy 77.47 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8961265a-930b-4485-b445-7d8e2deb6347")
 	)
 	(wire
 		(pts
@@ -2880,6 +2890,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 154.94) (xy 77.47 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7a8ba7-efa9-49e8-a3d8-8135554223f8")
+	)
+	(wire
+		(pts
+			(xy 161.29 152.4) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27eee40-cc4e-4f94-a436-5a055d8c44ea")
+	)
+	(wire
+		(pts
 			(xy 90.17 27.94) (xy 90.17 31.75)
 		)
 		(stroke
@@ -2907,6 +2937,112 @@
 			(justify left bottom)
 		)
 		(uuid "22471c89-fd78-4d95-a65b-dcdd5f81a7f1")
+	)
+	(global_label "MCU-12V-EN-BUCK"
+		(shape input)
+		(at 74.93 154.94 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "3139a03c-76ae-47a0-a61b-44e7d607f41f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "#MCU-EN-12V-DIODE"
+		(shape input)
+		(at 125.73 156.21 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "707e3add-55bb-49b7-b9ec-c7044a409236")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 161.29 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f1b16c8-8f92-4249-b1ff-afdb4cefd64a")
+		(property "Reference" "#PWR057"
+			(at 161.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power-5V"
+			(at 161.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9e80f06-9ef0-428b-803d-b1acab7b7a07")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:SS36_C727061")
@@ -3082,71 +3218,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
 					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 100.33 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41680818-39f9-4576-a64b-f703d4e4d3b6")
-		(property "Reference" "#PWR0206"
-			(at 100.33 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 100.33 142.24 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2631e7a-cde1-4b4b-b3b7-1dfe416eaf5e")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -3788,6 +3859,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 67.31 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82d1872f-89d6-48aa-8e8d-27824c9d6bb1")
+		(property "Reference" "#PWR058"
+			(at 67.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 67.31 134.62 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10c8a648-ff0a-4be2-9b6a-7f9cd24175b9")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:0603WAF1002T5E")
 		(at 196.85 69.85 0)
 		(unit 1)
@@ -3896,72 +4032,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
 					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 154.94 146.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d9f0a83-ddeb-497b-a55b-e79ec352de3f")
-		(property "Reference" "#PWR0216"
-			(at 154.94 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 154.94 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 154.94 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e15ff8c-4ed0-48f3-8657-cadd9f2d9bce")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -5003,6 +5073,79 @@
 		)
 	)
 	(sheet
+		(at 77.47 144.78)
+		(size 15.24 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15fec07c-dcab-49b4-bc69-93178962f645")
+		(property "Sheetname" "12v_LTM8055_BUCK"
+			(at 77.47 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12v_LTM8055_BUCK.kicad_sch"
+			(at 77.47 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUT" output
+			(at 92.71 148.59 0)
+			(uuid "e4b5db65-ed51-455d-91ae-f8370e99c1f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 77.47 148.59 180)
+			(uuid "42637b9f-251e-438d-a415-55904d71fe9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 77.47 154.94 180)
+			(uuid "41ea7432-55ed-4ce2-bb88-0c498c8ac91a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 113.03 121.92)
 		(size 19.05 5.08)
 		(exclude_from_sim no)
@@ -5065,23 +5208,23 @@
 		)
 	)
 	(sheet
-		(at 110.49 152.4)
-		(size 40.64 7.62)
+		(at 130.81 143.51)
+		(size 26.67 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type solid)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be22")
-		(property "Sheetname" "12V Rail"
-			(at 110.49 151.6884 0)
+		(uuid "56f40e84-8a38-4192-912b-faed71ffe17a")
+		(property "Sheetname" "Ideal_Diode_OR_12V_BUCK"
+			(at 130.81 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,8 +5232,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../power/16_Power-12v.kicad_sch"
-			(at 110.49 160.6046 0)
+		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
+			(at 130.81 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,19 +5241,9 @@
 				(justify left top)
 			)
 		)
-		(pin "12V_BUCK_INPUT" input
-			(at 110.49 156.21 180)
-			(uuid "bb2b3661-30c0-432d-9303-337582136c13")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "12V-BUCK-DIODED" output
-			(at 151.13 156.21 0)
-			(uuid "5ea27164-5e9d-449d-bae5-47c02eab3d50")
+		(pin "OUT" output
+			(at 157.48 152.4 0)
+			(uuid "e8b33fce-7308-48c2-b1d7-d02a6ac56200")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,39 +5251,31 @@
 				(justify right)
 			)
 		)
-	)
-	(sheet
-		(at 24.84 133.28)
-		(size 23.42 5.15)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8d05c3b8-20a4-4a7f-9b20-01f8d5d5be24")
-		(property "Sheetname" "Servo Power Rail"
-			(at 24.84 132.5684 0)
+		(pin "EN" input
+			(at 130.81 156.21 180)
+			(uuid "c7492e05-6677-4399-8e71-d8d774911a75")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Sheetfile" "../power/28_Power-servo.kicad_sch"
-			(at 24.84 139.0146 0)
+		(pin "IN" input
+			(at 130.81 148.59 180)
+			(uuid "627846be-0628-4d20-b17a-1440bd801e6b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
+					(page "15")
+				)
 			)
 		)
 	)
