@@ -9,161 +9,6 @@
 		(date "2026-02-16")
 	)
 	(lib_symbols
-		(symbol "5v rail sm-easyedapro:0466001.NRHF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/0466001.NRHF/162475.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Type:Surface Mount Fuse Current Rating:1A Voltage Rating (AC):63V Voltage Rating (DC):63V Operating Temperature:-55°C~+90°C Operating Temperature:-55°C~+90°C Interrupt Rating:50A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "0466001.NRHF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Littelfuse(美国力特)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C151135"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "63V贴片式保险丝"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0466001.NRHF_1_0"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:0603WAF1000T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4346,105 +4191,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:Short-Symbol"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Short-Symbol_1_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0.762) (xy 1.27 0) (xy 0 -0.762) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "Pin1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "Pin1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:XF-507P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4816,196 +4562,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "5v rail sm-easyedapro:ZX-XH2.54-4PWZ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230619/8DC602C7BA46C153FF1BE89D90453879.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pins Structure:1x4P Pitch:2.5mm Mounting Type:Bend-in Reference Series:XH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Rated Current:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating Tempe"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "ZX-XH2.54-4PWZ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Megastar(兆星)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C7429643"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "1x4P 间距:2.5mm 弯插 系列:XH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ZX-XH2.54-4PWZ_1_0"
-				(rectangle
-					(start -2.54 -6.35)
-					(end 2.54 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 5.08)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6024,7 +5580,7 @@
 	)
 	(text "30A"
 		(exclude_from_sim no)
-		(at 31.75 1.27 0)
+		(at 39.37 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6091,7 +5647,7 @@
 		(uuid "13ae8b6a-dbba-463f-a566-ca4fa9f43615")
 	)
 	(junction
-		(at 49.53 5.08)
+		(at 57.15 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14168580-355a-4c78-8a4a-0fb4540161b2")
@@ -6133,7 +5689,7 @@
 		(uuid "496d8c39-eedf-4401-9188-9b4be43e06c9")
 	)
 	(junction
-		(at 49.53 15.24)
+		(at 57.15 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54008540-52df-4d2a-8cfa-ead46ece44b1")
@@ -6241,12 +5797,6 @@
 		(uuid "d9c5be13-4224-4db8-bed9-83d19c38be61")
 	)
 	(junction
-		(at 58.42 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e09a5db0-6a5c-4714-8bc2-e43592361fad")
-	)
-	(junction
 		(at 207.01 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6271,11 +5821,11 @@
 		(uuid "ec9ed1d1-ac40-4d73-84e2-b4907cefcc06")
 	)
 	(no_connect
-		(at 15.24 16.51)
+		(at 22.86 34.29)
 		(uuid "2756be62-efea-42fb-b4a2-cfd806daa22e")
 	)
 	(no_connect
-		(at 15.24 3.81)
+		(at 22.86 21.59)
 		(uuid "6167aed6-b1e6-44fd-9547-a7a8d4dd8878")
 	)
 	(wire
@@ -6407,16 +5957,6 @@
 			(type default)
 		)
 		(uuid "16d5a06c-2ebb-42c3-8b8e-1fceb2a91bc5")
-	)
-	(wire
-		(pts
-			(xy 63.5 66.04) (xy 58.42 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17cffd41-889f-45fc-8eeb-f302b31b6fd8")
 	)
 	(wire
 		(pts
@@ -6590,13 +6130,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 43.18) (xy 44.45 43.18)
+			(xy 57.15 45.72) (xy 57.15 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35dbd156-9318-44d5-8e9c-d29952e1e256")
+		(uuid "3819b5e1-4bbd-482a-b109-301911dd47ce")
 	)
 	(wire
 		(pts
@@ -6610,16 +6150,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 66.04) (xy 11.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b0d4d5b-2dd9-4429-ab29-5c85a4381c22")
-	)
-	(wire
-		(pts
 			(xy 96.52 130.81) (xy 96.52 133.35)
 		)
 		(stroke
@@ -6630,17 +6160,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 58.42) (xy 16.51 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "434729ec-511a-4089-b4e4-8b2c74bfa3d4")
-	)
-	(wire
-		(pts
-			(xy 29.21 5.08) (xy 29.21 8.89)
+			(xy 36.83 22.86) (xy 36.83 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6680,16 +6200,6 @@
 	)
 	(wire
 		(pts
-			(xy 7.62 45.72) (xy 21.59 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e24f1e-a7c7-4466-8eaa-7ca4816e0339")
-	)
-	(wire
-		(pts
 			(xy 135.89 133.35) (xy 132.08 133.35)
 		)
 		(stroke
@@ -6720,16 +6230,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 50.8) (xy 44.45 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511c6998-d0f6-4c21-9a8c-305e259603a9")
-	)
-	(wire
-		(pts
 			(xy 107.95 120.65) (xy 107.95 119.38)
 		)
 		(stroke
@@ -6737,6 +6237,16 @@
 			(type default)
 		)
 		(uuid "52662425-bd02-4202-8aa1-ac90a8eb48e4")
+	)
+	(wire
+		(pts
+			(xy 57.15 38.1) (xy 57.15 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b12a6d-85e7-49d2-89db-376b57224072")
 	)
 	(wire
 		(pts
@@ -6757,16 +6267,6 @@
 			(type default)
 		)
 		(uuid "5b8c2b60-5d17-4672-8668-c362eb250ffe")
-	)
-	(wire
-		(pts
-			(xy 63.5 58.42) (xy 44.45 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c89e846-5c2a-4a12-8995-5fe77e1e0807")
 	)
 	(wire
 		(pts
@@ -6870,16 +6370,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 50.8) (xy 34.29 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bbb2132-c929-441e-b513-ad028c5ba6c0")
-	)
-	(wire
-		(pts
 			(xy 318.77 83.82) (xy 318.77 78.74)
 		)
 		(stroke
@@ -6920,16 +6410,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 67.31) (xy 58.42 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8508fc60-f81e-4216-840d-be12f8437c76")
-	)
-	(wire
-		(pts
 			(xy 185.42 175.26) (xy 185.42 186.69)
 		)
 		(stroke
@@ -6940,17 +6420,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 58.42) (xy 16.51 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d9ea53-6e65-4de9-b163-eb84720b34ed")
-	)
-	(wire
-		(pts
-			(xy 29.21 11.43) (xy 24.13 11.43)
+			(xy 36.83 29.21) (xy 31.75 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6967,16 +6437,6 @@
 			(type default)
 		)
 		(uuid "8830d544-5363-498f-831d-74cc2f8e444f")
-	)
-	(wire
-		(pts
-			(xy 21.59 50.8) (xy 21.59 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8859803b-29b2-46d3-81d0-414d6d473978")
 	)
 	(wire
 		(pts
@@ -6997,16 +6457,6 @@
 			(type default)
 		)
 		(uuid "8c58f1cb-b6f5-449c-acbc-c558b359119a")
-	)
-	(wire
-		(pts
-			(xy 44.45 66.04) (xy 58.42 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ecd9ca1-e96e-4d8f-bc1a-deee0f18c73f")
 	)
 	(wire
 		(pts
@@ -7037,16 +6487,6 @@
 			(type default)
 		)
 		(uuid "963b001a-ebe2-408c-bfd2-8693fcccdad6")
-	)
-	(wire
-		(pts
-			(xy 11.43 66.04) (xy 11.43 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9af9fa05-3719-471f-8793-9025b84deb87")
 	)
 	(wire
 		(pts
@@ -7140,7 +6580,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 226.06) (xy 287.02 228.6)
+			(xy 287.02 226.06) (xy 287.02 229.87)
 		)
 		(stroke
 			(width 0)
@@ -7200,16 +6640,6 @@
 	)
 	(wire
 		(pts
-			(xy 7.62 50.8) (xy 11.43 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b10e06bc-d1ff-476d-a6e0-18c3a06c2a07")
-	)
-	(wire
-		(pts
 			(xy 185.42 198.12) (xy 172.72 198.12)
 		)
 		(stroke
@@ -7250,7 +6680,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 11.43) (xy 29.21 15.24)
+			(xy 36.83 29.21) (xy 36.83 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7267,16 +6697,6 @@
 			(type default)
 		)
 		(uuid "c1a9fa95-b116-4634-8bde-1b3c713d6a9a")
-	)
-	(wire
-		(pts
-			(xy 7.62 48.26) (xy 16.51 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2fa53a1-5dee-4afc-be97-79963194cca4")
 	)
 	(wire
 		(pts
@@ -7310,7 +6730,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 15.24) (xy 49.53 15.24)
+			(xy 36.83 33.02) (xy 57.15 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7380,7 +6800,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 5.08) (xy 29.21 5.08)
+			(xy 41.91 22.86) (xy 36.83 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7427,16 +6847,6 @@
 			(type default)
 		)
 		(uuid "d9e9c88b-ec3f-4f44-8f1e-c55c284ccc90")
-	)
-	(wire
-		(pts
-			(xy 34.29 43.18) (xy 7.62 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da287f1f-781e-4cf9-aeda-84c459b7675d")
 	)
 	(wire
 		(pts
@@ -7520,7 +6930,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 5.08) (xy 49.53 5.08)
+			(xy 60.96 22.86) (xy 57.15 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7530,7 +6940,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 8.89) (xy 24.13 8.89)
+			(xy 36.83 26.67) (xy 31.75 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7540,7 +6950,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 5.08) (xy 49.53 5.08)
+			(xy 52.07 22.86) (xy 57.15 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7570,7 +6980,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 15.24) (xy 53.34 15.24)
+			(xy 57.15 33.02) (xy 60.96 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7630,16 +7040,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 72.39) (xy 58.42 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff3fa8f0-a4f8-4353-9d61-6b68a1120eb5")
-	)
-	(wire
-		(pts
 			(xy 139.7 226.06) (xy 287.02 226.06)
 		)
 		(stroke
@@ -7677,66 +7077,6 @@
 			(justify left bottom)
 		)
 		(uuid "c816aaa1-dada-4db9-b11a-bb960097c735")
-	)
-	(global_label "CELL1"
-		(shape input)
-		(at 63.5 58.42 0)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify left)
-		)
-		(uuid "05586655-bfd6-4509-909b-941e025e7575")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CELL3"
-		(shape input)
-		(at 63.5 43.18 0)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify left)
-		)
-		(uuid "1822fea8-7ae8-49fb-90c2-40a09e3b61be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CELL-GND"
-		(shape input)
-		(at 63.5 66.04 0)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify left)
-		)
-		(uuid "24be1ec3-e6de-49d2-bd42-7e3d84b9b04f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "SHUNT_P"
 		(shape input)
@@ -7780,7 +7120,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 53.34 5.08 0)
+		(at 60.96 22.86 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -7789,7 +7129,7 @@
 		)
 		(uuid "3eaa445c-2e93-4039-9ba8-4d6dfd05e0fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 5.08 0)
+			(at 60.96 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7858,26 +7198,6 @@
 			)
 		)
 	)
-	(global_label "CELL2"
-		(shape input)
-		(at 63.5 50.8 0)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify left)
-		)
-		(uuid "8c2a83fc-19ba-40d4-a3fe-6897e6a0c6a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SHUNT_N"
 		(shape input)
 		(at 139.7 203.2 90)
@@ -7920,7 +7240,7 @@
 	)
 	(global_label "BAT-"
 		(shape input)
-		(at 53.34 15.24 0)
+		(at 60.96 33.02 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -7929,7 +7249,7 @@
 		)
 		(uuid "c0f92ac0-2eaa-4246-9370-403f403a4e03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 15.24 0)
+			(at 60.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,122 +7299,8 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:0466001.NRHF")
-		(at 39.37 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00e96755-a101-47ea-aa6a-54f92b99cd67")
-		(property "Reference" "F6"
-			(at 36.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0466001.NRHF"
-			(at 36.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 39.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0466001.NRHF/162475.html"
-			(at 39.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Surface Mount Fuse Current Rating:1A Voltage Rating (AC):63V Voltage Rating (DC):63V Operating Temperature:-55°C~+90°C Operating Temperature:-55°C~+90°C Interrupt Rating:50A"
-			(at 39.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0466001.NRHF"
-			(at 39.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 39.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C151135"
-			(at 39.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 39.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "63V贴片式保险丝"
-			(at 39.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39d948ce-5adb-477c-8759-243d0c857813")
-		)
-		(pin "1"
-			(uuid "83b0fbc8-a02b-4764-ac2b-3933f59cb2a7")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "F6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 287.02 228.6 0)
+		(at 287.02 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8102,7 +7308,7 @@
 		(dnp no)
 		(uuid "0604f58d-1590-4312-9e7d-429d10aa0b4b")
 		(property "Reference" "#PWR0113"
-			(at 287.02 228.6 0)
+			(at 287.02 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +7317,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 234.95 0)
+			(at 287.02 236.22 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -8119,7 +7325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 228.6 0)
+			(at 287.02 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +7334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 228.6 0)
+			(at 287.02 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,7 +7343,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 228.6 0)
+			(at 287.02 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9440,6 +8646,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 57.15 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cc7a547-23cd-4329-acb1-33ed320b445a")
+		(property "Reference" "NT5"
+			(at 58.42 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 58.42 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c6abe18-e4f8-4cf3-96ab-911555aaafb5")
+		)
+		(pin "1"
+			(uuid "4b534a7e-3557-4c38-ad3d-3c21682c055d")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
+					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:CL10B104KC8NNNC")
 		(at 96.52 167.64 90)
 		(unit 1)
@@ -9787,73 +9063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:Short-Symbol")
-		(at 49.53 17.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "4c1dc3f1-b4ea-45a2-853f-7d79431186fc")
-		(property "Reference" "U5"
-			(at 49.53 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 49.53 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd9f7301-4c56-4aa1-bf8a-2e42ef14ce52")
-		)
-		(pin "2"
-			(uuid "24b4702d-ef49-4ee7-9147-04b2d73be70b")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:BSS84AK,215")
 		(at 220.98 77.47 0)
 		(mirror x)
@@ -10039,128 +9248,6 @@
 			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
 					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:ZX-XH2.54-4PWZ")
-		(at 2.54 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52285b86-53a7-4b3e-8996-f9adcead3f93")
-		(property "Reference" "BatBalConn1"
-			(at 0 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "ZX-XH2.54-4PWZ"
-			(at 0 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 2.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230619/8DC602C7BA46C153FF1BE89D90453879.pdf"
-			(at 2.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pins Structure:1x4P Pitch:2.5mm Mounting Type:Bend-in Reference Series:XH Number of Pins:4P Number of Rows:1 Number of PINs Per Row:4 Row Spacing:- Rated Current:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25°C~+85°C Operating Tempe"
-			(at 2.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "ZX-XH2.54-4PWZ"
-			(at 2.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Megastar(兆星)"
-			(at 2.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C7429643"
-			(at 2.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 2.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x4P 间距:2.5mm 弯插 系列:XH"
-			(at 2.54 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "037c0ca6-58d2-423f-b479-acad2bd82808")
-		)
-		(pin "2"
-			(uuid "396e88d8-2121-45a5-8be6-992a2d4e5fb4")
-		)
-		(pin "3"
-			(uuid "7b675ba7-0a97-4b1a-b81e-647697647f28")
-		)
-		(pin "4"
-			(uuid "8affc7a3-761d-4b2a-8459-06c53a77e3b7")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "BatBalConn1")
 					(unit 1)
 				)
 			)
@@ -10740,7 +9827,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:SMAJ16A_C908770")
-		(at 49.53 10.16 270)
+		(at 57.15 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10748,7 +9835,7 @@
 		(dnp no)
 		(uuid "6c481b16-56f5-442b-85a8-512769dda6f0")
 		(property "Reference" "D6"
-			(at 52.07 10.16 90)
+			(at 59.69 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10757,7 +9844,7 @@
 			)
 		)
 		(property "Value" "SMAJ16A"
-			(at 52.07 12.7 90)
+			(at 59.69 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10766,7 +9853,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:SMA"
-			(at 49.53 10.16 0)
+			(at 57.15 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10775,7 +9862,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240508/8B44FA02DF89A45C8C3EB0325515EF7C.pdf"
-			(at 49.53 10.16 0)
+			(at 57.15 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10784,7 +9871,7 @@
 			)
 		)
 		(property "Description" "Reverse Stand-Off Voltage (Vrwm):16V Clamping Voltage:26V Peak Pulse Current (Ipp):15.3A Peak Pulse Power Dissipation (Ppp):400W Voltage - Breakdown:17.8V Reverse Leakage Current (Ir):5uA Operating Temperature:-55°C~+150°C@(Tj) Operating Temperature:-55°C~+1"
-			(at 49.53 10.16 0)
+			(at 57.15 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,7 +9880,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMAJ16A"
-			(at 49.53 10.16 0)
+			(at 57.15 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,7 +9889,7 @@
 			)
 		)
 		(property "Manufacturer" "GOODWORK(固得沃克)"
-			(at 49.53 10.16 0)
+			(at 57.15 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10811,7 +9898,7 @@
 			)
 		)
 		(property "Supplier Part" "C908770"
-			(at 49.53 10.16 0)
+			(at 57.15 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,7 +9907,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 49.53 10.16 0)
+			(at 57.15 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,7 +9916,7 @@
 			)
 		)
 		(property "LCSC Part Name" "单向TVS 16V截止 15.3A峰值脉冲"
-			(at 49.53 10.16 0)
+			(at 57.15 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10847,73 +9934,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:Short-Symbol")
-		(at 58.42 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "7d143c28-bcc4-46cb-8a67-adf52fa3ba5e")
-		(property "Reference" "U6"
-			(at 58.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 58.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f31167d-42bb-4078-a3fa-0cf7f35d8dae")
-		)
-		(pin "2"
-			(uuid "7dd31132-1172-4905-b05a-ff0c026b0a67")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11100,7 +10120,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 49.53 20.32 0)
+		(at 57.15 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11108,7 +10128,7 @@
 		(dnp no)
 		(uuid "84d67bdb-8a90-4820-85de-fa5d6689df58")
 		(property "Reference" "#PWR0114"
-			(at 49.53 20.32 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,7 +10137,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 49.53 26.67 0)
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -11125,7 +10145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 20.32 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,7 +10154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 20.32 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,7 +10163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 20.32 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,71 +10247,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 58.42 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89780580-7e8e-4cc3-809e-f6ef302a410f")
-		(property "Reference" "#PWR0109"
-			(at 58.42 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 58.42 80.01 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e0c647d-2dfc-468a-88a6-d3237f637b58")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -11664,120 +10619,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:0466001.NRHF")
-		(at 39.37 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "abbc2f7a-d251-4444-a64c-25175a75d84a")
-		(property "Reference" "F5"
-			(at 36.83 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0466001.NRHF"
-			(at 36.83 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0466001.NRHF/162475.html"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Surface Mount Fuse Current Rating:1A Voltage Rating (AC):63V Voltage Rating (DC):63V Operating Temperature:-55°C~+90°C Operating Temperature:-55°C~+90°C Interrupt Rating:50A"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0466001.NRHF"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C151135"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "63V贴片式保险丝"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59d2f21a-946c-4ab5-b835-f4e7f3691e1b")
-		)
-		(pin "2"
-			(uuid "af9d8bbc-43ac-4726-ab92-4dc611b0dbaa")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "F5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:BAT46W-7-F")
 		(at 116.84 86.36 270)
 		(unit 1)
@@ -12000,120 +10841,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:0466001.NRHF")
-		(at 39.37 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bca46ab0-8475-4115-84c6-d0fe08a1b29f")
-		(property "Reference" "F3"
-			(at 36.83 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0466001.NRHF"
-			(at 36.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 39.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0466001.NRHF/162475.html"
-			(at 39.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Surface Mount Fuse Current Rating:1A Voltage Rating (AC):63V Voltage Rating (DC):63V Operating Temperature:-55°C~+90°C Operating Temperature:-55°C~+90°C Interrupt Rating:50A"
-			(at 39.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0466001.NRHF"
-			(at 39.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 39.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C151135"
-			(at 39.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 39.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "63V贴片式保险丝"
-			(at 39.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e15fd498-0f73-4a8c-a737-fa1c6c39a868")
-		)
-		(pin "2"
-			(uuid "d1ff5f68-5c50-44f6-b2a7-ee702bf76943")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -12530,7 +11257,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:XF-507P")
-		(at 39.37 5.08 0)
+		(at 46.99 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12538,7 +11265,7 @@
 		(dnp no)
 		(uuid "cce66e4f-589e-4f17-98ee-e1fe8f8d920d")
 		(property "Reference" "F2"
-			(at 35.56 3.81 0)
+			(at 43.18 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12547,7 +11274,7 @@
 			)
 		)
 		(property "Value" "XF-507P"
-			(at 35.56 8.89 0)
+			(at 43.18 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,7 +11283,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:CONN-TH_XF-507P"
-			(at 39.37 5.08 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,7 +11292,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/XF-507P/699208.html"
-			(at 39.37 5.08 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12574,7 +11301,7 @@
 			)
 		)
 		(property "Description" "Fuseholder Type:- Voltage Rating:60V Current Rating:30A Fuse Type:-"
-			(at 39.37 5.08 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,7 +11310,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XF-507P"
-			(at 39.37 5.08 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12592,7 +11319,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN(兴飞)"
-			(at 39.37 5.08 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12601,7 +11328,7 @@
 			)
 		)
 		(property "Supplier Part" "C668119"
-			(at 39.37 5.08 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12610,7 +11337,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 39.37 5.08 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +11346,7 @@
 			)
 		)
 		(property "LCSC Part Name" "中号汽车保险丝夹 2P"
-			(at 39.37 5.08 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12643,120 +11370,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
 					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:0466001.NRHF")
-		(at 39.37 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d29e95b4-bc7d-4f6b-bd1f-1035631f5713")
-		(property "Reference" "F4"
-			(at 36.83 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0466001.NRHF"
-			(at 36.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0466001.NRHF/162475.html"
-			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Surface Mount Fuse Current Rating:1A Voltage Rating (AC):63V Voltage Rating (DC):63V Operating Temperature:-55°C~+90°C Operating Temperature:-55°C~+90°C Interrupt Rating:50A"
-			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0466001.NRHF"
-			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C151135"
-			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "63V贴片式保险丝"
-			(at 39.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc10a02d-c203-4f22-bf1c-e707425d0e7b")
-		)
-		(pin "2"
-			(uuid "1bc791bc-b012-4ab9-bae9-2fce2885f2cb")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -13708,7 +12321,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:XT60PW-M")
-		(at 19.05 7.62 180)
+		(at 26.67 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13716,7 +12329,7 @@
 		(dnp no)
 		(uuid "f47d854e-7818-4c94-8d04-6e235b5db359")
 		(property "Reference" "-BatMains+1"
-			(at 13.97 2.54 0)
+			(at 21.59 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13725,7 +12338,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 13.97 20.32 0)
+			(at 21.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13734,7 +12347,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:CONN-TH_XT60PW-M"
-			(at 19.05 7.62 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13743,7 +12356,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/XT60PW-M/99942.html"
-			(at 19.05 7.62 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13752,7 +12365,7 @@
 			)
 		)
 		(property "Description" "Power:- Output:- Input:- Size:- Interface:- Type:- Colour:Yellow MaximumCurrent:- Type:Horizontal plug RatedVoltage:- Type1:- NumberOfUSBHoles:- InterfaceType:Male MetalMaterial:- InsulationMaterial:- RatedCurrent:- RecommendedWireGauge:- FlameRetardantGr"
-			(at 19.05 7.62 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +12374,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XT60PW-M"
-			(at 19.05 7.62 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,7 +12383,7 @@
 			)
 		)
 		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 19.05 7.62 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13779,7 +12392,7 @@
 			)
 		)
 		(property "Supplier Part" "C98732"
-			(at 19.05 7.62 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13788,7 +12401,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 19.05 7.62 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13797,7 +12410,7 @@
 			)
 		)
 		(property "LCSC Part Name" "AMASS(艾迈斯)航模插头xt60连接器150公母对接pw锂电池公头 板插卧式XT60PW-M"
-			(at 19.05 7.62 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

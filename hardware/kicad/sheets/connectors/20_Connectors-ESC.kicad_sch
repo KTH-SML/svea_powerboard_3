@@ -2759,211 +2759,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:SPT1EM681F12OR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "680uF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "5v rail sm-easyedapro:CAP-TH_BD8.0-P3.50-D0.6-FD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/SPT1EM681F12OR/732593.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitance:680uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Ripple Current:- Equivalent Series Resistance(ESR):- Type:- Pin Spacing:3.5mm Diameter:8mm Height - Seated (Max):12mm Lifetime:2000hrs@105°C Operating Temperature:-55°C~+105°C Operating Tempe"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "SPT1EM681F12OR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yunxing(云星)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C698148"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "680uF ±20% 25V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SPT1EM681F12OR_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 1.778) (xy -1.778 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.778) (xy -0.508 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.1176 -1.7526)
-					(mid 0.4064 0)
-					(end 1.143 1.778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:XT60PW-M"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3144,6 +2939,345 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:XL-1608UBC-04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XL-1608UBC-04"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:XL-1608UBC-04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C965807"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XINGLIGHT(成兴光)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "XL-1608UBC-04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XL-1608UBC-04_0_1"
+				(polyline
+					(pts
+						(xy -4.064 3.302) (xy -3.048 2.794) (xy -3.556 2.286) (xy -4.064 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 4.318) (xy -2.032 3.81) (xy -2.54 3.302) (xy -3.048 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.524) (xy -3.302 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -2.286 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3548,6 +3682,12 @@
 		(uuid "3d90845d-e697-4002-8c59-792aeac480d3")
 	)
 	(junction
+		(at 16.51 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "480c4c13-66ea-4466-a0b3-261d8b97927e")
+	)
+	(junction
 		(at 148.59 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3572,7 +3712,7 @@
 		(uuid "7457a5f9-8054-4b3f-8fb9-3fe5e9d2ff3a")
 	)
 	(junction
-		(at 16.51 95.25)
+		(at 31.75 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cb3bce0-e349-4f46-b0cc-8e3897274616")
@@ -3602,13 +3742,7 @@
 		(uuid "9c8a6712-1681-4620-a461-a7e4fd5f5dc6")
 	)
 	(junction
-		(at 30.48 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a97f6a20-df06-4d57-9dcf-adad7320a107")
-	)
-	(junction
-		(at 1.27 95.25)
+		(at 16.51 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aba79bac-92c8-48b9-8d14-bcc3eb629417")
@@ -3626,7 +3760,7 @@
 		(uuid "c3e6c624-0aa4-4355-8ae8-cecadd7db9f0")
 	)
 	(junction
-		(at 16.51 118.11)
+		(at 31.75 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c76289f6-5562-4579-a1cd-1e0eb433c636")
@@ -3636,6 +3770,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7d2eeaa-f2ec-4386-846b-6be75edabf2f")
+	)
+	(junction
+		(at 16.51 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8786322-08a9-4278-af29-1d2272fa672f")
 	)
 	(junction
 		(at 58.42 100.33)
@@ -3668,12 +3808,6 @@
 		(uuid "e50013c1-fab4-4e53-a81a-e2dfddda03ae")
 	)
 	(junction
-		(at 30.48 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f201207e-f340-47d5-97eb-43bab2823acf")
-	)
-	(junction
 		(at 86.36 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3686,6 +3820,16 @@
 	(no_connect
 		(at 163.83 104.14)
 		(uuid "3e2deffc-12ac-47f2-ae89-3dc4703157e9")
+	)
+	(wire
+		(pts
+			(xy 3.81 93.98) (xy 3.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047f276d-fd17-4c7e-9fe9-5f8e77d9fee6")
 	)
 	(wire
 		(pts
@@ -3739,16 +3883,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 95.25) (xy 58.42 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e636b06-a332-44a3-939f-c0fb968cb5f8")
-	)
-	(wire
-		(pts
 			(xy 71.12 44.45) (xy 71.12 63.5)
 		)
 		(stroke
@@ -3759,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 1.27 102.87) (xy 1.27 95.25)
+			(xy 16.51 102.87) (xy 16.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3789,7 +3923,7 @@
 	)
 	(wire
 		(pts
-			(xy 1.27 113.03) (xy 1.27 118.11)
+			(xy 16.51 113.03) (xy 16.51 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3846,6 +3980,16 @@
 			(type default)
 		)
 		(uuid "205133ba-2653-4603-883a-9ddaeef03ba0")
+	)
+	(wire
+		(pts
+			(xy 58.42 118.11) (xy 133.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ceede8-23e5-4424-abfb-99578fb28c14")
 	)
 	(wire
 		(pts
@@ -3909,16 +4053,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 95.25) (xy 16.51 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a449e23-0359-4977-b788-6e39c6c1b585")
-	)
-	(wire
-		(pts
 			(xy 95.25 92.71) (xy 96.52 92.71)
 		)
 		(stroke
@@ -3939,7 +4073,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 95.25) (xy 30.48 95.25)
+			(xy 31.75 95.25) (xy 45.72 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3979,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 113.03) (xy 16.51 118.11)
+			(xy 31.75 113.03) (xy 31.75 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4006,6 +4140,16 @@
 			(type default)
 		)
 		(uuid "5e1b27c5-eae9-44be-8677-1e334298ee43")
+	)
+	(wire
+		(pts
+			(xy 3.81 81.28) (xy 16.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0f97c3-8592-4e43-9aaa-7cab5c42cb76")
 	)
 	(wire
 		(pts
@@ -4039,7 +4183,7 @@
 	)
 	(wire
 		(pts
-			(xy 1.27 95.25) (xy 1.27 91.44)
+			(xy 16.51 95.25) (xy 16.51 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4099,13 +4243,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 113.03) (xy 30.48 118.11)
+			(xy 16.51 81.28) (xy 16.51 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79895b3d-fdd1-4a64-9ef0-36c046121dea")
+		(uuid "7c049cd6-13b3-42b3-9bb6-4118196e9c94")
 	)
 	(wire
 		(pts
@@ -4116,6 +4260,16 @@
 			(type default)
 		)
 		(uuid "7c6be4df-eb30-476a-81a3-17d87c9d1f3b")
+	)
+	(wire
+		(pts
+			(xy 3.81 81.28) (xy 3.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8695fcf8-4724-4b65-84dd-c74321b850ac")
 	)
 	(wire
 		(pts
@@ -4219,13 +4373,23 @@
 	)
 	(wire
 		(pts
-			(xy 1.27 118.11) (xy 16.51 118.11)
+			(xy 90.17 165.1) (xy 90.17 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a3cf298-61ac-4bf8-bff1-998788aa717f")
+		(uuid "98130562-3a7d-43d5-9603-2a1c70e9886c")
+	)
+	(wire
+		(pts
+			(xy 58.42 95.25) (xy 80.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba3ba52-e67e-471d-82db-11b84f2337bf")
 	)
 	(wire
 		(pts
@@ -4259,7 +4423,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 120.65) (xy 58.42 118.11)
+			(xy 16.51 129.54) (xy 16.51 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4289,6 +4453,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 119.38) (xy 16.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae19dcf6-c7fe-497e-9fa1-9d3f6ecb59a1")
+	)
+	(wire
+		(pts
 			(xy 52.07 55.88) (xy 48.26 55.88)
 		)
 		(stroke
@@ -4309,7 +4483,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 102.87) (xy 16.51 95.25)
+			(xy 31.75 102.87) (xy 31.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4419,16 +4593,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 58.42 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1324867-62f2-4eae-a8f0-f61a48b795b7")
-	)
-	(wire
-		(pts
 			(xy 96.52 92.71) (xy 96.52 95.25)
 		)
 		(stroke
@@ -4459,26 +4623,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 118.11) (xy 45.72 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d81f646b-c68b-4564-89cf-77eb323fa60e")
-	)
-	(wire
-		(pts
-			(xy 30.48 102.87) (xy 30.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8cd683c-0661-49d1-a86f-181a7fb42164")
-	)
-	(wire
-		(pts
 			(xy 96.52 97.79) (xy 96.52 100.33)
 		)
 		(stroke
@@ -4499,7 +4643,7 @@
 	)
 	(wire
 		(pts
-			(xy 1.27 95.25) (xy 16.51 95.25)
+			(xy 16.51 95.25) (xy 31.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4509,7 +4653,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 118.11) (xy 30.48 118.11)
+			(xy 31.75 118.11) (xy 45.72 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4526,6 +4670,16 @@
 			(type default)
 		)
 		(uuid "e5a3b734-f679-4676-b6b5-41f63c5ef578")
+	)
+	(wire
+		(pts
+			(xy 16.51 77.47) (xy 16.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec24c274-64c4-43ea-8f2f-b51277733c65")
 	)
 	(wire
 		(pts
@@ -4546,6 +4700,16 @@
 			(type default)
 		)
 		(uuid "f85b0409-4950-465e-8907-fdeb420f767b")
+	)
+	(wire
+		(pts
+			(xy 16.51 118.11) (xy 31.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa35fd72-fddf-490d-a08d-36234d495797")
 	)
 	(wire
 		(pts
@@ -4674,6 +4838,119 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:EWH1EM472L25OT")
+		(at 3.81 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00222a83-c1ab-4c65-ad20-6ad57f8efa98")
+		(property "Reference" "C84"
+			(at 7.62 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4700uF"
+			(at 10.16 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:CAP-TH_BD16.0-P7.50-D0.8-FD"
+			(at 3.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/EWH1EM472L25OT/3032380.html"
+			(at 3.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:4700uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Diameter:16mm Height - Seated (Max):25mm Operating Temperature:-25°C~+105°C Operating Temperature:-25°C~+105°C"
+			(at 3.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "EWH1EM472L25OT"
+			(at 3.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AISHI(艾华集团)"
+			(at 3.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843670"
+			(at 3.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 3.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4700uF ±20% 25V"
+			(at 3.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79bf7fff-4a36-4919-8a4e-5e507cf16743")
+		)
+		(pin "2"
+			(uuid "7dfff559-2059-40e9-a527-0307cbe53ff3")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
+					(reference "C84")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4919,7 +5196,7 @@
 	)
 	(symbol
 		(lib_id "power:PACK+")
-		(at 1.27 91.44 0)
+		(at 16.51 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4927,7 +5204,7 @@
 		(dnp no)
 		(uuid "156226b4-fa00-465a-af09-e7cb9bfdec54")
 		(property "Reference" "#PWR0236"
-			(at 1.27 91.44 0)
+			(at 16.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +5213,7 @@
 			)
 		)
 		(property "Value" "PACK+"
-			(at 1.27 87.63 0)
+			(at 16.51 73.66 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -4944,7 +5221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1.27 91.44 0)
+			(at 16.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +5230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1.27 91.44 0)
+			(at 16.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +5239,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 1.27 91.44 0)
+			(at 16.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,6 +5260,112 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:XL-1608UBC-04")
+		(at 90.17 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e249960-859a-4f22-b102-f2d81e763b87")
+		(property "Reference" "LED3"
+			(at 92.71 158.2419 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XL-1608UBC-04"
+			(at 92.71 160.7819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:XL-1608UBC-04"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Blue indicator led"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-1608UBC-04"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 90.17 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01bedf3d-91cb-46f6-95cb-011d59fb1227")
+		)
+		(pin "1"
+			(uuid "13931e52-46bc-4b88-95df-8fcdec2042b0")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -5103,6 +5486,119 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:EWH1EM472L25OT")
+		(at 31.75 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25ff0807-f692-4481-9864-0ad6d2e9cd98")
+		(property "Reference" "C90"
+			(at 35.56 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4700uF"
+			(at 38.1 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:CAP-TH_BD16.0-P7.50-D0.8-FD"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/EWH1EM472L25OT/3032380.html"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:4700uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Diameter:16mm Height - Seated (Max):25mm Operating Temperature:-25°C~+105°C Operating Temperature:-25°C~+105°C"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "EWH1EM472L25OT"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AISHI(艾华集团)"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843670"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4700uF ±20% 25V"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84fd221a-fa4b-463b-bef0-f80bbc68de4f")
+		)
+		(pin "2"
+			(uuid "8a1ed153-21e1-4e70-a350-762cd6cab30d")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -5369,6 +5865,124 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
 					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:L2N7002SLLT1G")
+		(at 90.17 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a16f7a9-b4cc-4f71-b2a1-23bf6cc6f941")
+		(property "Reference" "Q26"
+			(at 83.82 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "L2N7002SLLT1G"
+			(at 81.28 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240529/804683F6F610BC810C43B61F364F3FCA.pdf"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:1 N-channel Drain to Source Voltage:60V Current - Continuous Drain(Id): RDS(on):2.8Ω@10V,500mA Pd - Power Dissipation:300mW Gate Threshold Voltage (Vgs(th)@Id):- Gate Charge(Qg):440pC@4.5V Input Capacitance(Ciss@Vds):35pF@25V Reverse Transfer Capacit"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "L2N7002SLLT1G"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LRC(乐山无线电)"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C22446827"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1个N沟道 耐压:60V 电流:380mA"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a417b2d-cebf-4e83-93cb-8f542d92dda8")
+		)
+		(pin "3"
+			(uuid "4ea05387-09fb-4705-b0c3-fb2f124dd748")
+		)
+		(pin "2"
+			(uuid "21458c51-a495-4806-90af-a8b1ef3f6381")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
+					(reference "Q26")
 					(unit 1)
 				)
 			)
@@ -5879,6 +6493,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 16.51 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58710f57-0f4f-44f0-86cb-e6b3bc80ce82")
+		(property "Reference" "NT4"
+			(at 17.78 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "High Current Nettie"
+			(at 17.78 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High current path for ESC, place close to bms mosfet"
+			(at 16.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb984752-303d-4e92-b9a2-b7a0220ee30e")
+		)
+		(pin "1"
+			(uuid "e4f39939-6667-4756-9a6a-dfa6a086521f")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
+					(reference "NT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:0603WAF1003T5E")
 		(at 64.77 39.37 90)
 		(unit 1)
@@ -6262,6 +6946,119 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:EWH1EM472L25OT")
+		(at 16.51 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82cb12af-002f-47ad-8dfc-7d97b69e1703")
+		(property "Reference" "C89"
+			(at 20.32 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4700uF"
+			(at 22.86 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:CAP-TH_BD16.0-P7.50-D0.8-FD"
+			(at 16.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/EWH1EM472L25OT/3032380.html"
+			(at 16.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:4700uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Diameter:16mm Height - Seated (Max):25mm Operating Temperature:-25°C~+105°C Operating Temperature:-25°C~+105°C"
+			(at 16.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "EWH1EM472L25OT"
+			(at 16.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AISHI(艾华集团)"
+			(at 16.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843670"
+			(at 16.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 16.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4700uF ±20% 25V"
+			(at 16.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "314e1a3e-ee3d-4865-855b-0e8757a661d9")
+		)
+		(pin "2"
+			(uuid "8a62d6b4-6cb0-4b26-91b9-a723018b20e3")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:SIRA99DP-T1-GE3")
 		(at 87.63 97.79 0)
 		(unit 1)
@@ -6401,15 +7198,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 120.65 0)
+		(at 3.81 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b97e095d-9094-4eaf-bb5f-ea2527e969bc")
-		(property "Reference" "#PWR0237"
-			(at 58.42 120.65 0)
+		(uuid "ab355969-4fe2-413a-a671-e3899935a584")
+		(property "Reference" "#PWR01"
+			(at 3.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +7215,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 127 0)
+			(at 3.556 98.806 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -6426,7 +7223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 120.65 0)
+			(at 3.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +7232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 120.65 0)
+			(at 3.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +7241,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 120.65 0)
+			(at 3.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,138 +7250,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "54e3d502-b0b7-482f-a5fe-eca3ac33655c")
+			(uuid "81869226-3661-41eb-aa2d-d5a4f62f42bd")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
-					(reference "#PWR0237")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:SPT1EM681F12OR")
-		(at 30.48 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "bc3bc46f-d28f-4022-801c-417c3781fda1")
-		(property "Reference" "C91"
-			(at 34.29 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "680uF"
-			(at 34.29 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SPT1EM681F12OR/732593.html"
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:680uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Ripple Current:- Equivalent Series Resistance(ESR):- Type:- Pin Spacing:3.5mm Diameter:8mm Height - Seated (Max):12mm Lifetime:2000hrs@105°C Operating Temperature:-55°C~+105°C Operating Tempe"
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SPT1EM681F12OR"
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yunxing(云星)"
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C698148"
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "680uF ±20% 25V"
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "37bfe814-7a53-465d-8b20-2e64b22498fb")
-		)
-		(pin "1"
-			(uuid "fa4e573e-b6ba-4a48-9c56-34a42a2a15ad")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
-					(reference "C91")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
-					(reference "C?")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6712,34 +7383,35 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:EWH1EM472L25OT")
-		(at 16.51 107.95 270)
+		(lib_id "Device:NetTie_2")
+		(at 16.51 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		(uuid "c2c4c024-164a-4f38-bcfc-e7823f59cf3d")
-		(property "Reference" "C90"
-			(at 20.32 107.95 90)
+		(fields_autoplaced yes)
+		(uuid "c30911a0-9791-46d7-a1db-76183229a238")
+		(property "Reference" "NT3"
+			(at 17.78 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Value" "4700uF"
-			(at 20.32 110.49 90)
+		(property "Value" "High Current Nettie"
+			(at 17.78 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 16.51 107.95 0)
+			(at 16.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,8 +7419,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/EWH1EM472L25OT/3032380.html"
-			(at 16.51 107.95 0)
+		(property "Datasheet" "~"
+			(at 16.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,8 +7428,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:4700uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Diameter:16mm Height - Seated (Max):25mm Operating Temperature:-25°C~+105°C Operating Temperature:-25°C~+105°C"
-			(at 16.51 107.95 0)
+		(property "Description" "High current return path for ESC, place close to bms mosfet"
+			(at 16.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,44 +7437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "EWH1EM472L25OT"
-			(at 16.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AISHI(艾华集团)"
-			(at 16.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2843670"
-			(at 16.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 16.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "4700uF ±20% 25V"
-			(at 16.51 107.95 0)
+		(property "ield5" ""
+			(at 16.51 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,21 +7447,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1f25a82e-cb6f-4a0c-8f89-2ab15923fd22")
+			(uuid "fc35ecea-d1b2-4a54-9665-1748a2a9c7a6")
 		)
 		(pin "1"
-			(uuid "54e8eff8-7462-4da8-81a2-f075625304e6")
+			(uuid "4de3bab7-7c89-4114-97b2-1a34cf60d0b6")
 		)
 		(instances
-			(project "svea_powerboard_rev3"
+			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
-					(reference "C90")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
-					(reference "C?")
+					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -6903,34 +7533,33 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:EWH1EM472L25OT")
-		(at 1.27 107.95 270)
+		(lib_id "power:GND")
+		(at 16.51 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(uuid "deb6b99f-bf45-4795-9138-58a260ce9086")
-		(property "Reference" "C89"
-			(at 5.08 107.95 90)
+		(uuid "de2e0170-7c02-46e3-b7a6-db8efd9ada9c")
+		(property "Reference" "#PWR0237"
+			(at 16.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Value" "4700uF"
-			(at 5.08 110.49 90)
+		(property "Value" "GND"
+			(at 16.256 134.366 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5748 1.5748)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 1.27 107.95 0)
+			(at 16.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,8 +7567,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/EWH1EM472L25OT/3032380.html"
-			(at 1.27 107.95 0)
+		(property "Datasheet" ""
+			(at 16.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,76 +7576,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:4700uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Diameter:16mm Height - Seated (Max):25mm Operating Temperature:-25°C~+105°C Operating Temperature:-25°C~+105°C"
-			(at 1.27 107.95 0)
+		(property "Description" ""
+			(at 16.51 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer Part" "EWH1EM472L25OT"
-			(at 1.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AISHI(艾华集团)"
-			(at 1.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2843670"
-			(at 1.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 1.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "4700uF ±20% 25V"
-			(at 1.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2c59ebe9-1d51-48fc-8f1b-8de2391bbb63")
 		)
 		(pin "1"
-			(uuid "1e35b319-0a10-4aa7-91a5-c4d7604929ef")
+			(uuid "2bf3b9bc-3fbc-4335-9543-bb781b299b42")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
-					(reference "C89")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/c9dbb9b2-7fd7-49e1-9c7e-3b80a9c7e201"
-					(reference "C?")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)

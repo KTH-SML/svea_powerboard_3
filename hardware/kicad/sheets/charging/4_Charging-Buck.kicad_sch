@@ -6138,7 +6138,7 @@
 	)
 	(text "hacky way of disabling the charging circuit\ndefault always on"
 		(exclude_from_sim no)
-		(at 119.38 184.15 0)
+		(at 119.38 186.436 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6361,12 +6361,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4ec776c-6e3d-445c-9dad-f4c54d6551f5")
-	)
-	(junction
-		(at 107.95 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da711ed0-970b-4e00-aaa7-f0337a8bcfe6")
 	)
 	(junction
 		(at 111.76 165.1)
@@ -7292,7 +7286,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 180.34) (xy 76.2 180.34)
+			(xy 76.2 180.34) (xy 111.76 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7572,16 +7566,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 180.34) (xy 111.76 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ac238c-ae08-414e-b018-15902bbbcc0b")
-	)
-	(wire
-		(pts
 			(xy 113.03 22.86) (xy 120.65 22.86)
 		)
 		(stroke
@@ -7592,7 +7576,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 180.34) (xy 107.95 189.23)
+			(xy 111.76 180.34) (xy 111.76 184.15)
 		)
 		(stroke
 			(width 0)
@@ -11735,7 +11719,7 @@
 		(dnp no)
 		(uuid "a2533b66-c86e-4ec1-a607-c944bb229445")
 		(property "Reference" "Q20"
-			(at 125.73 162.56 0)
+			(at 117.856 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,6 +11734,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12073,7 +12058,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 189.23 0)
+		(at 111.76 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12081,7 +12066,7 @@
 		(dnp no)
 		(uuid "afc92856-c262-4dac-a545-175a61b7ae4f")
 		(property "Reference" "#PWR0285"
-			(at 107.95 189.23 0)
+			(at 111.76 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12090,7 +12075,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 195.58 0)
+			(at 111.76 190.5 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -12098,7 +12083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 189.23 0)
+			(at 111.76 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12107,7 +12092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 189.23 0)
+			(at 111.76 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12116,7 +12101,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 189.23 0)
+			(at 111.76 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
