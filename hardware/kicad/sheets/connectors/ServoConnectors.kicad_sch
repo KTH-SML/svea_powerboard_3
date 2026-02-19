@@ -604,185 +604,60 @@
 		)
 		(uuid "3391a326-eb81-40d4-a2de-291ed4c4544d")
 	)
-	(global_label "EXTRA_SERVO3_PWM"
-		(shape input)
-		(at 163.83 104.14 0)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify left)
-		)
-		(uuid "31275e46-d950-4254-bfe0-35925093e646")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPEED_PWM"
-		(shape input)
-		(at 163.83 78.74 0)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify left)
-		)
-		(uuid "45fbeec6-01de-45a9-973e-54f96b5a9447")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIFF_FRONT_PWM"
-		(shape input)
-		(at 163.83 86.36 0)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify left)
-		)
-		(uuid "46e70242-105b-40cf-b900-97009626fbf9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SBUS_RECEIVER"
-		(shape input)
-		(at 151.13 109.22 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "72207934-6b07-44f4-abf0-644f7a5a3dc7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXTRA_SERVO1_PWM"
-		(shape input)
-		(at 151.13 116.84 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "74df8338-4503-4a44-bcf3-9483c7aa86b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 151.13 104.14 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "81db0240-deef-44bc-a964-8d304380e79f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXTRA_SERVO2_PWM"
-		(shape input)
-		(at 163.83 111.76 0)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify left)
-		)
-		(uuid "90a56158-0843-4afb-a8bd-99e06da2362b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "THROTTLE_PWM"
+	(hierarchical_label "THROTTLE_DATA_(SERVO_0)"
 		(shape input)
 		(at 151.13 83.82 180)
 		(effects
 			(font
-				(size 1.5748 1.5748)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c1dd501c-2d97-434e-a6bc-68d9e4919dbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		(uuid "000e484c-9786-42ff-961e-9d64d36f87fd")
 	)
-	(global_label "STEER_PWM"
+	(hierarchical_label "SERVO2"
+		(shape input)
+		(at 163.83 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02ccaf5a-64d0-401e-be46-813727b73e3c")
+	)
+	(hierarchical_label "SERVO4"
+		(shape input)
+		(at 151.13 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f3effda-d25a-459b-a469-d5686667fc08")
+	)
+	(hierarchical_label "SERVO3"
+		(shape input)
+		(at 163.83 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10dd035f-2175-4ede-a924-e6a616ebbff9")
+	)
+	(hierarchical_label "SERVO1"
 		(shape input)
 		(at 151.13 91.44 180)
 		(effects
 			(font
-				(size 1.5748 1.5748)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "cefa1e87-1fd8-44a2-851d-dcb617543e57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		(uuid "1497610c-eaaf-47d8-b8fc-5d465255a1c6")
 	)
 	(hierarchical_label "servo_vcc"
 		(shape input)
@@ -795,8 +670,8 @@
 		)
 		(uuid "33d7c8d4-2831-42fd-b853-7e8a843dd936")
 	)
-	(hierarchical_label "servo_vcc"
-		(shape input)
+	(hierarchical_label "3v3_DATA"
+		(shape output)
 		(at 163.83 106.68 0)
 		(effects
 			(font
@@ -804,7 +679,18 @@
 			)
 			(justify left)
 		)
-		(uuid "58f41eb7-b0d1-449e-96cb-870f7ea3e454")
+		(uuid "3643d683-a85a-4c68-ac82-580e4bda96a3")
+	)
+	(hierarchical_label "SERVO5"
+		(shape input)
+		(at 151.13 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6369beb9-a4c3-4466-b144-3c932fe53d42")
 	)
 	(hierarchical_label "servo_vcc"
 		(shape input)
@@ -816,6 +702,17 @@
 			(justify left)
 		)
 		(uuid "71b8f65b-bab6-4ac2-8243-6ef6c04c71e5")
+	)
+	(hierarchical_label "3v3_receiver"
+		(shape input)
+		(at 163.83 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8516f009-21f6-4fa7-bf50-62d058b41141")
 	)
 	(hierarchical_label "servo_vcc"
 		(shape input)
@@ -861,7 +758,18 @@
 		)
 		(uuid "d9c270e5-4d72-4f91-92a5-048f36b5f1b0")
 	)
-	(hierarchical_label "3v3_receiver"
+	(hierarchical_label "SERVO6"
+		(shape input)
+		(at 163.83 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbe6ebe3-ecb3-4f8d-a2c9-c69e53b86eb0")
+	)
+	(hierarchical_label "servo_vcc"
 		(shape input)
 		(at 151.13 106.68 180)
 		(effects
@@ -870,7 +778,7 @@
 			)
 			(justify right)
 		)
-		(uuid "fb4455f7-c4bf-4b55-88b7-86671fa83253")
+		(uuid "f3aebad5-de97-4043-972b-a7c85c589d90")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -882,7 +790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b982dcb-eb3e-4979-963e-f5c7a231abea")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0113"
 			(at 170.18 91.44 0)
 			(effects
 				(font
@@ -933,7 +841,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
-					(reference "#PWR0105")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -949,7 +857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b827409-571a-4c17-bef1-28fb1709456b")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0110"
 			(at 144.78 86.36 0)
 			(effects
 				(font
@@ -1000,7 +908,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
-					(reference "#PWR0102")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -1016,7 +924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69af5d66-ee08-4179-8c86-61e57015886b")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0111"
 			(at 144.78 111.76 0)
 			(effects
 				(font
@@ -1067,7 +975,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
-					(reference "#PWR0103")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -1083,7 +991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7228508a-b7f2-4261-bdbe-122a85747703")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0109"
 			(at 144.78 78.74 0)
 			(effects
 				(font
@@ -1134,7 +1042,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
-					(reference "#PWR0101")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -1150,7 +1058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2aa118-5865-4ef4-aa72-cde842bb31b2")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0114"
 			(at 170.18 109.22 0)
 			(effects
 				(font
@@ -1201,7 +1109,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
-					(reference "#PWR0106")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1217,7 +1125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a31fa287-8263-4ba3-a23d-145ef1dc5626")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0115"
 			(at 170.18 116.84 0)
 			(effects
 				(font
@@ -1268,7 +1176,74 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
-					(reference "#PWR0107")
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8aab8a5-c8d5-4931-9725-d8f21de20da2")
+		(property "Reference" "#PWR0178"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a18f184-ddec-49ef-afb1-f6a428aa8071")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -1284,7 +1259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da95801c-ce75-43e6-bcc3-73932edaa03f")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0112"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -1335,7 +1310,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
-					(reference "#PWR0104")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)

@@ -5876,7 +5876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0257932c-25ef-45ea-b181-b53e3aa03855")
-		(property "Reference" "R157"
+		(property "Reference" "R168"
 			(at 242.57 30.48 0)
 			(effects
 				(font
@@ -5975,7 +5975,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R157")
+					(reference "R168")
 					(unit 1)
 				)
 			)
@@ -5996,7 +5996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0457b027-4968-448a-b606-3d4f1b2f99d0")
-		(property "Reference" "D32"
+		(property "Reference" "D33"
 			(at 217.17 29.21 0)
 			(effects
 				(font
@@ -6096,133 +6096,13 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "D32")
+					(reference "D33")
 					(unit 1)
 				)
 			)
 			(project "18_Battery-BMS"
 				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
 					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:FRC0603J104 TS")
-		(at 275.59 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06e9cda0-2b0d-40f7-a4d1-2c5460d6ab95")
-		(property "Reference" "R160"
-			(at 273.05 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100kΩ"
-			(at 273.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±5% Tolerance:±5% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "FRC0603J104 TS"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2907088"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100kΩ ±5% 100mW 厚膜电阻"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6632dbe5-136b-4b02-9af1-75d170acb757")
-		)
-		(pin "2"
-			(uuid "7cb4f370-6bd9-4a7e-a0d0-ea55ab62cf8a")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R160")
-					(unit 1)
-				)
-			)
-			(project "18_Battery-BMS"
-				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6237,7 +6117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b340049-5087-4824-84f6-29095775803b")
-		(property "Reference" "R155"
+		(property "Reference" "R163"
 			(at 160.02 160.02 90)
 			(effects
 				(font
@@ -6336,7 +6216,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R155")
+					(reference "R163")
 					(unit 1)
 				)
 			)
@@ -6478,7 +6358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f6379f4-f1be-40c7-aec5-08b720dde1c4")
-		(property "Reference" "R153"
+		(property "Reference" "R160"
 			(at 59.69 88.9 0)
 			(effects
 				(font
@@ -6577,7 +6457,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R153")
+					(reference "R160")
 					(unit 1)
 				)
 			)
@@ -6598,7 +6478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33a8fe83-338e-4db8-9ac7-b77c1b80c987")
-		(property "Reference" "U61"
+		(property "Reference" "U67"
 			(at 208.28 62.23 0)
 			(effects
 				(font
@@ -6835,7 +6715,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "U61")
+					(reference "U67")
 					(unit 1)
 				)
 			)
@@ -6856,7 +6736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33fcbd9b-d039-4a0d-b358-954a091fbc54")
-		(property "Reference" "R156"
+		(property "Reference" "R165"
 			(at 186.69 161.29 90)
 			(effects
 				(font
@@ -6955,7 +6835,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R156")
+					(reference "R165")
 					(unit 1)
 				)
 			)
@@ -6976,7 +6856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37d3098e-f3ec-4bae-ba11-f12195c16bcc")
-		(property "Reference" "C113"
+		(property "Reference" "C119"
 			(at 306.07 54.61 90)
 			(effects
 				(font
@@ -7075,7 +6955,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "C113")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -7096,7 +6976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "485f502c-77c1-4246-b643-e7ccffc2bf06")
-		(property "Reference" "C111"
+		(property "Reference" "C117"
 			(at 279.4 54.61 90)
 			(effects
 				(font
@@ -7195,7 +7075,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "C111")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -7284,7 +7164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "539631ce-0e4a-413e-ad28-d5bf347f5785")
-		(property "Reference" "R151"
+		(property "Reference" "R158"
 			(at 59.69 54.61 0)
 			(effects
 				(font
@@ -7383,7 +7263,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R151")
+					(reference "R158")
 					(unit 1)
 				)
 			)
@@ -7404,7 +7284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55d4fd55-871f-4aa4-812c-141ca9d3d2e5")
-		(property "Reference" "C110"
+		(property "Reference" "C115"
 			(at 168.91 144.78 0)
 			(effects
 				(font
@@ -7503,7 +7383,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "C110")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -7524,7 +7404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c3442bd-7cbf-4abc-a4cc-9417e8f6c51d")
-		(property "Reference" "C107"
+		(property "Reference" "C111"
 			(at 102.87 129.54 90)
 			(effects
 				(font
@@ -7623,7 +7503,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "C107")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -7644,7 +7524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a9e804c-04df-4215-b345-64fec12870df")
-		(property "Reference" "C106"
+		(property "Reference" "C110"
 			(at 82.55 82.55 90)
 			(effects
 				(font
@@ -7743,7 +7623,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "C106")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -7765,7 +7645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e4a1367-b1db-4cde-a955-a9d1b885460b")
-		(property "Reference" "NT23"
+		(property "Reference" "NT24"
 			(at 185.42 168.9099 90)
 			(effects
 				(font
@@ -7821,7 +7701,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "NT23")
+					(reference "NT24")
 					(unit 1)
 				)
 			)
@@ -7836,7 +7716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "803089e9-f82a-48d9-bf76-52fa857edfcb")
-		(property "Reference" "R161"
+		(property "Reference" "R172"
 			(at 285.75 78.232 0)
 			(effects
 				(font
@@ -7935,7 +7815,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R161")
+					(reference "R172")
 					(unit 1)
 				)
 			)
@@ -7956,7 +7836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b3e2afc-b627-4228-ad4e-56d19e5da3bb")
-		(property "Reference" "R154"
+		(property "Reference" "R161"
 			(at 59.69 101.6 0)
 			(effects
 				(font
@@ -8055,7 +7935,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R154")
+					(reference "R161")
 					(unit 1)
 				)
 			)
@@ -8076,7 +7956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b7bd07d-4f04-443a-a4fc-69fea5abb33c")
-		(property "Reference" "D33"
+		(property "Reference" "D34"
 			(at 217.17 41.91 0)
 			(effects
 				(font
@@ -8176,7 +8056,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "D33")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -8197,7 +8077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6bc4008-f749-4bed-910f-c207191897f9")
-		(property "Reference" "R159"
+		(property "Reference" "R170"
 			(at 273.05 101.6 0)
 			(effects
 				(font
@@ -8296,7 +8176,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R159")
+					(reference "R170")
 					(unit 1)
 				)
 			)
@@ -8317,7 +8197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa56a223-45a0-45aa-83c9-f1469018828e")
-		(property "Reference" "C112"
+		(property "Reference" "C118"
 			(at 293.37 54.61 90)
 			(effects
 				(font
@@ -8417,7 +8297,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "C112")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -8438,7 +8318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5d1f209-d415-4db6-9ba1-dcf53aeb5840")
-		(property "Reference" "C109"
+		(property "Reference" "C114"
 			(at 168.91 133.35 90)
 			(effects
 				(font
@@ -8537,7 +8417,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "C109")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -8678,7 +8558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6b585d9-9d46-4e25-a6cc-6553de381434")
-		(property "Reference" "R162"
+		(property "Reference" "R173"
 			(at 286.004 88.9 0)
 			(effects
 				(font
@@ -8777,7 +8657,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R162")
+					(reference "R173")
 					(unit 1)
 				)
 			)
@@ -8798,7 +8678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6f2b3c3-4a90-4def-8c5c-e3a236bda298")
-		(property "Reference" "U60"
+		(property "Reference" "U66"
 			(at 200.66 43.18 0)
 			(effects
 				(font
@@ -8852,13 +8732,133 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "U60")
+					(reference "U66")
 					(unit 1)
 				)
 			)
 			(project "18_Battery-BMS"
 				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:FRC0603J104 TS")
+		(at 275.59 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d410fd62-6f76-49ac-8a47-b4442fdf3c4f")
+		(property "Reference" "R171"
+			(at 273.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 273.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±5% Tolerance:±5% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "FRC0603J104 TS"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2907088"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "100kΩ ±5% 100mW 厚膜电阻"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6632dbe5-136b-4b02-9af1-75d170acb757")
+		)
+		(pin "2"
+			(uuid "7cb4f370-6bd9-4a7e-a0d0-ea55ab62cf8a")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
+					(reference "R171")
+					(unit 1)
+				)
+			)
+			(project "18_Battery-BMS"
+				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8873,7 +8873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6cc8385-a264-48bc-9330-c0e21bfb6eff")
-		(property "Reference" "R152"
+		(property "Reference" "R159"
 			(at 59.69 72.39 0)
 			(effects
 				(font
@@ -8972,7 +8972,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R152")
+					(reference "R159")
 					(unit 1)
 				)
 			)
@@ -8993,7 +8993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3bf76ec-0d5c-4df9-9791-77662d6508e4")
-		(property "Reference" "R163"
+		(property "Reference" "R174"
 			(at 299.72 114.3 90)
 			(effects
 				(font
@@ -9092,7 +9092,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R163")
+					(reference "R174")
 					(unit 1)
 				)
 			)
@@ -9113,7 +9113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e668a601-8443-4f45-b98f-471bdc7e1b3e")
-		(property "Reference" "R158"
+		(property "Reference" "R169"
 			(at 242.57 43.18 0)
 			(effects
 				(font
@@ -9212,7 +9212,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R158")
+					(reference "R169")
 					(unit 1)
 				)
 			)
@@ -9233,7 +9233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f04886c8-464d-4d95-b08e-0ba8c9d623cd")
-		(property "Reference" "C105"
+		(property "Reference" "C109"
 			(at 82.55 66.04 90)
 			(effects
 				(font
@@ -9332,7 +9332,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "C105")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -9353,7 +9353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3a81351-4937-4782-a002-756da9cd578a")
-		(property "Reference" "C108"
+		(property "Reference" "C112"
 			(at 115.57 97.79 90)
 			(effects
 				(font
@@ -9452,7 +9452,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "C108")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -9474,7 +9474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9218024-628b-4047-8c8c-60527db96470")
-		(property "Reference" "NT22"
+		(property "Reference" "NT23"
 			(at 158.75 167.6399 90)
 			(effects
 				(font
@@ -9530,7 +9530,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "NT22")
+					(reference "NT23")
 					(unit 1)
 				)
 			)
