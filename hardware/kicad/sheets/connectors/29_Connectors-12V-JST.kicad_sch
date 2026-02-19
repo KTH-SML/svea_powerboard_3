@@ -1298,150 +1298,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:RC0201FR-070RL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0Ω"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250610/89E4D743C004A82A45145C7A2CC3A578.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):50mW Voltage-Supply(Max):25V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "RC0201FR-070RL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C106227"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "厚膜电阻 0Ω ±1% 50mW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC0201FR-070RL_1_0"
-				(rectangle
-					(start -2.54 -1.016)
-					(end 2.54 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:RC0402FR-0710RL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2398,6 +2254,132 @@
 						(effects
 							(font
 								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3462,6 +3444,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 39.37) (xy 234.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03270b7d-cb93-49a6-9b15-4385ba38c002")
+	)
+	(wire
+		(pts
 			(xy 52.07 151.13) (xy 52.07 156.21)
 		)
 		(stroke
@@ -3472,7 +3464,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 140.97) (xy 92.71 140.97)
+			(xy 129.54 140.97) (xy 92.71 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3722,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 31.75) (xy 184.15 31.75)
+			(xy 184.15 31.75) (xy 203.2 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3749,6 +3741,16 @@
 			(type default)
 		)
 		(uuid "54c2bc1f-3eb3-4452-a23c-cfbf6807773f")
+	)
+	(wire
+		(pts
+			(xy 134.62 127) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5761979c-aec9-4ce5-a689-a5aa404e83a1")
 	)
 	(wire
 		(pts
@@ -3902,16 +3904,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 39.37) (xy 234.95 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "733c5820-4d9f-40a3-9c65-9ee8438d3eab")
-	)
-	(wire
-		(pts
 			(xy 175.26 140.97) (xy 156.21 140.97)
 		)
 		(stroke
@@ -3929,16 +3921,6 @@
 			(type default)
 		)
 		(uuid "74cb9751-55e8-44e8-a72a-fed333c9e769")
-	)
-	(wire
-		(pts
-			(xy 140.97 127) (xy 144.78 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a118810-cbbb-452b-8f97-f29631868e7b")
 	)
 	(wire
 		(pts
@@ -4212,7 +4194,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 140.97) (xy 284.48 140.97)
+			(xy 314.96 140.97) (xy 283.21 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4252,17 +4234,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 127) (xy 64.77 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba0dd5ef-6846-48c9-9ea2-811ec812c1c8")
-	)
-	(wire
-		(pts
-			(xy 269.24 140.97) (xy 274.32 140.97)
+			(xy 269.24 140.97) (xy 278.13 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4292,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 31.75) (xy 220.98 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0601433-1fef-4b8d-869c-866497b494b5")
+	)
+	(wire
+		(pts
 			(xy 194.31 167.64) (xy 194.31 161.29)
 		)
 		(stroke
@@ -4299,16 +4281,6 @@
 			(type default)
 		)
 		(uuid "c1570adf-393e-4fc1-9764-9506a146acd9")
-	)
-	(wire
-		(pts
-			(xy 220.98 31.75) (xy 210.82 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17dae7f-4cd4-4852-a72b-29f2f880d984")
 	)
 	(wire
 		(pts
@@ -4382,7 +4354,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 125.73) (xy 293.37 125.73)
+			(xy 283.21 125.73) (xy 293.37 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4402,7 +4374,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 125.73) (xy 269.24 125.73)
+			(xy 278.13 125.73) (xy 269.24 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4442,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 39.37) (xy 200.66 39.37)
+			(xy 199.39 39.37) (xy 204.47 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4692,13 +4664,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 140.97) (xy 144.78 140.97)
+			(xy 134.62 140.97) (xy 144.78 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fbd27cc6-512e-4d2e-9d96-d2eb45271172")
+	)
+	(wire
+		(pts
+			(xy 64.77 127) (xy 129.54 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6de191-25c5-4f46-b425-79a134ad8147")
 	)
 	(wire
 		(pts
@@ -4922,43 +4904,33 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RC0201FR-070RL")
-		(at 205.74 39.37 180)
+		(lib_id "Device:NetTie_2")
+		(at 207.01 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "07f31bf4-ab06-42d4-8b54-a7f37769cb92")
-		(property "Reference" "R152"
-			(at 203.2 38.1 0)
+		(fields_autoplaced yes)
+		(uuid "0ae03e33-71fe-4b82-8a3d-13e48d09f576")
+		(property "Reference" "NT11"
+			(at 207.01 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
-		(property "Value" "0Ω"
-			(at 203.2 43.18 0)
+		(property "Value" "NetTie_2"
+			(at 207.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250610/89E4D743C004A82A45145C7A2CC3A578.pdf"
-			(at 205.74 39.37 0)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,8 +4938,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):50mW Voltage-Supply(Max):25V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 205.74 39.37 0)
+		(property "Datasheet" "~"
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,110 +4947,58 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC0201FR-070RL"
-			(at 205.74 39.37 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C106227"
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 0Ω ±1% 50mW"
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09760297-28df-4e17-9ebb-1ad0ba4ba322")
 		)
 		(pin "2"
-			(uuid "98f507ad-4653-4c6c-97f2-3d6fe0564ca3")
+			(uuid "b2ed0097-3c37-467f-b7cc-19e5352669d5")
+		)
+		(pin "1"
+			(uuid "5c487187-52bf-4aa0-bae0-910a4fc542e0")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R152")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R?")
+					(reference "NT11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RC0201FR-070RL")
-		(at 135.89 140.97 180)
+		(lib_id "Device:NetTie_2")
+		(at 280.67 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "203e238c-4e58-419c-a572-a42b2643f4fb")
-		(property "Reference" "R145"
-			(at 133.35 139.7 0)
+		(fields_autoplaced yes)
+		(uuid "123416ae-7184-4099-9183-b4ab19fca02e")
+		(property "Reference" "NT9"
+			(at 280.67 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
-		(property "Value" "0Ω"
-			(at 133.35 144.78 0)
+		(property "Value" "NetTie_2"
+			(at 280.67 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250610/89E4D743C004A82A45145C7A2CC3A578.pdf"
-			(at 135.89 140.97 0)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+			(at 280.67 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,8 +5006,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):50mW Voltage-Supply(Max):25V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 135.89 140.97 0)
+		(property "Datasheet" "~"
+			(at 280.67 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,44 +5015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC0201FR-070RL"
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C106227"
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 0Ω ±1% 50mW"
-			(at 135.89 140.97 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 280.67 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,21 +5025,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "19b62946-0664-4400-9fee-0bb51b0d677d")
+			(uuid "ce1e8ef1-059b-433c-b515-1c0ea77ffd3e")
 		)
 		(pin "1"
-			(uuid "c27cf673-1e6a-4263-b732-7e03612a5edb")
+			(uuid "d68d718f-aab4-4ac9-bc2d-bb04c701f46d")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R145")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R?")
+					(reference "NT9")
 					(unit 1)
 				)
 			)
@@ -5596,6 +5474,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 280.67 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e19d80d-7ad4-4302-8487-d569ef5fa0cb")
+		(property "Reference" "NT8"
+			(at 280.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+			(at 280.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 280.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "caabc9cf-b499-41dd-b45a-820f547aa273")
+		)
+		(pin "1"
+			(uuid "3d70b757-dea4-44d2-a769-6034e331ccc9")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
+					(reference "NT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:VH3_96-2P_WZ")
 		(at 363.22 130.81 0)
 		(mirror x)
@@ -5756,126 +5702,6 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RC0201FR-070RL")
-		(at 279.4 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5326a1cd-e8ee-4f96-b9d0-03557a3467e5")
-		(property "Reference" "R156"
-			(at 276.86 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 276.86 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250610/89E4D743C004A82A45145C7A2CC3A578.pdf"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):50mW Voltage-Supply(Max):25V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RC0201FR-070RL"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C106227"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 0Ω ±1% 50mW"
-			(at 279.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d86f2e43-d9f1-48c9-b85b-7982c954f162")
-		)
-		(pin "2"
-			(uuid "d00fbf1f-20a9-4da1-9c5c-08a2ff9aa7f2")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R156")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6091,126 +5917,6 @@
 			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
 					(reference "U32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RC0201FR-070RL")
-		(at 135.89 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59ff712a-a4b0-4610-acfe-ebd872499e1a")
-		(property "Reference" "R144"
-			(at 133.35 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 135.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250610/89E4D743C004A82A45145C7A2CC3A578.pdf"
-			(at 135.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):50mW Voltage-Supply(Max):25V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 135.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RC0201FR-070RL"
-			(at 135.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 135.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C106227"
-			(at 135.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 135.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 0Ω ±1% 50mW"
-			(at 135.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9507cd8a-193b-4e1d-9fc7-d9d6c8c4c9ea")
-		)
-		(pin "1"
-			(uuid "bb936d3d-7e3a-4ba4-88e7-8e02e0811656")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R144")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6931,126 +6637,6 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RC0201FR-070RL")
-		(at 205.74 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7aae3597-d500-481b-bf75-33f301c33c56")
-		(property "Reference" "R151"
-			(at 203.2 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 203.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250610/89E4D743C004A82A45145C7A2CC3A578.pdf"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):50mW Voltage-Supply(Max):25V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RC0201FR-070RL"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C106227"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 0Ω ±1% 50mW"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c888e37-3809-4c0d-9aa6-1b2aa7eb0b6d")
-		)
-		(pin "2"
-			(uuid "558c68ee-0f47-4acf-acd4-2c3675a400e1")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R151")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8040,6 +7626,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 132.08 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fdcd789-cb9f-4b37-83a0-ae9762f084f3")
+		(property "Reference" "NT12"
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 132.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be39ad1c-beba-4c64-84c5-3db7183c01b3")
+		)
+		(pin "1"
+			(uuid "e108e1a9-f86e-4a17-ac95-f08619f34d9a")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
+					(reference "NT12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 205.74 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2ea2adb-48b4-4160-be79-d37002ed4229")
+		(property "Reference" "NT10"
+			(at 205.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 205.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c9a1bcc-106a-4cae-87d8-f6f6d0ca63fc")
+		)
+		(pin "1"
+			(uuid "8fb075cf-3be6-4cc8-8dd9-631026ddeb80")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
+					(reference "NT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:GRM21BR61H106KE43L")
 		(at 345.44 130.81 270)
 		(mirror x)
@@ -8155,6 +7877,74 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 132.08 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5b4e358-3bef-4cde-ba65-5f1cb7785f03")
+		(property "Reference" "NT13"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 132.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f20670c9-868a-4320-9b89-be69fdfe98ec")
+		)
+		(pin "1"
+			(uuid "03eef490-bb6f-435e-8bbe-ceaa5e5cd1a8")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
+					(reference "NT13")
 					(unit 1)
 				)
 			)
@@ -9569,126 +9359,6 @@
 			(project "1_Connectors"
 				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RC0201FR-070RL")
-		(at 279.4 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe97885c-5f32-4d6d-aeb5-379f991be6d0")
-		(property "Reference" "R157"
-			(at 276.86 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 276.86 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 279.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250610/89E4D743C004A82A45145C7A2CC3A578.pdf"
-			(at 279.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):50mW Voltage-Supply(Max):25V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C"
-			(at 279.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RC0201FR-070RL"
-			(at 279.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 279.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C106227"
-			(at 279.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 279.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 0Ω ±1% 50mW"
-			(at 279.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c7cf9174-09f3-455d-8f83-82462df5df98")
-		)
-		(pin "1"
-			(uuid "c40d7ce8-dc38-4677-af59-bda7f95cff38")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12005/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be51/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R157")
-					(unit 1)
-				)
-			)
-			(project "1_Connectors"
-				(path "/907d2c43-ff0f-4be5-b1b7-1b4093ecff75/76c8a2d5-4e7e-4a9f-bf2c-92b3232d7d29"
-					(reference "R?")
 					(unit 1)
 				)
 			)
