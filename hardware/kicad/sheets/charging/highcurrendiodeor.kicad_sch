@@ -2066,6 +2066,17 @@
 		)
 		(uuid "5a66db87-6e48-4df7-92d8-bb68fe89a080")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 119.38 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac4b5fdc-c0fa-44bd-a7b6-29856e13acd2")
+	)
 	(hierarchical_label "#EN"
 		(shape input)
 		(at 151.13 114.3 0)
@@ -2076,6 +2087,17 @@
 			(justify left)
 		)
 		(uuid "b30da6cf-9b57-405b-8ce8-ca037e31b349")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 210.82 102.87 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be9d5f8c-c299-46e6-83d7-89326680a0f4")
 	)
 	(hierarchical_label "IN"
 		(shape input)
@@ -2097,7 +2119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0288eaad-d8eb-4ffb-9660-5dc2f32ed67d")
-		(property "Reference" "R29"
+		(property "Reference" "R51"
 			(at 153.67 123.19 90)
 			(effects
 				(font
@@ -2196,27 +2218,27 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8eee6623-4878-45b2-bdab-0e37d3220c38"
-					(reference "R54")
+					(reference "R77")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a048a8c1-de8c-4417-9e40-d40a18f390ce"
-					(reference "R29")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ad660ab0-1da6-44b7-9096-9ee4c3bc2383"
-					(reference "R31")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca919776-c91b-4883-8f90-f75d19396b00"
-					(reference "R33")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/d932e0fc-7b09-4e74-a033-a342c08a0a15"
-					(reference "R64")
+					(reference "R87")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbcfb661-1d23-45dc-813f-0febc1515a98"
-					(reference "R52")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d641ca6-cb6f-4356-b3ee-d88a9ed52fa5")
-		(property "Reference" "D14"
+		(property "Reference" "D13"
 			(at 121.92 87.63 90)
 			(effects
 				(font
@@ -2330,112 +2352,27 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8eee6623-4878-45b2-bdab-0e37d3220c38"
-					(reference "D21")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a048a8c1-de8c-4417-9e40-d40a18f390ce"
-					(reference "D14")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ad660ab0-1da6-44b7-9096-9ee4c3bc2383"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca919776-c91b-4883-8f90-f75d19396b00"
-					(reference "D16")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/d932e0fc-7b09-4e74-a033-a342c08a0a15"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbcfb661-1d23-45dc-813f-0febc1515a98"
 					(reference "D20")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1afa53ca-717d-4611-b18f-09ac62c61197")
-		(property "Reference" "#PWR052"
-			(at 210.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f6639c0-c56d-4ba1-8dbd-e134777381a4")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8eee6623-4878-45b2-bdab-0e37d3220c38"
-					(reference "#PWR079")
-					(unit 1)
-				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a048a8c1-de8c-4417-9e40-d40a18f390ce"
-					(reference "#PWR052")
+					(reference "D13")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ad660ab0-1da6-44b7-9096-9ee4c3bc2383"
-					(reference "#PWR055")
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca919776-c91b-4883-8f90-f75d19396b00"
-					(reference "#PWR058")
+					(reference "D15")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/d932e0fc-7b09-4e74-a033-a342c08a0a15"
-					(reference "#PWR093")
+					(reference "D21")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbcfb661-1d23-45dc-813f-0febc1515a98"
-					(reference "#PWR076")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -2450,7 +2387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d1ebc32-0de5-47ab-9e2c-028fb3760b12")
-		(property "Reference" "R30"
+		(property "Reference" "R52"
 			(at 213.36 83.82 90)
 			(effects
 				(font
@@ -2549,27 +2486,27 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8eee6623-4878-45b2-bdab-0e37d3220c38"
-					(reference "R55")
+					(reference "R78")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a048a8c1-de8c-4417-9e40-d40a18f390ce"
-					(reference "R30")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ad660ab0-1da6-44b7-9096-9ee4c3bc2383"
-					(reference "R32")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca919776-c91b-4883-8f90-f75d19396b00"
-					(reference "R34")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/d932e0fc-7b09-4e74-a033-a342c08a0a15"
-					(reference "R65")
+					(reference "R88")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbcfb661-1d23-45dc-813f-0febc1515a98"
-					(reference "R53")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -2731,91 +2668,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83c3e925-1802-4a2c-a595-a86647de5c16")
-		(property "Reference" "#PWR050"
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2abbbb40-ea1a-419a-a27c-c41279a44286")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8eee6623-4878-45b2-bdab-0e37d3220c38"
-					(reference "#PWR077")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a048a8c1-de8c-4417-9e40-d40a18f390ce"
-					(reference "#PWR050")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ad660ab0-1da6-44b7-9096-9ee4c3bc2383"
-					(reference "#PWR053")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca919776-c91b-4883-8f90-f75d19396b00"
-					(reference "#PWR056")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/d932e0fc-7b09-4e74-a033-a342c08a0a15"
-					(reference "#PWR091")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbcfb661-1d23-45dc-813f-0febc1515a98"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:5017_C9900015874")
 		(at 143.51 104.14 180)
 		(unit 1)
@@ -2946,7 +2798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd184fff-6954-4ce8-837e-b2c58463712a")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 139.7 86.36 90)
 			(effects
 				(font
@@ -3045,27 +2897,27 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8eee6623-4878-45b2-bdab-0e37d3220c38"
-					(reference "C59")
+					(reference "C61")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a048a8c1-de8c-4417-9e40-d40a18f390ce"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ad660ab0-1da6-44b7-9096-9ee4c3bc2383"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca919776-c91b-4883-8f90-f75d19396b00"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/d932e0fc-7b09-4e74-a033-a342c08a0a15"
-					(reference "C68")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbcfb661-1d23-45dc-813f-0febc1515a98"
-					(reference "C57")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -3080,7 +2932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c645d215-1aee-46b3-aca4-47c49438fc67")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR063"
 			(at 151.13 129.54 0)
 			(effects
 				(font
@@ -3130,27 +2982,27 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8eee6623-4878-45b2-bdab-0e37d3220c38"
-					(reference "#PWR078")
+					(reference "#PWR094")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a048a8c1-de8c-4417-9e40-d40a18f390ce"
-					(reference "#PWR051")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ad660ab0-1da6-44b7-9096-9ee4c3bc2383"
-					(reference "#PWR054")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca919776-c91b-4883-8f90-f75d19396b00"
-					(reference "#PWR057")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/d932e0fc-7b09-4e74-a033-a342c08a0a15"
-					(reference "#PWR092")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbcfb661-1d23-45dc-813f-0febc1515a98"
-					(reference "#PWR075")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -3165,7 +3017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db79e1c7-e1c9-4b23-84a7-f1f891cca811")
-		(property "Reference" "U13"
+		(property "Reference" "U18"
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -3276,27 +3128,27 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8eee6623-4878-45b2-bdab-0e37d3220c38"
-					(reference "U24")
+					(reference "U30")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a048a8c1-de8c-4417-9e40-d40a18f390ce"
-					(reference "U13")
+					(reference "U18")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ad660ab0-1da6-44b7-9096-9ee4c3bc2383"
-					(reference "U14")
+					(reference "U19")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca919776-c91b-4883-8f90-f75d19396b00"
-					(reference "U15")
+					(reference "U20")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/d932e0fc-7b09-4e74-a033-a342c08a0a15"
-					(reference "U27")
+					(reference "U33")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbcfb661-1d23-45dc-813f-0febc1515a98"
-					(reference "U23")
+					(reference "U29")
 					(unit 1)
 				)
 			)
@@ -3311,7 +3163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef832be7-a456-49a6-9b1c-6db225ed1a06")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 214.63 96.52 90)
 			(effects
 				(font
@@ -3410,27 +3262,27 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8eee6623-4878-45b2-bdab-0e37d3220c38"
-					(reference "C60")
+					(reference "C62")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a048a8c1-de8c-4417-9e40-d40a18f390ce"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ad660ab0-1da6-44b7-9096-9ee4c3bc2383"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca919776-c91b-4883-8f90-f75d19396b00"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/d932e0fc-7b09-4e74-a033-a342c08a0a15"
-					(reference "C69")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbcfb661-1d23-45dc-813f-0febc1515a98"
-					(reference "C58")
+					(reference "C60")
 					(unit 1)
 				)
 			)

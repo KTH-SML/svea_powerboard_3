@@ -59,7 +59,7 @@
 	(net_tie_pad_groups "1, 2")
 	(fp_poly
 		(pts
-			(xy -2 -3.5) (xy 5.25 -3.5) (xy 5.25 3.5) (xy -2 3.5)
+			(xy 1.75 -4.25) (xy 3.25 -4.25) (xy 3.25 4.25) (xy 1.75 4.25)
 		)
 		(stroke
 			(width 0)
@@ -69,16 +69,18 @@
 		(layer "F.Cu")
 		(uuid "128c9e52-3b12-4089-887d-2e1c1ffe20bc")
 	)
-	(pad "1" smd circle
-		(at -2 0)
-		(size 7 7)
+	(pad "1" smd roundrect
+		(at 1.5 0)
+		(size 1 8.5)
 		(layers "F.Cu")
-		(uuid "af66b0b4-2e00-4b6f-bbcd-b16448d10250")
+		(roundrect_rratio 0.03571428571)
+		(uuid "d04cc565-1aaf-46df-a094-a59313765340")
 	)
-	(pad "2" smd circle
-		(at 5.25 0)
-		(size 7 7)
+	(pad "2" smd roundrect
+		(at 4.75 0)
+		(size 4 8.5)
 		(layers "F.Cu")
+		(roundrect_rratio 0.03571428571)
 		(uuid "b8997496-ea23-4628-9ad0-2c99abdfa640")
 	)
 	(embedded_fonts no)
