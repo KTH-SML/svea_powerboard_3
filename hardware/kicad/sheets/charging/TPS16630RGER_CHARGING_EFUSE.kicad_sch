@@ -5,6 +5,131 @@
 	(uuid "3c345847-e292-4c99-a5e4-ff2934954752")
 	(paper "A4")
 	(lib_symbols
+		(symbol "+3V3_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "5v rail sm-easyedapro:0603WAF191JT5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2413,12 +2538,6 @@
 		(uuid "8b53a2dc-a0e1-4cc1-9fd0-8f28b0751751")
 	)
 	(junction
-		(at 132.08 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fafddab-d407-43e0-a369-35f706a36589")
-	)
-	(junction
 		(at 218.44 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2460,6 +2579,12 @@
 		(color 0 0 0 0)
 		(uuid "e8b5d2b2-7c50-4f3e-aa07-eeac5d1ed018")
 	)
+	(junction
+		(at 132.08 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f29d143b-709a-4895-a1fa-7de988fc3920")
+	)
 	(no_connect
 		(at 186.69 82.55)
 		(uuid "287e2472-44de-4103-a932-9c978e985cb5")
@@ -2495,16 +2620,6 @@
 	(no_connect
 		(at 186.69 80.01)
 		(uuid "dfd4d4bd-a3c2-4ea7-8d35-553216d8626d")
-	)
-	(wire
-		(pts
-			(xy 114.3 119.38) (xy 114.3 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015ae1ef-874d-4af6-abeb-1dbc025c92b2")
 	)
 	(wire
 		(pts
@@ -2545,16 +2660,6 @@
 			(type default)
 		)
 		(uuid "0c2435cb-4ced-457c-8893-fef5e57c9f4f")
-	)
-	(wire
-		(pts
-			(xy 114.3 119.38) (xy 119.38 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e87327a-97d2-4389-a984-e7a2d8b72304")
 	)
 	(wire
 		(pts
@@ -2788,6 +2893,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 118.11) (xy 132.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b342bd5-bf67-477a-bf89-9276a563affb")
+	)
+	(wire
+		(pts
 			(xy 114.3 74.93) (xy 114.3 76.2)
 		)
 		(stroke
@@ -2988,6 +3103,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 118.11) (xy 120.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae30f089-4aeb-40b5-9e36-d7e7e8efc85f")
+	)
+	(wire
+		(pts
 			(xy 160.02 119.38) (xy 160.02 105.41)
 		)
 		(stroke
@@ -3005,6 +3130,16 @@
 			(type default)
 		)
 		(uuid "b715ad6f-5498-401e-829c-889624b24aa6")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 132.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4138352-569d-4ac7-82a1-5626701cd680")
 	)
 	(wire
 		(pts
@@ -3088,16 +3223,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 119.38) (xy 132.08 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d44f8de9-b0f0-434b-9446-ab57f88b6f8f")
-	)
-	(wire
-		(pts
 			(xy 147.32 100.33) (xy 147.32 119.38)
 		)
 		(stroke
@@ -3115,6 +3240,16 @@
 			(type default)
 		)
 		(uuid "d716ce39-1817-42fe-9db8-ac3a94508cb1")
+	)
+	(wire
+		(pts
+			(xy 118.11 118.11) (xy 118.11 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8530beb-8aee-47ef-91dc-960dc37d6a27")
 	)
 	(wire
 		(pts
@@ -3138,16 +3273,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 107.95) (xy 132.08 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df06a1ef-2fa2-4c7b-a644-f917f7b2346c")
-	)
-	(wire
-		(pts
 			(xy 186.69 100.33) (xy 199.39 100.33)
 		)
 		(stroke
@@ -3165,6 +3290,16 @@
 			(type default)
 		)
 		(uuid "e09b1909-dbc3-40c4-ac16-b85afba1947e")
+	)
+	(wire
+		(pts
+			(xy 132.08 118.11) (xy 132.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32835db-da3a-413a-abd4-1c048566a096")
 	)
 	(wire
 		(pts
@@ -3235,16 +3370,6 @@
 			(type default)
 		)
 		(uuid "f4192254-4c0e-4a3f-9028-8a9e47e198ab")
-	)
-	(wire
-		(pts
-			(xy 132.08 119.38) (xy 129.54 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a8f312-369d-47fd-a031-86448897a926")
 	)
 	(wire
 		(pts
@@ -3886,71 +4011,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dcad53e-333c-4741-a004-71caa88d2d79")
-		(property "Reference" "#PWR025"
-			(at 114.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power-5V"
-			(at 114.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d2bb2c3-1b2e-4cd6-84a2-7aec5cfa8e7e")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/edbb302e-07de-47c0-9e17-f5f094cbde02"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 218.44 147.32 0)
 		(unit 1)
@@ -4124,6 +4184,73 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/edbb302e-07de-47c0-9e17-f5f094cbde02"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 118.11 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43ab3ba6-2f4d-49eb-b236-8287cf8f915c")
+		(property "Reference" "#PWR025"
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7b75297-3149-479f-b5b6-21323dbe8825")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/edbb302e-07de-47c0-9e17-f5f094cbde02"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4607,7 +4734,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:FRC0603J104 TS")
-		(at 124.46 119.38 180)
+		(at 125.73 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4615,7 +4742,7 @@
 		(dnp no)
 		(uuid "9e51c79b-c76f-444e-a9ca-0560ca5e5197")
 		(property "Reference" "R25"
-			(at 121.92 118.11 0)
+			(at 128.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4751,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 121.92 123.19 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4760,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 124.46 119.38 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 119.38 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4778,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±5% Tolerance:±5% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 124.46 119.38 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4787,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0603J104 TS"
-			(at 124.46 119.38 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4796,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 124.46 119.38 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4805,7 @@
 			)
 		)
 		(property "Supplier Part" "C2907088"
-			(at 124.46 119.38 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4814,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 124.46 119.38 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4823,7 @@
 			)
 		)
 		(property "LCSC Part Name" "100kΩ ±5% 100mW 厚膜电阻"
-			(at 124.46 119.38 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

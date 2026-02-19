@@ -2753,6 +2753,12 @@
 		(uuid "d5f580fe-e647-4c0f-9bfc-676a35091ba9")
 	)
 	(junction
+		(at 427.99 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a11d247-3d24-4a52-abc3-b5e98367a2cc")
+	)
+	(junction
 		(at 444.5 321.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2775,6 +2781,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "201193c7-df6c-4463-bd42-55fd899aaf77")
+	)
+	(junction
+		(at 214.63 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28588f8e-a0b8-48b9-aa07-c3800809e118")
 	)
 	(junction
 		(at 86.36 93.98)
@@ -2831,12 +2843,6 @@
 		(uuid "a0c9f161-f0ef-4fce-9c61-47c55d5a57eb")
 	)
 	(junction
-		(at 427.99 257.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2b41ced-4448-4c2f-a0dd-e4d47e0ab46c")
-	)
-	(junction
 		(at 105.41 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2847,12 +2853,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7012e56-e15a-47b5-821f-53c347e7d306")
-	)
-	(junction
-		(at 167.64 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac6f2a85-9492-4bc1-8f5e-ccc7114663f9")
 	)
 	(junction
 		(at 167.64 138.43)
@@ -2909,16 +2909,6 @@
 			(type default)
 		)
 		(uuid "025df385-27ce-4f75-97c1-c76021f8fea5")
-	)
-	(wire
-		(pts
-			(xy 35.56 170.18) (xy 167.64 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "034c9184-011a-4da4-9ded-a5ab6a7948ab")
 	)
 	(wire
 		(pts
@@ -3332,6 +3322,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 170.18) (xy 214.63 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46af96df-e841-4c75-a329-8246cc5b9093")
+	)
+	(wire
+		(pts
 			(xy 152.4 57.15) (xy 157.48 57.15)
 		)
 		(stroke
@@ -3422,13 +3422,13 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 250.19) (xy 427.99 257.81)
+			(xy 214.63 170.18) (xy 214.63 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55449df8-b54b-444b-942d-1aed999d2d87")
+		(uuid "544c6292-338d-45a2-b889-6b7eb158f4ee")
 	)
 	(wire
 		(pts
@@ -3722,7 +3722,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 138.43) (xy 167.64 170.18)
+			(xy 167.64 138.43) (xy 167.64 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3882,16 +3882,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 170.18) (xy 167.64 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6fcfabc-c945-4bc0-a60e-96fb4e4b33c6")
-	)
-	(wire
-		(pts
 			(xy 193.04 80.01) (xy 193.04 92.71)
 		)
 		(stroke
@@ -3919,6 +3909,16 @@
 			(type default)
 		)
 		(uuid "bf9ba9af-c1cb-403b-9498-90f48093d4d0")
+	)
+	(wire
+		(pts
+			(xy 427.99 250.19) (xy 427.99 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a8ca7b-6588-4b3e-bb51-a49b8dda31d1")
 	)
 	(wire
 		(pts
@@ -3959,6 +3959,16 @@
 			(type default)
 		)
 		(uuid "c6ffc21c-cd2d-47ef-9675-969d9aaa7a39")
+	)
+	(wire
+		(pts
+			(xy 414.02 257.81) (xy 414.02 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98724c0-c303-4a3a-b2d8-2e884ce078ab")
 	)
 	(wire
 		(pts
@@ -4422,6 +4432,26 @@
 		(uuid "77876623-8aa4-4dc8-a52d-d6891ff956e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 336.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-LEDS-DATA (direct connect)"
+		(shape input)
+		(at 425.45 180.34 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "78090b79-9206-4a6a-bcd7-28f5e1dad86f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 425.45 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5536,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 414.02 257.81 0)
+		(at 414.02 255.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5515,7 +5545,7 @@
 		(dnp no)
 		(uuid "5cb2f320-f8d4-40fa-b9d8-16d7477f04ec")
 		(property "Reference" "#PWR070"
-			(at 414.02 257.81 0)
+			(at 414.02 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5554,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 414.02 254 0)
+			(at 414.02 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 414.02 257.81 0)
+			(at 414.02 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 414.02 257.81 0)
+			(at 414.02 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5580,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 414.02 257.81 0)
+			(at 414.02 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +8484,7 @@
 				(justify right)
 			)
 		)
-		(pin "EN" input
+		(pin "#EN" input
 			(at 473.71 299.72 180)
 			(uuid "81fcfcd8-16a7-4f29-8f7e-cb3c149f9638")
 			(effects
@@ -8747,6 +8777,58 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 425.45 177.8)
+		(size 38.41 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2eb7228-bcb6-49cd-ba01-e5b0712a5c09")
+		(property "Sheetname" "Status LEDs"
+			(at 425.45 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../mcu/33_Microcontroller-leds.kicad_sch"
+			(at 425.45 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCU-WS2815F-DATA" input
+			(at 425.45 180.34 180)
+			(uuid "2296e85d-ea7e-4ae7-a632-5b8e145faa10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "23")
 				)
 			)
 		)
