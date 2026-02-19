@@ -3313,6 +3313,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:TPS2121RUXR"
 			(pin_names
 				(offset 1.016)
@@ -4302,17 +4428,6 @@
 		)
 		(uuid "57a628d6-f52d-4cb5-b7e5-8e2959ab421c")
 	)
-	(text "thermal releif pads"
-		(exclude_from_sim no)
-		(at 157.48 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae0fd6c2-3211-4531-8bef-e7604c25ad65")
-	)
 	(junction
 		(at 255.27 102.87)
 		(diameter 0)
@@ -4501,7 +4616,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 144.78) (xy 229.87 144.78)
+			(xy 223.52 144.78) (xy 229.87 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4641,16 +4756,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 173.99) (xy 240.03 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "244f4afb-56d8-44a3-b135-6fe17b48095f")
-	)
-	(wire
-		(pts
 			(xy 232.41 189.23) (xy 179.07 189.23)
 		)
 		(stroke
@@ -4671,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 181.61) (xy 273.05 179.07)
+			(xy 273.05 179.07) (xy 273.05 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5041,6 +5146,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 179.07) (xy 240.03 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f04bf9-bb96-4598-be95-97522260bd3d")
+	)
+	(wire
+		(pts
 			(xy 179.07 189.23) (xy 179.07 191.77)
 		)
 		(stroke
@@ -5141,7 +5256,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 133.35 102.87)
+			(xy 138.43 102.87) (xy 128.27 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5321,7 +5436,7 @@
 	)
 	(global_label "MCU-VCC-KICKSTART"
 		(shape input)
-		(at 228.6 144.78 180)
+		(at 223.52 144.78 180)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -5330,7 +5445,7 @@
 		)
 		(uuid "1912fe69-ddd7-4aa0-9e3c-1debe7e8ef70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 144.78 0)
+			(at 223.52 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5516,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 133.35 102.87 180)
+		(at 128.27 102.87 180)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -5410,7 +5525,7 @@
 		)
 		(uuid "696726ab-e781-48af-bd4a-5228b5e4555b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 102.87 0)
+			(at 128.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7471,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 181.61 0)
+		(at 273.05 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7364,7 +7479,7 @@
 		(dnp no)
 		(uuid "61b89c54-f7c3-44a1-a4bd-805f35558699")
 		(property "Reference" "#PWR0122"
-			(at 273.05 181.61 0)
+			(at 273.05 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +7488,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 187.96 0)
+			(at 273.05 198.12 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -7381,7 +7496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 181.61 0)
+			(at 273.05 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,7 +7505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 181.61 0)
+			(at 273.05 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +7514,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 181.61 0)
+			(at 273.05 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,6 +8417,76 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12004/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be41"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 240.03 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbabceed-8659-4ca9-bdbd-d6b2ae91e813")
+		(property "Reference" "NT16"
+			(at 241.3 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 241.3 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+			(at 240.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 240.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fbfdc74-2695-4092-8ccf-7eb0ccd84a32")
+		)
+		(pin "1"
+			(uuid "d36a4443-12b3-4297-93ba-fb006790dcc9")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12004/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be41"
+					(reference "NT16")
 					(unit 1)
 				)
 			)
