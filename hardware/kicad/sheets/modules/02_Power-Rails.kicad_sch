@@ -2410,7 +2410,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 138.43) (xy 67.31 148.59)
+			(xy 58.42 125.73) (xy 58.42 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2540,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 152.4) (xy 161.29 152.4)
+			(xy 148.59 139.7) (xy 152.4 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2580,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 148.59) (xy 130.81 148.59)
+			(xy 83.82 135.89) (xy 121.92 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2590,13 +2590,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 156.21) (xy 130.81 156.21)
+			(xy 116.84 143.51) (xy 121.92 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62c33031-3933-45e4-b361-113c757ae89d")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e4eb53-b888-4f4f-80dc-93fdcf8a56af")
 	)
 	(wire
 		(pts
@@ -2660,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 148.59) (xy 77.47 148.59)
+			(xy 58.42 135.89) (xy 68.58 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2700,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 111.76) (xy 182.88 124.46)
+			(xy 181.61 87.63) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2760,7 +2770,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 49.53) (xy 105.41 124.46)
+			(xy 105.41 49.53) (xy 105.41 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2780,7 +2790,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 124.46) (xy 113.03 124.46)
+			(xy 105.41 100.33) (xy 111.76 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2870,13 +2880,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 124.46) (xy 182.88 124.46)
+			(xy 130.81 100.33) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb716616-7406-4ced-a67f-a9b6f9095746")
+	)
+	(wire
+		(pts
+			(xy 102.87 53.34) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce41c420-7667-4077-9eb2-15b777d86fb0")
 	)
 	(wire
 		(pts
@@ -2890,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 154.94) (xy 77.47 154.94)
+			(xy 66.04 142.24) (xy 68.58 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 152.4) (xy 161.29 142.24)
+			(xy 152.4 139.7) (xy 152.4 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2940,7 +2960,7 @@
 	)
 	(global_label "MCU-12V-EN-BUCK"
 		(shape input)
-		(at 74.93 154.94 180)
+		(at 66.04 142.24 180)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -2949,7 +2969,27 @@
 		)
 		(uuid "3139a03c-76ae-47a0-a61b-44e7d607f41f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 154.94 0)
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-5V-#EN"
+		(shape input)
+		(at 102.87 53.34 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "4d764ceb-9ab4-48b8-a120-9bddfbbfdf4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3000,7 @@
 	)
 	(global_label "#MCU-EN-12V-DIODE"
 		(shape input)
-		(at 125.73 156.21 180)
+		(at 116.84 143.51 180)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -2969,7 +3009,27 @@
 		)
 		(uuid "707e3add-55bb-49b7-b9ec-c7044a409236")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 156.21 0)
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-3V3-#EN"
+		(shape input)
+		(at 105.41 104.14 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "dde24177-6e91-4c39-b92b-2ef7466f686c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3040,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 161.29 142.24 0)
+		(at 152.4 129.54 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2988,8 +3048,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f1b16c8-8f92-4249-b1ff-afdb4cefd64a")
-		(property "Reference" "#PWR057"
-			(at 161.29 142.24 0)
+		(property "Reference" "#PWR010"
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3058,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 161.29 138.43 0)
+			(at 152.4 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 142.24 0)
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 142.24 0)
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3084,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 161.29 142.24 0)
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3098,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR057")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3053,7 +3113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bfb74b6-abe2-4fa5-bb40-f6e6d7c66346")
-		(property "Reference" "D17"
+		(property "Reference" "D3"
 			(at 66.04 36.83 90)
 			(effects
 				(font
@@ -3152,7 +3212,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "D17")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3167,7 +3227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "317259e6-459c-4745-969a-cd6456a45414")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR07"
 			(at 90.17 27.94 0)
 			(effects
 				(font
@@ -3217,7 +3277,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR0128")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3232,7 +3292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "612356db-018d-4412-a3f0-0925f420cbe8")
-		(property "Reference" "R75"
+		(property "Reference" "R2"
 			(at 208.28 78.74 90)
 			(effects
 				(font
@@ -3331,7 +3391,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "R75")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3574,7 +3634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b3dd453-8a42-4ef7-ba2b-28aa791286c3")
-		(property "Reference" "D16"
+		(property "Reference" "D2"
 			(at 24.384 39.878 0)
 			(effects
 				(font
@@ -3673,7 +3733,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "D16")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3688,7 +3748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74080488-1b99-4af0-a2ef-95dd70be9c6c")
-		(property "Reference" "R112"
+		(property "Reference" "R3"
 			(at 224.79 58.42 0)
 			(effects
 				(font
@@ -3787,7 +3847,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "R112")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3795,15 +3855,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 182.88 111.76 0)
+		(at 181.61 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "790fb842-d84a-4107-ad0a-6506540eb3b2")
-		(property "Reference" "#PWR0130"
-			(at 182.88 111.76 0)
+		(property "Reference" "#PWR011"
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3872,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 182.88 107.95 0)
+			(at 181.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 111.76 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 111.76 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3898,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 182.88 111.76 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +3912,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR0130")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3860,15 +3920,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 67.31 138.43 0)
+		(at 58.42 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "82d1872f-89d6-48aa-8e8d-27824c9d6bb1")
-		(property "Reference" "#PWR058"
-			(at 67.31 138.43 0)
+		(property "Reference" "#PWR05"
+			(at 58.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3937,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 67.31 134.62 0)
+			(at 58.42 121.92 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -3885,7 +3945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 138.43 0)
+			(at 58.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 138.43 0)
+			(at 58.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 138.43 0)
+			(at 58.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3977,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR058")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3932,7 +3992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9773bafd-9bfb-4470-8db5-1dc4735f79b2")
-		(property "Reference" "R74"
+		(property "Reference" "R1"
 			(at 194.31 68.58 0)
 			(effects
 				(font
@@ -4031,7 +4091,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "R74")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a814b411-466e-449b-b3ec-fd63d87c7f8b")
-		(property "Reference" "Q12"
+		(property "Reference" "Q1"
 			(at 233.68 45.72 90)
 			(effects
 				(font
@@ -4149,7 +4209,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "Q12")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4164,7 +4224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac0876d4-311a-430c-8b9d-2a7667a7ad60")
-		(property "Reference" "D18"
+		(property "Reference" "D4"
 			(at 92.71 36.83 90)
 			(effects
 				(font
@@ -4263,7 +4323,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "D18")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4278,7 +4338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdfbc3cf-0d52-4eba-bd85-345711292a95")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR013"
 			(at 236.22 90.17 0)
 			(effects
 				(font
@@ -4328,7 +4388,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR0126")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4343,7 +4403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be708e2d-e615-457d-af55-0dcc393be79f")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR08"
 			(at 105.41 27.94 0)
 			(effects
 				(font
@@ -4393,7 +4453,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR0129")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4409,7 +4469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4d3b177-bcc8-42d6-bfaf-56ae909fe8eb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -4459,7 +4519,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4475,7 +4535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5597581-080a-4be5-a5df-972f5be11bef")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 256.54 50.8 0)
 			(effects
 				(font
@@ -4525,7 +4585,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4540,7 +4600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d882775c-900d-4dbb-a10f-0ecadffd86c4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 31.75 27.94 0)
 			(effects
 				(font
@@ -4590,7 +4650,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4605,7 +4665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e00e2ce2-2454-4b4f-b39c-5c4cb2d42736")
-		(property "Reference" "D19"
+		(property "Reference" "D5"
 			(at 107.95 36.83 90)
 			(effects
 				(font
@@ -4704,7 +4764,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "D19")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4719,7 +4779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e01352f8-5af3-4f34-8253-834d04313715")
-		(property "Reference" "D22"
+		(property "Reference" "D6"
 			(at 222.25 78.74 90)
 			(effects
 				(font
@@ -4819,7 +4879,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "D22")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4834,7 +4894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e02e4f94-fc0e-4934-842b-3f581719a5f0")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR012"
 			(at 186.69 66.04 0)
 			(effects
 				(font
@@ -4884,7 +4944,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR0142")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4899,7 +4959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e270ae13-222d-4a91-a6ad-9e3504b09b8b")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR06"
 			(at 63.5 27.94 0)
 			(effects
 				(font
@@ -4949,7 +5009,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "#PWR0127")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4964,7 +5024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6036741-ce56-4613-9e3b-4bb14a9fa494")
-		(property "Reference" "Q17"
+		(property "Reference" "Q2"
 			(at 241.3 64.77 0)
 			(effects
 				(font
@@ -5066,14 +5126,14 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12002"
-					(reference "Q17")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 77.47 144.78)
+		(at 68.58 132.08)
 		(size 15.24 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5089,7 +5149,7 @@
 		)
 		(uuid "15fec07c-dcab-49b4-bc69-93178962f645")
 		(property "Sheetname" "12v_LTM8055_BUCK"
-			(at 77.47 144.0684 0)
+			(at 68.58 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,8 +5157,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "12v_LTM8055_BUCK.kicad_sch"
-			(at 77.47 159.3346 0)
+		(property "Sheetfile" "../power/12v_LTM8055_BUCK.kicad_sch"
+			(at 68.58 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5168,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 92.71 148.59 0)
+			(at 83.82 135.89 0)
 			(uuid "e4b5db65-ed51-455d-91ae-f8370e99c1f2")
 			(effects
 				(font
@@ -5118,7 +5178,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 77.47 148.59 180)
+			(at 68.58 135.89 180)
 			(uuid "42637b9f-251e-438d-a415-55904d71fe9b")
 			(effects
 				(font
@@ -5128,7 +5188,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 77.47 154.94 180)
+			(at 68.58 142.24 180)
 			(uuid "41ea7432-55ed-4ce2-bb88-0c498c8ac91a")
 			(effects
 				(font
@@ -5146,8 +5206,8 @@
 		)
 	)
 	(sheet
-		(at 113.03 121.92)
-		(size 19.05 5.08)
+		(at 111.76 97.79)
+		(size 19.05 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5162,7 +5222,7 @@
 		)
 		(uuid "51095da8-7aff-4069-a0df-937720a4d2a2")
 		(property "Sheetname" "3v3 rail"
-			(at 113.03 121.2084 0)
+			(at 111.76 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,16 +5231,17 @@
 			)
 		)
 		(property "Sheetfile" "../power/Power-3v3.kicad_sch"
-			(at 113.03 127.5846 0)
+			(at 111.76 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "3v3_out" output
-			(at 132.08 124.46 0)
+			(at 130.81 100.33 0)
 			(uuid "c9478a0c-68fc-4e9e-bf36-8aaa689b701f")
 			(effects
 				(font
@@ -5190,8 +5251,18 @@
 			)
 		)
 		(pin "VCC" input
-			(at 113.03 124.46 180)
+			(at 111.76 100.33 180)
 			(uuid "a68ea933-0382-4c08-900d-256fd0c879d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "#EN" input
+			(at 111.76 104.14 180)
+			(uuid "b95563bd-06c9-4162-a995-8a3da3269bfb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5279,7 @@
 		)
 	)
 	(sheet
-		(at 130.81 143.51)
+		(at 121.92 130.81)
 		(size 26.67 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5224,7 +5295,7 @@
 		)
 		(uuid "56f40e84-8a38-4192-912b-faed71ffe17a")
 		(property "Sheetname" "Ideal_Diode_OR_12V_BUCK"
-			(at 130.81 142.7984 0)
+			(at 121.92 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,8 +5303,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
-			(at 130.81 161.8746 0)
+		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+			(at 121.92 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5313,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 157.48 152.4 0)
+			(at 148.59 139.7 0)
 			(uuid "e8b33fce-7308-48c2-b1d7-d02a6ac56200")
 			(effects
 				(font
@@ -5252,7 +5323,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 130.81 156.21 180)
+			(at 121.92 143.51 180)
 			(uuid "c7492e05-6677-4399-8e71-d8d774911a75")
 			(effects
 				(font
@@ -5262,7 +5333,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 130.81 148.59 180)
+			(at 121.92 135.89 180)
 			(uuid "627846be-0628-4d20-b17a-1440bd801e6b")
 			(effects
 				(font
@@ -5281,7 +5352,7 @@
 	)
 	(sheet
 		(at 110.49 46.99)
-		(size 20.32 5.08)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5305,12 +5376,13 @@
 			)
 		)
 		(property "Sheetfile" "../power/5vrail.kicad_sch"
-			(at 110.49 52.6546 0)
+			(at 110.49 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "5V-OUT" output
@@ -5326,6 +5398,16 @@
 		(pin "VCC" input
 			(at 110.49 49.53 180)
 			(uuid "14701d16-952e-49b0-b618-9ca60152d5d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "#EN" input
+			(at 110.49 53.34 180)
+			(uuid "65e9d5fd-71bb-44c1-961e-bf99a237707b")
 			(effects
 				(font
 					(size 1.27 1.27)
