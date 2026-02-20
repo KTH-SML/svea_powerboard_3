@@ -5377,6 +5377,55 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "5v rail sm-easyedapro:kaj"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "KAJFACE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
@@ -10178,7 +10227,7 @@
 		)
 		(uuid "3c6d0aec-1676-431a-8936-2a24b602f889")
 	)
-	(text "Having two 3v3 rail can cause issues, \nclose the jumper if microcontroller doesn't provide 3v3"
+	(text "Having two 3v3 rail can maybe cause issues, \nclose the jumper if microcontroller doesn't provide 3v3 or if you know it won't be a problem\n"
 		(exclude_from_sim no)
 		(at 292.1 167.64 0)
 		(effects
@@ -10231,6 +10280,16 @@
 			)
 		)
 		(uuid "a9905b8e-b328-48ac-adc1-4cce29ae74f4")
+	)
+	(text "Such low current consumption and likely wont even use\n"
+		(exclude_from_sim no)
+		(at 52.578 354.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0018c17-14fd-4c87-aa54-4a20a0b27d29")
 	)
 	(text "Prevents charger from wasting energy on vcc"
 		(exclude_from_sim no)
@@ -11866,16 +11925,6 @@
 	)
 	(wire
 		(pts
-			(xy 725.17 255.27) (xy 725.17 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3143b071-c0fd-4c8d-8fe3-0213b6c5a634")
-	)
-	(wire
-		(pts
 			(xy 589.28 229.87) (xy 591.82 229.87)
 		)
 		(stroke
@@ -12596,16 +12645,6 @@
 	)
 	(wire
 		(pts
-			(xy 646.43 406.4) (xy 650.24 406.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "541cd1e9-5c6e-4479-9e7f-0eef15e93d8a")
-	)
-	(wire
-		(pts
 			(xy 347.98 321.31) (xy 347.98 322.58)
 		)
 		(stroke
@@ -12693,16 +12732,6 @@
 			(type default)
 		)
 		(uuid "58f72822-5f34-43c8-8093-c32c1e74b0d7")
-	)
-	(wire
-		(pts
-			(xy 775.97 299.72) (xy 775.97 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3a71ac-3261-49f8-9f23-b72e03eb855f")
 	)
 	(wire
 		(pts
@@ -13146,7 +13175,7 @@
 	)
 	(wire
 		(pts
-			(xy 775.97 292.1) (xy 775.97 297.18)
+			(xy 775.97 292.1) (xy 775.97 306.07)
 		)
 		(stroke
 			(width 0)
@@ -14106,6 +14135,16 @@
 	)
 	(wire
 		(pts
+			(xy 408.94 95.25) (xy 408.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c22d2d-f2c7-4dc4-9024-1233e5f91693")
+	)
+	(wire
+		(pts
 			(xy 327.66 113.03) (xy 327.66 125.73)
 		)
 		(stroke
@@ -14496,7 +14535,7 @@
 	)
 	(wire
 		(pts
-			(xy 408.94 99.06) (xy 408.94 101.6)
+			(xy 408.94 88.9) (xy 408.94 92.71)
 		)
 		(stroke
 			(width 0)
@@ -15416,7 +15455,7 @@
 	)
 	(wire
 		(pts
-			(xy 725.17 262.89) (xy 725.17 269.24)
+			(xy 725.17 256.54) (xy 725.17 269.24)
 		)
 		(stroke
 			(width 0)
@@ -17365,7 +17404,7 @@
 	)
 	(global_label "BQ/CFETOFF"
 		(shape output)
-		(at 646.43 406.4 180)
+		(at 650.24 406.4 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -17374,7 +17413,7 @@
 		)
 		(uuid "9d3226e2-936f-4df2-b542-1a3a4561e4de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 646.43 406.4 0)
+			(at 650.24 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20571,121 +20610,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:PZ254V-11-02P")
-		(at 770.89 298.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ab5f7ac-55b6-4bb5-b085-7073fbac868c")
-		(property "Reference" "ONBOARD_5V2"
-			(at 767.08 304.546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "PZ254V-11-02P"
-			(at 768.35 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 770.89 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html"
-			(at 770.89 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connect"
-			(at 770.89 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PZ254V-11-02P"
-			(at 770.89 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XFCN(兴飞)"
-			(at 770.89 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C492401"
-			(at 770.89 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 770.89 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x2P 间距:2.54mm 方针 直插"
-			(at 770.89 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e7e1ada-7be0-4571-97a1-8c7f0e020b20")
-		)
-		(pin "2"
-			(uuid "b7edf215-c690-4816-9418-eb878d577dc7")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "ONBOARD_5V2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:GRM21BR61H106KE43L")
 		(at 128.27 373.38 90)
 		(unit 1)
@@ -23862,6 +23786,72 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:kaj")
+		(at 63.5 556.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4872df06-764a-403a-87ed-9c62022cf38d")
+		(property "Reference" "KAJFACE1"
+			(at 64.77 554.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 557.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "KAJFACE1")
 					(unit 1)
 				)
 			)
@@ -32439,9 +32429,124 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:PZ254V-11-02P")
+		(at 403.86 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5e5cc0d-7dab-4190-bf9b-2728fcf4028e")
+		(property "Reference" "ONBOARD_5V1"
+			(at 400.05 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "PZ254V-11-02P"
+			(at 401.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 403.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html"
+			(at 403.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connect"
+			(at 403.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PZ254V-11-02P"
+			(at 403.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XFCN(兴飞)"
+			(at 403.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C492401"
+			(at 403.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 403.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1x2P 间距:2.54mm 方针 直插"
+			(at 403.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4121feb0-41e5-435d-a6a8-b11d842586cc")
+		)
+		(pin "2"
+			(uuid "90f5317a-e464-4998-b246-7f344b9192aa")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "ONBOARD_5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 725.17 255.27 0)
+		(at 725.17 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32450,7 +32555,7 @@
 		(fields_autoplaced yes)
 		(uuid "b790f403-4049-4f9e-882c-d1fca82667d9")
 		(property "Reference" "#PWR064"
-			(at 725.17 259.08 0)
+			(at 725.17 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32459,7 +32564,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 725.17 250.19 0)
+			(at 725.17 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32467,7 +32572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 725.17 255.27 0)
+			(at 725.17 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32476,7 +32581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 725.17 255.27 0)
+			(at 725.17 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32485,7 +32590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 725.17 255.27 0)
+			(at 725.17 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35684,7 +35789,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 408.94 99.06 0)
+		(at 408.94 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35693,7 +35798,7 @@
 		(fields_autoplaced yes)
 		(uuid "da57c6fa-c910-45c5-8cf8-e7f9cfaa05be")
 		(property "Reference" "#PWR044"
-			(at 408.94 102.87 0)
+			(at 408.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35702,7 +35807,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 408.94 93.98 0)
+			(at 408.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35710,7 +35815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 408.94 99.06 0)
+			(at 408.94 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35719,7 +35824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 408.94 99.06 0)
+			(at 408.94 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35728,7 +35833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 408.94 99.06 0)
+			(at 408.94 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
