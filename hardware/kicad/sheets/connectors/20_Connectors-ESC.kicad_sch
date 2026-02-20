@@ -1560,36 +1560,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:SIRA99DP-T1-GE3"
+		(symbol "JLCImport:SIRA99DP-T1-GE3"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 0 0 0)
+				(at 0 9.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "SIRA99DP-T1-GE3"
+				(at 0 -7.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "5v rail sm-easyedapro:POWERPAK-SO-8_L5.9-W4.9-P1.27-LS6.2-BL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/SIRA99DP-T1-GE3/3852360.html"
+			(property "Footprint" "JLCImport:SIRA99DP-T1-GE3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1598,7 +1592,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Number:1 P-Channel Drain to Source Voltage:30V Current - Continuous Drain(Id):195A RDS(on):1.7mΩ@10V Pd - Power Dissipation:104W Gate Threshold Voltage (Vgs(th)):2.5V Gate Charge(Qg):84nC@10V Input Capacitance(Ciss):10.995nF Reverse Transfer Capacitance ("
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180719/C241863_6D70112EF6FB285AD50169E19E4828EA.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1607,7 +1601,16 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "SIRA99DP-T1-GE3"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C3289459"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1625,7 +1628,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part" "C3289459"
+			(property "Manufacturer Part" "SIRA99DP-T1-GE3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1634,45 +1637,34 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "1个P沟道 耐压:30V 电流:195A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SIRA99DP-T1-GE3_1_0"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "SIRA99DP-T1-GE3_0_1"
 				(circle
 					(center -3.81 6.35)
 					(radius 0.381)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -5.08) (xy 4.6711 -5.0702) (xy 4.7664 -5.0413) (xy 4.8542 -4.9944) (xy 4.9312 -4.9312)
+						(xy 4.9944 -4.8542) (xy 5.0413 -4.7664) (xy 5.0702 -4.6711) (xy 5.08 -4.572) (xy 5.0702 7.2111)
+						(xy 5.0413 7.3064) (xy 4.9944 7.3942) (xy 4.9312 7.4712) (xy 4.8542 7.5344) (xy 4.7664 7.5813)
+						(xy 4.6711 7.6103) (xy 4.572 7.62) (xy -4.6711 7.6103) (xy -4.7664 7.5813) (xy -4.8542 7.5344)
+						(xy -4.9312 7.4712) (xy -4.9944 7.3942) (xy -5.0413 7.3064) (xy -5.0702 7.2111) (xy -5.08 7.112)
+						(xy -5.0702 -4.6711) (xy -5.0413 -4.7664) (xy -4.9944 -4.8542) (xy -4.9312 -4.9312) (xy -4.8542 -4.9944)
+						(xy -4.7664 -5.0413) (xy -4.6711 -5.0702) (xy -4.572 -5.08) (xy 4.572 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin unspecified line
@@ -2464,6 +2456,119 @@
 		(uuid "cc44fa4c-65ad-458b-9de4-42a6158f741c")
 	)
 	(symbol
+		(lib_id "JLCImport:SIRA99DP-T1-GE3")
+		(at 119.38 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03bfbaca-733e-4dda-9a15-86a4b89a1d70")
+		(property "Reference" "Q1"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SIRA99DP-T1-GE3"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:SIRA99DP-T1-GE3"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180719/C241863_6D70112EF6FB285AD50169E19E4828EA.pdf"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3289459"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "VISHAY(威世)"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SIRA99DP-T1-GE3"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c02e638d-00a7-44d3-993f-fbf2412f485b")
+		)
+		(pin "6"
+			(uuid "628d522b-88b3-4a25-bc77-31ebb81536ac")
+		)
+		(pin "7"
+			(uuid "349d770a-fed4-4240-8706-898b70bce011")
+		)
+		(pin "8"
+			(uuid "5b640003-e0e8-4b17-a829-a456d94249a3")
+		)
+		(pin "4"
+			(uuid "2ca35382-a42d-411d-bb2f-3d070be35c9c")
+		)
+		(pin "3"
+			(uuid "f2a24f90-b11c-48b9-afdc-fee00c90b585")
+		)
+		(pin "2"
+			(uuid "fc3d9570-bb81-4148-b5b5-760e074599fe")
+		)
+		(pin "1"
+			(uuid "36cf89de-70da-40bf-ab16-7f02145de406")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/919d8a75-a3b2-48a4-b5bd-e8e3438e1772"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:FRC0603J104 TS")
 		(at 115.57 135.89 270)
 		(unit 1)
@@ -3216,144 +3321,12 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:SIRA99DP-T1-GE3")
-		(at 119.38 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "8656645e-09e3-4140-a243-d2c71f33dce4")
-		(property "Reference" "Q11"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SIRA99DP-T1-GE3"
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SIRA99DP-T1-GE3/3852360.html"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Number:1 P-Channel Drain to Source Voltage:30V Current - Continuous Drain(Id):195A RDS(on):1.7mΩ@10V Pd - Power Dissipation:104W Gate Threshold Voltage (Vgs(th)):2.5V Gate Charge(Qg):84nC@10V Input Capacitance(Ciss):10.995nF Reverse Transfer Capacitance ("
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SIRA99DP-T1-GE3"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "VISHAY(威世)"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C3289459"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1个P沟道 耐压:30V 电流:195A"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "f3fbcec6-7cc4-4058-ac51-46f13c450e58")
-		)
-		(pin "7"
-			(uuid "1f479441-c702-4415-b6b7-c95870a5b4e2")
-		)
-		(pin "5"
-			(uuid "a9d7c408-517a-44c8-8a71-605ce66abc91")
-		)
-		(pin "1"
-			(uuid "4831d705-c7d0-4d49-949a-9085d12c590b")
-		)
-		(pin "2"
-			(uuid "b31692bd-07c4-4ac8-aab0-989c769227aa")
-		)
-		(pin "3"
-			(uuid "d247aca0-dccf-4084-967f-05928a9f50d6")
-		)
-		(pin "4"
-			(uuid "55485cbf-b792-4206-a194-5dd7affc6925")
-		)
-		(pin "8"
-			(uuid "aab0e5e8-1862-42b1-ab0d-ae76de22c957")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/919d8a75-a3b2-48a4-b5bd-e8e3438e1772"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
 		(at 90.17 106.68 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(dnp no)
 		(uuid "bd25f23f-df38-4876-9f7b-9a1339bfeed8")
