@@ -5426,6 +5426,68 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "5v rail sm-easyedapro:wasologo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "wasplogo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "wasologo_0_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
@@ -10955,7 +11017,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 153.67) (xy 337.82 147.32)
+			(xy 336.55 153.67) (xy 336.55 146.05)
 		)
 		(stroke
 			(width 0)
@@ -10992,16 +11054,6 @@
 			(type default)
 		)
 		(uuid "01b9d8e5-a48b-4097-b080-5fe830408ea7")
-	)
-	(wire
-		(pts
-			(xy 336.55 153.67) (xy 337.82 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e8a931-0a8d-462c-a84e-638791f56610")
 	)
 	(wire
 		(pts
@@ -27518,7 +27570,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 337.82 147.32 0)
+		(at 336.55 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27526,7 +27578,7 @@
 		(dnp no)
 		(uuid "790fb842-d84a-4107-ad0a-6506540eb3b2")
 		(property "Reference" "#PWR040"
-			(at 337.82 147.32 0)
+			(at 336.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27535,7 +27587,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 337.82 143.51 0)
+			(at 336.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27543,7 +27595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 147.32 0)
+			(at 336.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27552,7 +27604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 147.32 0)
+			(at 336.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27561,7 +27613,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 337.82 147.32 0)
+			(at 336.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28104,6 +28156,70 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:wasologo")
+		(at 64.77 554.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d0d8492-e5ee-465e-9e5f-6f1ee5df73fa")
+		(property "Reference" "wasplogo1"
+			(at 68.58 551.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 68.58 553.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:wasplogo"
+			(at 64.77 554.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 554.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 554.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "wasplogo1")
 					(unit 1)
 				)
 			)
