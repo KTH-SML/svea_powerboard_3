@@ -10256,6 +10256,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:IN-CHARGING-VCC-USBC"
 			(power)
 			(pin_numbers
@@ -11406,6 +11579,12 @@
 		(uuid "a715c991-2712-4a68-ad0f-f4c455116453")
 	)
 	(junction
+		(at 538.48 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a85074a5-71aa-4182-9923-af0e43bde583")
+	)
+	(junction
 		(at 647.7 378.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11913,7 +12092,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 241.3) (xy 565.15 241.3)
+			(xy 525.78 241.3) (xy 538.48 241.3)
 		)
 		(stroke
 			(width 0)
@@ -14120,6 +14299,16 @@
 			(type default)
 		)
 		(uuid "6d3c4551-1bc9-4151-a553-9fc2860f1130")
+	)
+	(wire
+		(pts
+			(xy 520.7 251.46) (xy 520.7 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d52fb84-97c8-45e2-88d6-e2928a020b35")
 	)
 	(wire
 		(pts
@@ -16930,6 +17119,16 @@
 			(type default)
 		)
 		(uuid "f8e530fd-476e-4638-b35d-3c22610eb11c")
+	)
+	(wire
+		(pts
+			(xy 538.48 241.3) (xy 565.15 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f950b6b7-dd53-472c-9bb2-cec74b6ad5d2")
 	)
 	(wire
 		(pts
@@ -32642,6 +32841,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 538.48 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d6a1e14-939f-4608-83ff-aa46600df4cb")
+		(property "Reference" "#PWR0178"
+			(at 538.48 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 538.353 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 538.48 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 538.48 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 538.48 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b8a14e1-830e-450d-a662-71eb5f296d0c")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
 		(at 655.32 398.78 0)
 		(unit 1)
@@ -38124,7 +38389,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 520.7 246.38 0)
+		(at 520.7 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38132,7 +38397,7 @@
 		(dnp no)
 		(uuid "de2e0170-7c02-46e3-b7a6-db8efd9ada9c")
 		(property "Reference" "#PWR055"
-			(at 520.7 246.38 0)
+			(at 520.7 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38141,7 +38406,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 520.446 251.206 0)
+			(at 520.446 256.286 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -38149,7 +38414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 520.7 246.38 0)
+			(at 520.7 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38158,7 +38423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 520.7 246.38 0)
+			(at 520.7 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38167,7 +38432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 520.7 246.38 0)
+			(at 520.7 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
