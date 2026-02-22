@@ -1073,15 +1073,16 @@
 	)
 	(symbol
 		(lib_id "JLCImport:VH3_96-2P_WZ")
-		(at 97.79 96.52 180)
+		(at 97.79 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "174d7971-00d7-4f96-9f3a-d46be7722c2c")
-		(property "Reference" "U35"
-			(at 97.79 87.63 0)
+		(property "Reference" "U37"
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1090,7 @@
 			)
 		)
 		(property "Value" "VH3_96-2P_WZ"
-			(at 97.79 90.17 0)
+			(at 97.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,6 +1151,33 @@
 				(hide yes)
 			)
 		)
+		(property "silkscreen" "↓12V↑"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pos" "+"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "neg" "-"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1afeb34e-585a-476a-a894-d085f3e23f53")
 		)
@@ -1159,11 +1187,11 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/03241f80-3125-4f5b-a1a0-add76ba31aaa"
-					(reference "U35")
+					(reference "U37")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/782118f9-6c0b-4f5a-9c3b-1e5b8fc1f0ac"
-					(reference "U36")
+					(reference "U37")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/beb9ceef-df3a-4e22-8974-012ce1407a41"
