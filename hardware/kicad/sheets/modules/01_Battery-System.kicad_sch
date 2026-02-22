@@ -5770,186 +5770,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_3_Tee"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_3_Tee"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 3 pins, tee"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_3_Tee_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_3_Tee_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -6170,6 +5990,145 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Graphic:SYM_Magnet_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Magnet_Small"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.762 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Magnetic field warning symbol, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol logo magnetic field warning"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Magnet_Small_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 2.54 -1.905) (xy 0 2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -0.9398 -0.2286)
+					(end -0.3302 0.4064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -0.9398 -0.7112)
+					(end -0.3302 -0.0762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.635 -0.6858)
+					(mid 0 -1.3181)
+					(end -0.635 -0.6858)
+					(stroke
+						(width 0.762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.3302 -0.2286)
+					(end 0.9398 0.4064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 0.3302 -0.7112)
+					(end 0.9398 -0.0762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -10418,7 +10377,7 @@
 		(uuid "1261e708-7eff-4f54-9494-7ecfb20e6e0c")
 	)
 	(junction
-		(at 509.27 229.87)
+		(at 525.78 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18b0104a-0676-4684-a262-51fafe0be382")
@@ -10446,6 +10405,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "201193c7-df6c-4463-bd42-55fd899aaf77")
+	)
+	(junction
+		(at 525.78 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "220a3e98-828d-46b8-aa71-ede6b1e3c6dc")
 	)
 	(junction
 		(at 605.79 229.87)
@@ -10586,7 +10551,7 @@
 		(uuid "4bbe22ab-05d2-43dc-8fd4-29230840fa7b")
 	)
 	(junction
-		(at 594.36 316.23)
+		(at 627.38 316.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dc7fd6a-c696-4364-9835-0d14cbbb1af8")
@@ -10790,6 +10755,12 @@
 		(uuid "a715c991-2712-4a68-ad0f-f4c455116453")
 	)
 	(junction
+		(at 520.7 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad451b06-67a1-4061-b2c2-5f242f409f62")
+	)
+	(junction
 		(at 327.66 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10898,7 +10869,7 @@
 		(uuid "cb023fa5-39b2-49d5-869d-27f6fa77c643")
 	)
 	(junction
-		(at 591.82 312.42)
+		(at 624.84 312.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb33121a-177d-425c-a5bf-e0cc26a92368")
@@ -11169,6 +11140,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 241.3) (xy 565.15 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0654d510-a470-4b91-b2bb-505c9baf14da")
+	)
+	(wire
+		(pts
 			(xy 290.83 102.87) (xy 285.75 102.87)
 		)
 		(stroke
@@ -11186,16 +11167,6 @@
 			(type default)
 		)
 		(uuid "06e5dec5-9876-438f-bbb1-ebdb16b853b5")
-	)
-	(wire
-		(pts
-			(xy 521.97 241.3) (xy 565.15 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0715a9ee-afb0-4610-a7f3-dd5bbac63232")
 	)
 	(wire
 		(pts
@@ -11299,7 +11270,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 325.12) (xy 567.69 325.12)
+			(xy 563.88 325.12) (xy 600.71 325.12)
 		)
 		(stroke
 			(width 0)
@@ -11486,16 +11457,6 @@
 			(type default)
 		)
 		(uuid "14563f53-b5d4-493c-bdcd-0c1d3f83bf84")
-	)
-	(wire
-		(pts
-			(xy 509.27 242.57) (xy 509.27 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1526e404-4169-41a9-a73c-3288fb460224")
 	)
 	(wire
 		(pts
@@ -11749,7 +11710,7 @@
 	)
 	(wire
 		(pts
-			(xy 596.9 304.8) (xy 591.82 304.8)
+			(xy 629.92 304.8) (xy 624.84 304.8)
 		)
 		(stroke
 			(width 0)
@@ -11969,7 +11930,7 @@
 	)
 	(wire
 		(pts
-			(xy 596.9 308.61) (xy 594.36 308.61)
+			(xy 629.92 308.61) (xy 627.38 308.61)
 		)
 		(stroke
 			(width 0)
@@ -12149,7 +12110,7 @@
 	)
 	(wire
 		(pts
-			(xy 591.82 312.42) (xy 596.9 312.42)
+			(xy 624.84 312.42) (xy 629.92 312.42)
 		)
 		(stroke
 			(width 0)
@@ -12329,16 +12290,6 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 245.11) (xy 509.27 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "442bef63-5467-497e-8c3b-35fed6a360ee")
-	)
-	(wire
-		(pts
 			(xy 695.96 381) (xy 708.66 381)
 		)
 		(stroke
@@ -12449,7 +12400,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 312.42) (xy 567.69 312.42)
+			(xy 563.88 312.42) (xy 600.71 312.42)
 		)
 		(stroke
 			(width 0)
@@ -12489,7 +12440,7 @@
 	)
 	(wire
 		(pts
-			(xy 565.15 229.87) (xy 518.16 229.87)
+			(xy 534.67 229.87) (xy 565.15 229.87)
 		)
 		(stroke
 			(width 0)
@@ -12709,7 +12660,7 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 229.87) (xy 509.27 229.87)
+			(xy 529.59 229.87) (xy 525.78 229.87)
 		)
 		(stroke
 			(width 0)
@@ -12969,7 +12920,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 320.04) (xy 567.69 320.04)
+			(xy 563.88 320.04) (xy 600.71 320.04)
 		)
 		(stroke
 			(width 0)
@@ -13709,7 +13660,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.2 316.23) (xy 594.36 316.23)
+			(xy 617.22 316.23) (xy 627.38 316.23)
 		)
 		(stroke
 			(width 0)
@@ -13769,7 +13720,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 314.96) (xy 567.69 314.96)
+			(xy 563.88 314.96) (xy 600.71 314.96)
 		)
 		(stroke
 			(width 0)
@@ -13809,7 +13760,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 322.58) (xy 567.69 322.58)
+			(xy 563.88 322.58) (xy 600.71 322.58)
 		)
 		(stroke
 			(width 0)
@@ -14139,7 +14090,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 327.66) (xy 567.69 327.66)
+			(xy 563.88 327.66) (xy 600.71 327.66)
 		)
 		(stroke
 			(width 0)
@@ -15089,6 +15040,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 232.41) (xy 525.78 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d416f4a6-555c-4188-b961-4d9f4ac2ca2b")
+	)
+	(wire
+		(pts
 			(xy 195.58 240.03) (xy 193.04 240.03)
 		)
 		(stroke
@@ -15469,7 +15430,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 229.87) (xy 509.27 232.41)
+			(xy 525.78 229.87) (xy 525.78 231.14)
 		)
 		(stroke
 			(width 0)
@@ -15489,16 +15450,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 242.57) (xy 521.97 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5548be4-e011-4e0d-90e4-9701411a8dcb")
-	)
-	(wire
-		(pts
 			(xy 185.42 139.7) (xy 180.34 139.7)
 		)
 		(stroke
@@ -15509,7 +15460,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 226.06) (xy 509.27 229.87)
+			(xy 525.78 226.06) (xy 525.78 229.87)
 		)
 		(stroke
 			(width 0)
@@ -15539,7 +15490,7 @@
 	)
 	(wire
 		(pts
-			(xy 591.82 304.8) (xy 591.82 312.42)
+			(xy 624.84 304.8) (xy 624.84 312.42)
 		)
 		(stroke
 			(width 0)
@@ -15579,13 +15530,23 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 316.23) (xy 596.9 316.23)
+			(xy 627.38 316.23) (xy 629.92 316.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eac4dd64-7ec5-4555-92aa-f1eb3fa1b770")
+	)
+	(wire
+		(pts
+			(xy 520.7 231.14) (xy 525.78 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec33bad1-a38b-4e61-926f-706ca027103f")
 	)
 	(wire
 		(pts
@@ -15669,7 +15630,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.2 312.42) (xy 591.82 312.42)
+			(xy 617.22 312.42) (xy 624.84 312.42)
 		)
 		(stroke
 			(width 0)
@@ -15689,7 +15650,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 317.5) (xy 567.69 317.5)
+			(xy 563.88 317.5) (xy 600.71 317.5)
 		)
 		(stroke
 			(width 0)
@@ -15789,6 +15750,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 246.38) (xy 525.78 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c2eebc-c065-45c6-9d43-d464292995e8")
+	)
+	(wire
+		(pts
 			(xy 327.66 113.03) (xy 330.2 113.03)
 		)
 		(stroke
@@ -15796,6 +15767,16 @@
 			(type default)
 		)
 		(uuid "f690e0d7-548e-4dab-b77b-78283a9a7308")
+	)
+	(wire
+		(pts
+			(xy 520.7 241.3) (xy 520.7 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f778b296-6f8c-458c-bf9f-a7fbc0329cf9")
 	)
 	(wire
 		(pts
@@ -15989,7 +15970,7 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 308.61) (xy 594.36 316.23)
+			(xy 627.38 308.61) (xy 627.38 316.23)
 		)
 		(stroke
 			(width 0)
@@ -16209,7 +16190,7 @@
 	)
 	(global_label "SCL_SLOW"
 		(shape bidirectional)
-		(at 607.06 308.61 0)
+		(at 640.08 308.61 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -16218,7 +16199,7 @@
 		)
 		(uuid "1050eb7e-8e9e-4680-b003-b54cdb64e00b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 607.06 308.61 0)
+			(at 640.08 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16740,7 +16721,7 @@
 	)
 	(global_label "SDA_FAST"
 		(shape bidirectional)
-		(at 607.06 312.42 0)
+		(at 640.08 312.42 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -16749,7 +16730,7 @@
 		)
 		(uuid "42f64d3b-12be-4fe9-82e5-bcb2514dc901")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 607.06 312.42 0)
+			(at 640.08 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17000,7 +16981,7 @@
 	)
 	(global_label "SDA_SLOW"
 		(shape bidirectional)
-		(at 607.06 304.8 0)
+		(at 640.08 304.8 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -17009,7 +16990,7 @@
 		)
 		(uuid "5a62e0e2-7909-4b7e-b342-46485ba6b917")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 607.06 304.8 0)
+			(at 640.08 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17162,7 +17143,7 @@
 	)
 	(global_label "SCL_FAST"
 		(shape bidirectional)
-		(at 607.06 316.23 0)
+		(at 640.08 316.23 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -17171,7 +17152,7 @@
 		)
 		(uuid "62889764-4e1f-43ed-b232-1d6f22e2da16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 607.06 316.23 0)
+			(at 640.08 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18664,7 +18645,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:EWH1EM472L25OT")
-		(at 509.27 237.49 270)
+		(at 520.7 236.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18672,7 +18653,7 @@
 		(dnp no)
 		(uuid "00222a83-c1ab-4c65-ad20-6ad57f8efa98")
 		(property "Reference" "C13"
-			(at 513.08 237.4899 90)
+			(at 524.51 236.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18681,7 +18662,7 @@
 			)
 		)
 		(property "Value" "4700uF"
-			(at 515.62 239.776 90)
+			(at 527.05 238.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18689,7 +18670,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:CAP-TH_BD16.0-P7.50-D0.8-FD"
-			(at 509.27 237.49 0)
+			(at 520.7 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18698,7 +18679,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/EWH1EM472L25OT/3032380.html"
-			(at 509.27 237.49 0)
+			(at 520.7 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18707,7 +18688,7 @@
 			)
 		)
 		(property "Description" "Capacitance:4700uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Diameter:16mm Height - Seated (Max):25mm Operating Temperature:-25°C~+105°C Operating Temperature:-25°C~+105°C"
-			(at 509.27 237.49 0)
+			(at 520.7 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18716,7 +18697,7 @@
 			)
 		)
 		(property "Manufacturer Part" "EWH1EM472L25OT"
-			(at 509.27 237.49 0)
+			(at 520.7 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18725,7 +18706,7 @@
 			)
 		)
 		(property "Manufacturer" "AISHI(艾华集团)"
-			(at 509.27 237.49 0)
+			(at 520.7 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18734,7 +18715,7 @@
 			)
 		)
 		(property "Supplier Part" "C2843670"
-			(at 509.27 237.49 0)
+			(at 520.7 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18743,7 +18724,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 509.27 237.49 0)
+			(at 520.7 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18752,7 +18733,7 @@
 			)
 		)
 		(property "LCSC Part Name" "4700uF ±20% 25V"
-			(at 509.27 237.49 0)
+			(at 520.7 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20301,7 +20282,7 @@
 	)
 	(symbol
 		(lib_id "power:PACK+")
-		(at 509.27 226.06 0)
+		(at 525.78 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20309,7 +20290,7 @@
 		(dnp no)
 		(uuid "156226b4-fa00-465a-af09-e7cb9bfdec54")
 		(property "Reference" "#PWR053"
-			(at 509.27 226.06 0)
+			(at 525.78 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20318,7 +20299,7 @@
 			)
 		)
 		(property "Value" "PACK+"
-			(at 509.27 222.25 0)
+			(at 525.78 222.25 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -20326,7 +20307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 509.27 226.06 0)
+			(at 525.78 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20335,7 +20316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509.27 226.06 0)
+			(at 525.78 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20344,7 +20325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 509.27 226.06 0)
+			(at 525.78 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21643,79 +21624,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_3_Tee")
-		(at 521.97 245.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "293b06d8-4d1e-4ac9-aa02-f489d3688f48")
-		(property "Reference" "NT8"
-			(at 523.24 243.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NetTie_3_Tee"
-			(at 523.24 246.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-3_SMD_Pad2.0mm"
-			(at 521.97 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 521.97 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 3 pins, tee"
-			(at 521.97 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5cd5e6e-258e-432d-8d2f-2a85ad412ce9")
-		)
-		(pin "3"
-			(uuid "e4dba5f8-e31b-4a74-89dc-21ce9282c50d")
-		)
-		(pin "1"
-			(uuid "6fb765c3-dcf5-413b-be3a-5e5caf736e9c")
-		)
-		(instances
-			(project ""
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "NT8")
 					(unit 1)
 				)
 			)
@@ -24536,7 +24444,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 601.98 316.23 180)
+		(at 635 316.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24544,7 +24452,7 @@
 		(dnp no)
 		(uuid "4fea00fa-36e5-460e-a554-b1bda17fb074")
 		(property "Reference" "U9"
-			(at 601.98 316.23 0)
+			(at 635 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24554,7 +24462,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 601.98 316.23 0)
+			(at 635 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24562,7 +24470,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 601.98 316.23 0)
+			(at 635 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24571,7 +24479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 601.98 316.23 0)
+			(at 635 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24580,7 +24488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 601.98 316.23 0)
+			(at 635 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25528,7 +25436,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 515.62 229.87 180)
+		(at 532.13 229.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -25537,7 +25445,7 @@
 		(fields_autoplaced yes)
 		(uuid "58710f57-0f4f-44f0-86cb-e6b3bc80ce82")
 		(property "Reference" "NT7"
-			(at 514.3499 228.6 90)
+			(at 530.8599 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25546,7 +25454,7 @@
 			)
 		)
 		(property "Value" "High Current Nettie"
-			(at 516.8899 228.6 90)
+			(at 533.3999 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25556,7 +25464,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad7.0mm"
-			(at 515.62 229.87 0)
+			(at 532.13 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25565,7 +25473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 515.62 229.87 0)
+			(at 532.13 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25574,7 +25482,7 @@
 			)
 		)
 		(property "Description" "High current path for ESC, place close to bms mosfet"
-			(at 515.62 229.87 0)
+			(at 532.13 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31346,7 +31254,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 601.98 312.42 180)
+		(at 635 312.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31354,7 +31262,7 @@
 		(dnp no)
 		(uuid "a6e512bc-2e43-47d0-aef3-f03c80634247")
 		(property "Reference" "U8"
-			(at 601.98 312.42 0)
+			(at 635 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31364,7 +31272,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 601.98 312.42 0)
+			(at 635 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31372,7 +31280,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 601.98 312.42 0)
+			(at 635 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31381,7 +31289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 601.98 312.42 0)
+			(at 635 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31390,7 +31298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 601.98 312.42 0)
+			(at 635 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34386,7 +34294,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 601.98 304.8 180)
+		(at 635 304.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34394,7 +34302,7 @@
 		(dnp no)
 		(uuid "c4744ae6-61e3-43dd-b1d9-c343d139b66a")
 		(property "Reference" "U6"
-			(at 599.44 303.53 0)
+			(at 632.46 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34404,7 +34312,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 601.98 304.8 0)
+			(at 635 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34412,7 +34320,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 601.98 304.8 0)
+			(at 635 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34421,7 +34329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 601.98 304.8 0)
+			(at 635 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34430,7 +34338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 601.98 304.8 0)
+			(at 635 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34799,7 +34707,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 601.98 308.61 180)
+		(at 635 308.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34807,7 +34715,7 @@
 		(dnp no)
 		(uuid "ca11920c-7204-49a1-a8e9-18d056028646")
 		(property "Reference" "U7"
-			(at 599.44 307.34 0)
+			(at 632.46 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34817,7 +34725,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 601.98 308.61 0)
+			(at 635 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34825,7 +34733,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 601.98 308.61 0)
+			(at 635 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34834,7 +34742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 601.98 308.61 0)
+			(at 635 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34843,7 +34751,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 601.98 308.61 0)
+			(at 635 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35834,6 +35742,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Graphic:SYM_Magnet_Small")
+		(at 64.77 565.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6a9213f-b0ad-4df1-bcdc-d4404571f797")
+		(property "Reference" "#SYM1"
+			(at 64.77 561.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Magnet_Small"
+			(at 64.77 568.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:Symbol_Attention_Triangle_8x7mm_Copper"
+			(at 64.77 569.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.532 570.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Magnetic field warning symbol, small"
+			(at 64.77 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 64.77 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:DB142R-5_08-8P")
 		(at 243.84 359.41 0)
 		(unit 1)
@@ -36264,7 +36245,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 521.97 247.65 0)
+		(at 520.7 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36272,7 +36253,7 @@
 		(dnp no)
 		(uuid "de2e0170-7c02-46e3-b7a6-db8efd9ada9c")
 		(property "Reference" "#PWR055"
-			(at 521.97 247.65 0)
+			(at 520.7 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36281,7 +36262,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 521.716 252.476 0)
+			(at 520.446 251.206 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -36289,7 +36270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 521.97 247.65 0)
+			(at 520.7 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36298,7 +36279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521.97 247.65 0)
+			(at 520.7 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36307,7 +36288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 521.97 247.65 0)
+			(at 520.7 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38354,6 +38335,77 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 525.78 243.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f42e598c-beb8-4b92-8bcd-612a9e758500")
+		(property "Reference" "NT8"
+			(at 527.05 243.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "High Current Nettie"
+			(at 524.51 242.5701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad7.0mm"
+			(at 525.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 525.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High current path for ESC, place close to bms mosfet"
+			(at 525.78 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cead624-9947-4ef1-8834-ce0cb31f0353")
+		)
+		(pin "1"
+			(uuid "86eb68a4-7ad7-4ddf-939e-5bf3824aa975")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "NT8")
 					(unit 1)
 				)
 			)
@@ -40802,7 +40854,7 @@
 		)
 	)
 	(sheet
-		(at 567.69 309.88)
+		(at 600.71 309.88)
 		(size 16.51 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40818,7 +40870,7 @@
 		)
 		(uuid "8281c4bd-f2fa-451b-b37c-f7eda375ddce")
 		(property "Sheetname" "PWM Driver"
-			(at 567.69 309.1684 0)
+			(at 600.71 309.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40827,7 +40879,7 @@
 			)
 		)
 		(property "Sheetfile" "../mcu/25_Microcontroller-PWM-IC.kicad_sch"
-			(at 567.69 332.0546 0)
+			(at 600.71 332.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40836,7 +40888,7 @@
 			)
 		)
 		(pin "OUT1" output
-			(at 567.69 314.96 180)
+			(at 600.71 314.96 180)
 			(uuid "a39cae04-f25b-4e24-a6a6-7d372a05ec09")
 			(effects
 				(font
@@ -40846,7 +40898,7 @@
 			)
 		)
 		(pin "OUT2" output
-			(at 567.69 317.5 180)
+			(at 600.71 317.5 180)
 			(uuid "00f1d6aa-201c-4676-8ea9-204c68d95371")
 			(effects
 				(font
@@ -40856,7 +40908,7 @@
 			)
 		)
 		(pin "OUT3" output
-			(at 567.69 320.04 180)
+			(at 600.71 320.04 180)
 			(uuid "62b8aa7d-dfdc-4db6-b416-e7363f180917")
 			(effects
 				(font
@@ -40866,7 +40918,7 @@
 			)
 		)
 		(pin "OUT4" output
-			(at 567.69 322.58 180)
+			(at 600.71 322.58 180)
 			(uuid "73f6774b-da27-4047-a8b1-36de413af499")
 			(effects
 				(font
@@ -40876,7 +40928,7 @@
 			)
 		)
 		(pin "OUT5" output
-			(at 567.69 325.12 180)
+			(at 600.71 325.12 180)
 			(uuid "610c78ec-aa50-4112-a6f5-df539de0a5a2")
 			(effects
 				(font
@@ -40886,7 +40938,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 584.2 312.42 0)
+			(at 617.22 312.42 0)
 			(uuid "7965062c-7fcb-4304-8ea4-f8c50644581a")
 			(effects
 				(font
@@ -40896,7 +40948,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 584.2 316.23 0)
+			(at 617.22 316.23 0)
 			(uuid "abc0560c-e365-4d8b-89b1-5518d7dcbeac")
 			(effects
 				(font
@@ -40906,7 +40958,7 @@
 			)
 		)
 		(pin "OUT0" output
-			(at 567.69 312.42 180)
+			(at 600.71 312.42 180)
 			(uuid "6e4349e5-fb6c-4b25-bc6d-95b9db62966f")
 			(effects
 				(font
@@ -40916,7 +40968,7 @@
 			)
 		)
 		(pin "OUT6" output
-			(at 567.69 327.66 180)
+			(at 600.71 327.66 180)
 			(uuid "dab1ac0c-9c51-498b-bb47-c5dc2a96f682")
 			(effects
 				(font
