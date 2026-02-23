@@ -4078,6 +4078,12 @@
 		(uuid "14398e09-dedb-4b7b-8ed8-8bb798e38b57")
 	)
 	(junction
+		(at 234.95 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17c9f9d3-5704-4c82-af04-dc23971bb674")
+	)
+	(junction
 		(at 54.61 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4261,7 +4267,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 31.75) (xy 223.52 31.75)
+			(xy 234.95 31.75) (xy 223.52 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5001,7 +5007,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 44.45) (xy 240.03 44.45)
+			(xy 223.52 44.45) (xy 234.95 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5141,16 +5147,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 44.45) (xy 262.89 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a88fdabd-fee7-463a-a87c-fb371eb86278")
-	)
-	(wire
-		(pts
 			(xy 67.31 55.88) (xy 78.74 55.88)
 		)
 		(stroke
@@ -5198,6 +5194,16 @@
 			(type default)
 		)
 		(uuid "b2f6b899-a89c-4910-a546-a52248c7be42")
+	)
+	(wire
+		(pts
+			(xy 234.95 44.45) (xy 240.03 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b335dddb-676a-42f7-8cd5-4ac7113a8d35")
 	)
 	(wire
 		(pts
@@ -5268,6 +5274,16 @@
 			(type default)
 		)
 		(uuid "c2aa9ed3-09be-4b72-85ca-14ad7b7cdb30")
+	)
+	(wire
+		(pts
+			(xy 234.95 31.75) (xy 234.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3156579-e4e9-44dc-aeb7-f13ddbf27730")
 	)
 	(wire
 		(pts
@@ -5418,16 +5434,6 @@
 			(type default)
 		)
 		(uuid "df820e11-1b5a-41e4-9c9d-e357aec94af7")
-	)
-	(wire
-		(pts
-			(xy 250.19 31.75) (xy 262.89 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfadc776-7c12-4aba-8d39-de8ee609825b")
 	)
 	(wire
 		(pts
@@ -5914,126 +5920,6 @@
 			(justify right)
 		)
 		(uuid "ea1cd15a-e517-4d32-8306-ac5c1e97e530")
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:1206W4F1000T5E")
-		(at 245.11 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0257932c-25ef-45ea-b181-b53e3aa03855")
-		(property "Reference" "R189"
-			(at 242.57 30.48 0)
-			(effects
-				(font
-					(size 1.0414 1.0414)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 242.57 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 245.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/1206W4F1000T5E/18589.html"
-			(at 245.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100Ω Tolerance:±1% Tolerance:±1% Power(Watts):250mW Voltage-Supply(Max):200V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 245.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "1206W4F1000T5E"
-			(at 245.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 245.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C17901"
-			(at 245.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 245.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100Ω ±1% 250mW 厚膜电阻"
-			(at 245.11 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02eb4733-3041-4876-b5f1-7e96d1e4a2bd")
-		)
-		(pin "2"
-			(uuid "7cb0a659-7ffc-40ea-8291-7c7881768d86")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "R189")
-					(unit 1)
-				)
-			)
-			(project "18_Battery-BMS"
-				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:BAT46W-7-F")
@@ -7420,7 +7306,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -7429,7 +7315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/FCC0402N101J500AT/5747025.html"
+		(property "Datasheet" ""
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -7438,7 +7324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:100pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G"
+		(property "Description" ""
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -7447,7 +7333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "FCC0402N101J500AT"
+		(property "Manufacturer Part" ""
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -7456,7 +7342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" ""
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -7465,7 +7351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C5137573"
+		(property "Supplier Part" ""
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -7474,7 +7360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -7483,7 +7369,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "100pF ±5% 50V"
+		(property "LCSC Part Name" ""
 			(at 171.45 147.32 0)
 			(effects
 				(font
