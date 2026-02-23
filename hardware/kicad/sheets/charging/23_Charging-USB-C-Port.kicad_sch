@@ -4424,9 +4424,9 @@
 		)
 		(uuid "046cbae1-116c-42be-9db1-fd8c2266c5c4")
 	)
-	(text "3.25A\n20V"
+	(text "3.25A\n20V\nHigher requires i2c"
 		(exclude_from_sim no)
-		(at 185.42 133.35 0)
+		(at 169.672 137.668 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4448,12 +4448,6 @@
 		(uuid "0504bd5a-eb9a-4cff-a1d6-86c81f6a5e4a")
 	)
 	(junction
-		(at 88.9 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09841132-c92f-40a0-be63-46d42f3be74e")
-	)
-	(junction
 		(at 309.88 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4464,6 +4458,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "175053e4-d226-422e-aff2-8d71df6d3b53")
+	)
+	(junction
+		(at 104.14 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cf1bd08-3c52-4102-8fd0-4b8434707204")
 	)
 	(junction
 		(at 325.12 31.75)
@@ -4478,16 +4478,22 @@
 		(uuid "20742d30-67d5-446c-a6cc-fe9eaa4890f1")
 	)
 	(junction
+		(at 99.06 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "358d8552-f9ae-4691-b5d7-732abd3dfb4d")
+	)
+	(junction
+		(at 83.82 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "387ea10f-d7da-4ea2-ade1-b1b34d530b3d")
+	)
+	(junction
 		(at 142.24 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a2bb035-1d50-4aa0-93f7-1b63ab79c86d")
-	)
-	(junction
-		(at 83.82 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48b86a6d-be2b-43bc-b493-074937a10c71")
 	)
 	(junction
 		(at 325.12 46.99)
@@ -4514,12 +4520,6 @@
 		(uuid "6472a922-8c0d-4888-9f87-2f7b59a54dd1")
 	)
 	(junction
-		(at 104.14 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64a7d52f-1048-4e0a-a398-4fbc47face58")
-	)
-	(junction
 		(at 215.9 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4544,6 +4544,12 @@
 		(uuid "80793080-76d2-4b2d-9b70-6ad74fb04a10")
 	)
 	(junction
+		(at 83.82 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91be2a01-2afc-4fd7-be05-15cb6da5f3e1")
+	)
+	(junction
 		(at 204.47 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4556,16 +4562,40 @@
 		(uuid "aee15d25-f70e-4e90-8335-b41299cbad22")
 	)
 	(junction
+		(at 74.93 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1c86fd8-ee4a-41dd-887e-678af25c2d2d")
+	)
+	(junction
 		(at 78.74 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbd6358d-e2c0-4e31-b95b-d608d92c4f17")
 	)
 	(junction
-		(at 99.06 62.23)
+		(at 99.06 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cc39b04f-068f-4775-b03a-7a5914352759")
+		(uuid "bbf5bbf1-a677-45fc-be86-d1873a1ecc78")
+	)
+	(junction
+		(at 88.9 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9f25c30-3816-4de1-ae8f-81291cebeafd")
+	)
+	(junction
+		(at 104.14 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d328e0cb-2010-4e23-9d03-fcabce129fc9")
+	)
+	(junction
+		(at 88.9 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5c317f7-2646-47a9-92f9-5c261e88003f")
 	)
 	(junction
 		(at 298.45 31.75)
@@ -4598,14 +4628,6 @@
 		(uuid "f78ab23d-328f-49f5-8c6a-e0dec55700fc")
 	)
 	(no_connect
-		(at 99.06 132.08)
-		(uuid "01bb33b2-ca00-4aec-adc3-364e79fd333d")
-	)
-	(no_connect
-		(at 104.14 132.08)
-		(uuid "2796db2b-abbf-4828-9a0f-1165af065d71")
-	)
-	(no_connect
 		(at 38.1 59.69)
 		(uuid "6ff7f7ed-1ea8-4d4c-b69d-292471ddfb04")
 	)
@@ -4622,10 +4644,6 @@
 		(uuid "b1a729a3-652b-4235-b9aa-2d07679d6602")
 	)
 	(no_connect
-		(at 83.82 132.08)
-		(uuid "b9bbe03a-f6c9-4d42-824f-6374d3abf80e")
-	)
-	(no_connect
 		(at 50.8 77.47)
 		(uuid "c143e17a-bb30-4a14-8908-786f27cda249")
 	)
@@ -4636,10 +4654,6 @@
 	(no_connect
 		(at 48.26 77.47)
 		(uuid "d5832794-badf-41fd-a37e-93035fb5e5e0")
-	)
-	(no_connect
-		(at 88.9 132.08)
-		(uuid "f6b55309-b75a-4066-8229-8383d4cbfed6")
 	)
 	(wire
 		(pts
@@ -4743,7 +4757,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 100.33) (xy 88.9 100.33)
+			(xy 231.14 100.33) (xy 104.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4760,6 +4774,26 @@
 			(type default)
 		)
 		(uuid "17397a50-d1f6-4575-a9c7-de9e65b4a63e")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176cfcd5-78f3-42d6-a8b4-032b5aa645ad")
+	)
+	(wire
+		(pts
+			(xy 83.82 62.23) (xy 231.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a975ecf-35f7-4b12-a446-5efd55e531ee")
 	)
 	(wire
 		(pts
@@ -4833,7 +4867,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 25.4) (xy 20.32 52.07)
+			(xy 20.32 26.67) (xy 20.32 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4893,7 +4927,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 25.4) (xy 99.06 62.23)
+			(xy 83.82 26.67) (xy 83.82 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4943,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 57.15) (xy 88.9 57.15)
+			(xy 60.96 57.15) (xy 104.14 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5013,7 +5047,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 102.87) (xy 83.82 102.87)
+			(xy 31.75 102.87) (xy 74.93 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 83.82 102.87)
+			(xy 74.93 54.61) (xy 74.93 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5093,16 +5127,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 109.22) (xy 88.9 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d6061a-be87-47d7-baef-6076770fced2")
-	)
-	(wire
-		(pts
 			(xy 199.39 146.05) (xy 199.39 140.97)
 		)
 		(stroke
@@ -5113,7 +5137,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 54.61) (xy 83.82 54.61)
+			(xy 104.14 109.22) (xy 104.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593540d5-3a5d-44a0-baef-bd5540626133")
+	)
+	(wire
+		(pts
+			(xy 60.96 54.61) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5173,13 +5207,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 62.23) (xy 99.06 109.22)
+			(xy 99.06 102.87) (xy 231.14 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "679395c6-e5db-4fa2-9e9b-c07b59a19ecd")
+		(uuid "65a2d4ae-8daf-4bcd-a858-435b253d5df5")
 	)
 	(wire
 		(pts
@@ -5213,16 +5247,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 102.87) (xy 83.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba2b558-c1c1-4e97-851a-945fa29cc2d6")
-	)
-	(wire
-		(pts
 			(xy 284.48 59.69) (xy 284.48 48.26)
 		)
 		(stroke
@@ -5253,6 +5277,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 100.33) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fac5565-b1e4-4ad2-98a3-f97ec31f9ca8")
+	)
+	(wire
+		(pts
 			(xy 326.39 77.47) (xy 331.47 77.47)
 		)
 		(stroke
@@ -5273,7 +5307,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 59.69) (xy 104.14 59.69)
+			(xy 60.96 59.69) (xy 88.9 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5290,6 +5324,16 @@
 			(type default)
 		)
 		(uuid "79bad721-2ec1-430d-87d9-262fb3ecdedb")
+	)
+	(wire
+		(pts
+			(xy 83.82 62.23) (xy 83.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5e0c6d-d72b-42c9-8a17-3f55d642fddd")
 	)
 	(wire
 		(pts
@@ -5393,16 +5437,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 62.23) (xy 99.06 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96385790-0f56-40af-82d3-0ed65ac02421")
-	)
-	(wire
-		(pts
 			(xy 193.04 138.43) (xy 193.04 140.97)
 		)
 		(stroke
@@ -5413,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 100.33) (xy 88.9 100.33)
+			(xy 34.29 100.33) (xy 104.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5453,6 +5487,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 59.69) (xy 88.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3dab6cf-4e01-44e2-a6c3-11198a2b71bb")
+	)
+	(wire
+		(pts
 			(xy 204.47 111.76) (xy 204.47 92.71)
 		)
 		(stroke
@@ -5460,6 +5504,16 @@
 			(type default)
 		)
 		(uuid "a49d2462-08d2-4bd3-86a9-7eef713aa24a")
+	)
+	(wire
+		(pts
+			(xy 99.06 109.22) (xy 99.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3113d0-772f-44f9-9a9f-4a622a254124")
 	)
 	(wire
 		(pts
@@ -5583,7 +5637,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 100.33) (xy 88.9 57.15)
+			(xy 83.82 109.22) (xy 83.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf465f43-a4cc-461d-b656-a5646af2e36a")
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33) (xy 104.14 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5600,6 +5664,16 @@
 			(type default)
 		)
 		(uuid "c3bf921e-846a-4a1d-a9f6-38db22b47d05")
+	)
+	(wire
+		(pts
+			(xy 88.9 109.22) (xy 88.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b0ca95-8f87-4142-82b9-a00edfdd8c02")
 	)
 	(wire
 		(pts
@@ -5620,6 +5694,16 @@
 			(type default)
 		)
 		(uuid "cb6fd43d-43d8-4e98-8925-7824017ecf1f")
+	)
+	(wire
+		(pts
+			(xy 99.06 102.87) (xy 99.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29c6acb-071c-45d1-b108-4c26aed9767f")
 	)
 	(wire
 		(pts
@@ -5653,7 +5737,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 25.4) (xy 20.32 25.4)
+			(xy 83.82 26.67) (xy 20.32 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5733,16 +5817,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 59.69) (xy 104.14 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1804710-134b-4099-aed7-1826fa19026a")
-	)
-	(wire
-		(pts
 			(xy 298.45 31.75) (xy 298.45 34.29)
 		)
 		(stroke
@@ -5773,26 +5847,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 109.22) (xy 83.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f492b8e6-c5e3-4a7a-9688-3e1aea904ee9")
-	)
-	(wire
-		(pts
-			(xy 104.14 59.69) (xy 104.14 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5211539-4e7e-45d2-ba68-0451cf442afc")
-	)
-	(wire
-		(pts
 			(xy 195.58 69.85) (xy 195.58 48.26)
 		)
 		(stroke
@@ -5810,6 +5864,16 @@
 			(type default)
 		)
 		(uuid "f72488c5-c0c8-4d64-a864-8a83a0459a07")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 231.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fa89a8-9a4f-4555-a219-34cccf2beb14")
 	)
 	(wire
 		(pts
@@ -7060,7 +7124,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -7078,7 +7142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistor Resistance:19.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):125mW Voltage-Supply(Max):150V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+		(property "Description" ""
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -7087,7 +7151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "FRC0805F1912TS"
+		(property "Manufacturer Part" ""
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -7096,7 +7160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" ""
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -7105,7 +7169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C2930175"
+		(property "Supplier Part" ""
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -7114,7 +7178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -7123,7 +7187,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "19.1kΩ ±1% 125mW 厚膜电阻"
+		(property "LCSC Part Name" ""
 			(at 204.47 133.35 0)
 			(effects
 				(font
@@ -8113,7 +8177,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8122,7 +8186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
+		(property "Datasheet" ""
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8131,7 +8195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance:909kΩ Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Operating Temperature Range:-55°C~+125°C Operating Temperature Range:-55°C~+125°C"
+		(property "Description" ""
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8140,7 +8204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC-01W9093FT"
+		(property "Manufacturer Part" ""
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8149,7 +8213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH(风华)"
+		(property "Manufacturer" ""
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8158,7 +8222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C321081"
+		(property "Supplier Part" ""
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8167,7 +8231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8176,7 +8240,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "厚膜电阻 909kΩ ±1% 50mW"
+		(property "LCSC Part Name" ""
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8227,7 +8291,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 309.88 39.37 0)
 			(effects
 				(font
@@ -8236,7 +8300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20181009/C309620_DA5935B6E1D48212CB7A533FE518B3C2.pdf"
+		(property "Datasheet" ""
 			(at 309.88 39.37 0)
 			(effects
 				(font
@@ -8245,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/°C Temperature Coefficient:±200ppm/°C Operating Temperature Range:-55°C~+125°C Operating Temperature Range:-55°C~+125°C"
+		(property "Description" ""
 			(at 309.88 39.37 0)
 			(effects
 				(font
@@ -8254,7 +8318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC0201FR-07100KL"
+		(property "Manufacturer Part" ""
 			(at 309.88 39.37 0)
 			(effects
 				(font
@@ -8263,7 +8327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" ""
 			(at 309.88 39.37 0)
 			(effects
 				(font
@@ -8272,7 +8336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C106224"
+		(property "Supplier Part" ""
 			(at 309.88 39.37 0)
 			(effects
 				(font
@@ -8281,7 +8345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 309.88 39.37 0)
 			(effects
 				(font
@@ -8290,7 +8354,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "厚膜电阻 100kΩ ±1% 50mW"
+		(property "LCSC Part Name" ""
 			(at 309.88 39.37 0)
 			(effects
 				(font

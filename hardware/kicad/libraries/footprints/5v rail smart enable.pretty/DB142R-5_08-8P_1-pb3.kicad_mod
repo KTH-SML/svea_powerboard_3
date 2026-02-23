@@ -126,8 +126,34 @@
 		(layer "F.Fab")
 		(uuid "daf0b37e-02be-471d-921c-1a72ef69c602")
 	)
-	(fp_text user "-${port3}+"
-		(at 15.5 9.5 0)
+	(fp_text user "|"
+		(at -0.5 10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03cef390-0dbc-418a-995d-a6a4768d222b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "|"
+		(at -10.625 10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "21475ad1-4f48-4295-8024-f140cd17f46a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+${port3}-"
+		(at 15.21369 9.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2f1e0bea-691f-4dad-91dd-0f1641a5c07d")
@@ -138,8 +164,8 @@
 			)
 		)
 	)
-	(fp_text user "-${port1}+"
-		(at -5 9.5 0)
+	(fp_text user "+${port1}-"
+		(at -5.03631 9.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "42f81782-6647-4b4c-8815-a6d6a11adc98")
@@ -150,8 +176,8 @@
 			)
 		)
 	)
-	(fp_text user "-${port0}+"
-		(at -15.5 9.5 0)
+	(fp_text user "+${port0}-"
+		(at -15.16131 9.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "64300bca-f855-407f-acd0-aa6320ed9b85")
@@ -162,8 +188,47 @@
 			)
 		)
 	)
-	(fp_text user "-${port2}+"
-		(at 5 9.5 0)
+	(fp_text user "|"
+		(at 19.75 10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ef76034-2551-4297-b269-08fcb7cd8c43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "|"
+		(at -20.75 10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b1ba1b73-391b-47a0-a4e1-44776aba969c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "|"
+		(at 9.625 10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c27f3929-60bf-427b-a4e2-f3a8e4763605")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+${port2}-"
+		(at 5.08869 9.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "df1e14ff-4cb2-4975-b92c-abfbf23ad02f")
