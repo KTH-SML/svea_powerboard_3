@@ -2471,6 +2471,12 @@
 		(color 0 0 0 0)
 		(uuid "d67e1b6e-1665-4bb2-aa04-5919ceaaeedc")
 	)
+	(junction
+		(at 105.41 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2f39084-9152-4a99-be6c-e48b773d4b21")
+	)
 	(no_connect
 		(at 101.6 82.55)
 		(uuid "0d1fe8d6-4f3b-4822-8d40-070fdbc26182")
@@ -2495,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 113.03 80.01)
+			(xy 105.41 88.9) (xy 105.41 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2535,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 80.01) (xy 113.03 80.01)
+			(xy 101.6 80.01) (xy 105.41 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2562,6 +2568,16 @@
 			(type default)
 		)
 		(uuid "3329e276-88a7-4380-9763-a4e5ab792275")
+	)
+	(wire
+		(pts
+			(xy 105.41 80.01) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345e31b7-90bf-4f4c-8b7d-f18b7be558db")
 	)
 	(wire
 		(pts
@@ -2755,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 158.75 95.25)
+			(xy 157.48 95.25) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 110.49) (xy 113.03 110.49)
+			(xy 91.44 110.49) (xy 105.41 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +2991,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 110.49) (xy 113.03 99.06)
+			(xy 105.41 110.49) (xy 105.41 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3035,7 +3051,7 @@
 	)
 	(global_label "Button/DIGITAL"
 		(shape output)
-		(at 153.67 95.25 180)
+		(at 157.48 95.25 180)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -3044,7 +3060,7 @@
 		)
 		(uuid "cf86ba87-2556-4f9f-b0cd-7ae877f58b76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 95.25 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4494,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:CL10A105KB8NNNC")
-		(at 113.03 93.98 90)
+		(at 105.41 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4486,7 +4502,7 @@
 		(dnp no)
 		(uuid "c7c52f1a-e7e2-4695-a4d5-4c2f7127a1f4")
 		(property "Reference" "C132"
-			(at 116.84 93.98 90)
+			(at 109.22 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4511,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 116.84 96.52 90)
+			(at 109.22 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4520,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.03 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4529,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20160218/1457707763339.pdf"
-			(at 113.03 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4538,7 @@
 			)
 		)
 		(property "Description" "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
-			(at 113.03 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4547,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL10A105KB8NNNC"
-			(at 113.03 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4556,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 113.03 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4565,7 @@
 			)
 		)
 		(property "Supplier Part" "C15849"
-			(at 113.03 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4574,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 113.03 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +4583,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1uF ±10% 50V"
-			(at 113.03 93.98 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

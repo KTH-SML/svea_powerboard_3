@@ -4186,16 +4186,16 @@
 		(uuid "a3f102ed-be8f-43ab-b725-2a6e59883125")
 	)
 	(junction
-		(at 297.18 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4d5a595-7f3f-4503-99ae-d7ce725d9b13")
-	)
-	(junction
 		(at 184.15 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0442dc3-5e07-42ce-b1f8-3f44db0b984b")
+	)
+	(junction
+		(at 318.77 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b57150df-e687-4806-aaa1-1196a3e60922")
 	)
 	(junction
 		(at 111.76 90.17)
@@ -4397,7 +4397,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 107.95) (xy 297.18 109.22)
+			(xy 318.77 102.87) (xy 318.77 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4504,16 +4504,6 @@
 			(type default)
 		)
 		(uuid "2e332c11-181a-46a5-a30a-9509de39781d")
-	)
-	(wire
-		(pts
-			(xy 297.18 119.38) (xy 297.18 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f6933b8-ba78-4f21-817a-f671e7328b6e")
 	)
 	(wire
 		(pts
@@ -4767,6 +4757,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 123.19) (xy 342.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700a0bca-3226-417c-8fa1-4d97e4f6fe07")
+	)
+	(wire
+		(pts
 			(xy 283.21 97.79) (xy 283.21 106.68)
 		)
 		(stroke
@@ -4927,16 +4927,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 123.19) (xy 297.18 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8931b643-48ca-44c1-8829-8b5fb7caae3b")
-	)
-	(wire
-		(pts
 			(xy 205.74 105.41) (xy 201.93 105.41)
 		)
 		(stroke
@@ -5014,6 +5004,16 @@
 			(type default)
 		)
 		(uuid "951a856f-6a9d-4abb-b1ac-a2b88d0699b5")
+	)
+	(wire
+		(pts
+			(xy 318.77 116.84) (xy 318.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d13565-38c8-4b59-bf6b-606e7475db6d")
 	)
 	(wire
 		(pts
@@ -5427,6 +5427,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 123.19) (xy 318.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df37ad70-29bc-48fe-b53d-5fae64df942a")
+	)
+	(wire
+		(pts
 			(xy 54.61 44.45) (xy 198.12 44.45)
 		)
 		(stroke
@@ -5564,16 +5574,6 @@
 			(type default)
 		)
 		(uuid "f63bb970-b971-46ba-b40e-2320b3aa6a01")
-	)
-	(wire
-		(pts
-			(xy 297.18 123.19) (xy 300.99 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6934f96-973e-4d77-8d20-7dab53a3ad58")
 	)
 	(wire
 		(pts
@@ -5725,7 +5725,7 @@
 	)
 	(hierarchical_label "ALERT_PULLUP"
 		(shape input)
-		(at 297.18 107.95 90)
+		(at 318.77 102.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5824,7 +5824,7 @@
 	)
 	(hierarchical_label "ALERT"
 		(shape output)
-		(at 300.99 123.19 0)
+		(at 342.9 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8918,7 +8918,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:0603WAF1002T5E")
-		(at 297.18 114.3 90)
+		(at 318.77 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8926,7 +8926,7 @@
 		(dnp no)
 		(uuid "e3bf76ec-0d5c-4df9-9791-77662d6508e4")
 		(property "Reference" "R195"
-			(at 299.72 114.3 90)
+			(at 321.31 111.76 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -8935,7 +8935,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 299.72 116.84 90)
+			(at 321.31 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,7 +8944,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 297.18 114.3 0)
+			(at 318.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +8953,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html"
-			(at 297.18 114.3 0)
+			(at 318.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +8962,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 297.18 114.3 0)
+			(at 318.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +8971,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF1002T5E"
-			(at 297.18 114.3 0)
+			(at 318.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,7 +8980,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 297.18 114.3 0)
+			(at 318.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8989,7 +8989,7 @@
 			)
 		)
 		(property "Supplier Part" "C25804"
-			(at 297.18 114.3 0)
+			(at 318.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8998,7 +8998,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 297.18 114.3 0)
+			(at 318.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9007,7 +9007,7 @@
 			)
 		)
 		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 100mW"
-			(at 297.18 114.3 0)
+			(at 318.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
