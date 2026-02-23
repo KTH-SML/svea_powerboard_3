@@ -3719,132 +3719,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:Jumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -4637,16 +4511,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 172.72) (xy 184.15 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "349d9d5f-d0b7-4558-8bab-d42527f41224")
-	)
-	(wire
-		(pts
 			(xy 238.76 95.25) (xy 238.76 92.71)
 		)
 		(stroke
@@ -4754,16 +4618,6 @@
 			(type default)
 		)
 		(uuid "505a4907-2a95-4b5c-a9d1-1be1907217a6")
-	)
-	(wire
-		(pts
-			(xy 184.15 166.37) (xy 184.15 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507fae36-928e-4edb-a6dc-5fce358af134")
 	)
 	(wire
 		(pts
@@ -4927,6 +4781,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 166.37) (xy 184.15 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c6aac0-8ca7-407c-867d-5c532299e108")
+	)
+	(wire
+		(pts
 			(xy 78.74 133.35) (xy 78.74 137.16)
 		)
 		(stroke
@@ -5017,7 +4881,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 171.45) (xy 157.48 177.8)
+			(xy 157.48 165.1) (xy 157.48 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5294,16 +5158,6 @@
 			(type default)
 		)
 		(uuid "a9c13ac5-7666-4b4a-9648-9aa78c978d41")
-	)
-	(wire
-		(pts
-			(xy 157.48 165.1) (xy 157.48 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d5db78-d0b6-4afe-b83d-46815fbf4495")
 	)
 	(wire
 		(pts
@@ -7900,78 +7754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 184.15 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e4a1367-b1db-4cde-a955-a9d1b885460b")
-		(property "Reference" "NT27"
-			(at 185.42 168.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 185.42 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
-			(at 184.15 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 184.15 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d57fe9e-fb48-4fc2-ba60-4a0395c87f9b")
-		)
-		(pin "1"
-			(uuid "e4f668ce-d7cc-4e21-ad3f-6e77b6e2905e")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "NT27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:0603WAF1002T5E")
 		(at 288.29 80.01 0)
 		(unit 1)
@@ -9723,78 +9505,6 @@
 			(project "18_Battery-BMS"
 				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 157.48 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9218024-628b-4047-8c8c-60527db96470")
-		(property "Reference" "NT26"
-			(at 158.75 167.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 158.75 170.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
-			(at 157.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 157.48 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e0fad6f3-0998-4029-aae3-659d8c1d470b")
-		)
-		(pin "1"
-			(uuid "f83aa933-5c76-487b-a928-6402741290af")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "NT26")
 					(unit 1)
 				)
 			)
