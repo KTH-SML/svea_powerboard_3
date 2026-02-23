@@ -15922,26 +15922,6 @@
 			)
 		)
 	)
-	(global_label "USB-C{slash}HUSB238A{slash}INT"
-		(shape input)
-		(at 681.99 408.94 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "5b690c9d-6173-4eeb-9bc1-6c79854ea018")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 681.99 408.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_FAST"
 		(shape bidirectional)
 		(at 807.72 320.04 0)
@@ -16308,16 +16288,16 @@
 	)
 	(global_label "Button{slash}DIGITAL"
 		(shape input)
-		(at 732.79 488.95 0)
+		(at 681.99 408.94 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "84241a82-2e34-47ac-b871-7a3decb1a7ee")
+		(uuid "881b33f2-767b-4da2-a09b-65854f20c1cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 732.79 488.95 0)
+			(at 681.99 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17376,6 +17356,26 @@
 		(uuid "f8f646c6-e71a-4be3-875c-488f3d0f1baf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 650.24 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-C{slash}HUSB238A{slash}INT"
+		(shape input)
+		(at 732.79 488.95 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "fd3e47b8-0f65-4d29-aad1-a980f8bee77b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 732.79 488.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

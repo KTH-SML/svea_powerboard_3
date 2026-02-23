@@ -1,30 +1,137 @@
 (footprint "SEWF3920F1L00P9"
-  (version 20241229)
-  (generator "JLCImport")
-  (generator_version "1.0")
-  (layer "F.Cu")
-  (property "Reference" "REF**" (at 0 -3.6 0) (layer "F.SilkS") (uuid "be600440-9c17-49a0-bbdb-f1f452a2f2b7")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "Value" "~" (at 0 3.6 0) (layer "F.Fab") (uuid "135ef839-61bd-4449-a2b4-79be4182a33c")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "Datasheet" "https://item.szlcsc.com/836035.html" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "32ef29fb-5afd-4e11-ad31-84f4bd5a7af4")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "LCSC" "C5224161" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "ad58cffd-036a-45a6-9f0a-90bf4f191cf9")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (attr smd)
-  (fp_poly (pts (xy -6.096012 3.048006) (xy -6.096012 -3.048006) (xy -5.842012 -3.048006) (xy 6.096012 -3.048006) (xy 6.096012 -2.794006) (xy -5.842012 -2.794006) (xy -5.842012 3.048006) (xy -6.096012 3.048006)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (uuid "a0737995-9840-45b0-a561-cfaf254c053d"))
-  (fp_poly (pts (xy 6.096012 -3.048006) (xy 6.096012 3.048006) (xy 5.842012 3.048006) (xy 5.842012 -2.794006)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (uuid "7f1b5316-93f5-46bd-bfc3-600cac8a4043"))
-  (fp_poly (pts (xy 5.842012 3.048006) (xy -5.842012 3.048006) (xy -5.842012 2.794006) (xy 5.842012 2.794006)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (uuid "82b0ee24-52a5-45f7-b7f7-777281fc9f7e"))
-  (pad "1" smd rect (at -3.810008 0) (size 3.499873 5.2) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "0156b79e-f68b-4b30-b83a-db617c4e7c19"))
-  (pad "2" smd rect (at 3.810008 0) (size 3.499873 5.2) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "35e848a7-6f50-47e0-976e-11c1381e5ad9"))
-  (model "${KIPRJMOD}/JLCImport.3dshapes/SEWF3920F1L00P9.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (embedded_fonts no)
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "be600440-9c17-49a0-bbdb-f1f452a2f2b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "135ef839-61bd-4449-a2b4-79be4182a33c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/836035.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32ef29fb-5afd-4e11-ad31-84f4bd5a7af4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b274acf-945e-48e3-8f91-9da65698a058")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C5224161"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad58cffd-036a-45a6-9f0a-90bf4f191cf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 5.842012 3.048006) (xy -5.842012 3.048006) (xy -5.842012 2.794006) (xy 5.842012 2.794006)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "82b0ee24-52a5-45f7-b7f7-777281fc9f7e")
+	)
+	(fp_poly
+		(pts
+			(xy 6.096012 -3.048006) (xy 6.096012 3.048006) (xy 5.842012 3.048006) (xy 5.842012 -2.794006)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7f1b5316-93f5-46bd-bfc3-600cac8a4043")
+	)
+	(fp_poly
+		(pts
+			(xy -6.096012 3.048006) (xy -6.096012 -3.048006) (xy -5.842012 -3.048006) (xy 6.096012 -3.048006)
+			(xy 6.096012 -2.794006) (xy -5.842012 -2.794006) (xy -5.842012 3.048006) (xy -6.096012 3.048006)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a0737995-9840-45b0-a561-cfaf254c053d")
+	)
+	(fp_rect
+		(start -6 -3)
+		(end 6 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "95d943a3-33fc-4883-9a85-0015425f2594")
+	)
+	(pad "1" smd rect
+		(at -3.810008 0)
+		(size 3.499873 5.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0156b79e-f68b-4b30-b83a-db617c4e7c19")
+	)
+	(pad "2" smd rect
+		(at 3.810008 0)
+		(size 3.499873 5.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35e848a7-6f50-47e0-976e-11c1381e5ad9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/SEWF3920F1L00P9.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -4705,12 +4705,6 @@
 		(uuid "423efb77-b1a2-42d4-82fa-bc9225001d10")
 	)
 	(junction
-		(at 147.2946 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "496d8c39-eedf-4401-9188-9b4be43e06c9")
-	)
-	(junction
 		(at 146.05 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4946,6 +4940,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 92.71) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aad3ebc-790b-470f-ad9a-6579660878ff")
+	)
+	(wire
+		(pts
 			(xy 151.13 241.3) (xy 157.48 241.3)
 		)
 		(stroke
@@ -4993,16 +4997,6 @@
 			(type default)
 		)
 		(uuid "23c0f336-33c2-460c-8b9f-b0748a729b3b")
-	)
-	(wire
-		(pts
-			(xy 147.2946 92.71) (xy 147.32 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246ab8dd-3f7d-4769-b39b-d98f9c4901f7")
 	)
 	(wire
 		(pts
@@ -5126,16 +5120,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 157.48 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a3d981e-7329-402d-a911-8b58e580bde1")
-	)
-	(wire
-		(pts
 			(xy 203.2 88.9) (xy 203.2 92.71)
 		)
 		(stroke
@@ -5156,7 +5140,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 92.71) (xy 147.2946 92.71)
+			(xy 139.7 92.71) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7977,7 +7961,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:BAT46W-7-F")
-		(at 152.3746 92.71 180)
+		(at 152.4 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7985,7 +7969,7 @@
 		(dnp no)
 		(uuid "553cde12-5a20-4e45-bab9-c8356736ed1a")
 		(property "Reference" "D27"
-			(at 151.13 90.17 0)
+			(at 151.1554 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7978,7 @@
 			)
 		)
 		(property "Value" "BAT46W-7-F"
-			(at 146.05 97.79 0)
+			(at 146.0754 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +7987,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:SOD-123"
-			(at 152.3746 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +7996,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BAT46W-7-F/84316.html"
-			(at 152.3746 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +8005,7 @@
 			)
 		)
 		(property "Description" "Voltage - Forward(Vf@If):450mV@10mA Voltage - DC Reverse(Vr):100V Current - Rectified:150mA Reverse Leakage Current (Ir):2uA@75V Operating Junction Temperature Range:-55°C~+125°C Operating Junction Temperature Range:-55°C~+125°C Non-Repetitive Peak Forward Su"
-			(at 152.3746 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,7 +8014,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BAT46W-7-F"
-			(at 152.3746 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +8023,7 @@
 			)
 		)
 		(property "Manufacturer" "DIODES(美台)"
-			(at 152.3746 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8032,7 @@
 			)
 		)
 		(property "Supplier Part" "C83152"
-			(at 152.3746 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8041,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 152.3746 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8050,7 @@
 			)
 		)
 		(property "LCSC Part Name" "电压:100V 电流:150mA"
-			(at 152.3746 92.71 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
