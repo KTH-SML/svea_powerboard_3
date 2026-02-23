@@ -12084,16 +12084,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 381) (xy 153.67 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe863fc-803c-4e53-bf5a-cbfb17d5ab44")
-	)
-	(wire
-		(pts
 			(xy 152.4 60.96) (xy 157.48 60.96)
 		)
 		(stroke
@@ -12321,16 +12311,6 @@
 			(type default)
 		)
 		(uuid "3e7d3cc7-a97a-4182-bd51-c0d46fe83e6e")
-	)
-	(wire
-		(pts
-			(xy 153.67 389.89) (xy 153.67 392.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe2ac1a-2e38-423e-803c-e44d3190b51c")
 	)
 	(wire
 		(pts
@@ -12754,7 +12734,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.64 160.02) (xy 77.47 160.02)
+			(xy 33.02 160.02) (xy 77.47 160.02)
 		)
 		(stroke
 			(width 0)
@@ -14104,6 +14084,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 394.97) (xy 148.59 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07f3b10-2cdc-496e-83c5-af1713e027ec")
+	)
+	(wire
+		(pts
 			(xy 116.84 127) (xy 121.92 127)
 		)
 		(stroke
@@ -14731,6 +14721,16 @@
 			(type default)
 		)
 		(uuid "c6bcf155-373a-4fc1-bb46-a7661ef8caf3")
+	)
+	(wire
+		(pts
+			(xy 153.67 381) (xy 153.67 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f03a15-5858-46da-b1d1-9f75e8a35ca1")
 	)
 	(wire
 		(pts
@@ -23947,7 +23947,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 392.43 0)
+		(at 148.59 397.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23955,7 +23955,7 @@
 		(dnp no)
 		(uuid "62613bd0-7afe-44c1-95b1-c5fed2fd3270")
 		(property "Reference" "#PWR015"
-			(at 153.67 392.43 0)
+			(at 148.59 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23964,7 +23964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 398.78 0)
+			(at 148.59 403.86 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -23972,7 +23972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 392.43 0)
+			(at 148.59 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23981,7 +23981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 392.43 0)
+			(at 148.59 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23990,7 +23990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 392.43 0)
+			(at 148.59 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25101,7 +25101,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 153.67 387.35 270)
+		(at 148.59 392.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -25110,7 +25110,7 @@
 		(fields_autoplaced yes)
 		(uuid "71a29225-aa8b-4b7a-8000-33b4df983b2f")
 		(property "Reference" "NT3"
-			(at 152.4 388.6201 90)
+			(at 147.32 393.7001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25120,7 +25120,7 @@
 			)
 		)
 		(property "Value" "High Current Nettie"
-			(at 152.4 386.0801 90)
+			(at 147.32 391.1601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25130,7 +25130,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad7.0mm"
-			(at 153.67 387.35 0)
+			(at 148.59 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25139,7 +25139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 387.35 0)
+			(at 148.59 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25148,7 +25148,7 @@
 			)
 		)
 		(property "Description" "High current path for ESC, place close to bms mosfet"
-			(at 153.67 387.35 0)
+			(at 148.59 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28408,6 +28408,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 153.67 392.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b252680b-fe41-4560-84f5-641fd23d3e43")
+		(property "Reference" "#PWR064"
+			(at 153.67 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 153.543 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 153.67 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35438605-9483-422a-a3a0-ccf8fa4aa7cf")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 147.32 464.82 0)
@@ -28770,6 +28836,69 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "ONBOARD_5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:kaj")
+		(at 59.69 575.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b669347f-b130-4df2-a78e-68bf4eb6f222")
+		(property "Reference" "KAJFACE3"
+			(at 60.96 574.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 60.96 576.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:kaj"
+			(at 59.69 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "KAJFACE3")
 					(unit 1)
 				)
 			)
@@ -36498,7 +36627,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 157.48)
+		(at 18.89 157.48)
 		(size 14.13 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36513,7 +36642,7 @@
 		)
 		(uuid "a994f324-c6f3-4ed0-9a66-85e49eba80ab")
 		(property "Sheetname" "USB-C Input"
-			(at 16.51 164.592 0)
+			(at 18.89 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36522,7 +36651,7 @@
 			)
 		)
 		(property "Sheetfile" "../charging/23_Charging-USB-C-Port.kicad_sch"
-			(at 16.51 163.1446 0)
+			(at 18.89 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36532,7 +36661,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 30.64 160.02 0)
+			(at 33.02 160.02 0)
 			(uuid "54f05b6a-6932-40e7-a7c8-0899396dfc9e")
 			(effects
 				(font
