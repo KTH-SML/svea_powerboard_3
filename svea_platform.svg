@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">SVEA Platform Overview</title>
+  <desc id="desc">Diagram of the SVEA 1/10-scale autonomous vehicle platform with hardware modules and software stack.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f8fb"/>
+      <stop offset="100%" stop-color="#e8eef4"/>
+    </linearGradient>
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#374151"/>
+    </linearGradient>
+    <linearGradient id="hlGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+    <linearGradient id="llGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title { font: 700 52px "Avenir Next", "Segoe UI", sans-serif; fill: #0f172a; }
+      .subtitle { font: 500 24px "Avenir Next", "Segoe UI", sans-serif; fill: #334155; }
+      .label-title { font: 700 22px "Avenir Next", "Segoe UI", sans-serif; fill: #0f172a; }
+      .label-text { font: 500 17px "Avenir Next", "Segoe UI", sans-serif; fill: #1e293b; }
+      .box-title { font: 700 22px "Avenir Next", "Segoe UI", sans-serif; fill: #ffffff; }
+      .box-text { font: 500 17px "Avenir Next", "Segoe UI", sans-serif; fill: #e2e8f0; }
+      .small { font: 500 15px "Avenir Next", "Segoe UI", sans-serif; fill: #475569; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 16; }
+      .connector { stroke: #334155; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1400" height="900" fill="url(#bgGrad)"/>
+
+  <text x="80" y="90" class="title">SVEA Platform</text>
+  <text x="80" y="128" class="subtitle">1/10-scale autonomous vehicle architecture (TRX-4 based)</text>
+
+  <!-- Vehicle body -->
+  <g transform="translate(500,170)">
+    <rect x="0" y="65" width="420" height="500" rx="70" fill="url(#carGrad)" stroke="#0b1220" stroke-width="4"/>
+    <rect x="36" y="95" width="348" height="440" rx="54" fill="#111827" stroke="#4b5563" stroke-width="2"/>
+    <rect x="160" y="86" width="100" height="62" rx="14" fill="#0ea5e9" opacity="0.9"/>
+    <text x="210" y="125" text-anchor="middle" class="label-text" fill="#f8fafc">LiDAR</text>
+
+    <rect x="142" y="185" width="136" height="72" rx="14" fill="#14b8a6"/>
+    <text x="210" y="228" text-anchor="middle" class="label-text" fill="#f8fafc">Jetson TX2</text>
+
+    <rect x="70" y="290" width="126" height="64" rx="12" fill="#f97316"/>
+    <text x="133" y="329" text-anchor="middle" class="label-text" fill="#fff7ed">T265</text>
+
+    <rect x="224" y="290" width="126" height="64" rx="12" fill="#6366f1"/>
+    <text x="287" y="329" text-anchor="middle" class="label-text" fill="#eef2ff">4G Modem</text>
+
+    <rect x="96" y="385" width="228" height="74" rx="12" fill="#16a34a"/>
+    <text x="210" y="430" text-anchor="middle" class="label-text" fill="#f0fdf4">SVEA Power Board</text>
+
+    <circle cx="210" cy="505" r="18" fill="#94a3b8"/>
+    <text x="210" y="549" text-anchor="middle" class="small" fill="#cbd5e1">Steering + Drive Actuation</text>
+
+    <!-- Wheels -->
+    <rect x="-35" y="120" width="54" height="112" rx="16" fill="#0f172a"/>
+    <rect x="-35" y="395" width="54" height="112" rx="16" fill="#0f172a"/>
+    <rect x="401" y="120" width="54" height="112" rx="16" fill="#0f172a"/>
+    <rect x="401" y="395" width="54" height="112" rx="16" fill="#0f172a"/>
+  </g>
+
+  <!-- Left callouts -->
+  <rect class="card" x="70" y="210" width="330" height="115"/>
+  <text x="95" y="248" class="label-title">Sensor Layer</text>
+  <text x="95" y="276" class="label-text">Hokuyo LiDAR + Intel T265</text>
+  <text x="95" y="302" class="small">Perception and localization inputs</text>
+  <path class="connector" d="M400,268 C460,268 470,248 500,248"/>
+
+  <rect class="card" x="70" y="355" width="330" height="120"/>
+  <text x="95" y="393" class="label-title">Compute Layer</text>
+  <text x="95" y="421" class="label-text">NVIDIA Jetson TX2</text>
+  <text x="95" y="448" class="small">High-level autonomy and ROS stack</text>
+  <path class="connector" d="M400,410 C465,410 470,375 500,375"/>
+
+  <rect class="card" x="70" y="505" width="330" height="120"/>
+  <text x="95" y="543" class="label-title">Communication</text>
+  <text x="95" y="571" class="label-text">4G/V2X modem</text>
+  <text x="95" y="598" class="small">Remote supervision and coordination</text>
+  <path class="connector" d="M400,560 C458,560 470,500 500,500"/>
+
+  <!-- Right callouts -->
+  <rect class="card" x="980" y="250" width="330" height="125"/>
+  <text x="1005" y="288" class="label-title">Vehicle Base</text>
+  <text x="1005" y="316" class="label-text">Traxxas TRX-4 chassis</text>
+  <text x="1005" y="343" class="small">1/10-scale electric off-road platform</text>
+  <path class="connector" d="M980,320 C940,320 930,335 920,335"/>
+
+  <rect class="card" x="980" y="420" width="330" height="125"/>
+  <text x="1005" y="458" class="label-title">Low-Level Control</text>
+  <text x="1005" y="486" class="label-text">SVEA power/control board</text>
+  <text x="1005" y="513" class="small">Actuation, power paths, safety handling</text>
+  <path class="connector" d="M980,490 C942,490 930,560 920,560"/>
+
+  <!-- Architecture stack -->
+  <g transform="translate(250,680)">
+    <rect x="0" y="0" width="900" height="70" rx="14" fill="url(#hlGrad)"/>
+    <text x="24" y="43" class="box-title">High-Level (Autonomy)</text>
+    <text x="370" y="44" class="box-text">Planning, perception, localization, coordination</text>
+
+    <rect x="0" y="86" width="900" height="70" rx="14" fill="url(#llGrad)"/>
+    <text x="24" y="129" class="box-title">Low-Level (Embedded)</text>
+    <text x="370" y="130" class="box-text">Power management, steering/throttle, sensor IO</text>
+
+    <line x1="450" y1="70" x2="450" y2="86" stroke="#0f172a" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="520" y1="86" x2="520" y2="70" stroke="#0f172a" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+
+  <text x="80" y="860" class="small">SVEA: Scalable platform for research and education in autonomous driving and connected mobility.</text>
+</svg>

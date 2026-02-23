@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="700" viewBox="0 0 1800 700" role="img" aria-labelledby="title desc">
+  <title id="title">ITRL SVEA Wordmark</title>
+  <desc id="desc">Clean wordmark logo for ITRL SVEA with a motorsport-inspired forward lean and teal accent line.</desc>
+  <defs>
+    <style>
+      .itrl {
+        font-family: "Montserrat", "Avenir Next", "Segoe UI", sans-serif;
+        font-size: 96px;
+        font-weight: 700;
+        letter-spacing: 0.32em;
+        fill: #0F766E;
+      }
+      .svea {
+        font-family: "Montserrat", "Avenir Next", "Segoe UI", sans-serif;
+        font-size: 292px;
+        font-weight: 900;
+        letter-spacing: 0.02em;
+        fill: #0B1F33;
+      }
+    </style>
+  </defs>
+
+  <!-- top label -->
+  <text x="210" y="230" class="itrl">ITRL</text>
+
+  <!-- main wordmark -->
+  <g transform="translate(140,520) skewX(-10)">
+    <text x="0" y="0" class="svea">SVEA</text>
+  </g>
+
+  <!-- support accent (road/speed cue) -->
+  <path d="M210 560 C520 635, 1100 635, 1510 570"
+        fill="none" stroke="#0F766E" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="210" cy="560" r="16" fill="#0F766E"/>
+  <path d="M1510 570 L1560 550 L1542 602 Z" fill="#0F766E"/>
+
+  <!-- split accent between ITRL and SVEA -->
+  <rect x="650" y="150" width="12" height="98" rx="6" fill="#0F766E"/>
+</svg>
