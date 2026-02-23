@@ -10171,7 +10171,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 128.27) (xy 220.98 129.54)
+			(xy 220.98 128.27) (xy 220.98 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10318,6 +10318,16 @@
 			(type default)
 		)
 		(uuid "08b124c9-461d-448e-a05a-9971f1363089")
+	)
+	(wire
+		(pts
+			(xy 751.84 472.44) (xy 746.76 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0945b56d-351c-4cb7-9230-8600d39640cb")
 	)
 	(wire
 		(pts
@@ -12098,6 +12108,16 @@
 			(type default)
 		)
 		(uuid "62a8ea44-e2f6-4400-a126-68ca0a93c349")
+	)
+	(wire
+		(pts
+			(xy 736.6 472.44) (xy 730.25 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636198fc-4103-4bc3-920a-875b9eccc0bc")
 	)
 	(wire
 		(pts
@@ -19383,7 +19403,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 730.25 472.44 270)
+		(at 751.84 472.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19391,7 +19411,7 @@
 		(dnp no)
 		(uuid "2682806e-f734-4fe3-a048-4fd463addd2b")
 		(property "Reference" "#PWR0178"
-			(at 730.25 472.44 0)
+			(at 751.84 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19400,7 +19420,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 734.06 472.44 0)
+			(at 755.65 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19408,7 +19428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 730.25 472.44 0)
+			(at 751.84 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19417,7 +19437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 730.25 472.44 0)
+			(at 751.84 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19426,7 +19446,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 730.25 472.44 0)
+			(at 751.84 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25913,6 +25933,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 220.98 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a08e642b-1d84-4e4a-a8d9-a70128966e50")
+		(property "Reference" "#PWR030"
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 220.853 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 220.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4f64e31-e3b3-4a78-a18e-923170ebeff3")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 162.56 444.5 0)
 		(unit 1)
@@ -28637,6 +28723,121 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:0402WGF1002TCE")
+		(at 741.68 472.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca5c318b-4cb5-499c-8f05-1728a1bbf811")
+		(property "Reference" "R19"
+			(at 741.68 469.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 744.22 469.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 741.68 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/RC0201FR-0710KL/107440.html"
+			(at 741.68 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):50mW Voltage-Supply(Max):25V Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃"
+			(at 741.68 472.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RC0201FR-0710KL"
+			(at 741.68 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 741.68 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C106225"
+			(at 741.68 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 741.68 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "厚膜电阻 10kΩ ±1% 50mW"
+			(at 741.68 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "093c0456-4700-44d0-a6a2-44145155d98b")
+		)
+		(pin "1"
+			(uuid "55fa2d67-50af-4661-8aa1-203932afb308")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:XF-507P")
 		(at 90.17 21.59 0)
 		(unit 1)
@@ -29001,72 +29202,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 220.98 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d341ef7a-ef41-4f1a-b926-6a2ad3866f13")
-		(property "Reference" "#PWR030"
-			(at 220.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 135.89 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71b7f548-f924-42bf-b471-0be42bdacf04")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -34771,7 +34906,7 @@
 			)
 		)
 		(property "i2c" "0x23"
-			(at 739.902 471.932 0)
+			(at 758.952 471.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
