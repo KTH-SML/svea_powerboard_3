@@ -15048,6 +15048,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 167.64) (xy 77.47 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72c8d1f-a237-4952-a8c5-18599e7fc8b7")
+	)
+	(wire
+		(pts
 			(xy 681.99 411.48) (xy 685.8 411.48)
 		)
 		(stroke
@@ -15075,6 +15085,16 @@
 			(type default)
 		)
 		(uuid "b8f5a3e7-781b-4c74-8de3-f3d5f0796e2b")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b935fe7d-3902-4657-98cf-58fc32ec7932")
 	)
 	(wire
 		(pts
@@ -16678,7 +16698,7 @@
 	)
 	(global_label "Power{slash}DC20V-Diode{slash}EN#"
 		(shape input)
-		(at 77.47 127 180)
+		(at 72.39 127 180)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -16687,7 +16707,7 @@
 		)
 		(uuid "0276e9a7-4525-4a3c-a55c-5db46519c8cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 127 0)
+			(at 72.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17379,26 +17399,6 @@
 		(uuid "452aa713-abdb-4750-b1af-8ca5b4f15d13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 562.61 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA_FAST"
-		(shape bidirectional)
-		(at 648.97 125.73 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "45d668f2-96b0-4d43-a516-f324ffe9dc28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 648.97 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18951,7 +18951,7 @@
 	)
 	(global_label "Power{slash}USBC-Diode{slash}EN#"
 		(shape input)
-		(at 77.47 167.64 180)
+		(at 72.39 167.64 180)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -18960,7 +18960,7 @@
 		)
 		(uuid "d6dd9cde-f13a-43c4-b226-c5197a1c0857")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19145,26 +19145,6 @@
 		(uuid "f6163575-e2be-4e2b-9e0e-096429d86c2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 720.09 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL_FAST"
-		(shape bidirectional)
-		(at 650.24 129.54 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "f8f646c6-e71a-4be3-875c-488f3d0f1baf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 650.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35357,7 +35337,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/MISC_IO_CURR_SENSING_1.kicad_sch"
+		(property "Sheetfile" "MISC_IO_CURR_SENSING_1.kicad_sch"
 			(at 109.22 313.0046 0)
 			(effects
 				(font
@@ -35537,7 +35517,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/JST-VH-12V-PIN.kicad_sch"
+		(property "Sheetfile" "JST-VH-12V-PIN.kicad_sch"
 			(at 138.43 288.8746 0)
 			(effects
 				(font
@@ -35802,7 +35782,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/mt9700-efuse.kicad_sch"
+		(property "Sheetfile" "mt9700-efuse.kicad_sch"
 			(at 490.22 343.4846 0)
 			(effects
 				(font
@@ -35998,7 +35978,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../charging/4_Charging-Buck.kicad_sch"
+		(property "Sheetfile" "4_Charging-Buck.kicad_sch"
 			(at 185.42 132.6646 0)
 			(effects
 				(font
@@ -36070,7 +36050,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/MISC_IO_CURR_SENSING_1.kicad_sch"
+		(property "Sheetfile" "MISC_IO_CURR_SENSING_1.kicad_sch"
 			(at 125.73 244.4246 0)
 			(effects
 				(font
@@ -36560,7 +36540,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../power/12v_LTM8055_BUCK.kicad_sch"
+		(property "Sheetfile" "12v_LTM8055_BUCK.kicad_sch"
 			(at 313.69 226.6446 0)
 			(effects
 				(font
@@ -36633,7 +36613,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../power/28_Power-servo.kicad_sch"
+		(property "Sheetfile" "28_Power-servo.kicad_sch"
 			(at 397.51 316.8146 0)
 			(effects
 				(font
@@ -36725,7 +36705,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/INA226_SINGLE_CURR_SENSOR.kicad_sch"
+		(property "Sheetfile" "INA226_SINGLE_CURR_SENSOR.kicad_sch"
 			(at 574.04 216.4846 0)
 			(effects
 				(font
@@ -36845,7 +36825,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/JST-VH-12V-PIN.kicad_sch"
+		(property "Sheetfile" "JST-VH-12V-PIN.kicad_sch"
 			(at 157.48 288.8746 0)
 			(effects
 				(font
@@ -36927,7 +36907,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../mcu/25_Microcontroller-PWM-IC.kicad_sch"
+		(property "Sheetfile" "25_Microcontroller-PWM-IC.kicad_sch"
 			(at 600.71 332.0546 0)
 			(effects
 				(font
@@ -37248,7 +37228,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../battery/18_Battery-BMS.kicad_sch"
+		(property "Sheetfile" "18_Battery-BMS.kicad_sch"
 			(at 109.22 103.4546 0)
 			(effects
 				(font
@@ -37519,7 +37499,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../battery/19_Battery-Power.kicad_sch"
+		(property "Sheetfile" "19_Battery-Power.kicad_sch"
 			(at 157.48 80.5946 0)
 			(effects
 				(font
@@ -37672,7 +37652,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
 			(at 483.87 316.8146 0)
 			(effects
 				(font
@@ -37754,7 +37734,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/20_Connectors-ESC.kicad_sch"
+		(property "Sheetfile" "20_Connectors-ESC.kicad_sch"
 			(at 565.15 249.5046 0)
 			(effects
 				(font
@@ -37845,7 +37825,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
 			(at 184.15 178.3846 0)
 			(effects
 				(font
@@ -37928,7 +37908,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/mt9700-efuse.kicad_sch"
+		(property "Sheetfile" "mt9700-efuse.kicad_sch"
 			(at 496.57 108.5346 0)
 			(effects
 				(font
@@ -38010,7 +37990,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../charging/23_Charging-USB-C-Port.kicad_sch"
+		(property "Sheetfile" "23_Charging-USB-C-Port.kicad_sch"
 			(at 18.89 163.1446 0)
 			(effects
 				(font
@@ -38063,7 +38043,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
 			(at 77.47 131.3946 0)
 			(effects
 				(font
@@ -38145,7 +38125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/JST-VH-12V-PIN.kicad_sch"
+		(property "Sheetfile" "JST-VH-12V-PIN.kicad_sch"
 			(at 177.8 288.8746 0)
 			(effects
 				(font
@@ -38537,7 +38517,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../mcu/33_Microcontroller-leds.kicad_sch"
+		(property "Sheetfile" "33_Microcontroller-leds.kicad_sch"
 			(at 563.88 179.6546 0)
 			(effects
 				(font
@@ -38589,7 +38569,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../power/Power-3v3.kicad_sch"
+		(property "Sheetfile" "Power-3v3.kicad_sch"
 			(at 440.69 156.7946 0)
 			(effects
 				(font
@@ -38661,7 +38641,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
 			(at 184.15 207.5946 0)
 			(effects
 				(font
@@ -38744,7 +38724,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
 			(at 77.47 170.7646 0)
 			(effects
 				(font
@@ -38827,7 +38807,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../charging/highcurrendiodeor.kicad_sch"
+		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
 			(at 367.03 229.1846 0)
 			(effects
 				(font
@@ -38909,7 +38889,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../power/5vrail.kicad_sch"
+		(property "Sheetfile" "5vrail.kicad_sch"
 			(at 439.42 105.9946 0)
 			(effects
 				(font
@@ -38982,7 +38962,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/ServoConnectors.kicad_sch"
+		(property "Sheetfile" "ServoConnectors.kicad_sch"
 			(at 532.13 338.4046 0)
 			(effects
 				(font
@@ -39134,7 +39114,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../charging/TPS16630RGER_CHARGING_EFUSE.kicad_sch"
+		(property "Sheetfile" "TPS16630RGER_CHARGING_EFUSE.kicad_sch"
 			(at 121.92 130.1246 0)
 			(effects
 				(font
@@ -39216,7 +39196,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../connectors/INA226_SINGLE_CURR_SENSOR.kicad_sch"
+		(property "Sheetfile" "INA226_SINGLE_CURR_SENSOR.kicad_sch"
 			(at 496.57 295.2246 0)
 			(effects
 				(font
