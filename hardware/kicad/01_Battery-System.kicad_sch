@@ -11004,12 +11004,6 @@
 		(uuid "cb33121a-177d-425c-a5bf-e0cc26a92368")
 	)
 	(junction
-		(at 411.48 340.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cce9231b-3a32-40d9-9714-b158666c5da4")
-	)
-	(junction
 		(at 114.3 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13009,7 +13003,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 340.36) (xy 424.18 340.36)
+			(xy 393.7 340.36) (xy 424.18 340.36)
 		)
 		(stroke
 			(width 0)
@@ -14486,16 +14480,6 @@
 			(type default)
 		)
 		(uuid "abfb95c9-d2d3-4202-ad19-f2b37ad1b0eb")
-	)
-	(wire
-		(pts
-			(xy 393.7 340.36) (xy 411.48 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac7e1e2d-12a7-46ad-8990-46c354b37088")
 	)
 	(wire
 		(pts
@@ -19757,6 +19741,72 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 511.81 316.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bbd3066-00ea-40c6-b9f0-ca4a5351c29e")
+		(property "Reference" "#PWR0108"
+			(at 511.81 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 511.81 320.04 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 511.81 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 511.81 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 511.81 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe3f22e1-54c5-495b-9755-162706929247")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -28408,7 +28458,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:25YXJ1000M10X20")
-		(at 411.48 336.55 270)
+		(at 511.81 312.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28416,7 +28466,7 @@
 		(dnp no)
 		(uuid "a9c6c361-58d1-4fe7-a9f7-c2c2a249bbca")
 		(property "Reference" "C9"
-			(at 408.432 330.454 0)
+			(at 508.762 306.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28425,7 +28475,7 @@
 			)
 		)
 		(property "Value" "25YXJ1000M10X20"
-			(at 415.29 337.2131 90)
+			(at 515.62 313.0831 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28435,7 +28485,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:25YXJ1000M10X20"
-			(at 411.48 336.55 0)
+			(at 511.81 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28444,7 +28494,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/44833.html"
-			(at 411.48 336.55 0)
+			(at 511.81 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28453,7 +28503,7 @@
 			)
 		)
 		(property "Description" "1000uF 25V Aluminum Electrolytic Capacitors Through Hole,D10xL20mm 10000hrs@105℃"
-			(at 411.48 336.55 0)
+			(at 511.81 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28462,7 +28512,7 @@
 			)
 		)
 		(property "LCSC" "C88720"
-			(at 411.48 336.55 0)
+			(at 511.81 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28471,7 +28521,7 @@
 			)
 		)
 		(property "Manufacturer" "rubycon(红宝石)"
-			(at 411.48 336.55 0)
+			(at 511.81 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28480,7 +28530,7 @@
 			)
 		)
 		(property "Manufacturer Part" "25YXJ1000M10X20"
-			(at 411.48 336.55 0)
+			(at 511.81 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
