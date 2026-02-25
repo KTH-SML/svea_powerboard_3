@@ -606,16 +606,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 106.68) (xy 163.83 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "207234a1-77a0-4cba-a033-b64192e27f21")
-	)
-	(wire
-		(pts
 			(xy 113.03 81.28) (xy 151.13 81.28)
 		)
 		(stroke
@@ -663,6 +653,16 @@
 			(type default)
 		)
 		(uuid "8b8118c6-dfaf-47d5-a622-c9e01724f8eb")
+	)
+	(wire
+		(pts
+			(xy 187.96 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900d5ca7-ae9f-453a-a650-5b1fb85161ad")
 	)
 	(wire
 		(pts
@@ -734,6 +734,16 @@
 		)
 		(uuid "35acfe7f-384b-4dd7-ac72-d2cad41d7e46")
 	)
+	(label "SBUS Receiver"
+		(at 171.45 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4731e0f2-32e4-4120-8bb7-e6a1b6ab2624")
+	)
 	(label "RearDiff"
 		(at 168.91 78.74 0)
 		(effects
@@ -773,16 +783,6 @@
 			(justify left bottom)
 		)
 		(uuid "fbe76387-c2db-410f-81bb-613ada0bfd43")
-	)
-	(label "SBUS Receiver"
-		(at 171.45 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc979ab9-ea26-4ccf-aba5-bea0b53b9613")
 	)
 	(hierarchical_label "THROTTLE_DATA_(SERVO_0)"
 		(shape input)
@@ -828,6 +828,17 @@
 		)
 		(uuid "10dd035f-2175-4ede-a924-e6a616ebbff9")
 	)
+	(hierarchical_label "3v3_DATA"
+		(shape output)
+		(at 187.96 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "116bddbe-37a1-4655-84b8-61f1ac0d6565")
+	)
 	(hierarchical_label "SERVO1"
 		(shape input)
 		(at 127 91.44 180)
@@ -872,16 +883,16 @@
 		)
 		(uuid "33d7c8d4-2831-42fd-b853-7e8a843dd936")
 	)
-	(hierarchical_label "3v3_DATA"
-		(shape output)
-		(at 187.96 106.68 0)
+	(hierarchical_label "3v3"
+		(shape input)
+		(at 163.83 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3643d683-a85a-4c68-ac82-580e4bda96a3")
+		(uuid "3fb2dc1d-f747-49d6-ac5c-198227179411")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -937,17 +948,6 @@
 			(justify right)
 		)
 		(uuid "75879274-ef5a-4808-b6f3-7f41356dec7a")
-	)
-	(hierarchical_label "3v3"
-		(shape input)
-		(at 163.83 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8516f009-21f6-4fa7-bf50-62d058b41141")
 	)
 	(hierarchical_label "GND"
 		(shape input)
