@@ -2530,6 +2530,271 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3881,6 +4146,12 @@
 		(uuid "0ed7ffb1-5844-456a-97e4-fcb7783df38f")
 	)
 	(junction
+		(at 215.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15ce8aac-ca5a-46b5-8caa-3c652ec0f85f")
+	)
+	(junction
 		(at 93.98 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3929,12 +4200,6 @@
 		(uuid "6472a922-8c0d-4888-9f87-2f7b59a54dd1")
 	)
 	(junction
-		(at 215.9 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6553701a-6870-45af-9ec3-8116c82635e7")
-	)
-	(junction
 		(at 309.88 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3975,6 +4240,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbd6358d-e2c0-4e31-b95b-d608d92c4f17")
+	)
+	(junction
+		(at 199.39 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc2a77f5-6193-47b8-aadd-8170b027b3e8")
 	)
 	(junction
 		(at 104.14 100.33)
@@ -4210,6 +4481,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 158.75) (xy 199.39 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1deea4de-2fe0-4dfa-9a03-84e7ad5ba868")
+	)
+	(wire
+		(pts
 			(xy 77.47 134.62) (xy 77.47 105.41)
 		)
 		(stroke
@@ -4270,7 +4551,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 148.59) (xy 222.25 152.4)
+			(xy 222.25 148.59) (xy 222.25 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4611,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 80.01) (xy 214.63 80.01)
+			(xy 215.9 72.39) (xy 210.82 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4510,7 +4791,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 152.4) (xy 199.39 140.97)
+			(xy 199.39 170.18) (xy 199.39 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4527,26 +4808,6 @@
 			(type default)
 		)
 		(uuid "5a826aa1-23a2-41ec-b2b8-c4890f72a204")
-	)
-	(wire
-		(pts
-			(xy 228.6 80.01) (xy 231.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b724062-040d-4546-abfe-e0c594781ccb")
-	)
-	(wire
-		(pts
-			(xy 228.6 83.82) (xy 228.6 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d353a8e-f145-42f4-8e30-1cb574b89192")
 	)
 	(wire
 		(pts
@@ -4760,7 +5021,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 64.77) (xy 298.45 62.23)
+			(xy 298.45 64.77) (xy 298.45 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4850,7 +5111,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 125.73) (xy 215.9 80.01)
+			(xy 215.9 72.39) (xy 215.9 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4880,7 +5141,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 83.82) (xy 228.6 83.82)
+			(xy 210.82 80.01) (xy 231.14 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4980,6 +5241,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 158.75) (xy 222.25 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20b0cf2-74db-4779-ad52-287c02e2d1fe")
+	)
+	(wire
+		(pts
 			(xy 195.58 69.85) (xy 207.01 69.85)
 		)
 		(stroke
@@ -5017,16 +5288,6 @@
 			(type default)
 		)
 		(uuid "d3604926-4c7b-4a8f-9fb1-23c095765d40")
-	)
-	(wire
-		(pts
-			(xy 215.9 72.39) (xy 215.9 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3b63fd6-ed09-450a-8c59-ddfd88bb96ae")
 	)
 	(wire
 		(pts
@@ -5157,6 +5418,16 @@
 			(type default)
 		)
 		(uuid "f72488c5-c0c8-4d64-a864-8a83a0459a07")
+	)
+	(wire
+		(pts
+			(xy 199.39 160.02) (xy 199.39 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7999839-bff5-44d1-ae8f-6d4818170260")
 	)
 	(wire
 		(pts
@@ -5518,18 +5789,18 @@
 			)
 		)
 	)
-	(global_label "USB-C/HUSB238A/EN#"
+	(global_label "USB-C{slash}HUSB238A{slash}EN#"
 		(shape input)
-		(at 214.63 80.01 180)
+		(at 210.82 72.39 180)
 		(effects
 			(font
-				(size 1.5748 1.5748)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
 		(uuid "54fc01f8-a375-471a-8cca-c6485cfe2cdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 80.01 0)
+			(at 210.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,18 +5809,18 @@
 			)
 		)
 	)
-	(global_label "USB-C/HUSB238A/FAULT-OUT2"
+	(global_label "USB-C{slash}HUSB238A{slash}FAULT-OUT2"
 		(shape output)
-		(at 220.98 83.82 180)
+		(at 210.82 80.01 180)
 		(effects
 			(font
-				(size 1.5748 1.5748)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
 		(uuid "9d4bb24e-93e0-4ea1-a2de-ea8f4fdd06ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 83.82 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,6 +6836,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 298.45 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6662ed83-48b4-4520-9764-06f5f0f0890d")
+		(property "Reference" "C2001"
+			(at 302.26 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 302.26 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 299.4152 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 298.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c34e21b-01b5-4028-bba6-72248f1526ad")
+		)
+		(pin "1"
+			(uuid "cfd7d118-9e40-45b1-8c8c-5402c531b617")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a994f324-c6f3-4ed0-9a66-85e49eba80ab"
+					(reference "C2001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 144.78 90.17 0)
 		(unit 1)
@@ -6628,120 +6969,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a994f324-c6f3-4ed0-9a66-85e49eba80ab"
 					(reference "USBC_SCL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:CGA0603X5R105K500JT")
-		(at 298.45 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6922b941-830a-4fe8-8bdc-0c0717071599")
-		(property "Reference" "C77"
-			(at 300.99 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "1uF"
-			(at 300.99 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:C0603"
-			(at 298.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CGA0603X5R105K500JT/7062558.html"
-			(at 298.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X5R"
-			(at 298.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CGA0603X5R105K500JT"
-			(at 298.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "HRE(芯声)"
-			(at 298.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C6119852"
-			(at 298.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 298.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1uF ±10% 50V"
-			(at 298.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27dd7af9-38a7-4779-afd7-a94c2d7b567f")
-		)
-		(pin "2"
-			(uuid "87c10d94-7ac6-4313-b2e0-00a082d51487")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a994f324-c6f3-4ed0-9a66-85e49eba80ab"
-					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -7060,71 +7287,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85aee4b8-be4e-43b5-b84a-f0411322b002")
-		(property "Reference" "#PWR0124"
-			(at 222.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 158.75 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32f3e586-aa83-4c4e-9ab3-9eacac6fadd3")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a994f324-c6f3-4ed0-9a66-85e49eba80ab"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 298.45 40.64 180)
 		(unit 1)
@@ -7395,8 +7557,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 199.39 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0f3bdf3-f839-408a-aa02-9b4309a19a54")
+		(property "Reference" "NT2001"
+			(at 200.66 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 200.66 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+			(at 199.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 199.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ea2897a-e2cc-4184-82f3-28e8d94fdfeb")
+		)
+		(pin "2"
+			(uuid "a1eeb1cc-319e-4fbb-8eff-39fa03ad9cb3")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a994f324-c6f3-4ed0-9a66-85e49eba80ab"
+					(reference "NT2001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 199.39 152.4 0)
+		(at 199.39 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7404,7 +7638,7 @@
 		(dnp no)
 		(uuid "a3afa042-03d0-4972-979e-e07f4d192f3c")
 		(property "Reference" "#PWR0123"
-			(at 199.39 152.4 0)
+			(at 199.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,7 +7647,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 158.75 0)
+			(at 199.39 176.53 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -7421,7 +7655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 152.4 0)
+			(at 199.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 152.4 0)
+			(at 199.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 152.4 0)
+			(at 199.39 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
