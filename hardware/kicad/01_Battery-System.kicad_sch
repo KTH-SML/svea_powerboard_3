@@ -10523,7 +10523,7 @@
 	)
 	(text "Such low current consumption and likely wont even use\n"
 		(exclude_from_sim no)
-		(at 52.578 354.584 0)
+		(at 52.578 350.774 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10697,12 +10697,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4610982a-a961-400d-b3e1-2a7a379e67d9")
-	)
-	(junction
-		(at 88.9 381)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4901cfa9-c6e6-46a8-81a9-a070f3fb1468")
 	)
 	(junction
 		(at 704.85 50.8)
@@ -13158,16 +13152,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 381) (xy 88.9 381)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63214ddc-e00f-4f6a-8f44-e656e6917cec")
-	)
-	(wire
-		(pts
 			(xy 736.6 472.44) (xy 730.25 472.44)
 		)
 		(stroke
@@ -15388,7 +15372,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 365.76) (xy 60.96 364.49)
+			(xy 60.96 365.76) (xy 60.96 360.68)
 		)
 		(stroke
 			(width 0)
@@ -24043,7 +24027,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 60.96 364.49 0)
+		(at 60.96 360.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24051,7 +24035,7 @@
 		(dnp no)
 		(uuid "54a8fcad-28d1-4327-947c-c556fbaa5508")
 		(property "Reference" "#PWR03"
-			(at 60.96 364.49 0)
+			(at 60.96 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24060,7 +24044,7 @@
 			)
 		)
 		(property "Value" "servo_vcc_indicator"
-			(at 60.96 360.68 0)
+			(at 60.96 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24068,7 +24052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 364.49 0)
+			(at 60.96 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24077,7 +24061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 364.49 0)
+			(at 60.96 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24086,7 +24070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 60.96 364.49 0)
+			(at 60.96 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
