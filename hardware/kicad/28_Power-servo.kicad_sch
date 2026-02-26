@@ -30,7 +30,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -174,7 +174,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -318,7 +318,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -462,7 +462,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C1210"
 				(at 0 0 0)
 				(effects
 					(font
@@ -643,7 +643,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -787,7 +787,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -931,7 +931,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C1210"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2856,7 +2856,7 @@
 				)
 			)
 			(property "Value" "+3V3"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2972,7 +2972,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3006,7 +3006,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" ; analog ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4246,7 +4246,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "5v rail sm-easyedapro:C1210"
 			(at 307.34 92.71 0)
 			(effects
 				(font
@@ -4547,7 +4547,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -4556,7 +4556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF2002T5E/4591.html"
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -4565,7 +4565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Type:Thick Film Resistor Resistance:20kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -4574,7 +4574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0603WAF2002T5E"
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -4583,7 +4583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -4592,7 +4592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C4184"
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -4601,7 +4601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -4610,7 +4610,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "20kΩ ±1% 100mW 厚膜电阻"
 			(at 279.4 111.76 0)
 			(effects
 				(font
@@ -4662,7 +4662,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "5v rail sm-easyedapro:C1210"
 			(at 139.7 125.73 0)
 			(effects
 				(font
@@ -4777,7 +4777,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "5v rail sm-easyedapro:C1210"
 			(at 334.01 92.71 0)
 			(effects
 				(font
@@ -4900,7 +4900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 220.98 107.95 0)
 			(effects
 				(font
@@ -4909,7 +4909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 220.98 107.95 0)
 			(effects
 				(font
@@ -4977,7 +4977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 243.84 144.78 0)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "5v rail sm-easyedapro:C1210"
 			(at 166.37 125.73 0)
 			(effects
 				(font
@@ -5140,7 +5140,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0402"
 			(at 279.4 93.98 0)
 			(effects
 				(font
@@ -5158,7 +5158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
 			(at 279.4 93.98 0)
 			(effects
 				(font
@@ -5167,7 +5167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "FRC0402F1003TS"
 			(at 279.4 93.98 0)
 			(effects
 				(font
@@ -5176,7 +5176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FOJAN(富捷)"
 			(at 279.4 93.98 0)
 			(effects
 				(font
@@ -5185,7 +5185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C2906859"
 			(at 279.4 93.98 0)
 			(effects
 				(font
@@ -5194,7 +5194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 279.4 93.98 0)
 			(effects
 				(font
@@ -5203,7 +5203,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "100kΩ ±1% 62.5mW 厚膜电阻"
 			(at 279.4 93.98 0)
 			(effects
 				(font
@@ -5271,7 +5271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 44.45 132.08 0)
 			(effects
 				(font
@@ -5476,7 +5476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 279.4 137.16 0)
 			(effects
 				(font
@@ -5524,7 +5524,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -5533,7 +5533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF2672T5E/23650.html"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -5542,7 +5542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Type:Thick Film Resistor Resistance:26.7kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -5551,7 +5551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0603WAF2672T5E"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -5560,7 +5560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -5569,7 +5569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C22923"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -5578,7 +5578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -5587,7 +5587,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "26.7kΩ ±1% 100mW 厚膜电阻"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -5793,7 +5793,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -5802,7 +5802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF4702T5E/26562.html"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -5811,7 +5811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Type:Thick Film Resistor Resistance:47kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -5820,7 +5820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0603WAF4702T5E"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -5829,7 +5829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -5838,7 +5838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C25819"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -5847,7 +5847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -5856,7 +5856,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "47kΩ ±1% 100mW 厚膜电阻"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -5924,7 +5924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 115.57 127 0)
 			(effects
 				(font
@@ -5972,7 +5972,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 234.95 107.95 0)
 			(effects
 				(font
@@ -6087,7 +6087,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "5v rail sm-easyedapro:C1210"
 			(at 320.04 92.71 0)
 			(effects
 				(font
@@ -6218,7 +6218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 201.93 138.43 0)
 			(effects
 				(font
@@ -6266,7 +6266,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0402"
 			(at 115.57 110.49 0)
 			(effects
 				(font
@@ -6397,7 +6397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 157.48 63.5 0)
 			(effects
 				(font
@@ -6462,7 +6462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 92.71 128.27 0)
 			(effects
 				(font

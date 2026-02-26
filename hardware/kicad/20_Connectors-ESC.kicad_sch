@@ -30,7 +30,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -174,7 +174,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -560,7 +560,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -704,7 +704,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1009,7 +1009,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "5v rail sm-easyedapro:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2092,7 +2092,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2126,7 +2126,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" ; ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2922,7 +2922,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 121.92 157.48 0)
 			(effects
 				(font
@@ -3036,7 +3036,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "5v rail sm-easyedapro:C0805"
 			(at 58.42 106.68 0)
 			(effects
 				(font
@@ -3264,7 +3264,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "5v rail sm-easyedapro:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
 			(at 111.76 147.32 0)
 			(effects
 				(font
@@ -3381,7 +3381,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0402"
 			(at 80.01 99.06 0)
 			(effects
 				(font
@@ -3390,7 +3390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF1003TCE/26484.html"
 			(at 80.01 99.06 0)
 			(effects
 				(font
@@ -3399,7 +3399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
 			(at 80.01 99.06 0)
 			(effects
 				(font
@@ -3408,7 +3408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0402WGF1003TCE"
 			(at 80.01 99.06 0)
 			(effects
 				(font
@@ -3417,7 +3417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 80.01 99.06 0)
 			(effects
 				(font
@@ -3426,7 +3426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C25741"
 			(at 80.01 99.06 0)
 			(effects
 				(font
@@ -3435,7 +3435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 80.01 99.06 0)
 			(effects
 				(font
@@ -3444,7 +3444,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "100kΩ ±1% 62.5mW 厚膜电阻"
 			(at 80.01 99.06 0)
 			(effects
 				(font
@@ -3513,7 +3513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 116.84 168.91 0)
 			(effects
 				(font
@@ -3642,7 +3642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C43491.pdf"
+		(property "Datasheet" "https://item.szlcsc.com/301422.html"
 			(at 92.71 99.06 0)
 			(effects
 				(font
@@ -3651,7 +3651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE ZENER 12V 500mW SOD-123"
+		(property "Description" "1.25T-16PWB"
 			(at 92.71 99.06 0)
 			(effects
 				(font
@@ -3730,7 +3730,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:C0603"
 			(at 71.12 106.68 0)
 			(effects
 				(font

@@ -5,131 +5,6 @@
 	(uuid "3c345847-e292-4c99-a5e4-ff2934954752")
 	(paper "A4")
 	(lib_symbols
-		(symbol "+3V3_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:0603WAF191JT5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -151,7 +26,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -295,7 +170,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -439,7 +314,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -801,7 +676,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -945,7 +820,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1089,7 +964,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1233,7 +1108,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1377,7 +1252,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1521,7 +1396,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2703,7 +2578,7 @@
 				)
 			)
 			(property "Value" "+3V3"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2819,7 +2694,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2853,7 +2728,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" ; ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4171,7 +4046,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -4285,7 +4160,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 114.3 68.58 0)
 			(effects
 				(font
@@ -4496,7 +4371,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 114.3 55.88 0)
 			(effects
 				(font
@@ -4619,7 +4494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 160.02 124.46 0)
 			(effects
 				(font
@@ -4628,7 +4503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 160.02 124.46 0)
 			(effects
 				(font
@@ -4680,7 +4555,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -4811,7 +4686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 218.44 147.32 0)
 			(effects
 				(font
@@ -4859,7 +4734,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -4947,7 +4822,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
 		(at 118.11 116.84 0)
 		(unit 1)
@@ -5040,7 +4914,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:C0603"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -5154,7 +5028,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 218.44 123.19 0)
 			(effects
 				(font
@@ -5277,7 +5151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 66.04 148.59 0)
 			(effects
 				(font
@@ -5286,7 +5160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 66.04 148.59 0)
 			(effects
 				(font
@@ -5337,7 +5211,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:C0603"
 			(at 147.32 124.46 0)
 			(effects
 				(font
@@ -5468,7 +5342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power-5V"
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 218.44 116.84 0)
 			(effects
 				(font
@@ -5613,7 +5487,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 125.73 118.11 0)
 			(effects
 				(font
@@ -5841,7 +5715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 163.83 0)
 			(effects
 				(font
@@ -6021,7 +5895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 147.32 153.67 0)
 			(effects
 				(font
@@ -6269,7 +6143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 251.46 111.76 0)
 			(effects
 				(font
@@ -6317,7 +6191,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "5v rail sm-easyedapro:R0603"
 			(at 218.44 140.97 0)
 			(effects
 				(font
