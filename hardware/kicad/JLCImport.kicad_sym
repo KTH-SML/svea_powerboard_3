@@ -6080,7 +6080,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 78.2002 0)
+			(at 0 7.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6088,7 @@
 			)
 		)
 		(property "Value" "RVT1H680M0607"
-			(at 0 74.2002 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6152,7 @@
 		(symbol "RVT1H680M0607_0_1"
 			(polyline
 				(pts
-					(xy -100.3302 76.2002) (xy -98.2982 76.2002)
+					(xy -2.5402 0.0002) (xy -0.5082 0.0002)
 				)
 				(stroke
 					(width 0.254)
@@ -6164,7 +6164,7 @@
 			)
 			(polyline
 				(pts
-					(xy -100.0762 77.4702) (xy -99.0602 77.4702)
+					(xy -2.2862 1.2702) (xy -1.2702 1.2702)
 				)
 				(stroke
 					(width 0.254)
@@ -6176,7 +6176,7 @@
 			)
 			(polyline
 				(pts
-					(xy -99.5682 77.9782) (xy -99.5682 76.9622)
+					(xy -1.7782 1.7782) (xy -1.7782 0.7622)
 				)
 				(stroke
 					(width 0.254)
@@ -6188,7 +6188,7 @@
 			)
 			(polyline
 				(pts
-					(xy -98.2982 77.9782) (xy -98.2982 74.4221)
+					(xy -0.5082 1.7782) (xy -0.5082 -1.7779)
 				)
 				(stroke
 					(width 0.254)
@@ -6200,7 +6200,7 @@
 			)
 			(polyline
 				(pts
-					(xy -97.2822 76.2002) (xy -95.2502 76.2002)
+					(xy 0.5078 0.0002) (xy 2.5398 0.0002)
 				)
 				(stroke
 					(width 0.254)
@@ -6211,9 +6211,9 @@
 				)
 			)
 			(arc
-				(start -96.6624 74.4475)
-				(mid -97.3684 76.2213)
-				(end -96.6396 77.9858)
+				(start 1.1276 -1.7525)
+				(mid 0.4216 0.0213)
+				(end 1.1504 1.7858)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -6222,10 +6222,12 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -102.8702 76.2002 0)
+		)
+		(symbol "RVT1H680M0607_1_1"
+			(pin passive line
+				(at -5.0802 0.0002 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6240,8 +6242,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -92.7102 76.2002 180)
+			(pin passive line
+				(at 5.0798 0.0002 180)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -11786,4 +11788,64 @@
 		)
 		(embedded_fonts no)
 	)
+  (symbol "UWT1H221MNL1GS"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "C" (at 0 7.08001 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "UWT1H221MNL1GS" (at 0 -7.08001 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JLCImport:UWT1H221MNL1GS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170630/1498816639192.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "贴片电解电容 220uF 50V" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C125977" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nichicon(尼吉康)" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "UWT1H221MNL1GS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "UWT1H221MNL1GS_0_1"
+      (rectangle (start -2.540005 1.524003) (end -1.524003 1.498603)
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (rectangle (start -2.032004 2.032004) (end -2.006604 1.016002)
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (polyline
+        (pts (xy -2.540005 0.762002) (xy 2.540005 0.762002))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (arc (start 2.540005 -1.016002) (mid 1.333552 -0.423169) (end 0 -0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (arc (start 0 -0.254001) (mid -1.332695 -0.426026) (end -2.540005 -1.016002)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (pin unspecified line (at 0 5.08001 270) (length 4.318009)
+        (name "1" (effects (font (size 1.27 1.27)) hide))
+        (number "1" (effects (font (size 1.27 1.27)) hide))
+      )
+      (pin unspecified line (at 0 -5.08001 90) (length 4.82601)
+        (name "2" (effects (font (size 1.27 1.27)) hide))
+        (number "2" (effects (font (size 1.27 1.27)) hide))
+      )
+    )
+  )
 )
