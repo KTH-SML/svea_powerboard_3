@@ -471,10 +471,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text "Add jumper to use esc supply"
+	(text "Add jumper to use esc supply\n\nnot included due to space and can just solder em together if needed"
 		(exclude_from_sim no)
-		(at 88.9 99.314 0)
+		(at 62.992 106.172 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -483,15 +633,47 @@
 		)
 		(uuid "68b746ba-c921-4d17-82d9-1629559de358")
 	)
+	(junction
+		(at 99.06 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fe34694-5807-410d-afd8-5408c44e918d")
+	)
+	(junction
+		(at 99.06 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8573d91b-d9d7-4367-b35e-c5b05d2e7a27")
+	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 119.38 86.36)
+			(xy 93.98 76.2) (xy 99.06 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "112d6b3c-7344-4309-9b19-b60d6e6d5e48")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 90.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3cbd4a-6203-405c-ad6b-1d3272a3ec7f")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 151.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a9c94a-1a3d-470f-b085-cce0c190972a")
 	)
 	(wire
 		(pts
@@ -515,6 +697,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 87.63) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c253bcf-c599-476a-a207-ce3258263567")
+	)
+	(wire
+		(pts
+			(xy 99.06 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d993d6-ce90-4d34-9767-1f2fa015c41a")
+	)
+	(wire
+		(pts
 			(xy 180.34 78.74) (xy 163.83 78.74)
 		)
 		(stroke
@@ -525,7 +727,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 151.13 88.9)
+			(xy 90.17 88.9) (xy 99.06 88.9)
 		)
 		(stroke
 			(width 0)
@@ -575,6 +777,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 76.2) (xy 99.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf0a624-443f-449c-90ec-5b8ec9da96b5")
+	)
+	(wire
+		(pts
 			(xy 179.07 86.36) (xy 163.83 86.36)
 		)
 		(stroke
@@ -582,6 +794,16 @@
 			(type default)
 		)
 		(uuid "c5ba4fb6-0003-4dc3-9a9a-5cf917b01164")
+	)
+	(wire
+		(pts
+			(xy 93.98 76.2) (xy 93.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb738524-14af-4415-b201-31962a0f2f3b")
 	)
 	(label "Gear"
 		(at 134.62 109.22 0)
@@ -753,7 +975,7 @@
 	)
 	(hierarchical_label "servo_vcc"
 		(shape input)
-		(at 119.38 86.36 0)
+		(at 109.22 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -928,6 +1150,78 @@
 		(uuid "fdd6309f-00f3-4960-b2a1-80cf2fdf10f2")
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 99.06 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "827f58b8-5f4a-49a6-ab37-fbbe9dd593c9")
+		(property "Reference" "JP2101"
+			(at 100.33 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 100.33 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Jumper:Jumper_2_NO"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f72dd87-bf45-4bd9-bed8-959f05922de8")
+		)
+		(pin "2"
+			(uuid "dfbdddcb-e658-4661-81b6-358efcc151d0")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
+					(reference "JP2101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:TSW-104-08-T-T-RA")
 		(at 157.48 85.09 0)
 		(unit 1)
@@ -1018,6 +1312,42 @@
 			)
 		)
 		(property "LCSC Part Name" "间距:2.54mm 方针 弯插"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "port2" "sbus"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "port5" "throttle"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "port8" "Fdiff"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "port11" "Rdiff"
 			(at 157.48 85.09 0)
 			(effects
 				(font
@@ -1170,6 +1500,42 @@
 				(hide yes)
 			)
 		)
+		(property "port2" "gear"
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "port5" "xtr1"
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "port8" "xtr2"
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "port11" "steer"
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "544a790b-cb78-4cba-9d79-304fad049170")
 		)
@@ -1217,15 +1583,15 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:PZ254V-11-02P")
-		(at 107.95 87.63 180)
+		(at 85.09 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f9d6ceb9-c8dc-430b-bdd9-18b29daacf06")
 		(property "Reference" "ESC-6V1"
-			(at 104.14 91.44 90)
+			(at 81.28 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1600,7 @@
 			)
 		)
 		(property "Value" "PZ254V-11-02P"
-			(at 105.41 93.98 0)
+			(at 82.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1610,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 107.95 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1619,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html"
-			(at 107.95 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1628,7 @@
 			)
 		)
 		(property "Description" "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connect"
-			(at 107.95 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1637,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PZ254V-11-02P"
-			(at 107.95 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1646,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN(兴飞)"
-			(at 107.95 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1655,7 @@
 			)
 		)
 		(property "Supplier Part" "C492401"
-			(at 107.95 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1664,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 107.95 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1673,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x2P 间距:2.54mm 方针 直插"
-			(at 107.95 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
