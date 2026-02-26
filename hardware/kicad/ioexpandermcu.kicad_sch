@@ -1031,19 +1031,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:RS-03K47R0FT"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 0 0)
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "47Ω"
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1052,7 +1075,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "5v rail sm-easyedapro:R0603"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1061,7 +1084,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1070,7 +1093,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
+			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1079,95 +1102,52 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "RS-03K47R0FT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "FH(风华)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C140087"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RS-03K47R0FT_1_0"
+			(symbol "R_0_1"
 				(rectangle
-					(start -2.54 -1.016)
-					(end 2.54 1.016)
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
-								(size 0.0254 0.0254)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0.0254 0.0254)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
-								(size 0.0254 0.0254)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 0.0254 0.0254)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2308,6 +2288,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 104.14) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001b361f-e70b-4203-b370-338853cc11fa")
+	)
+	(wire
+		(pts
 			(xy 170.18 109.22) (xy 152.4 109.22)
 		)
 		(stroke
@@ -2315,16 +2305,6 @@
 			(type default)
 		)
 		(uuid "00825f5d-5a19-4b3f-aa3d-44f63144a4e5")
-	)
-	(wire
-		(pts
-			(xy 152.4 101.6) (xy 149.86 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01682290-1fb9-4328-a3d4-ed04227680eb")
 	)
 	(wire
 		(pts
@@ -2338,7 +2318,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 99.06) (xy 93.98 99.06)
+			(xy 102.87 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ff4fa7-9ea9-47e1-b8c8-08492a8ce144")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 95.25 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2348,23 +2338,33 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 111.76) (xy 149.86 111.76)
+			(xy 148.59 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a7421ac-bb9d-4965-a23e-f9514c5e2a6d")
+		(uuid "09b3b897-4340-4e4d-bd3a-4826395ce6ac")
 	)
 	(wire
 		(pts
-			(xy 74.93 91.44) (xy 93.98 91.44)
+			(xy 74.93 91.44) (xy 95.25 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b4ea320-8b66-43df-8211-d01656ccdef3")
+	)
+	(wire
+		(pts
+			(xy 102.87 109.22) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8271cd-6cf4-4b69-97c3-60e0fd2dd1a2")
 	)
 	(wire
 		(pts
@@ -2378,6 +2378,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 99.06) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1079a543-9e14-4c06-bf34-58b8ab04a2bb")
+	)
+	(wire
+		(pts
 			(xy 170.18 99.06) (xy 152.4 99.06)
 		)
 		(stroke
@@ -2385,6 +2395,16 @@
 			(type default)
 		)
 		(uuid "121eb8bd-1a3b-4e17-8233-9369e62625bf")
+	)
+	(wire
+		(pts
+			(xy 102.87 99.06) (xy 104.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1562e535-b0a3-48cf-8e3f-5bc3cfe34e29")
 	)
 	(wire
 		(pts
@@ -2398,17 +2418,37 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 149.86 106.68)
+			(xy 102.87 88.9) (xy 104.14 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "219b16c8-070a-4595-960a-aed344d4d5f3")
+		(uuid "28f10ba5-7f68-4828-903c-b07a275cfaf8")
 	)
 	(wire
 		(pts
-			(xy 74.93 93.98) (xy 93.98 93.98)
+			(xy 140.97 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7cc53b-8d9e-4966-8659-787b0ad6b212")
+	)
+	(wire
+		(pts
+			(xy 140.97 109.22) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfddaef-ae14-42c1-a203-1b1ec6bbfcba")
+	)
+	(wire
+		(pts
+			(xy 74.93 93.98) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2438,13 +2478,43 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 99.06) (xy 149.86 99.06)
+			(xy 102.87 86.36) (xy 104.14 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45f38be4-6640-4d06-adc2-e07bd0e9dfc4")
+		(uuid "3cfeeeed-d61b-4b01-97e3-f388b11348d8")
+	)
+	(wire
+		(pts
+			(xy 102.87 96.52) (xy 104.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d16943b-3192-487f-9639-4a32c2030d17")
+	)
+	(wire
+		(pts
+			(xy 140.97 106.68) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4528abce-12d5-4e0d-9f09-e60688e6aabd")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46287404-6ea7-4737-94d4-a67fdaf1a733")
 	)
 	(wire
 		(pts
@@ -2488,6 +2558,26 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d318bfd-3438-4e65-9811-8201b58d7909")
+	)
+	(wire
+		(pts
+			(xy 102.87 106.68) (xy 104.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d64a851-6757-468c-8bde-25b7bcf9ea1c")
+	)
+	(wire
+		(pts
 			(xy 157.48 86.36) (xy 154.94 86.36)
 		)
 		(stroke
@@ -2508,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 88.9) (xy 93.98 88.9)
+			(xy 74.93 88.9) (xy 95.25 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2608,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 109.22) (xy 93.98 109.22)
+			(xy 140.97 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c30ad1-b089-4ae9-8c2d-0c5b1498be45")
+	)
+	(wire
+		(pts
+			(xy 74.93 109.22) (xy 95.25 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2548,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 114.3) (xy 93.98 114.3)
+			(xy 74.93 114.3) (xy 95.25 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2558,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 104.14) (xy 93.98 104.14)
+			(xy 74.93 104.14) (xy 95.25 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2575,6 +2675,26 @@
 			(type default)
 		)
 		(uuid "652dc0d0-3f50-4e0c-b13c-c909b19f614f")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6826f8e6-0624-479e-af8a-d30bbf595c95")
+	)
+	(wire
+		(pts
+			(xy 102.87 114.3) (xy 104.14 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69bdbea0-e9af-43c6-934f-35bb19ed624a")
 	)
 	(wire
 		(pts
@@ -2598,6 +2718,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 116.84) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75988a7b-1ed5-4a41-a61f-3690c561a32e")
+	)
+	(wire
+		(pts
 			(xy 170.18 104.14) (xy 152.4 104.14)
 		)
 		(stroke
@@ -2618,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 101.6) (xy 93.98 101.6)
+			(xy 74.93 101.6) (xy 95.25 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2638,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 96.52) (xy 93.98 96.52)
+			(xy 74.93 96.52) (xy 95.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2718,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 78.74) (xy 93.98 78.74)
+			(xy 74.93 78.74) (xy 95.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2738,23 +2868,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 152.4 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d3c97f6-409d-436e-8242-614a9a3d3372")
-	)
-	(wire
-		(pts
-			(xy 74.93 116.84) (xy 93.98 116.84)
+			(xy 74.93 116.84) (xy 95.25 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d65d30c-0553-4d6b-9dc4-bc59aebe1b4c")
+	)
+	(wire
+		(pts
+			(xy 102.87 78.74) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a565216a-84f4-4271-a585-0fc955ee4ea1")
 	)
 	(wire
 		(pts
@@ -2788,7 +2918,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 111.76) (xy 93.98 111.76)
+			(xy 148.59 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca3e0e0-09be-43e4-af52-b6fec1600bab")
+	)
+	(wire
+		(pts
+			(xy 74.93 111.76) (xy 95.25 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2805,6 +2945,16 @@
 			(type default)
 		)
 		(uuid "af2c88bc-51b5-41ec-aa10-4e89bb118244")
+	)
+	(wire
+		(pts
+			(xy 102.87 81.28) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5e3e46-c9aa-46d3-aba7-29e1a4087771")
 	)
 	(wire
 		(pts
@@ -2825,6 +2975,16 @@
 			(type default)
 		)
 		(uuid "b654dbcf-17cf-47b9-b397-6c107ca138fa")
+	)
+	(wire
+		(pts
+			(xy 148.59 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66176d3-92f1-4491-b7f5-0e42b121dbda")
 	)
 	(wire
 		(pts
@@ -2898,13 +3058,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 104.14) (xy 149.86 104.14)
+			(xy 148.59 106.68) (xy 152.4 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1486d4f-d386-401c-82a6-8f6e4fd8011d")
+		(uuid "c18416d4-3cea-4fec-9997-ec45aa12c19e")
 	)
 	(wire
 		(pts
@@ -2948,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 93.98 83.82)
+			(xy 74.93 83.82) (xy 95.25 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2978,6 +3138,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 101.6) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16aa0c5-1417-405f-9421-1430797ddf9c")
+	)
+	(wire
+		(pts
 			(xy 66.04 104.14) (xy 74.93 104.14)
 		)
 		(stroke
@@ -2985,6 +3155,16 @@
 			(type default)
 		)
 		(uuid "d2034808-70b8-4b31-97dd-ccae265dd274")
+	)
+	(wire
+		(pts
+			(xy 102.87 116.84) (xy 104.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2816dd2-03ca-4fed-b3f2-1509d63812aa")
 	)
 	(wire
 		(pts
@@ -2998,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 86.36) (xy 93.98 86.36)
+			(xy 74.93 86.36) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3018,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 81.28) (xy 93.98 81.28)
+			(xy 74.93 81.28) (xy 95.25 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3035,6 +3215,16 @@
 			(type default)
 		)
 		(uuid "e1f4eb08-6900-4be9-9cf4-4565a8fd0e48")
+	)
+	(wire
+		(pts
+			(xy 102.87 93.98) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e379544c-aada-4962-8d7e-a7edded02bf4")
 	)
 	(wire
 		(pts
@@ -3058,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 106.68) (xy 93.98 106.68)
+			(xy 74.93 106.68) (xy 95.25 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3068,23 +3258,53 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 149.86 109.22)
+			(xy 148.59 109.22) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9ceb6b6-17af-4f5a-b87d-8a347c2e3076")
+		(uuid "eaec9ec3-439b-4cfa-9db1-718743539bdc")
 	)
 	(wire
 		(pts
-			(xy 149.86 116.84) (xy 152.4 116.84)
+			(xy 102.87 111.76) (xy 104.14 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa1a46e-5313-4799-a560-500125f37f00")
+	)
+	(wire
+		(pts
+			(xy 140.97 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88fb0d7-113d-493b-87f1-c03032ed4f16")
+	)
+	(wire
+		(pts
+			(xy 148.59 116.84) (xy 152.4 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f9f177bb-5f28-475a-9cb1-45f7f8beaa61")
+	)
+	(wire
+		(pts
+			(xy 148.59 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5dcf73-fd73-4ece-af8d-ced7086871f5")
 	)
 	(global_label "SDA_FAST"
 		(shape bidirectional)
@@ -3453,45 +3673,37 @@
 		(uuid "fc474de3-a3be-46d4-9ecb-9d00f3ca036d")
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 96.52 0)
+		(lib_id "Device:R")
+		(at 144.78 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00b15421-5c7a-40c5-8719-8e2fef1ec579")
-		(property "Reference" "R323"
-			(at 96.52 100.33 0)
+		(fields_autoplaced yes)
+		(uuid "0845741e-64a6-4887-b115-3a4f7f6eee79")
+		(property "Reference" "R324"
+			(at 143.5099 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 102.87 0)
+			(at 146.0499 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 96.52 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,8 +3711,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 96.52 0)
+		(property "Datasheet" "~"
+			(at 144.78 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,110 +3720,66 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 96.52 0)
+		(property "Description" "Resistor"
+			(at 144.78 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53edff19-ce58-413d-836c-24518f4c970b")
 		)
 		(pin "2"
-			(uuid "f59ef58a-7afb-4976-8ade-d102b161f4f5")
+			(uuid "659cc11d-2f07-4c95-97c5-27f2e52713ce")
+		)
+		(pin "1"
+			(uuid "c15b913d-d763-452f-9d78-1a35264a3adb")
 		)
 		(instances
-			(project "svea_powerboard_rev3"
+			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3423")
+					(reference "R3424")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R323")
+					(reference "R324")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 78.74 0)
+		(lib_id "Device:R")
+		(at 144.78 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0b103c06-243b-42cf-97bd-b1841157b1b7")
-		(property "Reference" "R316"
-			(at 96.52 82.55 0)
+		(fields_autoplaced yes)
+		(uuid "0caf8b6c-349e-4de6-9fd8-9cb33d55208f")
+		(property "Reference" "R303"
+			(at 143.5099 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 85.09 0)
+			(at 146.0499 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 78.74 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,8 +3787,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 78.74 0)
+		(property "Datasheet" "~"
+			(at 144.78 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,350 +3796,66 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 78.74 0)
+		(property "Description" "Resistor"
+			(at 144.78 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2dd1058-3286-4405-a994-e41f77615906")
 		)
 		(pin "2"
-			(uuid "0d95939a-762c-445b-8b3e-e6e6bda20641")
+			(uuid "795bc337-4b5e-4c39-b5db-b60d31ec19b4")
+		)
+		(pin "1"
+			(uuid "a4a1a1a4-07c1-457c-9d57-8a718482e157")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3416")
+					(reference "R3403")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R316")
+					(reference "R303")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 91.44 0)
+		(lib_id "Device:R")
+		(at 99.06 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "140d4dfe-966f-4a99-af4d-431cf7d77559")
-		(property "Reference" "R321"
-			(at 96.52 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 96.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ce83d98-8415-4064-bd47-c758d7718338")
-		)
-		(pin "2"
-			(uuid "03c1c7fd-dc58-47d3-95fd-533f44aab570")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3421")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R321")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19c6a12e-ff29-4c7f-9695-fe375a367392")
-		(property "Reference" "R309"
-			(at 96.52 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 96.52 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a7cc8a4-cabe-4355-8e18-c24d09cc1dfb")
-		)
-		(pin "2"
-			(uuid "8ace1c5b-bb6c-4618-a279-62f1b3280fb2")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3409")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a22c059-d5ba-4f0f-8cab-46283fdf4df3")
+		(fields_autoplaced yes)
+		(uuid "1010c1bc-e024-46ba-99ed-71d86d6e8bc9")
 		(property "Reference" "R308"
-			(at 96.52 102.87 0)
+			(at 100.3301 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 105.41 0)
+			(at 97.7901 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 99.06 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,8 +3863,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 99.06 0)
+		(property "Datasheet" "~"
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,56 +3872,20 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 99.06 0)
+		(property "Description" "Resistor"
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28b8a365-ef2a-4771-a05e-159308590b1b")
 		)
 		(pin "2"
-			(uuid "06101b7e-e229-47ea-a7b1-0dfa191c07e4")
+			(uuid "abfec491-069b-44cd-8f11-d0d2ec1a173a")
+		)
+		(pin "1"
+			(uuid "827364db-a41a-4eed-a513-d2ec53360a29")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
@@ -4053,45 +3901,37 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 104.14 0)
+		(lib_id "Device:R")
+		(at 99.06 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "218f8e1e-45ad-4f67-8239-bb29ef58ef47")
-		(property "Reference" "R310"
-			(at 96.52 107.95 0)
+		(fields_autoplaced yes)
+		(uuid "1ee09d97-0bc7-402f-9ce0-8b5b18842413")
+		(property "Reference" "R315"
+			(at 100.3301 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 110.49 0)
+			(at 97.7901 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 104.14 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,8 +3939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 104.14 0)
+		(property "Datasheet" "~"
+			(at 99.06 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,185 +3948,29 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 104.14 0)
+		(property "Description" "Resistor"
+			(at 99.06 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2cc22e8-dcfd-4b3a-8e31-6b87d8a1c8c5")
 		)
 		(pin "2"
-			(uuid "78d9ce00-f420-4d64-8649-81a1b1a4b7d4")
+			(uuid "a3c55514-7ef9-4818-8bbf-dd9c07a42cf2")
+		)
+		(pin "1"
+			(uuid "2de130f3-ca39-4d65-9de4-98a0f5758353")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3410")
+					(reference "R3415")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 144.78 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2cd22c87-d2b3-4a40-ab52-f49bc0d7f9cc")
-		(property "Reference" "R302"
-			(at 142.24 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 142.24 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc829214-5aec-4f4b-92fb-358b00de7b1a")
-		)
-		(pin "2"
-			(uuid "9c4c4208-6bef-4422-a0fc-dec44c1732cb")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3402")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R302")
+					(reference "R315")
 					(unit 1)
 				)
 			)
@@ -4531,45 +4215,37 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 114.3 0)
+		(lib_id "Device:R")
+		(at 99.06 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "566a7c8d-6e74-40c5-a986-245e497656d9")
-		(property "Reference" "R314"
-			(at 96.52 118.11 0)
+		(fields_autoplaced yes)
+		(uuid "53c460dd-e433-42cb-becb-a69ba9da82d6")
+		(property "Reference" "R321"
+			(at 100.3301 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 120.65 0)
+			(at 97.7901 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 114.3 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,8 +4253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 114.3 0)
+		(property "Datasheet" "~"
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,65 +4262,257 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 114.3 0)
+		(property "Description" "Resistor"
+			(at 99.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fe1258d-62c6-463d-921f-bd57b9069bde")
 		)
 		(pin "2"
-			(uuid "d5bc63b5-eea0-45cd-a6f6-5cdf70f3becf")
+			(uuid "be270561-8819-4bfe-82fa-638f824ccc44")
+		)
+		(pin "1"
+			(uuid "a38b3969-5a90-4c67-8d5b-54be122e9e8c")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3414")
+					(reference "R3421")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R314")
+					(reference "R321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "568dd358-4e4d-473b-a85c-fb6cfc932d3b")
+		(property "Reference" "R320"
+			(at 100.3301 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 97.7901 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34b99a76-6f1a-4a77-b6a4-44ac73ac224f")
+		)
+		(pin "1"
+			(uuid "b1a066b1-8410-4dc0-9702-97fa54bbb210")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
+					(reference "R3420")
+					(unit 1)
+				)
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
+					(reference "R320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5700350a-3f9f-49a1-ba50-92377baacad9")
+		(property "Reference" "R305"
+			(at 143.5099 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 146.0499 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6c765ce-9c30-4667-81f9-b85853a74034")
+		)
+		(pin "1"
+			(uuid "628b4f27-5bde-4ca2-8583-c522daf64dde")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
+					(reference "R3405")
+					(unit 1)
+				)
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
+					(reference "R305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b6d8bba-c26c-4b44-b631-dd71f16bd0b0")
+		(property "Reference" "R317"
+			(at 100.3301 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 97.7901 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e08b77b-3a91-485b-ba09-7247804653e3")
+		)
+		(pin "1"
+			(uuid "a61122ae-5a42-412c-adb7-4528b626d543")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
+					(reference "R3417")
+					(unit 1)
+				)
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
+					(reference "R317")
 					(unit 1)
 				)
 			)
@@ -4720,45 +4588,37 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 93.98 0)
+		(lib_id "Device:R")
+		(at 144.78 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "65ce3a44-9721-4c54-8508-cfa22cf27057")
-		(property "Reference" "R322"
-			(at 96.52 97.79 0)
+		(fields_autoplaced yes)
+		(uuid "661325ed-ec1f-4b24-a907-9d4da25ae735")
+		(property "Reference" "R302"
+			(at 143.5099 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 100.33 0)
+			(at 146.0499 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 93.98 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,8 +4626,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 93.98 0)
+		(property "Datasheet" "~"
+			(at 144.78 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,110 +4635,66 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 93.98 0)
+		(property "Description" "Resistor"
+			(at 144.78 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4625bda9-eb48-403e-abce-2a4d605ceb14")
 		)
 		(pin "2"
-			(uuid "fddb1915-d4e5-4c01-80d5-0677229b1498")
+			(uuid "6f8bf798-943b-4169-a752-3e2dcb30d945")
+		)
+		(pin "1"
+			(uuid "796e32e7-179f-40ac-a8e1-c9bf97dbdf69")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3422")
+					(reference "R3402")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R322")
+					(reference "R302")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 88.9 0)
+		(lib_id "Device:R")
+		(at 99.06 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "676adf6d-ca0a-4127-93a2-311c2546793f")
-		(property "Reference" "R320"
-			(at 96.52 92.71 0)
+		(fields_autoplaced yes)
+		(uuid "685d9e4b-5078-403c-baa8-096545005869")
+		(property "Reference" "R314"
+			(at 100.3301 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 95.25 0)
+			(at 97.7901 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,8 +4702,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 88.9 0)
+		(property "Datasheet" "~"
+			(at 99.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,65 +4711,29 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 88.9 0)
+		(property "Description" "Resistor"
+			(at 99.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b6d9555-0539-4068-ae84-c0e60178c6a0")
 		)
 		(pin "2"
-			(uuid "de78b696-06a2-4294-81ad-6b3d02271c5f")
+			(uuid "4b1a7d98-d662-48e2-b09e-44e03107e961")
+		)
+		(pin "1"
+			(uuid "32aed223-d379-48f8-878c-cd968b71257e")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3420")
+					(reference "R3414")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R320")
+					(reference "R314")
 					(unit 1)
 				)
 			)
@@ -5092,366 +4872,6 @@
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
 					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 144.78 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6be1f82f-3923-4da7-a7fb-25b1e288cf75")
-		(property "Reference" "R307"
-			(at 142.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45dd7c7a-ec97-4d7c-8eea-f391f459f043")
-		)
-		(pin "2"
-			(uuid "0f742dd5-f2f7-4175-940f-f62d167174e8")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3407")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e7b4b4b-66ce-4fc2-9a06-f8be6f58615c")
-		(property "Reference" "R311"
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 96.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53a750ef-a9c0-406a-a2fd-c87473881cbf")
-		)
-		(pin "2"
-			(uuid "3c5db9a7-6070-4d28-aca9-bd6c2f28189b")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3411")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 144.78 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70402bb4-815b-4ea8-a67f-ff2d6823aae0")
-		(property "Reference" "R303"
-			(at 142.24 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 142.24 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a72e3b03-d426-40f3-ab9c-f3a0d8d90834")
-		)
-		(pin "2"
-			(uuid "cffcfad5-1276-4e23-96de-92b8f6701c4f")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3403")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -5768,45 +5188,37 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 83.82 0)
+		(lib_id "Device:R")
+		(at 144.78 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8315632d-5e11-4d5f-9f63-f677dc6bc5b2")
-		(property "Reference" "R318"
-			(at 96.52 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "7d5210d8-8815-40dd-8f30-ea61957f7e0e")
+		(property "Reference" "R306"
+			(at 143.5099 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 90.17 0)
+			(at 146.0499 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 83.82 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,8 +5226,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 83.82 0)
+		(property "Datasheet" "~"
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,56 +5235,96 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 83.82 0)
+		(property "Description" "Resistor"
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14f2a2fd-22a6-4e2f-b743-3f4fd8dd4d84")
 		)
 		(pin "2"
-			(uuid "1e3e9250-9b2f-4e76-b0b2-7f7577726c56")
+			(uuid "23ec2b02-eae4-480c-ba6a-da3fdca66821")
+		)
+		(pin "1"
+			(uuid "e51194be-9b8f-400b-883b-c79a0704d2c3")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
+					(reference "R3406")
+					(unit 1)
+				)
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
+					(reference "R306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ea14f37-622d-4ad8-a25b-83b4eed3d9c8")
+		(property "Reference" "R318"
+			(at 100.3301 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 97.7901 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2c6f81c-f577-4b1d-951c-ecfe5cc2a304")
+		)
+		(pin "1"
+			(uuid "0d745c7d-7066-4da2-8673-5b5640a4c024")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
@@ -5888,45 +5340,37 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 109.22 0)
+		(lib_id "Device:R")
+		(at 99.06 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "84f9e2dd-1977-4d93-8eac-360464427efc")
+		(fields_autoplaced yes)
+		(uuid "95d1f19e-20cf-4325-8f80-03d07515b9ee")
 		(property "Reference" "R312"
-			(at 96.52 113.03 0)
+			(at 100.3301 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 115.57 0)
+			(at 97.7901 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 109.22 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,8 +5378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 109.22 0)
+		(property "Datasheet" "~"
+			(at 99.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,56 +5387,20 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 109.22 0)
+		(property "Description" "Resistor"
+			(at 99.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f83b11c-8c63-4073-af5e-7a4f8ff6f737")
 		)
 		(pin "2"
-			(uuid "124c3a12-5ab7-420f-b22f-5abd7d3507e2")
+			(uuid "962793e3-bf0c-414f-a035-634297764571")
+		)
+		(pin "1"
+			(uuid "c2ff0c2d-1177-490b-b33c-11a4aede0829")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
@@ -6008,45 +5416,37 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 81.28 0)
+		(lib_id "Device:R")
+		(at 144.78 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d6b9e24-9481-400c-9a85-6cfe0d27c58d")
-		(property "Reference" "R317"
-			(at 96.52 85.09 0)
+		(fields_autoplaced yes)
+		(uuid "9b492f36-f26a-4620-8ea5-0a7c69ba3035")
+		(property "Reference" "R307"
+			(at 143.5099 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 87.63 0)
+			(at 146.0499 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 81.28 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,8 +5454,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 81.28 0)
+		(property "Datasheet" "~"
+			(at 144.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,425 +5463,29 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 81.28 0)
+		(property "Description" "Resistor"
+			(at 144.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c713205-785f-499e-ae98-5e4391bb7f98")
 		)
 		(pin "2"
-			(uuid "15260afd-76d4-4323-98b9-d3cf7c7f2a63")
+			(uuid "2627a3f2-a20b-452e-b9be-31a4cb86b642")
+		)
+		(pin "1"
+			(uuid "5313e1c3-ef9a-49cc-80d8-888d6f257239")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3417")
+					(reference "R3407")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 144.78 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "910c1606-0daa-4a9e-a7d8-3faa7f24091e")
-		(property "Reference" "R304"
-			(at 142.24 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78162c15-7e42-4d9c-8e32-57fec6438633")
-		)
-		(pin "2"
-			(uuid "1b5e07b1-f8ed-477c-8649-35db0879f869")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3404")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99f00d9b-14d7-41ba-a100-5b45675eea91")
-		(property "Reference" "R319"
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 96.52 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "feb16876-13ca-4aa6-83e7-129c47cdc709")
-		)
-		(pin "2"
-			(uuid "e16173a4-d7a5-4e5c-955a-7b832eaba26f")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3419")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R319")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 144.78 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aad9a0bf-0948-4161-be8e-33ec2c571c95")
-		(property "Reference" "R306"
-			(at 142.24 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 142.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 144.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3f7126f-fe4f-4edb-9eca-35ae258ccf79")
-		)
-		(pin "2"
-			(uuid "c6193525-fcf6-426a-8199-0658b3c68c95")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3406")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R306")
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -6864,45 +5868,37 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 116.84 0)
+		(lib_id "Device:R")
+		(at 99.06 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd1ed1ee-53f3-4eaf-ba42-493ccc6aea84")
-		(property "Reference" "R315"
-			(at 96.52 120.65 0)
+		(fields_autoplaced yes)
+		(uuid "c3de8374-32c2-43bf-ae46-9016796499c5")
+		(property "Reference" "R323"
+			(at 100.3301 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 123.19 0)
+			(at 97.7901 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 116.84 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,8 +5906,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 116.84 0)
+		(property "Datasheet" "~"
+			(at 99.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,110 +5915,66 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 116.84 0)
+		(property "Description" "Resistor"
+			(at 99.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67d73a3b-00a6-4510-8ec5-3ceabc945984")
 		)
 		(pin "2"
-			(uuid "e91d4ff3-3e29-4eaf-9373-63521da8da35")
+			(uuid "4f62993f-e698-4559-b24d-06e60560d739")
+		)
+		(pin "1"
+			(uuid "9995110b-ddc9-40ba-895e-d0819197475a")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3415")
+					(reference "R3423")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R315")
+					(reference "R323")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 144.78 111.76 0)
+		(lib_id "Device:R")
+		(at 99.06 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cc14c87f-98b3-425f-b380-5fa520b3f9c7")
-		(property "Reference" "R305"
-			(at 142.24 115.57 0)
+		(fields_autoplaced yes)
+		(uuid "c4257e2a-13ce-4dec-8c75-96162bbd7b73")
+		(property "Reference" "R309"
+			(at 100.3301 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 142.24 118.11 0)
+			(at 97.7901 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 144.78 111.76 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,8 +5982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 144.78 111.76 0)
+		(property "Datasheet" "~"
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7039,65 +5991,257 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 144.78 111.76 0)
+		(property "Description" "Resistor"
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb98f886-ed4f-486f-9431-4d7b618ad3fa")
 		)
 		(pin "2"
-			(uuid "809ef170-2e16-47fc-af1e-86f58827c6c3")
+			(uuid "3b825198-f903-4324-ad50-78cc670f74c7")
+		)
+		(pin "1"
+			(uuid "a6d534ec-3b95-4e94-9be7-e997603c0dbf")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3405")
+					(reference "R3409")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R305")
+					(reference "R309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d18a1f7a-5358-4a46-94d3-a0bace3b6b4a")
+		(property "Reference" "R319"
+			(at 100.3301 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 97.7901 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81daadb7-557c-4954-8e0c-9d9cfaa64470")
+		)
+		(pin "1"
+			(uuid "65c61267-3de6-4a07-b39b-cdd3f0aad578")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
+					(reference "R3419")
+					(unit 1)
+				)
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
+					(reference "R319")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d36ad598-a27e-4170-96d9-ee12ebffb1ca")
+		(property "Reference" "R311"
+			(at 100.3301 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 97.7901 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31944598-86c1-4637-aa9d-d433b24de795")
+		)
+		(pin "1"
+			(uuid "62ddbd80-cf5e-4ae5-88f0-5a8aa87678a2")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
+					(reference "R3411")
+					(unit 1)
+				)
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
+					(reference "R311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9f65c41-c60a-4fd0-913c-2ae01aaee714")
+		(property "Reference" "R301"
+			(at 143.5099 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 146.0499 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cfe2c3f-ea49-4003-af7f-040de7838c3f")
+		)
+		(pin "1"
+			(uuid "a0b91f5c-78eb-44ec-9d7d-2cac11228a99")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
+					(reference "R3401")
+					(unit 1)
+				)
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -7196,45 +6340,37 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 144.78 101.6 0)
+		(lib_id "Device:R")
+		(at 99.06 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e30b6fe9-33ea-4b12-9461-ba85d2cdf762")
-		(property "Reference" "R301"
-			(at 142.24 105.41 0)
+		(fields_autoplaced yes)
+		(uuid "e03cbb13-6d18-4bc2-b588-4e78045df3b3")
+		(property "Reference" "R310"
+			(at 100.3301 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 142.24 107.95 0)
+			(at 97.7901 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 144.78 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 144.78 101.6 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 109.982 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,8 +6378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 144.78 101.6 0)
+		(property "Datasheet" "~"
+			(at 99.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,110 +6387,66 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 144.78 101.6 0)
+		(property "Description" "Resistor"
+			(at 99.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 144.78 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 144.78 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 144.78 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 144.78 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "450bdab6-9d1d-42a1-b378-5477dbf776ee")
 		)
 		(pin "2"
-			(uuid "573ed298-fa5e-4d9a-86ae-efc361f9cacb")
+			(uuid "6fc63df4-70bd-4828-bee0-7bb2e64cde39")
+		)
+		(pin "1"
+			(uuid "3780445f-1edd-4a7f-9fe1-807e781c0cd4")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3401")
+					(reference "R3410")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R301")
+					(reference "R310")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 144.78 99.06 0)
+		(lib_id "Device:R")
+		(at 144.78 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e8b21d9a-24a5-455f-bbc7-ef1222c8391f")
-		(property "Reference" "R260"
-			(at 142.24 102.87 0)
+		(fields_autoplaced yes)
+		(uuid "e549dd95-9b83-438b-9348-25201a27c3d9")
+		(property "Reference" "R304"
+			(at 143.5099 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 142.24 105.41 0)
+			(at 146.0499 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 144.78 99.06 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,8 +6454,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 144.78 99.06 0)
+		(property "Datasheet" "~"
+			(at 144.78 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,65 +6463,105 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 144.78 99.06 0)
+		(property "Description" "Resistor"
+			(at 144.78 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e843e317-2716-4e82-bbd2-a5124fb77597")
 		)
 		(pin "2"
-			(uuid "f9797440-21e7-4881-8351-eecb254aae71")
+			(uuid "2efd1fba-b98a-4aa6-9456-81222143767b")
+		)
+		(pin "1"
+			(uuid "88d2b342-37ec-4400-a809-29c4cdd04d28")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R233")
+					(reference "R3404")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R260")
+					(reference "R304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6688b25-a4ee-4c4b-b072-f6007bbe559a")
+		(property "Reference" "R313"
+			(at 100.3301 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 97.7901 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d094cad2-9f65-48c1-b443-3b789c061bf5")
+		)
+		(pin "1"
+			(uuid "43d66454-d3ec-4909-bec7-7847a31d0815")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
+					(reference "R3413")
+					(unit 1)
+				)
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
+					(reference "R313")
 					(unit 1)
 				)
 			)
@@ -7555,45 +6687,37 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:RS-03K47R0FT")
-		(at 99.06 111.76 0)
+		(lib_id "Device:R")
+		(at 99.06 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fa48a1a0-171f-45ad-898a-02a0444dbddb")
-		(property "Reference" "R313"
-			(at 96.52 115.57 0)
+		(fields_autoplaced yes)
+		(uuid "edfb578f-cf2d-4ea1-97cb-c6b94927661f")
+		(property "Reference" "R316"
+			(at 100.3301 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Value" "47Ω"
-			(at 96.52 118.11 0)
+			(at 97.7901 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 99.06 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20140616/1457707091974.pdf"
-			(at 99.06 111.76 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,8 +6725,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 99.06 111.76 0)
+		(property "Datasheet" "~"
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7610,65 +6734,105 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RS-03K47R0FT"
-			(at 99.06 111.76 0)
+		(property "Description" "Resistor"
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 99.06 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C140087"
-			(at 99.06 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 99.06 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 47Ω ±1% 100mW"
-			(at 99.06 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6a2397f-e081-4449-8664-8c9d8f23e436")
 		)
 		(pin "2"
-			(uuid "ffd626dd-66f8-4d93-aebb-29d5c8c2bd65")
+			(uuid "93ed312b-84bf-4cdf-8b7a-9e23d9daf07f")
+		)
+		(pin "1"
+			(uuid "c836c451-fa88-460b-83f8-7f1f2ebc0d55")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "R3413")
+					(reference "R3416")
 					(unit 1)
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "R313")
+					(reference "R316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f19728-d70d-4bb6-ad14-34bd881711dc")
+		(property "Reference" "R322"
+			(at 100.3301 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 97.7901 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7a464f0-6c10-4190-a205-1f921b347d85")
+		)
+		(pin "1"
+			(uuid "235248f9-5f34-4f70-8493-550b4ce9c073")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
+					(reference "R3422")
+					(unit 1)
+				)
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
+					(reference "R322")
 					(unit 1)
 				)
 			)
