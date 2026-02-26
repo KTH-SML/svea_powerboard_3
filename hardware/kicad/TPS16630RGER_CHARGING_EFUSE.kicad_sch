@@ -2794,9 +2794,9 @@
 		)
 		(uuid "1a6699ae-7272-4673-a46e-bd3dc4f33f93")
 	)
-	(text "Default limit to 4.59A, 92W\nWorst case 4.95A\n\nCut trace for 3.25 nominal"
+	(text "Default limit to 4.59A, 92W\nWorst case 4.95A\n\nCut trace for 3.25 nominal like for \n60W charger or if "
 		(exclude_from_sim no)
-		(at 40.64 130.81 0)
+		(at 33.02 136.652 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,6 +2816,17 @@
 		)
 		(uuid "43026adc-78c6-4764-b24c-1e160adcb383")
 	)
+	(text "should make it passively prevent \noverloading the usb c while its ramping"
+		(exclude_from_sim no)
+		(at 123.444 133.096 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "4f50aaf0-a5ba-4cc0-b90f-261fd5c9bcb1")
+	)
 	(text "open-drain fault"
 		(exclude_from_sim no)
 		(at 232.156 128.524 0)
@@ -2826,6 +2837,16 @@
 			(justify left bottom)
 		)
 		(uuid "678e75ff-0f92-4d36-b4e8-03e365f7d84f")
+	)
+	(text "approx 9ms"
+		(exclude_from_sim no)
+		(at 139.192 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b727c12-a1b9-4ab6-af3e-496059c36d7e")
 	)
 	(junction
 		(at 251.46 107.95)
@@ -3167,7 +3188,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 127) (xy 124.46 127)
+			(xy 132.08 127) (xy 118.11 127)
 		)
 		(stroke
 			(width 0)
@@ -3935,6 +3956,131 @@
 		)
 		(uuid "fee1e744-65d9-4966-90a6-acbb66c1cb30")
 	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 6.858 22.606)
+		(row_heights 4.572 6.096 3.81)
+		(cells
+			(table_cell "MODE Pin Configuration "
+				(exclude_from_sim no)
+				(at 160.274 129.286 0)
+				(size 6.858 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+				)
+				(uuid "ba5bd1c4-49ba-46ec-a27d-e4fdacf7eae2")
+			)
+			(table_cell "Power Limiting, Over Current fault and Thermal Shutdown Operation"
+				(exclude_from_sim no)
+				(at 167.132 129.286 0)
+				(size 22.606 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+				)
+				(uuid "c6702a9c-5c7c-4fd4-b181-f03dedf0fed6")
+			)
+			(table_cell "Open"
+				(exclude_from_sim no)
+				(at 160.274 133.858 0)
+				(size 6.858 6.096)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+				)
+				(uuid "feba7c60-aee7-4894-9c2f-3be72ef48612")
+			)
+			(table_cell "Active Current limiting for a maximum duration of tCL_PLIM(dly). There after Latches OFF.\n\nLatch reset by toggling SHDN or UVLO low to high or power cycle"
+				(exclude_from_sim no)
+				(at 167.132 133.858 0)
+				(size 22.606 6.096)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+				)
+				(uuid "79be4924-f5c0-446f-9c99-7f89c200b784")
+			)
+			(table_cell "Shorted to GND "
+				(exclude_from_sim no)
+				(at 160.274 139.954 0)
+				(size 6.858 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+				)
+				(uuid "d68e2ed7-b1c5-4da3-a669-19dfd8eee25e")
+			)
+			(table_cell "delay of t(TSD_retry).\nActive current limiting for a maximum duration of tCL_PLIM(dly). There after auto-retries after a"
+				(exclude_from_sim no)
+				(at 167.132 139.954 0)
+				(size 22.606 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+				)
+				(uuid "d1f458d7-3fb2-4c6f-9960-f55769f3f0ff")
+			)
+		)
+	)
 	(global_label "eFuse{slash}TPS16630{slash}FAULT"
 		(shape output)
 		(at 229.87 130.81 0)
@@ -3999,7 +4145,7 @@
 	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 124.46 127 180)
+		(at 118.11 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5744,10 +5890,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c8714421-7b32-48a7-ae74-c3fa0066af44")
 		(property "Reference" "C16"
-			(at 67.31 68.5799 90)
+			(at 56.134 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,12 +5901,11 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 63.5 68.58 0)
+			(at 58.166 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:C0603"

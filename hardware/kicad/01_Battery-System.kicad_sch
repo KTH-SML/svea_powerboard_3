@@ -7531,6 +7531,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:SMBJ24A_C224017"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMBJ24A_C224017"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:SMBJ24A_C224017"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cn.bing.com/search?q=datasheet： SMBJ5.0A-QH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C224017"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Littelfuse(美国力特)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SMBJ24A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ24A_C224017_0_1"
+				(polyline
+					(pts
+						(xy -2.286 2.286) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.254 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.524) (xy -1.27 0) (xy 1.27 1.778) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:SMF5_0A_C2857263"
 			(pin_names
 				(offset 1.016)
@@ -10708,6 +10849,17 @@
 		)
 		(uuid "72cc119a-cfd5-4ade-971a-4d8d61cb7aa8")
 	)
+	(text "Since its very possible that \nsomeone plugs in a way too high voltage power supply"
+		(exclude_from_sim no)
+		(at 35.56 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c5bb187-1faa-443b-815a-7357f14a8b22")
+	)
 	(text "600mA"
 		(exclude_from_sim no)
 		(at 500.38 350.52 0)
@@ -10971,6 +11123,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "782d92cc-1889-497b-9b7f-8f2b9ccb690d")
+	)
+	(junction
+		(at 48.26 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "802fc02d-34db-41a1-a6e3-a3c5a62cbbb8")
 	)
 	(junction
 		(at 133.35 381)
@@ -11614,7 +11772,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 123.19) (xy 77.47 123.19)
+			(xy 43.18 123.19) (xy 48.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11704,7 +11862,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 68.58) (xy 434.34 86.36)
+			(xy 434.34 81.28) (xy 434.34 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12504,6 +12662,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 144.78) (xy 72.39 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f3b72b-59a8-4ed5-8270-fbe965d5e9a8")
+	)
+	(wire
+		(pts
 			(xy 97.79 81.28) (xy 109.22 81.28)
 		)
 		(stroke
@@ -12641,6 +12809,16 @@
 			(type default)
 		)
 		(uuid "42ec9b3c-f1cd-4ddd-a2ac-346e7f86d100")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430d2aa4-4e58-45d5-bcd1-fbecea73e4b0")
 	)
 	(wire
 		(pts
@@ -13354,16 +13532,6 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 62.23) (xy 383.54 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "640f875a-75e6-47a9-9258-e789543f18be")
-	)
-	(wire
-		(pts
 			(xy 340.36 259.08) (xy 337.82 259.08)
 		)
 		(stroke
@@ -13764,7 +13932,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 74.93) (xy 429.26 86.36)
+			(xy 429.26 81.28) (xy 429.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -13844,7 +14012,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 76.2) (xy 424.18 86.36)
+			(xy 424.18 81.28) (xy 424.18 86.36)
 		)
 		(stroke
 			(width 0)
@@ -14504,16 +14672,6 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 76.2) (xy 389.89 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6607194-8f8a-4ba4-bce5-742544320f40")
-	)
-	(wire
-		(pts
 			(xy 236.22 127) (xy 234.95 127)
 		)
 		(stroke
@@ -14521,16 +14679,6 @@
 			(type default)
 		)
 		(uuid "a6eaf4ec-059a-450f-9719-3a228a29c2d6")
-	)
-	(wire
-		(pts
-			(xy 392.43 76.2) (xy 424.18 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72f534d-254d-4c60-8b16-54f726d9554e")
 	)
 	(wire
 		(pts
@@ -14914,7 +15062,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 127) (xy 77.47 127)
+			(xy 69.85 144.78) (xy 72.39 144.78)
 		)
 		(stroke
 			(width 0)
@@ -15241,6 +15389,16 @@
 			(type default)
 		)
 		(uuid "caa255d4-535a-4216-8385-c6c0252b1d3c")
+	)
+	(wire
+		(pts
+			(xy 48.26 123.19) (xy 77.47 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7d38c3-d02d-4960-b8e3-9b5b1f2d7ebe")
 	)
 	(wire
 		(pts
@@ -16274,7 +16432,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 80.01) (xy 419.1 86.36)
+			(xy 419.1 81.28) (xy 419.1 86.36)
 		)
 		(stroke
 			(width 0)
@@ -16494,7 +16652,7 @@
 	)
 	(global_label "Power{slash}DC20V-Diode{slash}EN#"
 		(shape input)
-		(at 72.39 127 180)
+		(at 69.85 144.78 180)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -16503,7 +16661,7 @@
 		)
 		(uuid "0276e9a7-4525-4a3c-a55c-5db46519c8cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 127 0)
+			(at 69.85 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17022,7 +17180,7 @@
 			)
 		)
 	)
-	(global_label "IO-Expander{slash}Primary{slash}INT"
+	(global_label "IO-Expander{slash}Secondary{slash}INT"
 		(shape input)
 		(at 764.54 318.77 180)
 		(effects
@@ -19701,7 +19859,7 @@
 			)
 		)
 		(property "Description" "7A"
-			(at 38.1 123.19 0)
+			(at 38.1 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22455,7 +22613,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC-KICKSTART")
-		(at 429.26 74.93 0)
+		(at 429.26 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22463,7 +22621,7 @@
 		(dnp no)
 		(uuid "317259e6-459c-4745-969a-cd6456a45414")
 		(property "Reference" "#PWR036"
-			(at 429.26 74.93 0)
+			(at 429.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22472,7 +22630,7 @@
 			)
 		)
 		(property "Value" "VCC-KICKSTART"
-			(at 429.514 61.722 90)
+			(at 429.514 68.834 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -22480,7 +22638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 429.26 74.93 0)
+			(at 429.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22489,7 +22647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 429.26 74.93 0)
+			(at 429.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22498,7 +22656,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 429.26 74.93 0)
+			(at 429.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24901,6 +25059,71 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59e93a4b-3a4e-414c-a6b9-f72784efd584")
+		(property "Reference" "#PWR0184"
+			(at 48.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 138.176 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85439626-1e18-4d5c-9974-d2481efaf180")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -28977,6 +29200,103 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:SMBJ24A_C224017")
+		(at 48.26 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab948b5d-cdb5-436a-aed8-249ef3764b9a")
+		(property "Reference" "D101"
+			(at 52.07 126.4919 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ24A_C224017"
+			(at 52.07 129.0319 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:SMBJ24A_C224017"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cn.bing.com/search?q=datasheet： SMBJ5.0A-QH"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C224017"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SMBJ24A"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "026a4c8d-df54-4b07-8445-95ecfdba462f")
+		)
+		(pin "2"
+			(uuid "b70f467e-0dd5-4ee2-93c1-3b78a7f82056")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:0466001.NRHF")
 		(at 92.71 83.82 0)
 		(unit 1)
@@ -30655,7 +30975,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 434.34 68.58 0)
+		(at 434.34 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30663,7 +30983,7 @@
 		(dnp no)
 		(uuid "be708e2d-e615-457d-af55-0dcc393be79f")
 		(property "Reference" "#PWR037"
-			(at 434.34 68.58 0)
+			(at 434.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30672,7 +30992,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 434.34 64.77 0)
+			(at 434.34 75.946 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -30680,7 +31000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 434.34 68.58 0)
+			(at 434.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30689,7 +31009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 434.34 68.58 0)
+			(at 434.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30698,7 +31018,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 434.34 68.58 0)
+			(at 434.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32233,7 +32553,7 @@
 	)
 	(symbol
 		(lib_id "power:IN-CHARGING-VCC-USBC")
-		(at 419.1 80.01 90)
+		(at 419.1 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32241,7 +32561,7 @@
 		(dnp no)
 		(uuid "d882775c-900d-4dbb-a10f-0ecadffd86c4")
 		(property "Reference" "#PWR034"
-			(at 419.1 80.01 0)
+			(at 419.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32250,7 +32570,7 @@
 			)
 		)
 		(property "Value" "DC_BARREL_20V_PORT"
-			(at 401.828 80.01 90)
+			(at 419.1 65.532 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -32258,7 +32578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 419.1 80.01 0)
+			(at 419.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32267,7 +32587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 419.1 80.01 0)
+			(at 419.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32276,7 +32596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 419.1 80.01 0)
+			(at 419.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32680,7 +33000,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:PZ254V-11-02P")
-		(at 391.16 71.12 90)
+		(at 375.92 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32688,7 +33008,7 @@
 		(dnp no)
 		(uuid "de3d663a-e127-444c-a408-150094ca3841")
 		(property "Reference" "USBC-5V-BUCK1"
-			(at 385.064 67.31 90)
+			(at 369.824 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32697,7 +33017,7 @@
 			)
 		)
 		(property "Value" "PZ254V-11-02P"
-			(at 384.81 68.58 0)
+			(at 369.57 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32707,7 +33027,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:HDR-TH_2P-P2.54-V-M"
-			(at 391.16 71.12 0)
+			(at 375.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32716,7 +33036,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html"
-			(at 391.16 71.12 0)
+			(at 375.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32725,7 +33045,7 @@
 			)
 		)
 		(property "Description" "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connect"
-			(at 391.16 71.12 0)
+			(at 375.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32734,7 +33054,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PZ254V-11-02P"
-			(at 391.16 71.12 0)
+			(at 375.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32743,7 +33063,7 @@
 			)
 		)
 		(property "Manufacturer" "XFCN(兴飞)"
-			(at 391.16 71.12 0)
+			(at 375.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32752,7 +33072,7 @@
 			)
 		)
 		(property "Supplier Part" "C492401"
-			(at 391.16 71.12 0)
+			(at 375.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32761,7 +33081,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 391.16 71.12 0)
+			(at 375.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32770,7 +33090,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x2P 间距:2.54mm 方针 直插"
-			(at 391.16 71.12 0)
+			(at 375.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33111,7 +33431,7 @@
 	)
 	(symbol
 		(lib_id "power:IN-CHARGING-VCC-USBC")
-		(at 383.54 62.23 0)
+		(at 424.18 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33119,7 +33439,7 @@
 		(dnp no)
 		(uuid "e270ae13-222d-4a91-a6ad-9e3504b09b8b")
 		(property "Reference" "#PWR032"
-			(at 383.54 62.23 0)
+			(at 424.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33128,7 +33448,7 @@
 			)
 		)
 		(property "Value" "IN-CHARGING-VCC-USBC"
-			(at 383.54 58.42 0)
+			(at 423.926 62.992 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -33136,7 +33456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 62.23 0)
+			(at 424.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33145,7 +33465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 62.23 0)
+			(at 424.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33154,7 +33474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 383.54 62.23 0)
+			(at 424.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
