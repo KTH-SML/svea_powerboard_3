@@ -11792,7 +11792,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 127) (xy 116.84 133.35)
+			(xy 115.57 127) (xy 115.57 133.35)
 		)
 		(stroke
 			(width 0)
@@ -14572,7 +14572,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 127) (xy 121.92 127)
+			(xy 115.57 127) (xy 121.92 127)
 		)
 		(stroke
 			(width 0)
@@ -14739,6 +14739,16 @@
 			(type default)
 		)
 		(uuid "aa755a75-e48e-4d6d-acae-4f0e328c04f5")
+	)
+	(wire
+		(pts
+			(xy 115.57 133.35) (xy 121.92 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa798b66-345e-4081-abea-93bda610a24e")
 	)
 	(wire
 		(pts
@@ -18171,26 +18181,6 @@
 			)
 		)
 	)
-	(global_label "eFuse{slash}TPS16630{slash}SHDN"
-		(shape input)
-		(at 116.84 133.35 0)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify left)
-		)
-		(uuid "8fd77592-28a4-4402-b085-e5f311b2a0d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Power{slash}PACK+-VCC-Diode{slash}EN#"
 		(shape input)
 		(at 730.25 424.18 0)
@@ -19099,6 +19089,26 @@
 		(uuid "f6163575-e2be-4e2b-9e0e-096429d86c2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 720.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "eFuse{slash}TPS16630{slash}SHDN"
+		(shape input)
+		(at 121.92 133.35 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify left)
+		)
+		(uuid "fb238fab-1140-4949-9855-61b520d0527d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
