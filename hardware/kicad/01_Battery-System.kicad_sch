@@ -10669,131 +10669,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC-KICKSTART"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC-KICKSTART"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC-KICKSTART\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC-KICKSTART_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-KICKSTART_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Only expect 20V\nmay be excessive but prevents the charger from feeding itself"
 		(exclude_from_sim no)
@@ -10913,6 +10788,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0777da4b-f8fc-4772-9601-94f243f1b9e6")
+	)
+	(junction
+		(at 533.4 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07e97915-a8b3-4765-8ae7-2cb38fbb76f9")
 	)
 	(junction
 		(at 144.78 290.83)
@@ -11149,6 +11030,12 @@
 		(uuid "84c4ac89-333c-48c8-8ce5-934fb003329d")
 	)
 	(junction
+		(at 549.91 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84d6ebe8-2d6d-457f-8811-a9678a329707")
+	)
+	(junction
 		(at 690.88 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11261,6 +11148,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1fedf6d-c7b1-40b6-bb6f-cad8f2bb22ef")
+	)
+	(junction
+		(at 227.33 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2f74a75-edcd-44d5-b913-d398a0e00b8e")
 	)
 	(junction
 		(at 574.04 133.35)
@@ -11435,6 +11328,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6adea78-25ad-42ed-bcc7-96699691944c")
+	)
+	(junction
+		(at 542.29 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6b7b08f-6a45-4e3a-9783-6669cb60a4bf")
 	)
 	(junction
 		(at 441.96 330.2)
@@ -11990,6 +11889,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 41.91) (xy 429.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b551df-41f7-46f8-9297-03a91636cb34")
+	)
+	(wire
+		(pts
 			(xy 29.21 81.28) (xy 87.63 81.28)
 		)
 		(stroke
@@ -12090,16 +11999,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 99.06) (xy 429.26 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c3f006e-bf21-4264-8406-a63f12ee1d08")
-	)
-	(wire
-		(pts
 			(xy 411.48 330.2) (xy 435.61 330.2)
 		)
 		(stroke
@@ -12157,6 +12056,16 @@
 			(type default)
 		)
 		(uuid "1ec9d563-c017-42a2-b596-ab7ecf91c079")
+	)
+	(wire
+		(pts
+			(xy 549.91 29.21) (xy 562.61 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201e7ada-2c84-48d0-b382-73c8178d10b2")
 	)
 	(wire
 		(pts
@@ -12287,6 +12196,16 @@
 			(type default)
 		)
 		(uuid "289d26b3-b47a-44a4-87d6-c02d635c1ecf")
+	)
+	(wire
+		(pts
+			(xy 542.29 16.51) (xy 542.29 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a77034-69a2-49d5-aca8-8cfe241f14cf")
 	)
 	(wire
 		(pts
@@ -12567,6 +12486,16 @@
 			(type default)
 		)
 		(uuid "33d477e8-03f7-414f-8202-e180dc9a86a3")
+	)
+	(wire
+		(pts
+			(xy 542.29 29.21) (xy 549.91 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3431536f-3c1f-4aa8-8bf0-3d9a51b58943")
 	)
 	(wire
 		(pts
@@ -13180,6 +13109,16 @@
 	)
 	(wire
 		(pts
+			(xy 549.91 45.72) (xy 549.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c8131c-b893-466f-b268-a7692a698f1d")
+	)
+	(wire
+		(pts
 			(xy 525.78 229.87) (xy 565.15 229.87)
 		)
 		(stroke
@@ -13547,6 +13486,16 @@
 			(type default)
 		)
 		(uuid "65309e99-54a9-40a9-ad16-4e3a5c38ca0a")
+	)
+	(wire
+		(pts
+			(xy 533.4 44.45) (xy 533.4 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66db0e4d-0dcb-4a90-b1e9-d13da0db00c7")
 	)
 	(wire
 		(pts
@@ -13920,16 +13869,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 81.28) (xy 429.26 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed4a887-3282-4c34-9144-9182140fc7cc")
-	)
-	(wire
-		(pts
 			(xy 685.8 468.63) (xy 688.34 468.63)
 		)
 		(stroke
@@ -13950,6 +13889,16 @@
 	)
 	(wire
 		(pts
+			(xy 533.4 29.21) (xy 542.29 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fbd1ab4-27fc-45d5-a1d4-b2fbbea7d70b")
+	)
+	(wire
+		(pts
 			(xy 123.19 233.68) (xy 125.73 233.68)
 		)
 		(stroke
@@ -13957,6 +13906,16 @@
 			(type default)
 		)
 		(uuid "8012659d-d0a2-4496-9288-8f9e247be4d6")
+	)
+	(wire
+		(pts
+			(xy 227.33 124.46) (xy 236.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c1a7fe-e10c-4f9b-b5df-712266e24517")
 	)
 	(wire
 		(pts
@@ -14027,6 +13986,16 @@
 			(type default)
 		)
 		(uuid "854a7d6a-ae9c-4741-89e2-6080908314df")
+	)
+	(wire
+		(pts
+			(xy 562.61 45.72) (xy 562.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d7da6b-32e2-45ff-aadb-ee84177a15a3")
 	)
 	(wire
 		(pts
@@ -14490,6 +14459,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 34.29) (xy 520.7 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e58ce3e-a677-4606-a6c1-2815e75f0598")
+	)
+	(wire
+		(pts
 			(xy 492.76 105.41) (xy 496.57 105.41)
 		)
 		(stroke
@@ -14897,6 +14876,16 @@
 			(type default)
 		)
 		(uuid "b1bd000d-d7f7-469c-a6c3-899f61f4f68e")
+	)
+	(wire
+		(pts
+			(xy 383.54 41.91) (xy 387.35 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c3a3d2-4e81-4892-9207-e8f977542df2")
 	)
 	(wire
 		(pts
@@ -15410,7 +15399,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 124.46) (xy 236.22 124.46)
+			(xy 213.36 124.46) (xy 227.33 124.46)
 		)
 		(stroke
 			(width 0)
@@ -15880,6 +15869,16 @@
 	)
 	(wire
 		(pts
+			(xy 411.48 41.91) (xy 429.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e56c99-7fcc-4824-9112-5a0e09a5c40f")
+	)
+	(wire
+		(pts
 			(xy 196.85 100.33) (xy 196.85 80.01)
 		)
 		(stroke
@@ -15950,6 +15949,16 @@
 	)
 	(wire
 		(pts
+			(xy 533.4 29.21) (xy 533.4 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33edfa7-11eb-4618-be18-f34fdb877a9b")
+	)
+	(wire
+		(pts
 			(xy 480.06 99.06) (xy 496.57 99.06)
 		)
 		(stroke
@@ -15987,6 +15996,16 @@
 			(type default)
 		)
 		(uuid "e3ce36f9-a178-4bbe-9bfa-d42d9198aa60")
+	)
+	(wire
+		(pts
+			(xy 549.91 29.21) (xy 549.91 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44f5c41-522c-4add-930f-148aac02a8e1")
 	)
 	(wire
 		(pts
@@ -16097,6 +16116,16 @@
 			(type default)
 		)
 		(uuid "e9dba564-670c-42f7-a236-0066c126771a")
+	)
+	(wire
+		(pts
+			(xy 520.7 29.21) (xy 533.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaac71a1-2dd2-4f1e-967a-ff1e56cc2d8d")
 	)
 	(wire
 		(pts
@@ -16440,6 +16469,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 44.45) (xy 520.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa84b408-9756-451c-90e9-fc5fe0928f70")
+	)
+	(wire
+		(pts
 			(xy 659.13 53.34) (xy 659.13 60.96)
 		)
 		(stroke
@@ -16558,6 +16597,16 @@
 		)
 		(uuid "ff83ef7a-567b-4982-8a5b-d7200a220c10")
 	)
+	(wire
+		(pts
+			(xy 562.61 29.21) (xy 562.61 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8d9d03-2387-41fb-94b0-4627b6732cee")
+	)
 	(label "danger_rail"
 		(at 419.1 99.06 180)
 		(effects
@@ -16607,6 +16656,16 @@
 			(justify left bottom)
 		)
 		(uuid "d9e04cb9-bcb7-4e71-999f-04cedecbfec5")
+	)
+	(label "USBC_OR_DC20"
+		(at 100.33 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e54e83f0-87fc-43ef-8649-f96e4f083cc5")
 	)
 	(label "DC_BARREL_20V_PORT"
 		(at 30.48 123.19 90)
@@ -16790,6 +16849,26 @@
 		(uuid "0ef5a41f-cf76-4afa-8b8e-3efb46a21c28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 681.99 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
+		(at 383.54 41.91 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "0f82489c-af63-48ec-b178-126d0dd14b78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.54 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18281,26 +18360,6 @@
 			)
 		)
 	)
-	(global_label "Power{slash}Charging-VCC-Limited-Diode{slash}EN#"
-		(shape input)
-		(at 681.99 434.34 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "9b9aef3e-8fa0-470b-b435-59325a0a4b31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 681.99 434.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL_SLOW"
 		(shape bidirectional)
 		(at 549.91 285.75 0)
@@ -18373,6 +18432,26 @@
 		(uuid "a55d6f55-4a03-4045-9db7-2c8001b4b43c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 728.98 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Power{slash}Charging-VCC-Limited-Diode{slash}EN#"
+		(shape input)
+		(at 688.34 496.57 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ab3919f1-3f17-48eb-8dff-91fcc3a7d4a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 688.34 496.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18537,6 +18616,26 @@
 		(uuid "bb463da7-ed59-4709-8d8a-4fde61bce16a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 713.74 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-VCC-KICKSTART"
+		(shape output)
+		(at 681.99 434.34 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "bb46c504-18a4-4263-a4e5-279145110922")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 681.99 434.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18891,6 +18990,26 @@
 			)
 		)
 	)
+	(global_label "SCL_SLOW"
+		(shape input)
+		(at 520.7 48.26 270)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "d37024d0-e0bf-4a3f-a502-afe993fe67df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 520.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Power{slash}USBC-Diode{slash}EN#"
 		(shape input)
 		(at 72.39 167.64 180)
@@ -18973,6 +19092,26 @@
 			)
 		)
 	)
+	(global_label "SDA_FAST"
+		(shape input)
+		(at 549.91 48.26 270)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "e9c736eb-ea81-4fda-8ec8-db1b4154c67d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 549.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SBUS_RECEIVER"
 		(shape input)
 		(at 744.22 273.05 0)
@@ -19005,6 +19144,26 @@
 		(uuid "ea32913f-a306-445b-b435-a5d678a54833")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 690.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_SLOW"
+		(shape input)
+		(at 533.4 48.26 270)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "eb1d5568-94c2-451b-93dc-66b6258177de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 533.4 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19087,6 +19246,26 @@
 		(uuid "f6163575-e2be-4e2b-9e0e-096429d86c2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 720.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL_FAST"
+		(shape input)
+		(at 562.61 48.26 270)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "f79953b1-1016-485c-8357-8174074b3972")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 562.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22166,6 +22345,120 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:0603WAF4701T5E")
+		(at 520.7 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2940551d-cbef-4db9-b495-9634af6899ad")
+		(property "Reference" "R122"
+			(at 523.24 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 523.24 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 520.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF4701T5E/23889.html"
+			(at 520.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:4.7kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 520.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF4701T5E"
+			(at 520.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 520.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C23162"
+			(at 520.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 520.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.7kΩ ±1% 100mW 厚膜电阻"
+			(at 520.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f96d45f4-c9c2-4c4c-92d1-eda825c5597d")
+		)
+		(pin "2"
+			(uuid "841f713b-84c5-40c5-86c9-b5474277d257")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 464.82 0)
 		(unit 1)
@@ -22679,71 +22972,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC-KICKSTART")
-		(at 429.26 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "317259e6-459c-4745-969a-cd6456a45414")
-		(property "Reference" "#PWR036"
-			(at 429.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC-KICKSTART"
-			(at 429.514 68.834 90)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 429.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 429.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57fd460d-f092-4d1d-9740-02da85199c09")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -23616,6 +23844,120 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:0603WAF4701T5E")
+		(at 533.4 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "439cb541-0153-4fcb-beec-f8a6052049b4")
+		(property "Reference" "R122"
+			(at 535.94 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 535.94 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF4701T5E/23889.html"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:4.7kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF4701T5E"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C23162"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.7kΩ ±1% 100mW 厚膜电阻"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2616d1f2-209a-40b0-a161-7f9d848d9799")
+		)
+		(pin "1"
+			(uuid "125cc003-cc8d-4171-ade3-915270af944f")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -26972,6 +27314,120 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:0603WAF2201T5E")
+		(at 549.91 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73229cd2-b60f-4c74-9526-11b254f37db3")
+		(property "Reference" "R123"
+			(at 552.45 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "2.2kΩ"
+			(at 552.45 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistors Resistance:2.2kΩ Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF2201T5E"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C4190"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "2.2kΩ ±1% 100mW 厚膜电阻"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7cb988d-1e9f-4026-8323-f91088f3990c")
+		)
+		(pin "1"
+			(uuid "e8ccc0ee-092a-4cb3-9b15-d8307b15c666")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "R123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VP")
 		(at 129.54 354.33 0)
 		(unit 1)
@@ -29100,6 +29556,120 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:0603WAF2201T5E")
+		(at 562.61 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a2d3d89-a7f2-4528-bea1-a9bbd52b6850")
+		(property "Reference" "R123"
+			(at 565.15 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "2.2kΩ"
+			(at 565.15 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 562.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 562.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistors Resistance:2.2kΩ Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
+			(at 562.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF2201T5E"
+			(at 562.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 562.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C4190"
+			(at 562.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 562.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "2.2kΩ ±1% 100mW 厚膜电阻"
+			(at 562.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f88f9cd5-5904-4e8d-98ae-3e53e0b8dbe6")
+		)
+		(pin "2"
+			(uuid "56ff6637-60e3-4414-b104-2c9c678995c2")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "R123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:RLM25FEER005")
 		(at 519.43 308.61 0)
 		(unit 1)
@@ -29263,6 +29833,71 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:IN-CHARGING-VCC-USBC")
+		(at 227.33 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a18e8f59-b0fb-43ce-a712-7eaf9c6fee85")
+		(property "Reference" "#PWR0190"
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CHARGE_DIRECT"
+			(at 227.33 111.76 90)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b5f8d15-59fe-4163-9f5d-78a3a4ec6241")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -29609,122 +30244,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "F4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:SS36_C727061")
-		(at 429.26 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac0876d4-311a-430c-8b9d-2a7667a7ad60")
-		(property "Reference" "D6"
-			(at 431.8 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Value" "SS36"
-			(at 431.8 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:SMA_L4.4-W2.6-LS5.0-RD"
-			(at 429.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/SS36/774166.html"
-			(at 429.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Configuration:Independent Voltage - Forward(Vf@If):700mV@3A Voltage - DC Reverse(Vr):60V Current - Rectified:3A Reverse Leakage Current (Ir):500uA Operating Junction Temperature Range:-55°C~+125°C Operating Junction Temperature Range:-55°C~+125°C"
-			(at 429.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SS36"
-			(at 429.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TWGMC(迪嘉)"
-			(at 429.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C727061"
-			(at 429.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 429.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "电压:60V 电流:3A"
-			(at 429.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a907698-6070-4cb5-b7ae-6b558aef2218")
-		)
-		(pin "2"
-			(uuid "7330da11-4800-4ea9-b835-a27eabaa1da4")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -30514,6 +31033,71 @@
 			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "KAJFACE3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 542.29 16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b77a079b-52dd-410d-89dc-40fa52c71a9e")
+		(property "Reference" "#PWR0191"
+			(at 542.29 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 542.29 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 542.29 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 542.29 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power-5V"
+			(at 542.29 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "777d9669-e10d-4cef-8db3-58804370f1b9")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -32771,8 +33355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DC_BARREL_20V_PORT"
-			(at 419.1 65.532 90)
+		(property "Value" "USBC_OR_DC20"
+			(at 419.1 69.088 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -33649,8 +34233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "IN-CHARGING-VCC-USBC"
-			(at 423.926 62.992 90)
+		(property "Value" "CHARGE_DIRECT"
+			(at 424.18 68.58 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -35764,6 +36348,69 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 387.35 39.116)
+		(size 24.13 6.858)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "044ae6eb-f416-4b68-9d75-784bdd14fca8")
+		(property "Sheetname" "MicrocontrollerKickstart"
+			(at 387.35 38.4044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "21_Microcontroller-Interface.kicad_sch"
+			(at 387.35 46.5586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "in" input
+			(at 387.35 41.91 180)
+			(uuid "5ffb8884-9ce6-4f21-9685-c2ef773bcc52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 411.48 41.91 0)
+			(uuid "d54c39fb-5be8-4044-b98a-bf00e3bcd583")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "36")
 				)
 			)
 		)
