@@ -11443,10 +11443,6 @@
 		(uuid "f9733aba-7a6c-4c22-adda-b55a9b9bb5ca")
 	)
 	(no_connect
-		(at 601.98 114.3)
-		(uuid "2a74d3b8-bfe3-4c51-b883-ee2e70619f00")
-	)
-	(no_connect
 		(at 694.69 55.88)
 		(uuid "362b04f7-3027-42a2-9a77-be98a4093598")
 	)
@@ -11461,14 +11457,6 @@
 	(no_connect
 		(at 636.27 233.68)
 		(uuid "6459487c-9899-42d8-bafe-68b90bc2aed0")
-	)
-	(no_connect
-		(at 22.86 20.32)
-		(uuid "8981af3c-47f5-4fd5-b8b0-03206282b792")
-	)
-	(no_connect
-		(at 22.86 33.02)
-		(uuid "9be656b6-c637-49e2-a221-2f00014f904c")
 	)
 	(wire
 		(pts
@@ -16569,6 +16557,16 @@
 			(type default)
 		)
 		(uuid "ff83ef7a-567b-4982-8a5b-d7200a220c10")
+	)
+	(label "danger_rail"
+		(at 419.1 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "081a499e-d0c0-4090-854e-89b53d393035")
 	)
 	(label "VCC_ESC"
 		(at 613.41 229.87 0)
@@ -21972,6 +21970,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 22.86 20.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25859043-6cc8-4d19-a56f-5d60593586ab")
+		(property "Reference" "#PWR0189"
+			(at 22.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 15.494 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a6c8ccd-2074-4738-bb40-163d3247f4fd")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 751.84 472.44 270)
 		(unit 1)
@@ -26482,6 +26545,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 601.98 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6efcf157-748f-4a47-b208-4ce1602569ad")
+		(property "Reference" "#PWR0187"
+			(at 601.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 608.33 114.3 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 601.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 601.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 601.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6747bab1-f788-4f20-8766-aaddcfec2e53")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:PEWM3920F1L00K9")
 		(at 596.9 229.87 0)
 		(unit 1)
@@ -28330,6 +28458,71 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92f71b5d-25ec-4fea-97cc-51c8abf27be1")
+		(property "Reference" "#PWR0188"
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 37.846 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be90295e-c0a0-41a1-921f-2b2b149f3b1c")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -30272,7 +30465,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b669347f-b130-4df2-a78e-68bf4eb6f222")
 		(property "Reference" "KAJFACE3"
 			(at 60.96 574.0399 0)
@@ -30293,7 +30485,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:kaj"
-			(at 59.69 575.31 0)
+			(at 56.896 578.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
