@@ -10886,6 +10886,12 @@
 		(uuid "33f58793-6090-42fa-b988-27336c8cd60d")
 	)
 	(junction
+		(at 196.85 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34859fb4-da8e-4581-b75c-d8853b42ff84")
+	)
+	(junction
 		(at 151.13 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11556,6 +11562,16 @@
 			(type default)
 		)
 		(uuid "0845b08a-b6e0-4c8f-8d39-ae5c6caf84f9")
+	)
+	(wire
+		(pts
+			(xy 196.85 21.59) (xy 379.73 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08db8685-faae-4499-9eff-ba556a147f38")
 	)
 	(wire
 		(pts
@@ -14839,6 +14855,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 21.59) (xy 379.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa36265-1e69-4a3a-87fa-4b2507982325")
+	)
+	(wire
+		(pts
 			(xy 732.79 488.95) (xy 730.25 488.95)
 		)
 		(stroke
@@ -14876,16 +14902,6 @@
 			(type default)
 		)
 		(uuid "b1bd000d-d7f7-469c-a6c3-899f61f4f68e")
-	)
-	(wire
-		(pts
-			(xy 383.54 41.91) (xy 387.35 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1c3a3d2-4e81-4892-9207-e8f977542df2")
 	)
 	(wire
 		(pts
@@ -15596,6 +15612,16 @@
 			(type default)
 		)
 		(uuid "d288deed-63e8-44ad-afd6-b7d56310882b")
+	)
+	(wire
+		(pts
+			(xy 379.73 41.91) (xy 387.35 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38b34f7-ec3b-4a04-98b9-dce95657b014")
 	)
 	(wire
 		(pts
@@ -16849,26 +16875,6 @@
 		(uuid "0ef5a41f-cf76-4afa-8b8e-3efb46a21c28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 681.99 416.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape input)
-		(at 383.54 41.91 180)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "0f82489c-af63-48ec-b178-126d0dd14b78")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.54 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21650,6 +21656,120 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:0603WAF4701T5E")
+		(at 533.4 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dc2ad5b-3226-4c41-8fcc-1d31a4f6f328")
+		(property "Reference" "R118"
+			(at 535.94 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 535.94 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF4701T5E/23889.html"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistor Resistance:4.7kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF4701T5E"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C23162"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "4.7kΩ ±1% 100mW 厚膜电阻"
+			(at 533.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2616d1f2-209a-40b0-a161-7f9d848d9799")
+		)
+		(pin "1"
+			(uuid "125cc003-cc8d-4171-ade3-915270af944f")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "R118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:XL-1608UBC-04")
 		(at 114.3 449.58 90)
 		(unit 1)
@@ -22353,7 +22473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2940551d-cbef-4db9-b495-9634af6899ad")
-		(property "Reference" "R122"
+		(property "Reference" "R117"
 			(at 523.24 40.64 90)
 			(effects
 				(font
@@ -22452,7 +22572,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "R122")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -23844,120 +23964,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:0603WAF4701T5E")
-		(at 533.4 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "439cb541-0153-4fcb-beec-f8a6052049b4")
-		(property "Reference" "R122"
-			(at 535.94 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "4.7kΩ"
-			(at 535.94 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 533.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF4701T5E/23889.html"
-			(at 533.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:4.7kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 533.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0603WAF4701T5E"
-			(at 533.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 533.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C23162"
-			(at 533.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 533.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "4.7kΩ ±1% 100mW 厚膜电阻"
-			(at 533.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2616d1f2-209a-40b0-a161-7f9d848d9799")
-		)
-		(pin "1"
-			(uuid "125cc003-cc8d-4171-ade3-915270af944f")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -27314,120 +27320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:0603WAF2201T5E")
-		(at 549.91 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73229cd2-b60f-4c74-9526-11b254f37db3")
-		(property "Reference" "R123"
-			(at 552.45 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "2.2kΩ"
-			(at 552.45 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 549.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 549.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistors Resistance:2.2kΩ Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
-			(at 549.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0603WAF2201T5E"
-			(at 549.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 549.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C4190"
-			(at 549.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 549.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "2.2kΩ ±1% 100mW 厚膜电阻"
-			(at 549.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7cb988d-1e9f-4026-8323-f91088f3990c")
-		)
-		(pin "1"
-			(uuid "e8ccc0ee-092a-4cb3-9b15-d8307b15c666")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "R123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5VP")
 		(at 129.54 354.33 0)
 		(unit 1)
@@ -29564,7 +29456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a2d3d89-a7f2-4528-bea1-a9bbd52b6850")
-		(property "Reference" "R123"
+		(property "Reference" "R120"
 			(at 565.15 40.64 90)
 			(effects
 				(font
@@ -29663,7 +29555,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "R123")
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -34145,6 +34037,120 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5v rail sm-easyedapro:0603WAF2201T5E")
+		(at 549.91 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e03089e8-8b41-49f7-8533-712dc2484251")
+		(property "Reference" "R119"
+			(at 552.45 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "2.2kΩ"
+			(at 552.45 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistors Resistance:2.2kΩ Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature Range:-55°C~+155°C Operating Temperature Range:-55°C~+155°C"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF2201T5E"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C4190"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "2.2kΩ ±1% 100mW 厚膜电阻"
+			(at 549.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7cb988d-1e9f-4026-8323-f91088f3990c")
+		)
+		(pin "1"
+			(uuid "e8ccc0ee-092a-4cb3-9b15-d8307b15c666")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "R119")
 					(unit 1)
 				)
 			)
