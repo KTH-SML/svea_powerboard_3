@@ -3041,162 +3041,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:MMSZ4685T1G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "5v rail sm-easyedapro:SOD-123_L2.8-W1.8-LS3.7-RD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/MMSZ4685T1G/67973.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode Configuration:Independent Zener Voltage(Nom):3.6V Reverse Leakage Current (Ir):7.5uA@2V Zener Voltage(Range):3.42V~3.78V Zener Voltage(Range):3.42V~3.78V Pd - Power Dissipation:500mW Impedance(Zzt):- Operating Junction Temperature Range:-55°C~+150°C O"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "MMSZ4685T1G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "onsemi(安森美)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C66886"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "独立式 耐压:3.6V 电流:7.5uA@2V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMSZ4685T1G_1_0"
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -1.524 1.27) (xy -1.524 1.27) (xy -1.524 -1.27) (xy -1.524 -1.27) (xy -0.508 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.524) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:Power-5V"
 			(power)
 			(pin_numbers
@@ -4066,12 +3910,6 @@
 		(uuid "08bf3b26-d272-47c6-b978-31d8347cfbc7")
 	)
 	(junction
-		(at 78.74 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ceec865-049f-418c-87df-9ada5a6e90bd")
-	)
-	(junction
 		(at 184.15 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4096,12 +3934,6 @@
 		(uuid "1f492085-403d-49f3-aeeb-1cdf478956e8")
 	)
 	(junction
-		(at 78.74 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2021b9bc-c10d-4533-a48e-623d59cfb555")
-	)
-	(junction
 		(at 295.91 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4118,12 +3950,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bffe600-835b-4caa-9183-6d3c0e3e2575")
-	)
-	(junction
-		(at 99.06 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "340d4c23-9b6e-479f-8cbe-44d0637cb23b")
 	)
 	(junction
 		(at 201.93 72.39)
@@ -4208,6 +4034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8b278fa-336d-435f-acbb-f020e30b59c6")
+	)
+	(junction
+		(at 78.74 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d21879f2-1a91-49f3-a37a-3b9011d0a5a5")
 	)
 	(junction
 		(at 201.93 73.66)
@@ -4307,16 +4139,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 137.16) (xy 111.76 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f99da65-fbfd-46d8-8fd0-6a9668f3e773")
-	)
-	(wire
-		(pts
 			(xy 78.74 60.96) (xy 78.74 55.88)
 		)
 		(stroke
@@ -4367,7 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 124.46) (xy 99.06 118.11)
+			(xy 78.74 102.87) (xy 78.74 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4607,16 +4429,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 137.16) (xy 78.74 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "505a4907-2a95-4b5c-a9d1-1be1907217a6")
-	)
-	(wire
-		(pts
 			(xy 236.22 77.47) (xy 242.57 77.47)
 		)
 		(stroke
@@ -4697,7 +4509,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 132.08) (xy 99.06 137.16)
+			(xy 78.74 132.08) (xy 78.74 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4714,6 +4526,16 @@
 			(type default)
 		)
 		(uuid "6962cea3-0a1c-421d-9797-c2a4da31dfba")
+	)
+	(wire
+		(pts
+			(xy 78.74 137.16) (xy 111.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6f4414-ee45-475e-aeaa-ea9fb27d759f")
 	)
 	(wire
 		(pts
@@ -4744,16 +4566,6 @@
 			(type default)
 		)
 		(uuid "6ee41428-906c-4c2c-a5c0-c9565a3a5dff")
-	)
-	(wire
-		(pts
-			(xy 78.74 137.16) (xy 99.06 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f912af1-ce70-4720-bc76-a60f64ec23e5")
 	)
 	(wire
 		(pts
@@ -4797,16 +4609,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 133.35) (xy 78.74 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e32a5f-c141-4e37-b6d3-bb36ab7cb368")
-	)
-	(wire
-		(pts
 			(xy 238.76 100.33) (xy 236.22 100.33)
 		)
 		(stroke
@@ -4817,16 +4619,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 118.11) (xy 78.74 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78b336a6-65f7-41c2-a526-3ad5809fbeca")
-	)
-	(wire
-		(pts
 			(xy 236.22 97.79) (xy 238.76 97.79)
 		)
 		(stroke
@@ -4834,16 +4626,6 @@
 			(type default)
 		)
 		(uuid "7b94ab6a-e998-401a-ba00-8e1b816c8968")
-	)
-	(wire
-		(pts
-			(xy 78.74 118.11) (xy 99.06 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c2e5b53-18ef-4ef1-b708-b458be17c3f5")
 	)
 	(wire
 		(pts
@@ -5037,16 +4819,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 133.35) (xy 60.96 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97e1a5c1-4f8f-4509-a3d1-83cfc795b922")
-	)
-	(wire
-		(pts
 			(xy 49.53 55.88) (xy 54.61 55.88)
 		)
 		(stroke
@@ -5174,26 +4946,6 @@
 			(type default)
 		)
 		(uuid "af32121c-6fa4-424b-bd48-745ee560dd6f")
-	)
-	(wire
-		(pts
-			(xy 60.96 123.19) (xy 60.96 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aff7a635-5720-4bd7-a53a-a8a6c5c3c82d")
-	)
-	(wire
-		(pts
-			(xy 78.74 118.11) (xy 78.74 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2f6b899-a89c-4910-a546-a52248c7be42")
 	)
 	(wire
 		(pts
@@ -5354,16 +5106,6 @@
 			(type default)
 		)
 		(uuid "ce4c50d3-a7a0-4281-a32b-dab25ea3af3e")
-	)
-	(wire
-		(pts
-			(xy 78.74 102.87) (xy 78.74 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb1f3ae-a613-4470-bcf4-69d3cb8e8eaf")
 	)
 	(wire
 		(pts
@@ -6157,127 +5899,6 @@
 			(project "18_Battery-BMS"
 				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
 					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:MMSZ4685T1G")
-		(at 60.96 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16d22491-8613-4fa1-b24a-9c559602a233")
-		(property "Reference" "D19"
-			(at 64.77 128.27 90)
-			(effects
-				(font
-					(size 1.0414 1.0414)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MMSZ4685T1G"
-			(at 64.77 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:SOD-123_L2.8-W1.8-LS3.7-RD"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/MMSZ4685T1G/67973.html"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Configuration:Independent Zener Voltage(Nom):3.6V Reverse Leakage Current (Ir):7.5uA@2V Zener Voltage(Range):3.42V~3.78V Zener Voltage(Range):3.42V~3.78V Pd - Power Dissipation:500mW Impedance(Zzt):- Operating Junction Temperature Range:-55°C~+150°C O"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "MMSZ4685T1G"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi(安森美)"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C66886"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "独立式 耐压:3.6V 电流:7.5uA@2V"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "45ec0b42-b41a-4b01-9cf8-f3ab3690413e")
-		)
-		(pin "1"
-			(uuid "4426c83e-32ac-47e4-a75f-0a4ef5e2b3bd")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-			(project "18_Battery-BMS"
-				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7401,7 +7022,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB224")
-		(at 99.06 128.27 90)
+		(at 78.74 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7409,7 +7030,7 @@
 		(dnp no)
 		(uuid "5c3442bd-7cbf-4abc-a4cc-9417e8f6c51d")
 		(property "Reference" "C112"
-			(at 102.87 129.54 90)
+			(at 82.55 129.54 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -7418,7 +7039,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 102.87 132.08 90)
+			(at 82.55 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +7048,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:C0603"
-			(at 99.06 128.27 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7057,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
-			(at 99.06 128.27 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7066,7 @@
 			)
 		)
 		(property "Description" "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
-			(at 99.06 128.27 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +7075,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0603KRX7R9BB224"
-			(at 99.06 128.27 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +7084,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 99.06 128.27 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,7 +7093,7 @@
 			)
 		)
 		(property "Supplier Part" "C107083"
-			(at 99.06 128.27 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7102,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 99.06 128.27 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +7111,7 @@
 			)
 		)
 		(property "LCSC Part Name" "220nF ±10% 50V"
-			(at 99.06 128.27 0)
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,126 +7977,6 @@
 			(project "18_Battery-BMS"
 				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:BAT46W-7-F")
-		(at 78.74 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd601dcc-4df6-4977-bf49-95cce1261985")
-		(property "Reference" "D20"
-			(at 81.28 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "BAT46W-7-F"
-			(at 81.28 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:SOD-123_L2.8-W1.8-LS3.7-RD"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/BAT46W-7-F/84316.html"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage - Forward(Vf@If):450mV@10mA Voltage - DC Reverse(Vr):100V Current - Rectified:150mA Reverse Leakage Current (Ir):2uA@75V Operating Junction Temperature Range:-55°C~+125°C Operating Junction Temperature Range:-55°C~+125°C Non-Repetitive Peak Forward Su"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "BAT46W-7-F"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DIODES(美台)"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C83152"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "电压:100V 电流:150mA"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e391319a-1c29-4dcf-be9b-888f6a9da8b4")
-		)
-		(pin "2"
-			(uuid "3a49c294-c592-4bc6-a460-a8398bfe1bd6")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-			(project "18_Battery-BMS"
-				(path "/b9b7f73f-cb52-47ea-ac09-ed294c102a34"
-					(reference "D?")
 					(unit 1)
 				)
 			)
