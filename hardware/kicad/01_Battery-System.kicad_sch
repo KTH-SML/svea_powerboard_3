@@ -11029,7 +11029,7 @@
 	)
 	(text "4.5mA\n"
 		(exclude_from_sim no)
-		(at 272.034 51.816 0)
+		(at 236.474 448.056 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11539,7 +11539,7 @@
 		(uuid "bf6a59c0-061a-4fe0-a3af-8e0320225d79")
 	)
 	(junction
-		(at 284.48 82.55)
+		(at 248.92 478.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c00af471-b51b-4144-b523-1f03e718060e")
@@ -12104,7 +12104,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 82.55) (xy 279.4 82.55)
+			(xy 248.92 478.79) (xy 243.84 478.79)
 		)
 		(stroke
 			(width 0)
@@ -12254,7 +12254,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 82.55) (xy 289.56 82.55)
+			(xy 248.92 478.79) (xy 254 478.79)
 		)
 		(stroke
 			(width 0)
@@ -12854,7 +12854,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 38.1) (xy 279.4 41.91)
+			(xy 243.84 434.34) (xy 243.84 438.15)
 		)
 		(stroke
 			(width 0)
@@ -13574,7 +13574,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 96.52) (xy 424.18 99.06)
+			(xy 424.18 83.82) (xy 424.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13961,16 +13961,6 @@
 			(type default)
 		)
 		(uuid "6a5ff2f9-bfdb-4add-a374-48b44c5f36c5")
-	)
-	(wire
-		(pts
-			(xy 361.95 223.52) (xy 367.03 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b9dc3a6-d9b0-46f1-bfcd-d37cffc07add")
 	)
 	(wire
 		(pts
@@ -14384,7 +14374,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 81.28) (xy 424.18 86.36)
+			(xy 424.18 68.58) (xy 424.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14444,7 +14434,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 82.55) (xy 289.56 80.01)
+			(xy 254 478.79) (xy 254 476.25)
 		)
 		(stroke
 			(width 0)
@@ -14584,7 +14574,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 82.55) (xy 279.4 69.85)
+			(xy 243.84 478.79) (xy 243.84 466.09)
 		)
 		(stroke
 			(width 0)
@@ -15074,7 +15064,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 64.77) (xy 289.56 69.85)
+			(xy 254 461.01) (xy 254 466.09)
 		)
 		(stroke
 			(width 0)
@@ -15784,7 +15774,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 82.55) (xy 284.48 86.36)
+			(xy 248.92 478.79) (xy 248.92 482.6)
 		)
 		(stroke
 			(width 0)
@@ -16194,7 +16184,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 96.52) (xy 419.1 99.06)
+			(xy 419.1 83.82) (xy 419.1 99.06)
 		)
 		(stroke
 			(width 0)
@@ -16784,7 +16774,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 64.77) (xy 289.56 64.77)
+			(xy 251.46 461.01) (xy 254 461.01)
 		)
 		(stroke
 			(width 0)
@@ -16954,7 +16944,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 81.28) (xy 419.1 86.36)
+			(xy 419.1 68.58) (xy 419.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -18085,7 +18075,7 @@
 	)
 	(global_label "BQ{slash}ALERT"
 		(shape input)
-		(at 289.56 64.77 0)
+		(at 254 461.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18095,7 +18085,7 @@
 		)
 		(uuid "58024a32-2446-46f7-84be-99a9f6f571b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.9598 64.77 0)
+			(at 269.3998 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18403,28 +18393,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Power{slash}12V-Diode{slash}EN#"
-		(shape input)
-		(at 361.95 223.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.5748 1.5748)
-			)
-			(justify right)
-		)
-		(uuid "77876623-8aa4-4dc8-a52d-d6891ff956e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.5022 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -21379,7 +21347,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:FRC0603J104 TS")
-		(at 289.56 74.93 270)
+		(at 254 471.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21387,7 +21355,7 @@
 		(dnp no)
 		(uuid "1a3e970b-e789-4c22-8ec3-ed6b1b4b8a1c")
 		(property "Reference" "R21"
-			(at 292.1 74.93 90)
+			(at 256.54 471.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21396,7 +21364,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 292.1 77.47 90)
+			(at 256.54 473.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21405,7 +21373,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 289.56 74.93 0)
+			(at 254 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21414,7 +21382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 74.93 0)
+			(at 254 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21423,7 +21391,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±5% Tolerance:±5% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 289.56 74.93 0)
+			(at 254 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21432,7 +21400,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0603J104 TS"
-			(at 289.56 74.93 0)
+			(at 254 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21441,7 +21409,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 289.56 74.93 0)
+			(at 254 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21450,7 +21418,7 @@
 			)
 		)
 		(property "Supplier Part" "C2907088"
-			(at 289.56 74.93 0)
+			(at 254 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21459,7 +21427,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 289.56 74.93 0)
+			(at 254 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21468,7 +21436,7 @@
 			)
 		)
 		(property "LCSC Part Name" "100kΩ ±5% 100mW 厚膜电阻"
-			(at 289.56 74.93 0)
+			(at 254 471.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23111,7 +23079,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:SS36_C727061")
-		(at 424.18 91.44 90)
+		(at 424.18 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23119,7 +23087,7 @@
 		(dnp no)
 		(uuid "2bfb74b6-abe2-4fa5-bb40-f6e6d7c66346")
 		(property "Reference" "D5"
-			(at 426.72 91.44 90)
+			(at 426.72 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23129,7 +23097,7 @@
 			)
 		)
 		(property "Value" "SS36"
-			(at 426.72 93.98 90)
+			(at 426.72 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23139,7 +23107,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:SMA_L4.4-W2.6-LS5.0-RD"
-			(at 424.18 91.44 0)
+			(at 424.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23148,7 +23116,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SS36/774166.html"
-			(at 424.18 91.44 0)
+			(at 424.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23157,7 +23125,7 @@
 			)
 		)
 		(property "Description" "Diode Configuration:Independent Voltage - Forward(Vf@If):700mV@3A Voltage - DC Reverse(Vr):60V Current - Rectified:3A Reverse Leakage Current (Ir):500uA Operating Junction Temperature Range:-55°C~+125°C Operating Junction Temperature Range:-55°C~+125°C"
-			(at 424.18 91.44 0)
+			(at 424.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23166,7 +23134,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SS36"
-			(at 424.18 91.44 0)
+			(at 424.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23175,7 +23143,7 @@
 			)
 		)
 		(property "Manufacturer" "TWGMC(迪嘉)"
-			(at 424.18 91.44 0)
+			(at 424.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23184,7 +23152,7 @@
 			)
 		)
 		(property "Supplier Part" "C727061"
-			(at 424.18 91.44 0)
+			(at 424.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23193,7 +23161,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 424.18 91.44 0)
+			(at 424.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23202,7 +23170,7 @@
 			)
 		)
 		(property "LCSC Part Name" "电压:60V 电流:3A"
-			(at 424.18 91.44 0)
+			(at 424.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26855,7 +26823,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:SS36_C727061")
-		(at 419.1 91.44 90)
+		(at 419.1 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26863,7 +26831,7 @@
 		(dnp no)
 		(uuid "6b3dd453-8a42-4ef7-ba2b-28aa791286c3")
 		(property "Reference" "D4"
-			(at 411.734 93.218 0)
+			(at 411.734 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26873,7 +26841,7 @@
 			)
 		)
 		(property "Value" "SS36"
-			(at 414.274 93.218 0)
+			(at 414.274 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26883,7 +26851,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:SMA_L4.4-W2.6-LS5.0-RD"
-			(at 419.1 91.44 0)
+			(at 419.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26892,7 +26860,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/SS36/774166.html"
-			(at 419.1 91.44 0)
+			(at 419.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26901,7 +26869,7 @@
 			)
 		)
 		(property "Description" "Diode Configuration:Independent Voltage - Forward(Vf@If):700mV@3A Voltage - DC Reverse(Vr):60V Current - Rectified:3A Reverse Leakage Current (Ir):500uA Operating Junction Temperature Range:-55°C~+125°C Operating Junction Temperature Range:-55°C~+125°C"
-			(at 419.1 91.44 0)
+			(at 419.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26910,7 +26878,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SS36"
-			(at 419.1 91.44 0)
+			(at 419.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26919,7 +26887,7 @@
 			)
 		)
 		(property "Manufacturer" "TWGMC(迪嘉)"
-			(at 419.1 91.44 0)
+			(at 419.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26928,7 +26896,7 @@
 			)
 		)
 		(property "Supplier Part" "C727061"
-			(at 419.1 91.44 0)
+			(at 419.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26937,7 +26905,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 419.1 91.44 0)
+			(at 419.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26946,7 +26914,7 @@
 			)
 		)
 		(property "LCSC Part Name" "电压:60V 电流:3A"
-			(at 419.1 91.44 0)
+			(at 419.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27515,7 +27483,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 279.4 38.1 0)
+		(at 243.84 434.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27523,7 +27491,7 @@
 		(dnp no)
 		(uuid "730274e0-7350-425a-b21f-1d724f76004b")
 		(property "Reference" "#PWR063"
-			(at 279.4 38.1 0)
+			(at 243.84 434.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27532,7 +27500,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 279.4 34.29 0)
+			(at 243.84 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27540,7 +27508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 38.1 0)
+			(at 243.84 434.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27549,7 +27517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 38.1 0)
+			(at 243.84 434.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27558,7 +27526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 279.4 38.1 0)
+			(at 243.84 434.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30838,7 +30806,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:XL-1608UOC-06")
-		(at 279.4 54.61 90)
+		(at 243.84 450.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30847,7 +30815,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1e43bdc-410a-4a3a-bd27-b09250232d6d")
 		(property "Reference" "LED9"
-			(at 281.94 54.1019 90)
+			(at 246.38 450.3419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30856,7 +30824,7 @@
 			)
 		)
 		(property "Value" "XL-1608UOC-06"
-			(at 281.94 56.6419 90)
+			(at 246.38 452.8819 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30865,7 +30833,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:XL-1608UOC-06"
-			(at 279.4 54.61 0)
+			(at 243.84 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30874,7 +30842,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hubei-KENTO-Elec-0603-Green_C12624.html"
-			(at 279.4 54.61 0)
+			(at 243.84 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30883,7 +30851,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 54.61 0)
+			(at 243.84 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30892,7 +30860,7 @@
 			)
 		)
 		(property "LCSC" "C965800"
-			(at 279.4 54.61 0)
+			(at 243.84 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30901,7 +30869,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 279.4 54.61 0)
+			(at 243.84 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30910,7 +30878,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XL-1608UOC-06"
-			(at 279.4 54.61 0)
+			(at 243.84 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33620,7 +33588,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:L2N7002SLLT1G")
-		(at 279.4 64.77 0)
+		(at 243.84 461.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33629,7 +33597,7 @@
 		(dnp no)
 		(uuid "d4ff9f83-3d72-4fdc-86e3-f8d288a139bf")
 		(property "Reference" "Q3"
-			(at 275.082 62.738 0)
+			(at 239.522 458.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33638,7 +33606,7 @@
 			)
 		)
 		(property "Value" "L2N7002SLLT1G"
-			(at 275.082 65.278 0)
+			(at 239.522 461.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33647,7 +33615,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
-			(at 279.4 64.77 0)
+			(at 243.84 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33656,7 +33624,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240529/804683F6F610BC810C43B61F364F3FCA.pdf"
-			(at 279.4 64.77 0)
+			(at 243.84 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33665,7 +33633,7 @@
 			)
 		)
 		(property "Description" "Type:1 N-channel Drain to Source Voltage:60V Current - Continuous Drain(Id): RDS(on):2.8Ω@10V,500mA Pd - Power Dissipation:300mW Gate Threshold Voltage (Vgs(th)@Id):- Gate Charge(Qg):440pC@4.5V Input Capacitance(Ciss@Vds):35pF@25V Reverse Transfer Capacit"
-			(at 279.4 64.77 0)
+			(at 243.84 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33674,7 +33642,7 @@
 			)
 		)
 		(property "Manufacturer Part" "L2N7002SLLT1G"
-			(at 279.4 64.77 0)
+			(at 243.84 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33683,7 +33651,7 @@
 			)
 		)
 		(property "Manufacturer" "LRC(乐山无线电)"
-			(at 279.4 64.77 0)
+			(at 243.84 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33692,7 +33660,7 @@
 			)
 		)
 		(property "Supplier Part" "C22446827"
-			(at 279.4 64.77 0)
+			(at 243.84 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33701,7 +33669,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 279.4 64.77 0)
+			(at 243.84 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33710,7 +33678,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1个N沟道 耐压:60V 电流:380mA"
-			(at 279.4 64.77 0)
+			(at 243.84 461.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33854,7 +33822,7 @@
 	)
 	(symbol
 		(lib_id "power:IN-CHARGING-VCC-USBC")
-		(at 419.1 81.28 0)
+		(at 419.1 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33862,7 +33830,7 @@
 		(dnp no)
 		(uuid "d882775c-900d-4dbb-a10f-0ecadffd86c4")
 		(property "Reference" "#PWR034"
-			(at 419.1 81.28 0)
+			(at 419.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33871,7 +33839,7 @@
 			)
 		)
 		(property "Value" "USBC_OR_DC20"
-			(at 419.1 69.088 90)
+			(at 419.1 56.388 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -33879,7 +33847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 419.1 81.28 0)
+			(at 419.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33888,7 +33856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 419.1 81.28 0)
+			(at 419.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33897,7 +33865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 419.1 81.28 0)
+			(at 419.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34416,7 +34384,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 279.4 45.72 0)
+		(at 243.84 441.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34425,7 +34393,7 @@
 		(fields_autoplaced yes)
 		(uuid "de5c1f00-9fcb-43f5-98b1-169fc05c20bf")
 		(property "Reference" "R20"
-			(at 281.94 44.4499 0)
+			(at 246.38 440.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34434,7 +34402,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 281.94 46.9899 0)
+			(at 246.38 443.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34443,7 +34411,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 277.622 45.72 90)
+			(at 242.062 441.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34452,7 +34420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 279.4 45.72 0)
+			(at 243.84 441.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34461,7 +34429,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 279.4 45.72 0)
+			(at 243.84 441.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34846,7 +34814,7 @@
 	)
 	(symbol
 		(lib_id "power:IN-CHARGING-VCC-USBC")
-		(at 424.18 81.28 0)
+		(at 424.18 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34854,7 +34822,7 @@
 		(dnp no)
 		(uuid "e270ae13-222d-4a91-a6ad-9e3504b09b8b")
 		(property "Reference" "#PWR032"
-			(at 424.18 81.28 0)
+			(at 424.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34863,7 +34831,7 @@
 			)
 		)
 		(property "Value" "CHARGE_DIRECT"
-			(at 424.18 68.58 90)
+			(at 424.18 55.88 90)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -34871,7 +34839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 424.18 81.28 0)
+			(at 424.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34880,7 +34848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 424.18 81.28 0)
+			(at 424.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34889,7 +34857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 424.18 81.28 0)
+			(at 424.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36655,7 +36623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 284.48 86.36 0)
+		(at 248.92 482.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36664,7 +36632,7 @@
 		(dnp no)
 		(uuid "fb15ea63-95db-4ca1-ba93-0a0f77fc18fc")
 		(property "Reference" "#PWR062"
-			(at 284.48 86.36 0)
+			(at 248.92 482.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36673,7 +36641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 92.71 0)
+			(at 248.92 488.95 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -36681,7 +36649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 86.36 0)
+			(at 248.92 482.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36690,7 +36658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 86.36 0)
+			(at 248.92 482.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36699,7 +36667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 86.36 0)
+			(at 248.92 482.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
