@@ -367,150 +367,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:FRC0603F3652TS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "36.5kΩ"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "5v rail sm-easyedapro:R0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Type:Thick Film Resistor Resistance:36.5kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "FRC0603F3652TS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "FOJAN(富捷)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C2930095"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "36.5kΩ ±1% 100mW 厚膜电阻"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FRC0603F3652TS_1_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:JER2512F3R007"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4372,6 +4228,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Reverse current protection, when current is less than \n0.83A mode is switched to prevent reverse current "
+		(exclude_from_sim no)
+		(at 227.076 128.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "245bf40d-3650-4f4d-a570-dc69e2cb0895")
+	)
 	(text "8.3A"
 		(exclude_from_sim no)
 		(at 255.27 73.66 0)
@@ -4393,6 +4259,17 @@
 			(justify left bottom)
 		)
 		(uuid "678f7dcc-2e14-44ea-83f1-927430a3f3de")
+	)
+	(text "7.1A"
+		(exclude_from_sim no)
+		(at 144.018 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79dffbbf-6e16-428d-a6e5-5c54389739ce")
 	)
 	(text "0x60"
 		(exclude_from_sim no)
@@ -4430,6 +4307,12 @@
 		(uuid "28cc1ec1-a678-499a-bedc-1d623ca27b31")
 	)
 	(junction
+		(at 138.43 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dced818-c62c-47e5-93fc-cb65a1e2ddf8")
+	)
+	(junction
 		(at 227.33 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4446,12 +4329,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f1e7095-7eb4-49dc-ae4b-6eb01bf52ede")
-	)
-	(junction
-		(at 86.36 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "703982e6-c55c-4c27-98d6-b005c82c6258")
 	)
 	(junction
 		(at 30.48 66.04)
@@ -4555,16 +4432,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 156.21 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0621be50-0748-4ca7-b6b6-d5f7a864e7da")
-	)
-	(wire
-		(pts
 			(xy 80.01 165.1) (xy 80.01 161.29)
 		)
 		(stroke
@@ -4575,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 71.12) (xy 87.63 71.12)
+			(xy 138.43 71.12) (xy 148.59 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4975,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 99.06) (xy 120.65 100.33)
+			(xy 120.65 99.06) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5185,7 +5052,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 66.04) (xy 86.36 66.04)
+			(xy 43.18 66.04) (xy 138.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5225,6 +5092,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 66.04) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6aa88c0-427d-489a-b73f-030ec31daa38")
+	)
+	(wire
+		(pts
 			(xy 64.77 142.24) (xy 64.77 147.32)
 		)
 		(stroke
@@ -5232,6 +5109,16 @@
 			(type default)
 		)
 		(uuid "baee3c26-edaf-44c4-b3b6-7511b965aaa0")
+	)
+	(wire
+		(pts
+			(xy 153.67 71.12) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb09b898-0149-4458-ba4e-0685774f531d")
 	)
 	(wire
 		(pts
@@ -5245,13 +5132,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 71.12) (xy 160.02 71.12)
+			(xy 151.13 66.04) (xy 156.21 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd77dcb8-2e6b-43a2-be9e-a19ecded1c69")
+		(uuid "c240c91b-3665-427e-8f8a-b5b9cd10ba0c")
 	)
 	(wire
 		(pts
@@ -5285,7 +5172,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 86.36 71.12)
+			(xy 138.43 66.04) (xy 138.43 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5572,6 +5459,16 @@
 			(justify left bottom)
 		)
 		(uuid "2436bc37-a9cd-478b-ae76-de7946623671")
+	)
+	(label "12vbuckvintochip"
+		(at 156.21 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ab3ea66-af50-40b9-94ee-e9e5cdd5d98d")
 	)
 	(global_label "Power/12V-Buck/IOUTMON"
 		(shape output)
@@ -6089,120 +5986,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
 					(reference "C1402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:FRC0603F3652TS")
-		(at 120.65 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b325030-20f1-41f4-8029-b8a9b7983404")
-		(property "Reference" "R109"
-			(at 123.19 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "36.5kΩ"
-			(at 123.19 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:R0603"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:36.5kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "FRC0603F3652TS"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2930095"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "36.5kΩ ±1% 100mW 厚膜电阻"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7186900b-b134-479a-b46f-254459f05164")
-		)
-		(pin "2"
-			(uuid "d657b9ec-21f0-4c4e-9a27-fdf419dc9d6d")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
-					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -6954,6 +6737,190 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:JER2512F3R007")
+		(at 146.05 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f517fd0-635c-4578-8461-9053ce5fb660")
+		(property "Reference" "R1404"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "7mΩ"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:R2512"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/JER2512F3R007/51553032.html"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Current Sense Resistor Resistance:7mΩ Tolerance:±1% Tolerance:±1% Power(Watts):3W Temperature Coefficient:±50ppm/°C Temperature Coefficient:±50ppm/°C"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "JER2512F3R007"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JIERR(捷而瑞)"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C49164689"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "7mΩ 3W 2512 ±1%"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ce5a9e4-d727-4557-9764-f477e69b1254")
+		)
+		(pin "1"
+			(uuid "77df6b57-4927-4896-a8ba-421467e43337")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
+					(reference "R1404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61d1a90c-84f5-4cde-adbf-cf5aec1503ed")
+		(property "Reference" "R1405"
+			(at 123.19 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "36.5kΩ"
+			(at 123.19 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 118.872 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "347a50f7-da13-4611-ab82-9fecaa9aaf69")
+		)
+		(pin "1"
+			(uuid "06546f6b-e6e1-4be4-b544-3eaa7ce24520")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
+					(reference "R1405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 162.56 0)
 		(unit 1)
@@ -7382,32 +7349,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 91.44 71.12 90)
+		(lib_id "Device:NetTie_2")
+		(at 151.13 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "99a201c6-7a7a-4c13-943b-d3c9f71faf43")
-		(property "Reference" "R108"
-			(at 96.52 68.072 90)
+		(fields_autoplaced yes)
+		(uuid "9ae5bb18-101e-423b-a2f2-4df954a5660c")
+		(property "Reference" "NT1401"
+			(at 151.13 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "0"
-			(at 96.52 70.104 90)
+		(property "Value" "NetTie_2"
+			(at 151.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.44 72.898 90)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.3mm"
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +7386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 71.12 0)
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7424,17 +7394,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 91.44 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 91.44 71.12 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,15 +7404,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7962ffa0-ec73-4315-9ef8-dcc357db8253")
+			(uuid "ed9c922b-8064-42f9-a89d-55973cdfe53a")
 		)
 		(pin "1"
-			(uuid "d7572440-8331-4c30-bbb6-08a2342d2ead")
+			(uuid "1ef0d227-44cb-4e61-b72d-b8629a6c3f8a")
 		)
 		(instances
-			(project "svea_powerboard_rev3"
+			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
-					(reference "R108")
+					(reference "NT1401")
 					(unit 1)
 				)
 			)
