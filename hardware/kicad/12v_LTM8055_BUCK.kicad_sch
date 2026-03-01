@@ -5,368 +5,6 @@
 	(uuid "5d7f83f7-62a1-4bd9-8027-a492dba47303")
 	(paper "A4")
 	(lib_symbols
-		(symbol "5v rail sm-easyedapro:CC0603KRX7R9BB104"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100nF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "5v rail sm-easyedapro:C0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "CC0603KRX7R9BB104"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C14663"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "100nF ±10% 50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CC0603KRX7R9BB104_1_0"
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "5v rail sm-easyedapro:CL10B105KB8NQNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1uF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "5v rail sm-easyedapro:C0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "CL10B105KB8NQNC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "SAMSUNG(三星)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C5199872"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "1uF ±10% 50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL10B105KB8NQNC_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:JER2512F3R007"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4432,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 165.1) (xy 80.01 161.29)
+			(xy 80.01 165.1) (xy 80.01 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4702,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 161.29) (xy 64.77 165.1)
+			(xy 64.77 158.75) (xy 64.77 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4742,7 +4380,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 124.46) (xy 180.34 129.54)
+			(xy 180.34 124.46) (xy 180.34 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4759,16 +4397,6 @@
 			(type default)
 		)
 		(uuid "6646fed3-742c-4e23-a9bd-ed089227b58c")
-	)
-	(wire
-		(pts
-			(xy 171.45 124.46) (xy 180.34 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66ade07f-351c-4911-ac1e-53021fcb49d9")
 	)
 	(wire
 		(pts
@@ -5382,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 124.46) (xy 156.21 124.46)
+			(xy 156.21 124.46) (xy 180.34 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7235,43 +6863,35 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:CL10B105KB8NQNC")
-		(at 80.01 156.21 90)
+		(lib_id "Device:C")
+		(at 64.77 154.94 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "993e535c-d620-4336-98e8-73918da59185")
-		(property "Reference" "C54"
-			(at 83.82 156.21 90)
+		(uuid "962a4b88-16cd-41ec-8bb3-44975922d46a")
+		(property "Reference" "C1406"
+			(at 60.96 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 83.82 158.75 90)
+		(property "Value" "100nF"
+			(at 60.96 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:C0603"
-			(at 80.01 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL10B105KB8NQNC/5885909.html"
-			(at 80.01 156.21 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 63.8048 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,8 +6899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 80.01 156.21 0)
+		(property "Datasheet" "~"
+			(at 64.77 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,61 +6908,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL10B105KB8NQNC"
-			(at 80.01 156.21 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 80.01 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C5199872"
-			(at 80.01 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 80.01 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1uF ±10% 50V"
-			(at 80.01 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "960511b1-33f2-4b78-8442-b27dfa78f6e9")
 		)
 		(pin "2"
-			(uuid "9f8d663b-ad3a-475b-b9b9-c4670e43dc6f")
+			(uuid "830c5e57-8c79-45ee-9441-eee46ea9f0ef")
+		)
+		(pin "1"
+			(uuid "0ae0cc0e-cc29-4b2d-aaed-a5592381bb49")
 		)
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
-					(reference "C54")
+					(reference "C1406")
 					(unit 1)
 				)
 			)
@@ -7483,6 +7067,76 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
 					(reference "C1403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdd612da-b054-415c-a41b-859d1c564133")
+		(property "Reference" "C1407"
+			(at 76.2 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 76.2 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 79.0448 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28e44570-bf08-4ff1-a405-27c8b8ae44b8")
+		)
+		(pin "1"
+			(uuid "cc2651c5-5b68-41b1-8a0d-118cb2266b09")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
+					(reference "C1407")
 					(unit 1)
 				)
 			)
@@ -7782,43 +7436,35 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
-		(at 64.77 156.21 90)
+		(lib_id "Device:C")
+		(at 180.34 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c6a6c733-4a1f-4cc5-bdc2-21f20d1c93be")
-		(property "Reference" "C53"
-			(at 68.58 156.21 90)
+		(fields_autoplaced yes)
+		(uuid "c968b619-3c76-46f5-bd6b-3791ed69a88c")
+		(property "Reference" "C1405"
+			(at 184.15 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 68.58 158.75 90)
+			(at 184.15 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:C0603"
-			(at 64.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
-			(at 64.77 156.21 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 181.3052 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,8 +7472,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 64.77 156.21 0)
+		(property "Datasheet" "~"
+			(at 180.34 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,44 +7481,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 64.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 64.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C14663"
-			(at 64.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 64.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100nF ±10% 50V"
-			(at 64.77 156.21 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,15 +7491,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f20708c2-002e-426c-852b-46c996d18ef6")
+			(uuid "8fdf367d-3158-4f49-bb45-872c387ba859")
 		)
 		(pin "1"
-			(uuid "48e97af4-d5a1-4e12-a779-13938abdbddc")
+			(uuid "c58ad762-9be3-49e2-a014-3f76b1011e48")
 		)
 		(instances
-			(project "svea_powerboard_rev3"
+			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
-					(reference "C53")
+					(reference "C1405")
 					(unit 1)
 				)
 			)
@@ -8026,120 +7636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
-		(at 180.34 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddc98445-431f-430c-a5e4-f18ef2971a3f")
-		(property "Reference" "C57"
-			(at 184.15 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100nF"
-			(at 184.15 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:C0603"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C14663"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100nF ±10% 50V"
-			(at 180.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "414edf1c-7127-4897-8a28-afd2b66cd0b6")
-		)
-		(pin "2"
-			(uuid "0a7b1c74-5747-4cf1-b447-f33c113f50b0")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
-					(reference "C57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:MCP4725A0T-E/CH")
 		(at 106.68 144.78 0)
 		(unit 1)
@@ -8260,75 +7756,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
 					(reference "U44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 166.37 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f25abe50-9822-4ba7-901c-998945234e44")
-		(property "Reference" "U46"
-			(at 166.37 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 166.37 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 166.37 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 166.37 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2adaaa45-b2ee-4aa7-b280-800967f5ec65")
-		)
-		(pin "1"
-			(uuid "dcee962d-e527-43f4-8582-b34a47215caf")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
-					(reference "U46")
 					(unit 1)
 				)
 			)
