@@ -3219,168 +3219,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:PWR263S-35-40R0J"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "40Ω"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "5v rail sm-easyedapro:TO-263-2_L10.1-W8.8-P5.08-LS15.4-TL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/PWR263S-35-40R0J/1446902.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Type:Thick Film Resistor Resistance:40Ω Tolerance:±5% Tolerance:±5% Power(Watts):35W Voltage-Supply(Max):- Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "PWR263S-35-40R0J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "BOURNS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C1356615"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "厚膜电阻 40Ω ±5% 35W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR263S-35-40R0J_1_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 2.54 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:Power-VCC"
 			(power)
 			(pin_numbers
@@ -4179,6 +4017,161 @@
 				)
 				(pin passive line
 					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:PWR263S-35-40R0J"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 4.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR263S-35-40R0J"
+				(at 0 -3.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:PWR263S-35-40R0J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_BOURNS-PWR263S-35-40R0J_C1356615.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 35W 40Ω Thick Film Resistor ±100ppm/℃ ±5% D2PAK Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1356615"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "BOURNS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "PWR263S-35-40R0J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BOURNS C1356615 PWR263S-35-40R0J TO-263-2_L10.1-W8.8-P5.08-LS15.4-TL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR263S-35-40R0J_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -5733,7 +5726,7 @@
 	)
 	(hierarchical_label "PACK+"
 		(shape output)
-		(at 170.18 238.76 0)
+		(at 170.18 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8157,6 +8150,105 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:PWR263S-35-40R0J")
+		(at 165.1 241.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73d977b7-1e49-4502-847d-1271319a4f21")
+		(property "Reference" "R3604"
+			(at 165.1 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR263S-35-40R0J"
+			(at 165.1 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:PWR263S-35-40R0J"
+			(at 165.1 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_BOURNS-PWR263S-35-40R0J_C1356615.pdf"
+			(at 165.1 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 35W 40Ω Thick Film Resistor ±100ppm/℃ ±5% D2PAK Chip Resistor - Surface Mount ROHS"
+			(at 165.1 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1356615"
+			(at 165.1 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(at 165.1 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PWR263S-35-40R0J"
+			(at 165.1 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b654c267-fa1f-4ceb-b096-cebbe5945e51")
+		)
+		(pin "1"
+			(uuid "fda43860-e736-4c32-9e75-db0acb9b96ac")
+		)
+		(pin "2"
+			(uuid "99d53ac5-b869-499b-99be-16a33d69b69a")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
+					(reference "R3604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:BSS123NH6327XTSA1_C5205497")
 		(at 269.24 64.77 180)
 		(unit 1)
@@ -9248,123 +9340,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
 					(reference "R203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:PWR263S-35-40R0J")
-		(at 165.1 238.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd571b1a-806a-42eb-92d3-59a278914efa")
-		(property "Reference" "R206"
-			(at 162.56 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "40Ω"
-			(at 162.56 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:TO-263-2_L10.1-W8.8-P5.08-LS15.4-TL"
-			(at 165.1 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/PWR263S-35-40R0J/1446902.html"
-			(at 165.1 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:40Ω Tolerance:±5% Tolerance:±5% Power(Watts):35W Voltage-Supply(Max):- Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 165.1 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PWR263S-35-40R0J"
-			(at 165.1 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "BOURNS"
-			(at 165.1 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C1356615"
-			(at 165.1 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 165.1 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "厚膜电阻 40Ω ±5% 35W"
-			(at 165.1 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9aaab557-c2f0-4942-978b-23d0e54b65b4")
-		)
-		(pin "3"
-			(uuid "f005d835-1bcb-4750-b46f-d93528f3a5e1")
-		)
-		(pin "2"
-			(uuid "0ba31919-3afe-422e-80de-f92fcfc852a0")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "R206")
 					(unit 1)
 				)
 			)
