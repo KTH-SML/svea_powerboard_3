@@ -1707,130 +1707,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Pin_Headers:PINHD_1x1_Male"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PINHD_1x1_Male"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Pin Header"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PINHD_1x1_Male_0_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PINHD_1x1_Male_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2059,106 +1935,10 @@
 		)
 	)
 	(junction
-		(at 50.8 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05e72b22-6732-409f-adb7-d139d17d1001")
-	)
-	(junction
-		(at 50.8 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ab3937f-4c02-4d44-8f2c-1fa855afdb94")
-	)
-	(junction
-		(at 50.8 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c6f748a-a764-4b36-910b-633f852a0f7f")
-	)
-	(junction
-		(at 50.8 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "205fd0e5-3f51-4104-ac0b-2e513d42b5d9")
-	)
-	(junction
-		(at 50.8 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dacb5b5-9100-49b6-b9fd-34f7df84061c")
-	)
-	(junction
-		(at 50.8 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ee47d4a-e747-4fbe-92d3-3d2a9a899de6")
-	)
-	(junction
-		(at 191.008 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "341ba8c3-7b41-4c67-bf19-0623c59d6ec8")
-	)
-	(junction
 		(at 162.56 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b4f3cbe-3697-483e-ab46-558b1c3ab5c5")
-	)
-	(junction
-		(at 50.8 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bb415f8-4b5b-444b-9fc6-b28e0b25b7ac")
-	)
-	(junction
-		(at 50.8 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41d95ead-eb60-4e6f-a8e8-040fd721906f")
-	)
-	(junction
-		(at 191.008 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51839b41-e89e-41de-b35a-182b12bf55b0")
-	)
-	(junction
-		(at 50.8 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59f2998e-8b1f-4ee4-949b-771b8fb6a2fc")
-	)
-	(junction
-		(at 50.8 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e0ac13c-5338-4d2b-b3fd-cbf4b4075539")
-	)
-	(junction
-		(at 50.8 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6557be73-9af4-4da1-bc85-eaae9f183a79")
-	)
-	(junction
-		(at 191.008 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d5046b5-72d1-4220-88ad-ca6b7177720d")
-	)
-	(junction
-		(at 191.008 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81ea4423-ef63-433c-b653-59c8292c4f56")
-	)
-	(junction
-		(at 191.008 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88e8fa51-3ebf-4016-a9c2-eafdd1e09ba7")
 	)
 	(junction
 		(at 162.56 62.23)
@@ -2167,74 +1947,16 @@
 		(uuid "88f201f8-eb1e-4f91-a35e-d2ced3e18d86")
 	)
 	(junction
-		(at 50.8 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a2107b3-ab16-4275-abc6-471cfae22b33")
-	)
-	(junction
-		(at 50.8 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad10aa58-1b33-49e7-b3b2-8c35bcc65080")
-	)
-	(junction
-		(at 50.8 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7f630f2-4141-48f2-8871-e1cdfe7150ea")
-	)
-	(junction
-		(at 50.8 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c61e0be7-1795-418a-ad4d-7973c2f09d2f")
-	)
-	(junction
 		(at 142.24 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cba46825-1c84-4221-895a-56c77001413b")
 	)
 	(junction
-		(at 191.008 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9fbad0c-e57b-4d50-9e8b-a697c222f436")
-	)
-	(junction
-		(at 50.8 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0fc2477-fe5b-4a6d-aad5-5dd04e305b95")
-	)
-	(junction
-		(at 191.008 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa872203-2b13-4be5-add2-10260bdac72c")
-	)
-	(junction
-		(at 191.008 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb95fe3c-c4e4-4d16-ba6b-680fdd9ba764")
-	)
-	(junction
 		(at 189.23 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fda6c977-8e73-404a-88cd-fa55048280d5")
-	)
-	(wire
-		(pts
-			(xy 191.008 109.22) (xy 208.28 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00119abf-7526-4104-9579-17736634b73f")
 	)
 	(wire
 		(pts
@@ -2278,16 +2000,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 101.6) (xy 68.58 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ad2b35-d5d3-4d94-88f4-20ad44a2b9f2")
-	)
-	(wire
-		(pts
 			(xy 99.06 93.98) (xy 104.14 93.98)
 		)
 		(stroke
@@ -2315,16 +2027,6 @@
 			(type default)
 		)
 		(uuid "246d562e-3a77-483e-b8ce-ead4cf49e07f")
-	)
-	(wire
-		(pts
-			(xy 182.88 106.68) (xy 191.008 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d80ac1-d962-4ee1-91fc-a90d94290db0")
 	)
 	(wire
 		(pts
@@ -2358,26 +2060,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 104.14) (xy 68.58 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c58812b-490e-49da-a673-19a805e5b512")
-	)
-	(wire
-		(pts
-			(xy 50.8 91.44) (xy 83.82 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e102af-ce08-49c8-ac66-dd8a76d37682")
-	)
-	(wire
-		(pts
 			(xy 147.32 78.74) (xy 147.32 73.66)
 		)
 		(stroke
@@ -2388,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 88.9) (xy 50.8 88.9)
+			(xy 36.83 88.9) (xy 83.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2398,23 +2080,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 91.44) (xy 50.8 91.44)
+			(xy 36.83 91.44) (xy 83.82 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d9d04c1-c81d-4576-b4fa-9cedbbecb0a1")
-	)
-	(wire
-		(pts
-			(xy 191.008 116.84) (xy 208.28 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e30e816-2421-4d41-a8d1-910e70499935")
 	)
 	(wire
 		(pts
@@ -2458,17 +2130,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 83.82) (xy 83.82 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479e7bc7-56af-4068-92a2-02f05550c74a")
-	)
-	(wire
-		(pts
-			(xy 36.83 93.98) (xy 50.8 93.98)
+			(xy 36.83 93.98) (xy 83.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 116.84) (xy 191.008 116.84)
+			(xy 182.88 116.84) (xy 208.28 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2528,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 104.14) (xy 191.008 104.14)
+			(xy 182.88 104.14) (xy 208.28 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2230,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 86.36) (xy 50.8 86.36)
+			(xy 36.83 86.36) (xy 83.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2598,26 +2260,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 111.76) (xy 191.008 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b62d220-8546-4b1b-be0f-6d984824cf1a")
-	)
-	(wire
-		(pts
-			(xy 50.8 109.22) (xy 68.58 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c966acf-acf6-49ed-97f4-2aceca65e08d")
-	)
-	(wire
-		(pts
 			(xy 139.7 88.9) (xy 189.23 88.9)
 		)
 		(stroke
@@ -2625,16 +2267,6 @@
 			(type default)
 		)
 		(uuid "5cef58ea-ce9f-4575-98e5-53dffa3c1f13")
-	)
-	(wire
-		(pts
-			(xy 191.008 99.06) (xy 208.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "617a9e5d-4a73-432b-ae7b-78fd0604435e")
 	)
 	(wire
 		(pts
@@ -2678,17 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 78.74) (xy 83.82 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f92117d-1cbe-44b4-8c8f-2d1dd82f92b3")
-	)
-	(wire
-		(pts
-			(xy 182.88 114.3) (xy 191.008 114.3)
+			(xy 182.88 114.3) (xy 208.28 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 104.14) (xy 50.8 104.14)
+			(xy 36.83 104.14) (xy 68.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2738,7 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 83.82) (xy 50.8 83.82)
+			(xy 36.83 83.82) (xy 83.82 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2758,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 191.008 99.06)
+			(xy 182.88 99.06) (xy 208.28 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 114.3) (xy 50.8 114.3)
+			(xy 36.83 114.3) (xy 68.58 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2808,17 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 81.28) (xy 83.82 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e2bf9f0-1446-40a0-905f-25458dd4307e")
-	)
-	(wire
-		(pts
-			(xy 36.83 111.76) (xy 50.8 111.76)
+			(xy 36.83 111.76) (xy 68.58 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2838,36 +2450,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 99.06) (xy 68.58 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4ba2124-661a-4a66-8dc9-58cfff16c2b1")
-	)
-	(wire
-		(pts
-			(xy 50.8 106.68) (xy 68.58 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8f2fe05-fb32-4b18-b04d-3598e157b858")
-	)
-	(wire
-		(pts
-			(xy 50.8 86.36) (xy 83.82 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acce6765-645b-4946-8e7b-0b6e31efb2ca")
-	)
-	(wire
-		(pts
 			(xy 139.7 78.74) (xy 147.32 78.74)
 		)
 		(stroke
@@ -2875,16 +2457,6 @@
 			(type default)
 		)
 		(uuid "b1d95791-5a3b-4c28-ac55-1613137e4e70")
-	)
-	(wire
-		(pts
-			(xy 182.88 101.6) (xy 191.008 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b49c8e8d-458a-40ea-bf8d-f86e84f3faf4")
 	)
 	(wire
 		(pts
@@ -2898,17 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 111.76) (xy 68.58 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5918771-77fb-4250-9c77-dd435adb6e9d")
-	)
-	(wire
-		(pts
-			(xy 36.83 96.52) (xy 50.8 96.52)
+			(xy 36.83 96.52) (xy 83.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2918,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 106.68) (xy 50.8 106.68)
+			(xy 36.83 106.68) (xy 68.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2938,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 109.22) (xy 50.8 109.22)
+			(xy 36.83 109.22) (xy 68.58 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2958,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.008 106.68) (xy 208.28 106.68)
+			(xy 182.88 106.68) (xy 208.28 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2978,16 +2540,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 114.3) (xy 68.58 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc9e676f-be04-4297-81c9-169200e7ffa0")
-	)
-	(wire
-		(pts
 			(xy 139.7 76.2) (xy 142.24 76.2)
 		)
 		(stroke
@@ -2995,16 +2547,6 @@
 			(type default)
 		)
 		(uuid "ccf9f6b2-095e-478a-9941-c4dee1548362")
-	)
-	(wire
-		(pts
-			(xy 50.8 88.9) (xy 83.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce7f8218-37f5-4164-9fa5-6f5dbaf7f820")
 	)
 	(wire
 		(pts
@@ -3018,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 101.6) (xy 50.8 101.6)
+			(xy 36.83 101.6) (xy 68.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3028,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.008 111.76) (xy 208.28 111.76)
+			(xy 182.88 111.76) (xy 208.28 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3048,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.008 101.6) (xy 208.28 101.6)
+			(xy 182.88 101.6) (xy 208.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3058,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 78.74) (xy 50.8 78.74)
+			(xy 36.83 78.74) (xy 83.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3078,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 99.06) (xy 50.8 99.06)
+			(xy 36.83 99.06) (xy 68.58 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3088,27 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.008 114.3) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6cbd0b8-85a3-4278-9dda-70d016916bc1")
-	)
-	(wire
-		(pts
-			(xy 50.8 96.52) (xy 83.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c8893b-8b99-4bf5-b355-b075cd8b1c2a")
-	)
-	(wire
-		(pts
-			(xy 36.83 81.28) (xy 50.8 81.28)
+			(xy 36.83 81.28) (xy 83.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3118,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 109.22) (xy 191.008 109.22)
+			(xy 182.88 109.22) (xy 208.28 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3138,37 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 93.98) (xy 83.82 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8be197b-c8fe-46c3-931a-e9f477c55f5a")
-	)
-	(wire
-		(pts
-			(xy 50.8 116.84) (xy 68.58 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb4bb4c9-345c-4e09-a22a-309f95b51f65")
-	)
-	(wire
-		(pts
-			(xy 191.008 104.14) (xy 208.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf25596-05d1-435e-8b76-ad461ef8fa1b")
-	)
-	(wire
-		(pts
-			(xy 36.83 116.84) (xy 50.8 116.84)
+			(xy 36.83 116.84) (xy 68.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3503,291 +2995,6 @@
 		(uuid "fc474de3-a3be-46d4-9ecb-9d00f3ca036d")
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1193fa2a-f270-4fd6-a73d-fbdca72decc7")
-		(property "Reference" "J316"
-			(at 47.115 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2099a079-8e32-4675-a8bc-7b6c6a4c0470")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3416")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J316")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bfbdb68-0123-4c6d-ad2f-64659f585401")
-		(property "Reference" "J314"
-			(at 47.115 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9631218d-5236-4d23-93ee-610e344cbd79")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3414")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J314")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 194.818 101.6 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c2b6bce-ac51-4673-93c3-90592b192357")
-		(property "Reference" "J318"
-			(at 194.693 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 194.693 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 196.088 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.818 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 194.818 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee8a48e9-652b-4cbf-8723-7ec25bc10b55")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3418")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J318")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ddca717-ec83-4a8e-9020-f79f0270c81d")
-		(property "Reference" "J308"
-			(at 47.115 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ececbd2-c190-4a65-a221-e504f227cf48")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3408")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:EXB2HV102JV")
 		(at 176.53 106.68 0)
 		(unit 1)
@@ -3931,150 +3138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 194.818 111.76 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e6842be-f4c5-47b6-908d-1602e31f48b1")
-		(property "Reference" "J322"
-			(at 194.693 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 194.693 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 196.088 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.818 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 194.818 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "792af13e-bd08-49e7-9915-02e1b4941ed3")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3422")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J322")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 194.818 106.68 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48c1e109-1490-4676-af38-bddf6d718301")
-		(property "Reference" "J320"
-			(at 194.693 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 194.693 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 196.088 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.818 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 194.818 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d50f923a-ed32-4d2b-a158-dea04a05d15f")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3420")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J320")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 144.78 81.28 270)
 		(unit 1)
@@ -4138,219 +3201,6 @@
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
 					(reference "#PWR0301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a9b670a-7016-4eff-85a0-a913a06d6dcf")
-		(property "Reference" "J313"
-			(at 47.115 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2179dec-00d9-479f-99de-165190f62f1e")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3413")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J313")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b9f8cc8-9637-4804-a89e-6c955e62e23b")
-		(property "Reference" "J302"
-			(at 47.115 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b9c16ac-0406-49e2-8485-45b486f94edb")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3402")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "626329ba-6650-419a-80df-f4d6125a6a7c")
-		(property "Reference" "J303"
-			(at 47.115 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99dd4a82-4314-48fa-8b79-dff20c8dfff1")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3403")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J303")
 					(unit 1)
 				)
 			)
@@ -4495,77 +3345,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b77d599-410e-4628-b779-8c6f5ca55c8b")
-		(property "Reference" "J301"
-			(at 47.115 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f48bc3b-b04c-44bf-8632-011237d7f136")
-		)
-		(instances
-			(project ""
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3401")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 96.52 90)
 		(unit 1)
@@ -4629,77 +3408,6 @@
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
 					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fde0ad8-d3c0-4532-aa18-1b02c389503f")
-		(property "Reference" "J315"
-			(at 47.115 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9eb1b94e-1f35-4dda-99d9-60caa5b69c9e")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3415")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J315")
 					(unit 1)
 				)
 			)
@@ -4943,361 +3651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fbe1d1f-57fe-40dc-8068-9045b12c55a3")
-		(property "Reference" "J305"
-			(at 47.115 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50d90772-3576-4da6-9f06-19e3b8679b99")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3405")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94e037d0-9121-4479-a2a9-12ac945c8979")
-		(property "Reference" "J304"
-			(at 47.115 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb4a7e64-36ed-4896-ad05-75e581148167")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3404")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b940002-c1a4-4b03-b313-fcd70bb5a82b")
-		(property "Reference" "J312"
-			(at 47.115 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b802082-2533-4317-bf36-0591444e4d1a")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3412")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J312")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a251a1f6-249f-4ce5-8049-5def06f7a581")
-		(property "Reference" "J306"
-			(at 47.115 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65dc1655-0384-4bdb-bc20-f903469240a7")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3406")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3ff9a94-2a63-44ed-a69b-ef10494a5f96")
-		(property "Reference" "J307"
-			(at 47.115 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00faacbe-d49d-450d-a7fa-e105da45533f")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3407")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:PCAL6524HEAZ")
 		(at 121.92 99.06 0)
 		(unit 1)
@@ -5504,507 +3857,6 @@
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
 					(reference "U90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0ded389-7c0f-45df-bea6-bbe734a60ea5")
-		(property "Reference" "J311"
-			(at 47.115 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f7cad31-e3fc-46fa-91ce-803eb81ff732")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3411")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 194.818 104.14 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3d9efc2-4992-437c-ac19-248d43076bd4")
-		(property "Reference" "J319"
-			(at 194.693 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 194.693 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 196.088 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.818 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 194.818 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b88f5561-4f28-4f49-a9e1-edd5e36c657d")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3419")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J319")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 194.818 109.22 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be46e407-ec5b-4ef6-bf40-c87177d17ddd")
-		(property "Reference" "J321"
-			(at 194.693 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 194.693 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 196.088 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.818 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 194.818 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33b68c5d-ece8-4d97-ab9b-8e6c2ce7f12a")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3421")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J321")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c213600b-764b-4b7a-a7bd-602211030bb6")
-		(property "Reference" "J309"
-			(at 47.115 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c2ceff6-da87-4e4b-9d5d-dafbaf90f423")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3409")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 46.99 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c453a7d8-125e-432f-aa4c-4b69d27a8949")
-		(property "Reference" "J310"
-			(at 47.115 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 47.115 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 45.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 46.99 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "320b4a62-0318-4895-bb56-bf58315f7c5a")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3410")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 194.818 99.06 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d364cd92-afeb-4fc4-9d7f-f16446cee87e")
-		(property "Reference" "J317"
-			(at 194.693 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 194.693 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 196.088 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.818 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 194.818 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ed9d05f-409e-44bd-9a53-bcbafa5a65b9")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3441")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 194.818 116.84 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e55c92c9-6870-46f0-ac88-766a9861f0fa")
-		(property "Reference" "J340"
-			(at 194.693 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 194.693 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 196.088 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.818 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 194.818 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f2eee49-90ec-4f49-8450-ae6bf862c7f6")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3424")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J340")
 					(unit 1)
 				)
 			)
@@ -6410,78 +4262,6 @@
 				)
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
 					(reference "U302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 194.818 114.3 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa1c45b5-27d4-4887-ad1d-faf47c8abe6a")
-		(property "Reference" "J339"
-			(at 194.693 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PINHD_1x1_Male"
-			(at 194.693 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 196.088 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.818 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 194.818 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fbae35b-c146-43fe-a72a-b2df9ede0f35")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea"
-					(reference "J3423")
-					(unit 1)
-				)
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c"
-					(reference "J339")
 					(unit 1)
 				)
 			)

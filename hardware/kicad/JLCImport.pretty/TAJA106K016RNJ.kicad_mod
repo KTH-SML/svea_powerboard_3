@@ -1,0 +1,236 @@
+(footprint "TAJA106K016RNJ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-55℃~+125℃ 10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS")
+	(tags "-- C7171 CAP-SMD_L3.2-W1.6-RD-C7171 TAJA106K016RNJ")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "a20b39e6-6611-4ce5-b78d-6263e14f5ea5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 1.876226 0)
+		(layer "F.Fab")
+		(uuid "297827ea-0c7f-48a3-8fd2-07aef7c36a40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Kyocera-AVX-TAJA106K016RNJ_C7171.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1126e4a6-0c4f-40c5-b8a9-c1ad8beaa4b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-55℃~+125℃ 10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33a4f2d6-3e40-4c98-a8a6-012b6efc9312")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C7171"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4c40088-408e-458b-9f77-462d5fd9a23f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -1.5)
+		(end -2 -1.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18a44d87-0b1e-4eb2-ad92-18eb8f16365d")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end -2.5 -1)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09599084-d9a8-47f8-bee8-64b04655539f")
+	)
+	(fp_line
+		(start -0.404343 0.876226)
+		(end -0.404343 -0.876226)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f92515a2-a9f5-4664-8a7b-7e9ff375b34e")
+	)
+	(fp_line
+		(start 1.676175 -0.876226)
+		(end -1.676175 -0.876226)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8eed2c47-0cc5-4f4e-990f-bc47bcead0a0")
+	)
+	(fp_line
+		(start 1.676175 0.876226)
+		(end -1.676175 0.876226)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2458d793-d0b7-4ac6-a44f-384b3b63b536")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -0.9524) (xy -1.6 -0.800406) (xy -2.057201 -0.800406) (xy -2.057201 -0.9524)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ab14853a-915a-4cff-a7fc-114f940aef56")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 0.9524) (xy -1.6 0.800406) (xy -2.057201 0.800406) (xy -2.057201 0.9524)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2c19a02a-5d9f-4758-8c82-95207694a910")
+	)
+	(fp_rect
+		(start -2.4384 -1.0668)
+		(end 2.4384 1.0668)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "349c26ee-a053-4e91-828f-bf97453ff748")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -0.8) (xy -1.6 -0.4) (xy -1.359995 -0.4) (xy -1.359995 -0.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4dc488ac-8d2f-410f-9879-1b7db53f12c1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 0.8) (xy -1.6 0.4) (xy -1.359995 0.4) (xy -1.359995 0.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "ec733fca-5a74-4575-bef4-e47232fe5eec")
+	)
+	(fp_poly
+		(pts
+			(xy -1.48001 -0.059995) (xy -1.48001 0.059995) (xy -1 0.059995) (xy -1 -0.059995)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "0ad506f4-1581-4385-95ec-f374d3718f1a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.300025 -0.4) (xy -1.300025 0.4) (xy -1.180036 0.4) (xy -1.180036 -0.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "e1c4cfdb-86c1-470e-8104-744b12e268ec")
+	)
+	(fp_poly
+		(pts
+			(xy 1.48001 -0.059995) (xy 1.48001 0.059995) (xy 1 0.059995) (xy 1 -0.059995)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "48fa9d0b-b17e-4fbe-bf76-092039b6ce27")
+	)
+	(pad "1" smd rect
+		(at -1.530099 0 180)
+		(size 1.529997 1.296012)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8c157d9a-675c-4ad4-9ce4-a33dc8dec4df")
+	)
+	(pad "2" smd rect
+		(at 1.530099 0 180)
+		(size 1.529997 1.296012)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "792c3fac-9d93-4eb3-8f7b-30b27d7cfb5f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/TAJA106K016RNJ.wrl"
+		(offset
+			(xyz 0 0 0.899961)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
