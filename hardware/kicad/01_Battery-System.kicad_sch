@@ -11287,6 +11287,12 @@
 		(uuid "4610982a-a961-400d-b3e1-2a7a379e67d9")
 	)
 	(junction
+		(at 618.49 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49847876-19f1-4f29-a110-182c211a6cc9")
+	)
+	(junction
 		(at 704.85 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11399,6 +11405,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85acb1df-0d18-4c5d-89b6-24ba6912b0d9")
+	)
+	(junction
+		(at 618.49 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88da4795-7bd3-4967-bca9-f11d28647df3")
 	)
 	(junction
 		(at 110.49 123.19)
@@ -11739,11 +11751,11 @@
 		(uuid "448412b8-8f0d-4899-82d4-4beb0c75ebbb")
 	)
 	(no_connect
-		(at 636.27 246.38)
+		(at 641.35 246.38)
 		(uuid "5a7a8451-a5fa-431c-aa54-c45f2d12e655")
 	)
 	(no_connect
-		(at 636.27 233.68)
+		(at 641.35 233.68)
 		(uuid "6459487c-9899-42d8-bafe-68b90bc2aed0")
 	)
 	(wire
@@ -12298,7 +12310,7 @@
 	)
 	(wire
 		(pts
-			(xy 627.38 238.76) (xy 627.38 229.87)
+			(xy 632.46 238.76) (xy 632.46 229.87)
 		)
 		(stroke
 			(width 0)
@@ -13648,6 +13660,16 @@
 	)
 	(wire
 		(pts
+			(xy 618.49 231.14) (xy 618.49 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5293049a-46fa-4159-a654-e6112d56c8e2")
+	)
+	(wire
+		(pts
 			(xy 739.14 287.02) (xy 754.38 287.02)
 		)
 		(stroke
@@ -13958,7 +13980,7 @@
 	)
 	(wire
 		(pts
-			(xy 627.38 229.87) (xy 605.79 229.87)
+			(xy 632.46 229.87) (xy 618.49 229.87)
 		)
 		(stroke
 			(width 0)
@@ -14878,6 +14900,16 @@
 	)
 	(wire
 		(pts
+			(xy 618.49 241.3) (xy 632.46 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944db80f-cb37-4533-b756-b7c858dd54b9")
+	)
+	(wire
+		(pts
 			(xy 328.93 55.88) (xy 328.93 58.42)
 		)
 		(stroke
@@ -15668,6 +15700,16 @@
 	)
 	(wire
 		(pts
+			(xy 618.49 229.87) (xy 605.79 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7df41dd-7462-473f-ae66-0e91caf8bce6")
+	)
+	(wire
+		(pts
 			(xy 685.8 483.87) (xy 688.34 483.87)
 		)
 		(stroke
@@ -15758,7 +15800,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 241.3) (xy 627.38 241.3)
+			(xy 605.79 241.3) (xy 618.49 241.3)
 		)
 		(stroke
 			(width 0)
@@ -33555,6 +33597,120 @@
 		)
 	)
 	(symbol
+		(lib_id "5v rail sm-easyedapro:GRM21BR61H106KE43L")
+		(at 618.49 236.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2e434b8-b608-4cfc-9342-e487a269eb3b")
+		(property "Reference" "C2401"
+			(at 622.3 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10uF"
+			(at 622.3 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:C0805"
+			(at 618.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230811/95AAE0C9AF55EDC31B7A4D8B733F534E.pdf"
+			(at 618.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
+			(at 618.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "GRM21BR61H106KE43L"
+			(at 618.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 618.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C440198"
+			(at 618.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 618.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "10uF ±10% 50V"
+			(at 618.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87730fa1-d9c6-41eb-a958-cf2b56b40688")
+		)
+		(pin "2"
+			(uuid "e5a8000c-50c7-4e33-bc73-1f7cfe3ff242")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "C2401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 466.09 133.35 0)
 		(unit 1)
@@ -35923,7 +36079,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:XT60PW-M")
-		(at 632.46 237.49 0)
+		(at 637.54 237.49 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35932,7 +36088,7 @@
 		(dnp no)
 		(uuid "f57eb244-1c71-47cf-a51c-dc1ac012bed5")
 		(property "Reference" "+ESC-CONNECTOR-1"
-			(at 638.81 238.76 0)
+			(at 643.89 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35941,7 +36097,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 638.81 241.3 0)
+			(at 643.89 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35950,7 +36106,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:CONN-TH_XT60PW-M"
-			(at 632.46 237.49 0)
+			(at 637.54 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35959,7 +36115,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/XT60PW-M/99942.html"
-			(at 632.46 237.49 0)
+			(at 637.54 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35968,7 +36124,7 @@
 			)
 		)
 		(property "Description" "Power:- Output:- Input:- Size:- Interface:- Type:- Colour:Yellow MaximumCurrent:- Type:Horizontal plug RatedVoltage:- Type1:- NumberOfUSBHoles:- InterfaceType:Male MetalMaterial:- InsulationMaterial:- RatedCurrent:- RecommendedWireGauge:- FlameRetardantGr"
-			(at 632.46 237.49 0)
+			(at 637.54 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35977,7 +36133,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XT60PW-M"
-			(at 632.46 237.49 0)
+			(at 637.54 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35986,7 +36142,7 @@
 			)
 		)
 		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 632.46 237.49 0)
+			(at 637.54 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35995,7 +36151,7 @@
 			)
 		)
 		(property "Supplier Part" "C98732"
-			(at 632.46 237.49 0)
+			(at 637.54 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36004,7 +36160,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 632.46 237.49 0)
+			(at 637.54 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36013,7 +36169,7 @@
 			)
 		)
 		(property "LCSC Part Name" "AMASS(艾迈斯)航模插头xt60连接器150公母对接pw锂电池公头 板插卧式XT60PW-M"
-			(at 632.46 237.49 0)
+			(at 637.54 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

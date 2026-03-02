@@ -1,0 +1,236 @@
+(footprint "TPSC686M016R0200"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-55℃~+125℃ 16V 200mΩ@100kHz 68uF ±20% CASE-C-6032-28(mm) Tantalum Capacitors ROHS")
+	(tags "-- C444808 CAP-SMD_L6.0-W3.2 TPSC686M016R0200")
+	(property "Reference" "REF**"
+		(at 0 -2.676124 0)
+		(layer "F.SilkS")
+		(uuid "a41ad58d-a5f9-4ed3-8724-12429be2779b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.676226 0)
+		(layer "F.Fab")
+		(uuid "5d4936ca-c7ac-4f20-af3b-657176bc4761")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Kyocera-AVX-TPSC686M016R0200_C444808.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e2ab53d-18de-47ab-be47-5e1134d2d1a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-55℃~+125℃ 16V 200mΩ@100kHz 68uF ±20% CASE-C-6032-28(mm) Tantalum Capacitors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cd67d63-b066-4142-911c-7c1c8ebc938c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C444808"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b83e0bf-e5ea-4a6d-b768-ea07bac045ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.654305 1.676226)
+		(end -1.654305 -1.676124)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e01dcb7-1cd6-4910-84f6-7a988a4d291d")
+	)
+	(fp_line
+		(start 3.176149 -1.676124)
+		(end -3.1762 -1.676124)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66f4043e-a211-481c-8cff-167ffa3d3482")
+	)
+	(fp_line
+		(start 3.176149 -1.676124)
+		(end 3.176149 -1.391186)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6b76c72-fb32-410d-a32e-350d019311fb")
+	)
+	(fp_line
+		(start 3.176149 1.676226)
+		(end -3.1762 1.676226)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "673132d3-2afb-41ee-8445-e8cc5a9c0758")
+	)
+	(fp_line
+		(start 3.176149 1.676226)
+		(end 3.176149 1.391288)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ef6c55f-81db-4727-a935-245245ceb0bd")
+	)
+	(fp_poly
+		(pts
+			(xy -3.100025 -1.75235) (xy -3.100025 -1.340361) (xy -3.557226 -1.340361) (xy -3.557226 -1.75235)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e4c779db-3096-45ef-a492-79bbb78b2f8f")
+	)
+	(fp_poly
+		(pts
+			(xy -3.100025 1.752451) (xy -3.100025 1.340462) (xy -3.557226 1.340462) (xy -3.557226 1.752451)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "133fa074-beae-4601-aea8-e80eab01acc9")
+	)
+	(fp_rect
+		(start -4.25 -2)
+		(end 4.25 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d1902fd1-daa1-4d8e-bac7-ee32b8f3aec6")
+	)
+	(fp_poly
+		(pts
+			(xy -3.100025 -1.599949) (xy -3.100025 -0.799949) (xy -2.620041 -0.799949) (xy -2.620041 -1.599949)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "6872f0f9-fbc4-45ac-81e0-af9a115dda88")
+	)
+	(fp_poly
+		(pts
+			(xy -3.100025 1.600051) (xy -3.100025 0.800051) (xy -2.620041 0.800051) (xy -2.620041 1.600051)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "6b3f4f17-9589-460a-be35-799d6839981b")
+	)
+	(fp_poly
+		(pts
+			(xy -2.86002 -0.119939) (xy -2.86002 0.120041) (xy -1.900025 0.120041) (xy -1.900025 -0.119939)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "fa21abdb-22ab-4925-a31c-5297ff271e82")
+	)
+	(fp_poly
+		(pts
+			(xy -2.500025 -0.799949) (xy -2.500025 0.800051) (xy -2.26002 0.800051) (xy -2.26002 -0.799949)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "fed752f0-d71f-4cf9-a8c6-2aa2cf62ec88")
+	)
+	(fp_poly
+		(pts
+			(xy 2.85997 -0.119939) (xy 2.85997 0.120041) (xy 1.899975 0.120041) (xy 1.899975 -0.119939)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4fdbab9a-ad6f-4db3-ac6b-2ea805228a37")
+	)
+	(pad "1" smd rect
+		(at -2.961265 0 180)
+		(size 2.207493 2.375997)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2692dc0-0aa2-40bf-8df8-08d199221946")
+	)
+	(pad "2" smd rect
+		(at 2.961265 0 180)
+		(size 2.207493 2.375997)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "358a470f-64ad-47d6-a5ea-2b2dad49f616")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/TPSC686M016R0200.wrl"
+		(offset
+			(xyz 0 0 1.451871)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
