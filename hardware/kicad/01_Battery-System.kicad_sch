@@ -10963,6 +10963,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "makes routing easier, just flip in firmware"
+		(exclude_from_sim no)
+		(at 102.616 338.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "187acaff-218e-49b4-bbd7-a551cfb6026b")
+	)
 	(text "Only expect 20V\nmay be excessive but prevents the charger from feeding itself"
 		(exclude_from_sim no)
 		(at 129.286 183.134 0)
@@ -11435,12 +11445,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dea1b95-0447-4a4e-b570-8b4b52b716ee")
-	)
-	(junction
-		(at 110.49 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e023382-de6e-45e3-b790-b748f28069c2")
 	)
 	(junction
 		(at 759.46 81.28)
@@ -12410,6 +12414,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 345.44) (xy 111.76 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b33fc87-1818-4939-b0d2-7798ff46a14a")
+	)
+	(wire
+		(pts
 			(xy 530.86 330.2) (xy 532.13 330.2)
 		)
 		(stroke
@@ -12707,6 +12721,16 @@
 			(type default)
 		)
 		(uuid "2aea9373-a88c-42ee-b150-3cefdd67a734")
+	)
+	(wire
+		(pts
+			(xy 123.19 322.58) (xy 123.19 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1cb8d2-ac8e-43f7-a9a8-ee23428df7a3")
 	)
 	(wire
 		(pts
@@ -14210,16 +14234,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 322.58) (xy 123.19 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fde9155-8478-4517-b8a5-515da0069e8b")
-	)
-	(wire
-		(pts
 			(xy 365.76 55.88) (xy 354.33 55.88)
 		)
 		(stroke
@@ -14427,16 +14441,6 @@
 			(type default)
 		)
 		(uuid "7c319b6f-7862-4e63-9470-e2ead6c8c604")
-	)
-	(wire
-		(pts
-			(xy 86.36 360.68) (xy 110.49 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d629e02-fbce-4210-b325-439ee7122fde")
 	)
 	(wire
 		(pts
@@ -14980,16 +14984,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 360.68) (xy 111.76 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "964a3b6c-7e46-45e8-9140-759c47c2cd5d")
-	)
-	(wire
-		(pts
 			(xy 234.95 128.27) (xy 232.41 128.27)
 		)
 		(stroke
@@ -15417,16 +15411,6 @@
 			(type default)
 		)
 		(uuid "abb87815-636c-4a7a-aadf-ebc7bc73249d")
-	)
-	(wire
-		(pts
-			(xy 121.92 360.68) (xy 123.19 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abfb95c9-d2d3-4202-ad19-f2b37ad1b0eb")
 	)
 	(wire
 		(pts
@@ -17290,6 +17274,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 360.68) (xy 113.03 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa104239-f132-40a0-b506-1a916ab9d290")
+	)
+	(wire
+		(pts
 			(xy 520.7 44.45) (xy 520.7 48.26)
 		)
 		(stroke
@@ -17447,16 +17441,6 @@
 			(type default)
 		)
 		(uuid "fef118e9-f1f9-47e6-8ddf-2823b884e36c")
-	)
-	(wire
-		(pts
-			(xy 110.49 322.58) (xy 110.49 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff14c105-ade7-45e3-be23-465f11dce40e")
 	)
 	(wire
 		(pts
@@ -24192,7 +24176,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:LR123WF160MT4E")
-		(at 116.84 360.68 0)
+		(at 118.11 360.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24201,7 +24185,7 @@
 		(dnp no)
 		(uuid "3d84e198-7301-4ba8-9775-8b0521c48ab9")
 		(property "Reference" "R3"
-			(at 114.3 359.41 0)
+			(at 115.57 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24210,7 +24194,7 @@
 			)
 		)
 		(property "Value" "16mΩ"
-			(at 114.3 364.49 0)
+			(at 115.57 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24219,7 +24203,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:R2512"
-			(at 116.84 360.68 0)
+			(at 118.11 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24228,7 +24212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 360.68 0)
+			(at 118.11 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24237,7 +24221,7 @@
 			)
 		)
 		(property "Description" "Type:Current Sensing Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±50ppm/°C Temperature Coefficient:±50ppm/°C Mounting Type:Patch"
-			(at 116.84 360.68 0)
+			(at 118.11 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24246,7 +24230,7 @@
 			)
 		)
 		(property "Manufacturer Part" "LR123WF160MT4E"
-			(at 116.84 360.68 0)
+			(at 118.11 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24255,7 +24239,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 116.84 360.68 0)
+			(at 118.11 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24264,7 +24248,7 @@
 			)
 		)
 		(property "Supplier Part" "C5775686"
-			(at 116.84 360.68 0)
+			(at 118.11 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24273,7 +24257,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 116.84 360.68 0)
+			(at 118.11 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24282,7 +24266,7 @@
 			)
 		)
 		(property "LCSC Part Name" "16mΩ ±1% 3W"
-			(at 116.84 360.68 0)
+			(at 118.11 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
