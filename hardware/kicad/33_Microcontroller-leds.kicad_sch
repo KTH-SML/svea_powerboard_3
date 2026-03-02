@@ -1269,156 +1269,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -1784,22 +1634,16 @@
 		(uuid "4c769a96-72e6-43a8-afa7-18f98239786b")
 	)
 	(junction
-		(at 128.27 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60a3e889-597e-4162-9666-a563104fc273")
-	)
-	(junction
-		(at 67.31 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71f91ee2-ea29-4af7-a3e7-75657b7f30e2")
-	)
-	(junction
 		(at 62.23 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a101a71-9ef3-492d-aadc-d96f41236c17")
+	)
+	(junction
+		(at 128.27 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae3da4f1-1480-4a73-9221-b5a7fcde1e09")
 	)
 	(junction
 		(at 128.27 144.78)
@@ -1808,22 +1652,14 @@
 		(uuid "d1b46f5c-3949-404e-b076-6657e81e8ba5")
 	)
 	(junction
-		(at 67.31 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d496d32f-453c-4599-9c45-6c5b1aa4dd9d")
-	)
-	(junction
 		(at 74.93 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4715c07-3d46-43c2-9a3a-7334d678ccf9")
 	)
-	(junction
-		(at 102.87 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7af2ce7-c44c-459c-b8fc-a2f1b8d3788a")
+	(no_connect
+		(at 191.77 132.08)
+		(uuid "5500c1f2-0ed3-469d-a517-6b00b657028a")
 	)
 	(no_connect
 		(at 110.49 50.8)
@@ -1845,13 +1681,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 160.02) (xy 119.38 160.02)
+			(xy 119.38 160.02) (xy 128.27 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a1c550f-d696-47b0-bcaf-52443cdf5636")
+	)
+	(wire
+		(pts
+			(xy 109.22 134.62) (xy 191.77 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d893fbe-a660-4619-8412-bf7cb93c1be9")
 	)
 	(wire
 		(pts
@@ -1862,16 +1708,6 @@
 			(type default)
 		)
 		(uuid "0f35711f-4de2-4c6a-b77f-7608845eac5b")
-	)
-	(wire
-		(pts
-			(xy 73.66 137.16) (xy 73.66 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d83ea1-3517-4f1c-b8a1-2edab874d3e7")
 	)
 	(wire
 		(pts
@@ -1905,26 +1741,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 134.62) (xy 60.96 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b11bd43-234e-45fa-a82e-1653fc579e51")
-	)
-	(wire
-		(pts
-			(xy 123.19 132.08) (xy 191.77 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bef183f-6e58-4c76-84f3-5f691042f974")
-	)
-	(wire
-		(pts
 			(xy 109.22 95.25) (xy 137.16 95.25)
 		)
 		(stroke
@@ -1945,36 +1761,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 134.62) (xy 139.7 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ad561d4-14f0-4bad-97d8-f7c57eca9f1e")
-	)
-	(wire
-		(pts
-			(xy 60.96 124.46) (xy 60.96 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4d3afc-8b12-4f8b-b17a-f7e2e365728e")
-	)
-	(wire
-		(pts
-			(xy 109.22 95.25) (xy 109.22 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "434db36d-121e-4420-af36-dcd4fb349af8")
-	)
-	(wire
-		(pts
 			(xy 128.27 144.78) (xy 128.27 129.54)
 		)
 		(stroke
@@ -1985,7 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 55.88) (xy 102.87 55.88)
+			(xy 99.06 55.88) (xy 110.49 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2025,36 +1811,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 160.02) (xy 137.16 157.5054)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5858af33-0ca8-4851-be4a-53eba5ac54c2")
-	)
-	(wire
-		(pts
-			(xy 73.66 124.46) (xy 73.66 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5abf18dd-91ef-4883-92d5-c3fb73ff4faf")
-	)
-	(wire
-		(pts
-			(xy 149.86 134.62) (xy 191.77 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "607a4633-ff22-41c3-b1f5-33047ddea978")
-	)
-	(wire
-		(pts
 			(xy 44.45 54.61) (xy 66.04 54.61)
 		)
 		(stroke
@@ -2075,6 +1831,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 95.25) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e723fc4-e8b9-4260-85ca-43dd86a3dafc")
+	)
+	(wire
+		(pts
 			(xy 119.38 144.78) (xy 128.27 144.78)
 		)
 		(stroke
@@ -2082,16 +1848,6 @@
 			(type default)
 		)
 		(uuid "6f6da42f-e95c-4e33-9cd3-e0c17188f787")
-	)
-	(wire
-		(pts
-			(xy 60.96 137.16) (xy 67.31 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fcd645d-0fa8-4976-ad4e-44f29384353d")
 	)
 	(wire
 		(pts
@@ -2105,16 +1861,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 139.7) (xy 67.31 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dab35d5-f8eb-4920-8e1c-711a437457af")
-	)
-	(wire
-		(pts
 			(xy 128.27 144.78) (xy 137.16 144.78)
 		)
 		(stroke
@@ -2125,13 +1871,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 134.62) (xy 102.87 55.88)
+			(xy 128.27 160.02) (xy 137.16 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "859f7383-0a3e-48e7-8c8c-ac6573ebda35")
+		(uuid "857f88d4-70ab-4a1a-88b4-45fe031fc7f1")
 	)
 	(wire
 		(pts
@@ -2142,16 +1888,6 @@
 			(type default)
 		)
 		(uuid "865910e4-9d9d-42c5-a825-8f3b3faaa0a0")
-	)
-	(wire
-		(pts
-			(xy 60.96 121.92) (xy 67.31 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a935215-3df7-4673-b19b-244fec8ce8a6")
 	)
 	(wire
 		(pts
@@ -2225,16 +1961,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 160.02) (xy 137.16 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1ccb4ab-5c8c-457a-8bf7-6253c7cf20f4")
-	)
-	(wire
-		(pts
 			(xy 87.63 44.45) (xy 87.63 53.34)
 		)
 		(stroke
@@ -2245,43 +1971,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 121.92) (xy 73.66 121.92)
+			(xy 137.16 157.48) (xy 137.16 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e17f7e8b-a22f-4a65-9765-2a89b0ed6e99")
-	)
-	(wire
-		(pts
-			(xy 102.87 55.88) (xy 110.49 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e0c876-95de-488c-9edc-4018c8536d98")
-	)
-	(wire
-		(pts
-			(xy 109.22 132.08) (xy 113.03 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4644c75-102b-43da-99cf-81519617cc44")
-	)
-	(wire
-		(pts
-			(xy 67.31 137.16) (xy 73.66 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5407fce-3f11-4c6d-be08-4a4934118159")
+		(uuid "e3c42b0d-7dde-4904-a0ed-238fd8a0e24d")
 	)
 	(wire
 		(pts
@@ -2343,16 +2039,6 @@
 		)
 		(uuid "ff28dc7d-a77f-4cba-b909-6f06938028f8")
 	)
-	(wire
-		(pts
-			(xy 67.31 118.11) (xy 67.31 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffca63ac-481d-4235-8b2e-43f9a0639089")
-	)
 	(hierarchical_label "LED/WS2815/DATA"
 		(shape input)
 		(at 44.45 54.61 180)
@@ -2363,74 +2049,6 @@
 			(justify right)
 		)
 		(uuid "9e18b4ed-9b54-45a9-85ab-9bce951b0783")
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 118.11 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00b2f51f-0177-4fd8-bca9-0b0ad6f50afc")
-		(property "Reference" "JP3"
-			(at 118.11 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 118.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 118.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 118.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "649ecc1f-b168-4314-8336-8319497ee128")
-		)
-		(pin "1"
-			(uuid "e7a7060d-c788-43b1-99d7-9dfe5ab7e0da")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/c2eb7228-bcb6-49cd-ba01-e5b0712a5c09"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2498,185 +2116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 67.31 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bd903a6-fdec-4933-a88a-159cc5af3be9")
-		(property "Reference" "#PWR0133"
-			(at 67.31 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 146.05 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ab8f32a-507c-4fad-933d-039d75e65cac")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/c2eb7228-bcb6-49cd-ba01-e5b0712a5c09"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
-		(at 60.96 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ec666a1-37e0-45e1-83c6-8068e330de08")
-		(property "Reference" "C81"
-			(at 64.77 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100nF"
-			(at 64.77 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:C0603"
-			(at 60.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
-			(at 60.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 60.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 60.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 60.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C14663"
-			(at 60.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 60.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100nF ±10% 50V"
-			(at 60.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6df17b6-bf0a-4df0-a08c-bee5512104b5")
-		)
-		(pin "2"
-			(uuid "7b0ad2be-150a-497f-ad12-d0f3cd84f1aa")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/c2eb7228-bcb6-49cd-ba01-e5b0712a5c09"
-					(reference "C81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 134.62 38.1 0)
 		(unit 1)
@@ -2737,76 +2176,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/c2eb7228-bcb6-49cd-ba01-e5b0712a5c09"
 					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 144.78 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33b2fde1-2c42-40f1-8bd0-95d34313a03e")
-		(property "Reference" "JP2301"
-			(at 144.78 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 144.78 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 144.78 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 144.78 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "10e735b2-1597-4dce-8b1b-f803d7c675b1")
-		)
-		(pin "1"
-			(uuid "f02f421e-9ac3-40e8-985d-ad1c3ef2b775")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/c2eb7228-bcb6-49cd-ba01-e5b0712a5c09"
-					(reference "JP2301")
 					(unit 1)
 				)
 			)
@@ -3237,186 +2606,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/c2eb7228-bcb6-49cd-ba01-e5b0712a5c09"
 					(reference "C83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:RVT1C471M0607")
-		(at 73.66 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b248b9e-8c11-4e00-8086-7900e74c5560")
-		(property "Reference" "C82"
-			(at 77.4446 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "470uF"
-			(at 77.4446 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-RD"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:470uF Tolerance:±20% Tolerance:±20% Voltage Rating:16V Ripple Current:185mA@120Hz Diameter:6.3mm Height - Seated (Max):7.7mm Lifetime:2000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RVT1C471M0607"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROQANG(容强)"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2977552"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "470uF ±20% 16V"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f208270-46f1-43fd-9a9b-464b8b265cd1")
-		)
-		(pin "2"
-			(uuid "7b4e5be9-4772-4e39-be91-ec553ef206bc")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/c2eb7228-bcb6-49cd-ba01-e5b0712a5c09"
-					(reference "C82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 67.31 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80d24159-0cc6-4973-8930-3e8798fde0b8")
-		(property "Reference" "#PWR0132"
-			(at 67.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 67.31 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 67.31 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cca8c9f-7eb1-4546-a5c4-98a66ec2862c")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/c2eb7228-bcb6-49cd-ba01-e5b0712a5c09"
-					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
