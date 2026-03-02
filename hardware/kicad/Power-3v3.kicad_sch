@@ -1621,6 +1621,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:AMS1117-3_3_C347222"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3_3_C347222"
+				(at 0 -5.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:AMS1117-3_3_C347222"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409141623_UMW-Youtai-Semiconductor-Co---Ltd--AMS1117-3-3_C347222.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-40℃~+125℃ 0.003%Vout 1 1.3V@(1A) 12V 1A 3.3V 5mA 60dB@(120Hz) Fixed Over Current Protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C347222"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "AMS1117-3.3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AMS1117-3.3 C347222 SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR UMW(Youtai Semiconductor Co., Ltd.)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-3_3_C347222_0_1"
+				(circle
+					(center -11.43 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 -3.81) (xy 9.7511 -3.8002) (xy 9.8464 -3.7713) (xy 9.9343 -3.7244) (xy 10.0112 -3.6612)
+						(xy 10.0744 -3.5842) (xy 10.1214 -3.4964) (xy 10.1503 -3.4011) (xy 10.16 -3.302) (xy 10.1503 4.6711)
+						(xy 10.1214 4.7664) (xy 10.0744 4.8542) (xy 10.0112 4.9312) (xy 9.9343 4.9944) (xy 9.8464 5.0413)
+						(xy 9.7511 5.0702) (xy 9.652 5.08) (xy -12.2911 5.0702) (xy -12.3864 5.0413) (xy -12.4743 4.9944)
+						(xy -12.5512 4.9312) (xy -12.6144 4.8542) (xy -12.6614 4.7664) (xy -12.6903 4.6711) (xy -12.7 4.572)
+						(xy -12.6903 -3.4011) (xy -12.6614 -3.4964) (xy -12.6144 -3.5842) (xy -12.5512 -3.6612) (xy -12.4743 -3.7244)
+						(xy -12.3864 -3.7713) (xy -12.2911 -3.8002) (xy -12.192 -3.81) (xy 9.652 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "ADJ(GND)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "VOUT(TAB)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "TAB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1924,6 +2115,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 130.81) (xy 162.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e30e2cd-3914-4026-b614-62f97f49c4ae")
+	)
+	(wire
+		(pts
 			(xy 228.6 55.88) (xy 224.79 55.88)
 		)
 		(stroke
@@ -1931,6 +2132,26 @@
 			(type default)
 		)
 		(uuid "1ff06a70-8d5d-42af-b1e2-0d5908936a39")
+	)
+	(wire
+		(pts
+			(xy 158.75 130.81) (xy 162.56 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223cbbdf-03f0-4e5d-b9df-1be85aebebbb")
+	)
+	(wire
+		(pts
+			(xy 130.81 128.27) (xy 120.65 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f8c795-b60c-4e35-a305-60225cbe50fc")
 	)
 	(wire
 		(pts
@@ -2061,6 +2282,16 @@
 			(type default)
 		)
 		(uuid "7c9edcdc-3b35-4236-b7ca-5468a034df23")
+	)
+	(wire
+		(pts
+			(xy 120.65 128.27) (xy 120.65 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee0569a-0bc3-4129-820c-410f7ba518d9")
 	)
 	(wire
 		(pts
@@ -2296,6 +2527,17 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
+		(at 130.81 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f31bd6c-6b38-4000-bea7-2f5179a3fb4e")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
 		(at 63.5 81.28 180)
 		(effects
 			(font
@@ -2304,6 +2546,17 @@
 			(justify right)
 		)
 		(uuid "a36fcf5d-d42d-41a8-86b0-443912d1815d")
+	)
+	(hierarchical_label "3v3_out"
+		(shape output)
+		(at 130.81 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee964f4b-748d-4509-9b97-4056ed419a80")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2479,6 +2732,107 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca6525fc-674d-4dae-a2f9-d25bb2ff7c72"
 					(reference "R152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:AMS1117-3_3_C347222")
+		(at 146.05 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19450d2c-fc8a-4a40-9855-4316a54bb0dc")
+		(property "Reference" "U2601"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3_3_C347222"
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:AMS1117-3_3_C347222"
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409141623_UMW-Youtai-Semiconductor-Co---Ltd--AMS1117-3-3_C347222.pdf"
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+125℃ 0.003%Vout 1 1.3V@(1A) 12V 1A 3.3V 5mA 60dB@(120Hz) Fixed Over Current Protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C347222"
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "AMS1117-3.3"
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea085956-f5f9-4283-912f-b150e62b8ef5")
+		)
+		(pin "2"
+			(uuid "c76089ea-31e6-42d9-b976-ca4776b18354")
+		)
+		(pin "3"
+			(uuid "dec4a66f-ee21-4d1d-871f-0d087afbef9c")
+		)
+		(pin "4"
+			(uuid "a5d98fcd-7bbf-4080-8b07-af9b549bf85d")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca6525fc-674d-4dae-a2f9-d25bb2ff7c72"
+					(reference "U2601")
 					(unit 1)
 				)
 			)
@@ -2935,6 +3289,136 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca6525fc-674d-4dae-a2f9-d25bb2ff7c72"
 					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69305cec-ae6a-4002-ae7b-dd0b275e9988")
+		(property "Reference" "#PWR02602"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a0de7ee-3a0c-40f4-bb65-8b297ff29740")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca6525fc-674d-4dae-a2f9-d25bb2ff7c72"
+					(reference "#PWR02602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75b676f2-8ed5-4614-ae5f-d942306ab010")
+		(property "Reference" "#PWR02601"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf49b02b-a52b-4905-9c39-662ff6b9265f")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca6525fc-674d-4dae-a2f9-d25bb2ff7c72"
+					(reference "#PWR02601")
 					(unit 1)
 				)
 			)
