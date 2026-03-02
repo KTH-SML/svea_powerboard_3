@@ -1464,6 +1464,190 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:UUD1H221MNL1GS"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UUD1H221MNL1GS"
+				(at 0 -7.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:UUD1H221MNL1GS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Nichicon-UUD1H221MNL1GS_C125976.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+105℃ 10.5mm 10mm 220uF 335mA@120Hz 5000hrs@105℃ 50V ±20% SMD,D10xL10mm Aluminum Electrolytic Capacitors - SMD ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C125976"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nichicon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "UUD1H221MNL1GS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C125976 CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD Nichicon UUD1H221MNL1GS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UUD1H221MNL1GS_0_1"
+				(rectangle
+					(start -2.54 1.524)
+					(end -1.524 1.4986)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.032 2.032)
+					(end -2.0066 1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 -1.016)
+					(mid -1.3327 -0.426)
+					(end 0 -0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.254)
+					(mid 1.3335 -0.4232)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 90)
+					(length 4.826)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -4322,6 +4506,12 @@
 		(uuid "81ed7157-da23-449f-b508-c529594c9462")
 	)
 	(junction
+		(at 21.59 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d5f986b-e576-4a1e-a914-ca5e0fc40c17")
+	)
+	(junction
 		(at 156.21 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4540,6 +4730,16 @@
 			(type default)
 		)
 		(uuid "2bed72f5-d7ae-48b1-b746-260e2af1f627")
+	)
+	(wire
+		(pts
+			(xy 21.59 114.3) (xy 30.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb04813-6d8c-46fe-9000-89374c1d3926")
 	)
 	(wire
 		(pts
@@ -4823,6 +5023,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 66.04) (xy 30.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7740f40e-ed8d-448f-b374-145491f5263b")
+	)
+	(wire
+		(pts
 			(xy 156.21 68.58) (xy 156.21 66.04)
 		)
 		(stroke
@@ -4853,7 +5063,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 66.04) (xy 30.48 66.04)
+			(xy 16.51 66.04) (xy 21.59 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5243,6 +5453,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 66.04) (xy 21.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c55017-8408-4436-a9f8-36614d14a94f")
+	)
+	(wire
+		(pts
 			(xy 238.76 66.04) (xy 238.76 77.47)
 		)
 		(stroke
@@ -5320,6 +5540,16 @@
 			(type default)
 		)
 		(uuid "e8e67612-9703-493a-bd59-b0e61baae08d")
+	)
+	(wire
+		(pts
+			(xy 21.59 97.79) (xy 21.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea17f09e-f063-4bf3-8df8-be28a5c5f746")
 	)
 	(wire
 		(pts
@@ -7835,6 +8065,102 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:UUD1H221MNL1GS")
+		(at 21.59 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb9e927e-965c-4f65-b8d4-0cb4168e1012")
+		(property "Reference" "C1402"
+			(at 17.78 90.9319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "UUD1H221MNL1GS"
+			(at 17.78 93.4719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:UUD1H221MNL1GS"
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Nichicon-UUD1H221MNL1GS_C125976.pdf"
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+105℃ 10.5mm 10mm 220uF 335mA@120Hz 5000hrs@105℃ 50V ±20% SMD,D10xL10mm Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C125976"
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nichicon"
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "UUD1H221MNL1GS"
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c945488-1e60-47aa-9458-a725c69c33c0")
+		)
+		(pin "1"
+			(uuid "2438a496-3081-4d15-a10a-b65e21ad68cd")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
+					(reference "C1402")
 					(unit 1)
 				)
 			)
