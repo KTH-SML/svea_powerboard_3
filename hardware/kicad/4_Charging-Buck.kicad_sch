@@ -4671,16 +4671,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 156.21) (xy 161.29 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2112f94c-34be-4007-a27d-27b85550af0e")
-	)
-	(wire
-		(pts
 			(xy 3.81 88.9) (xy 16.51 88.9)
 		)
 		(stroke
@@ -5141,7 +5131,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 151.13) (xy 161.29 143.51)
+			(xy 161.29 143.51) (xy 161.29 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9186,76 +9176,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/31f44477-0097-4e02-b6ff-5111b8556cfe"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 161.29 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc84c406-bf33-416a-93f0-b3e605c33a75")
-		(property "Reference" "NT601"
-			(at 162.56 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 162.56 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.3mm"
-			(at 161.29 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 161.29 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "439451e0-7e66-47dd-a929-fe16121c0f09")
-		)
-		(pin "2"
-			(uuid "a6eb5b5c-d8fb-4b86-8006-bcb934f27ed8")
-		)
-		(instances
-			(project ""
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/31f44477-0097-4e02-b6ff-5111b8556cfe"
-					(reference "NT601")
 					(unit 1)
 				)
 			)
