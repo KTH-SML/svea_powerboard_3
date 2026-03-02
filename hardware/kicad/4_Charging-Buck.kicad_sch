@@ -4214,12 +4214,6 @@
 		(uuid "28a40343-7c1e-45fd-b7da-890e55028f60")
 	)
 	(junction
-		(at 265.43 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34289e04-fe7f-4f9c-b479-c108cf30fa66")
-	)
-	(junction
 		(at 128.27 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4424,6 +4418,12 @@
 		(uuid "df3061e6-a7f2-4060-89ff-6df6d2d323b8")
 	)
 	(junction
+		(at 278.13 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3927acf-bb5f-4ee3-a949-2398bf4d2ac1")
+	)
+	(junction
 		(at 246.38 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4541,6 +4541,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 74.93) (xy 246.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef3e62e-3199-4b18-bf6b-61b47b0919a2")
+	)
+	(wire
+		(pts
 			(xy 58.42 39.37) (xy 73.6346 39.37)
 		)
 		(stroke
@@ -4578,16 +4588,6 @@
 			(type default)
 		)
 		(uuid "15f29d95-1d77-41a2-b4ae-87e6988f115d")
-	)
-	(wire
-		(pts
-			(xy 246.38 109.22) (xy 246.38 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1673be9d-cffe-475b-970d-5cc0f41b7efd")
 	)
 	(wire
 		(pts
@@ -5041,7 +5041,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 74.93) (xy 283.21 74.93)
+			(xy 271.78 74.93) (xy 278.13 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5201,6 +5201,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 93.98) (xy 278.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8d9134-90f5-4f53-a76e-81fab97a7ecf")
+	)
+	(wire
+		(pts
 			(xy 161.29 143.51) (xy 198.12 143.51)
 		)
 		(stroke
@@ -5218,6 +5228,16 @@
 			(type default)
 		)
 		(uuid "80ed63d4-5b2b-479a-bae1-c9dd1ee9b05c")
+	)
+	(wire
+		(pts
+			(xy 278.13 74.93) (xy 283.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861a90c4-e0e0-4399-8a06-385c17b753a4")
 	)
 	(wire
 		(pts
@@ -5331,6 +5351,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 106.68) (xy 260.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c83fe5-755d-4677-bef7-7b01b399129e")
+	)
+	(wire
+		(pts
 			(xy 8.89 74.93) (xy 16.51 74.93)
 		)
 		(stroke
@@ -5398,6 +5428,16 @@
 			(type default)
 		)
 		(uuid "a1599586-5708-4dc0-a905-db85e23050fb")
+	)
+	(wire
+		(pts
+			(xy 278.13 74.93) (xy 278.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a163290f-2912-491c-832f-fd64ef231114")
 	)
 	(wire
 		(pts
@@ -5751,6 +5791,26 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 93.98) (xy 278.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda84e25-a894-4247-ae00-92ccfc6ded4b")
+	)
+	(wire
+		(pts
+			(xy 260.35 106.68) (xy 260.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff82044-2e5e-473d-93b4-3cfa180af798")
+	)
+	(wire
+		(pts
 			(xy 58.42 5.08) (xy 58.42 8.89)
 		)
 		(stroke
@@ -5811,7 +5871,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 106.68) (xy 283.21 74.93)
+			(xy 283.21 74.93) (xy 283.21 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6048,16 +6108,6 @@
 			(type default)
 		)
 		(uuid "f0c87430-84c7-430c-8a30-442a16a83cfb")
-	)
-	(wire
-		(pts
-			(xy 193.04 106.68) (xy 265.43 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3dff779-be68-45b6-bf76-2f13e7d5f863")
 	)
 	(wire
 		(pts
@@ -8937,6 +8987,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 278.13 88.9 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aef8747c-1c01-4968-b494-1e63545807b7")
+		(property "Reference" "NT602"
+			(at 276.86 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 276.86 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.3mm"
+			(at 278.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 278.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcea5d34-c210-4052-9dee-591e60fe84c2")
+		)
+		(pin "2"
+			(uuid "683201b1-3ea9-4032-b26c-c8bf6ad7eed6")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/31f44477-0097-4e02-b6ff-5111b8556cfe"
+					(reference "NT602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 283.21 113.03 0)
 		(unit 1)
@@ -9099,7 +9219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.2mm"
+		(property "Footprint" "5v rail sm-easyedapro:NetTie-2_SMD_Pad0.3mm"
 			(at 161.29 153.67 0)
 			(effects
 				(font

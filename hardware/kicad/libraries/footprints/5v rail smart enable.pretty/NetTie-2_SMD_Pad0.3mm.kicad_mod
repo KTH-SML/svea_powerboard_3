@@ -81,5 +81,37 @@
 		(layers "F.Cu")
 		(uuid "b531e0f4-5d47-4a72-8a54-a3eaafb85b86")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "129fe061-3288-4a59-95fa-270f2b4c7a48")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.5 -0.15) (xy 0.5 -0.15) (xy 0.5 0.15) (xy -0.5 0.15)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
