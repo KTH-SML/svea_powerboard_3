@@ -823,16 +823,50 @@
 		(uuid "23cd1cef-a87f-4f88-8f75-98c1f1acd7d3")
 	)
 	(junction
+		(at 110.49 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ac13abe-8abe-4c91-b250-93c9e8f69c55")
+	)
+	(junction
+		(at 110.49 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "789b8f6d-9ee2-422e-8cc7-b2aaa6e85ecc")
+	)
+	(junction
 		(at 99.06 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8573d91b-d9d7-4367-b35e-c5b05d2e7a27")
 	)
 	(junction
+		(at 116.84 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c71e6644-501b-42e3-a78e-33d661820ce5")
+	)
+	(junction
+		(at 116.84 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd611b7a-1a4a-467e-aa16-b0c037e1fa47")
+	)
+	(junction
 		(at 97.79 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8c94a0b-e007-4f7c-9308-af4114009b52")
+	)
+	(wire
+		(pts
+			(xy 110.49 124.46) (xy 116.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07fa47ec-95f6-4776-9833-b9112868b4c1")
 	)
 	(wire
 		(pts
@@ -876,6 +910,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 139.7) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c883f4c-358b-410e-8f31-9e4b15b53182")
+	)
+	(wire
+		(pts
 			(xy 99.06 88.9) (xy 151.13 88.9)
 		)
 		(stroke
@@ -893,6 +937,16 @@
 			(type default)
 		)
 		(uuid "268f6bd2-ee4e-4aea-89a5-27710419ec8c")
+	)
+	(wire
+		(pts
+			(xy 124.46 137.16) (xy 124.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2adea5ac-9103-41ec-ac56-2ddac4661e57")
 	)
 	(wire
 		(pts
@@ -936,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 139.7) (xy 104.14 139.7)
+			(xy 104.14 139.7) (xy 110.49 139.7)
 		)
 		(stroke
 			(width 0)
@@ -976,6 +1030,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 127) (xy 116.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743f4c75-6fcd-4280-9cb0-db5338ab7c7f")
+	)
+	(wire
+		(pts
+			(xy 116.84 137.16) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2a9757-4922-4a3f-921e-d5c32e2c688c")
+	)
+	(wire
+		(pts
 			(xy 110.49 127) (xy 110.49 124.46)
 		)
 		(stroke
@@ -983,6 +1057,16 @@
 			(type default)
 		)
 		(uuid "81bc3d62-70c1-45f6-a37d-be0463699fac")
+	)
+	(wire
+		(pts
+			(xy 116.84 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c77125-1cb4-4368-ba68-35b50dba13b1")
 	)
 	(wire
 		(pts
@@ -1013,6 +1097,16 @@
 			(type default)
 		)
 		(uuid "8af3f4a3-8066-4219-8433-c1466048fdc9")
+	)
+	(wire
+		(pts
+			(xy 124.46 127) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901ad5d0-b045-4252-ae42-7778fe5b48d7")
 	)
 	(wire
 		(pts
@@ -1066,6 +1160,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 139.7) (xy 124.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2e743d-008a-426c-aebd-02acd956fed1")
+	)
+	(wire
+		(pts
 			(xy 179.07 86.36) (xy 163.83 86.36)
 		)
 		(stroke
@@ -1076,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 124.46) (xy 104.14 124.46)
+			(xy 104.14 124.46) (xy 110.49 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1759,6 +1863,112 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:HGC1206R5107M100NSPJ")
+		(at 116.84 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cdc7b61-ac5f-411c-9ea7-a18d85bd2cbe")
+		(property "Reference" "C2101"
+			(at 113.538 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HGC1206R5107M100NSPJ"
+			(at 120.65 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "JLCImport:HGC1206R5107M100NSPJ"
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/89171.html"
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100uF ±20% 10V Ceramic Capacitor X5R 1206"
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7432784"
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HGC1206R5107M100NSPJ"
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Des" ""
+			(at 116.84 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e0340b1-a9c9-4e0d-834d-eb5e44d02961")
+		)
+		(pin "2"
+			(uuid "6fa7eb18-ef1f-4931-ba3c-ca9cd3557661")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
+					(reference "C2101")
 					(unit 1)
 				)
 			)
