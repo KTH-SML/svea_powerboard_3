@@ -136,17 +136,6 @@
 		(layer "F.SilkS")
 		(uuid "2e298a66-186d-463e-92a3-1679d5b61ae3")
 	)
-	(fp_rect
-		(start -3.683 -1.524)
-		(end 3.81 1.524)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "53783cf1-848b-4275-a937-f9345774eee3")
-	)
 	(fp_poly
 		(pts
 			(xy -2.431852 0.096596) (xy -2.431852 -0.096546) (xy -1.65936 -0.096546) (xy -1.65936 0.096596)
@@ -194,6 +183,17 @@
 		(fill yes)
 		(layer "F.Fab")
 		(uuid "c561bb6f-51dc-41c8-b977-1a6172647cba")
+	)
+
+	(fp_rect
+		(start -3.839 -1.060)
+		(end 3.839 1.060)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
 	)
 	(pad "1" smd rect
 		(at -2.565405 0)

@@ -61,17 +61,6 @@
 		(layer "F.SilkS")
 		(uuid "a61793f9-06ac-44ab-b9c1-e7f7656986b0")
 	)
-	(fp_rect
-		(start -1.85 -1.85)
-		(end 1.85 1.85)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "67e7e00e-b003-4462-b462-686d7ed193d3")
-	)
 	(fp_circle
 		(center 0 0)
 		(end 1 0)
@@ -117,6 +106,17 @@
 		(uuid "fa2895e3-2070-46d8-90b6-8c5cccf95b80")
 	)
 	
+
+	(fp_rect
+		(start -2.100 -2.100)
+		(end 2.100 2.100)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
 	(pad "P$1" thru_hole circle
 		(at 0 0)
 		(size 3.2 3.2)

@@ -178,18 +178,16 @@
 		(layer "F.SilkS")
 		(uuid "28397155-b9f5-4790-9566-4678f878adb0")
 	)
-	(fp_poly
-		(pts
-			(xy -7 -1.5) (xy -6 -1.5) (xy -6 -3) (xy -3 -6) (xy 6 -6) (xy 6 -1.5) (xy 7 -1.5) (xy 7 1.5) (xy 6 1.5)
-			(xy 6 6) (xy -3 6) (xy -6 3) (xy -6 1.5) (xy -7 1.5)
-		)
+
+	(fp_circle
+		(center 0.000 0.000)
+		(end 6.700 0.000)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d7a6ad35-3d59-4b04-a798-92a187646e3c")
 	)
 	(pad "1" smd rect
 		(at -4.200025 0.000076)

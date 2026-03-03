@@ -94,17 +94,6 @@
 		(layer "F.Mask")
 		(uuid "b9550c9b-8550-4219-9c46-2bbdb4b07a95")
 	)
-	(fp_rect
-		(start -1.235 -1.235)
-		(end 1.235 1.235)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "bdaa7a0f-3d0d-4980-b9cd-85ebafaba61e")
-	)
 	(fp_arc
 		(start -0.75 0)
 		(mid -0.53033 -0.53033)
@@ -194,6 +183,17 @@
 		(uuid "e40220fc-2e88-49ac-9a14-b3e442d3ceec")
 	)
 	
+
+	(fp_rect
+		(start -0.750 -0.750)
+		(end 0.750 0.750)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
 	(pad "1" smd circle
 		(at 0 0)
 		(size 1 1)

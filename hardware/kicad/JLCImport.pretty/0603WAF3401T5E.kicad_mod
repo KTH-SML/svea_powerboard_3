@@ -25,6 +25,17 @@
   (fp_line (start -0.426213 0.660605) (end -1.38509 0.660605) (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (uuid "f5cc0e8e-9337-4cdc-a429-d93271a41051"))
   (fp_line (start -1.38509 0.660605) (end -1.38509 -0.660605) (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (uuid "077f89b1-01cd-4db4-bfef-8c0995584967"))
   (fp_line (start -1.38509 -0.660605) (end -0.426213 -0.660605) (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (uuid "ee84d1c9-2bb7-4682-bb05-5524304af46d"))
+
+	(fp_rect
+		(start -1.407 -0.682)
+		(end 1.407 0.682)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
   (pad "2" smd rect (at 0.753366 0) (size 0.806477 0.864008) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "4315693b-20f3-4245-95ee-74273f5625be"))
   (pad "1" smd rect (at -0.753366 0) (size 0.806477 0.864008) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "cb5fb132-dc84-4cb9-90a9-197eaa5844ea"))
   (model "${KIPRJMOD}/JLCImport.3dshapes/0603WAF3401T5E.wrl"

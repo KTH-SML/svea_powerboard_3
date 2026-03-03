@@ -203,17 +203,6 @@
 		(layer "Cmts.User")
 		(uuid "3f2a67a1-ecb7-44d9-b164-4ec47158c387")
 	)
-	(fp_rect
-		(start -3.048 -4.826)
-		(end 3.048 2.54)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "de7b7d14-a019-409b-86a3-59aa9406ed51")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -224,6 +213,17 @@
 				(thickness 0.15)
 			)
 		)
+	)
+
+	(fp_rect
+		(start -2.410 -2.025)
+		(end 2.400 2.470)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
 	)
 	(pad "1" smd rect
 		(at -1.91 1.77)

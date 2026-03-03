@@ -35,6 +35,17 @@
   (fp_poly (pts (xy -9.14412 -2.539903) (xy -9.14412 2.540107) (xy -11.684125 0.000102)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (uuid "5ae3b18a-0ead-49c6-8e92-d2aeea19db88"))
   (fp_poly (pts (xy -0.254001 -6.731013) (xy 0 -6.731013) (xy 0 -5.969012) (xy 0.762002 -5.969012) (xy 0.762002 -5.715011) (xy 0 -5.715011) (xy 0 -4.95301) (xy -0.254001 -4.95301) (xy -0.254001 -5.715011) (xy -1.016002 -5.715011) (xy -1.016002 -5.969012) (xy -0.254001 -5.969012)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (uuid "a816cff1-1f66-4928-b408-7e87686108cc"))
   (fp_poly (pts (xy -0.381001 4.318009) (xy -0.127 4.318009) (xy -0.127 6.350013) (xy -0.381001 6.350013)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (uuid "b358fd40-4932-4a32-8e92-8d07f856afaf"))
+
+	(fp_rect
+		(start -4.600 -7.850)
+		(end 5.400 7.850)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
   (pad "4" thru_hole oval (at -3 6.750064 90) (size 1.2 2.2) (drill oval 0.6 1.6) (layers "*.Cu" "*.Mask") (uuid "48b40ac7-22b1-4015-9774-e51869876032"))
   (pad "3" thru_hole oval (at -3 -6.750064 90) (size 1.2 2.2) (drill oval 0.6 1.6) (layers "*.Cu" "*.Mask") (uuid "f0ae360a-9536-4d79-9d66-0785a0449b0e"))
   (pad "1" thru_hole oval (at 3 3.599949 90) (size 3.8 3.8) (drill 2.900025) (layers "*.Cu" "*.Mask") (uuid "a25d57fa-86d7-4f42-b1c2-e178bd0f0715"))

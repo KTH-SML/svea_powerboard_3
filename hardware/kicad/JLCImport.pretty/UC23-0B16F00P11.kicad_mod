@@ -30,6 +30,17 @@
   (fp_line (start -4.499898 0.208153) (end -4.499898 1.121692) (stroke (width 0.254001) (type solid)) (layer "F.SilkS") (uuid "b40c48d3-1d9e-4a5b-b60e-7fe3f1f1d8a4"))
   (fp_line (start -4.499898 -2.750064) (end -4.499898 -2.608179) (stroke (width 0.254001) (type solid)) (layer "F.SilkS") (uuid "b5c82834-f6b3-4024-aef6-ad1850db77d6"))
   (fp_poly (pts (xy -4.399898 5.699924) (xy -4.399898 6.349936) (xy 4.400102 6.349936) (xy 4.400102 5.849936) (xy 4.600102 5.849936) (xy 4.600102 6.599924) (xy -4.649886 6.599924) (xy -4.649886 5.699924)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (uuid "ccd97d49-619e-4739-9130-78f11378b404"))
+
+	(fp_rect
+		(start -5.275 -3.005)
+		(end 5.275 3.530)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
   (pad "A1" thru_hole oval (at -2.974981 -2.179959) (size 0.650013 0.650013) (drill 0.4) (layers "*.Cu" "*.Mask") (uuid "d58818dd-afa5-4bf7-925f-91aadb8e6b5d"))
   (pad "A4" thru_hole oval (at -2.124841 -2.179959) (size 0.650013 0.650013) (drill 0.4) (layers "*.Cu" "*.Mask") (uuid "d24d0dbc-76b2-4e5d-a69b-e2c019675295"))
   (pad "A5" thru_hole oval (at -1.274956 -2.179959) (size 0.650013 0.650013) (drill 0.4) (layers "*.Cu" "*.Mask") (uuid "425e0ef5-6282-4c08-8144-f9643d068ab1"))

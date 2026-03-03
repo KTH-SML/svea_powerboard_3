@@ -24,6 +24,17 @@
   (fp_line (start 2.116307 1.092609) (end 0.926213 1.092609) (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (uuid "a99c8881-b8f7-46ca-acda-4715d0a7853e"))
   (fp_arc (start 0 0) (mid -0.113202 -0.422475) (end 0 -0.84495) (stroke (width 0.0762) (type solid)) (layer "F.SilkS") (uuid "262ac3ae-5033-4672-8e37-c9fe84840c02"))
   (fp_arc (start 0 0) (mid 0.113202 0.422475) (end 0 0.84495) (stroke (width 0.0762) (type solid)) (layer "F.SilkS") (uuid "fda25f3a-c5c9-4d20-8987-c78af566418e"))
+
+	(fp_rect
+		(start -2.290 -1.114)
+		(end 2.290 1.114)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
   (pad "1" smd rect (at -1.445009 0) (size 1.190094 1.727991) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "f7e60aa5-73d2-4249-a9e9-22029273ae35"))
   (pad "2" smd rect (at 1.445009 0) (size 1.190094 1.727991) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "b9843449-2740-4d77-9705-d75b64312e57"))
   (model "${KIPRJMOD}/JLCImport.3dshapes/JK-NSMD150SF.wrl"

@@ -23,6 +23,17 @@
   (fp_line (start 4.500076 4.974981) (end -4.499924 4.974981) (stroke (width 0.254001) (type solid)) (layer "F.SilkS") (uuid "a8169009-2dd1-4274-bf4e-05f5ba63119c"))
   (fp_circle (center -2.889891 -1.304928) (end -2.764923 -1.304928) (stroke (width 0.250013) (type solid)) (fill solid) (layer "F.Fab") (uuid "b9756a51-6570-4e72-89d6-928d36b4bc0f"))
   (fp_circle (center 2.890145 -1.304928) (end 3.015113 -1.304928) (stroke (width 0.250013) (type solid)) (fill solid) (layer "F.Fab") (uuid "1237969c-79bc-481f-9881-3191bf6909fc"))
+
+	(fp_rect
+		(start -5.425 -3.425)
+		(end 5.425 3.775)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
   (pad "1" smd rect (at -3.200025 -2.375032) (size 0.550013 1.1) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "dffcee9d-d6f4-4b34-ac11-799ce584074e"))
   (pad "2" smd rect (at -2.399924 -2.375032) (size 0.550013 1.1) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "11364c26-b594-4bc7-ba2d-0ef2695e5503"))
   (pad "3" smd rect (at -1.749936 -2.375032) (size 0.3 1.1) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "e36493ae-3c5c-48d4-87a2-33dd38c0aa97"))

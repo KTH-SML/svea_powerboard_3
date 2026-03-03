@@ -204,17 +204,6 @@
 		(layer "F.Paste")
 		(uuid "dac9d02b-b832-45c4-b8cb-e2106d401f65")
 	)
-	(fp_rect
-		(start -1.955 -0.94)
-		(end 1.955 0.94)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "16abb5b6-8e49-46bb-80a6-fc84836f94fa")
-	)
 	(fp_line
 		(start -1 -0.625)
 		(end 1 -0.625)
@@ -293,6 +282,17 @@
 		(uuid "d326f890-19b2-4b1a-a22f-2dbfb8bc2c42")
 	)
 	
+
+	(fp_rect
+		(start -1.955 -0.925)
+		(end 1.955 0.925)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
 	(pad "1" smd rect
 		(at -1 0)
 		(size 1.41 1.35)

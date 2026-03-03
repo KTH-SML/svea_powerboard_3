@@ -225,17 +225,6 @@
 		(layer "Dwgs.User")
 		(uuid "ec381240-f661-4524-b638-c55d723451e2")
 	)
-	(fp_rect
-		(start -5.75 -4.4255)
-		(end 5.75 4.456933)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "aeff2ccd-b36f-4c30-8daf-f5cee538b606")
-	)
 	(fp_line
 		(start -4.15 -2.3)
 		(end -2.3 -4.15)
@@ -334,6 +323,17 @@
 		(uuid "be1bdf16-0fe8-4e2f-947f-992cfb26023c")
 	)
 	
+
+	(fp_circle
+		(center 0.000 0.000)
+		(end 5.750 0.000)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
 	(pad "1" smd rect
 		(at -3.5 0)
 		(size 4 1.6)

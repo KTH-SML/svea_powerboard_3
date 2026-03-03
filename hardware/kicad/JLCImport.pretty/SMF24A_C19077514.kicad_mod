@@ -26,6 +26,17 @@
   (fp_poly (pts (xy 1.747041 0.383998) (xy 1.555017 0.383998) (xy 1.555017 -0.383998) (xy 1.747041 -0.383998)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (uuid "010a59c4-417e-4762-98fd-d57d397dc37b"))
   (fp_poly (pts (xy -1.3 -1.002413) (xy -1.3 -0.682423) (xy -1.604801 -0.682423) (xy -1.604801 -1.002413)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (uuid "82a60296-bb4d-47db-9d03-e38059f7c30a"))
   (fp_poly (pts (xy -1.3 1.002413) (xy -1.3 0.682423) (xy -1.604801 0.682423) (xy -1.604801 1.002413)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (uuid "b831e378-89f9-419f-ad87-946c8cba0e65"))
+
+	(fp_rect
+		(start -2.485 -0.850)
+		(end 2.485 0.850)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
   (pad "2" smd rect (at 1.635001 0) (size 1.2 1.2) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "59d6b1ab-eff4-4a4e-a899-79f8526ce3b6"))
   (pad "1" smd rect (at -1.635001 0) (size 1.2 1.2) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "8ab0f50a-1e1b-4df0-9316-2b68c0520e7f"))
   (model "${KIPRJMOD}/JLCImport.3dshapes/SMF24A_C19077514.wrl"

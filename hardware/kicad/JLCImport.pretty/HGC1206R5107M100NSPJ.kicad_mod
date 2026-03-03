@@ -26,6 +26,17 @@
   (fp_arc (start 2.411201 -1.092609) (mid 2.518965 -1.047972) (end 2.563602 -0.940208) (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (uuid "8e272542-8565-4732-9215-e8d87eceab65"))
   (fp_arc (start -2.411201 1.092609) (mid -2.518965 1.047972) (end -2.563602 0.940208) (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (uuid "d4919f7f-0e18-449a-97bd-fedb3f4bcd91"))
   (fp_arc (start -2.563602 -0.940208) (mid -2.518965 -1.047972) (end -2.411201 -1.092609) (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (uuid "b5d117d2-a10c-4f8e-86fd-5225215e5a4c"))
+
+	(fp_rect
+		(start -2.585 -1.114)
+		(end 2.585 1.114)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
   (pad "2" smd rect (at 1.592583 0) (size 1.485014 1.727991) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "d8180bc7-1b80-495d-98c0-a7eb4c9f3dc5"))
   (pad "1" smd rect (at -1.592583 0) (size 1.485014 1.727991) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "0d9ea636-799b-4821-8d07-e7337db75779"))
   (model "${KIPRJMOD}/JLCImport.3dshapes/HGC1206R5107M100NSPJ.wrl"

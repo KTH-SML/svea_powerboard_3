@@ -23,6 +23,17 @@
   (fp_poly (pts (xy -6.754026 -1.851003) (xy -6.246025 -1.851003) (xy -6.246025 1.451003) (xy -6.754026 1.451003)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (uuid "d2b654c2-fe31-4634-ac59-67da7d3f737a"))
   (fp_poly (pts (xy -7.61999 -0.508001) (xy -5.334011 -0.508001) (xy -5.334011 0) (xy -7.61999 0)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (uuid "b2b1a27c-44dd-429b-ad92-c952ec2f25bc"))
   (fp_poly (pts (xy 13.254178 0) (xy 12.641622 3.079528) (xy 10.89721 5.690225) (xy 8.286513 7.434637) (xy 5.206985 8.047193) (xy 2.127457 7.434637) (xy -0.48324 5.690225) (xy -2.227652 3.079528) (xy -2.840208 0) (xy -2.227652 -3.079528) (xy -0.48324 -5.690225) (xy 2.127457 -7.434637) (xy 5.206985 -8.047193) (xy 8.286513 -7.434637) (xy 10.89721 -5.690225) (xy 12.641622 -3.079528)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (uuid "7e3dd79d-cf7c-4024-a112-bdcfbae19783"))
+
+	(fp_circle
+		(center 0.000 0.000)
+		(end 5.350 0.000)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
   (pad "1" thru_hole oval (at -3.749936 0) (size 2.2 2.2) (drill 1.2) (layers "*.Cu" "*.Mask") (uuid "b28bdac3-c9e2-4f2f-8e9c-a2b9fcefb2ee"))
   (pad "2" thru_hole oval (at 3.749936 0) (size 2.2 2.2) (drill 1.2) (layers "*.Cu" "*.Mask") (uuid "b35f5627-fad6-4de6-a1b4-e23ffb07078f"))
   (model "${KIPRJMOD}/JLCImport.3dshapes/EWH1EM472L25OT.wrl"

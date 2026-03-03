@@ -165,17 +165,6 @@
 		(layer "Dwgs.User")
 		(uuid "d02fe026-ea57-4f5d-929a-bb1fd4e1dc29")
 	)
-	(fp_rect
-		(start -6.805433 -6.7755)
-		(end 6.7755 6.805433)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "a68f2762-7c43-4713-84de-6c28d108b9ea")
-	)
 	(fp_arc
 		(start -6.5 0)
 		(mid 0 -6.5)
@@ -245,6 +234,17 @@
 		(uuid "2c089317-0d89-481f-bf07-b1c314857687")
 	)
 	
+
+	(fp_circle
+		(center 0.000 0.000)
+		(end 3.900 0.000)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
 	(pad "1" thru_hole circle
 		(at -2.5 0)
 		(size 1.8 1.8)
