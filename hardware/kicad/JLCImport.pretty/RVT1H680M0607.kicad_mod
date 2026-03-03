@@ -31,16 +31,102 @@
   (fp_poly (pts (xy -3.102007 -0.099009) (xy -3.102007 0.099009) (xy -2.310008 0.099009) (xy -2.310008 -0.099009)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (uuid "b8b3ffa3-437c-4e97-96d3-adb733953147"))
   (fp_poly (pts (xy -2.810008 -0.659995) (xy -2.810008 0.659995) (xy -2.612014 0.659995) (xy -2.612014 -0.659995)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (uuid "61063cb0-f564-4115-8d1e-cbc07da2650d"))
 
-	(fp_circle
-		(center 0.000 0.000)
-		(end 4.670 0.000)
+
+
+
+
+	
+	(fp_line
+		(start -4.670 -0.850)
+		(end -3.626 -2.084)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "F.CrtYd")
 	)
+	(fp_line
+		(start -3.626 -2.084)
+		(end -2.084 -3.626)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.084 -3.626)
+		(end 3.626 -3.626)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.626 -3.626)
+		(end 4.670 -0.850)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.670 -0.850)
+		(end 4.670 0.850)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.670 0.850)
+		(end 3.626 3.626)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.626 3.626)
+		(end -2.085 3.626)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.085 3.626)
+		(end -3.626 2.085)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.626 2.085)
+		(end -4.670 0.850)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -4.670 0.850)
+		(end -4.670 -0.850)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+
   (pad "1" smd rect (at -2.670053 0) (size 3.5 1.2) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "bed6c727-1ae4-4ce6-88f6-bf84b0801701"))
   (pad "2" smd rect (at 2.670053 0) (size 3.5 1.2) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "9bf4f5b1-cb58-469e-9c03-b989938bb1ba"))
   (model "${KIPRJMOD}/JLCImport.3dshapes/RVT1H680M0607.wrl"

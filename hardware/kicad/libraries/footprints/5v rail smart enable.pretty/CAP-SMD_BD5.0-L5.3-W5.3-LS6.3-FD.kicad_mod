@@ -263,16 +263,87 @@
 		(uuid "919e55aa-481d-4298-bc6b-215bf73cdc69")
 	)
 
-	(fp_circle
-		(center 0.000 0.000)
-		(end 4.000 0.000)
+
+
+
+
+	
+	(fp_line
+		(start -4.000 -0.705)
+		(end -1.454 -2.900)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "F.CrtYd")
 	)
+	(fp_line
+		(start -1.454 -2.900)
+		(end 2.900 -2.900)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.900 -2.900)
+		(end 4.000 -0.705)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.000 -0.705)
+		(end 4.000 0.705)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.000 0.705)
+		(end 2.900 2.900)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.900 2.900)
+		(end -1.454 2.900)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.454 2.900)
+		(end -4.000 0.705)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -4.000 0.705)
+		(end -4.000 -0.705)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+
+	
+	
+	
 	(pad "1" smd rect
 		(at -2.4 0)
 		(size 2.7 0.91)

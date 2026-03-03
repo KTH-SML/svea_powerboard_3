@@ -324,16 +324,105 @@
 	)
 	
 
-	(fp_circle
-		(center 0.000 0.000)
-		(end 4.350 0.000)
+
+
+
+
+	
+	(fp_line
+		(start -4.350 -0.750)
+		(end -3.550 -2.084)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "F.CrtYd")
 	)
+	(fp_line
+		(start -3.550 -2.084)
+		(end -2.084 -3.550)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.084 -3.550)
+		(end 3.550 -3.550)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.550 -3.550)
+		(end 4.350 -0.750)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.350 -0.750)
+		(end 4.350 0.750)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.350 0.750)
+		(end 3.550 3.550)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.550 3.550)
+		(end -2.084 3.550)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.084 3.550)
+		(end -3.550 2.084)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.550 2.084)
+		(end -4.350 0.750)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -4.350 0.750)
+		(end -4.350 -0.750)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+
+	
+	
+	
 	(pad "1" smd rect
 		(at -2.57 0)
 		(size 3.06 1)
