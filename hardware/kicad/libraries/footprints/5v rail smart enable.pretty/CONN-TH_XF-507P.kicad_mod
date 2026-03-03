@@ -410,6 +410,17 @@
 		(layer "Dwgs.User")
 		(uuid "3bb33312-bd6b-47e3-8b17-2d627a21b83a")
 	)
+	(fp_rect
+		(start -10.305 -2.786)
+		(end 10.279 2.805)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a4376ec8-0def-4f7d-8d17-4f889e949ddf")
+	)
 	(fp_line
 		(start -9.75 -2.25)
 		(end 9.75 -2.25)
@@ -511,19 +522,6 @@
 		(layer "User.1")
 		(uuid "67064767-ab34-4c79-9afb-bd3b001889ff")
 	)
-
-
-
-	(fp_rect
-		(start -10.305 -2.786)
-		(end 10.279 2.805)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-	)
 	(pad "1" thru_hole circle
 		(at -7.1 0)
 		(size 3.5 3.5)
@@ -533,7 +531,7 @@
 		(thermal_bridge_angle 90)
 		(uuid "5e7b9ca1-75a6-4f9c-9e49-98caff71260a")
 	)
-	(pad "2" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -2.1 0)
 		(size 3.5 3.5)
 		(drill 2.7)
@@ -542,7 +540,7 @@
 		(thermal_bridge_angle 90)
 		(uuid "075a8d9b-d5ad-43e1-9675-8032f846d357")
 	)
-	(pad "3" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 2.1 0)
 		(size 3.5 3.5)
 		(drill 2.7)
@@ -551,7 +549,7 @@
 		(thermal_bridge_angle 90)
 		(uuid "40704013-a036-48b9-bd6b-1ab4e7b9e7a2")
 	)
-	(pad "4" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 7.1 0 180)
 		(size 3.5 3.5)
 		(drill 2.7)

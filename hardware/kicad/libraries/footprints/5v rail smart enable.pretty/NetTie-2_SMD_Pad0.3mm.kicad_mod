@@ -69,19 +69,6 @@
 		(layer "F.Cu")
 		(uuid "4c587801-35de-4fc4-895b-9942aca7f89f")
 	)
-
-
-
-	(fp_rect
-		(start -0.900 -0.400)
-		(end 0.900 0.400)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-	)
 	(pad "1" smd circle
 		(at -0.5 0)
 		(size 0.3 0.3)
@@ -97,7 +84,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "F.SilkS")
+		(layers "F.Cu" "F.SilkS")
 		(uuid "129fe061-3288-4a59-95fa-270f2b4c7a48")
 		(hatch edge 0.5)
 		(connect_pads
