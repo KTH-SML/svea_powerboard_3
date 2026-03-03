@@ -4319,119 +4319,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VSS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VSS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VSS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VSS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "VSS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 242.57 36.83)
@@ -4507,12 +4394,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0dea8611-a5d8-4957-8098-c0a5c07cd757")
-	)
-	(junction
-		(at 157.48 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13ae8b6a-dbba-463f-a566-ca4fa9f43615")
 	)
 	(junction
 		(at 201.93 182.88)
@@ -4664,6 +4545,10 @@
 		(color 0 0 0 0)
 		(uuid "ec9ed1d1-ac40-4d73-84e2-b4907cefcc06")
 	)
+	(no_connect
+		(at 160.02 241.3)
+		(uuid "026c2d46-4b22-4fd0-a899-89e43da97eec")
+	)
 	(wire
 		(pts
 			(xy 152.4 119.38) (xy 156.21 119.38)
@@ -4796,13 +4681,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 241.3) (xy 157.48 241.3)
+			(xy 160.02 238.76) (xy 153.67 238.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bfe1f41-c483-4b66-976d-3b3cf909bbef")
+		(uuid "1b28e7b5-169a-4ca9-94f3-c295e83365d7")
 	)
 	(wire
 		(pts
@@ -4873,16 +4758,6 @@
 			(type default)
 		)
 		(uuid "2d828504-2269-4bc8-87e1-0965656ea487")
-	)
-	(wire
-		(pts
-			(xy 157.48 241.3) (xy 157.48 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2df918ad-c8e8-4169-9b4b-9aeb3a82fad8")
 	)
 	(wire
 		(pts
@@ -5076,13 +4951,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 238.76) (xy 160.02 238.76)
+			(xy 153.67 241.3) (xy 151.13 241.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6eda45d1-1493-4ed3-b095-3352b270561b")
+		(uuid "6f808415-00e8-4c4f-baf4-9df4855a65cb")
 	)
 	(wire
 		(pts
@@ -5366,6 +5241,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 238.76) (xy 153.67 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25eb6f7-33a3-4ad3-8f2b-89e1b8076827")
+	)
+	(wire
+		(pts
 			(xy 107.95 148.59) (xy 107.95 133.35)
 		)
 		(stroke
@@ -5503,16 +5388,6 @@
 			(type default)
 		)
 		(uuid "d7388cf2-b0fa-4f62-9d42-bf442e65eb41")
-	)
-	(wire
-		(pts
-			(xy 160.02 241.3) (xy 157.48 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d83546a6-a3e6-44c2-b9d3-1ab9e948ade5")
 	)
 	(wire
 		(pts
@@ -5778,6 +5653,17 @@
 			(justify right)
 		)
 		(uuid "4624323c-b266-4200-bc3b-86ff330cf29e")
+	)
+	(hierarchical_label "VSS"
+		(shape input)
+		(at 113.03 214.63 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b56bbab-3526-4bb2-b835-b7040948f0b5")
 	)
 	(hierarchical_label "PACK+"
 		(shape output)
@@ -6718,7 +6604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 146.05 238.76 0)
 			(effects
 				(font
@@ -8176,7 +8062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCImport:PWR263S-35-40R0J"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 			(at 165.1 241.3 0)
 			(effects
 				(font
@@ -8361,71 +8247,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
 					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 113.03 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9278cdb9-1b11-4915-a643-0418144a8709")
-		(property "Reference" "#PWR0163"
-			(at 113.03 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 113.03 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c386490c-9ac1-4116-9110-9d290665cc5a")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
