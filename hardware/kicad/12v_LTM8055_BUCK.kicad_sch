@@ -4531,12 +4531,6 @@
 		(uuid "b0d46501-3fe1-4dff-bd78-6b9f5f6289f8")
 	)
 	(junction
-		(at 43.18 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b18f910f-cd40-4378-93ad-aaaddcf9087b")
-	)
-	(junction
 		(at 238.76 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4840,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 66.04) (xy 43.18 87.63)
+			(xy 43.18 66.04) (xy 43.18 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5260,16 +5254,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 95.25) (xy 43.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2b8391a-235f-4828-a950-525f1f79810d")
-	)
-	(wire
-		(pts
 			(xy 220.98 82.55) (xy 227.33 82.55)
 		)
 		(stroke
@@ -5350,7 +5334,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 97.79) (xy 43.18 114.3)
+			(xy 43.18 99.06) (xy 43.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7137,7 +7121,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:CL32B475KBUYNNE")
-		(at 43.18 92.71 90)
+		(at 43.18 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7146,7 +7130,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c05c70b-102c-4e85-baa9-b65e42e26fd8")
 		(property "Reference" "C1401"
-			(at 46.99 91.4399 90)
+			(at 46.99 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7155,7 +7139,7 @@
 			)
 		)
 		(property "Value" "CL32B475KBUYNNE"
-			(at 46.99 93.9799 90)
+			(at 46.99 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,8 +7148,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCImport:CL32B475KBUYNNE"
-			(at 43.18 92.71 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +7158,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL32B475KBUYNNE_C170099.pdf"
-			(at 43.18 92.71 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7167,7 @@
 			)
 		)
 		(property "Description" "4.7uF 50V X7R ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 43.18 92.71 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +7176,7 @@
 			)
 		)
 		(property "LCSC" "C170099"
-			(at 43.18 92.71 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +7185,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 43.18 92.71 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,7 +7194,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL32B475KBUYNNE"
-			(at 43.18 92.71 0)
+			(at 43.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +7385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JLCImport:CL32B475KBUYNNE"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 30.48 92.71 0)
 			(effects
 				(font
