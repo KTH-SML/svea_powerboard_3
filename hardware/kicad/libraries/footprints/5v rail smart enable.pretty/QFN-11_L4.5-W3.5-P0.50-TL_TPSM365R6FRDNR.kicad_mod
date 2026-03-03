@@ -74,6 +74,7 @@
 			)
 		)
 	)
+	(clearance 0.16)
 	(fp_line
 		(start -2 -1.9)
 		(end -0.8815 -1.9)
@@ -165,6 +166,17 @@
 		(fill no)
 		(layer "Dwgs.User")
 		(uuid "bed365d9-069a-4fa4-a1ea-f84ae3d4ab88")
+	)
+	(fp_rect
+		(start -2.374 -2.288)
+		(end 2.4 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d36b651e-abaf-4b92-8f02-ae28ed6827d7")
 	)
 	(fp_line
 		(start -1.75 -1.6875)
@@ -358,20 +370,6 @@
 		(fill yes)
 		(layer "User.1")
 		(uuid "3792d292-ee34-42ad-a865-275a134112a3")
-	)
-	
-
-
-
-	(fp_rect
-		(start -2.974 -2.288)
-		(end 2.400 3.250)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
 	)
 	(pad "1" smd rect
 		(at -1.48 -1.3875)
