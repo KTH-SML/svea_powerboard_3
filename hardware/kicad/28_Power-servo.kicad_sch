@@ -30,7 +30,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -114,7 +114,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -132,7 +132,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -174,7 +174,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C1210"
 				(at 0 0 0)
 				(effects
 					(font
@@ -295,7 +295,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "2"
@@ -313,7 +313,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "1"
@@ -1380,7 +1380,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1398,7 +1398,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1451,7 +1451,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com.cn/cn/lit/ml/mpqf620/mpqf620.pdf?ts=1684740647599&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fsitesearch%252Fzh-cn%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Dzh-CN%2526searchTerm%253DTLVM13610RDFR%2526nr%253D9"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309221415_Texas-Instruments-TPSM63610RDFR_C7125816.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1460,7 +1460,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "-40℃~+125℃ 1 1V~20V 3V~36V 400kHz 4mm 6.5mm 7.5mm 8A 8uA 95% Buck Overheat protection、Over Current Protection ±1% B3QFN-22(6.5x7.5) DC-DC Power Modules ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1478,7 +1478,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TI(德州仪器)"
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1488,6 +1488,15 @@
 				)
 			)
 			(property "Manufacturer Part" "TPSM63610RDFR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C7125816 QFN-22_L7.5-W6.5_TLVM13610RDFR TPSM63610RDFR Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font

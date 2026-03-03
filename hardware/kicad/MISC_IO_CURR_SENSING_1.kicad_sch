@@ -26,7 +26,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -170,7 +170,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -291,7 +291,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -309,7 +309,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -351,7 +351,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -472,7 +472,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -490,7 +490,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -615,7 +615,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -22.86 3.81 0)
 					(length 2.54)
 					(name "IN-3"
@@ -633,7 +633,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -22.86 1.27 0)
 					(length 2.54)
 					(name "IN+3"
@@ -651,7 +651,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -22.86 -1.27 0)
 					(length 2.54)
 					(name "GND"
@@ -669,7 +669,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -22.86 -3.81 0)
 					(length 2.54)
 					(name "VS"
@@ -687,7 +687,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 19.05 270)
 					(length 2.54)
 					(name "PAD"
@@ -705,7 +705,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -3.81 19.05 270)
 					(length 2.54)
 					(name "VPU"
@@ -723,7 +723,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -3.81 -19.05 90)
 					(length 2.54)
 					(name "A0"
@@ -741,7 +741,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -1.27 19.05 270)
 					(length 2.54)
 					(name "IN+2"
@@ -759,7 +759,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -1.27 -19.05 90)
 					(length 2.54)
 					(name "SCL"
@@ -777,7 +777,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 1.27 19.05 270)
 					(length 2.54)
 					(name "IN-2"
@@ -795,7 +795,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 1.27 -19.05 90)
 					(length 2.54)
 					(name "SDA"
@@ -813,7 +813,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at 3.81 19.05 270)
 					(length 2.54)
 					(name "TC"
@@ -831,7 +831,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at 3.81 -19.05 90)
 					(length 2.54)
 					(name "WARNING"
@@ -849,7 +849,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 22.86 3.81 180)
 					(length 2.54)
 					(name "IN+1"
@@ -867,7 +867,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 22.86 1.27 180)
 					(length 2.54)
 					(name "IN-1"
@@ -885,7 +885,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at 22.86 -1.27 180)
 					(length 2.54)
 					(name "PV"
@@ -903,7 +903,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at 22.86 -3.81 180)
 					(length 2.54)
 					(name "CRITICAL"
@@ -945,7 +945,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0402"
 				(at 0 0 0)
 				(effects
 					(font

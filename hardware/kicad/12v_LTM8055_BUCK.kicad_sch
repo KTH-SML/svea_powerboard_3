@@ -26,7 +26,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R2512"
 				(at 0 0 0)
 				(effects
 					(font
@@ -110,7 +110,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -128,7 +128,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -275,7 +275,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "VOUT"
@@ -293,7 +293,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -10.16 0 0)
 					(length 2.54)
 					(name "VSS"
@@ -311,7 +311,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "VDD"
@@ -365,7 +365,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "SDA"
@@ -910,7 +910,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -928,7 +928,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1084,7 +1084,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1102,7 +1102,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1466,7 +1466,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 4.318)
 					(name "1"
@@ -1484,7 +1484,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 4.826)
 					(name "2"
@@ -1990,7 +1990,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2008,7 +2008,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2026,7 +2026,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2044,7 +2044,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2062,7 +2062,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2080,7 +2080,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2098,7 +2098,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2116,7 +2116,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2134,7 +2134,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2152,7 +2152,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 5.08)
 					(name "VIN"
@@ -2170,7 +2170,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 15.24 0)
 					(length 5.08)
 					(name "SVIN"
@@ -2188,7 +2188,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -20.32 15.24 0)
 					(length 5.08)
 					(name "SVIN"

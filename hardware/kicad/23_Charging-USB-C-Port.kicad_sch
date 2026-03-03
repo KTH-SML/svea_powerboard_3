@@ -29,7 +29,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:SOD-123"
+			(property "Footprint" "Diode_SMD:D_SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -126,7 +126,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "K"
@@ -144,7 +144,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "A"
@@ -186,7 +186,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -307,7 +307,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -325,7 +325,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -560,7 +560,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.032)
 					(name "G"
@@ -578,7 +578,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -596,7 +596,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -846,7 +846,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -25.4 22.86 0)
 					(length 2.54)
 					(name "CC1"
@@ -864,7 +864,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -25.4 20.32 0)
 					(length 2.54)
 					(name "CC2"
@@ -882,7 +882,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -25.4 12.7 0)
 					(length 2.54)
 					(name "EN_HVDCP/OUT1"
@@ -900,7 +900,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -25.4 10.16 0)
 					(length 2.54)
 					(name "EN_N"
@@ -918,7 +918,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -25.4 2.54 0)
 					(length 2.54)
 					(name "FAULT/OUT2"
@@ -936,7 +936,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -25.4 0 0)
 					(length 2.54)
 					(name "FLGIN"
@@ -954,7 +954,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -25.4 -7.62 0)
 					(length 2.54)
 					(name "SCL/SNK_ISET"
@@ -972,7 +972,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -25.4 -10.16 0)
 					(length 2.54)
 					(name "SDA/SNK_VSET"
@@ -990,7 +990,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -25.4 -17.78 0)
 					(length 2.54)
 					(name "D+"
@@ -1008,7 +1008,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -25.4 -20.32 0)
 					(length 2.54)
 					(name "D-"
@@ -1026,7 +1026,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -25.4 -22.86 0)
 					(length 2.54)
 					(name "DBG_N"
@@ -1044,7 +1044,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 25.4 22.86 180)
 					(length 2.54)
 					(name "VDD"
@@ -1062,7 +1062,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 5.08 180)
 					(length 2.54)
 					(name "ADDR/ORIENT"
@@ -1080,7 +1080,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at 25.4 2.54 180)
 					(length 2.54)
 					(name "GATE"
@@ -1098,7 +1098,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at 25.4 0 180)
 					(length 2.54)
 					(name "INT_N"
@@ -1116,7 +1116,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 25.4 -2.54 180)
 					(length 2.54)
 					(name "VBUS"
@@ -1134,7 +1134,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 25.4 -22.86 180)
 					(length 2.54)
 					(name "GND"
@@ -1869,7 +1869,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 10.16 0)
 					(length 2.54)
 					(name "IO1"
@@ -1887,7 +1887,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "IO2"
@@ -1905,7 +1905,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "GND"
@@ -1923,7 +1923,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "IO3"
@@ -1941,7 +1941,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -10.16 0)
 					(length 2.54)
 					(name "IO4"
@@ -1959,7 +1959,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 10.16 10.16 180)
 					(length 2.54)
 					(name "NC"
@@ -1977,7 +1977,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "NC"
@@ -1995,7 +1995,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name "GND"
@@ -2013,7 +2013,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "NC"
@@ -2031,7 +2031,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 10.16 -10.16 180)
 					(length 2.54)
 					(name "NC"
@@ -2167,7 +2167,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 13.97 0)
 					(length 2.54)
 					(name "GND"
@@ -2185,7 +2185,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 6.35 0)
 					(length 2.54)
 					(name "VBUS"
@@ -2203,7 +2203,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 3.81 0)
 					(length 2.54)
 					(name "CC2"
@@ -2221,7 +2221,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 1.27 0)
 					(length 2.54)
 					(name "DP2"
@@ -2239,7 +2239,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -1.27 0)
 					(length 2.54)
 					(name "DN2"
@@ -2257,7 +2257,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -3.81 0)
 					(length 2.54)
 					(name "SBU2"
@@ -2275,7 +2275,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -6.35 0)
 					(length 2.54)
 					(name "VBUS"
@@ -2293,7 +2293,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -13.97 0)
 					(length 2.54)
 					(name "GND"
@@ -2311,7 +2311,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 21.59 270)
 					(length 5.08)
 					(name "SH"
@@ -2329,7 +2329,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 -21.59 90)
 					(length 5.08)
 					(name "SH"
@@ -2347,7 +2347,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 21.59 270)
 					(length 5.08)
 					(name "SH"
@@ -2365,7 +2365,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 -21.59 90)
 					(length 5.08)
 					(name "SH"
@@ -2383,7 +2383,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 13.97 180)
 					(length 2.54)
 					(name "GND"
@@ -2401,7 +2401,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 6.35 180)
 					(length 2.54)
 					(name "VBUS"
@@ -2419,7 +2419,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 3.81 180)
 					(length 2.54)
 					(name "SBU1"
@@ -2437,7 +2437,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 1.27 180)
 					(length 2.54)
 					(name "DN1"
@@ -2455,7 +2455,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -1.27 180)
 					(length 2.54)
 					(name "DP1"
@@ -2473,7 +2473,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -3.81 180)
 					(length 2.54)
 					(name "CC1"
@@ -2491,7 +2491,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -6.35 180)
 					(length 2.54)
 					(name "VBUS"
@@ -2509,7 +2509,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -13.97 180)
 					(length 2.54)
 					(name "GND"
@@ -2942,7 +2942,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:SOD-123FL"
+			(property "Footprint" "Diode_SMD:D_SMF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3069,7 +3069,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "K"
@@ -3087,7 +3087,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
@@ -3098,6 +3098,485 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:UC23-0B16F00P11"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB"
+				(at 0 24.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UC23-0B16F00P11"
+				(at 0 -24.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:UC23-0B16F00P11"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411212331_BXCONN-UC23-0B16F00P11_C36936564.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-45℃~+85℃ 1 10,000 cycles 16P 20V 3A 9.17mm Black Female Right Angle Type-C Push-Pull USB Connectors ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C36936564"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "BXCONN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "UC23-0B16F00P11"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BXCONN C36936564 UC23-0B16F00P11 USB-C-TH_UC23-0B16F00P11"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UC23-0B16F00P11_0_1"
+				(circle
+					(center -7.62 15.24)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 -17.78) (xy 9.7511 -17.7703) (xy 9.8464 -17.7414) (xy 9.9343 -17.6944) (xy 10.0112 -17.6312)
+						(xy 10.0744 -17.5543) (xy 10.1214 -17.4664) (xy 10.1503 -17.3711) (xy 10.16 -17.272) (xy 10.1503 17.3711)
+						(xy 10.1214 17.4664) (xy 10.0744 17.5543) (xy 10.0112 17.6312) (xy 9.9343 17.6944) (xy 9.8464 17.7414)
+						(xy 9.7511 17.7703) (xy 9.652 17.78) (xy -9.7511 17.7703) (xy -9.8464 17.7414) (xy -9.9343 17.6944)
+						(xy -10.0112 17.6312) (xy -10.0744 17.5543) (xy -10.1214 17.4664) (xy -10.1503 17.3711) (xy -10.16 17.272)
+						(xy -10.1503 -17.3711) (xy -10.1214 -17.4664) (xy -10.0744 -17.5543) (xy -10.0112 -17.6312) (xy -9.9343 -17.6944)
+						(xy -9.8464 -17.7414) (xy -9.7511 -17.7703) (xy -9.652 -17.78) (xy 9.652 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -15.24 12.7 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 22.86 270)
+					(length 5.08)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -22.86 90)
+					(length 5.08)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 22.86 270)
+					(length 5.08)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -22.86 90)
+					(length 5.08)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3398,485 +3877,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "UC23-0B16F00P11_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "USB"
-				(at 0 24.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "UC23-0B16F00P11"
-				(at 0 -24.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:UC23-0B16F00P11"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411212331_BXCONN-UC23-0B16F00P11_C36936564.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "-45℃~+85℃ 1 10,000 cycles 16P 20V 3A 9.17mm Black Female Right Angle Type-C Push-Pull USB Connectors ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C36936564"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "BXCONN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "UC23-0B16F00P11"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BXCONN C36936564 UC23-0B16F00P11 USB-C-TH_UC23-0B16F00P11"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "UC23-0B16F00P11_1_0_1"
-				(circle
-					(center -7.62 15.24)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.652 -17.78) (xy 9.7511 -17.7703) (xy 9.8464 -17.7414) (xy 9.9343 -17.6944) (xy 10.0112 -17.6312)
-						(xy 10.0744 -17.5543) (xy 10.1214 -17.4664) (xy 10.1503 -17.3711) (xy 10.16 -17.272) (xy 10.1503 17.3711)
-						(xy 10.1214 17.4664) (xy 10.0744 17.5543) (xy 10.0112 17.6312) (xy 9.9343 17.6944) (xy 9.8464 17.7414)
-						(xy 9.7511 17.7703) (xy 9.652 17.78) (xy -9.7511 17.7703) (xy -9.8464 17.7414) (xy -9.9343 17.6944)
-						(xy -10.0112 17.6312) (xy -10.0744 17.5543) (xy -10.1214 17.4664) (xy -10.1503 17.3711) (xy -10.16 17.272)
-						(xy -10.1503 -17.3711) (xy -10.1214 -17.4664) (xy -10.0744 -17.5543) (xy -10.0112 -17.6312) (xy -9.9343 -17.6944)
-						(xy -9.8464 -17.7414) (xy -9.7511 -17.7703) (xy -9.652 -17.78) (xy 9.652 -17.78)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 12.7 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 5.08 0)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 -7.62 0)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 -15.24 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 22.86 270)
-					(length 5.08)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -22.86 90)
-					(length 5.08)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 22.86 270)
-					(length 5.08)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -22.86 90)
-					(length 5.08)
-					(name "SHELL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 12.7 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 5.08 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5913,7 +5913,6 @@
 		)
 	)
 	(symbol
-		(lib_name "UC23-0B16F00P11_1")
 		(lib_id "JLCImport:UC23-0B16F00P11")
 		(at 45.72 133.35 0)
 		(unit 1)

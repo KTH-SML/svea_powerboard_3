@@ -30,7 +30,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -355,7 +355,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "-"
@@ -373,7 +373,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "+"
@@ -415,7 +415,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -536,7 +536,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -554,7 +554,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -596,7 +596,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -871,7 +871,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -11.43 8.89 0)
 					(length 2.54)
 					(name "VG"
@@ -889,7 +889,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -11.43 6.35 0)
 					(length 2.54)
 					(name "PGND"
@@ -907,7 +907,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -11.43 3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -925,7 +925,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at -11.43 1.27 0)
 					(length 2.54)
 					(name "CHRG#"
@@ -943,7 +943,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at -11.43 -1.27 0)
 					(length 2.54)
 					(name "DONE#"
@@ -961,7 +961,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -11.43 -3.81 0)
 					(length 2.54)
 					(name "TEMP"
@@ -979,7 +979,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -11.43 -6.35 0)
 					(length 2.54)
 					(name "MPPT"
@@ -997,7 +997,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -8.89 0)
 					(length 2.54)
 					(name "COM1"
@@ -1015,7 +1015,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 11.43 8.89 180)
 					(length 2.54)
 					(name "DRV"
@@ -1033,7 +1033,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 11.43 6.35 180)
 					(length 2.54)
 					(name "VCC"
@@ -1051,7 +1051,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 11.43 3.81 180)
 					(length 2.54)
 					(name "BAT"
@@ -1069,7 +1069,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 11.43 1.27 180)
 					(length 2.54)
 					(name "CSP"
@@ -1087,7 +1087,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 11.43 -1.27 180)
 					(length 2.54)
 					(name "NC"
@@ -1105,7 +1105,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -3.81 180)
 					(length 2.54)
 					(name "COM3"
@@ -1123,7 +1123,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 11.43 -6.35 180)
 					(length 2.54)
 					(name "FB"
@@ -1141,7 +1141,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -8.89 180)
 					(length 2.54)
 					(name "COM2"
@@ -1308,7 +1308,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R2512"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1392,7 +1392,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1410,7 +1410,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1620,7 +1620,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "K"
@@ -1638,7 +1638,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
@@ -1881,7 +1881,7 @@
 					)
 				)
 			)
-			(property "Footprint" "5v rail sm-easyedapro:POWERDI-5_L5.4-W4.0-LS6.5-RD"
+			(property "Footprint" "Package_TO_SOT_SMD:TO-277B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2002,7 +2002,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "3"
@@ -2020,7 +2020,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "2"
@@ -2038,7 +2038,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "1"
@@ -2201,7 +2201,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 1.016)
 					(name "1"
@@ -2219,7 +2219,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 1.016)
 					(name "2"
@@ -2922,7 +2922,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "G"
@@ -2940,7 +2940,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 7.62 270)
 					(length 2.54)
 					(name "D"
@@ -2958,7 +2958,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 -7.62 90)
 					(length 2.54)
 					(name "S"
@@ -2976,7 +2976,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 7.62 270)
 					(length 2.54)
 					(name "D"
@@ -2994,7 +2994,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "S"
@@ -3012,7 +3012,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 7.62 270)
 					(length 2.54)
 					(name "D"
@@ -3030,7 +3030,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 -7.62 90)
 					(length 2.54)
 					(name "S"
@@ -3048,7 +3048,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 7.62 270)
 					(length 2.54)
 					(name "D"
@@ -3092,7 +3092,7 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCImport:L2N7002SLLT1G"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3363,7 +3363,7 @@
 						(type outline)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "G"
@@ -3381,7 +3381,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -3399,7 +3399,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -3745,7 +3745,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 4.318)
 					(name "1"
@@ -3763,7 +3763,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 4.826)
 					(name "2"

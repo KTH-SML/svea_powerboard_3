@@ -30,7 +30,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -211,7 +211,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -355,7 +355,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R1206"
 				(at 0 0 0)
 				(effects
 					(font
@@ -498,7 +498,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:SOD-123"
+			(property "Footprint" "Diode_SMD:D_SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -595,7 +595,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "1"
@@ -613,7 +613,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "2"
@@ -749,7 +749,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -15.24 30.48 0)
 					(length 2.54)
 					(name "NC"
@@ -767,7 +767,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 27.94 0)
 					(length 2.54)
 					(name "VC9"
@@ -785,7 +785,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -15.24 25.4 0)
 					(length 2.54)
 					(name "NC"
@@ -803,7 +803,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 22.86 0)
 					(length 2.54)
 					(name "VC8"
@@ -821,7 +821,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -15.24 20.32 0)
 					(length 2.54)
 					(name "NC"
@@ -839,7 +839,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 17.78 0)
 					(length 2.54)
 					(name "VC7"
@@ -857,7 +857,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -15.24 15.24 0)
 					(length 2.54)
 					(name "NC"
@@ -875,7 +875,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 12.7 0)
 					(length 2.54)
 					(name "VC6"
@@ -893,7 +893,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -15.24 10.16 0)
 					(length 2.54)
 					(name "NC"
@@ -911,7 +911,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 7.62 0)
 					(length 2.54)
 					(name "VC5"
@@ -929,7 +929,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -15.24 5.08 0)
 					(length 2.54)
 					(name "NC"
@@ -947,7 +947,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 2.54 0)
 					(length 2.54)
 					(name "VC4"
@@ -965,7 +965,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 0 0)
 					(length 2.54)
 					(name "VC3"
@@ -983,7 +983,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -2.54 0)
 					(length 2.54)
 					(name "VC2"
@@ -1001,7 +1001,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -5.08 0)
 					(length 2.54)
 					(name "VC1"
@@ -1019,7 +1019,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -7.62 0)
 					(length 2.54)
 					(name "VC0"
@@ -1037,7 +1037,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -15.24 -10.16 0)
 					(length 2.54)
 					(name "VSS"
@@ -1055,7 +1055,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -12.7 0)
 					(length 2.54)
 					(name "SRP"
@@ -1073,7 +1073,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -15.24 -15.24 0)
 					(length 2.54)
 					(name "NC"
@@ -1091,7 +1091,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -17.78 0)
 					(length 2.54)
 					(name "SRN"
@@ -1109,7 +1109,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -20.32 0)
 					(length 2.54)
 					(name "TS1"
@@ -1127,7 +1127,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -22.86 0)
 					(length 2.54)
 					(name "TS2"
@@ -1145,7 +1145,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -25.4 0)
 					(length 2.54)
 					(name "TS3"
@@ -1163,7 +1163,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -15.24 -27.94 0)
 					(length 2.54)
 					(name "REG18"
@@ -1181,7 +1181,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 30.48 180)
 					(length 2.54)
 					(name "VC10"
@@ -1199,7 +1199,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 27.94 180)
 					(length 2.54)
 					(name "BAT"
@@ -1217,7 +1217,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 25.4 180)
 					(length 2.54)
 					(name "CP1"
@@ -1235,7 +1235,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 22.86 180)
 					(length 2.54)
 					(name "CHG"
@@ -1253,7 +1253,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 15.24 20.32 180)
 					(length 2.54)
 					(name "NC"
@@ -1271,7 +1271,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 17.78 180)
 					(length 2.54)
 					(name "DSG"
@@ -1289,7 +1289,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 15.24 180)
 					(length 2.54)
 					(name "PACK"
@@ -1307,7 +1307,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 12.7 180)
 					(length 2.54)
 					(name "LD"
@@ -1325,7 +1325,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 10.16 180)
 					(length 2.54)
 					(name "PCHG"
@@ -1343,7 +1343,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 7.62 180)
 					(length 2.54)
 					(name "PDSG"
@@ -1361,7 +1361,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 5.08 180)
 					(length 2.54)
 					(name "FUSE"
@@ -1379,7 +1379,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 15.24 2.54 180)
 					(length 2.54)
 					(name "BREG"
@@ -1397,7 +1397,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 0 180)
 					(length 2.54)
 					(name "REGIN"
@@ -1415,7 +1415,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 15.24 -2.54 180)
 					(length 2.54)
 					(name "REG1"
@@ -1433,7 +1433,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "REG2"
@@ -1451,7 +1451,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 -7.62 180)
 					(length 2.54)
 					(name "RST_SHUT"
@@ -1469,7 +1469,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 -10.16 180)
 					(length 2.54)
 					(name "DDSG"
@@ -1487,7 +1487,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 -12.7 180)
 					(length 2.54)
 					(name "DCHG"
@@ -1505,7 +1505,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 -15.24 180)
 					(length 2.54)
 					(name "DFETOFF"
@@ -1523,7 +1523,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 -17.78 180)
 					(length 2.54)
 					(name "CFETOFF"
@@ -1541,7 +1541,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 -20.32 180)
 					(length 2.54)
 					(name "HDQ"
@@ -1559,7 +1559,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 -22.86 180)
 					(length 2.54)
 					(name "SDA"
@@ -1577,7 +1577,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 -25.4 180)
 					(length 2.54)
 					(name "SCL"
@@ -1595,7 +1595,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 -27.94 180)
 					(length 2.54)
 					(name "ALERT"
@@ -1637,7 +1637,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1758,7 +1758,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1776,7 +1776,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1818,7 +1818,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1939,7 +1939,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1957,7 +1957,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1999,7 +1999,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2083,7 +2083,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -2101,7 +2101,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2470,7 +2470,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "5v rail sm-easyedapro:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2591,7 +2591,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "2"
@@ -2609,7 +2609,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "1"
@@ -5021,7 +5021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 218.44 31.75 0)
 			(effects
 				(font
@@ -6785,7 +6785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 218.44 44.45 0)
 			(effects
 				(font

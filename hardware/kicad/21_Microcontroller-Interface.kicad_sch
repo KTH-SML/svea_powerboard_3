@@ -29,7 +29,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(property "Footprint" "5v rail sm-easyedapro:F1206"
 				(at 0 0 0)
 				(effects
 					(font
@@ -125,7 +125,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -143,7 +143,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -184,7 +184,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:SOD-123"
+			(property "Footprint" "Diode_SMD:D_SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -281,7 +281,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "1"
@@ -299,7 +299,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "2"
@@ -340,7 +340,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:SOD-123"
+			(property "Footprint" "Diode_SMD:D_SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -437,7 +437,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "K"
@@ -455,7 +455,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "A"
@@ -621,7 +621,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(property "Footprint" "5v rail sm-easyedapro:F1206"
 				(at 0 0 0)
 				(effects
 					(font
@@ -717,7 +717,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "1"
@@ -735,7 +735,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "2"
@@ -1068,7 +1068,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "G"
@@ -1086,7 +1086,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -1104,7 +1104,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -1347,7 +1347,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "5v rail sm-easyedapro:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1541,7 +1541,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
@@ -1559,7 +1559,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -1577,7 +1577,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -1618,7 +1618,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "5v rail sm-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1702,7 +1702,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin open_collector line
 					(at -12.7 2.54 0)
 					(length 5.08)
 					(name "OUTA"
@@ -1720,7 +1720,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -12.7 0 0)
 					(length 5.08)
 					(name "GND"
@@ -1756,7 +1756,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin open_collector line
 					(at 12.7 2.54 180)
 					(length 5.08)
 					(name "OUTB"
@@ -1774,7 +1774,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 12.7 0 180)
 					(length 5.08)
 					(name "VDD"
@@ -2234,7 +2234,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/763338.html?ref=editor&logined=true"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310071349_HCTL-TC-6615-5-260G_C2845270.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2243,7 +2243,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "-25℃~+85℃ 100,000 cycles 12V 2.6N 50mA 5mm 6mm 6mm Black No Right Angle Round Button SPST With Bracket 弯插-4P,6x6mm Tactile Switches ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2261,7 +2261,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "HCTL(华灿天禄)"
+			(property "Manufacturer" "HCTL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2271,6 +2271,15 @@
 				)
 			)
 			(property "Manufacturer Part" "TC-6615-5-260G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C2845270 HCTL SW-TH_4P-L7.5-W5.0-P4.50 TC-6615-5-260G"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2350,7 +2359,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -2368,7 +2377,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "3"
@@ -2386,7 +2395,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2404,7 +2413,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "4"
@@ -2738,7 +2747,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2772,7 +2781,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" ; ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
