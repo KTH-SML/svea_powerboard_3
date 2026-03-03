@@ -897,7 +897,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin free line
 					(at 11.43 13.97 180)
 					(length 2.54)
 					(name "N.C"
@@ -915,7 +915,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin free line
 					(at 11.43 11.43 180)
 					(length 2.54)
 					(name "N.C"
@@ -933,7 +933,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin free line
 					(at 11.43 8.89 180)
 					(length 2.54)
 					(name "N.C"
@@ -951,7 +951,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin free line
 					(at 11.43 6.35 180)
 					(length 2.54)
 					(name "N.C"
@@ -969,7 +969,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin free line
 					(at 11.43 3.81 180)
 					(length 2.54)
 					(name "N.C"
@@ -987,7 +987,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin free line
 					(at 11.43 1.27 180)
 					(length 2.54)
 					(name "N.C"
@@ -1971,6 +1971,12 @@
 		(uuid "010edaf4-424b-43d9-b124-cfe0a7a4664b")
 	)
 	(junction
+		(at 186.69 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b26adee-4f9a-4a31-8c17-44551c2614de")
+	)
+	(junction
 		(at 114.3 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2013,10 +2019,22 @@
 		(uuid "56df2ef1-2f2c-47b1-bb7e-7e478cb972bc")
 	)
 	(junction
+		(at 186.69 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59299838-5bac-4921-b1a2-1fae2f9a11f8")
+	)
+	(junction
 		(at 135.89 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d47389d-71f4-43a9-8f52-e20c97248e52")
+	)
+	(junction
+		(at 186.69 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f551119-11b7-4505-a0c8-f6340d4de1d1")
 	)
 	(junction
 		(at 73.66 97.79)
@@ -2041,6 +2059,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a95bfdc-8d17-4780-a288-3783eb9f5a55")
+	)
+	(junction
+		(at 186.69 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee669d9-a282-44d8-b694-0af67547c4f9")
 	)
 	(junction
 		(at 87.63 97.79)
@@ -2402,6 +2426,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 90.17) (xy 186.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668a7595-0910-426c-88f4-a40a8f0507b8")
+	)
+	(wire
+		(pts
 			(xy 63.5 97.79) (xy 73.66 97.79)
 		)
 		(stroke
@@ -2542,7 +2576,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 82.55) (xy 186.69 92.71)
+			(xy 186.69 87.63) (xy 186.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850803cf-480d-42d8-b0e0-8575d6fcf1cd")
+	)
+	(wire
+		(pts
+			(xy 186.69 82.55) (xy 186.69 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2969,6 +3013,16 @@
 			(type default)
 		)
 		(uuid "edfde671-aec7-4e2a-9317-f824a06ad4fa")
+	)
+	(wire
+		(pts
+			(xy 186.69 85.09) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee63226c-5c32-4896-984b-f7413de3a485")
 	)
 	(wire
 		(pts
@@ -4256,7 +4310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:SMA"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 266.7 101.6 0)
 			(effects
 				(font
@@ -4488,7 +4542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:SMB"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 236.22 101.6 0)
 			(effects
 				(font
