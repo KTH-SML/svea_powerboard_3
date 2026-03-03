@@ -1825,30 +1825,53 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:SIRA99DP-T1-GE3"
+		(symbol "Transistor_FET:SiS415DNT"
 			(pin_names
-				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 0 9.62 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SIRA99DP-T1-GE3"
-				(at 0 -7.08 0)
+			(property "Value" "SiS415DNT"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "JLCImport:SIRA99DP-T1-GE3"
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/63684/sis415dnt.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1857,7 +1880,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180719/C241863_6D70112EF6FB285AD50169E19E4828EA.pdf"
+			(property "ki_keywords" "P-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1866,7 +1889,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1875,40 +1898,97 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C3289459"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "SiS415DNT_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "VISHAY(威世)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "SIRA99DP-T1-GE3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SIRA99DP-T1-GE3_0_1"
-				(circle
-					(center -3.81 6.35)
-					(radius 0.381)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -1916,78 +1996,78 @@
 				)
 				(polyline
 					(pts
-						(xy 4.572 -5.08) (xy 4.6711 -5.0702) (xy 4.7664 -5.0413) (xy 4.8542 -4.9944) (xy 4.9312 -4.9312)
-						(xy 4.9944 -4.8542) (xy 5.0413 -4.7664) (xy 5.0702 -4.6711) (xy 5.08 -4.572) (xy 5.0702 7.2111)
-						(xy 5.0413 7.3064) (xy 4.9944 7.3942) (xy 4.9312 7.4712) (xy 4.8542 7.5344) (xy 4.7664 7.5813)
-						(xy 4.6711 7.6103) (xy 4.572 7.62) (xy -4.6711 7.6103) (xy -4.7664 7.5813) (xy -4.8542 7.5344)
-						(xy -4.9312 7.4712) (xy -4.9944 7.3942) (xy -5.0413 7.3064) (xy -5.0702 7.2111) (xy -5.08 7.112)
-						(xy -5.0702 -4.6711) (xy -5.0413 -4.7664) (xy -4.9944 -4.8542) (xy -4.9312 -4.9312) (xy -4.8542 -4.9944)
-						(xy -4.7664 -5.0413) (xy -4.6711 -5.0702) (xy -4.572 -5.08) (xy 4.572 -5.08)
+						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SiS415DNT_1_1"
 				(pin passive line
-					(at -7.62 5.08 0)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -2005,61 +2085,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -2069,6 +2095,62 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2188,10 +2270,10 @@
 		(uuid "02d9e550-bed0-41c5-bd69-8cceeffc8bb1")
 	)
 	(junction
-		(at 128.27 96.52)
+		(at 111.76 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b9a2c54-badc-4e4c-a1ca-f80f573ceb5e")
+		(uuid "136837b6-7775-41e1-bae2-800e582e12dd")
 	)
 	(junction
 		(at 29.21 116.84)
@@ -2204,12 +2286,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "498640f8-d86b-4983-b9e4-ef519fb51fe0")
-	)
-	(junction
-		(at 128.27 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58d87743-7852-40fd-980b-ba23f41a7d33")
 	)
 	(junction
 		(at 92.71 93.98)
@@ -2258,18 +2334,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c76289f6-5562-4579-a1cd-1e0eb433c636")
-	)
-	(junction
-		(at 111.76 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d415a312-faed-43cf-ae14-e8c7c3324c87")
-	)
-	(junction
-		(at 111.76 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e106d901-d0d8-446a-9bdb-41da4dade2fe")
 	)
 	(junction
 		(at 58.42 93.98)
@@ -2329,16 +2393,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 93.98) (xy 111.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18e0c399-f080-41a4-b25c-320717e58d4f")
-	)
-	(wire
-		(pts
 			(xy 58.42 116.84) (xy 71.12 116.84)
 		)
 		(stroke
@@ -2359,33 +2413,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 93.98) (xy 111.76 93.98)
+			(xy 92.71 93.98) (xy 114.3 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e124f4a-bbc1-4faa-a78a-8687ea047475")
-	)
-	(wire
-		(pts
-			(xy 127 91.44) (xy 128.27 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fd71a26-e438-40c3-bad5-959d03162091")
-	)
-	(wire
-		(pts
-			(xy 127 99.06) (xy 128.27 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4394b3b2-cf8a-440c-b8ac-69aa6931faf9")
 	)
 	(wire
 		(pts
@@ -2419,6 +2453,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 105.41) (xy 111.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ea5048-07d7-482a-9081-0ce090e8671a")
+	)
+	(wire
+		(pts
 			(xy 116.84 165.1) (xy 111.76 165.1)
 		)
 		(stroke
@@ -2449,16 +2493,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 128.27 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "880a27e6-9bb0-4722-941a-d7510f4dac1a")
-	)
-	(wire
-		(pts
 			(xy 116.84 165.1) (xy 121.92 165.1)
 		)
 		(stroke
@@ -2486,16 +2520,6 @@
 			(type default)
 		)
 		(uuid "92dd6961-9c39-4b04-919d-5e760af6dcb1")
-	)
-	(wire
-		(pts
-			(xy 127 96.52) (xy 128.27 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c88dea-62b1-4ea8-8f66-96001288bd45")
 	)
 	(wire
 		(pts
@@ -2569,7 +2593,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 143.51 93.98)
+			(xy 124.46 93.98) (xy 143.51 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2599,16 +2623,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 105.41) (xy 111.76 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be278ada-fa67-423b-a842-63e7d60df1bc")
-	)
-	(wire
-		(pts
 			(xy 92.71 105.41) (xy 111.76 105.41)
 		)
 		(stroke
@@ -2619,36 +2633,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 93.98) (xy 111.76 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd887488-5f18-44eb-a071-f6d50ee7777e")
-	)
-	(wire
-		(pts
-			(xy 128.27 91.44) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f7a53d-85c7-40ed-b1de-71ea2ee4cf35")
-	)
-	(wire
-		(pts
-			(xy 127 93.98) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5091445-1835-49ec-b536-cd9ba816ac99")
-	)
-	(wire
-		(pts
 			(xy 27.94 93.98) (xy 29.21 93.98)
 		)
 		(stroke
@@ -2656,16 +2640,6 @@
 			(type default)
 		)
 		(uuid "d925b169-3b4e-425d-8964-f7e2b3fd9150")
-	)
-	(wire
-		(pts
-			(xy 128.27 96.52) (xy 128.27 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da131725-2969-4eda-a6f7-f0934aa32067")
 	)
 	(wire
 		(pts
@@ -2706,6 +2680,16 @@
 			(type default)
 		)
 		(uuid "ef96a3a3-0c30-4417-b064-b912f4c87a35")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f79d7b-0033-4111-8832-eae0e8b076f9")
 	)
 	(wire
 		(pts
@@ -2783,17 +2767,17 @@
 		(uuid "cc44fa4c-65ad-458b-9de4-42a6158f741c")
 	)
 	(symbol
-		(lib_id "JLCImport:SIRA99DP-T1-GE3")
-		(at 119.38 96.52 0)
+		(lib_id "Transistor_FET:SiS415DNT")
+		(at 119.38 96.52 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03bfbaca-733e-4dda-9a15-86a4b89a1d70")
 		(property "Reference" "Q11"
-			(at 119.38 83.82 0)
+			(at 119.38 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,14 +2785,14 @@
 			)
 		)
 		(property "Value" "SIRA99DP-T1-GE3"
-			(at 119.38 86.36 0)
+			(at 119.38 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "JLCImport:SIRA99DP-T1-GE3"
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
 			(at 119.38 96.52 0)
 			(effects
 				(font
@@ -2862,29 +2846,20 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
+		(pin "4"
 			(uuid "c02e638d-00a7-44d3-993f-fbf2412f485b")
 		)
-		(pin "6"
+		(pin "5"
 			(uuid "628d522b-88b3-4a25-bc77-31ebb81536ac")
 		)
-		(pin "7"
+		(pin "1"
 			(uuid "349d770a-fed4-4240-8706-898b70bce011")
 		)
-		(pin "8"
-			(uuid "5b640003-e0e8-4b17-a829-a456d94249a3")
-		)
-		(pin "4"
-			(uuid "2ca35382-a42d-411d-bb2f-3d070be35c9c")
+		(pin "2"
+			(uuid "15536ee1-0fee-4252-8ab0-60add3c034cb")
 		)
 		(pin "3"
-			(uuid "f2a24f90-b11c-48b9-afdc-fee00c90b585")
-		)
-		(pin "2"
-			(uuid "fc3d9570-bb81-4148-b5b5-760e074599fe")
-		)
-		(pin "1"
-			(uuid "36cf89de-70da-40bf-ab16-7f02145de406")
+			(uuid "b500e9ac-5d96-4e5b-b2c2-37b4f456c80c")
 		)
 		(instances
 			(project ""
