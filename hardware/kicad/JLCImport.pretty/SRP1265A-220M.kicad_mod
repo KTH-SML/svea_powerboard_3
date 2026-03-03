@@ -1,0 +1,162 @@
+(footprint "SRP1265A-220M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "12A 22uH 32.5mΩ 9A AEC-Q200 ±20% SMD,13.5x12.5mm Power Inductors ROHS")
+	(tags "BOURNS C2041465 IND-SMD_L12.6-W12.5-SRP1265A-220M SRP1265A-220M")
+	(property "Reference" "REF**"
+		(at 0 -7.3 0)
+		(layer "F.SilkS")
+		(uuid "8e3a0ced-fa6a-4478-9eed-ce58eb931c53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 7.3 0)
+		(layer "F.Fab")
+		(uuid "1cf48b50-ee50-4bb2-bc5c-c62a5b835188")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220316_BOURNS-SRP1265A-220M_C2041465.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "694d0e9e-a322-4e24-a094-0642cc38f80e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "12A 22uH 32.5mΩ 9A AEC-Q200 ±20% SMD,13.5x12.5mm Power Inductors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7447dbb-ce22-40f1-b945-333891007a1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2041465"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4410c148-41b2-4d5d-91fb-e4c526939306")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.700254 -6.299975)
+		(end -6.700254 -2.73114)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f576d291-8217-4c4c-b1a5-3df9bf45e214")
+	)
+	(fp_line
+		(start -6.700254 -6.299975)
+		(end 6.699746 -6.3)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d68ded4-0d9b-4c53-86ab-2bba3beb4f5e")
+	)
+	(fp_line
+		(start -6.700254 2.73114)
+		(end -6.700254 6.299975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e504548-c77d-4da4-916c-e654f7089ff5")
+	)
+	(fp_line
+		(start -6.700254 6.299975)
+		(end 6.699746 6.3)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fc03958-8021-4341-bbb0-0163a18c1e51")
+	)
+	(fp_line
+		(start 6.699746 -2.73114)
+		(end 6.699746 -6.3)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69a51abd-6e72-4aab-91c1-cca74a8d1486")
+	)
+	(fp_line
+		(start 6.699746 6.3)
+		(end 6.699746 2.73114)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c237508-55b4-45b2-8ffa-dd37ce236563")
+	)
+	(fp_rect
+		(start -7.9 -6.8)
+		(end 7.9 6.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e4a172d5-0c82-4633-91c5-cde036633163")
+	)
+	(pad "1" smd rect
+		(at -5.750064 0)
+		(size 3.5 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1e36180-bfff-4a3d-b4dc-0e34686c4c00")
+	)
+	(pad "2" smd rect
+		(at 5.750064 0)
+		(size 3.5 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "748de930-1c75-4dd1-bfce-d7c1c43ddc31")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/SRP1265A-220M.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

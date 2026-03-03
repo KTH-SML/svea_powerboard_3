@@ -1,0 +1,135 @@
+(footprint "DEP1016NP-220PB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "11.4mΩ 22uH 7.2A 7.2A ±25% Plugin,14.5x10.1mm Power Inductors ROHS")
+	(tags "C2897825 DEP1016NP-220PB IND-TH_L14.5-W10.1_DEP1016NP-220PB Sumida")
+	(property "Reference" "REF**"
+		(at 0 -8.239014 0)
+		(layer "F.SilkS")
+		(uuid "8e5eaa16-f3fc-41e5-9a51-7a51d841309d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 8.239014 0)
+		(layer "F.Fab")
+		(uuid "1dacff54-adce-4ab3-b4a0-9a533e6cb952")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111151830_Sumida-DEP1016NP-220PB_C2897825.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b29ad5a3-ee5d-490b-9e7f-b23b856c653f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "11.4mΩ 22uH 7.2A 7.2A ±25% Plugin,14.5x10.1mm Power Inductors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79c144a7-1097-49a8-94a2-daf2173df3e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2897825"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09074da4-0f09-45e3-83f4-792fa8cf5b53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.08001 -7.239014)
+		(end -5.08001 7.239014)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e391133a-4a8c-4695-b07b-3a7c43f3a2bd")
+	)
+	(fp_line
+		(start -5.08001 7.239014)
+		(end 5.08001 7.239014)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40037aef-81ec-4dc6-bfb6-e445766233b6")
+	)
+	(fp_line
+		(start 5.08001 -7.239014)
+		(end -5.08001 -7.239014)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa24375a-da7e-4caf-81e9-5963eb9b15e3")
+	)
+	(fp_line
+		(start 5.08001 7.239014)
+		(end 5.08001 -7.239014)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fdfd10a-0660-4e36-9326-5a38133d426d")
+	)
+	(fp_rect
+		(start -5.7 -7.8)
+		(end 5.7 7.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3bb6b8d9-3111-4fe8-8d6c-2d722a9bb68e")
+	)
+	(pad "1" thru_hole oval
+		(at 2.650013 -4.6)
+		(size 1.1 2.5)
+		(drill oval 0.6 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0e89db06-7a73-4f8d-b738-ee850fcd09a7")
+	)
+	(pad "2" thru_hole oval
+		(at -2.649987 4.6)
+		(size 1.1 2.5)
+		(drill oval 0.6 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a88a77bc-6a19-4c5b-83af-6aef7afb7b5e")
+	)
+	(embedded_fonts no)
+)
