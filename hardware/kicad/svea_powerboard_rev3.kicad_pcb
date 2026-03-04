@@ -52251,11 +52251,11 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "db422724-688b-4aac-b50e-ae1bb0765578")
-		(at 6.15 44.675)
+		(at 74.1172 70.724 -90)
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP3402"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2b1ce1e6-5ed2-4c13-addc-826fd4eef60e")
@@ -52267,7 +52267,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 0 1.9 0)
+			(at 0 1.9 90)
 			(layer "F.Fab")
 			(uuid "ed3f9aa4-10ac-4c7b-9001-d6f2dd6c8c51")
 			(effects
@@ -52278,7 +52278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -52291,7 +52291,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -52334,16 +52334,6 @@
 			(uuid "6e72bb27-1337-44c0-9f34-a28f07b33b47")
 		)
 		(fp_line
-			(start -1.4 -1)
-			(end 1.4 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dadf6191-f66a-4f44-93b0-40715337fa84")
-		)
-		(fp_line
 			(start -1.4 1)
 			(end -1.4 -1)
 			(stroke
@@ -52352,16 +52342,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "67706440-a9a1-4ec9-87aa-bb54841f29d4")
-		)
-		(fp_line
-			(start 1.4 -1)
-			(end 1.4 1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "da47e2dd-4849-4da6-9fde-98c1f0fc0870")
 		)
 		(fp_line
 			(start 1.4 1)
@@ -52374,24 +52354,24 @@
 			(uuid "3ce42c9f-ef99-4a89-9de5-02572aab54af")
 		)
 		(fp_line
-			(start -1.65 -1.25)
-			(end -1.65 1.25)
+			(start -1.4 -1)
+			(end 1.4 -1)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "914fa8bc-e2c4-4ba7-9bcc-f5c98c5dec2d")
+			(layer "F.SilkS")
+			(uuid "dadf6191-f66a-4f44-93b0-40715337fa84")
 		)
 		(fp_line
-			(start -1.65 -1.25)
-			(end 1.65 -1.25)
+			(start 1.4 -1)
+			(end 1.4 1)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "0c0a25ca-f101-4054-9279-f60743ef0fba")
+			(layer "F.SilkS")
+			(uuid "da47e2dd-4849-4da6-9fde-98c1f0fc0870")
 		)
 		(fp_line
 			(start 1.65 1.25)
@@ -52413,8 +52393,28 @@
 			(layer "F.CrtYd")
 			(uuid "f83fd1e0-c826-4522-9671-5b3d186134eb")
 		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "914fa8bc-e2c4-4ba7-9bcc-f5c98c5dec2d")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0c0a25ca-f101-4054-9279-f60743ef0fba")
+		)
 		(pad "1" smd rect
-			(at -0.65 0)
+			(at -0.65 0 270)
 			(size 1 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net 396 "Net-(JP3402-A)")
@@ -52423,7 +52423,7 @@
 			(uuid "1a1c3e40-e57e-4ec4-9a1f-664b1fc6f9f0")
 		)
 		(pad "2" smd rect
-			(at 0.65 0)
+			(at 0.65 0 270)
 			(size 1 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net 43 "/Battery System/Battery BMS Interface/BAL-CELL-TOP")
@@ -118256,8 +118256,8 @@
 		(uuid "06c645dc-dd7d-4987-9413-7fe62e57f803")
 	)
 	(gr_rect
-		(start 96.600625 59.6)
-		(end 86.599375 60.85)
+		(start 86.599375 59.6)
+		(end 96.600625 60.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -119121,8 +119121,8 @@
 		(uuid "22e50d04-6c94-4f8c-8322-c5557d33afca")
 	)
 	(gr_rect
-		(start 96.6014 57.1)
-		(end 86.6014 63.35)
+		(start 86.6014 57.1)
+		(end 96.6014 63.35)
 		(stroke
 			(width 0.11)
 			(type solid)
@@ -124871,8 +124871,8 @@
 		(uuid "a0408be7-5877-40a4-a595-12360aeeca31")
 	)
 	(gr_rect
-		(start 91.2264 57.1135)
-		(end 89.9764 63.3365)
+		(start 89.9764 57.1135)
+		(end 91.2264 63.3365)
 		(stroke
 			(width 0.1)
 			(type solid)
