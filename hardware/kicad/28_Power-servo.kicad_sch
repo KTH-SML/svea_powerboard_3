@@ -2234,7 +2234,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Small_Bridged"
+		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2243,7 +2243,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
 				(at 0 2.032 0)
@@ -2253,8 +2253,8 @@
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Small_Bridged"
-				(at 0 -2.286 0)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2279,7 +2279,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2288,7 +2288,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Jumper SPST"
+			(property "ki_keywords" "solder jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2297,7 +2297,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2306,10 +2306,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_2_Small_Bridged_0_0"
-				(circle
-					(center -1.016 0)
-					(radius 0.254)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2318,23 +2330,58 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_0_1"
 				(arc
-					(start -0.762 0.254)
-					(mid 0 0.5696)
-					(end 0.762 0.254)
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2344,10 +2391,10 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Small_Bridged_1_1"
+			(symbol "SolderJumper_2_Bridged_1_1"
 				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
+					(at -3.81 0 0)
+					(length 2.54)
 					(name "A"
 						(effects
 							(font
@@ -2364,8 +2411,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
+					(at 3.81 0 180)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -3129,16 +3176,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 116.84) (xy 92.71 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68a93e77-cfeb-4ce2-b6c0-baaedc6d64bc")
-	)
-	(wire
-		(pts
 			(xy 158.75 105.41) (xy 161.29 105.41)
 		)
 		(stroke
@@ -3409,13 +3446,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 85.09) (xy 92.71 111.76)
+			(xy 92.71 85.09) (xy 92.71 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8a1ef77-e20f-4be9-a36b-aedd2c500e6d")
+		(uuid "bc713472-299a-444a-a3bb-e95018fd3c1f")
 	)
 	(wire
 		(pts
@@ -3466,6 +3503,16 @@
 			(type default)
 		)
 		(uuid "ce283810-2042-4e5c-8a99-c18fdf01da42")
+	)
+	(wire
+		(pts
+			(xy 92.71 115.57) (xy 92.71 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2551a0f-c654-4f61-a8b0-9666af83ec63")
 	)
 	(wire
 		(pts
@@ -3779,27 +3826,17 @@
 		(uuid "f1f7060c-f9e8-48d6-a72f-8b1a7fe05f4b")
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 92.71 114.3 90)
-		(mirror x)
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 92.71 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "19d32100-49eb-4be2-884c-4434d7c14083")
-		(property "Reference" "JP1701"
-			(at 93.98 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Small_Bridged"
-			(at 93.98 115.5699 90)
+		(uuid "06e06aac-cd7e-4a5a-98b6-69126f65952a")
+		(property "Reference" "JP1702"
+			(at 95.25 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,8 +3845,18 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Jumper:Jumper_2_NC_Trace"
-			(at 92.71 114.3 0)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 95.25 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 92.71 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3865,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 114.3 0)
+			(at 92.71 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,25 +3873,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 92.71 114.3 0)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 92.71 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "1928d9c5-a5bf-495b-9b50-e7bd40adc9f3")
 		)
 		(pin "2"
-			(uuid "fa686671-7540-409c-b5d4-f87e10aa6624")
+			(uuid "9fc6be47-33a6-49b1-bf58-15d5efb2e31a")
+		)
+		(pin "1"
+			(uuid "7e18f61f-e810-46c0-b670-973f2f0e8fdf")
 		)
 		(instances
 			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/5e87fa27-0735-4860-928c-5f9d8795dad6"
-					(reference "JP1701")
+					(reference "JP1702")
 					(unit 1)
 				)
 			)

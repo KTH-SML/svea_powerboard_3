@@ -3784,6 +3784,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
@@ -4358,390 +4541,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:0603WAF1500T5E"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 3.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAF1500T5E"
-				(at 0 -3.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "150Ω (1500) ±1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C22808"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "0603WAF1500T5E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603WAF1500T5E_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:0603WAF4021T5E_C23040"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 3.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAF4021T5E_C23040"
-				(at 0 -3.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C23040"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "0603WAF4021T5E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603WAF4021T5E_C23040_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:0603WAF4701T5E"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 3.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAF4701T5E"
-				(at 0 -3.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4.7KΩ (4701) ±1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C23162"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "0603WAF4701T5E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603WAF4701T5E_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLCImport:DB142R-5_08-4P"
 			(pin_names
 				(offset 1.016)
@@ -4923,323 +4722,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:ERA16V4700M13X25"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ERA16V4700M13X25"
-				(at 0 -2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:ERA16V4700M13X25"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20150922/1457707409314.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C49256794"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "JIERR(捷而瑞)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "ERA16V4700M13X25"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ERA16V4700M13X25_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 1.778) (xy -1.778 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.778) (xy -0.508 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.1278 -1.7526)
-					(mid 0.4218 0.0211)
-					(end 1.1506 1.7856)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:FRC0603F1001TS"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 3.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FRC0603F1001TS"
-				(at 0 -3.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2907002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "FOJAN(富捷)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "FRC0603F1001TS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FRC0603F1001TS_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6761,219 +6243,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:XL-1608UBC-04"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "XL-1608UBC-04"
-				(at 0 -2 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C965807"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "XINGLIGHT(成兴光)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "XL-1608UBC-04"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "XL-1608UBC-04_0_1"
-				(polyline
-					(pts
-						(xy -4.064 3.302) (xy -3.048 2.794) (xy -3.556 2.286) (xy -4.064 3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 4.318) (xy -2.032 3.81) (xy -2.54 3.302) (xy -3.048 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 1.524) (xy -3.302 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -2.286 3.556)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SL_Pin_Headers:PINHD_1x3_Male"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8434,12 +7703,6 @@
 		(uuid "1d69555b-7026-4b4c-8132-00b941c09468")
 	)
 	(junction
-		(at 335.28 304.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "201193c7-df6c-4463-bd42-55fd899aaf77")
-	)
-	(junction
 		(at 466.09 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8504,12 +7767,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33f58793-6090-42fa-b988-27336c8cd60d")
-	)
-	(junction
-		(at 196.85 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34859fb4-da8e-4581-b75c-d8853b42ff84")
 	)
 	(junction
 		(at 151.13 355.6)
@@ -8614,6 +7871,12 @@
 		(uuid "684ea2be-d821-4950-9a53-193b751e94f9")
 	)
 	(junction
+		(at 196.85 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b941557-5123-432c-b3e0-2896bc9f401a")
+	)
+	(junction
 		(at 196.85 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8698,6 +7961,12 @@
 		(uuid "944ff2b7-2ebc-4164-8be8-b8af1decde4b")
 	)
 	(junction
+		(at 213.36 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94ea94ba-8b1d-4f85-96a0-e28afb1cf928")
+	)
+	(junction
 		(at 659.13 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8752,12 +8021,6 @@
 		(uuid "b1fedf6d-c7b1-40b6-bb6f-cad8f2bb22ef")
 	)
 	(junction
-		(at 227.33 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2f74a75-edcd-44d5-b913-d398a0e00b8e")
-	)
-	(junction
 		(at 356.87 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8780,12 +8043,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcdfb020-d0df-4321-978e-12b4e7ebea1f")
-	)
-	(junction
-		(at 335.28 321.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf6a59c0-061a-4fe0-a3af-8e0320225d79")
 	)
 	(junction
 		(at 143.51 360.68)
@@ -9153,7 +8410,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 123.19) (xy 227.33 124.46)
+			(xy 213.36 114.3) (xy 213.36 124.46)
 		)
 		(stroke
 			(width 0)
@@ -9783,6 +9040,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 452.12) (xy 63.5 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284fd747-0d9e-45b1-8c62-b26d573fdd32")
+	)
+	(wire
+		(pts
 			(xy 731.52 426.72) (xy 727.71 426.72)
 		)
 		(stroke
@@ -10213,16 +9480,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 321.31) (xy 347.98 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6367e0-ee99-41bd-b7d3-ce4d333d79ed")
-	)
-	(wire
-		(pts
 			(xy 617.22 312.42) (xy 640.08 312.42)
 		)
 		(stroke
@@ -10253,7 +9510,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 304.8) (xy 397.51 304.8)
+			(xy 389.89 304.8) (xy 397.51 304.8)
 		)
 		(stroke
 			(width 0)
@@ -10320,6 +9577,16 @@
 			(type default)
 		)
 		(uuid "412f73df-79b7-434e-9143-39cd98e0074f")
+	)
+	(wire
+		(pts
+			(xy 130.81 453.39) (xy 130.81 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d7346b-314f-4a50-8373-c8919c4e7f31")
 	)
 	(wire
 		(pts
@@ -10553,6 +9820,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 452.12) (xy 114.3 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494c4dc8-cdb8-496b-b73f-4f5283c5b68e")
+	)
+	(wire
+		(pts
 			(xy 303.53 241.3) (xy 299.72 241.3)
 		)
 		(stroke
@@ -10753,16 +10030,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 321.31) (xy 347.98 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5567ca35-f511-4196-ab4e-c77dfc0fec80")
-	)
-	(wire
-		(pts
 			(xy 548.64 344.17) (xy 548.64 337.82)
 		)
 		(stroke
@@ -10813,7 +10080,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 443.23) (xy 177.8 444.5)
+			(xy 177.8 440.69) (xy 177.8 444.5)
 		)
 		(stroke
 			(width 0)
@@ -11000,6 +10267,16 @@
 			(type default)
 		)
 		(uuid "609c215e-ad1e-438e-84cf-ee3daff1a79f")
+	)
+	(wire
+		(pts
+			(xy 213.36 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611b7664-d573-443d-9597-c377ac990a21")
 	)
 	(wire
 		(pts
@@ -11210,6 +10487,16 @@
 			(type default)
 		)
 		(uuid "6be1495a-b271-4a65-9281-a7081cdaf2f1")
+	)
+	(wire
+		(pts
+			(xy 147.32 453.39) (xy 147.32 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c68cd33-4be2-4157-a0d8-d0f2bdd6ea9f")
 	)
 	(wire
 		(pts
@@ -11463,17 +10750,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 321.31) (xy 335.28 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a09efb4-ccca-4ffa-b9d9-ccaff298bc78")
-	)
-	(wire
-		(pts
-			(xy 335.28 298.45) (xy 335.28 304.8)
+			(xy 389.89 295.91) (xy 389.89 304.8)
 		)
 		(stroke
 			(width 0)
@@ -11530,16 +10807,6 @@
 			(type default)
 		)
 		(uuid "8012659d-d0a2-4496-9288-8f9e247be4d6")
-	)
-	(wire
-		(pts
-			(xy 227.33 124.46) (xy 236.22 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80c1a7fe-e10c-4f9b-b5df-712266e24517")
 	)
 	(wire
 		(pts
@@ -11693,6 +10960,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 450.85) (xy 88.9 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca3a0a1-491b-4209-ae74-b11f02ac1b4e")
+	)
+	(wire
+		(pts
 			(xy 547.37 111.76) (xy 547.37 115.57)
 		)
 		(stroke
@@ -11843,7 +11120,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 429.26) (xy 88.9 431.8)
+			(xy 88.9 429.26) (xy 88.9 434.34)
 		)
 		(stroke
 			(width 0)
@@ -11963,7 +11240,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 430.53) (xy 114.3 433.07)
+			(xy 114.3 430.53) (xy 114.3 434.34)
 		)
 		(stroke
 			(width 0)
@@ -11983,7 +11260,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 430.53) (xy 162.56 433.07)
+			(xy 162.56 430.53) (xy 162.56 434.34)
 		)
 		(stroke
 			(width 0)
@@ -12013,7 +11290,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 430.53) (xy 130.81 433.07)
+			(xy 130.81 430.53) (xy 130.81 435.61)
 		)
 		(stroke
 			(width 0)
@@ -12053,7 +11330,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 443.23) (xy 147.32 444.5)
+			(xy 147.32 443.23) (xy 147.32 445.77)
 		)
 		(stroke
 			(width 0)
@@ -12083,7 +11360,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 443.23) (xy 130.81 444.5)
+			(xy 130.81 443.23) (xy 130.81 445.77)
 		)
 		(stroke
 			(width 0)
@@ -12223,7 +11500,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 443.23) (xy 114.3 444.5)
+			(xy 114.3 441.96) (xy 114.3 444.5)
 		)
 		(stroke
 			(width 0)
@@ -12803,6 +12080,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 452.12) (xy 162.56 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16fd3ef-d9af-434d-83d9-231a176016f1")
+	)
+	(wire
+		(pts
 			(xy 316.23 30.48) (xy 316.23 34.29)
 		)
 		(stroke
@@ -12810,16 +12097,6 @@
 			(type default)
 		)
 		(uuid "c2ff3820-4f5c-4679-90cf-063b0488ba26")
-	)
-	(wire
-		(pts
-			(xy 335.28 309.88) (xy 335.28 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c31b623d-d87f-4549-a9f8-b8fa79ffc1ad")
 	)
 	(wire
 		(pts
@@ -13023,7 +12300,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 124.46) (xy 227.33 124.46)
+			(xy 213.36 124.46) (xy 236.22 124.46)
 		)
 		(stroke
 			(width 0)
@@ -13033,7 +12310,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 443.23) (xy 162.56 444.5)
+			(xy 162.56 441.96) (xy 162.56 444.5)
 		)
 		(stroke
 			(width 0)
@@ -13210,16 +12487,6 @@
 			(type default)
 		)
 		(uuid "d39de316-e9ed-4457-997f-f6345d54f40a")
-	)
-	(wire
-		(pts
-			(xy 335.28 320.04) (xy 335.28 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c26423-6dc2-452a-963d-f407b06590ca")
 	)
 	(wire
 		(pts
@@ -13453,16 +12720,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 430.53) (xy 147.32 433.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0673229-ba2d-45fc-93cf-3da6da3a019c")
-	)
-	(wire
-		(pts
 			(xy 196.85 80.01) (xy 196.85 100.33)
 		)
 		(stroke
@@ -13673,6 +12930,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 430.53) (xy 147.32 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8d345a-a02a-4290-bb5e-858ee043189b")
+	)
+	(wire
+		(pts
 			(xy 316.23 41.91) (xy 316.23 44.45)
 		)
 		(stroke
@@ -13763,7 +13030,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 67.31) (xy 213.36 124.46)
+			(xy 213.36 67.31) (xy 213.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -13940,6 +13207,16 @@
 			(type default)
 		)
 		(uuid "f6e6af20-d41f-4a74-9f38-5a94b580f448")
+	)
+	(wire
+		(pts
+			(xy 177.8 452.12) (xy 177.8 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7429418-cb03-4539-b778-518c5dbb6115")
 	)
 	(wire
 		(pts
@@ -14133,7 +13410,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 443.23) (xy 63.5 444.5)
+			(xy 63.5 440.69) (xy 63.5 444.5)
 		)
 		(stroke
 			(width 0)
@@ -17047,7 +16324,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 335.28 298.45 0)
+		(at 389.89 295.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17055,7 +16332,7 @@
 		(dnp no)
 		(uuid "12bc5fc5-5499-4c88-8c3c-a57b18084791")
 		(property "Reference" "#PWR039"
-			(at 335.28 302.26 0)
+			(at 389.89 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17064,7 +16341,7 @@
 			)
 		)
 		(property "Value" "PACK+"
-			(at 335.026 294.894 0)
+			(at 389.636 292.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17072,7 +16349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 298.45 0)
+			(at 389.89 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17081,7 +16358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 298.45 0)
+			(at 389.89 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17090,7 +16367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 335.28 298.45 0)
+			(at 389.89 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17533,8 +16810,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:XL-1608UBC-04")
-		(at 114.3 449.58 90)
+		(lib_id "Device:LED")
+		(at 114.3 448.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17543,7 +16820,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e249960-859a-4f22-b102-f2d81e763b87")
 		(property "Reference" "LED1"
-			(at 116.84 449.0719 90)
+			(at 118.11 449.8974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17552,7 +16829,7 @@
 			)
 		)
 		(property "Value" "XL-1608UBC-04"
-			(at 116.84 451.6119 90)
+			(at 116.84 450.3419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17562,7 +16839,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 114.3 449.58 0)
+			(at 114.3 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17570,8 +16847,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
-			(at 114.3 449.58 0)
+		(property "Datasheet" "~"
+			(at 114.3 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17579,8 +16856,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue indicator led"
-			(at 114.3 449.58 0)
+		(property "Description" "Light emitting diode"
+			(at 114.3 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17589,7 +16866,7 @@
 			)
 		)
 		(property "LCSC" "C965807"
-			(at 114.3 449.58 0)
+			(at 114.3 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17598,7 +16875,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 114.3 449.58 0)
+			(at 114.3 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17607,7 +16884,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XL-1608UBC-04"
-			(at 114.3 449.58 0)
+			(at 114.3 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17616,7 +16893,16 @@
 			)
 		)
 		(property "indicator" "+12V"
-			(at 114.3 449.58 90)
+			(at 114.3 448.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18693,8 +17979,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:0603WAF4701T5E")
-		(at 63.5 438.15 90)
+		(lib_id "Device:R")
+		(at 63.5 436.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18702,7 +17988,7 @@
 		(dnp no)
 		(uuid "34f5359c-3f6b-44f3-adf6-d10a80f3a020")
 		(property "Reference" "R108"
-			(at 66.04 436.8799 90)
+			(at 61.468 438.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18710,8 +17996,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0603WAF4701T5E"
-			(at 66.04 439.4199 90)
+		(property "Value" "4.7k"
+			(at 64.7699 434.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18721,7 +18007,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 63.5 438.15 0)
+			(at 65.278 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18729,8 +18015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 63.5 438.15 0)
+		(property "Datasheet" "~"
+			(at 63.5 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18738,16 +18024,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7KΩ (4701) ±1%"
-			(at 57.404 434.848 0)
+		(property "Description" "Resistor"
+			(at 63.5 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 63.5 438.15 0)
+			(at 63.5 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18756,7 +18043,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 63.5 438.15 0)
+			(at 63.5 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18765,7 +18052,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF4701T5E"
-			(at 63.5 438.15 0)
+			(at 63.5 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20087,8 +19374,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:XL-1608UBC-04")
-		(at 88.9 448.31 90)
+		(lib_id "Device:LED")
+		(at 88.9 447.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20097,7 +19384,7 @@
 		(fields_autoplaced yes)
 		(uuid "5478b0ad-5359-4851-be0a-9adcb57bd2b3")
 		(property "Reference" "LED101"
-			(at 91.44 447.8019 90)
+			(at 92.71 448.6274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20106,7 +19393,7 @@
 			)
 		)
 		(property "Value" "XL-1608UBC-04"
-			(at 91.44 450.3419 90)
+			(at 91.44 449.0719 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20116,7 +19403,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 88.9 448.31 0)
+			(at 88.9 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20124,8 +19411,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
-			(at 88.9 448.31 0)
+		(property "Datasheet" "~"
+			(at 88.9 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20133,8 +19420,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue indicator led"
-			(at 88.9 448.31 0)
+		(property "Description" "Light emitting diode"
+			(at 88.9 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20143,7 +19430,7 @@
 			)
 		)
 		(property "LCSC" "C965807"
-			(at 88.9 448.31 0)
+			(at 88.9 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20152,7 +19439,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 88.9 448.31 0)
+			(at 88.9 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20161,7 +19448,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XL-1608UBC-04"
-			(at 88.9 448.31 0)
+			(at 88.9 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20170,7 +19457,16 @@
 			)
 		)
 		(property "indicator" "V_ESC"
-			(at 88.9 448.31 90)
+			(at 88.9 447.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20259,8 +19555,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:XL-1608UBC-04")
-		(at 162.56 449.58 90)
+		(lib_id "Device:LED")
+		(at 162.56 448.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20269,7 +19565,7 @@
 		(fields_autoplaced yes)
 		(uuid "55217521-a331-4bcd-965a-2bfcd81e78ee")
 		(property "Reference" "LED4"
-			(at 165.1 449.0719 90)
+			(at 166.37 449.8974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20278,7 +19574,7 @@
 			)
 		)
 		(property "Value" "XL-1608UBC-04"
-			(at 165.1 451.6119 90)
+			(at 165.1 450.3419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20288,7 +19584,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 162.56 449.58 0)
+			(at 162.56 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20296,8 +19592,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
-			(at 162.56 449.58 0)
+		(property "Datasheet" "~"
+			(at 162.56 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20305,8 +19601,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue indicator led"
-			(at 162.56 449.58 0)
+		(property "Description" "Light emitting diode"
+			(at 162.56 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20315,7 +19611,7 @@
 			)
 		)
 		(property "LCSC" "C965807"
-			(at 162.56 449.58 0)
+			(at 162.56 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20324,7 +19620,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 162.56 449.58 0)
+			(at 162.56 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20333,7 +19629,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XL-1608UBC-04"
-			(at 162.56 449.58 0)
+			(at 162.56 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20342,7 +19638,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 162.56 449.58 90)
+			(at 162.56 448.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20351,7 +19647,16 @@
 			)
 		)
 		(property "Indicator" "VCC"
-			(at 162.56 449.58 90)
+			(at 162.56 448.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20775,103 +20080,6 @@
 			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:ERA16V4700M13X25")
-		(at 335.28 314.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "5a61774c-6be3-49df-b83b-acddf7aca69f")
-		(property "Reference" "C8"
-			(at 338.328 315.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ERA16V4700M13X25"
-			(at 339.09 316.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "JLCImport:ERA16V4700M13X25"
-			(at 335.28 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20150922/1457707409314.pdf"
-			(at 335.28 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49256794"
-			(at 335.28 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JIERR(捷而瑞)"
-			(at 335.28 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "ERA16V4700M13X25"
-			(at 335.28 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "997454ab-c774-47d8-9cd4-d72be6bc1797")
-		)
-		(pin "1"
-			(uuid "587b40f5-d4a8-4439-88cf-565b3afedfce")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -22647,8 +21855,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:XL-1608UBC-04")
-		(at 177.8 449.58 90)
+		(lib_id "Device:LED")
+		(at 177.8 448.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22657,7 +21865,7 @@
 		(fields_autoplaced yes)
 		(uuid "92e917fa-e926-4a32-85ba-c605f491c040")
 		(property "Reference" "LED5"
-			(at 180.34 449.0719 90)
+			(at 181.61 449.8974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22666,7 +21874,7 @@
 			)
 		)
 		(property "Value" "XL-1608UBC-04"
-			(at 180.34 451.6119 90)
+			(at 180.34 450.3419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22676,7 +21884,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 177.8 449.58 0)
+			(at 177.8 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22684,8 +21892,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
-			(at 177.8 449.58 0)
+		(property "Datasheet" "~"
+			(at 177.8 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22693,8 +21901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue indicator led"
-			(at 177.8 449.58 0)
+		(property "Description" "Light emitting diode"
+			(at 177.8 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22703,7 +21911,7 @@
 			)
 		)
 		(property "LCSC" "C965807"
-			(at 177.8 449.58 0)
+			(at 177.8 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22712,7 +21920,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 177.8 449.58 0)
+			(at 177.8 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22721,7 +21929,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XL-1608UBC-04"
-			(at 177.8 449.58 0)
+			(at 177.8 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22730,7 +21938,7 @@
 			)
 		)
 		(property "Field8" ""
-			(at 177.8 449.58 90)
+			(at 177.8 448.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22739,7 +21947,16 @@
 			)
 		)
 		(property "indicator" "SERVO_VCC"
-			(at 177.8 449.58 90)
+			(at 177.8 448.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 177.8 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22763,8 +21980,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FRC0603F1001TS")
-		(at 177.8 438.15 90)
+		(lib_id "Device:R")
+		(at 177.8 436.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22772,7 +21989,7 @@
 		(dnp no)
 		(uuid "931c6da7-0977-45b8-b157-579ab8a9fd1c")
 		(property "Reference" "R8"
-			(at 180.34 436.8799 90)
+			(at 176.5299 434.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22780,8 +21997,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FRC0603F1001TS"
-			(at 180.34 439.4199 90)
+		(property "Value" "1k"
+			(at 179.0699 434.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22791,7 +22008,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 438.15 0)
+			(at 179.578 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22799,8 +22016,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 177.8 438.15 0)
+		(property "Datasheet" "~"
+			(at 177.8 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22808,16 +22025,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ ±1% 100mW 0603"
-			(at 171.45 435.356 0)
+		(property "Description" "Resistor"
+			(at 177.8 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C2907002"
-			(at 177.8 438.15 0)
+			(at 177.8 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22826,7 +22044,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 177.8 438.15 0)
+			(at 177.8 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22835,7 +22053,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0603F1001TS"
-			(at 177.8 438.15 0)
+			(at 177.8 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22859,8 +22077,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:0603WAF4701T5E")
-		(at 88.9 436.88 90)
+		(lib_id "Device:R")
+		(at 88.9 438.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22868,7 +22086,7 @@
 		(dnp no)
 		(uuid "9382a275-65ea-409b-94c0-d0d8caed7b4a")
 		(property "Reference" "R106"
-			(at 91.44 435.6099 90)
+			(at 87.6299 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22876,8 +22094,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0603WAF4701T5E"
-			(at 91.44 438.1499 90)
+		(property "Value" "4.7k"
+			(at 90.1699 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22887,7 +22105,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 88.9 436.88 0)
+			(at 90.678 438.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22895,8 +22113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 88.9 436.88 0)
+		(property "Datasheet" "~"
+			(at 88.9 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22904,16 +22122,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7KΩ (4701) ±1%"
-			(at 82.804 433.578 0)
+		(property "Description" "Resistor"
+			(at 88.9 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 88.9 436.88 0)
+			(at 88.9 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22922,7 +22141,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 88.9 436.88 0)
+			(at 88.9 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22931,7 +22150,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF4701T5E"
-			(at 88.9 436.88 0)
+			(at 88.9 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23681,15 +22900,15 @@
 	)
 	(symbol
 		(lib_id "power:IN-CHARGING-VCC-USBC")
-		(at 227.33 123.19 0)
+		(at 228.6 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a18e8f59-b0fb-43ce-a712-7eaf9c6fee85")
 		(property "Reference" "#PWR0190"
-			(at 227.33 123.19 0)
+			(at 228.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23698,7 +22917,7 @@
 			)
 		)
 		(property "Value" "CHARGE_DIRECT"
-			(at 227.33 110.49 90)
+			(at 228.6 110.236 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -23706,7 +22925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 123.19 0)
+			(at 228.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23715,7 +22934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 123.19 0)
+			(at 228.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23724,7 +22943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 123.19 0)
+			(at 228.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25227,8 +24446,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:0603WAF4701T5E")
-		(at 114.3 438.15 90)
+		(lib_id "Device:R")
+		(at 114.3 438.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25236,7 +24455,7 @@
 		(dnp no)
 		(uuid "bd6c1d8f-49f5-4001-8069-2d18368b33fd")
 		(property "Reference" "R2"
-			(at 116.84 436.8799 90)
+			(at 113.0299 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25244,8 +24463,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0603WAF4701T5E"
-			(at 116.84 439.4199 90)
+		(property "Value" "4.7k"
+			(at 115.5699 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25255,6 +24474,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.078 438.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 114.3 438.15 0)
 			(effects
 				(font
@@ -25263,21 +24491,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+		(property "Description" "Resistor"
 			(at 114.3 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" "4.7KΩ (4701) ±1%"
-			(at 108.204 434.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "LCSC" "C23162"
@@ -26005,8 +25225,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:0603WAF4021T5E_C23040")
-		(at 162.56 438.15 90)
+		(lib_id "Device:R")
+		(at 162.56 438.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26014,7 +25234,7 @@
 		(dnp no)
 		(uuid "c77e4fa5-eb84-45a2-9ce3-93fe07db270f")
 		(property "Reference" "R7"
-			(at 165.1 436.8799 90)
+			(at 160.528 439.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26022,8 +25242,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0603WAF4021T5E_C23040"
-			(at 165.1 439.4199 90)
+		(property "Value" "4.02k"
+			(at 163.8299 435.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26033,6 +25253,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 164.338 438.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 162.56 438.15 0)
 			(effects
 				(font
@@ -26041,21 +25270,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+		(property "Description" "Resistor"
 			(at 162.56 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" "4.02kΩ ±1% 100mW 0603"
-			(at 156.464 435.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "LCSC" "C23040"
@@ -26719,7 +25940,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:XL-1608UBC-04")
+		(lib_id "Device:LED")
 		(at 130.81 449.58 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26729,7 +25950,7 @@
 		(fields_autoplaced yes)
 		(uuid "d86c5f23-25d7-4f3f-a813-66a713df4e9c")
 		(property "Reference" "LED2"
-			(at 133.35 449.0719 90)
+			(at 134.62 451.1674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26756,7 +25977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
+		(property "Datasheet" "~"
 			(at 130.81 449.58 0)
 			(effects
 				(font
@@ -26765,7 +25986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue indicator led"
+		(property "Description" "Light emitting diode"
 			(at 130.81 449.58 0)
 			(effects
 				(font
@@ -26812,6 +26033,15 @@
 		)
 		(property "indicator" "+5V"
 			(at 130.81 449.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 449.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27207,71 +26437,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 347.98 322.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfec1d3d-38ab-41ef-9c64-303e2758e340")
-		(property "Reference" "#PWR042"
-			(at 347.98 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SERVO-GND"
-			(at 347.98 328.93 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.98 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 347.98 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78e629c1-e250-4ace-9d64-52becf57554b")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -27740,8 +26905,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:0603WAF1500T5E")
-		(at 147.32 438.15 90)
+		(lib_id "Device:R")
+		(at 147.32 439.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27749,7 +26914,7 @@
 		(dnp no)
 		(uuid "e8a9667d-253b-462c-be22-32238a4d6f7b")
 		(property "Reference" "R5"
-			(at 149.86 436.8799 90)
+			(at 146.0499 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27757,8 +26922,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0603WAF1500T5E"
-			(at 149.86 439.4199 90)
+		(property "Value" "150"
+			(at 148.5899 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27768,7 +26933,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 147.32 438.15 0)
+			(at 149.098 439.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27776,8 +26941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 147.32 438.15 0)
+		(property "Datasheet" "~"
+			(at 147.32 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27785,16 +26950,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "150Ω (1500) ±1%"
-			(at 141.478 438.658 0)
+		(property "Description" "Resistor"
+			(at 147.32 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C22808"
-			(at 147.32 438.15 0)
+			(at 147.32 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27803,7 +26969,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 147.32 438.15 0)
+			(at 147.32 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27812,7 +26978,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF1500T5E"
-			(at 147.32 438.15 0)
+			(at 147.32 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28035,72 +27201,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 335.28 322.58 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec17020e-2960-492f-83dd-ebce225b98ad")
-		(property "Reference" "#PWR040"
-			(at 335.28 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 335.28 328.93 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 335.28 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a520b39-76c2-4998-8238-cab9142bbf0a")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 659.13 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28165,8 +27265,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FRC0603F1001TS")
-		(at 130.81 438.15 90)
+		(lib_id "Device:R")
+		(at 130.81 439.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28174,7 +27274,7 @@
 		(dnp no)
 		(uuid "ee3fd790-4dcb-4a1d-9523-1815bdbe57c5")
 		(property "Reference" "R4"
-			(at 133.35 436.8799 90)
+			(at 129.5399 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28182,8 +27282,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FRC0603F1001TS"
-			(at 133.35 439.4199 90)
+		(property "Value" "1k"
+			(at 132.0799 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28193,7 +27293,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.81 438.15 0)
+			(at 132.588 439.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28201,8 +27301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 130.81 438.15 0)
+		(property "Datasheet" "~"
+			(at 130.81 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28210,16 +27310,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ ±1% 100mW 0603"
-			(at 124.46 435.356 0)
+		(property "Description" "Resistor"
+			(at 130.81 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C2907002"
-			(at 130.81 438.15 0)
+			(at 130.81 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28228,7 +27329,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 130.81 438.15 0)
+			(at 130.81 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28237,7 +27338,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FRC0603F1001TS"
-			(at 130.81 438.15 0)
+			(at 130.81 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28333,7 +27434,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:XL-1608UBC-04")
+		(lib_id "Device:LED")
 		(at 147.32 449.58 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28343,7 +27444,7 @@
 		(fields_autoplaced yes)
 		(uuid "f24c3116-2d1d-4236-8f87-c1bea0c97b57")
 		(property "Reference" "LED3"
-			(at 149.86 449.0719 90)
+			(at 151.13 451.1674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28370,7 +27471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
+		(property "Datasheet" "~"
 			(at 147.32 449.58 0)
 			(effects
 				(font
@@ -28379,7 +27480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue indicator led"
+		(property "Description" "Light emitting diode"
 			(at 147.32 449.58 0)
 			(effects
 				(font
@@ -28433,6 +27534,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "06783398-d177-41bc-8b68-aaaaec4f6d2a")
 		)
@@ -28449,8 +27559,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:XL-1608UBC-04")
-		(at 63.5 449.58 90)
+		(lib_id "Device:LED")
+		(at 63.5 448.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28459,7 +27569,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2a6266f-6eee-4dd4-aa64-2a3fcdb317c2")
 		(property "Reference" "LED102"
-			(at 66.04 449.0719 90)
+			(at 67.31 449.8974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28468,7 +27578,7 @@
 			)
 		)
 		(property "Value" "XL-1608UBC-04"
-			(at 66.04 451.6119 90)
+			(at 66.04 450.3419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28478,7 +27588,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 63.5 449.58 0)
+			(at 63.5 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28486,8 +27596,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
-			(at 63.5 449.58 0)
+		(property "Datasheet" "~"
+			(at 63.5 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28495,8 +27605,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue indicator led"
-			(at 63.5 449.58 0)
+		(property "Description" "Light emitting diode"
+			(at 63.5 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28505,7 +27615,7 @@
 			)
 		)
 		(property "LCSC" "C965807"
-			(at 63.5 449.58 0)
+			(at 63.5 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28514,7 +27624,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 63.5 449.58 0)
+			(at 63.5 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28523,7 +27633,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XL-1608UBC-04"
-			(at 63.5 449.58 0)
+			(at 63.5 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28532,7 +27642,16 @@
 			)
 		)
 		(property "indicator" "PACK+"
-			(at 63.5 449.58 90)
+			(at 63.5 448.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 63.5 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29435,9 +28554,9 @@
 				(hide yes)
 			)
 		)
-		(pin "in" input
+		(pin "IN" input
 			(at 252.73 21.59 180)
-			(uuid "5ffb8884-9ce6-4f21-9685-c2ef773bcc52")
+			(uuid "845c3f26-1f42-448a-abab-826a1ed51e39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29445,9 +28564,9 @@
 				(justify left)
 			)
 		)
-		(pin "out" output
+		(pin "OUT" output
 			(at 276.86 21.59 0)
-			(uuid "d54c39fb-5be8-4044-b98a-bf00e3bcd583")
+			(uuid "07f9c3ad-4c5c-4031-b9f8-5e96787d6ae8")
 			(effects
 				(font
 					(size 1.27 1.27)
