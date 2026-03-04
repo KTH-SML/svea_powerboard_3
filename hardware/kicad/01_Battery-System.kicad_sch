@@ -3588,149 +3588,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:PZ254V-11-02P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "5v rail sm-easyedapro:HDR-TH_2P-P2.54-V-M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connect"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "PZ254V-11-02P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "XFCN(兴飞)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C492401"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "1x2P 间距:2.54mm 方针 直插"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PZ254V-11-02P_1_0"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:SMAJ16A_C908770"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9587,12 +9444,6 @@
 		(uuid "2abc49bd-fbda-49cc-9395-406b4781d404")
 	)
 	(junction
-		(at 480.06 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c66a8d7-ec68-407c-95ad-587f5a4e7cf6")
-	)
-	(junction
 		(at 86.36 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9731,12 +9582,6 @@
 		(uuid "684ea2be-d821-4950-9a53-193b751e94f9")
 	)
 	(junction
-		(at 411.48 330.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73dfc627-677d-4e96-a600-9ae97d30ad2f")
-	)
-	(junction
 		(at 196.85 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9771,12 +9616,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "823ff943-3d97-4cf1-abec-2b02add9acb2")
-	)
-	(junction
-		(at 424.18 340.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84c4ac89-333c-48c8-8ce5-934fb003329d")
 	)
 	(junction
 		(at 618.49 229.87)
@@ -10013,12 +9852,6 @@
 		(uuid "e49e86bb-a39c-48e5-b3de-d58d427a87e9")
 	)
 	(junction
-		(at 448.31 304.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef08ed17-faec-4183-b600-a8e508960b68")
-	)
-	(junction
 		(at 114.3 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10037,7 +9870,7 @@
 		(uuid "f6adea78-25ad-42ed-bcc7-96699691944c")
 	)
 	(junction
-		(at 542.29 29.21)
+		(at 763.27 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b7b08f-6a45-4e3a-9783-6669cb60a4bf")
@@ -10087,6 +9920,10 @@
 		(uuid "7101737f-8748-4f11-8261-8f1d35afd10e")
 	)
 	(no_connect
+		(at 716.28 274.32)
+		(uuid "89a2ae18-c33f-4721-999b-dcbbd67d9ca8")
+	)
+	(no_connect
 		(at 716.28 293.37)
 		(uuid "91d8fcae-f515-4673-bca2-339d61f73067")
 	)
@@ -10105,10 +9942,6 @@
 	(no_connect
 		(at 716.28 297.18)
 		(uuid "c74fca37-b976-49b0-80ad-18bb98b1b083")
-	)
-	(no_connect
-		(at 716.28 289.56)
-		(uuid "f04c76b6-d58b-42c8-87f8-acd3482b251e")
 	)
 	(no_connect
 		(at 152.4 68.58)
@@ -10520,16 +10353,6 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 340.36) (xy 448.31 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f039f57-9b6a-4cf5-b840-eb005a2df2a0")
-	)
-	(wire
-		(pts
 			(xy 104.14 309.88) (xy 109.22 309.88)
 		)
 		(stroke
@@ -10770,16 +10593,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 330.2) (xy 448.31 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c8738b8-ac68-4315-a48e-59d46c6ce0e4")
-	)
-	(wire
-		(pts
 			(xy 110.49 123.19) (xy 110.49 143.51)
 		)
 		(stroke
@@ -10830,7 +10643,7 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 29.21) (xy 548.64 29.21)
+			(xy 763.27 153.67) (xy 769.62 153.67)
 		)
 		(stroke
 			(width 0)
@@ -10980,7 +10793,7 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 16.51) (xy 542.29 29.21)
+			(xy 763.27 140.97) (xy 763.27 153.67)
 		)
 		(stroke
 			(width 0)
@@ -11040,23 +10853,13 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 304.8) (xy 483.87 304.8)
+			(xy 422.91 304.8) (xy 483.87 304.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2bdb14e6-2048-44b9-a07f-4043b36d3289")
-	)
-	(wire
-		(pts
-			(xy 411.48 330.2) (xy 411.48 332.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c09893e-9fb3-4b3b-9012-7458b742148e")
 	)
 	(wire
 		(pts
@@ -11390,7 +11193,7 @@
 	)
 	(wire
 		(pts
-			(xy 548.64 91.44) (xy 537.21 91.44)
+			(xy 548.64 91.44) (xy 534.67 91.44)
 		)
 		(stroke
 			(width 0)
@@ -12070,6 +11873,16 @@
 	)
 	(wire
 		(pts
+			(xy 713.74 289.56) (xy 716.28 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baa3030-3769-47b4-baeb-aa2eaa99a8fe")
+	)
+	(wire
+		(pts
 			(xy 100.33 368.3) (xy 100.33 365.76)
 		)
 		(stroke
@@ -12097,16 +11910,6 @@
 			(type default)
 		)
 		(uuid "5caaf070-a748-41ad-b39d-2099f3889441")
-	)
-	(wire
-		(pts
-			(xy 393.7 340.36) (xy 424.18 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce8db1a-858b-4f9b-bcce-8fe5d3da4740")
 	)
 	(wire
 		(pts
@@ -12177,16 +11980,6 @@
 			(type default)
 		)
 		(uuid "5e6a28b3-50bd-4637-904c-7bc1dccdf60f")
-	)
-	(wire
-		(pts
-			(xy 422.91 304.8) (xy 448.31 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e741b2a-3f12-429f-a950-b5a8075e8c9d")
 	)
 	(wire
 		(pts
@@ -12320,7 +12113,7 @@
 	)
 	(wire
 		(pts
-			(xy 548.64 44.45) (xy 548.64 48.26)
+			(xy 769.62 168.91) (xy 769.62 172.72)
 		)
 		(stroke
 			(width 0)
@@ -12800,16 +12593,6 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 304.8) (xy 448.31 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8707e7b1-22ec-41b6-9567-d906fbd558e4")
-	)
-	(wire
-		(pts
 			(xy 681.99 426.72) (xy 685.8 426.72)
 		)
 		(stroke
@@ -13220,16 +13003,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 330.2) (xy 411.48 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ccd0252-8999-476a-ae11-a146357021ff")
-	)
-	(wire
-		(pts
 			(xy 759.46 85.09) (xy 759.46 81.28)
 		)
 		(stroke
@@ -13260,7 +13033,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 34.29) (xy 535.94 29.21)
+			(xy 756.92 158.75) (xy 756.92 153.67)
 		)
 		(stroke
 			(width 0)
@@ -13277,16 +13050,6 @@
 			(type default)
 		)
 		(uuid "9e606a30-8189-4b1b-bae5-efbfce77fbfe")
-	)
-	(wire
-		(pts
-			(xy 492.76 105.41) (xy 496.57 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ebff41b-5168-4258-9f22-746a059c5b65")
 	)
 	(wire
 		(pts
@@ -13650,16 +13413,6 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 105.41) (xy 480.06 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acc578f9-689c-4bd2-8a86-155d9f510c97")
-	)
-	(wire
-		(pts
 			(xy 207.01 350.52) (xy 209.55 350.52)
 		)
 		(stroke
@@ -13860,7 +13613,7 @@
 	)
 	(wire
 		(pts
-			(xy 744.22 273.05) (xy 739.14 273.05)
+			(xy 754.38 273.05) (xy 739.14 273.05)
 		)
 		(stroke
 			(width 0)
@@ -14620,7 +14373,7 @@
 	)
 	(wire
 		(pts
-			(xy 537.21 81.28) (xy 537.21 91.44)
+			(xy 534.67 82.55) (xy 534.67 91.44)
 		)
 		(stroke
 			(width 0)
@@ -14707,6 +14460,16 @@
 			(type default)
 		)
 		(uuid "dd413698-8b19-4b40-a93f-473d5dbe826b")
+	)
+	(wire
+		(pts
+			(xy 681.99 411.48) (xy 685.8 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5de0ab-a4d3-432f-bfbe-cd4f5d778797")
 	)
 	(wire
 		(pts
@@ -14820,7 +14583,7 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 29.21) (xy 535.94 29.21)
+			(xy 763.27 153.67) (xy 756.92 153.67)
 		)
 		(stroke
 			(width 0)
@@ -14840,7 +14603,7 @@
 	)
 	(wire
 		(pts
-			(xy 548.64 29.21) (xy 548.64 34.29)
+			(xy 769.62 153.67) (xy 769.62 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14850,7 +14613,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 99.06) (xy 496.57 99.06)
+			(xy 466.09 99.06) (xy 496.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -14967,16 +14730,6 @@
 			(type default)
 		)
 		(uuid "e93cbe39-6249-43c6-9426-bcd3c8bea132")
-	)
-	(wire
-		(pts
-			(xy 480.06 105.41) (xy 480.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9dba564-670c-42f7-a236-0066c126771a")
 	)
 	(wire
 		(pts
@@ -15330,7 +15083,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 44.45) (xy 535.94 48.26)
+			(xy 756.92 168.91) (xy 756.92 172.72)
 		)
 		(stroke
 			(width 0)
@@ -15450,16 +15203,6 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 99.06) (xy 480.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe34060d-8cba-48b6-9a23-ff9810472a8e")
-	)
-	(wire
-		(pts
 			(xy 144.78 290.83) (xy 163.83 290.83)
 		)
 		(stroke
@@ -15569,7 +15312,7 @@
 		(uuid "f611bb3e-71d6-404c-8de1-0b4fb6bc32bb")
 	)
 	(global_label "SCL_SLOW"
-		(shape bidirectional)
+		(shape input)
 		(at 158.75 86.36 0)
 		(effects
 			(font
@@ -15624,6 +15367,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHARGING-IC{slash}OPEN-DRAIN-DIGIPOT-#EN"
+		(shape output)
+		(at 681.99 411.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "07707f43-6068-4e72-9c6d-16ea6669db3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 647.09 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -16371,26 +16136,6 @@
 		(uuid "4f284acf-2a34-4402-a628-1c10d9462762")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 681.99 421.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BQ/DFETOFF"
-		(shape output)
-		(at 685.8 483.87 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f8fcb9e-c365-4002-a138-44c59f6892a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 685.8 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17171,26 +16916,6 @@
 			)
 		)
 	)
-	(global_label "BQ/DCHG"
-		(shape output)
-		(at 685.8 486.41 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "b8bb60bf-1ff5-4082-a1fd-9dd4d5e95fdc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 685.8 486.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO-Expander{slash}Primary{slash}INT"
 		(shape input)
 		(at 713.74 281.94 180)
@@ -17334,7 +17059,7 @@
 		)
 	)
 	(global_label "BQ{slash}RST-SHUT"
-		(shape output)
+		(shape input)
 		(at 158.75 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -17479,7 +17204,7 @@
 	)
 	(global_label "SCL_SLOW"
 		(shape input)
-		(at 535.94 48.26 270)
+		(at 756.92 172.72 270)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -17488,7 +17213,7 @@
 		)
 		(uuid "d37024d0-e0bf-4a3f-a502-afe993fe67df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 535.94 48.26 0)
+			(at 756.92 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17515,6 +17240,27 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Button{slash}LOW"
+		(shape input)
+		(at 713.74 289.56 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "ddb79e48-c890-42ef-b711-2c3f621b4418")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 713.74 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -17561,7 +17307,7 @@
 	)
 	(global_label "SBUS_RECEIVER"
 		(shape input)
-		(at 744.22 273.05 0)
+		(at 754.38 273.05 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -17570,7 +17316,7 @@
 		)
 		(uuid "ea18e0d1-e77e-4faa-8469-03c5c081ebd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 744.22 273.05 0)
+			(at 754.38 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17581,7 +17327,7 @@
 	)
 	(global_label "SDA_SLOW"
 		(shape input)
-		(at 548.64 48.26 270)
+		(at 769.62 172.72 270)
 		(effects
 			(font
 				(size 1.5748 1.5748)
@@ -17590,7 +17336,7 @@
 		)
 		(uuid "eb1d5568-94c2-451b-93dc-66b6258177de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 548.64 48.26 0)
+			(at 769.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18182,120 +17928,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "AnyPower1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:FRC0603J104 TS")
-		(at 487.68 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06e9cda0-2b0d-40f7-a4d1-2c5460d6ab95")
-		(property "Reference" "R11"
-			(at 485.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100kΩ"
-			(at 485.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 487.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 487.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±5% Tolerance:±5% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 487.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "FRC0603J104 TS"
-			(at 487.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 487.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C2907088"
-			(at 487.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 487.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100kΩ ±5% 100mW 厚膜电阻"
-			(at 487.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6632dbe5-136b-4b02-9af1-75d170acb757")
-		)
-		(pin "2"
-			(uuid "7cb4f370-6bd9-4a7e-a0d0-ea55ab62cf8a")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -19600,7 +19232,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:0603WAF4701T5E")
-		(at 548.64 39.37 90)
+		(at 769.62 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19608,7 +19240,7 @@
 		(dnp no)
 		(uuid "1dc2ad5b-3226-4c41-8fcc-1d31a4f6f328")
 		(property "Reference" "R118"
-			(at 551.18 39.37 90)
+			(at 772.16 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19617,7 +19249,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 551.18 41.91 90)
+			(at 772.16 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19626,7 +19258,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 548.64 39.37 0)
+			(at 769.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19635,7 +19267,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF4701T5E/23889.html"
-			(at 548.64 39.37 0)
+			(at 769.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19644,7 +19276,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:4.7kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 548.64 39.37 0)
+			(at 769.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19653,7 +19285,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF4701T5E"
-			(at 548.64 39.37 0)
+			(at 769.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19662,7 +19294,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 548.64 39.37 0)
+			(at 769.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19671,7 +19303,7 @@
 			)
 		)
 		(property "Supplier Part" "C23162"
-			(at 548.64 39.37 0)
+			(at 769.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19680,7 +19312,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 548.64 39.37 0)
+			(at 769.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19689,7 +19321,7 @@
 			)
 		)
 		(property "LCSC Part Name" "4.7kΩ ±1% 100mW 厚膜电阻"
-			(at 548.64 39.37 0)
+			(at 769.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20300,7 +19932,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:0603WAF4701T5E")
-		(at 535.94 39.37 90)
+		(at 756.92 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20308,7 +19940,7 @@
 		(dnp no)
 		(uuid "2940551d-cbef-4db9-b495-9634af6899ad")
 		(property "Reference" "R117"
-			(at 538.48 40.64 90)
+			(at 759.46 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20317,7 +19949,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 538.48 43.18 90)
+			(at 759.46 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20326,7 +19958,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 535.94 39.37 0)
+			(at 756.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20335,7 +19967,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF4701T5E/23889.html"
-			(at 535.94 39.37 0)
+			(at 756.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20344,7 +19976,7 @@
 			)
 		)
 		(property "Description" "Type:Thick Film Resistor Resistance:4.7kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C Operating Temperature:-55°C~+155°C Operating Temperature:-55°C~+155°C"
-			(at 535.94 39.37 0)
+			(at 756.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20353,7 +19985,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0603WAF4701T5E"
-			(at 535.94 39.37 0)
+			(at 756.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20362,7 +19994,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 535.94 39.37 0)
+			(at 756.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20371,7 +20003,7 @@
 			)
 		)
 		(property "Supplier Part" "C23162"
-			(at 535.94 39.37 0)
+			(at 756.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20380,7 +20012,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 535.94 39.37 0)
+			(at 756.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20389,7 +20021,7 @@
 			)
 		)
 		(property "LCSC Part Name" "4.7kΩ ±1% 100mW 厚膜电阻"
-			(at 535.94 39.37 0)
+			(at 756.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24796,72 +24428,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 424.18 340.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92a6d362-0564-4ce2-a1fb-5007415b0360")
-		(property "Reference" "#PWR0183"
-			(at 424.18 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 424.18 344.17 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 424.18 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 424.18 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 424.18 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e84b7a81-014e-4ffb-8f0d-5183175c23b2")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "#PWR0183")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:XL-1608UBC-04")
 		(at 177.8 449.58 90)
 		(unit 1)
@@ -26916,123 +26482,8 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:PZ254V-11-02P")
-		(at 523.24 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5e5cc0d-7dab-4190-bf9b-2728fcf4028e")
-		(property "Reference" "ONBOARD_5V1"
-			(at 519.43 88.646 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "PZ254V-11-02P"
-			(at 520.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:HDR-TH_2P-P2.54-V-M"
-			(at 523.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html"
-			(at 523.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connect"
-			(at 523.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PZ254V-11-02P"
-			(at 523.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XFCN(兴飞)"
-			(at 523.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C492401"
-			(at 523.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 523.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x2P 间距:2.54mm 方针 直插"
-			(at 523.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4121feb0-41e5-435d-a6a8-b11d842586cc")
-		)
-		(pin "2"
-			(uuid "90f5317a-e464-4998-b246-7f344b9192aa")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "ONBOARD_5V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 542.29 16.51 0)
+		(at 763.27 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27040,7 +26491,7 @@
 		(dnp no)
 		(uuid "b77a079b-52dd-410d-89dc-40fa52c71a9e")
 		(property "Reference" "#PWR0191"
-			(at 542.29 16.51 0)
+			(at 763.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27049,7 +26500,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 542.29 11.43 0)
+			(at 763.27 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27057,7 +26508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 542.29 16.51 0)
+			(at 763.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27066,7 +26517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 542.29 16.51 0)
+			(at 763.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27075,7 +26526,7 @@
 			)
 		)
 		(property "Description" "Power-5V"
-			(at 542.29 16.51 0)
+			(at 763.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29380,7 +28831,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 537.21 81.28 0)
+		(at 534.67 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29389,7 +28840,7 @@
 		(fields_autoplaced yes)
 		(uuid "da57c6fa-c910-45c5-8cf8-e7f9cfaa05be")
 		(property "Reference" "#PWR045"
-			(at 537.21 85.09 0)
+			(at 534.67 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29398,7 +28849,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 539.75 80.0099 0)
+			(at 537.21 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29407,7 +28858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 537.21 81.28 0)
+			(at 534.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29416,7 +28867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 537.21 81.28 0)
+			(at 534.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29425,7 +28876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 537.21 81.28 0)
+			(at 534.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

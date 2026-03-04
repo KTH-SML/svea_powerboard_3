@@ -4906,7 +4906,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 93.98) (xy 110.49 97.79)
+			(xy 110.49 93.98) (xy 110.49 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4973,16 +4973,6 @@
 			(type default)
 		)
 		(uuid "6b6cd211-ce66-48fa-8d06-487e3d5c4a28")
-	)
-	(wire
-		(pts
-			(xy 110.49 107.95) (xy 110.49 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc8a944-a022-4f73-8bc5-fc681148f65a")
 	)
 	(wire
 		(pts
@@ -5917,77 +5907,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
 					(reference "NT16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 110.49 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16fa1ac8-b6a5-416d-b52c-278994dff342")
-		(property "Reference" "JP1"
-			(at 111.76 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 111.76 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7e5e41f-c8ea-4d0a-85fb-0deaa2871b08")
-		)
-		(pin "2"
-			(uuid "bd18a9a1-8e4b-4ff8-ac5c-302547c1efbb")
-		)
-		(instances
-			(project ""
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
