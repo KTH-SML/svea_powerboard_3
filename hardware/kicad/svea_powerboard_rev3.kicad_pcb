@@ -4778,7 +4778,7 @@
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a994f324-c6f3-4ed0-9a66-85e49eba80ab/6662ed83-48b4-4520-9764-06f5f0f0890d")
 		(sheetname "/Battery System/USB-C Input/")
 		(sheetfile "23_Charging-USB-C-Port.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
@@ -9284,6 +9284,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1a11bf77-e832-4590-aa69-9bf06d7d8a67")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c/7a2c28d4-e06f-48de-988e-f39528e64fcb")
 		(sheetname "/Battery System/IO-ExpanderSecondary/")
 		(sheetfile "ioexpandermcu.kicad_sch")
@@ -9784,6 +9796,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a799440e-7e80-4e06-9ae7-a2ab441f784b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25799"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aca6926f-7e49-4f66-8bf4-ec33e01498e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13675,6 +13699,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c96c9908-2b26-4f5b-b6f7-eb202c3dbb91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/de8125f2-04ec-46c6-89d6-d0b5e89f6023/00b61e94-e262-403f-ac56-101ee6e951d6")
 		(sheetname "/Battery System/5v rail/")
@@ -13878,6 +13914,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c696d4b9-a08e-471f-a527-7f8c807d4934")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -16992,6 +17040,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C151135"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d215d0f9-8f30-416d-b765-1f0828c11ba0")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -23045,6 +23105,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a18af128-e1e0-49d3-acc3-97622e1e4f24")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/261b4c59-ebc7-47a2-bb10-0e71ece0f9bf/568b0046-ac65-4716-88f1-1e94e6642ae3")
 		(sheetname "/Battery System/bms_button_logic/")
 		(sheetfile "bms_button_logic.kicad_sch")
@@ -25514,6 +25586,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C668119"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e3f5e300-4eba-4c50-8e66-e9682dacdb24")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/9caf79a6-828e-4503-aa5d-3a04be247154")
 		(sheetname "/Battery System/")
@@ -27256,7 +27340,7 @@
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/31f44477-0097-4e02-b6ff-5111b8556cfe/d3166080-f68b-4b64-8610-44e3e4efa4c9")
 		(sheetname "/Battery System/Charger Buck Stage/")
 		(sheetfile "4_Charging-Buck.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -3.089992 5.226238)
 			(end -5.226238 3.089992)
@@ -29293,6 +29377,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "66b49644-9494-43be-baae-2c631caaf04f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6e57be96-cf66-4ae6-ad8b-d6a9d975d256")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32869,6 +32965,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f65e315e-a252-4319-8d60-10f1726f3872")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8281c4bd-f2fa-451b-b37c-f7eda375ddce/a3eed683-925f-41bc-b0d4-4a879c38d08c")
 		(sheetname "/Battery System/PWM Driver/")
 		(sheetfile "25_Microcontroller-PWM-IC.kicad_sch")
@@ -35596,6 +35704,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dfd3215e-a6a1-4b03-99b8-6a250ef550ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca5c318b-4cb5-499c-8f05-1728a1bbf811")
 		(sheetname "/Battery System/")
 		(sheetfile "01_Battery-System.kicad_sch")
@@ -35733,6 +35853,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0247b7c0-c1ca-4cec-8000-b2331e7cf229")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9984a88a-80f8-41df-83dd-f36524694ed5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38120,6 +38252,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b3a20fd-9dd5-42b9-9a48-08a0b1ebe32d")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -41635,6 +41779,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a7dc9b5b-cb16-4e30-b1cc-2e49c9ec6cf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/261b4c59-ebc7-47a2-bb10-0e71ece0f9bf/c7c52f1a-e7e2-4695-a4d5-4c2f7127a1f4")
 		(sheetname "/Battery System/bms_button_logic/")
 		(sheetfile "bms_button_logic.kicad_sch")
@@ -43377,6 +43533,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4a7a96a7-3508-4c87-8f04-b4362137f028")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -52962,6 +53130,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ed832afc-7f4d-4ee6-b2e8-ba1933f98edb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/edbb302e-07de-47c0-9e17-f5f094cbde02/c8714421-7b32-48a7-ae74-c3fa0066af44")
 		(sheetname "/Battery System/TPS16630RGER_CHARGING_EFUSE/")
 		(sheetfile "TPS16630RGER_CHARGING_EFUSE.kicad_sch")
@@ -56641,6 +56821,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "986fe76c-7296-48a1-bfe4-08bd0a5cd933")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8281c4bd-f2fa-451b-b37c-f7eda375ddce/13fd5478-b63a-40b1-9531-63f81454e041")
 		(sheetname "/Battery System/PWM Driver/")
 		(sheetfile "25_Microcontroller-PWM-IC.kicad_sch")
@@ -56845,6 +57037,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ab1dca17-7f7c-4c14-8058-7716cd77faa4")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -57310,6 +57514,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C151135"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bbeedb6e-2237-457e-bebe-12b70f502622")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -57866,6 +58082,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C151135"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f90d57c9-579d-40b7-a02c-288301028cdb")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -63606,6 +63834,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "88ee488a-eb07-40b3-ba68-369fdf889534")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/377a7d80-7787-423e-ba92-be6cfb263bed")
 		(sheetname "/Battery System/")
 		(sheetfile "01_Battery-System.kicad_sch")
@@ -64925,6 +65165,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25799"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b97a64eb-cdd2-463d-8e1e-2c70cf023c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -67874,6 +68126,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e64be98f-0583-4d69-94a2-d9b8ba77f322")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -70975,6 +71239,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "92c8bcf9-7a90-42d8-b120-927b1af5725d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/31f44477-0097-4e02-b6ff-5111b8556cfe/9f4b8496-c37e-498e-a7fe-248bc1bb2ee1")
 		(sheetname "/Battery System/Charger Buck Stage/")
@@ -72294,6 +72570,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "638eefe7-3383-479b-872d-118d88fc84f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/dbd4ea60-4aea-4c54-b6d4-040e1bd18700")
 		(sheetname "/Battery System/")
 		(sheetfile "01_Battery-System.kicad_sch")
@@ -72879,6 +73167,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d52fe277-a4a0-426d-a12e-78fae12f86dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12/4bc9f728-911d-483a-8423-241ab2591816")
 		(sheetname "/Battery System/Battery Power Path/")
 		(sheetfile "19_Battery-Power.kicad_sch")
@@ -73386,6 +73686,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "dcc09453-6257-4d9f-959c-67f87fb3c1bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/044ae6eb-f416-4b68-9d75-784bdd14fca8/f47249bd-c1be-42b4-8f82-498184afebed")
 		(sheetname "/Battery System/MicrocontrollerKickstart/")
@@ -73810,6 +74122,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c211b806-3b94-4cfd-8821-0f5c879b159d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -75606,6 +75930,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9a3fe7f1-0ead-4b1f-8dd1-91cde6102f81")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/31f44477-0097-4e02-b6ff-5111b8556cfe/e9e53a82-5cc8-4e81-91e7-2b63dd5ac1db")
 		(sheetname "/Battery System/Charger Buck Stage/")
@@ -77214,6 +77550,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c698d88b-0498-4a2b-869a-24ea71d722d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8281c4bd-f2fa-451b-b37c-f7eda375ddce/71555604-4268-4427-b4bc-31e488ef86bc")
@@ -79824,6 +80172,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c0b6f228-26c4-4532-9063-f8078575062a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be11/aa56a223-45a0-45aa-83c9-f1469018828e")
 		(sheetname "/Battery System/Battery BMS Interface/")
 		(sheetfile "18_Battery-BMS.kicad_sch")
@@ -80446,6 +80806,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ca8d5c61-5c5a-4ade-a8ba-717e6ec7b5a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/6b220a19-9b06-4332-bfee-1ee1528ca0d0/eb771977-7b7f-4c24-a18f-7601ea975e33")
@@ -81831,6 +82203,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fcd32c2c-513d-4014-a1c1-31d8c71b4045")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -85153,6 +85537,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fe9fc476-43ec-40dc-bbb4-55a8b641dd6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8281c4bd-f2fa-451b-b37c-f7eda375ddce/aafd4efb-5316-4c5a-bf36-28fbbc83c2bb")
 		(sheetname "/Battery System/PWM Driver/")
 		(sheetfile "25_Microcontroller-PWM-IC.kicad_sch")
@@ -85830,6 +86226,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5131bdd4-3b55-4d48-a2e4-302045831e8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea/7a2c28d4-e06f-48de-988e-f39528e64fcb")
 		(sheetname "/Battery System/IO-ExpanderPrimary/")
 		(sheetfile "ioexpandermcu.kicad_sch")
@@ -86047,6 +86455,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6235ba10-8655-4e9d-8486-1c6b584dd251")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bfb98524-ff97-426a-83b1-5a3236cd5c1c/eb65a128-2831-4b5b-bf39-3662053921c2")
@@ -87358,6 +87778,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d9302d13-e84b-4af3-872a-d3a03394e44b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/cdaa919c-aa5b-42e7-854c-b7713315bd86")
 		(sheetname "/Battery System/")
@@ -87573,6 +88005,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ad7b4ea6-6e1c-494d-9fe4-917cc1f08beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/f905c03e-3beb-49af-bc62-139e11116eaa/eb771977-7b7f-4c24-a18f-7601ea975e33")
@@ -90592,6 +91036,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d9bbbf67-b573-4d6b-97be-26a94b6b5437")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/40a61560-66df-4637-829b-67b6e4c25aea/eb65a128-2831-4b5b-bf39-3662053921c2")
 		(sheetname "/Battery System/IO-ExpanderPrimary/")
 		(sheetfile "ioexpandermcu.kicad_sch")
@@ -91873,6 +92329,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f160c2ff-2755-40bd-8b6a-6a8db9fd89de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a994f324-c6f3-4ed0-9a66-85e49eba80ab/70a92bba-decf-4ee3-a0a9-76542e205a0f")
@@ -97936,6 +98404,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "11bdb79c-e154-41c0-87f2-2e4c19c75090")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/a994f324-c6f3-4ed0-9a66-85e49eba80ab/738cf57d-68d2-4ebe-9d5a-e2bcc5646f12")
 		(sheetname "/Battery System/USB-C Input/")
@@ -101029,6 +101509,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C151135"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7116098f-f522-48a1-9b06-e49eee332068")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/044ae6eb-f416-4b68-9d75-784bdd14fca8/3cf09e94-5349-4503-b045-d42314e94995")
 		(sheetname "/Battery System/MicrocontrollerKickstart/")
 		(sheetfile "21_Microcontroller-Interface.kicad_sch")
@@ -101464,6 +101956,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "52bbacc5-c210-405f-b395-8a095983a36e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/bc071d61-8b11-45fc-ba6b-5289d12bf7f1")
@@ -105163,6 +105667,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1bb222b3-f76a-4b0a-b3af-caae9917c476")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/3defe835-7f3e-4186-81ed-0e8caa47e3eb/4993466e-5c99-4c12-ba28-d31672169ced")
 		(sheetname "/Battery System/CUR1/")
 		(sheetfile "MISC_IO_CURR_SENSING_1.kicad_sch")
@@ -105778,6 +106294,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "96b0ed11-873d-4ad1-b2b6-f44e463dcdb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -108644,6 +109172,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "90394726-ac13-4035-8755-ced1f66209dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8281c4bd-f2fa-451b-b37c-f7eda375ddce/cfc77e2b-0b0f-47e5-9459-59ff94caaa01")
 		(sheetname "/Battery System/PWM Driver/")
 		(sheetfile "25_Microcontroller-PWM-IC.kicad_sch")
@@ -109691,6 +110231,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5199872"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "df6eec19-2723-442d-99ab-48d7b0bb0eb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -111567,6 +112119,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "54dacd8e-10f0-4d37-9ffe-894f47c2e160")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
