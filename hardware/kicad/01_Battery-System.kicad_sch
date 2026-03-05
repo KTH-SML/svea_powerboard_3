@@ -2910,55 +2910,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:kaj"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "KAJFACE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:wasologo"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8094,12 +8045,6 @@
 		(uuid "ca479f1e-b7be-4dec-9b9d-d5e78a33f73a")
 	)
 	(junction
-		(at 123.19 381)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb49bc8f-b1d2-478c-9737-00fda0d42903")
-	)
-	(junction
 		(at 201.93 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8142,12 +8087,6 @@
 		(uuid "db46b89e-7012-4c5c-8b4f-5d532a4eeae8")
 	)
 	(junction
-		(at 88.9 365.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ded855b2-05c7-4a85-8275-61b25a164936")
-	)
-	(junction
 		(at 328.93 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8176,12 +8115,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5653aa4-a324-4609-9528-7cfb44de8e76")
-	)
-	(junction
-		(at 100.33 381)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6adea78-25ad-42ed-bcc7-96699691944c")
 	)
 	(junction
 		(at 763.27 153.67)
@@ -9141,16 +9074,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 381) (xy 100.33 381)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274b7367-2f0a-4619-af16-7867fe7fa00d")
-	)
-	(wire
-		(pts
 			(xy 63.5 452.12) (xy 63.5 454.66)
 		)
 		(stroke
@@ -9701,16 +9624,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 381) (xy 88.9 378.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423781bb-9592-4538-a090-122bd069d4b9")
-	)
-	(wire
-		(pts
 			(xy 213.36 67.31) (xy 201.93 67.31)
 		)
 		(stroke
@@ -9968,26 +9881,6 @@
 			(type default)
 		)
 		(uuid "4c11f0ad-4182-48a0-90c8-999daf37a767")
-	)
-	(wire
-		(pts
-			(xy 85.09 365.76) (xy 88.9 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c47697c-a08e-4d65-8707-1a27c218f6a5")
-	)
-	(wire
-		(pts
-			(xy 100.33 381) (xy 100.33 378.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c63466d-612a-490d-868e-c266e59145be")
 	)
 	(wire
 		(pts
@@ -10261,16 +10154,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 368.3) (xy 100.33 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bcfe329-a6af-44a3-8bcb-54715196c6f3")
-	)
-	(wire
-		(pts
 			(xy 45.72 25.4) (xy 31.75 25.4)
 		)
 		(stroke
@@ -10318,16 +10201,6 @@
 			(type default)
 		)
 		(uuid "5dcf1884-b23a-4f79-ab5e-8f08aeb1f79d")
-	)
-	(wire
-		(pts
-			(xy 100.33 381) (xy 123.19 381)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5de43abf-64b4-43bc-89ee-868c881ac017")
 	)
 	(wire
 		(pts
@@ -10788,16 +10661,6 @@
 			(type default)
 		)
 		(uuid "77763ea9-f433-4ea1-b5b2-36723e607f9c")
-	)
-	(wire
-		(pts
-			(xy 88.9 365.76) (xy 100.33 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77bfb1fc-e9a3-4e80-a3a8-0b27136ce32f")
 	)
 	(wire
 		(pts
@@ -12221,16 +12084,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 368.3) (xy 88.9 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c45281ff-0ce8-44a0-b01a-f9304b36c584")
-	)
-	(wire
-		(pts
 			(xy 466.09 111.76) (xy 466.09 99.06)
 		)
 		(stroke
@@ -12611,16 +12464,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 365.76) (xy 74.93 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5083610-736e-4428-9b81-f5112e526edc")
-	)
-	(wire
-		(pts
 			(xy 110.49 143.51) (xy 110.49 163.83)
 		)
 		(stroke
@@ -12738,16 +12581,6 @@
 			(type default)
 		)
 		(uuid "dc74a5a5-913a-488b-8ebc-07ee788c20e1")
-	)
-	(wire
-		(pts
-			(xy 60.96 365.76) (xy 60.96 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcc1b104-e4d7-4dff-afad-ef4b97a2f8d3")
 	)
 	(wire
 		(pts
@@ -19231,72 +19064,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:kaj")
-		(at 63.5 556.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4872df06-764a-403a-87ed-9c62022cf38d")
-		(property "Reference" "KAJFACE1"
-			(at 64.77 554.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 64.77 557.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 556.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 556.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 556.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "KAJFACE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5v rail sm-easyedapro:B2B-XH-A (LF)(SN)")
 		(at 27.94 63.5 0)
 		(mirror y)
@@ -19849,71 +19616,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 60.96 360.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "54a8fcad-28d1-4327-947c-c556fbaa5508")
-		(property "Reference" "#PWR03"
-			(at 60.96 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "servo_vcc_indicator"
-			(at 60.96 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 60.96 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfdb00fd-7fdc-49f8-95cb-f937781d984c")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 162.56 448.31 90)
 		(unit 1)
@@ -20163,120 +19865,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:GRM21BR61H106KE43L")
-		(at 88.9 373.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "57b9f929-cf88-4f0f-b647-930e8f64ef3e")
-		(property "Reference" "C1"
-			(at 92.71 373.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "10u"
-			(at 92.71 375.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 88.9 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230811/95AAE0C9AF55EDC31B7A4D8B733F534E.pdf"
-			(at 88.9 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
-			(at 88.9 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "GRM21BR61H106KE43L"
-			(at 88.9 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "muRata(村田)"
-			(at 88.9 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C440198"
-			(at 88.9 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 88.9 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "10uF ±10% 50V"
-			(at 88.9 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04e1f5e6-3842-41b5-a462-e221a848cd0c")
-		)
-		(pin "2"
-			(uuid "aee7e651-b43e-4168-a11e-9f6131724301")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -24920,72 +24508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:kaj")
-		(at 74.93 565.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b87389f3-98f8-460b-b430-8f866f628eb9")
-		(property "Reference" "KAJFACE2"
-			(at 76.2 563.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 76.2 566.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 565.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 565.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 565.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "KAJFACE2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 34.29 129.54 0)
 		(unit 1)
@@ -25657,120 +25179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:CC0603KRX7R9BB104")
-		(at 100.33 373.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "c0752013-8ee5-4200-b28e-df19f5cfbf74")
-		(property "Reference" "C2"
-			(at 104.14 373.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100n"
-			(at 104.14 375.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 100.33 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf"
-			(at 100.33 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
-			(at 100.33 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 100.33 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 100.33 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C14663"
-			(at 100.33 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 100.33 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "100nF ±10% 50V"
-			(at 100.33 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8cbc65b-2a74-4d87-b61a-be83c9e0fd62")
-		)
-		(pin "2"
-			(uuid "f5ae2250-ba33-4575-a459-95a630eaf132")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 88.9 429.26 0)
 		(mirror y)
@@ -25831,121 +25239,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:LR123WF160MT4E")
-		(at 80.01 365.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "c269fc8c-0a41-4a1f-96e9-988085c834fa")
-		(property "Reference" "R1"
-			(at 77.47 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "16m"
-			(at 77.47 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 80.01 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Type:Current Sensing Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±50ppm/°C Temperature Coefficient:±50ppm/°C Mounting Type:Patch"
-			(at 80.01 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "LR123WF160MT4E"
-			(at 80.01 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 80.01 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C5775686"
-			(at 80.01 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 80.01 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "16mΩ ±1% 3W"
-			(at 80.01 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "851df635-9d87-4beb-9568-3b66e8ca753f")
-		)
-		(pin "2"
-			(uuid "c021bbf9-e956-4bb2-aa3c-a507ac26afae")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "R1")
 					(unit 1)
 				)
 			)

@@ -5,149 +5,6 @@
 	(uuid "1e63c417-89d5-4e98-a562-a6726136b29a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "5v rail sm-easyedapro:PZ254V-11-02P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "5v rail sm-easyedapro:HDR-TH_2P-P2.54-V-M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connect"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "PZ254V-11-02P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "XFCN(兴飞)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C492401"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "1x2P 间距:2.54mm 方针 直插"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PZ254V-11-02P_1_0"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:TSW-104-08-T-T-RA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -835,12 +692,6 @@
 		(uuid "68b746ba-c921-4d17-82d9-1629559de358")
 	)
 	(junction
-		(at 99.06 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fe34694-5807-410d-afd8-5408c44e918d")
-	)
-	(junction
 		(at 104.14 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -871,12 +722,6 @@
 		(uuid "789b8f6d-9ee2-422e-8cc7-b2aaa6e85ecc")
 	)
 	(junction
-		(at 99.06 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8573d91b-d9d7-4367-b35e-c5b05d2e7a27")
-	)
-	(junction
 		(at 97.79 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -904,16 +749,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 76.2) (xy 99.06 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "112d6b3c-7344-4309-9b19-b60d6e6d5e48")
-	)
-	(wire
-		(pts
 			(xy 97.79 124.46) (xy 97.79 127)
 		)
 		(stroke
@@ -921,16 +756,6 @@
 			(type default)
 		)
 		(uuid "15a6f508-5e1e-4ad2-9ab1-0bf3ae704af9")
-	)
-	(wire
-		(pts
-			(xy 93.98 86.36) (xy 90.17 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a3cbd4a-6203-405c-ad6b-1d3272a3ec7f")
 	)
 	(wire
 		(pts
@@ -1031,16 +856,6 @@
 			(type default)
 		)
 		(uuid "6248649d-1e9f-442b-b633-86414d68d35d")
-	)
-	(wire
-		(pts
-			(xy 90.17 88.9) (xy 99.06 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70caf0a5-42cc-41a2-a0e4-ac315adb1810")
 	)
 	(wire
 		(pts
@@ -1181,16 +996,6 @@
 			(type default)
 		)
 		(uuid "d09ad6ee-fdc7-45cc-a929-ae18332dd1bd")
-	)
-	(wire
-		(pts
-			(xy 93.98 76.2) (xy 93.98 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb738524-14af-4415-b201-31962a0f2f3b")
 	)
 	(wire
 		(pts
@@ -2437,121 +2242,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:PZ254V-11-02P")
-		(at 85.09 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "f9d6ceb9-c8dc-430b-bdd9-18b29daacf06")
-		(property "Reference" "ESC-6V1"
-			(at 81.28 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "PZ254V-11-02P"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:HDR-TH_2P-P2.54-V-M"
-			(at 85.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html"
-			(at 85.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Structure:1x2P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:2P Current Rating:- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connect"
-			(at 85.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PZ254V-11-02P"
-			(at 85.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XFCN(兴飞)"
-			(at 85.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C492401"
-			(at 85.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 85.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "1x2P 间距:2.54mm 方针 直插"
-			(at 85.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8f62910-f98c-45e1-8192-88d9a86040cb")
-		)
-		(pin "2"
-			(uuid "36155738-1607-423e-9faf-9a1a58803b9c")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/e0f45e16-4740-446f-ae55-03461fa88791"
-					(reference "ESC-6V1")
 					(unit 1)
 				)
 			)
