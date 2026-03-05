@@ -126,6 +126,7 @@ NON_ALNUM_RE = re.compile(r"[^A-Za-z0-9]+")
 HEADER_NORMALIZE_RE = re.compile(r"[^a-z0-9]+")
 CJK_CHAR_RE = re.compile(r"[\u4e00-\u9fff]")
 ENGLISH_WORD_RE = re.compile(r"[A-Za-z]{3,}")
+PART_FAMILY_PREFIX_RE = re.compile(r"^([A-Z]{2,}\d{2,6})")
 PDFTOTEXT_BIN = shutil.which("pdftotext")
 
 CSV_ALIASES = {
@@ -470,8 +471,6 @@ def make_request_with_curl(url: str, max_bytes: Optional[int] = None) -> Tuple[s
             "--fail",
             "--max-time",
             str(max(5, REQUEST_TIMEOUT_SECONDS)),
-            "-A",
-            USER_AGENT,
             "-D",
             str(header_path),
             "-o",
@@ -863,6 +862,19 @@ def normalize_identifier(value: str) -> str:
     return NON_ALNUM_RE.sub("", value or "").upper()
 
 
+def derive_part_family_identifier(value: str) -> str:
+    normalized = normalize_identifier(value)
+    if len(normalized) < 7:
+        return ""
+    match = PART_FAMILY_PREFIX_RE.match(normalized)
+    if not match:
+        return ""
+    family = match.group(1)
+    if len(family) < 7 or family == normalized:
+        return ""
+    return family
+
+
 def looks_like_part_number(value: str) -> bool:
     cleaned = normalize_identifier(value)
     if len(cleaned) < 6:
@@ -879,6 +891,9 @@ def component_identifiers(component: Component) -> List[str]:
         norm = normalize_identifier(value)
         if len(norm) >= 5:
             identifiers.append(norm)
+            family = derive_part_family_identifier(norm)
+            if family:
+                identifiers.append(family)
 
     if component.lcsc and re.fullmatch(r"C\d{3,}", component.lcsc.strip(), flags=re.IGNORECASE):
         add(component.lcsc)
