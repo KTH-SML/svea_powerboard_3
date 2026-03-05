@@ -1,31 +1,96 @@
 (footprint "5016"
-  (version 20241229)
-  (generator "JLCImport")
-  (generator_version "1.0")
-  (layer "F.Cu")
-  (descr "4.7mmx3.43mm Ferrite Ring (SMD) Non-Plastic - Test Points / Test Rings ROHS")
-  (tags "5016 C238129 Keystone TEST-SMD_L4.7-P3.4")
-  (property "Reference" "REF**" (at 0 -2.714999 0) (layer "F.SilkS") (uuid "f4016878-1081-4cbd-b9b4-8e2323f3921f")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "Value" "~" (at 0 2.714999 0) (layer "F.Fab") (uuid "141ab987-68f2-4ab5-a6e0-22ff69f58145")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2306121630_Keystone-5016_C238129.pdf" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "0a73b3bf-c449-4242-9c01-2636c18ba3eb")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "Description" "4.7mmx3.43mm Ferrite Ring (SMD) Non-Plastic - Test Points / Test Rings ROHS" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "1ee241d1-7bd4-44e5-b4d0-6a015f6c2703")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "LCSC" "C238129" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "b10569df-f9fd-44b1-99c2-2e69007951cf")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (attr smd)
-  (pad "1" smd rect (at 0 0) (size 4.7 3.429997) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "d51c3cc7-fa20-4383-8779-0ea714d5ebed"))
-  (model "${KIPRJMOD}/JLCImport.3dshapes/5016.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (embedded_fonts no)
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4.7mmx3.43mm Ferrite Ring (SMD) Non-Plastic - Test Points / Test Rings ROHS")
+	(tags "5016 C238129 Keystone TEST-SMD_L4.7-P3.4")
+	(property "Reference" "REF**"
+		(at 0 -2.714999 0)
+		(layer "F.SilkS")
+		(uuid "f4016878-1081-4cbd-b9b4-8e2323f3921f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.714999 0)
+		(layer "F.Fab")
+		(uuid "141ab987-68f2-4ab5-a6e0-22ff69f58145")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2306121630_Keystone-5016_C238129.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a73b3bf-c449-4242-9c01-2636c18ba3eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4.7mmx3.43mm Ferrite Ring (SMD) Non-Plastic - Test Points / Test Rings ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ee241d1-7bd4-44e5-b4d0-6a015f6c2703")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C238129"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b10569df-f9fd-44b1-99c2-2e69007951cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.5 -1.9)
+		(end 2.5 1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "62c831a7-7fd4-4fac-8c33-83d8d896399d")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 4.7 3.429997)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d51c3cc7-fa20-4383-8779-0ea714d5ebed")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/5016.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
