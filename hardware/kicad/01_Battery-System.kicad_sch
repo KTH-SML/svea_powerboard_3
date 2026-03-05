@@ -7960,12 +7960,6 @@
 		(uuid "93b27f1f-b266-430a-b38b-8150e9ec41ad")
 	)
 	(junction
-		(at 234.95 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "944ff2b7-2ebc-4164-8be8-b8af1decde4b")
-	)
-	(junction
 		(at 213.36 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8000,6 +7994,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3de012b-3e1f-42f4-af4e-7dc3127f371e")
+	)
+	(junction
+		(at 248.92 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6452e57-1b5e-42cc-bf6a-bdb0bab9a6f5")
 	)
 	(junction
 		(at 387.35 85.09)
@@ -8162,6 +8162,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a8c546-7d40-45b6-ad5b-454dbaf383b0")
+	)
+	(junction
+		(at 219.71 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5653aa4-a324-4609-9528-7cfb44de8e76")
 	)
 	(junction
 		(at 100.33 381)
@@ -8381,7 +8387,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 128.27) (xy 232.41 139.7)
+			(xy 248.92 127) (xy 248.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9011,7 +9017,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 129.54) (xy 234.95 129.54)
+			(xy 255.27 129.54) (xy 248.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10051,6 +10057,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 124.46) (xy 240.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502bc127-c3b5-4abc-b5b7-365355213e70")
+	)
+	(wire
+		(pts
 			(xy 525.78 229.87) (xy 565.15 229.87)
 		)
 		(stroke
@@ -10841,6 +10857,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 129.54) (xy 248.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e5728c-5bb9-4ac8-a9a1-208c07507770")
+	)
+	(wire
+		(pts
 			(xy 389.89 295.91) (xy 389.89 304.8)
 		)
 		(stroke
@@ -11291,16 +11317,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 128.27) (xy 232.41 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9803c84d-db75-4e49-b1f8-19c05d71c406")
-	)
-	(wire
-		(pts
 			(xy 303.53 205.74) (xy 303.53 215.9)
 		)
 		(stroke
@@ -11358,6 +11374,16 @@
 			(type default)
 		)
 		(uuid "9d1ba8a4-f1d3-42bc-9cdf-f0357f268d89")
+	)
+	(wire
+		(pts
+			(xy 247.65 124.46) (xy 255.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d27fa31-1388-4f57-9ef1-811ccf3e7335")
 	)
 	(wire
 		(pts
@@ -11601,7 +11627,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 127) (xy 234.95 127)
+			(xy 255.27 127) (xy 248.92 127)
 		)
 		(stroke
 			(width 0)
@@ -11801,16 +11827,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 129.54) (xy 234.95 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade0b4b5-81a4-4bca-a506-9084276fdceb")
-	)
-	(wire
-		(pts
 			(xy 152.4 90.17) (xy 158.75 90.17)
 		)
 		(stroke
@@ -11868,16 +11884,6 @@
 			(type default)
 		)
 		(uuid "b1905e88-5a39-48f8-b2ef-34dd1f16bbb2")
-	)
-	(wire
-		(pts
-			(xy 234.95 127) (xy 234.95 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1bd000d-d7f7-469c-a6c3-899f61f4f68e")
 	)
 	(wire
 		(pts
@@ -12411,7 +12417,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 124.46) (xy 236.22 124.46)
+			(xy 213.36 124.46) (xy 219.71 124.46)
 		)
 		(stroke
 			(width 0)
@@ -15656,6 +15662,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 219.71 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "022bcbab-a8f0-4666-a5b0-219f064d9762")
+		(property "Reference" "#PWR0157"
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 139.446 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8540499-cfb8-4384-aebf-a069e4d93524")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 63.5 454.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16845,6 +16916,15 @@
 			)
 		)
 		(property "Note" "Can be used as a general 5V output by using pin2 and 1, short pin2 and 3 to use internal buck for 5V rail"
+			(at 552.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C42431836"
 			(at 552.45 88.9 0)
 			(effects
 				(font
@@ -19273,7 +19353,7 @@
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:DC005_C431533")
-		(at 241.3 127 0)
+		(at 260.35 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19282,7 +19362,7 @@
 		(dnp no)
 		(uuid "47810d26-3d16-409f-8a88-169f650dc930")
 		(property "Reference" "DC2"
-			(at 250.19 121.92 0)
+			(at 269.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19291,7 +19371,7 @@
 			)
 		)
 		(property "Value" "3S Charger"
-			(at 250.19 133.35 0)
+			(at 269.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19300,7 +19380,7 @@
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:DC-IN-TH_DC005"
-			(at 241.3 127 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19309,7 +19389,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190925/C431533_4751811035784AC1D38EBC85F7905E99.pdf"
-			(at 241.3 127 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19318,7 +19398,7 @@
 			)
 		)
 		(property "Description" "Connector Type:DC Power Receptacle Mounting Style:Bend-in Inside Contact Diameter:2mm Outside Contact Diameter:6.3mm Current Rating (Max):500mA Voltage Rating (Max):30V Operating Temperature Range:-25°C~+70°C Operating Temperature Range:-25°C~+70°C"
-			(at 241.3 127 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19327,7 +19407,7 @@
 			)
 		)
 		(property "Manufacturer Part" "DC005"
-			(at 241.3 127 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19336,7 +19416,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 241.3 127 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19345,7 +19425,7 @@
 			)
 		)
 		(property "Supplier Part" "C431533"
-			(at 241.3 127 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19354,7 +19434,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 241.3 127 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19363,7 +19443,7 @@
 			)
 		)
 		(property "LCSC Part Name" "DC电源插座 内径:2mm 外径:6.3mm"
-			(at 241.3 127 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20796,7 +20876,7 @@
 				(hide yes)
 			)
 		)
-		(property "pin3text" "3V#-RAIL"
+		(property "pin3text" "3V3-RAIL"
 			(at 462.28 167.64 0)
 			(effects
 				(font
@@ -20806,6 +20886,15 @@
 			)
 		)
 		(property "Note" "Can be used as a general 3V3 output by using pin2 and 1, short pin2 and 3 to use internal buck for 5V rail"
+			(at 462.28 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C42431836"
 			(at 462.28 167.64 0)
 			(effects
 				(font
@@ -23011,7 +23100,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 139.7 0)
+		(at 248.92 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23019,7 +23108,7 @@
 		(dnp no)
 		(uuid "984c0927-6f90-41d6-93c0-d3e0f00f5c14")
 		(property "Reference" "#PWR0179"
-			(at 232.41 139.7 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23028,7 +23117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 143.764 0)
+			(at 248.92 145.034 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -23036,7 +23125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 139.7 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23045,7 +23134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 139.7 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23054,7 +23143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 139.7 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27233,6 +27322,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 243.84 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc4a7362-2886-4a1c-ad40-dd30899b888e")
+		(property "Reference" "U101"
+			(at 243.84 126.492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0440007_WR"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200518/C553934_4CFF0660EAE88BF7A646763F248900C5.pdf"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7A"
+			(at 243.84 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C206973"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0440007.WR"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9620842b-2147-4c60-ac3d-826290e9f477")
+		)
+		(pin "2"
+			(uuid "b7effcef-186c-4c55-8974-142544e89a48")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "U101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 162.56 454.66 0)
 		(unit 1)
@@ -28049,6 +28232,103 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:SMBJ24A_C224017")
+		(at 219.71 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb235e07-c620-4626-b9db-11e4a32cb32d")
+		(property "Reference" "D102"
+			(at 223.52 127.7619 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ24A_C224017"
+			(at 223.52 130.3019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cn.bing.com/search?q=datasheet： SMBJ5.0A-QH"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C224017"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SMBJ24A"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e987921-6f0d-441a-aeb8-861b7c36d978")
+		)
+		(pin "2"
+			(uuid "3845c5dd-e4cd-4b1c-bdc0-391ddd7bbf39")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "D102")
 					(unit 1)
 				)
 			)
