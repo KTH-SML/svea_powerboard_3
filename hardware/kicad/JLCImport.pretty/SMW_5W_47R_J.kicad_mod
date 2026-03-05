@@ -1,0 +1,172 @@
+(footprint "SMW_5W_47R_J"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "47Ω 5W ±5% SMD Chip Resistor - Surface Mount ROHS")
+	(tags "C2937346 RES-SMD_L13.5-W7.3-LS17.0 SMW 5W 47R J TyoHM")
+	(property "Reference" "REF**"
+		(at 0 -4.683007 0)
+		(layer "F.SilkS")
+		(uuid "c6171074-4aa5-49be-9d5d-3dcd2503fd23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 4.683007 0)
+		(layer "F.Fab")
+		(uuid "29f828ed-7372-4039-8d19-355225566897")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204191800_TyoHM-SMW-5W-47R-J_C2937346.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e4ca99e-ab6e-457f-b7c9-788f0a33c7d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "47Ω 5W ±5% SMD Chip Resistor - Surface Mount ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1749a9a5-469b-4e7d-a9f3-da886a766a74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2937346"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "830400d7-4842-48d0-a271-917f91859bc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.73114 -3.683007)
+		(end 6.730886 -3.683007)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31dfacf1-203f-4a6c-a764-20669c7df451")
+	)
+	(fp_line
+		(start -6.73114 -1.481153)
+		(end -6.73114 -3.683007)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "125c5dd9-7779-43c4-af83-4c5b1d5117fe")
+	)
+	(fp_line
+		(start -6.73114 -1.481153)
+		(end -6.73114 -1.524003)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58ea2baf-118c-4fb9-9bf1-68a2932305c7")
+	)
+	(fp_line
+		(start -6.73114 3.683007)
+		(end -6.73114 1.481153)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0742f260-d70c-4fce-92de-c5dce57366fc")
+	)
+	(fp_line
+		(start 6.730886 -3.683007)
+		(end 6.730886 -1.481153)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad18f6c8-0493-4f61-86da-055501e124e0")
+	)
+	(fp_line
+		(start 6.730886 1.481153)
+		(end 6.730886 3.683007)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc856fd4-6567-41e3-abed-6c379ab5f9bf")
+	)
+	(fp_line
+		(start 6.730886 3.683007)
+		(end -6.73114 3.683007)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40338f5d-1336-4a7e-862a-00704ba4f1e8")
+	)
+	(fp_rect
+		(start -9.75 -4.225)
+		(end 9.75 4.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f30fdb0d-8bf5-4b2f-a9ef-45bbaaa95c64")
+	)
+	(pad "1" smd rect
+		(at -7.48095 0)
+		(size 3.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65d2ea8b-81b4-4948-a5ba-1735c95d7a1c")
+	)
+	(pad "2" smd rect
+		(at 7.48095 0)
+		(size 3.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02acb192-e463-4998-9496-5df5ee55380d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/SMW_5W_47R_J.wrl"
+		(offset
+			(xyz 0 0 6.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

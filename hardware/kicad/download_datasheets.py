@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Download datasheets for components found in a KiCad project directory.
+Download datasheets for components found in either:
+- KiCad schematic files under a project directory, or
+- One or more BOM CSV files (for example JLCPCB exports).
 
 Default behavior:
 - Assumes this script is placed in the KiCad project root directory.
@@ -13,6 +15,8 @@ Default behavior:
 
 from __future__ import annotations
 
+import argparse
+import csv
 import dataclasses
 import hashlib
 import html
@@ -33,11 +37,13 @@ USER_AGENT = (
     "Chrome/122.0 Safari/537.36"
 )
 
-REQUEST_TIMEOUT_SECONDS = 25
+REQUEST_TIMEOUT_SECONDS = max(5, int(os.getenv("DATASHEET_REQUEST_TIMEOUT_SECONDS", "25")))
+REQUEST_RETRY_COUNT = max(0, int(os.getenv("DATASHEET_REQUEST_RETRY_COUNT", "2")))
+REQUEST_RETRY_BACKOFF_SECONDS = max(0.0, float(os.getenv("DATASHEET_REQUEST_RETRY_BACKOFF_SECONDS", "1.0")))
 MAX_HTML_BYTES = 1_500_000
 MAX_SEARCH_RESULTS_TO_TRY = 8
 MAX_PDF_INSPECTION_BYTES = 2_500_000
-MAX_COMPONENT_RESOLUTION_SECONDS = 12
+MAX_COMPONENT_RESOLUTION_SECONDS = max(8, int(os.getenv("DATASHEET_COMPONENT_TIMEOUT_SECONDS", "18")))
 MOUSER_API_BASE_URL = "https://api.mouser.com/api/v1.0"
 ENABLE_WEB_SEARCH_DEFAULT = os.getenv("DATASHEET_ENABLE_WEB_SEARCH", "").strip().lower() in {
     "1",
@@ -100,6 +106,57 @@ GOOD_PDF_TEXT_HINTS = (
 
 IDENTIFIER_SPLIT_RE = re.compile(r"[\s,;/|()\\]+")
 NON_ALNUM_RE = re.compile(r"[^A-Za-z0-9]+")
+HEADER_NORMALIZE_RE = re.compile(r"[^a-z0-9]+")
+
+CSV_ALIASES = {
+    "datasheet": [
+        "datasheet",
+        "datasheet url",
+        "datasheet link",
+    ],
+    "manufacturer": [
+        "manufacturer",
+        "mfr",
+        "brand",
+    ],
+    "manufacturer_part": [
+        "manufacturer part",
+        "manufacturer part number",
+        "manufacturer pn",
+        "mpn",
+        "part number",
+        "part no",
+    ],
+    "lcsc": [
+        "lcsc",
+        "lcsc part",
+        "lcsc part #",
+        "jlcpcb part",
+        "jlcpcb part #",
+        "jlcpcb",
+    ],
+    "description": [
+        "description",
+        "comment",
+        "value",
+        "name",
+    ],
+    "reference": [
+        "designator",
+        "reference",
+        "refdes",
+        "refs",
+    ],
+    "symbol_name": [
+        "footprint",
+        "package",
+        "symbol",
+    ],
+    "value": [
+        "comment",
+        "value",
+    ],
+}
 
 
 @dataclasses.dataclass
@@ -360,15 +417,27 @@ def decode_response_content(data: bytes, headers: Dict[str, str]) -> str:
 
 
 def make_request(url: str, max_bytes: Optional[int] = None) -> Tuple[str, Dict[str, str], bytes]:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_SECONDS) as resp:
-        final_url = resp.geturl()
-        headers = {k.lower(): v for k, v in resp.headers.items()}
-        if max_bytes is None:
-            data = resp.read()
-        else:
-            data = resp.read(max_bytes)
-        return final_url, headers, data
+    last_error: Optional[Exception] = None
+    for attempt in range(REQUEST_RETRY_COUNT + 1):
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        try:
+            with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_SECONDS) as resp:
+                final_url = resp.geturl()
+                headers = {k.lower(): v for k, v in resp.headers.items()}
+                if max_bytes is None:
+                    data = resp.read()
+                else:
+                    data = resp.read(max_bytes)
+                return final_url, headers, data
+        except Exception as exc:
+            last_error = exc
+            if attempt >= REQUEST_RETRY_COUNT:
+                break
+            sleep_seconds = REQUEST_RETRY_BACKOFF_SECONDS * (attempt + 1)
+            if sleep_seconds > 0:
+                time.sleep(sleep_seconds)
+    assert last_error is not None
+    raise last_error
 
 
 def make_json_post_request(url: str, payload: Dict[str, object]) -> Dict[str, object]:
@@ -877,6 +946,7 @@ def choose_pdf_url(
 ) -> Tuple[Optional[str], bool, str]:
     deadline_ts = time.time() + MAX_COMPONENT_RESOLUTION_SECONDS
     rejection_reasons: List[str] = []
+    trusted_datasheet_url = normalize_url(component.datasheet)
 
     # Step 1: official distributor API lookup (Mouser) by MPN.
     if mouser_api_key and component.manufacturer_part:
@@ -895,7 +965,7 @@ def choose_pdf_url(
                 pdf_url,
                 component,
                 inspection_cache,
-                strict_identity=False,
+                strict_identity=True,
             )
             if ok:
                 return pdf_url, False, "Resolved via Mouser API"
@@ -912,11 +982,12 @@ def choose_pdf_url(
             deadline_ts=deadline_ts,
         )
         if pdf_url:
+            candidate_is_trusted = bool(trusted_datasheet_url) and normalize_url(candidate) == trusted_datasheet_url
             ok, quality_reason = inspect_pdf_candidate(
                 pdf_url,
                 component,
                 inspection_cache,
-                strict_identity=False,
+                strict_identity=not candidate_is_trusted,
             )
             if not ok:
                 rejection_reasons.append(f"{candidate} -> {quality_reason}")
@@ -937,7 +1008,7 @@ def choose_pdf_url(
                             candidate_english_pdf,
                             component,
                             inspection_cache,
-                            strict_identity=False,
+                            strict_identity=True,
                         )
                         if ok:
                             english_pdf = candidate_english_pdf
@@ -983,12 +1054,10 @@ def choose_pdf_url(
 
 
 def download_pdf(url: str, destination_path: Path) -> None:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_SECONDS) as resp:
-        data = resp.read()
-        ctype = resp.headers.get("Content-Type", "").lower()
-        if "application/pdf" not in ctype and not data.startswith(b"%PDF"):
-            raise RuntimeError(f"URL did not return a PDF payload: {url}")
+    _final_url, headers, data = make_request(url, max_bytes=None)
+    ctype = headers.get("content-type", "").lower()
+    if "application/pdf" not in ctype and not data.startswith(b"%PDF"):
+        raise RuntimeError(f"URL did not return a PDF payload: {url}")
     ok, reason = evaluate_pdf_quality(url, data)
     if not ok:
         raise RuntimeError(reason)
@@ -997,13 +1066,78 @@ def download_pdf(url: str, destination_path: Path) -> None:
     tmp.replace(destination_path)
 
 
-def extract_components(project_root: Path) -> List[Component]:
+def normalize_header_name(name: str) -> str:
+    return HEADER_NORMALIZE_RE.sub("", (name or "").strip().lower())
+
+
+def get_csv_field(row: Dict[str, str], aliases: List[str]) -> str:
+    normalized_row = {normalize_header_name(k): (v or "").strip() for k, v in row.items() if k is not None}
+    for alias in aliases:
+        value = normalized_row.get(normalize_header_name(alias), "")
+        if value and not is_placeholder(value):
+            return value
+    return ""
+
+
+def normalize_lcsc(value: str) -> str:
+    value = value.strip().upper()
+    if not value:
+        return ""
+    if re.fullmatch(r"C\d{3,}", value):
+        return value
+    if value.isdigit():
+        return f"C{value}"
+    return value
+
+
+def extract_components_from_csv(path: Path) -> List[Component]:
     components: List[Component] = []
-    for kicad_file in find_kicad_files(project_root):
-        try:
-            components.extend(extract_components_from_file(kicad_file))
-        except Exception as exc:
-            print(f"[WARN] Failed to parse {kicad_file}: {exc}", file=sys.stderr)
+    with path.open("r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            datasheet = get_csv_field(row, CSV_ALIASES["datasheet"])
+            manufacturer = get_csv_field(row, CSV_ALIASES["manufacturer"])
+            manufacturer_part = get_csv_field(row, CSV_ALIASES["manufacturer_part"])
+            lcsc = normalize_lcsc(get_csv_field(row, CSV_ALIASES["lcsc"]))
+            description = get_csv_field(row, CSV_ALIASES["description"])
+            reference = get_csv_field(row, CSV_ALIASES["reference"])
+            symbol_name = get_csv_field(row, CSV_ALIASES["symbol_name"])
+            value = get_csv_field(row, CSV_ALIASES["value"]) or description
+
+            if not datasheet and not manufacturer_part and not lcsc:
+                continue
+
+            components.append(
+                Component(
+                    source_file=str(path),
+                    source_kind="bom_csv",
+                    symbol_name=symbol_name,
+                    reference=reference,
+                    value=value,
+                    datasheet=datasheet,
+                    manufacturer=manufacturer,
+                    manufacturer_part=manufacturer_part,
+                    lcsc=lcsc,
+                    description=description,
+                )
+            )
+    return components
+
+
+def extract_components(project_root: Path, csv_paths: Optional[List[Path]] = None) -> List[Component]:
+    components: List[Component] = []
+    if csv_paths:
+        for csv_path in csv_paths:
+            try:
+                components.extend(extract_components_from_csv(csv_path))
+            except Exception as exc:
+                print(f"[WARN] Failed to parse CSV {csv_path}: {exc}", file=sys.stderr)
+    else:
+        for kicad_file in find_kicad_files(project_root):
+            try:
+                components.extend(extract_components_from_file(kicad_file))
+            except Exception as exc:
+                print(f"[WARN] Failed to parse {kicad_file}: {exc}", file=sys.stderr)
     deduped: List[Component] = []
     seen: Set[Tuple[str, ...]] = set()
     for component in components:
@@ -1015,15 +1149,59 @@ def extract_components(project_root: Path) -> List[Component]:
     return deduped
 
 
-def run(project_root: Path) -> int:
-    datasheets_dir = project_root / "datasheets"
+def local_component_enrichment_score(component: Component) -> int:
+    score = 0
+    if normalize_url(component.datasheet):
+        score += 4
+    if component.manufacturer_part and not is_placeholder(component.manufacturer_part):
+        score += 3
+    if component.manufacturer and not is_placeholder(component.manufacturer):
+        score += 2
+    return score
+
+
+def build_local_lcsc_component_index(project_root: Path) -> Dict[str, Component]:
+    index: Dict[str, Component] = {}
+    for component in extract_components(project_root, csv_paths=None):
+        code = normalize_lcsc(component.lcsc)
+        if not code:
+            continue
+        if code not in index:
+            index[code] = component
+            continue
+        if local_component_enrichment_score(component) > local_component_enrichment_score(index[code]):
+            index[code] = component
+    return index
+
+
+def run(
+    project_root: Path,
+    csv_paths: Optional[List[Path]] = None,
+    datasheets_dir_override: Optional[Path] = None,
+    allow_web_search: Optional[bool] = None,
+    mouser_api_key: Optional[str] = None,
+) -> int:
+    datasheets_dir = datasheets_dir_override or (project_root / "datasheets")
     datasheets_dir.mkdir(parents=True, exist_ok=True)
 
-    components = extract_components(project_root)
+    components = extract_components(project_root, csv_paths=csv_paths)
+    resolved_allow_web_search = ENABLE_WEB_SEARCH_DEFAULT if allow_web_search is None else allow_web_search
+    resolved_mouser_api_key = MOUSER_API_KEY_DEFAULT if mouser_api_key is None else mouser_api_key.strip()
+    local_lcsc_component_index: Dict[str, Component] = {}
+    if csv_paths:
+        local_lcsc_component_index = build_local_lcsc_component_index(project_root)
+
     print(f"[INFO] Found {len(components)} unique component entries")
-    print(f"[INFO] Web search enabled: {ENABLE_WEB_SEARCH_DEFAULT}")
-    print(f"[INFO] Mouser API enabled: {bool(MOUSER_API_KEY_DEFAULT)}")
-    if not MOUSER_API_KEY_DEFAULT:
+    print(f"[INFO] Web search enabled: {resolved_allow_web_search}")
+    print(f"[INFO] Mouser API enabled: {bool(resolved_mouser_api_key)}")
+    print(f"[INFO] HTTP timeout: {REQUEST_TIMEOUT_SECONDS}s (retries: {REQUEST_RETRY_COUNT})")
+    if csv_paths:
+        print(f"[INFO] CSV mode: {len(csv_paths)} file(s)")
+        print(f"[INFO] Local LCSC component mappings: {len(local_lcsc_component_index)}")
+    else:
+        print(f"[INFO] KiCad mode: scanning {project_root}")
+
+    if not resolved_mouser_api_key:
         print("[INFO] Set DATASHEET_MOUSER_API_KEY to enable API-first datasheet lookup")
 
     downloaded_by_url: Dict[str, str] = {}
@@ -1042,6 +1220,16 @@ def run(project_root: Path) -> int:
             print("  [SKIP] Power/virtual symbol")
             continue
 
+        if csv_paths and not component.datasheet and component.lcsc:
+            mapped_component = local_lcsc_component_index.get(normalize_lcsc(component.lcsc))
+            if mapped_component:
+                if not component.datasheet and normalize_url(mapped_component.datasheet):
+                    component.datasheet = mapped_component.datasheet
+                if not component.manufacturer_part and not is_placeholder(mapped_component.manufacturer_part):
+                    component.manufacturer_part = mapped_component.manufacturer_part
+                if not component.manufacturer and not is_placeholder(mapped_component.manufacturer):
+                    component.manufacturer = mapped_component.manufacturer
+
         if not component.datasheet and not component.manufacturer_part and not component.lcsc:
             skipped_count += 1
             print("  [SKIP] No datasheet URL or part identifiers available")
@@ -1050,8 +1238,8 @@ def run(project_root: Path) -> int:
         pdf_url, used_fallback, notes = choose_pdf_url(
             component,
             inspection_cache=inspection_cache,
-            allow_web_search=ENABLE_WEB_SEARCH_DEFAULT,
-            mouser_api_key=MOUSER_API_KEY_DEFAULT,
+            allow_web_search=resolved_allow_web_search,
+            mouser_api_key=resolved_mouser_api_key,
             mouser_cache=mouser_cache,
         )
         if not pdf_url:
@@ -1088,10 +1276,59 @@ def run(project_root: Path) -> int:
     return 0 if success_count > 0 else 1
 
 
+def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Download component datasheets from KiCad schematics or BOM CSV files.")
+    parser.add_argument(
+        "--csv",
+        dest="csv_paths",
+        action="append",
+        default=[],
+        help="Path to a BOM CSV file. Can be passed multiple times.",
+    )
+    parser.add_argument(
+        "--project-root",
+        default=None,
+        help="Project root to scan for .kicad_sch files (default: script directory). Ignored when --csv is used.",
+    )
+    parser.add_argument(
+        "--datasheets-dir",
+        default=None,
+        help="Output directory for downloaded PDFs (default: <project-root>/datasheets).",
+    )
+    parser.add_argument(
+        "--web-search",
+        action="store_true",
+        help="Enable web-search fallback for unresolved parts.",
+    )
+    parser.add_argument(
+        "--mouser-api-key",
+        default=None,
+        help="Mouser API key to use for API-first datasheet lookup.",
+    )
+    return parser.parse_args(argv)
+
+
 def main() -> int:
+    args = parse_args()
     script_dir = Path(__file__).resolve().parent
-    project_root = script_dir
-    return run(project_root)
+
+    project_root = Path(args.project_root).expanduser().resolve() if args.project_root else script_dir
+    csv_paths = [Path(p).expanduser().resolve() for p in args.csv_paths]
+    for csv_path in csv_paths:
+        if not csv_path.is_file():
+            print(f"[ERROR] CSV path does not exist or is not a file: {csv_path}", file=sys.stderr)
+            return 2
+
+    datasheets_dir = Path(args.datasheets_dir).expanduser().resolve() if args.datasheets_dir else None
+    allow_web_search = ENABLE_WEB_SEARCH_DEFAULT or args.web_search
+
+    return run(
+        project_root=project_root,
+        csv_paths=csv_paths or None,
+        datasheets_dir_override=datasheets_dir,
+        allow_web_search=allow_web_search,
+        mouser_api_key=args.mouser_api_key,
+    )
 
 
 if __name__ == "__main__":

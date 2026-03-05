@@ -4036,161 +4036,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:PWR263S-35-40R0J"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 4.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR263S-35-40R0J"
-				(at 0 -3.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:PWR263S-35-40R0J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_BOURNS-PWR263S-35-40R0J_C1356615.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "-55℃~+155℃ 35W 40Ω Thick Film Resistor ±100ppm/℃ ±5% D2PAK Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C1356615"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "BOURNS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "PWR263S-35-40R0J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BOURNS C1356615 PWR263S-35-40R0J TO-263-2_L10.1-W8.8-P5.08-LS15.4-TL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR263S-35-40R0J_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLCImport:SEWF3920F1L00P9"
 			(pin_names
 				(offset 1.016)
@@ -4299,6 +4144,143 @@
 					)
 				)
 				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:SMW_5W_47R_J"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 3.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMW_5W_47R_J"
+				(at 0 -3.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:SMW_5W_47R_J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204191800_TyoHM-SMW-5W-47R-J_C2937346.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "47Ω 5W ±5% SMD Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2937346"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TyoHM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SMW 5W 47R J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C2937346 RES-SMD_L13.5-W7.3-LS17.0 SMW 5W 47R J TyoHM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMW_5W_47R_J_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -4545,10 +4527,6 @@
 		(color 0 0 0 0)
 		(uuid "ec9ed1d1-ac40-4d73-84e2-b4907cefcc06")
 	)
-	(no_connect
-		(at 160.02 241.3)
-		(uuid "026c2d46-4b22-4fd0-a899-89e43da97eec")
-	)
 	(wire
 		(pts
 			(xy 152.4 119.38) (xy 156.21 119.38)
@@ -4681,16 +4659,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 238.76) (xy 153.67 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b28e7b5-169a-4ca9-94f3-c295e83365d7")
-	)
-	(wire
-		(pts
 			(xy 287.02 148.59) (xy 287.02 160.02)
 		)
 		(stroke
@@ -4798,6 +4766,16 @@
 			(type default)
 		)
 		(uuid "39617102-28c0-44f6-bed6-c9417698634b")
+	)
+	(wire
+		(pts
+			(xy 168.91 241.3) (xy 170.18 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4c06a5-77ec-499e-bb2e-3cf6c2e48ec9")
 	)
 	(wire
 		(pts
@@ -4951,7 +4929,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 241.3) (xy 151.13 241.3)
+			(xy 151.13 241.3) (xy 158.75 241.3)
 		)
 		(stroke
 			(width 0)
@@ -5238,16 +5216,6 @@
 			(type default)
 		)
 		(uuid "b08baafa-27b4-44af-9647-b654dc129392")
-	)
-	(wire
-		(pts
-			(xy 153.67 238.76) (xy 153.67 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b25eb6f7-33a3-4ad3-8f2b-89e1b8076827")
 	)
 	(wire
 		(pts
@@ -6018,6 +5986,101 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
 					(reference "R205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:SMW_5W_47R_J")
+		(at 163.83 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13458911-8418-4126-b668-31ffe397ce91")
+		(property "Reference" "R3509"
+			(at 163.83 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMW_5W_47R_J"
+			(at 163.83 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:SMW_5W_47R_J"
+			(at 163.83 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204191800_TyoHM-SMW-5W-47R-J_C2937346.pdf"
+			(at 163.83 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47Ω 5W ±5% SMD Chip Resistor - Surface Mount ROHS"
+			(at 163.83 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2937346"
+			(at 163.83 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TyoHM"
+			(at 163.83 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SMW 5W 47R J"
+			(at 163.83 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d058b6a9-dae2-4e0e-a854-efd37bce0beb")
+		)
+		(pin "2"
+			(uuid "ad3e6021-83a4-44aa-a740-17fd8f78cd13")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
+					(reference "R3509")
 					(unit 1)
 				)
 			)
@@ -8201,105 +8264,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
 					(reference "R210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:PWR263S-35-40R0J")
-		(at 165.1 241.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73d977b7-1e49-4502-847d-1271319a4f21")
-		(property "Reference" "R3604"
-			(at 165.1 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR263S-35-40R0J"
-			(at 165.1 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 165.1 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_BOURNS-PWR263S-35-40R0J_C1356615.pdf"
-			(at 165.1 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 35W 40Ω Thick Film Resistor ±100ppm/℃ ±5% D2PAK Chip Resistor - Surface Mount ROHS"
-			(at 165.1 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1356615"
-			(at 165.1 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "BOURNS"
-			(at 165.1 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PWR263S-35-40R0J"
-			(at 165.1 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b654c267-fa1f-4ceb-b096-cebbe5945e51")
-		)
-		(pin "1"
-			(uuid "fda43860-e736-4c32-9e75-db0acb9b96ac")
-		)
-		(pin "2"
-			(uuid "99d53ac5-b869-499b-99be-16a33d69b69a")
-		)
-		(instances
-			(project ""
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/8d05c3b8-20a4-4a7f-9b20-01f8d5d5be12"
-					(reference "R3604")
 					(unit 1)
 				)
 			)

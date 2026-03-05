@@ -1,0 +1,235 @@
+(footprint "ADS1115IRUGT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-40℃~+125℃ 16 1LSB 1MHz 2 2V~5.5V 500nA 6.144V 860Hz 8Hz、16Hz、32Hz、64Hz、128Hz、250Hz、475Hz、860Hz Built-in Built-in I2C Sigma-Delta Support Yes X2QFN-10(1.5x2) Analog to Digital Converters (ADC) ROHS")
+	(tags "ADS1115IRUGT C701611 Texas Instruments X2QFN-10_L2.0-W1.5-P0.50-TL_RUG0010B")
+	(property "Reference" "REF**"
+		(at 0 -2.2151 0)
+		(layer "F.SilkS")
+		(uuid "05254485-93af-49bc-a0cd-84dbec5a3caf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.214999 0)
+		(layer "F.Fab")
+		(uuid "987f0024-41e4-4b4e-9e93-655e65eff3b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302221801_Texas-Instruments-ADS1115IRUGT_C701611.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70894202-0f69-44a9-90cf-dd8259463b39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+125℃ 16 1LSB 1MHz 2 2V~5.5V 500nA 6.144V 860Hz 8Hz、16Hz、32Hz、64Hz、128Hz、250Hz、475Hz、860Hz Built-in Built-in I2C Sigma-Delta Support Yes X2QFN-10(1.5x2) Analog to Digital Converters (ADC) ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abbb2b5e-fca3-4ee5-80f9-c12a14dec5e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C701611"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de34b5cb-01a4-4517-a9ba-afd5de5c338a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.762002 -1.143028)
+		(end -0.762002 -1.054229)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9ba4d46-8308-4a0b-a30d-013b9ace2820")
+	)
+	(fp_line
+		(start -0.762002 1.054102)
+		(end -0.762002 1.142977)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d713fa67-6661-4832-bd9d-adff377770a2")
+	)
+	(fp_line
+		(start -0.762002 1.142977)
+		(end -0.329159 1.142977)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ac3c476-7deb-47c0-a9eb-a960329c519e")
+	)
+	(fp_line
+		(start -0.329159 -1.143028)
+		(end -0.762002 -1.143028)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4818afcd-0e5a-4ffd-b5a4-5fecc959bc3e")
+	)
+	(fp_line
+		(start 0.329108 1.142977)
+		(end 0.762002 1.142977)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2816c60c-ee5c-48e9-a30c-b0aac4394df0")
+	)
+	(fp_line
+		(start 0.762002 -1.143028)
+		(end 0.329108 -1.143028)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "004e346a-9941-42ea-b4cf-89ba40439ce0")
+	)
+	(fp_line
+		(start 0.762002 -1.054229)
+		(end 0.762002 -1.143028)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2db3c71f-67f9-4820-a267-6567ba097b63")
+	)
+	(fp_line
+		(start 0.762002 1.142977)
+		(end 0.762002 1.054102)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "356f9939-e4f7-44f6-af0e-6a1dcb413b1a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.259995 -1.229997) (xy -1.251145 -1.277612) (xy -1.224601 -1.318121) (xy -1.184478 -1.345244)
+			(xy -1.136995 -1.354777) (xy -1.089512 -1.345244) (xy -1.04939 -1.318121) (xy -1.022846 -1.277612)
+			(xy -1.013995 -1.229997) (xy -1.022846 -1.182383) (xy -1.04939 -1.141874) (xy -1.089512 -1.114751)
+			(xy -1.136995 -1.105217) (xy -1.184478 -1.114751) (xy -1.224601 -1.141874) (xy -1.251145 -1.182383)
+			(xy -1.259995 -1.229997)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4abfe566-3c7b-4ce8-be7f-22317c1d682d")
+	)
+	(fp_rect
+		(start -1.15 -1.35)
+		(end 1.15 1.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b5cb3562-97ed-43ec-9490-f83db5a4e1fd")
+	)
+	(pad "1" smd rect
+		(at -0.650089 -0.749987 270)
+		(size 0.250013 0.58001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "98201983-d7ee-4cd5-a47f-bf189480713f")
+	)
+	(pad "2" smd rect
+		(at -0.650089 -0.250114 270)
+		(size 0.250013 0.58001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df3fe9a7-631a-4d5a-bad2-a59de2370b33")
+	)
+	(pad "3" smd rect
+		(at -0.650089 0.250013 270)
+		(size 0.250013 0.58001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e17a38c8-b377-4612-8a63-effa304d0694")
+	)
+	(pad "4" smd rect
+		(at -0.650089 0.749886 270)
+		(size 0.250013 0.58001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ed4a5b16-e01d-4dae-a456-4b784864ae5b")
+	)
+	(pad "5" smd rect
+		(at -0.000102 0.9)
+		(size 0.3 0.629997)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64ceac2f-9dda-44c1-8a3b-5ff3af5ec187")
+	)
+	(pad "6" smd rect
+		(at 0.649886 0.749886 270)
+		(size 0.250013 0.58001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "821e7ec4-ae79-4c4b-9cbc-9a79b4f6b8cb")
+	)
+	(pad "7" smd rect
+		(at 0.649886 0.250013 270)
+		(size 0.250013 0.58001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb432d16-4758-4c2c-b329-18136d7f21f5")
+	)
+	(pad "8" smd rect
+		(at 0.649886 -0.250114 270)
+		(size 0.250013 0.58001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef72b56b-ff8c-4e74-8538-097be782bbc7")
+	)
+	(pad "9" smd rect
+		(at 0.649886 -0.749987 270)
+		(size 0.250013 0.58001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00bcea84-51af-4dd4-88f1-35ebe6eeb1ab")
+	)
+	(pad "10" smd rect
+		(at -0.000102 -0.900102)
+		(size 0.3 0.629997)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1239330b-228d-452d-b69c-3058262c3ba6")
+	)
+	(embedded_fonts no)
+)
