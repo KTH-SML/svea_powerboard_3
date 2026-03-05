@@ -9507,6 +9507,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 140.97) (xy 219.71 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380222f3-5190-469b-9402-b4ecb8c22c5a")
+	)
+	(wire
+		(pts
 			(xy 105.41 21.59) (xy 114.3 21.59)
 		)
 		(stroke
@@ -11764,6 +11774,16 @@
 			(type default)
 		)
 		(uuid "aac6a112-0a0a-467c-8b1f-8f709caa4eb5")
+	)
+	(wire
+		(pts
+			(xy 219.71 127) (xy 219.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab93386f-a132-40e5-a573-c32db03583d3")
 	)
 	(wire
 		(pts
@@ -15662,7 +15682,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 134.62 0)
+		(at 219.71 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15670,7 +15690,7 @@
 		(dnp no)
 		(uuid "022bcbab-a8f0-4666-a5b0-219f064d9762")
 		(property "Reference" "#PWR0157"
-			(at 219.71 134.62 0)
+			(at 219.71 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15679,7 +15699,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 139.446 0)
+			(at 219.71 145.796 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -15687,7 +15707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 134.62 0)
+			(at 219.71 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15696,7 +15716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 134.62 0)
+			(at 219.71 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15705,7 +15725,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 134.62 0)
+			(at 219.71 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22353,7 +22373,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "5017"
+		(property "Value" "C238129"
 			(at 35.56 562.61 0)
 			(effects
 				(font
@@ -22362,7 +22382,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "5v rail sm-easyedapro:CONN-SMD_5017"
+		(property "Footprint" "JLCImport:5016"
 			(at 38.1 557.53 0)
 			(effects
 				(font
@@ -22389,34 +22409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "5017"
-			(at 38.1 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C9900015874"
-			(at 38.1 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 38.1 557.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "5017"
+		(property "LCSC Part Name" "C238129"
 			(at 38.1 557.53 0)
 			(effects
 				(font
@@ -28239,7 +28232,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:SMBJ24A_C224017")
-		(at 219.71 129.54 270)
+		(at 219.71 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28248,15 +28241,6 @@
 		(fields_autoplaced yes)
 		(uuid "eb235e07-c620-4626-b9db-11e4a32cb32d")
 		(property "Reference" "D102"
-			(at 223.52 127.7619 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ24A_C224017"
 			(at 223.52 130.3019 90)
 			(effects
 				(font
@@ -28265,8 +28249,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "SMBJ24A_C224017"
+			(at 223.52 132.8419 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 219.71 129.54 0)
+			(at 219.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28275,7 +28268,7 @@
 			)
 		)
 		(property "Datasheet" "https://cn.bing.com/search?q=datasheet： SMBJ5.0A-QH"
-			(at 219.71 129.54 0)
+			(at 219.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28284,7 +28277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 129.54 0)
+			(at 219.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28293,7 +28286,7 @@
 			)
 		)
 		(property "LCSC" "C224017"
-			(at 219.71 129.54 0)
+			(at 219.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28302,7 +28295,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 219.71 129.54 0)
+			(at 219.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28311,7 +28304,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SMBJ24A"
-			(at 219.71 129.54 0)
+			(at 219.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
