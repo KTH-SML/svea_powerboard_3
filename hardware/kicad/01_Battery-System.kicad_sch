@@ -11514,6 +11514,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 123.19) (xy 185.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81c037a-4a84-4393-a420-c6f347b4d6c8")
+	)
+	(wire
+		(pts
 			(xy 152.4 64.77) (xy 157.48 64.77)
 		)
 		(stroke
@@ -12674,7 +12684,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 123.19) (xy 172.72 119.38)
+			(xy 172.72 123.19) (xy 172.72 118.11)
 		)
 		(stroke
 			(width 0)
@@ -13061,16 +13071,6 @@
 			(type default)
 		)
 		(uuid "f2aba5b4-46d7-419a-9a7d-9db45ab3f93b")
-	)
-	(wire
-		(pts
-			(xy 172.72 123.19) (xy 185.42 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2df49c2-c9e9-4ec0-b88f-314ef0a221a9")
 	)
 	(wire
 		(pts
@@ -29134,7 +29134,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 172.72 119.38 0)
+		(at 172.72 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29143,7 +29143,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa123e3e-5303-42d6-bc72-05db8cfe1635")
 		(property "Reference" "#PWR018"
-			(at 172.72 123.19 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29152,7 +29152,7 @@
 			)
 		)
 		(property "Value" "IN-CHARGING-VCC-LIMITED"
-			(at 172.72 114.3 0)
+			(at 172.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29160,7 +29160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 119.38 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29169,7 +29169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 119.38 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29178,7 +29178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 172.72 119.38 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

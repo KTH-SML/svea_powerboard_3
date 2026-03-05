@@ -39,6 +39,7 @@ USER_AGENT = (
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/122.0 Safari/537.36"
 )
+CURL_BIN = shutil.which("curl")
 
 REQUEST_TIMEOUT_SECONDS = max(5, int(os.getenv("DATASHEET_REQUEST_TIMEOUT_SECONDS", "25")))
 REQUEST_RETRY_COUNT = max(0, int(os.getenv("DATASHEET_REQUEST_RETRY_COUNT", "2")))
@@ -109,6 +110,15 @@ GOOD_PDF_TEXT_HINTS = (
     "ordering information",
     "application information",
     "typical characteristics",
+)
+
+BAD_PDF_URL_HINTS = (
+    "download-iso9001-certification",
+    "iso9001",
+    "iso-iec",
+    "certificate.pdf",
+    "certification.pdf",
+    "quality-assurance",
 )
 
 IDENTIFIER_SPLIT_RE = re.compile(r"[\s,;/|()\\]+")
@@ -426,6 +436,74 @@ def decode_response_content(data: bytes, headers: Dict[str, str]) -> str:
         return data.decode("utf-8", errors="ignore")
 
 
+def parse_curl_headers(header_blob: str) -> Dict[str, str]:
+    # curl can include one header block per redirect. Keep the last real response block.
+    blocks = re.split(r"\r?\n\r?\n", header_blob.strip())
+    for block in reversed(blocks):
+        lines = [line.strip("\r") for line in block.splitlines() if line.strip()]
+        if not lines:
+            continue
+        headers: Dict[str, str] = {}
+        for line in lines[1:]:
+            if ":" not in line:
+                continue
+            key, value = line.split(":", 1)
+            headers[key.strip().lower()] = value.strip()
+        if headers:
+            return headers
+    return {}
+
+
+def make_request_with_curl(url: str, max_bytes: Optional[int] = None) -> Tuple[str, Dict[str, str], bytes]:
+    if not CURL_BIN:
+        raise RuntimeError("curl binary not found")
+
+    with tempfile.TemporaryDirectory(prefix="datasheet-curl-") as tmpdir:
+        tmp_path = Path(tmpdir)
+        header_path = tmp_path / "headers.txt"
+        body_path = tmp_path / "body.bin"
+        cmd = [
+            CURL_BIN,
+            "-L",
+            "--silent",
+            "--show-error",
+            "--fail",
+            "--max-time",
+            str(max(5, REQUEST_TIMEOUT_SECONDS)),
+            "-A",
+            USER_AGENT,
+            "-D",
+            str(header_path),
+            "-o",
+            str(body_path),
+            "-w",
+            "%{url_effective}",
+            url,
+        ]
+        if max_bytes is not None and max_bytes > 0:
+            cmd.extend(["--range", f"0-{max_bytes - 1}"])
+
+        proc = subprocess.run(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            check=False,
+            timeout=REQUEST_TIMEOUT_SECONDS + 8,
+        )
+        if proc.returncode != 0:
+            detail = (proc.stderr or proc.stdout or "").strip()
+            raise RuntimeError(f"curl request failed (exit {proc.returncode}): {detail}")
+
+        final_url = (proc.stdout or "").strip() or url
+        headers_text = header_path.read_text(encoding="latin1", errors="ignore") if header_path.exists() else ""
+        headers = parse_curl_headers(headers_text)
+        data = body_path.read_bytes() if body_path.exists() else b""
+        if max_bytes is not None and len(data) > max_bytes:
+            data = data[:max_bytes]
+        return final_url, headers, data
+
+
 def make_request(url: str, max_bytes: Optional[int] = None) -> Tuple[str, Dict[str, str], bytes]:
     last_error: Optional[Exception] = None
     for attempt in range(REQUEST_RETRY_COUNT + 1):
@@ -446,6 +524,12 @@ def make_request(url: str, max_bytes: Optional[int] = None) -> Tuple[str, Dict[s
             sleep_seconds = REQUEST_RETRY_BACKOFF_SECONDS * (attempt + 1)
             if sleep_seconds > 0:
                 time.sleep(sleep_seconds)
+
+    if CURL_BIN:
+        try:
+            return make_request_with_curl(url, max_bytes=max_bytes)
+        except Exception as exc:
+            last_error = exc if last_error is None else RuntimeError(f"{last_error}; curl fallback failed: {exc}")
     assert last_error is not None
     raise last_error
 
@@ -657,11 +741,30 @@ def score_pdf_candidate(url: str, prefer_english: bool) -> int:
         score += 2
     if "search?" in lurl or "bing.com/search" in lurl or "google." in lurl:
         score -= 8
+    if any(hint in lurl for hint in BAD_PDF_URL_HINTS):
+        score -= 35
     if likely_non_english_url(url):
         score -= 6 if prefer_english else 1
     if prefer_english and any(x in lurl for x in ("/en/", "lang=en", "locale=en")):
         score += 4
     return score
+
+
+def score_pdf_candidate_for_component(url: str, component: "Component", prefer_english: bool) -> int:
+    score = score_pdf_candidate(url, prefer_english=prefer_english)
+    url_id = normalize_identifier(urllib.parse.unquote(url))
+    identifiers = component_identifiers(component)
+    matches = [ident for ident in identifiers if ident in url_id]
+    if matches:
+        score += 12 + min(3, len(matches)) * 4
+    elif identifiers:
+        score -= 4
+    return score
+
+
+def is_generic_non_datasheet_pdf_url(url: str) -> bool:
+    lurl = url.lower()
+    return any(hint in lurl for hint in BAD_PDF_URL_HINTS)
 
 
 def is_pdf_response(url: str, headers: Dict[str, str], data_prefix: bytes) -> bool:
@@ -760,6 +863,15 @@ def normalize_identifier(value: str) -> str:
     return NON_ALNUM_RE.sub("", value or "").upper()
 
 
+def looks_like_part_number(value: str) -> bool:
+    cleaned = normalize_identifier(value)
+    if len(cleaned) < 6:
+        return False
+    has_alpha = any(ch.isalpha() for ch in cleaned)
+    has_digit = any(ch.isdigit() for ch in cleaned)
+    return has_alpha and has_digit
+
+
 def component_identifiers(component: Component) -> List[str]:
     identifiers: List[str] = []
 
@@ -775,6 +887,13 @@ def component_identifiers(component: Component) -> List[str]:
     if part:
         add(part)
         for piece in IDENTIFIER_SPLIT_RE.split(part):
+            if piece:
+                add(piece)
+
+    value = component.value.strip()
+    if value and looks_like_part_number(value):
+        add(value)
+        for piece in IDENTIFIER_SPLIT_RE.split(value):
             if piece:
                 add(piece)
 
@@ -863,6 +982,10 @@ def inspect_pdf_candidate(
 
 
 def parse_search_results_duckduckgo(html_text: str) -> List[str]:
+    ltext = html_text.lower()
+    if "bots use duckduckgo too" in ltext or "anomaly-modal" in ltext:
+        return []
+
     links = extract_links_from_html(html_text, "https://duckduckgo.com")
     out: List[str] = []
     for link in links:
@@ -889,11 +1012,16 @@ def build_search_queries(component: Component, prefer_english: bool) -> List[str
     part = component.manufacturer_part.strip()
     mfr = component.manufacturer.strip()
     lcsc = component.lcsc.strip()
+    value = component.value.strip()
 
     if part and mfr:
         queries.append(f'"{part}" "{mfr}" datasheet pdf')
     if part:
         queries.append(f'"{part}" datasheet pdf')
+    if value and looks_like_part_number(value):
+        queries.append(f'"{value}" datasheet pdf')
+        if mfr:
+            queries.append(f'"{value}" "{mfr}" datasheet pdf')
     if lcsc:
         queries.append(f'"{lcsc}" datasheet pdf')
     if part and lcsc:
@@ -942,7 +1070,7 @@ def resolve_pdf_url_from_candidate(
     links = extract_links_from_html(html_text, final_url)
     links = sorted(
         links,
-        key=lambda u: score_pdf_candidate(u, prefer_english=prefer_english),
+        key=lambda u: score_pdf_candidate_for_component(u, component, prefer_english=prefer_english),
         reverse=True,
     )
 
@@ -952,12 +1080,16 @@ def resolve_pdf_url_from_candidate(
             break
         if tried >= MAX_SEARCH_RESULTS_TO_TRY:
             break
+        if is_generic_non_datasheet_pdf_url(link):
+            continue
         tried += 1
         try:
             l_final, l_headers, l_data = make_request(link, max_bytes=8192)
         except Exception:
             continue
         if is_pdf_response(l_final, l_headers, l_data):
+            if is_generic_non_datasheet_pdf_url(l_final):
+                continue
             return l_final
     return None
 
@@ -985,7 +1117,7 @@ def search_web_for_pdf(
         result_links = parse_search_results_duckduckgo(html_text)
         result_links = sorted(
             result_links,
-            key=lambda u: score_pdf_candidate(u, prefer_english=prefer_english),
+            key=lambda u: score_pdf_candidate_for_component(u, component, prefer_english=prefer_english),
             reverse=True,
         )
         for link in result_links[:MAX_SEARCH_RESULTS_TO_TRY]:
