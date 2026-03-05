@@ -2036,6 +2036,12 @@
 		(uuid "28e775d5-3508-4845-acfd-f193bb2dda76")
 	)
 	(junction
+		(at 160.02 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e345a9d-cac7-4dbf-bb23-54860f2ae27f")
+	)
+	(junction
 		(at 218.44 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2126,22 +2132,10 @@
 		(uuid "b3f34dd8-9ff1-4a9e-b36a-7ede24426b7a")
 	)
 	(junction
-		(at 147.32 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b699ef24-56cd-4337-bb2a-9cbdb8505fb3")
-	)
-	(junction
 		(at 251.46 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b910e970-959d-45b1-9c1f-6e1bee535e37")
-	)
-	(junction
-		(at 160.02 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf93983e-693e-4de3-bc90-db86022d5fd8")
 	)
 	(junction
 		(at 69.85 157.48)
@@ -2156,10 +2150,10 @@
 		(uuid "d8eaadd9-26a9-442a-8a0e-fe79e3ddc3ac")
 	)
 	(junction
-		(at 147.32 144.7546)
+		(at 147.32 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e36d3b5a-74a8-40cd-ace1-f3530d60dfab")
+		(uuid "e15c17e3-64b4-473f-96a2-41d331b43b00")
 	)
 	(junction
 		(at 132.08 118.11)
@@ -2263,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 144.78) (xy 147.32 144.78)
+			(xy 160.02 143.51) (xy 147.32 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2293,17 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 153.67) (xy 147.32 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e4fceb4-e462-410d-89a2-e2204f97b478")
-	)
-	(wire
-		(pts
-			(xy 87.63 97.79) (xy 87.63 144.7546)
+			(xy 87.63 97.79) (xy 87.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2420,16 +2404,6 @@
 			(type default)
 		)
 		(uuid "5776c2cc-903f-473d-a649-62987b6479ce")
-	)
-	(wire
-		(pts
-			(xy 147.32 144.78) (xy 147.32 144.7546)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58aad092-a6f1-42a4-a43d-bf7c8ced76f8")
 	)
 	(wire
 		(pts
@@ -2663,6 +2637,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 143.51) (xy 147.32 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867c87fc-6fad-4cf3-aeed-5399f9dad908")
+	)
+	(wire
+		(pts
 			(xy 218.44 130.81) (xy 229.87 130.81)
 		)
 		(stroke
@@ -2743,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 144.78) (xy 160.02 144.78)
+			(xy 190.5 143.51) (xy 160.02 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 144.7546) (xy 147.32 144.7546)
+			(xy 87.63 143.51) (xy 147.32 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2823,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 144.7546) (xy 147.32 129.54)
+			(xy 147.32 143.51) (xy 147.32 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 77.47) (xy 190.5 144.78)
+			(xy 190.5 77.47) (xy 190.5 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3113,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 105.41) (xy 160.02 144.78)
+			(xy 160.02 105.41) (xy 160.02 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3194,7 +3178,7 @@
 		(cells
 			(table_cell "MODE Pin Configuration "
 				(exclude_from_sim no)
-				(at 160.274 129.286 0)
+				(at 161.798 146.558 0)
 				(size 6.858 4.572)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3211,7 +3195,7 @@
 			)
 			(table_cell "Power Limiting, Over Current fault and Thermal Shutdown Operation"
 				(exclude_from_sim no)
-				(at 167.132 129.286 0)
+				(at 168.656 146.558 0)
 				(size 22.606 4.572)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3228,7 +3212,7 @@
 			)
 			(table_cell "Open"
 				(exclude_from_sim no)
-				(at 160.274 133.858 0)
+				(at 161.798 151.13 0)
 				(size 6.858 6.096)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3245,7 +3229,7 @@
 			)
 			(table_cell "Active Current limiting for a maximum duration of tCL_PLIM(dly). There after Latches OFF.\n\nLatch reset by toggling SHDN or UVLO low to high or power cycle"
 				(exclude_from_sim no)
-				(at 167.132 133.858 0)
+				(at 168.656 151.13 0)
 				(size 22.606 6.096)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3262,7 +3246,7 @@
 			)
 			(table_cell "Shorted to GND "
 				(exclude_from_sim no)
-				(at 160.274 139.954 0)
+				(at 161.798 157.226 0)
 				(size 6.858 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3279,7 +3263,7 @@
 			)
 			(table_cell "delay of t(TSD_retry).\nActive current limiting for a maximum duration of tCL_PLIM(dly). There after auto-retries after a"
 				(exclude_from_sim no)
-				(at 167.132 139.954 0)
+				(at 168.656 157.226 0)
 				(size 22.606 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
