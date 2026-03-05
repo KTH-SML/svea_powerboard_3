@@ -1825,7 +1825,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:SiS415DNT"
+		(symbol "Transistor_FET:Si7141DP"
 			(pin_names
 				(hide yes)
 			)
@@ -1841,7 +1841,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SiS415DNT"
+			(property "Value" "Si7141DP"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1850,7 +1850,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1861,7 +1861,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/63684/sis415dnt.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/65596/si7141dp.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1871,7 +1871,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(property "Description" "-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1889,7 +1889,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
+			(property "ki_fp_filters" "PowerPAK*SO*Single*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1898,7 +1898,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SiS415DNT_0_1"
+			(symbol "Si7141DP_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2065,8 +2065,8 @@
 					)
 				)
 			)
-			(symbol "SiS415DNT_1_1"
-				(pin passive line
+			(symbol "Si7141DP_1_1"
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
@@ -2765,110 +2765,6 @@
 			(justify right)
 		)
 		(uuid "cc44fa4c-65ad-458b-9de4-42a6158f741c")
-	)
-	(symbol
-		(lib_id "Transistor_FET:SiS415DNT")
-		(at 119.38 96.52 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03bfbaca-733e-4dda-9a15-86a4b89a1d70")
-		(property "Reference" "Q11"
-			(at 119.38 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIRA99DP-T1-GE3"
-			(at 119.38 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180719/C241863_6D70112EF6FB285AD50169E19E4828EA.pdf"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3289459"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "VISHAY(威世)"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SIRA99DP-T1-GE3"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c02e638d-00a7-44d3-993f-fbf2412f485b")
-		)
-		(pin "5"
-			(uuid "628d522b-88b3-4a25-bc77-31ebb81536ac")
-		)
-		(pin "1"
-			(uuid "349d770a-fed4-4240-8706-898b70bce011")
-		)
-		(pin "2"
-			(uuid "15536ee1-0fee-4252-8ab0-60add3c034cb")
-		)
-		(pin "3"
-			(uuid "b500e9ac-5d96-4e5b-b2c2-37b4f456c80c")
-		)
-		(instances
-			(project ""
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/919d8a75-a3b2-48a4-b5bd-e8e3438e1772"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "5v rail sm-easyedapro:FRC0603J104 TS")
@@ -3672,6 +3568,96 @@
 			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/919d8a75-a3b2-48a4-b5bd-e8e3438e1772"
 					(reference "ZD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Si7141DP")
+		(at 119.38 96.52 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bad933c6-5f8d-4a90-a239-d974d957fd17")
+		(property "Reference" "Q2401"
+			(at 119.38 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SIRA99DP-T1-GE3"
+			(at 119.38 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 117.475 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C3289459"
+			(at 119.38 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "514bbe1b-bfb3-41dd-960a-310f914e89e5")
+		)
+		(pin "3"
+			(uuid "f7bbeffe-70f3-4abe-8ae0-3d159b04230e")
+		)
+		(pin "5"
+			(uuid "a70cc33e-6847-4f10-a7ac-06617a7dc964")
+		)
+		(pin "4"
+			(uuid "37c93ba0-d1d7-4b9e-a09e-307548d360ed")
+		)
+		(pin "1"
+			(uuid "56a80719-24bb-4f98-92b0-e834ef96fd6a")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/919d8a75-a3b2-48a4-b5bd-e8e3438e1772"
+					(reference "Q2401")
 					(unit 1)
 				)
 			)

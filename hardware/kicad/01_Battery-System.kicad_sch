@@ -8183,6 +8183,10 @@
 		(uuid "362b04f7-3027-42a2-9a77-be98a4093598")
 	)
 	(no_connect
+		(at 727.71 429.26)
+		(uuid "3f949c41-53e3-4a0e-b8a0-0964e228799f")
+	)
+	(no_connect
 		(at 694.69 58.42)
 		(uuid "448412b8-8f0d-4899-82d4-4beb0c75ebbb")
 	)
@@ -13792,6 +13796,46 @@
 			)
 		)
 	)
+	(global_label "Charger{slash}CN3072{slash}CHG-DONE"
+		(shape input)
+		(at 685.8 491.49 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "21eb9315-e77d-40e8-b117-3d76d8ae736c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 685.8 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Charger{slash}CN3072{slash}CHG-ACTIVE"
+		(shape input)
+		(at 685.8 494.03 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "22e8bb24-0381-4a90-93d8-f024782a2008")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 685.8 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Power{slash}5V-Buck{slash}EN#"
 		(shape input)
 		(at 681.99 414.02 180)
@@ -13804,26 +13848,6 @@
 		(uuid "297ddd7a-886e-4b34-825b-a33a27e6e418")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 681.99 414.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Charger{slash}CN3072{slash}CHG-DONE"
-		(shape input)
-		(at 731.52 424.18 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c1947c1-8f69-4034-9550-28fb61d5deac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 731.52 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14107,26 +14131,6 @@
 		(uuid "415de6de-79e4-401a-b6ca-02f70fb989ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 571.5 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Charger{slash}CN3072{slash}CHG-ACTIVE"
-		(shape input)
-		(at 731.52 426.72 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "4335673c-789f-463c-8cae-e154ed2c0a5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 731.52 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
