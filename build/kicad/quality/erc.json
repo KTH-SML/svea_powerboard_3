@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-03-05T18:23:37+0100",
+    "date": "2026-03-06T04:54:17+0100",
     "kicad_version": "9.0.7",
     "sheets": [
         {
@@ -119,7 +119,7 @@
                         {
                             "description": "Symbol U10 [Fuse]",
                             "pos": {
-                                "x": 0.381,
+                                "x": 0.4064,
                                 "y": 1.2319
                             },
                             "uuid": "090d7057-e5cf-413b-b72e-2c2ead9ee188"
@@ -138,6 +138,21 @@
                                 "y": 1.2827
                             },
                             "uuid": "ab948b5d-cdb5-436a-aed8-249ef3764b9a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'R_0402_1005Metric' not found in library 'Resistor_SMD'.",
+                    "items": [
+                        {
+                            "description": "Symbol R107 [R]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.1684
+                            },
+                            "uuid": "ff92258b-eca8-4fe5-b910-4b6829afbeb5"
                         }
                     ],
                     "severity": "error",
@@ -279,21 +294,6 @@
                     "type": "footprint_link_issues"
                 },
                 {
-                    "description": "Footprint 'R_2512_6332Metric' not found in library 'Resistor_SMD'.",
-                    "items": [
-                        {
-                            "description": "Symbol R1 [LR123WF160MT4E]",
-                            "pos": {
-                                "x": 0.8001,
-                                "y": 3.6576
-                            },
-                            "uuid": "c269fc8c-0a41-4a1f-96e9-988085c834fa"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "footprint_link_issues"
-                },
-                {
                     "description": "Footprint 'R_0402_1005Metric' not found in library 'Resistor_SMD'.",
                     "items": [
                         {
@@ -318,51 +318,6 @@
                                 "y": 3.6068
                             },
                             "uuid": "3d84e198-7301-4ba8-9775-8b0521c48ab9"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "footprint_link_issues"
-                },
-                {
-                    "description": "Footprint 'C_0805_2012Metric' not found in library 'Capacitor_SMD'.",
-                    "items": [
-                        {
-                            "description": "Symbol C1 [GRM21BR61H106KE43L]",
-                            "pos": {
-                                "x": 0.889,
-                                "y": 3.7338
-                            },
-                            "uuid": "57b9f929-cf88-4f0f-b647-930e8f64ef3e"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "footprint_link_issues"
-                },
-                {
-                    "description": "Footprint 'C_0603_1608Metric' not found in library 'Capacitor_SMD'.",
-                    "items": [
-                        {
-                            "description": "Symbol C2 [CC0603KRX7R9BB104]",
-                            "pos": {
-                                "x": 1.0033,
-                                "y": 3.7338
-                            },
-                            "uuid": "c0752013-8ee5-4200-b28e-df19f5cfbf74"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "footprint_link_issues"
-                },
-                {
-                    "description": "Footprint 'R_0603_1608Metric' not found in library 'Resistor_SMD'.",
-                    "items": [
-                        {
-                            "description": "Symbol R107 [R]",
-                            "pos": {
-                                "x": 2.9972,
-                                "y": 2.4892
-                            },
-                            "uuid": "69c2eebb-2ebc-41f1-8620-8dc067d8cccc"
                         }
                     ],
                     "severity": "error",
@@ -429,6 +384,21 @@
                     "type": "footprint_link_issues"
                 },
                 {
+                    "description": "Footprint 'R_0603_1608Metric' not found in library 'Resistor_SMD'.",
+                    "items": [
+                        {
+                            "description": "Symbol R109 [R]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 2.921
+                            },
+                            "uuid": "e3116c11-72ac-4217-8ca2-1691afa1ce7b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "footprint_link_issues"
+                },
+                {
                     "description": "Footprint 'C_0603_1608Metric' not found in library 'Capacitor_SMD'.",
                     "items": [
                         {
@@ -453,21 +423,6 @@
                                 "y": 3.7465
                             },
                             "uuid": "7c9adca4-3c51-452c-88aa-cbfee6465f59"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "footprint_link_issues"
-                },
-                {
-                    "description": "Footprint 'TSSOP-10_3x3mm_P0.5mm' not found in library 'Package_SO'.",
-                    "items": [
-                        {
-                            "description": "Symbol U45 [ADS1115IDGST]",
-                            "pos": {
-                                "x": 3.2258,
-                                "y": 2.6162
-                            },
-                            "uuid": "231381d4-c8e1-4001-988d-970cc1d9acdf"
                         }
                     ],
                     "severity": "error",
@@ -597,12 +552,12 @@
                     "description": "Footprint 'C_0603_1608Metric' not found in library 'Capacitor_SMD'.",
                     "items": [
                         {
-                            "description": "Symbol C56 [CC0603KRX7R9BB104]",
+                            "description": "Symbol C113 [CC0603KRX7R9BB104]",
                             "pos": {
-                                "x": 3.7846,
-                                "y": 2.6924
+                                "x": 3.6576,
+                                "y": 2.8956
                             },
-                            "uuid": "3441a2a4-ef78-43e6-9f40-3898fbf19ef4"
+                            "uuid": "6b8c49c7-8491-49fc-8df8-c543589341a2"
                         }
                     ],
                     "severity": "error",
@@ -663,6 +618,21 @@
                                 "y": 4.4958
                             },
                             "uuid": "f24c3116-2d1d-4236-8f87-c1bea0c97b57"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'C_0603_1608Metric' not found in library 'Capacitor_SMD'.",
+                    "items": [
+                        {
+                            "description": "Symbol C121 [CC0603KRX7R9BB104]",
+                            "pos": {
+                                "x": 3.7719,
+                                "y": 2.8956
+                            },
+                            "uuid": "68f7e3ef-c1d2-4adb-90d3-96c4a2058f7b"
                         }
                     ],
                     "severity": "error",
@@ -912,6 +882,21 @@
                     "description": "Footprint 'C_0603_1608Metric' not found in library 'Capacitor_SMD'.",
                     "items": [
                         {
+                            "description": "Symbol C136 [CC0603KRX7R9BB104]",
+                            "pos": {
+                                "x": 7.2009,
+                                "y": 2.6162
+                            },
+                            "uuid": "e63efd38-2da7-4e61-b99d-26f0a6cc4ca0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'C_0603_1608Metric' not found in library 'Capacitor_SMD'.",
+                    "items": [
+                        {
                             "description": "Symbol C15 [CL10B105KB8NQNC]",
                             "pos": {
                                 "x": 7.6708,
@@ -933,6 +918,21 @@
                                 "y": 1.6383
                             },
                             "uuid": "e51b5511-b1c5-49f1-a22f-b1b7c21362b3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'C_0603_1608Metric' not found in library 'Capacitor_SMD'.",
+                    "items": [
+                        {
+                            "description": "Symbol C137 [CC0603KRX7R9BB104]",
+                            "pos": {
+                                "x": 7.366,
+                                "y": 2.6162
+                            },
+                            "uuid": "97e73954-92b7-47dc-bc0a-cc720adaac38"
                         }
                     ],
                     "severity": "error",
@@ -1199,7 +1199,7 @@
                         {
                             "description": "Symbol D18 [BZT52C15]",
                             "pos": {
-                                "x": 3.2512,
+                                "x": 3.2131,
                                 "y": 0.3937
                             },
                             "uuid": "4f37eec8-cea3-4a1c-8c3f-b40882931cfc"
@@ -1212,12 +1212,27 @@
                     "description": "Footprint 'R_0402_1005Metric' not found in library 'Resistor_SMD'.",
                     "items": [
                         {
-                            "description": "Symbol R2007 [R]",
+                            "description": "Symbol R2011 [R]",
                             "pos": {
-                                "x": 3.2131,
-                                "y": 0.7747
+                                "x": 3.3528,
+                                "y": 0.635
                             },
-                            "uuid": "738cf57d-68d2-4ebe-9d5a-e2bcc5646f12"
+                            "uuid": "63a45c7f-a0b3-4f7b-84fa-22718d538b11"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm' not found in library 'Jumper'.",
+                    "items": [
+                        {
+                            "description": "Symbol JP2005 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.7112
+                            },
+                            "uuid": "f1f211d3-9fe1-480a-a2f5-8866c9a7a45d"
                         }
                     ],
                     "severity": "error",
@@ -2289,15 +2304,15 @@
                     "type": "footprint_link_issues"
                 },
                 {
-                    "description": "Footprint 'SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm' not found in library 'Jumper'.",
+                    "description": "Footprint 'SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm' not found in library 'Jumper'.",
                     "items": [
                         {
-                            "description": "Symbol JP1901 [SolderJumper_2_Bridged]",
+                            "description": "Symbol JP1902 [SolderJumper_2_Open]",
                             "pos": {
                                 "x": 0.6604,
                                 "y": 1.4859
                             },
-                            "uuid": "0797a784-24cb-4f93-ac13-881ca398fd69"
+                            "uuid": "9ad14687-9e45-4cac-907b-7abd9ea30cc7"
                         }
                     ],
                     "severity": "error",
@@ -2883,21 +2898,6 @@
                                 "y": 0.5715
                             },
                             "uuid": "6c12689a-391e-4f8d-aaff-3f72fd11d4bb"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "footprint_link_issues"
-                },
-                {
-                    "description": "Footprint 'TO-263-2' not found in library 'Package_TO_SOT_SMD'.",
-                    "items": [
-                        {
-                            "description": "Symbol R3604 [PWR263S-35-40R0J]",
-                            "pos": {
-                                "x": 1.651,
-                                "y": 2.413
-                            },
-                            "uuid": "73d977b7-1e49-4502-847d-1271319a4f21"
                         }
                     ],
                     "severity": "error",
@@ -4209,6 +4209,21 @@
                     "type": "footprint_link_issues"
                 },
                 {
+                    "description": "Footprint 'R_0402_1005Metric' not found in library 'Resistor_SMD'.",
+                    "items": [
+                        {
+                            "description": "Symbol R2706 [R]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.6477
+                            },
+                            "uuid": "b3845d2f-7d5b-4e89-ac44-7342d0adc047"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "footprint_link_issues"
+                },
+                {
                     "description": "Footprint 'SOT-23' not found in library 'Package_TO_SOT_SMD'.",
                     "items": [
                         {
@@ -4383,6 +4398,21 @@
                                 "y": 0.889
                             },
                             "uuid": "c7e12162-9be6-41dd-b976-86c12440a34c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'R_0402_1005Metric' not found in library 'Resistor_SMD'.",
+                    "items": [
+                        {
+                            "description": "Symbol R3301 [R]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.7366
+                            },
+                            "uuid": "cc0dcae5-f788-4a5f-9e33-2dfc700a6ade"
                         }
                     ],
                     "severity": "error",
@@ -4979,7 +5009,7 @@
                         {
                             "description": "Symbol U10 [Fuse]",
                             "pos": {
-                                "x": 0.381,
+                                "x": 0.4064,
                                 "y": 1.2319
                             },
                             "uuid": "090d7057-e5cf-413b-b72e-2c2ead9ee188"
@@ -4994,8 +5024,8 @@
                         {
                             "description": "Symbol #PWR01 [GND]",
                             "pos": {
-                                "x": 0.3429,
-                                "y": 1.2954
+                                "x": 0.3556,
+                                "y": 1.3716
                             },
                             "uuid": "b9970b55-eda0-46c5-94d3-6ceca7b7eded"
                         }
@@ -5037,16 +5067,69 @@
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
+                            "description": "Symbol #PWR0179 [+3V3]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.1303
+                            },
+                            "uuid": "f430b818-c7d4-4cb2-b789-406e3c35c1ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol R107 [R]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.1684
+                            },
+                            "uuid": "ff92258b-eca8-4fe5-b910-4b6829afbeb5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
                             "description": "Symbol #PWR018 [+5VP]",
                             "pos": {
                                 "x": 1.7272,
-                                "y": 1.1938
+                                "y": 1.1811
                             },
                             "uuid": "fa123e3e-5303-42d6-bc72-05db8cfe1635"
                         }
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 1727200, 1231900",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.2319
+                            },
+                            "uuid": "a81c037a-4a84-4393-a420-c6f347b4d6c8"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.2319
+                            },
+                            "uuid": "e20f8c79-313d-42fe-83cc-a93d12121d5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
@@ -5187,12 +5270,12 @@
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
-                            "description": "Symbol #PWR0179 [GND]",
+                            "description": "Symbol #PWR0189 [GND]",
                             "pos": {
-                                "x": 2.4892,
-                                "y": 1.4097
+                                "x": 2.5019,
+                                "y": 1.3843
                             },
-                            "uuid": "984c0927-6f90-41d6-93c0-d3e0f00f5c14"
+                            "uuid": "aeb331a7-f556-48b3-a502-a9a3ea34466d"
                         }
                     ],
                     "severity": "warning",
@@ -5219,7 +5302,7 @@
                         {
                             "description": "Symbol #PWR034 [IN-CHARGING-VCC-USBC]",
                             "pos": {
-                                "x": 2.9718,
+                                "x": 2.9591,
                                 "y": 0.7747
                             },
                             "uuid": "d882775c-900d-4dbb-a10f-0ecadffd86c4"
@@ -5379,21 +5462,6 @@
                     "type": "lib_symbol_issues"
                 },
                 {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR03 [+5V]",
-                            "pos": {
-                                "x": 0.6096,
-                                "y": 3.6068
-                            },
-                            "uuid": "54a8fcad-28d1-4327-947c-c556fbaa5508"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -5484,34 +5552,27 @@
                     "type": "lib_symbol_issues"
                 },
                 {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "description": "Four items connected at 1231900, 3606800",
                     "items": [
                         {
-                            "description": "Symbol #PWR093 [+3V3]",
+                            "description": "Symbol R3 Pin 1 [1, Passive, Line]",
                             "pos": {
-                                "x": 2.9972,
-                                "y": 2.4003
+                                "x": 1.2319,
+                                "y": 3.6068
                             },
-                            "uuid": "51ae3839-8378-4f22-ad8a-3a84878b9336"
+                            "uuid": "2c3c4eef-60c4-4aad-b05c-57d4edaef46c"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0635 mm",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 3.6068
+                            },
+                            "uuid": "e61c7107-02c5-4eb3-8040-8c1e57ccad99"
                         }
                     ],
                     "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol R107 [R]",
-                            "pos": {
-                                "x": 2.9972,
-                                "y": 2.4892
-                            },
-                            "uuid": "69c2eebb-2ebc-41f1-8620-8dc067d8cccc"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
@@ -5527,6 +5588,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 1676400, 3556000",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1397 mm",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 3.6957
+                            },
+                            "uuid": "1d9b8b48-8599-4664-8e8d-b0a394ba93b4"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1143 mm",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 3.556
+                            },
+                            "uuid": "4c7d4f3a-f8f7-4558-9734-5b40aed71957"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
@@ -5577,12 +5661,27 @@
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
-                            "description": "Symbol #PWR094 [GND]",
+                            "description": "Symbol #PWR0180 [+3V3]",
                             "pos": {
-                                "x": 2.9972,
-                                "y": 2.7686
+                                "x": 2.8829,
+                                "y": 2.8448
                             },
-                            "uuid": "23a06c7c-4410-4ba6-8b64-7c883a77c8f9"
+                            "uuid": "95c62f37-059c-4a5d-9cae-f15dc08173cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol R109 [R]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 2.921
+                            },
+                            "uuid": "e3116c11-72ac-4217-8ca2-1691afa1ce7b"
                         }
                     ],
                     "severity": "warning",
@@ -5742,21 +5841,6 @@
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
-                            "description": "Symbol #PWR098 [+3V3]",
-                            "pos": {
-                                "x": 3.7846,
-                                "y": 2.4892
-                            },
-                            "uuid": "51c6adf6-c31b-4d48-80e0-bf1bb92ca625"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
                             "description": "Symbol #PWR013 [+3V3]",
                             "pos": {
                                 "x": 1.4732,
@@ -5778,6 +5862,36 @@
                                 "y": 4.4704
                             },
                             "uuid": "5478b0ad-5359-4851-be0a-9adcb57bd2b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0163 [GND]",
+                            "pos": {
+                                "x": 3.3909,
+                                "y": 3.048
+                            },
+                            "uuid": "b201c183-0da8-41fe-b31b-ab92fcc29a40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0183 [+3V3]",
+                            "pos": {
+                                "x": 3.6576,
+                                "y": 2.7559
+                            },
+                            "uuid": "c64de78a-030f-493c-9221-8bb3a756f04a"
                         }
                     ],
                     "severity": "warning",
@@ -5827,6 +5941,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 3657600, 2819400",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 3.3909,
+                                "y": 2.8194
+                            },
+                            "uuid": "23e12adf-3031-4ebd-a674-df2c3fa4123d"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0635 mm",
+                            "pos": {
+                                "x": 3.6576,
+                                "y": 2.7559
+                            },
+                            "uuid": "cbb40707-aeb9-4a43-8b3c-08ef3ae50fe7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
@@ -5904,21 +6041,6 @@
                     "type": "lib_symbol_issues"
                 },
                 {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR099 [GND]",
-                            "pos": {
-                                "x": 3.7846,
-                                "y": 2.7559
-                            },
-                            "uuid": "1646f892-5f60-4da3-872c-98687953bff7"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -5958,6 +6080,21 @@
                                 "y": 4.3688
                             },
                             "uuid": "931c6da7-0977-45b8-b157-579ab8a9fd1c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0188 [GND]",
+                            "pos": {
+                                "x": 3.6576,
+                                "y": 2.9972
+                            },
+                            "uuid": "a0d02e7c-49c8-42e3-9670-c584d9b65b84"
                         }
                     ],
                     "severity": "warning",
@@ -6162,12 +6299,12 @@
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
-                            "description": "Symbol #PWR0182 [GND]",
+                            "description": "Symbol #PWR045 [+5V]",
                             "pos": {
-                                "x": 4.2926,
-                                "y": 3.175
+                                "x": 5.3467,
+                                "y": 0.8255
                             },
-                            "uuid": "919c6d8b-4011-4476-b549-bd06617dbb77"
+                            "uuid": "da57c6fa-c910-45c5-8cf8-e7f9cfaa05be"
                         }
                     ],
                     "severity": "warning",
@@ -6177,12 +6314,12 @@
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
-                            "description": "Symbol #PWR045 [+5V]",
+                            "description": "Symbol #PWR0182 [GND]",
                             "pos": {
-                                "x": 5.3467,
-                                "y": 0.8255
+                                "x": 4.5212,
+                                "y": 3.175
                             },
-                            "uuid": "da57c6fa-c910-45c5-8cf8-e7f9cfaa05be"
+                            "uuid": "919c6d8b-4011-4476-b549-bd06617dbb77"
                         }
                     ],
                     "severity": "warning",
@@ -6202,6 +6339,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 5473700, 977900",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3556 mm",
+                            "pos": {
+                                "x": 5.1181,
+                                "y": 0.9779
+                            },
+                            "uuid": "9fda0157-e400-4f9f-938e-227989e6505d"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 5.4737,
+                                "y": 0.889
+                            },
+                            "uuid": "a356bb7a-a521-4fd5-ac04-9ad5dc88a7cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The current configuration does not include the symbol library 'PCM_SL_Pin_Headers'",
@@ -6354,6 +6514,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 5118100, 3086100",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 5.1435,
+                                "y": 3.0861
+                            },
+                            "uuid": "99a3c07d-5b10-411e-b0e9-b9309e0da1bf"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 5.1181,
+                                "y": 3.0988
+                            },
+                            "uuid": "b99b27be-90a9-4825-9bc5-670e5e5a96b5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
@@ -6429,6 +6612,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 6057900, 2298700",
+                    "items": [
+                        {
+                            "description": "Symbol D10 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 6.0579,
+                                "y": 2.2987
+                            },
+                            "uuid": "9c8ee52c-616d-450f-8f4c-e310142a266b"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.1397 mm",
+                            "pos": {
+                                "x": 6.0579,
+                                "y": 2.2987
+                            },
+                            "uuid": "38e8f446-81ec-449e-b154-ee395c26d630"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
@@ -6468,6 +6674,21 @@
                                 "y": 0.508
                             },
                             "uuid": "2d364d9b-c735-42cd-a313-ca535422dfb3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0194 [GND]",
+                            "pos": {
+                                "x": 7.1501,
+                                "y": 2.6162
+                            },
+                            "uuid": "06fff78f-0335-4c77-819d-1a578f487499"
                         }
                     ],
                     "severity": "warning",
@@ -6537,6 +6758,21 @@
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
+                            "description": "Symbol #PWR0196 [GND]",
+                            "pos": {
+                                "x": 7.4168,
+                                "y": 2.6162
+                            },
+                            "uuid": "0f7062cc-bd58-47bb-8947-58bfcffaf19e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
                             "description": "Symbol #PWR0174 [GND]",
                             "pos": {
                                 "x": 7.4676,
@@ -6597,132 +6833,12 @@
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
-                            "description": "Symbol #PWR02008 [GND]",
-                            "pos": {
-                                "x": 0.4318,
-                                "y": 1.1049
-                            },
-                            "uuid": "07330173-b993-4978-b6a4-296b40168edf"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR02007 [GND]",
-                            "pos": {
-                                "x": 0.4826,
-                                "y": 1.1049
-                            },
-                            "uuid": "ff2c3ff3-8271-4734-83fa-f47ec1979900"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR02003 [GND]",
-                            "pos": {
-                                "x": 0.3048,
-                                "y": 1.2065
-                            },
-                            "uuid": "b80cc063-9f7d-4b0f-b028-c925eb94c266"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR02004 [GND]",
-                            "pos": {
-                                "x": 0.6096,
-                                "y": 1.2065
-                            },
-                            "uuid": "d116fb5f-8a59-46fd-94c3-c9789415305d"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR02002 [GND]",
-                            "pos": {
-                                "x": 0.3048,
-                                "y": 1.4859
-                            },
-                            "uuid": "7882e9db-eb56-47de-af13-0aabc6c9a6e4"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR02001 [GND]",
-                            "pos": {
-                                "x": 0.6096,
-                                "y": 1.4859
-                            },
-                            "uuid": "03fca9d2-f60e-4718-beed-c52bead510fa"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
                             "description": "Symbol #PWR0122 [GND]",
                             "pos": {
                                 "x": 1.5367,
                                 "y": 0.4953
                             },
                             "uuid": "93b72cd0-cc00-4e3c-adee-2749372fe65f"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR02006 [GND]",
-                            "pos": {
-                                "x": 0.4318,
-                                "y": 1.5621
-                            },
-                            "uuid": "d78a6bfd-de47-4df0-82c2-97f102e924c1"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_issues"
-                },
-                {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR02005 [GND]",
-                            "pos": {
-                                "x": 0.4826,
-                                "y": 1.5621
-                            },
-                            "uuid": "17e7b4e1-a20e-44a5-90a6-713b228193e0"
                         }
                     ],
                     "severity": "warning",
@@ -6768,6 +6884,51 @@
                                 "y": 0.9271
                             },
                             "uuid": "90adaca1-5045-420a-aacd-e7ea5c15ebf5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02009 [GND]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 1.5875
+                            },
+                            "uuid": "25f9d79a-0b3a-43a2-a7e2-13cb0fee19ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02010 [GND]",
+                            "pos": {
+                                "x": 0.8255,
+                                "y": 1.8669
+                            },
+                            "uuid": "9d5d8d49-9621-4930-a347-4cd719a69079"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02011 [GND]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.8796
+                            },
+                            "uuid": "921e9cdd-6e4d-48ec-9263-1b4df55d2b2f"
                         }
                     ],
                     "severity": "warning",
@@ -7002,12 +7163,27 @@
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
-                            "description": "Symbol R2007 [R]",
+                            "description": "Symbol R2011 [R]",
                             "pos": {
-                                "x": 3.2131,
-                                "y": 0.7747
+                                "x": 3.3528,
+                                "y": 0.635
                             },
-                            "uuid": "738cf57d-68d2-4ebe-9d5a-e2bcc5646f12"
+                            "uuid": "63a45c7f-a0b3-4f7b-84fa-22718d538b11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'Jumper' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Jumper.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol JP2005 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.7112
+                            },
+                            "uuid": "f1f211d3-9fe1-480a-a2f5-8866c9a7a45d"
                         }
                     ],
                     "severity": "warning",
@@ -7059,6 +7235,75 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 2070100, 800100",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0635 mm",
+                            "pos": {
+                                "x": 2.0701,
+                                "y": 0.7366
+                            },
+                            "uuid": "f4e25ed8-963d-473f-b1c9-9c1f872bdafc"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.2032 mm",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 0.8001
+                            },
+                            "uuid": "6b5cb1a9-749d-453e-90be-0e80e20b9ecb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 2070100, 1104900",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2032 mm",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 1.1049
+                            },
+                            "uuid": "66a96f5c-fb11-479c-b0e6-98c2bbef4987"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 2.0701,
+                                "y": 1.016
+                            },
+                            "uuid": "61b90edc-37a1-41e9-82a8-c3c58edf0abc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 1282700, 635000",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 1.016,
+                                "y": 0.635
+                            },
+                            "uuid": "77bb4964-df1c-4f37-9821-ef81573998b3"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.5461
+                            },
+                            "uuid": "940c2d2b-ca59-4d8f-bf40-14af00c90100"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
@@ -7072,6 +7317,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 1282700, 635000",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 1.016,
+                                "y": 0.635
+                            },
+                            "uuid": "77bb4964-df1c-4f37-9821-ef81573998b3"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.5461
+                            },
+                            "uuid": "940c2d2b-ca59-4d8f-bf40-14af00c90100"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
@@ -7117,6 +7385,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 787400, 736600",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 0.7747
+                            },
+                            "uuid": "5e7f3a68-5d56-463c-a009-9a000168bd0c"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 0.7366
+                            },
+                            "uuid": "6115de27-9b15-44b1-8066-5ce3cd3a5ba8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
@@ -7252,6 +7543,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 2832100, 977900",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.8321,
+                                "y": 0.9779
+                            },
+                            "uuid": "199e49a3-62af-4ad1-ae9f-6eece01f3c68"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 2.794,
+                                "y": 0.9779
+                            },
+                            "uuid": "5d4f68b9-7c3c-4591-93b5-c2719f48b879"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
@@ -7404,6 +7718,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 635000, 1371600",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.3208
+                            },
+                            "uuid": "c31fe8b8-8a24-4280-87f3-ffae2fa27d62"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.5080 mm",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 1.3716
+                            },
+                            "uuid": "9d3d2dfa-990a-4b4d-a328-55f926310b18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -7554,6 +7891,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 1866900, 533400",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 0.508
+                            },
+                            "uuid": "daa9bf03-d542-4d7e-8bd5-d7414d6d19aa"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 0.5334
+                            },
+                            "uuid": "2f6f6bea-2cd4-44e0-9879-b1e41a9b3370"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -7599,6 +7959,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 1143000, 393700",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2159 mm",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 0.3937
+                            },
+                            "uuid": "813ee608-98fa-4cf2-815f-cb1d4fc89999"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.3429
+                            },
+                            "uuid": "a6280365-1818-4739-8b5d-4b74ae35b297"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -7612,6 +7995,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 876300, 977900",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.4572 mm",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 0.9779
+                            },
+                            "uuid": "30114b4a-aa75-4333-a925-89da09846205"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 0.9779
+                            },
+                            "uuid": "4755e4e7-da5d-4b4b-8a83-41ee89d19f33"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
@@ -7662,12 +8068,12 @@
                     "description": "The symbol library 'Jumper' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Jumper.kicad_sym'.",
                     "items": [
                         {
-                            "description": "Symbol JP1901 [SolderJumper_2_Bridged]",
+                            "description": "Symbol JP1902 [SolderJumper_2_Open]",
                             "pos": {
                                 "x": 0.6604,
                                 "y": 1.4859
                             },
-                            "uuid": "0797a784-24cb-4f93-ac13-881ca398fd69"
+                            "uuid": "9ad14687-9e45-4cac-907b-7abd9ea30cc7"
                         }
                     ],
                     "severity": "warning",
@@ -7732,6 +8138,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 1473200, 1435100",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.5969 mm",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 1.4351
+                            },
+                            "uuid": "b715ad6f-5498-401e-829c-889624b24aa6"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 1.4351
+                            },
+                            "uuid": "ba3939b0-97ba-4740-9f53-d7046674df2c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
@@ -7839,6 +8268,144 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 635000, 1371600",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.3208
+                            },
+                            "uuid": "c31fe8b8-8a24-4280-87f3-ffae2fa27d62"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.5080 mm",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 1.3716
+                            },
+                            "uuid": "9d3d2dfa-990a-4b4d-a328-55f926310b18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 1866900, 533400",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 0.508
+                            },
+                            "uuid": "daa9bf03-d542-4d7e-8bd5-d7414d6d19aa"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 0.5334
+                            },
+                            "uuid": "2f6f6bea-2cd4-44e0-9879-b1e41a9b3370"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 1524000, 914400",
+                    "items": [
+                        {
+                            "description": "Symbol D14 Pin 1 [K, Input, Line]",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.9144
+                            },
+                            "uuid": "8d10f805-f4f7-46f8-bc21-c3cc3ea6679f"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.9144
+                            },
+                            "uuid": "8ec5126d-614c-475a-9f3f-dbc60bcd20ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 965200, 1333500",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.3843
+                            },
+                            "uuid": "c478a12a-289d-4645-ada1-1c52a5150f8f"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1143 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 1.3335
+                            },
+                            "uuid": "71b322f6-9824-445a-85b5-a79ba6500c85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 1079500, 1333500",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1524 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 1.4859
+                            },
+                            "uuid": "b6413ed2-6443-4eaf-ab94-116f7727e808"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1143 mm",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 1.3335
+                            },
+                            "uuid": "71b322f6-9824-445a-85b5-a79ba6500c85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 1562100, 1333500",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 1.3335
+                            },
+                            "uuid": "9cf9a5e1-3a5f-4b00-88eb-e2b9c62c7903"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.1524 mm",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 1.3335
+                            },
+                            "uuid": "0d889729-ab66-436f-9d2f-0a35a749208e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -7867,6 +8434,98 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 1524000, 914400",
+                    "items": [
+                        {
+                            "description": "Symbol D14 Pin 1 [K, Input, Line]",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.9144
+                            },
+                            "uuid": "8d10f805-f4f7-46f8-bc21-c3cc3ea6679f"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.9144
+                            },
+                            "uuid": "8ec5126d-614c-475a-9f3f-dbc60bcd20ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 1524000, 914400",
+                    "items": [
+                        {
+                            "description": "Symbol D14 Pin 1 [K, Input, Line]",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.9144
+                            },
+                            "uuid": "8d10f805-f4f7-46f8-bc21-c3cc3ea6679f"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.9144
+                            },
+                            "uuid": "8ec5126d-614c-475a-9f3f-dbc60bcd20ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 1282700, 635000",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 1.016,
+                                "y": 0.635
+                            },
+                            "uuid": "77bb4964-df1c-4f37-9821-ef81573998b3"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.5461
+                            },
+                            "uuid": "940c2d2b-ca59-4d8f-bf40-14af00c90100"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 1282700, 635000",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 1.016,
+                                "y": 0.635
+                            },
+                            "uuid": "77bb4964-df1c-4f37-9821-ef81573998b3"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.5461
+                            },
+                            "uuid": "940c2d2b-ca59-4d8f-bf40-14af00c90100"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
@@ -7957,6 +8616,29 @@
                     ],
                     "severity": "warning",
                     "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Four items connected at 292100, 889000",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 0.8636
+                            },
+                            "uuid": "b8572b69-b567-4f7e-89ff-81f05ed37dfa"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.889
+                            },
+                            "uuid": "edec1ffb-9ec0-4a06-9fb0-a06e0f27f876"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
@@ -8094,6 +8776,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 457200, 1562100",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1524 mm",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 1.5621
+                            },
+                            "uuid": "8e3dd853-88ab-4304-abe5-eee191c39e40"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 1.5621
+                            },
+                            "uuid": "fe7d0689-6632-4fb3-b0e1-300954c75d48"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -8184,6 +8889,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 1612900, 1435100",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 1.4351
+                            },
+                            "uuid": "4f4b5f0d-7f56-43a6-ac7d-0ba148219aa7"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1397 mm",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 1.4351
+                            },
+                            "uuid": "8d0552df-0856-4bac-8e8d-970307d55419"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -8272,6 +9000,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 2654300, 1168400",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.7239 mm",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 1.1684
+                            },
+                            "uuid": "d9f4dcfd-4991-4e92-85a9-1d674ac6ad25"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 2.6543,
+                                "y": 1.1684
+                            },
+                            "uuid": "af50be1d-28c9-4ae4-aad7-095a3b9aa52d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
@@ -8394,6 +9145,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 1562100, 1866900",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 1.4351,
+                                "y": 1.8669
+                            },
+                            "uuid": "858325f1-8a74-4ac1-b05d-0a25095a5d2d"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 1.8669
+                            },
+                            "uuid": "d4db48e5-b85c-4e54-bf5f-c675736c87c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -8407,6 +9181,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 1790700, 1676400",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0635 mm",
+                            "pos": {
+                                "x": 1.7907,
+                                "y": 1.6764
+                            },
+                            "uuid": "68523334-8c5e-4b22-983e-2b0775dfee70"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.2286 mm",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 1.6764
+                            },
+                            "uuid": "72397741-962d-4402-89c2-6b01b9edc549"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
@@ -8484,6 +9281,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 2552700, 1155700",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2540 mm",
+                            "pos": {
+                                "x": 2.5527,
+                                "y": 1.1557
+                            },
+                            "uuid": "3fd50b3a-c5a5-4055-8eb7-58201c8b38be"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.3937 mm",
+                            "pos": {
+                                "x": 2.5527,
+                                "y": 1.5494
+                            },
+                            "uuid": "10ea17f4-0db6-479e-bfb1-e146039ea7b1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -8535,7 +9355,7 @@
                             "description": "Symbol #PWR04501 [GND]",
                             "pos": {
                                 "x": 2.7051,
-                                "y": 1.4732
+                                "y": 1.524
                             },
                             "uuid": "07cdcd33-29d2-4c07-b154-76cf798fc79f"
                         }
@@ -8647,6 +9467,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 304800, 1143000",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 0.2159,
+                                "y": 1.143
+                            },
+                            "uuid": "2fb04813-6d8c-46fe-9000-89374c1d3926"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.1651 mm",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 0.9779
+                            },
+                            "uuid": "049dc8db-b84f-4905-993b-019cfa7069d7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Jumper' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Jumper.kicad_sym'.",
@@ -8919,6 +9762,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 2387600, 990600",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0635 mm",
+                            "pos": {
+                                "x": 2.3876,
+                                "y": 1.0541
+                            },
+                            "uuid": "85dfc2be-c60f-46a1-8bf0-d7b78a82064d"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.1143 mm",
+                            "pos": {
+                                "x": 2.3876,
+                                "y": 0.8763
+                            },
+                            "uuid": "0df9aafb-2982-4f71-898c-45bfe165ad4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
@@ -8947,6 +9813,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 2667000, 660400",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 2.667,
+                                "y": 0.6604
+                            },
+                            "uuid": "8d9c5582-bb8a-47b6-856b-51dfbf6279e8"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 2.667,
+                                "y": 0.6604
+                            },
+                            "uuid": "ae28fddb-3496-4e8e-a01b-9905664d20f8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "Unconnected wire endpoint",
@@ -9007,6 +9896,29 @@
                     ],
                     "severity": "warning",
                     "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Four items connected at 1282700, 635000",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 1.016,
+                                "y": 0.635
+                            },
+                            "uuid": "77bb4964-df1c-4f37-9821-ef81573998b3"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.5461
+                            },
+                            "uuid": "940c2d2b-ca59-4d8f-bf40-14af00c90100"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
@@ -9144,6 +10056,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 1930400, 850900",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.9525
+                            },
+                            "uuid": "756c796e-b241-466f-9941-8e653d07eb1a"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.0635 mm",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.8509
+                            },
+                            "uuid": "a530a15f-2fe9-4670-a9e8-b598b2942fc9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -9249,6 +10184,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 647700, 1041400",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.0033
+                            },
+                            "uuid": "477bd054-0ee6-4e5e-818b-771fcc617120"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1524 mm",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.0414
+                            },
+                            "uuid": "e78ea991-ad05-407a-8f15-b6f80436372f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
@@ -9264,6 +10222,21 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02701 [+3V3]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.5334
+                            },
+                            "uuid": "0b591d20-98f4-40ad-bb24-a5ffb689145a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
                     "items": [
                         {
@@ -9273,6 +10246,21 @@
                                 "y": 0.8255
                             },
                             "uuid": "01372579-3a5b-49df-ab4d-9a0637c2b8d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol R2706 [R]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.6477
+                            },
+                            "uuid": "b3845d2f-7d5b-4e89-ac44-7342d0adc047"
                         }
                     ],
                     "severity": "warning",
@@ -9337,6 +10325,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 1803400, 825500",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1397 mm",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 0.8255
+                            },
+                            "uuid": "ac9b74e3-d506-4d92-ae92-1a8f938306f1"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.7747
+                            },
+                            "uuid": "d34c3e82-0ea5-443b-8b5b-af7cee568454"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
@@ -9444,19 +10455,27 @@
                     "type": "lib_symbol_issues"
                 },
                 {
-                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "description": "Four items connected at 1282700, 635000",
                     "items": [
                         {
-                            "description": "Symbol #PWR02601 [GND]",
+                            "description": "Horizontal Wire, length 0.2667 mm",
                             "pos": {
-                                "x": 1.5621,
-                                "y": 1.5494
+                                "x": 1.016,
+                                "y": 0.635
                             },
-                            "uuid": "75b676f2-8ed5-4614-ae5f-d942306ab010"
+                            "uuid": "77bb4964-df1c-4f37-9821-ef81573998b3"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0889 mm",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.5461
+                            },
+                            "uuid": "940c2d2b-ca59-4d8f-bf40-14af00c90100"
                         }
                     ],
                     "severity": "warning",
-                    "type": "lib_symbol_issues"
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
@@ -9517,6 +10536,36 @@
                     ],
                     "severity": "warning",
                     "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR03301 [+3V3]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.6223
+                            },
+                            "uuid": "c7c62155-23d1-44f7-ae40-c4862ef773b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The symbol library 'Device' was not found at '/opt/homebrew/bin/SharedSupport/symbols//Device.kicad_sym'.",
+                    "items": [
+                        {
+                            "description": "Symbol R3301 [R]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.7366
+                            },
+                            "uuid": "cc0dcae5-f788-4a5f-9e33-2dfc700a6ade"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
                 },
                 {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
@@ -9864,6 +10913,29 @@
                     "type": "lib_symbol_issues"
                 },
                 {
+                    "description": "Four items connected at 1625600, 622300",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 0.6223
+                            },
+                            "uuid": "4843ba08-722f-41b4-8ae0-b7a64b342779"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 0.6223
+                            },
+                            "uuid": "4b448d05-4fa3-46f8-b67d-ea04dcf9d7d9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
                     "items": [
                         {
@@ -9877,6 +10949,29 @@
                     ],
                     "severity": "warning",
                     "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Four items connected at 1625600, 622300",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 1.8923,
+                                "y": 0.6223
+                            },
+                            "uuid": "8aac6ea0-012d-429e-a86f-ef2209555bc7"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 0.6223
+                            },
+                            "uuid": "4843ba08-722f-41b4-8ae0-b7a64b342779"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
                 },
                 {
                     "description": "The symbol library 'power' was not found at '/opt/homebrew/bin/SharedSupport/symbols//power.kicad_sym'.",
@@ -10012,31 +11107,7 @@
         {
             "path": "/Battery System/12v_LTM8055_BUCK/",
             "uuid_path": "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/535c4b9d-dd70-4891-8336-b5700298b4d1",
-            "violations": [
-                {
-                    "description": "Both GND and LTM8055-SYNC are attached to the same items; GND will be used in the netlist",
-                    "items": [
-                        {
-                            "description": "Symbol #PWR0100 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 1.8034,
-                                "y": 1.4478
-                            },
-                            "uuid": "adf8e08e-c926-4991-b13b-d779e0ed9e54"
-                        },
-                        {
-                            "description": "Label 'LTM8055-SYNC'",
-                            "pos": {
-                                "x": 1.143,
-                                "y": 0.9398
-                            },
-                            "uuid": "2436bc37-a9cd-478b-ae76-de7946623671"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "multiple_net_names"
-                }
-            ]
+            "violations": []
         },
         {
             "path": "/Battery System/Ideal_Diode_OR_12V_BUCK/",
@@ -10434,81 +11505,12 @@
                             "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
                         },
                         {
-                            "description": "Symbol #PWR02002 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.3048,
-                                "y": 1.4859
-                            },
-                            "uuid": "00d24cd3-e0b4-48ef-839a-48f9069e64aa"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.2192,
-                                "y": 0.9271
-                            },
-                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
-                        },
-                        {
                             "description": "Symbol #PWR0103 Pin 1 [Power input, Line]",
                             "pos": {
                                 "x": 3.2893,
                                 "y": 0.5842
                             },
                             "uuid": "01ce2789-8a5e-427c-a180-8ccd7209db5b"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.2192,
-                                "y": 0.9271
-                            },
-                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
-                        },
-                        {
-                            "description": "Symbol #PWR02008 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.4318,
-                                "y": 1.1049
-                            },
-                            "uuid": "031bf31f-868f-46cd-89d8-04e646b8328f"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.2192,
-                                "y": 0.9271
-                            },
-                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
-                        },
-                        {
-                            "description": "Symbol #PWR0179 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 2.4892,
-                                "y": 1.4097
-                            },
-                            "uuid": "05e88d6e-58ed-4237-a395-e646af756eda"
                         }
                     ],
                     "severity": "warning",
@@ -10555,6 +11557,29 @@
                                 "y": 4.5466
                             },
                             "uuid": "082598e4-3099-4f45-b486-9a44aac83515"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.9271
+                            },
+                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
+                        },
+                        {
+                            "description": "Symbol #PWR02011 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.8796
+                            },
+                            "uuid": "08df9077-fd12-4cd6-a8cc-af360b157b33"
                         }
                     ],
                     "severity": "warning",
@@ -10620,8 +11645,8 @@
                         {
                             "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 0.3429,
-                                "y": 1.2954
+                                "x": 0.3556,
+                                "y": 1.3716
                             },
                             "uuid": "0fe24d98-446f-43f7-8bf6-0bf27492ab8d"
                         }
@@ -10647,29 +11672,6 @@
                                 "y": 1.1049
                             },
                             "uuid": "1078a304-8a2f-431c-a47a-0784467c7f25"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.2192,
-                                "y": 0.9271
-                            },
-                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
-                        },
-                        {
-                            "description": "Symbol #PWR099 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 3.7846,
-                                "y": 2.7559
-                            },
-                            "uuid": "10de0ce4-7505-40a5-82b4-79f2fe27668c"
                         }
                     ],
                     "severity": "warning",
@@ -10756,12 +11758,12 @@
                             "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
                         },
                         {
-                            "description": "Symbol #PWR02001 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR0189 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 0.6096,
-                                "y": 1.4859
+                                "x": 2.5019,
+                                "y": 1.3843
                             },
-                            "uuid": "1c865075-374e-4139-b62f-578974381596"
+                            "uuid": "150152c2-57ad-4221-a934-1d4011caa713"
                         }
                     ],
                     "severity": "warning",
@@ -10871,29 +11873,6 @@
                             "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
                         },
                         {
-                            "description": "Symbol #PWR02006 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.4318,
-                                "y": 1.5621
-                            },
-                            "uuid": "2333852f-9c0d-428f-992e-b766c8306347"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.2192,
-                                "y": 0.9271
-                            },
-                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
-                        },
-                        {
                             "description": "Symbol #PWR097 Pin 1 [Power input, Line]",
                             "pos": {
                                 "x": 1.2065,
@@ -10965,10 +11944,33 @@
                         {
                             "description": "Symbol #PWR0182 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 4.2926,
+                                "x": 4.5212,
                                 "y": 3.175
                             },
                             "uuid": "2e8a3252-b730-436d-8a0d-2712df656248"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.9271
+                            },
+                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
+                        },
+                        {
+                            "description": "Symbol #PWR0188 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.6576,
+                                "y": 2.9972
+                            },
+                            "uuid": "3504febc-b3f5-4b41-851d-5668609e1b0c"
                         }
                     ],
                     "severity": "warning",
@@ -11084,29 +12086,6 @@
                                 "y": 1.0414
                             },
                             "uuid": "3ecddb54-8268-4675-940f-7ccd3180f42c"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.2192,
-                                "y": 0.9271
-                            },
-                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
-                        },
-                        {
-                            "description": "Symbol #PWR02003 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.3048,
-                                "y": 1.2065
-                            },
-                            "uuid": "3ef729a1-51dd-4bbb-94ce-2fc4fdf2c496"
                         }
                     ],
                     "severity": "warning",
@@ -11383,29 +12362,6 @@
                                 "y": 0.8763
                             },
                             "uuid": "5d6203f0-7515-495f-be7c-3bc18a94357c"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.2192,
-                                "y": 0.9271
-                            },
-                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
-                        },
-                        {
-                            "description": "Symbol #PWR02007 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.4826,
-                                "y": 1.1049
-                            },
-                            "uuid": "61143096-a7eb-4429-81e1-10897dd0880e"
                         }
                     ],
                     "severity": "warning",
@@ -11768,6 +12724,29 @@
                             "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
                         },
                         {
+                            "description": "Symbol #PWR0196 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 7.4168,
+                                "y": 2.6162
+                            },
+                            "uuid": "780fe835-348c-454b-b074-b946a2b5607b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.9271
+                            },
+                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
+                        },
+                        {
                             "description": "Symbol #PWR0122 Pin 1 [Power input, Line]",
                             "pos": {
                                 "x": 1.5367,
@@ -11981,29 +12960,6 @@
                                 "y": 3.6068
                             },
                             "uuid": "8ac1892d-4417-4a94-b1ca-fae38b719dad"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.2192,
-                                "y": 0.9271
-                            },
-                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
-                        },
-                        {
-                            "description": "Symbol #PWR094 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 2.9972,
-                                "y": 2.7686
-                            },
-                            "uuid": "8af1a469-9c11-485f-a0a7-5ad8f3453e1d"
                         }
                     ],
                     "severity": "warning",
@@ -12389,12 +13345,12 @@
                             "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
                         },
                         {
-                            "description": "Symbol #PWR0173 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR02010 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 2.0701,
-                                "y": 0.7874
+                                "x": 0.8255,
+                                "y": 1.8669
                             },
-                            "uuid": "b80c9660-abe6-46ca-b0aa-5cba5c1138b2"
+                            "uuid": "b79db600-beca-4bcc-8102-b11e2be5fbfe"
                         }
                     ],
                     "severity": "warning",
@@ -12435,12 +13391,12 @@
                             "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
                         },
                         {
-                            "description": "Symbol #PWR02004 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR0173 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 0.6096,
-                                "y": 1.2065
+                                "x": 2.0701,
+                                "y": 0.7874
                             },
-                            "uuid": "bd5a29fc-35f8-4324-a5fd-38312e9210e7"
+                            "uuid": "b80c9660-abe6-46ca-b0aa-5cba5c1138b2"
                         }
                     ],
                     "severity": "warning",
@@ -12487,29 +13443,6 @@
                                 "y": 0.7747
                             },
                             "uuid": "c773c3fa-9770-4d75-bf47-b62ab5de9cef"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.2192,
-                                "y": 0.9271
-                            },
-                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
-                        },
-                        {
-                            "description": "Symbol #PWR02601 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 1.5621,
-                                "y": 1.5494
-                            },
-                            "uuid": "cf49b02b-a52b-4905-9c39-662ff6b9265f"
                         }
                     ],
                     "severity": "warning",
@@ -12780,6 +13713,29 @@
                             "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
                         },
                         {
+                            "description": "Symbol #PWR0194 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 7.1501,
+                                "y": 2.6162
+                            },
+                            "uuid": "e2063064-eaa3-42ec-93df-ef574c5f934e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.9271
+                            },
+                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
+                        },
+                        {
                             "description": "Symbol #PWR0160 Pin 1 [Power input, Line]",
                             "pos": {
                                 "x": 1.7272,
@@ -12895,12 +13851,12 @@
                             "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
                         },
                         {
-                            "description": "Symbol #PWR02005 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR04501 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 0.4826,
-                                "y": 1.5621
+                                "x": 2.7051,
+                                "y": 1.524
                             },
-                            "uuid": "f178ff2d-0033-4f4a-b1d0-6f79abc49c48"
+                            "uuid": "f2ba3446-9967-44e7-8463-8bf4f86d06a2"
                         }
                     ],
                     "severity": "warning",
@@ -12918,12 +13874,12 @@
                             "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
                         },
                         {
-                            "description": "Symbol #PWR04501 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR0163 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 2.7051,
-                                "y": 1.4732
+                                "x": 3.3909,
+                                "y": 3.048
                             },
-                            "uuid": "f2ba3446-9967-44e7-8463-8bf4f86d06a2"
+                            "uuid": "f374aacb-bb9a-4756-9d73-6a94adca654f"
                         }
                     ],
                     "severity": "warning",
@@ -12993,6 +13949,29 @@
                                 "y": 1.4097
                             },
                             "uuid": "f8540499-cfb8-4384-aebf-a069e4d93524"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.9271
+                            },
+                            "uuid": "e6078e56-8830-4f77-bd6e-1eb76183848a"
+                        },
+                        {
+                            "description": "Symbol #PWR02009 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 1.5875
+                            },
+                            "uuid": "f92ff5d3-7651-4b4a-9608-0c82f042e809"
                         }
                     ],
                     "severity": "warning",
@@ -13413,29 +14392,6 @@
                     "type": "similar_labels"
                 },
                 {
-                    "description": "Labels are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'pwm'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.7493
-                            },
-                            "uuid": "0b583de8-a022-4421-9716-353566afe06a"
-                        },
-                        {
-                            "description": "Hierarchical Label 'PWM'",
-                            "pos": {
-                                "x": 1.5367,
-                                "y": 0.7493
-                            },
-                            "uuid": "ac8b5a90-25a7-4de8-8e0b-2a70c2379886"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_labels"
-                },
-                {
                     "description": "Both pwm and PWM are attached to the same items; pwm will be used in the netlist",
                     "items": [
                         {
@@ -13457,6 +14413,29 @@
                     ],
                     "severity": "warning",
                     "type": "multiple_net_names"
+                },
+                {
+                    "description": "Labels are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PWM'",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 0.7493
+                            },
+                            "uuid": "ac8b5a90-25a7-4de8-8e0b-2a70c2379886"
+                        },
+                        {
+                            "description": "Label 'pwm'",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.7493
+                            },
+                            "uuid": "0b583de8-a022-4421-9716-353566afe06a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_labels"
                 },
                 {
                     "description": "Both GND and gnd are attached to the same items; GND will be used in the netlist",
@@ -13493,81 +14472,12 @@
                             "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
                         },
                         {
-                            "description": "Symbol #PWR02002 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.3048,
-                                "y": 1.4859
-                            },
-                            "uuid": "00d24cd3-e0b4-48ef-839a-48f9069e64aa"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.9271
-                            },
-                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
-                        },
-                        {
                             "description": "Symbol #PWR0103 Pin 1 [Power input, Line]",
                             "pos": {
                                 "x": 3.2893,
                                 "y": 0.5842
                             },
                             "uuid": "01ce2789-8a5e-427c-a180-8ccd7209db5b"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.9271
-                            },
-                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
-                        },
-                        {
-                            "description": "Symbol #PWR02008 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.4318,
-                                "y": 1.1049
-                            },
-                            "uuid": "031bf31f-868f-46cd-89d8-04e646b8328f"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.9271
-                            },
-                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
-                        },
-                        {
-                            "description": "Symbol #PWR0179 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 2.4892,
-                                "y": 1.4097
-                            },
-                            "uuid": "05e88d6e-58ed-4237-a395-e646af756eda"
                         }
                     ],
                     "severity": "warning",
@@ -13614,6 +14524,29 @@
                                 "y": 4.5466
                             },
                             "uuid": "082598e4-3099-4f45-b486-9a44aac83515"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.9271
+                            },
+                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
+                        },
+                        {
+                            "description": "Symbol #PWR02011 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.8796
+                            },
+                            "uuid": "08df9077-fd12-4cd6-a8cc-af360b157b33"
                         }
                     ],
                     "severity": "warning",
@@ -13679,8 +14612,8 @@
                         {
                             "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 0.3429,
-                                "y": 1.2954
+                                "x": 0.3556,
+                                "y": 1.3716
                             },
                             "uuid": "0fe24d98-446f-43f7-8bf6-0bf27492ab8d"
                         }
@@ -13706,29 +14639,6 @@
                                 "y": 1.1049
                             },
                             "uuid": "1078a304-8a2f-431c-a47a-0784467c7f25"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.9271
-                            },
-                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
-                        },
-                        {
-                            "description": "Symbol #PWR099 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 3.7846,
-                                "y": 2.7559
-                            },
-                            "uuid": "10de0ce4-7505-40a5-82b4-79f2fe27668c"
                         }
                     ],
                     "severity": "warning",
@@ -13815,12 +14725,12 @@
                             "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
                         },
                         {
-                            "description": "Symbol #PWR02001 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR0189 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 0.6096,
-                                "y": 1.4859
+                                "x": 2.5019,
+                                "y": 1.3843
                             },
-                            "uuid": "1c865075-374e-4139-b62f-578974381596"
+                            "uuid": "150152c2-57ad-4221-a934-1d4011caa713"
                         }
                     ],
                     "severity": "warning",
@@ -13930,29 +14840,6 @@
                             "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
                         },
                         {
-                            "description": "Symbol #PWR02006 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.4318,
-                                "y": 1.5621
-                            },
-                            "uuid": "2333852f-9c0d-428f-992e-b766c8306347"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.9271
-                            },
-                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
-                        },
-                        {
                             "description": "Symbol #PWR097 Pin 1 [Power input, Line]",
                             "pos": {
                                 "x": 1.2065,
@@ -14024,10 +14911,33 @@
                         {
                             "description": "Symbol #PWR0182 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 4.2926,
+                                "x": 4.5212,
                                 "y": 3.175
                             },
                             "uuid": "2e8a3252-b730-436d-8a0d-2712df656248"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.9271
+                            },
+                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
+                        },
+                        {
+                            "description": "Symbol #PWR0188 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.6576,
+                                "y": 2.9972
+                            },
+                            "uuid": "3504febc-b3f5-4b41-851d-5668609e1b0c"
                         }
                     ],
                     "severity": "warning",
@@ -14143,29 +15053,6 @@
                                 "y": 1.0414
                             },
                             "uuid": "3ecddb54-8268-4675-940f-7ccd3180f42c"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.9271
-                            },
-                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
-                        },
-                        {
-                            "description": "Symbol #PWR02003 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.3048,
-                                "y": 1.2065
-                            },
-                            "uuid": "3ef729a1-51dd-4bbb-94ce-2fc4fdf2c496"
                         }
                     ],
                     "severity": "warning",
@@ -14442,29 +15329,6 @@
                                 "y": 0.8763
                             },
                             "uuid": "5d6203f0-7515-495f-be7c-3bc18a94357c"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.9271
-                            },
-                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
-                        },
-                        {
-                            "description": "Symbol #PWR02007 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 0.4826,
-                                "y": 1.1049
-                            },
-                            "uuid": "61143096-a7eb-4429-81e1-10897dd0880e"
                         }
                     ],
                     "severity": "warning",
@@ -14827,6 +15691,29 @@
                             "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
                         },
                         {
+                            "description": "Symbol #PWR0196 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 7.4168,
+                                "y": 2.6162
+                            },
+                            "uuid": "780fe835-348c-454b-b074-b946a2b5607b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.9271
+                            },
+                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
+                        },
+                        {
                             "description": "Symbol #PWR0122 Pin 1 [Power input, Line]",
                             "pos": {
                                 "x": 1.5367,
@@ -15040,29 +15927,6 @@
                                 "y": 3.6068
                             },
                             "uuid": "8ac1892d-4417-4a94-b1ca-fae38b719dad"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.9271
-                            },
-                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
-                        },
-                        {
-                            "description": "Symbol #PWR094 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 2.9972,
-                                "y": 2.7686
-                            },
-                            "uuid": "8af1a469-9c11-485f-a0a7-5ad8f3453e1d"
                         }
                     ],
                     "severity": "warning",
@@ -15448,12 +16312,12 @@
                             "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
                         },
                         {
-                            "description": "Symbol #PWR0173 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR02010 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 2.0701,
-                                "y": 0.7874
+                                "x": 0.8255,
+                                "y": 1.8669
                             },
-                            "uuid": "b80c9660-abe6-46ca-b0aa-5cba5c1138b2"
+                            "uuid": "b79db600-beca-4bcc-8102-b11e2be5fbfe"
                         }
                     ],
                     "severity": "warning",
@@ -15494,12 +16358,12 @@
                             "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
                         },
                         {
-                            "description": "Symbol #PWR02004 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR0173 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 0.6096,
-                                "y": 1.2065
+                                "x": 2.0701,
+                                "y": 0.7874
                             },
-                            "uuid": "bd5a29fc-35f8-4324-a5fd-38312e9210e7"
+                            "uuid": "b80c9660-abe6-46ca-b0aa-5cba5c1138b2"
                         }
                     ],
                     "severity": "warning",
@@ -15546,29 +16410,6 @@
                                 "y": 0.7747
                             },
                             "uuid": "c773c3fa-9770-4d75-bf47-b62ab5de9cef"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "similar_label_and_power"
-                },
-                {
-                    "description": "Power pin and label are similar (lower/upper case difference only)",
-                    "items": [
-                        {
-                            "description": "Label 'gnd'",
-                            "pos": {
-                                "x": 1.4732,
-                                "y": 0.9271
-                            },
-                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
-                        },
-                        {
-                            "description": "Symbol #PWR02601 Pin 1 [Power input, Line]",
-                            "pos": {
-                                "x": 1.5621,
-                                "y": 1.5494
-                            },
-                            "uuid": "cf49b02b-a52b-4905-9c39-662ff6b9265f"
                         }
                     ],
                     "severity": "warning",
@@ -15839,6 +16680,29 @@
                             "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
                         },
                         {
+                            "description": "Symbol #PWR0194 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 7.1501,
+                                "y": 2.6162
+                            },
+                            "uuid": "e2063064-eaa3-42ec-93df-ef574c5f934e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.9271
+                            },
+                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
+                        },
+                        {
                             "description": "Symbol #PWR0160 Pin 1 [Power input, Line]",
                             "pos": {
                                 "x": 1.7272,
@@ -15954,12 +16818,12 @@
                             "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
                         },
                         {
-                            "description": "Symbol #PWR02005 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR04501 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 0.4826,
-                                "y": 1.5621
+                                "x": 2.7051,
+                                "y": 1.524
                             },
-                            "uuid": "f178ff2d-0033-4f4a-b1d0-6f79abc49c48"
+                            "uuid": "f2ba3446-9967-44e7-8463-8bf4f86d06a2"
                         }
                     ],
                     "severity": "warning",
@@ -15977,12 +16841,12 @@
                             "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
                         },
                         {
-                            "description": "Symbol #PWR04501 Pin 1 [Power input, Line]",
+                            "description": "Symbol #PWR0163 Pin 1 [Power input, Line]",
                             "pos": {
-                                "x": 2.7051,
-                                "y": 1.4732
+                                "x": 3.3909,
+                                "y": 3.048
                             },
-                            "uuid": "f2ba3446-9967-44e7-8463-8bf4f86d06a2"
+                            "uuid": "f374aacb-bb9a-4756-9d73-6a94adca654f"
                         }
                     ],
                     "severity": "warning",
@@ -16052,6 +16916,29 @@
                                 "y": 1.4097
                             },
                             "uuid": "f8540499-cfb8-4384-aebf-a069e4d93524"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "similar_label_and_power"
+                },
+                {
+                    "description": "Power pin and label are similar (lower/upper case difference only)",
+                    "items": [
+                        {
+                            "description": "Label 'gnd'",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.9271
+                            },
+                            "uuid": "978eafaa-1a39-4c92-91b2-fdd528bf357a"
+                        },
+                        {
+                            "description": "Symbol #PWR02009 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 1.5875
+                            },
+                            "uuid": "f92ff5d3-7651-4b4a-9608-0c82f042e809"
                         }
                     ],
                     "severity": "warning",
