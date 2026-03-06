@@ -8087,6 +8087,12 @@
 		(uuid "f94b0a81-c702-4185-86cf-631f58463a42")
 	)
 	(junction
+		(at 160.02 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f968c428-a32e-404a-860b-2da970b810aa")
+	)
+	(junction
 		(at 341.63 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8646,16 +8652,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 151.13 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1061285e-2d1d-453d-a5ac-11dfeff61624")
-	)
-	(wire
-		(pts
 			(xy 547.37 133.35) (xy 574.04 133.35)
 		)
 		(stroke
@@ -8783,6 +8779,16 @@
 			(type default)
 		)
 		(uuid "183b96f7-7fe2-441a-8492-9c1072b838d2")
+	)
+	(wire
+		(pts
+			(xy 151.13 127) (xy 160.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1891c528-a945-4c72-a33f-e3e0a605b4f7")
 	)
 	(wire
 		(pts
@@ -11366,6 +11372,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 132.08) (xy 160.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3cc8b84-2d1f-4883-8152-e1034aaf7d61")
+	)
+	(wire
+		(pts
 			(xy 354.33 54.61) (xy 354.33 55.88)
 		)
 		(stroke
@@ -13076,6 +13092,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 120.65) (xy 160.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72f6df9-0fe8-4255-a6c0-00f32237be74")
+	)
+	(wire
+		(pts
 			(xy 177.8 452.12) (xy 177.8 454.66)
 		)
 		(stroke
@@ -13570,16 +13596,16 @@
 	)
 	(global_label "eFuse{slash}TPS16630{slash}PGOOD"
 		(shape output)
-		(at 152.4 127 0)
+		(at 160.02 132.08 270)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "20eed1d3-6103-4687-8bef-48a0227cea5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 127 0)
+			(at 160.02 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28689,6 +28715,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 160.02 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f430b818-c7d4-4cb2-b789-406e3c35c1ec")
+		(property "Reference" "#PWR0179"
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21ed8467-8be7-4e77-914d-aa1283ac03e1")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5v rail sm-easyedapro:MountingHoles_and_outline_mikroeclick4_stm32f7")
 		(at 30.48 544.83 0)
 		(unit 1)
@@ -29007,7 +29098,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fa123e3e-5303-42d6-bc72-05db8cfe1635")
 		(property "Reference" "#PWR018"
 			(at 172.72 121.92 0)
@@ -29019,7 +29109,7 @@
 			)
 		)
 		(property "Value" "IN-CHARGING-VCC-LIMITED"
-			(at 172.72 113.03 0)
+			(at 187.198 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29126,6 +29216,85 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff92258b-eca8-4fe5-b910-4b6829afbeb5")
+		(property "Reference" "R107"
+			(at 162.56 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 162.56 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.798 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b63e8046-bc23-438a-a530-71c3a1806380")
+		)
+		(pin "2"
+			(uuid "1ce3e3ff-5ee9-48d5-a0ef-2435b64c434f")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "R107")
 					(unit 1)
 				)
 			)
