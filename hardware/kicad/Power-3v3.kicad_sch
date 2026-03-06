@@ -688,25 +688,9 @@
 		(color 0 0 0 0)
 		(uuid "8a76aee0-2bf1-4758-aeb7-08e607d374e6")
 	)
-	(wire
-		(pts
-			(xy 156.21 149.86) (xy 156.21 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e30e2cd-3914-4026-b614-62f97f49c4ae")
-	)
-	(wire
-		(pts
-			(xy 152.4 149.86) (xy 156.21 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "223cbbdf-03f0-4e5d-b9df-1be85aebebbb")
+	(no_connect
+		(at 152.4 149.86)
+		(uuid "c94912a2-4b30-48ef-a95a-8bb8fa6f1315")
 	)
 	(wire
 		(pts
@@ -1090,71 +1074,6 @@
 			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca6525fc-674d-4dae-a2f9-d25bb2ff7c72"
 					(reference "C2601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75b676f2-8ed5-4614-ae5f-d942306ab010")
-		(property "Reference" "#PWR02601"
-			(at 156.21 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 161.29 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf49b02b-a52b-4905-9c39-662ff6b9265f")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/ca6525fc-674d-4dae-a2f9-d25bb2ff7c72"
-					(reference "#PWR02601")
 					(unit 1)
 				)
 			)
