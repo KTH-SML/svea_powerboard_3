@@ -3123,22 +3123,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0786fb79-2c41-4422-ab37-bb9686b1eb4d")
-		(property "Reference" "BMS_Bypass_5V_SW3601"
+		(property "Reference" "SW4501"
 			(at 209.55 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right top)
-				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TS-1088-AR02016"
 			(at 207.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "5v rail sm-easyedapro:SW-SMD_L3.9-W3.0-P4.45"
@@ -3222,7 +3222,7 @@
 		(instances
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001/261b4c59-ebc7-47a2-bb10-0e71ece0f9bf"
-					(reference "BMS_Bypass_5V_SW3601")
+					(reference "SW4501")
 					(unit 1)
 				)
 			)
