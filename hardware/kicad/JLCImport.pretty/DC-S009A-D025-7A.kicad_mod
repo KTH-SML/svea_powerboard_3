@@ -1,0 +1,206 @@
+(footprint "DC-S009A-D025-7A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 2.5mm 6.4mm 60V 7A DC Power Jack Right Angle Plugin DC Power Connectors ROHS")
+	(tags "C7544903 DC-IN-TH_DC-S009A-D020-7A DC-S009A-D025-7A G-Switch")
+	(property "Reference" "REF**"
+		(at 0 -4.875032 0)
+		(layer "F.SilkS")
+		(uuid "ffdf0a8f-37cf-4a92-b091-0af4a6bb91b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 11.624968 0)
+		(layer "F.Fab")
+		(uuid "2add81aa-6893-4a13-93d0-813fae6fa1c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308291451_G-Switch-DC-S009A-D025-7A_C7544903.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9a0d303-3b14-45c9-910e-6d68954c73c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 2.5mm 6.4mm 60V 7A DC Power Jack Right Angle Plugin DC Power Connectors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40e2e00a-dd78-4eb2-984d-140a913993c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C7544903"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59a5ef87-e880-460c-a371-6c91661d90aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.900051 -3.875032)
+		(end -6.900051 10.624968)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9525117-c17b-49b9-93c0-04a7bfbfbda4")
+	)
+	(fp_line
+		(start -6.900051 8.102311)
+		(end 2.099949 8.102311)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8d28f70-c6fd-4c92-8dcc-7c8f3761421c")
+	)
+	(fp_line
+		(start -6.900051 10.624968)
+		(end 2.099949 10.624968)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf471371-80c9-4087-9765-e513c5e9fa11")
+	)
+	(fp_line
+		(start -4.050114 -3.875032)
+		(end -6.850038 -3.875032)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45ac1197-355c-4fad-b86c-57d72febf7f8")
+	)
+	(fp_line
+		(start 0.118669 -3.875032)
+		(end 0.118669 8.102311)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffa51133-4eb5-40a4-ae3b-f8b6b33144e2")
+	)
+	(fp_line
+		(start 2.099949 -3.875032)
+		(end -0.749987 -3.875032)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f022bca-ab92-4e09-9ba5-4bcfcab9d181")
+	)
+	(fp_line
+		(start 2.099949 -2.049962)
+		(end 2.099949 -3.875032)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73c52a27-0f30-41ea-a127-0e123286df71")
+	)
+	(fp_line
+		(start 2.099949 10.624968)
+		(end 2.099949 1.899898)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26cc1648-4ce0-4a4f-8a03-06fbc0b94670")
+	)
+	(fp_rect
+		(start -7.62 -5.08)
+		(end 3.81 11.43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f981c266-e08c-4dd6-ad59-eabac9f03087")
+	)
+	(fp_poly
+		(pts
+			(xy -6.900051 8.049987) (xy -6.900051 10.599975) (xy 2.149962 10.599975) (xy 2.149962 8.049987)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "e16f5928-9665-4a99-af1d-6552d4dc4264")
+	)
+	(pad "1" thru_hole oval
+		(at -2.400051 -3.125095)
+		(size 3.6 1.4)
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a1be834-266d-440b-b7ec-f4cb7ffb1f8d")
+	)
+	(pad "2" thru_hole oval
+		(at -2.400051 3.125095)
+		(size 3.6 1.4)
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2cb80784-46d5-4add-a7ac-6b8b21511add")
+	)
+	(pad "3" thru_hole oval
+		(at 2.400051 -0.075057)
+		(size 1.2 3.6)
+		(drill oval 0.6 2.899975)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "305d6c0e-ac40-472b-a2f9-814954d637f0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/DC-S009A-D025-7A.wrl"
+		(offset
+			(xyz -2.4 -3.357963 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

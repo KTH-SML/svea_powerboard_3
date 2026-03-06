@@ -1372,251 +1372,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "5v rail sm-easyedapro:DC005_C431533"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "DC"
-				(at 0.254 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "5v rail sm-easyedapro:DC-IN-TH_DC005"
-				(at -0.254 -6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190925/C431533_4751811035784AC1D38EBC85F7905E99.pdf"
-				(at -0.254 -6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Connector Type:DC Power Receptacle Mounting Style:Bend-in Inside Contact Diameter:2mm Outside Contact Diameter:6.3mm Current Rating (Max):500mA Voltage Rating (Max):30V Operating Temperature Range:-25°C~+70°C Operating Temperature Range:-25°C~+70°C"
-				(at -0.254 -6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "DC005"
-				(at 0.762 -10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "SHOU HAN(首韩)"
-				(at 0 -9.652 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C431533"
-				(at 0.508 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0.254 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "DC电源插座 内径:2mm 外径:6.3mm"
-				(at -0.254 -6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DC005_C431533_1_0"
-				(arc
-					(start -7.62 1.524)
-					(mid -8.636 2.54)
-					(end -7.62 3.556)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 -2.54) (xy -4.064 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.556) (xy -7.62 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.524) (xy -7.62 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 1.016)
-					(end -1.524 4.064)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.524 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -4.318 0) (xy -4.318 0) (xy -4.318 -2.54) (xy -4.318 -2.54) (xy -4.572 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -7.366 -2.54) (xy -7.366 -2.54) (xy -7.874 -1.524) (xy -7.874 -1.524) (xy -8.382 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at 5.08 2.54 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5v rail sm-easyedapro:GRM21BR61H106KE43L"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4477,6 +4232,209 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:DC-S009A-D025-7A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DC"
+				(at 0 8.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DC-S009A-D025-7A"
+				(at 0 -7.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:DC-S009A-D025-7A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308291451_G-Switch-DC-S009A-D025-7A_C7544903.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 2.5mm 6.4mm 60V 7A DC Power Jack Right Angle Plugin DC Power Connectors ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C7544903"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "G-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "DC-S009A-D025-7A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C7544903 DC-IN-TH_DC-S009A-D020-7A DC-S009A-D025-7A G-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DC-S009A-D025-7A_0_1"
+				(rectangle
+					(start -0.762 6.858)
+					(end 0.254 3.302)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 6.096) (xy -5.08 6.096) (xy -6.096 5.08) (xy -5.08 4.064) (xy -0.762 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -4.318 0) (xy -5.08 1.016) (xy -5.842 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy -4.318 -5.08) (xy -5.08 -4.064) (xy -5.842 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7715,10 +7673,10 @@
 		(uuid "31ef7395-9cc7-47ab-8389-f9b2aad28b50")
 	)
 	(junction
-		(at 31.75 127)
+		(at 250.19 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33f58793-6090-42fa-b988-27336c8cd60d")
+		(uuid "351e403d-a1ae-4f6a-a115-0f4d35ecaf62")
 	)
 	(junction
 		(at 151.13 355.6)
@@ -7865,6 +7823,12 @@
 		(uuid "80b36859-8b29-4317-ba77-797f4cff5cdb")
 	)
 	(junction
+		(at 35.56 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ca287e-9b40-4854-9484-c6392826fb33")
+	)
+	(junction
 		(at 45.72 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7953,12 +7917,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3de012b-3e1f-42f4-af4e-7dc3127f371e")
-	)
-	(junction
-		(at 248.92 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6452e57-1b5e-42cc-bf6a-bdb0bab9a6f5")
 	)
 	(junction
 		(at 387.35 85.09)
@@ -8258,6 +8216,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 133.35) (xy 35.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0030668b-3895-4f45-b0ec-c26ddf25dc46")
+	)
+	(wire
+		(pts
 			(xy 419.1 44.45) (xy 419.1 85.09)
 		)
 		(stroke
@@ -8328,13 +8296,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 127) (xy 248.92 129.54)
+			(xy 255.27 134.62) (xy 250.19 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "036a40cf-3f89-451e-b13c-9d6245ed9513")
+		(uuid "02ec05b0-6f86-4f66-895f-d04663ee105e")
 	)
 	(wire
 		(pts
@@ -8958,16 +8926,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 129.54) (xy 248.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20498193-39d8-46e6-9f29-1faa59e5e5c4")
-	)
-	(wire
-		(pts
 			(xy 365.76 95.25) (xy 365.76 96.52)
 		)
 		(stroke
@@ -9155,16 +9113,6 @@
 			(type default)
 		)
 		(uuid "2bc78aaa-bdc8-48a0-b5e3-f72e9430de3a")
-	)
-	(wire
-		(pts
-			(xy 31.75 127) (xy 34.29 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd00c55-0fe1-4056-b165-1dfdb3342914")
 	)
 	(wire
 		(pts
@@ -9388,13 +9336,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 128.27) (xy 31.75 127)
+			(xy 250.19 134.62) (xy 250.19 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34da2c8c-25cd-45e3-bc0b-59d028d48670")
+		(uuid "3492a8fb-4127-4475-b7c2-20ecc55e654b")
 	)
 	(wire
 		(pts
@@ -10278,7 +10226,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 128.27) (xy 31.75 128.27)
+			(xy 30.48 128.27) (xy 35.56 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10308,7 +10256,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 123.19) (xy 48.26 123.19)
+			(xy 44.45 123.19) (xy 48.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10335,16 +10283,6 @@
 			(type default)
 		)
 		(uuid "63e60baf-9916-4ee5-885e-5e83278f4a72")
-	)
-	(wire
-		(pts
-			(xy 30.48 123.19) (xy 34.29 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c30a65-ede6-4374-b72c-0b41367f8724")
 	)
 	(wire
 		(pts
@@ -10695,16 +10633,6 @@
 			(type default)
 		)
 		(uuid "798f0e72-a7c5-4fc4-bbed-97ff231294dc")
-	)
-	(wire
-		(pts
-			(xy 248.92 129.54) (xy 248.92 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e5728c-5bb9-4ac8-a9a1-208c07507770")
 	)
 	(wire
 		(pts
@@ -11078,6 +11006,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 123.19) (xy 30.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ed6a1f-fd2f-4848-ae4d-be3f455afa63")
+	)
+	(wire
+		(pts
 			(xy 685.8 486.41) (xy 688.34 486.41)
 		)
 		(stroke
@@ -11125,16 +11063,6 @@
 			(type default)
 		)
 		(uuid "94ac010e-cd98-49ec-9e88-5273361262c5")
-	)
-	(wire
-		(pts
-			(xy 31.75 125.73) (xy 31.75 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c8d7b3-e3a3-4e58-a1b7-634b4ee12d8b")
 	)
 	(wire
 		(pts
@@ -11478,16 +11406,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 127) (xy 248.92 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6eaf4ec-059a-450f-9719-3a228a29c2d6")
-	)
-	(wire
-		(pts
 			(xy 114.3 441.96) (xy 114.3 444.5)
 		)
 		(stroke
@@ -11565,6 +11483,16 @@
 			(type default)
 		)
 		(uuid "a8cf6b56-0c52-431b-8114-3557c4379af5")
+	)
+	(wire
+		(pts
+			(xy 255.27 129.54) (xy 250.19 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9265879-f266-4d16-8288-54891892ba2c")
 	)
 	(wire
 		(pts
@@ -11915,6 +11843,16 @@
 			(type default)
 		)
 		(uuid "ba611d3f-071c-4779-ad3c-afc68e81f63d")
+	)
+	(wire
+		(pts
+			(xy 30.48 133.35) (xy 35.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8e4e53-49a0-4970-bd96-95a94879af6c")
 	)
 	(wire
 		(pts
@@ -12628,6 +12566,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 129.54) (xy 250.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decb9a97-451b-47d5-a28f-cb9d24158d57")
+	)
+	(wire
+		(pts
 			(xy 213.36 170.18) (xy 213.36 201.93)
 		)
 		(stroke
@@ -12635,16 +12583,6 @@
 			(type default)
 		)
 		(uuid "dee32b71-f4ef-4173-a261-86d25b0cc2d8")
-	)
-	(wire
-		(pts
-			(xy 30.48 125.73) (xy 31.75 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfebc982-3e55-4534-ae7b-8d35972dd610")
 	)
 	(wire
 		(pts
@@ -13018,7 +12956,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 127) (xy 34.29 129.54)
+			(xy 35.56 128.27) (xy 35.56 133.35)
 		)
 		(stroke
 			(width 0)
@@ -13457,7 +13395,7 @@
 		(uuid "e54e83f0-87fc-43ef-8649-f96e4f083cc5")
 	)
 	(label "DC_BARREL_20V_PORT"
-		(at 30.48 123.19 90)
+		(at 34.29 123.19 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15871,7 +15809,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 38.1 123.19 90)
+		(at 40.64 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15879,7 +15817,7 @@
 		(dnp no)
 		(uuid "090d7057-e5cf-413b-b72e-2c2ead9ee188")
 		(property "Reference" "U10"
-			(at 38.1 125.222 90)
+			(at 40.64 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +15825,7 @@
 			)
 		)
 		(property "Value" "0440007_WR"
-			(at 34.29 123.19 0)
+			(at 36.83 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15896,7 +15834,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 38.1 123.19 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15905,7 +15843,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200518/C553934_4CFF0660EAE88BF7A646763F248900C5.pdf"
-			(at 38.1 123.19 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15914,7 +15852,7 @@
 			)
 		)
 		(property "Description" "7A"
-			(at 38.1 126.746 90)
+			(at 40.64 126.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15922,7 +15860,7 @@
 			)
 		)
 		(property "LCSC" "C206973"
-			(at 38.1 123.19 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15931,7 +15869,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 38.1 123.19 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15940,7 +15878,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0440007.WR"
-			(at 38.1 123.19 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16476,6 +16414,113 @@
 			(project ""
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:DC-S009A-D025-7A")
+		(at 22.86 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "122e059b-eef1-4a91-a2d2-d11e8f82eb35")
+		(property "Reference" "DC101"
+			(at 21.082 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC-S009A-D025-7A"
+			(at 21.082 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:DC-S009A-D025-7A"
+			(at 22.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308291451_G-Switch-DC-S009A-D025-7A_C7544903.pdf"
+			(at 22.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 2.5mm 6.4mm 60V 7A DC Power Jack Right Angle Plugin DC Power Connectors ROHS"
+			(at 22.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7544903"
+			(at 22.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "G-Switch"
+			(at 22.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "DC-S009A-D025-7A"
+			(at 22.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "text" "20V Supply"
+			(at 22.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3035b29b-3967-4e48-9de1-8989c141dde5")
+		)
+		(pin "2"
+			(uuid "e320760a-ab38-48c6-bb45-94ea4362ded5")
+		)
+		(pin "1"
+			(uuid "1b1b3e4c-bf16-4ea7-9306-9976a195792a")
+		)
+		(instances
+			(project ""
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "DC101")
 					(unit 1)
 				)
 			)
@@ -18847,6 +18892,114 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:DC-S009A-D025-7A")
+		(at 262.89 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "448d23bd-7d52-452f-83a1-2b72810db1cf")
+		(property "Reference" "DC102"
+			(at 264.668 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC-S009A-D025-7A"
+			(at 264.668 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:DC-S009A-D025-7A"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308291451_G-Switch-DC-S009A-D025-7A_C7544903.pdf"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 2.5mm 6.4mm 60V 7A DC Power Jack Right Angle Plugin DC Power Connectors ROHS"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7544903"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "G-Switch"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "DC-S009A-D025-7A"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "text" "3S Charger"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f2677977-1d90-42eb-9f11-7c9b2faf8b5d")
+		)
+		(pin "2"
+			(uuid "0f75fc98-4d03-4355-b3ff-f5e21490bdaa")
+		)
+		(pin "1"
+			(uuid "851b9ff7-e45d-425b-a6d3-96dbf807916e")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "DC102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 731.52 255.27 0)
 		(unit 1)
@@ -18906,142 +19059,6 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5v rail sm-easyedapro:DC005_C431533")
-		(at 260.35 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47810d26-3d16-409f-8a88-169f650dc930")
-		(property "Reference" "DC2"
-			(at 269.24 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "DC005"
-			(at 269.24 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:DC-IN-TH_DC005"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190925/C431533_4751811035784AC1D38EBC85F7905E99.pdf"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Type:DC Power Receptacle Mounting Style:Bend-in Inside Contact Diameter:2mm Outside Contact Diameter:6.3mm Current Rating (Max):500mA Voltage Rating (Max):30V Operating Temperature Range:-25°C~+70°C Operating Temperature Range:-25°C~+70°C"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "DC005"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C431533"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "DC电源插座 内径:2mm 外径:6.3mm"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Text" "3S Charger"
-			(at 260.35 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C431533"
-			(at 269.24 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08cb4e6f-3a1d-4277-944a-1c81cf5dcbda")
-		)
-		(pin "3"
-			(uuid "978cfed8-83ab-411a-954a-e96f717d4d93")
-		)
-		(pin "2"
-			(uuid "9536f520-478b-4f39-92c1-e6b52049ebf9")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "DC2")
 					(unit 1)
 				)
 			)
@@ -22439,71 +22456,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 248.92 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "984c0927-6f90-41d6-93c0-d3e0f00f5c14")
-		(property "Reference" "#PWR0179"
-			(at 248.92 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 145.034 0)
-			(effects
-				(font
-					(size 1.5748 1.5748)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05e88d6e-58ed-4237-a395-e646af756eda")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "#PWR0179")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 147.32 430.53 0)
 		(unit 1)
@@ -23631,6 +23583,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 250.19 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeb331a7-f556-48b3-a502-a9a3ea34466d")
+		(property "Reference" "#PWR0189"
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 143.256 0)
+			(effects
+				(font
+					(size 1.5748 1.5748)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "150152c2-57ad-4221-a934-1d4011caa713")
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 746.76 410.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24160,141 +24178,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5v rail sm-easyedapro:DC005_C431533")
-		(at 25.4 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b49cc6eb-3141-4277-9324-aeb764b0b07f")
-		(property "Reference" "DC1"
-			(at 16.51 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "DC005"
-			(at 16.51 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "5v rail sm-easyedapro:DC-IN-TH_DC005"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190925/C431533_4751811035784AC1D38EBC85F7905E99.pdf"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Type:DC Power Receptacle Mounting Style:Bend-in Inside Contact Diameter:2mm Outside Contact Diameter:6.3mm Current Rating (Max):500mA Voltage Rating (Max):30V Operating Temperature Range:-25°C~+70°C Operating Temperature Range:-25°C~+70°C"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "DC005"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C431533"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "DC电源插座 内径:2mm 外径:6.3mm"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "text" "20V Supply"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C431533"
-			(at 16.51 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "302c8118-07a2-4e17-8ef3-9e931bc1a80a")
-		)
-		(pin "3"
-			(uuid "78fadbd5-62e2-40a1-88c2-b3eedc84004d")
-		)
-		(pin "2"
-			(uuid "2acdbdf5-55cd-4781-9e41-4d6e51f4fb94")
-		)
-		(instances
-			(project "svea_powerboard_rev3"
-				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
-					(reference "DC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 763.27 140.97 0)
 		(unit 1)
@@ -24493,7 +24376,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 129.54 0)
+		(at 35.56 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24501,7 +24384,7 @@
 		(dnp no)
 		(uuid "b9970b55-eda0-46c5-94d3-6ceca7b7eded")
 		(property "Reference" "#PWR01"
-			(at 34.29 129.54 0)
+			(at 35.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24510,7 +24393,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 134.366 0)
+			(at 35.56 141.986 0)
 			(effects
 				(font
 					(size 1.5748 1.5748)
@@ -24518,7 +24401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 129.54 0)
+			(at 35.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24527,7 +24410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 129.54 0)
+			(at 35.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24536,7 +24419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 129.54 0)
+			(at 35.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
