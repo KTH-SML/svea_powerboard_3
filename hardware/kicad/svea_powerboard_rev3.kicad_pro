@@ -52,18 +52,18 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 1.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.205,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -133,7 +133,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "error",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -682,7 +682,7 @@
         "uuid": "3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d"
       }
     ],
-    "used_designators": "#PWR46",
+    "used_designators": "C3602,R1401,#PWR47,U2",
     "variants": []
   },
   "sheets": [
@@ -711,10 +711,6 @@
       "Ideal_Diode_OR_CHARGING_PORT"
     ],
     [
-      "ad660ab0-1da6-44b7-9096-9ee4c3bc2383",
-      "Ideal_Diode_OR_DC_PORT"
-    ],
-    [
       "ca919776-c91b-4883-8f90-f75d19396b00",
       "Ideal_Diode_OR_PACK+_VCC"
     ],
@@ -741,10 +737,6 @@
     [
       "5e87fa27-0735-4860-928c-5f9d8795dad6",
       "Servo Power Buck"
-    ],
-    [
-      "d932e0fc-7b09-4e74-a033-a342c08a0a15",
-      "Ideal_Diode_OR_USBC"
     ],
     [
       "edbb302e-07de-47c0-9e17-f5f094cbde02",
