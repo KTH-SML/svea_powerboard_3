@@ -9868,6 +9868,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 160.02) (xy 110.49 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446c121f-c97b-4616-961c-80264174af67")
+	)
+	(wire
+		(pts
 			(xy 190.5 261.62) (xy 190.5 275.59)
 		)
 		(stroke
@@ -10158,7 +10168,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 160.02) (xy 110.49 160.02)
+			(xy 33.02 160.02) (xy 73.66 160.02)
 		)
 		(stroke
 			(width 0)
@@ -34485,6 +34495,72 @@
 			(project "svea_powerboard_rev3"
 				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
 					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 154.94)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eeb22f56-65af-48fe-a502-dc3ca7f01ea3")
+		(property "Sheetname" "Ideal_Diode_OR_USB-C Input"
+			(at 69.088 153.924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "highcurrendiodeor.kicad_sch"
+			(at 73.66 165.6846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 86.36 160.02 0)
+			(uuid "0382a490-5330-47f2-a7d8-289e28f9cfc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 73.66 160.02 180)
+			(uuid "b0bbdee2-5537-437f-92f3-671c024c31ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "svea_powerboard_rev3"
+				(path "/3f85abf4-0b95-4c4a-b7e9-06f59ca1ea3d/5c2e021f-c2d4-49e2-8c36-9a64f1f12001"
+					(page "2")
 				)
 			)
 		)
